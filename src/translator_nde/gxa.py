@@ -1,4 +1,4 @@
-"""Tier 1: test a Translator drug->gene edge against GXA Inference records.
+"""Route A: test a Translator drug->gene edge against GXA Inference records.
 
 Each NDE ``@type:Inference`` record is one differential-expression contrast:
 a gene, a log2 fold change, an adjusted p-value, and Biolink-typed direction and

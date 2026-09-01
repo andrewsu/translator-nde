@@ -23,8 +23,8 @@ find data that **tests** it?
   drug ──► gene ──► disease
    │        │
    ▼        ▼
- TIER 1  GXA Inference          precomputed DE contrasts, direction-aware
- TIER 2  GEO reanalysis         compute DE ourselves where GXA has nothing
+ ROUTE A  GXA Inference          precomputed DE contrasts, direction-aware
+ ROUTE B  GEO reanalysis         compute DE ourselves where GXA has nothing
 ```
 
 ## Why this is not just a text search
@@ -44,7 +44,7 @@ Naive co-mention does not work. Measured against the live API:
 Metformin→AMPK is textbook pharmacology and returns one dataset. Descriptions name the drug; they
 almost never name the gene.
 
-**Tier 1** works around this. NDE staging carries 10.4M `@type:Inference` records — one per
+**Route A** works around this. NDE staging carries 10.4M `@type:Inference` records — one per
 differential-expression contrast, mostly from the EBI Gene Expression Atlas. Each has the gene
 structured (`observationAbout.identifier`, Ensembl), an effect size (`value`, log2FC), a
 significance (`marginOfError.value`), and **Biolink-typed direction and aspect qualifiers**. Those
@@ -65,7 +65,7 @@ with the asserted one?"*** — with an effect size attached.
 | `src/translator_nde/nde.py` | NDE Discovery API client (query, facet, scroll) |
 | `src/translator_nde/ids.py` | CURIE ↔ NDE bridge: Node Normalizer + Name Resolver |
 | `src/translator_nde/translator.py` | ARS creative-mode client + path extraction |
-| `src/translator_nde/gxa.py` | Tier 1: drug→gene edges vs. GXA DE contrasts |
+| `src/translator_nde/gxa.py` | Route A: drug→gene edges vs. GXA DE contrasts |
 | `scripts/run_ars.py` | Submit a disease query, extract paths |
 | `tests/` | Regression fixtures (see below) |
 
@@ -100,8 +100,8 @@ The exclusion removes 7,590 dexamethasone contrasts. Both records are pinned in
 
 ## Status
 
-Early. Tier 1 works and reproduces known pharmacology — dexamethasone → FKBP5 gives 47/47
+Early. Route A works and reproduces known pharmacology — dexamethasone → FKBP5 gives 47/47
 direction agreement (median log2FC 3.4, min adj-p 1e-115, 10 experiments), and → TSC22D3 (GILZ)
-49/49; both are canonical glucocorticoid-induced genes. Tier 2 is not built yet.
+49/49; both are canonical glucocorticoid-induced genes. Route B is not built yet.
 
-See `results/` for run logs and reports.
+See [`results/REPORT.md`](results/REPORT.md) for the first worked example (asthma).

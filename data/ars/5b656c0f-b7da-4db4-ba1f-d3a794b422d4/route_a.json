@@ -1,0 +1,2607 @@
+{
+  "source": "data/ars/5b656c0f-b7da-4db4-ba1f-d3a794b422d4/paths.json",
+  "disease": "MONDO:0004979",
+  "nde_build": {
+    "base_url": "https://api-staging.data.niaid.nih.gov/v1",
+    "error": "NDE request failed after 3 tries: ('Connection broken: IncompleteRead(7625 bytes read, 2615 more expected)', IncompleteR"
+  },
+  "results": [
+    {
+      "drug": "L-\u03b2\u03b3-meATP",
+      "gene": "P2RX3",
+      "asserted_direction": "increased",
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-unsecret"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:40532",
+      "gene_curie": "NCBIGene:5024",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "A317491",
+      "gene": "P2RX3",
+      "asserted_direction": "decreased",
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-unsecret"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "GTOPDB:4115",
+      "gene_curie": "NCBIGene:5024",
+      "n_synonyms_used": 3
+    },
+    {
+      "drug": "PPADS",
+      "gene": "P2RX3",
+      "asserted_direction": "decreased",
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-unsecret"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEMBL.COMPOUND:CHEMBL69234",
+      "gene_curie": "NCBIGene:5024",
+      "n_synonyms_used": 10
+    },
+    {
+      "drug": "Bafilomycin A1",
+      "gene": "P2RX3",
+      "asserted_direction": "decreased",
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-unsecret"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:22689",
+      "gene_curie": "NCBIGene:5024",
+      "n_synonyms_used": 1
+    },
+    {
+      "drug": "Sorafenib",
+      "gene": "ATG5",
+      "asserted_direction": "increased",
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-unsecret"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:50924",
+      "gene_curie": "NCBIGene:9474",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "RO3",
+      "gene": "P2RX3",
+      "asserted_direction": "decreased",
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-unsecret"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "PUBCHEM.COMPOUND:11289644",
+      "gene_curie": "NCBIGene:5024",
+      "n_synonyms_used": 1
+    },
+    {
+      "drug": "AF-906",
+      "gene": "P2RX3",
+      "asserted_direction": "decreased",
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-unsecret"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "PUBCHEM.COMPOUND:24883277",
+      "gene_curie": "NCBIGene:5024",
+      "n_synonyms_used": 1
+    },
+    {
+      "drug": "astressin 2B",
+      "gene": "CRHR2",
+      "asserted_direction": "decreased",
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-unsecret"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "PUBCHEM.COMPOUND:90488758",
+      "gene_curie": "NCBIGene:1395",
+      "n_synonyms_used": 3
+    },
+    {
+      "drug": "ATPGAMMAS",
+      "gene": "P2RX3",
+      "asserted_direction": "increased",
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-unsecret"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:27575",
+      "gene_curie": "NCBIGene:5024",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "DDE",
+      "gene": "PPARGC1A",
+      "asserted_direction": "increased",
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-unsecret"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:16598",
+      "gene_curie": "NCBIGene:10891",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "TNP-ATP",
+      "gene": "P2RX3",
+      "asserted_direction": "decreased",
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-unsecret"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "PUBCHEM.COMPOUND:3035228",
+      "gene_curie": "NCBIGene:5024",
+      "n_synonyms_used": 8
+    },
+    {
+      "drug": "Suramin",
+      "gene": "P2RX3",
+      "asserted_direction": "decreased",
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-unsecret"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:45906",
+      "gene_curie": "NCBIGene:5024",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Aclarubicin",
+      "gene": "GATA1",
+      "asserted_direction": "increased",
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-unsecret"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:74619",
+      "gene_curie": "NCBIGene:2623",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "CID 73356174",
+      "gene": "CRHR2",
+      "asserted_direction": "decreased",
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-unsecret"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "PUBCHEM.COMPOUND:73356174",
+      "gene_curie": "NCBIGene:1395",
+      "n_synonyms_used": 1
+    },
+    {
+      "drug": "BAY-1797",
+      "gene": "P2RX3",
+      "asserted_direction": "decreased",
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-unsecret"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "PUBCHEM.COMPOUND:124125214",
+      "gene_curie": "NCBIGene:5024",
+      "n_synonyms_used": 1
+    },
+    {
+      "drug": "untenone A",
+      "gene": "DNTT",
+      "asserted_direction": "decreased",
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-unsecret"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "PUBCHEM.COMPOUND:11014401",
+      "gene_curie": "NCBIGene:1791",
+      "n_synonyms_used": 1
+    },
+    {
+      "drug": "Rifampicin",
+      "gene": "PPARGC1A",
+      "asserted_direction": "increased",
+      "n_contrasts": 1,
+      "n_agree": 1,
+      "n_disagree": 0,
+      "verdict": "agrees",
+      "median_log2fc": 3.2,
+      "min_adj_p": 7.73573329984908e-10,
+      "experiments": [
+        "E-GEOD-61705"
+      ],
+      "agents": [
+        "ara-unsecret"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:28077",
+      "gene_curie": "NCBIGene:10891",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Cyclic AMP",
+      "gene": "PPARGC1A",
+      "asserted_direction": "increased",
+      "n_contrasts": 2,
+      "n_agree": 2,
+      "n_disagree": 0,
+      "verdict": "agrees",
+      "median_log2fc": 1.85,
+      "min_adj_p": 7.1909450523562e-10,
+      "experiments": [
+        "E-MTAB-2602"
+      ],
+      "agents": [
+        "ara-unsecret"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:17489",
+      "gene_curie": "NCBIGene:10891",
+      "n_synonyms_used": 1
+    },
+    {
+      "drug": "Troglitazone",
+      "gene": "PPARGC1A",
+      "asserted_direction": "increased",
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-unsecret"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:9753",
+      "gene_curie": "NCBIGene:10891",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Terbutaline",
+      "gene": "ADRB2",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:9449",
+      "gene_curie": "NCBIGene:154",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Terbutaline",
+      "gene": "ADRB1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:9449",
+      "gene_curie": "NCBIGene:153",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Prednisolone",
+      "gene": "NR3C1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:8378",
+      "gene_curie": "NCBIGene:2908",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Prednisolone",
+      "gene": "NR3C2",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:8378",
+      "gene_curie": "NCBIGene:4306",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Adrenal Cortex Hormones",
+      "gene": "TNF",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "MESH:D000305",
+      "gene_curie": "NCBIGene:7124",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Prednisone",
+      "gene": "NR3C1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:8382",
+      "gene_curie": "NCBIGene:2908",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Zafirlukast",
+      "gene": "CYSLTR1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:10100",
+      "gene_curie": "NCBIGene:10800",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Zafirlukast",
+      "gene": "CYSLTR2",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:10100",
+      "gene_curie": "NCBIGene:57105",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Zafirlukast",
+      "gene": "MAPK1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:10100",
+      "gene_curie": "NCBIGene:5594",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "beclomethasone",
+      "gene": "NR3C1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects",
+        "biolink:physically_interacts_with"
+      ],
+      "drug_curie": "CHEBI:3001",
+      "gene_curie": "NCBIGene:2908",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Zileuton",
+      "gene": "ALOX5",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:10112",
+      "gene_curie": "NCBIGene:240",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Roflumilast",
+      "gene": "PDE4D",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:47657",
+      "gene_curie": "NCBIGene:5144",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Roflumilast",
+      "gene": "PDE4A",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:47657",
+      "gene_curie": "NCBIGene:5141",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Roflumilast",
+      "gene": "PDE4B",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:47657",
+      "gene_curie": "NCBIGene:5142",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Triamcinolone",
+      "gene": "CD1A",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:9667",
+      "gene_curie": "NCBIGene:909",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Triamcinolone",
+      "gene": "NR3C1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects",
+        "biolink:physically_interacts_with"
+      ],
+      "drug_curie": "CHEBI:9667",
+      "gene_curie": "NCBIGene:2908",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Triamcinolone",
+      "gene": "MMP1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:9667",
+      "gene_curie": "NCBIGene:4312",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Betamethasone",
+      "gene": "NR3C1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:3077",
+      "gene_curie": "NCBIGene:2908",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Tranilast",
+      "gene": "HRH1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:77572",
+      "gene_curie": "NCBIGene:3269",
+      "n_synonyms_used": 7
+    },
+    {
+      "drug": "Tranilast",
+      "gene": "TGFB1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:77572",
+      "gene_curie": "NCBIGene:7040",
+      "n_synonyms_used": 7
+    },
+    {
+      "drug": "Tranilast",
+      "gene": "HPGDS",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:77572",
+      "gene_curie": "NCBIGene:27306",
+      "n_synonyms_used": 7
+    },
+    {
+      "drug": "Ketotifen",
+      "gene": "HRH1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:92511",
+      "gene_curie": "NCBIGene:3269",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Ketotifen",
+      "gene": "CYP2D6",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:92511",
+      "gene_curie": "NCBIGene:1565",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Flunisolide",
+      "gene": "NR3C1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:5106",
+      "gene_curie": "NCBIGene:2908",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Tulobuterol",
+      "gene": "ADRB2",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:regulates"
+      ],
+      "drug_curie": "CHEBI:93856",
+      "gene_curie": "NCBIGene:154",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Bambuterol",
+      "gene": "BCHE",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:553827",
+      "gene_curie": "NCBIGene:590",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Bambuterol",
+      "gene": "ADRB2",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:553827",
+      "gene_curie": "NCBIGene:154",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Mepolizumab",
+      "gene": "IL5",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:directly_physically_interacts_with"
+      ],
+      "drug_curie": "UNII:90Z2UF0E52",
+      "gene_curie": "NCBIGene:3567",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Mepolizumab",
+      "gene": "IL5RA",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:physically_interacts_with"
+      ],
+      "drug_curie": "UNII:90Z2UF0E52",
+      "gene_curie": "NCBIGene:3568",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Dupilumab",
+      "gene": "IL4R",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects",
+        "biolink:directly_physically_interacts_with"
+      ],
+      "drug_curie": "UNII:420K487FSG",
+      "gene_curie": "NCBIGene:3566",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Pemirolast",
+      "gene": "HRH1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:134936",
+      "gene_curie": "NCBIGene:3269",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "P [Preparations]",
+      "gene": "PROC",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:subclass_of"
+      ],
+      "drug_curie": "UMLS:C2267098",
+      "gene_curie": "NCBIGene:5624",
+      "n_synonyms_used": 1
+    },
+    {
+      "drug": "Troleandomycin",
+      "gene": "CYP3A4",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:45735",
+      "gene_curie": "NCBIGene:1576",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Troleandomycin",
+      "gene": "CYP1A2",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:45735",
+      "gene_curie": "NCBIGene:1544",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Troleandomycin",
+      "gene": "CYP2D6",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:45735",
+      "gene_curie": "NCBIGene:1565",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Pseudoephedrine",
+      "gene": "ADRB2",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:51209",
+      "gene_curie": "NCBIGene:154",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Pseudoephedrine",
+      "gene": "DRD2",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:51209",
+      "gene_curie": "NCBIGene:1813",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Pseudoephedrine",
+      "gene": "ADRB1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:51209",
+      "gene_curie": "NCBIGene:153",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Pseudoephedrine",
+      "gene": "TNF",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:51209",
+      "gene_curie": "NCBIGene:7124",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Desonide",
+      "gene": "NR3C1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:204734",
+      "gene_curie": "NCBIGene:2908",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Formoterol",
+      "gene": "ADRB1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:5147",
+      "gene_curie": "NCBIGene:153",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Formoterol",
+      "gene": "CYP2C19",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:5147",
+      "gene_curie": "NCBIGene:1557",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Budesonide",
+      "gene": "EDN1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:3207",
+      "gene_curie": "NCBIGene:1906",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Budesonide",
+      "gene": "PGR",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:3207",
+      "gene_curie": "NCBIGene:5241",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Budesonide",
+      "gene": "CYP2C19",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:3207",
+      "gene_curie": "NCBIGene:1557",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Budesonide",
+      "gene": "CYP2C9",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:3207",
+      "gene_curie": "NCBIGene:1559",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Budesonide",
+      "gene": "ANXA1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:physically_interacts_with"
+      ],
+      "drug_curie": "CHEBI:3207",
+      "gene_curie": "NCBIGene:301",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Budesonide",
+      "gene": "CYP3A4",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:3207",
+      "gene_curie": "NCBIGene:1576",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Budesonide",
+      "gene": "NR3C2",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:3207",
+      "gene_curie": "NCBIGene:4306",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Budesonide",
+      "gene": "CRHR1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:3207",
+      "gene_curie": "NCBIGene:1394",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Budesonide",
+      "gene": "NR1I2",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:3207",
+      "gene_curie": "NCBIGene:8856",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Budesonide",
+      "gene": "CYP1A2",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:3207",
+      "gene_curie": "NCBIGene:1544",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "glucocorticoid",
+      "gene": "TGFB1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:24261",
+      "gene_curie": "NCBIGene:7040",
+      "n_synonyms_used": 8
+    },
+    {
+      "drug": "glucocorticoid",
+      "gene": "TNF",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects",
+        "biolink:interacts_with"
+      ],
+      "drug_curie": "CHEBI:24261",
+      "gene_curie": "NCBIGene:7124",
+      "n_synonyms_used": 8
+    },
+    {
+      "drug": "glucocorticoid",
+      "gene": "TSC22D3",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:24261",
+      "gene_curie": "NCBIGene:1831",
+      "n_synonyms_used": 8
+    },
+    {
+      "drug": "Oxtriphylline",
+      "gene": "ADORA2A",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "UNII:3K045XR58X",
+      "gene_curie": "NCBIGene:135",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Oxtriphylline",
+      "gene": "ADORA1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "UNII:3K045XR58X",
+      "gene_curie": "NCBIGene:134",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Oxtriphylline",
+      "gene": "PDE4A",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "UNII:3K045XR58X",
+      "gene_curie": "NCBIGene:5141",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Capsaicin",
+      "gene": "MAPK1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:3374",
+      "gene_curie": "NCBIGene:5594",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Capsaicin",
+      "gene": "TRPV1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects",
+        "biolink:interacts_with"
+      ],
+      "drug_curie": "CHEBI:3374",
+      "gene_curie": "NCBIGene:7442",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Terfenadine",
+      "gene": "CD86",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:9453",
+      "gene_curie": "NCBIGene:942",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Terfenadine",
+      "gene": "THPO",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:9453",
+      "gene_curie": "NCBIGene:7066",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Terfenadine",
+      "gene": "HRH1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:9453",
+      "gene_curie": "NCBIGene:3269",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Oxatomide",
+      "gene": "HRH1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:31943",
+      "gene_curie": "NCBIGene:3269",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Aspirin",
+      "gene": "PTGS2",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:15365",
+      "gene_curie": "NCBIGene:5743",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Aspirin",
+      "gene": "PTGS1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:15365",
+      "gene_curie": "NCBIGene:5742",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Aspirin",
+      "gene": "TGFB1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:15365",
+      "gene_curie": "NCBIGene:7040",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Aspirin",
+      "gene": "DDIT3",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:15365",
+      "gene_curie": "NCBIGene:1649",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "INTERFERON ALFA-2A",
+      "gene": "IFNAR1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEMBL.COMPOUND:CHEMBL2108508",
+      "gene_curie": "NCBIGene:3454",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "INTERFERON ALFA-2A",
+      "gene": "IFNAR2",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEMBL.COMPOUND:CHEMBL2108508",
+      "gene_curie": "NCBIGene:3455",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Infliximab",
+      "gene": "TNF",
+      "asserted_direction": null,
+      "n_contrasts": 3,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "ambiguous",
+      "median_log2fc": 1.1,
+      "min_adj_p": 0.000215062464262599,
+      "experiments": [
+        "E-GEOD-16879"
+      ],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:directly_physically_interacts_with"
+      ],
+      "drug_curie": "UNII:B72HH48FLU",
+      "gene_curie": "NCBIGene:7124",
+      "n_synonyms_used": 1
+    },
+    {
+      "drug": "Tildrakizumab",
+      "gene": "IL12B",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:directly_physically_interacts_with"
+      ],
+      "drug_curie": "UNII:DEW6X41BEK",
+      "gene_curie": "NCBIGene:3593",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Tezepelumab",
+      "gene": "TSLP",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:directly_physically_interacts_with"
+      ],
+      "drug_curie": "UNII:RJ1IW3B4QX",
+      "gene_curie": "NCBIGene:85480",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Ustekinumab",
+      "gene": "IL12B",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:directly_physically_interacts_with"
+      ],
+      "drug_curie": "UNII:FU77B4U5Z0",
+      "gene_curie": "NCBIGene:3593",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "RI 624",
+      "gene": "NGF",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:physically_interacts_with"
+      ],
+      "drug_curie": "DRUGBANK:DB05892",
+      "gene_curie": "NCBIGene:4803",
+      "n_synonyms_used": 3
+    },
+    {
+      "drug": "Vanucizumab",
+      "gene": "VEGFA",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:regulates"
+      ],
+      "drug_curie": "UNII:B800Z06O8K",
+      "gene_curie": "NCBIGene:7422",
+      "n_synonyms_used": 1
+    },
+    {
+      "drug": "Camrelizumab",
+      "gene": "PDCD1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:physically_interacts_with"
+      ],
+      "drug_curie": "UNII:73096E137E",
+      "gene_curie": "NCBIGene:5133",
+      "n_synonyms_used": 1
+    },
+    {
+      "drug": "Antibodies",
+      "gene": "TNF",
+      "asserted_direction": null,
+      "n_contrasts": 1,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "ambiguous",
+      "median_log2fc": 1.6,
+      "min_adj_p": 0.00477781753083429,
+      "experiments": [
+        "E-GEOD-53514"
+      ],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:interacts_with"
+      ],
+      "drug_curie": "MESH:D000906",
+      "gene_curie": "NCBIGene:7124",
+      "n_synonyms_used": 1
+    },
+    {
+      "drug": "Tabalumab",
+      "gene": "TNFSF13B",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:physically_interacts_with"
+      ],
+      "drug_curie": "UNII:PQP8VH3MJW",
+      "gene_curie": "NCBIGene:10673",
+      "n_synonyms_used": 3
+    },
+    {
+      "drug": "Clazakizumab",
+      "gene": "IL6",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:physically_interacts_with"
+      ],
+      "drug_curie": "UNII:4S38Z8RA9O",
+      "gene_curie": "NCBIGene:3569",
+      "n_synonyms_used": 1
+    },
+    {
+      "drug": "Depatuxizumab",
+      "gene": "EGFR",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:physically_interacts_with"
+      ],
+      "drug_curie": "UNII:W984C353CG",
+      "gene_curie": "NCBIGene:1956",
+      "n_synonyms_used": 8
+    },
+    {
+      "drug": "Omalizumab",
+      "gene": "FCER1A",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "UNII:2P471X1Z11",
+      "gene_curie": "NCBIGene:2205",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Tovetumab",
+      "gene": "PDGFRA",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:physically_interacts_with"
+      ],
+      "drug_curie": "UNII:2XY62K75UV",
+      "gene_curie": "NCBIGene:5156",
+      "n_synonyms_used": 1
+    },
+    {
+      "drug": "Benralizumab",
+      "gene": "IL5RA",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:directly_physically_interacts_with"
+      ],
+      "drug_curie": "UNII:71492GE1FX",
+      "gene_curie": "NCBIGene:3568",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Galcanezumab",
+      "gene": "CALCA",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:directly_physically_interacts_with"
+      ],
+      "drug_curie": "UNII:55KHL3P693",
+      "gene_curie": "NCBIGene:796",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "INTERFERON GAMMA-1B",
+      "gene": "IFNGR2",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEMBL.COMPOUND:CHEMBL1201564",
+      "gene_curie": "NCBIGene:3460",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "INTERFERON GAMMA-1B",
+      "gene": "IFNGR1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEMBL.COMPOUND:CHEMBL1201564",
+      "gene_curie": "NCBIGene:3459",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Brinzolamide",
+      "gene": "CA1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:3176",
+      "gene_curie": "NCBIGene:759",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Brinzolamide",
+      "gene": "CA4",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:3176",
+      "gene_curie": "NCBIGene:762",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Epinephrine",
+      "gene": "ADRB1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:28918",
+      "gene_curie": "NCBIGene:153",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "epinine",
+      "gene": "TP53",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:10554",
+      "gene_curie": "NCBIGene:7157",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Testosterone cypionate",
+      "gene": "NR3C2",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:directly_physically_interacts_with"
+      ],
+      "drug_curie": "CHEBI:9463",
+      "gene_curie": "NCBIGene:4306",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Piribedil",
+      "gene": "ADRA2A",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:92833",
+      "gene_curie": "NCBIGene:150",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Piribedil",
+      "gene": "HTR1A",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:92833",
+      "gene_curie": "NCBIGene:3350",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Piribedil",
+      "gene": "DRD2",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects",
+        "biolink:physically_interacts_with"
+      ],
+      "drug_curie": "CHEBI:92833",
+      "gene_curie": "NCBIGene:1813",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Piribedil",
+      "gene": "DRD3",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:physically_interacts_with"
+      ],
+      "drug_curie": "CHEBI:92833",
+      "gene_curie": "NCBIGene:1814",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Piribedil",
+      "gene": "CYP3A4",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:92833",
+      "gene_curie": "NCBIGene:1576",
+      "n_synonyms_used": 12
+    },
+    {
+      "drug": "Dipyrithione",
+      "gene": "PTGS2",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:physically_interacts_with"
+      ],
+      "drug_curie": "CHEBI:136010",
+      "gene_curie": "NCBIGene:5743",
+      "n_synonyms_used": 8
+    },
+    {
+      "drug": "Dipyrithione",
+      "gene": "NOS2",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:affects"
+      ],
+      "drug_curie": "CHEBI:136010",
+      "gene_curie": "NCBIGene:4843",
+      "n_synonyms_used": 8
+    },
+    {
+      "drug": "Gevokizumab",
+      "gene": "IL1B",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:physically_interacts_with"
+      ],
+      "drug_curie": "UNII:QX3JU54GYQ",
+      "gene_curie": "NCBIGene:3553",
+      "n_synonyms_used": 1
+    },
+    {
+      "drug": "Apomab",
+      "gene": "TNFRSF10B",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:physically_interacts_with"
+      ],
+      "drug_curie": "UNII:703KLX5LXZ",
+      "gene_curie": "NCBIGene:8795",
+      "n_synonyms_used": 2
+    },
+    {
+      "drug": "Tanezumab",
+      "gene": "NGF",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:physically_interacts_with"
+      ],
+      "drug_curie": "UNII:EQL0E9GCX1",
+      "gene_curie": "NCBIGene:4803",
+      "n_synonyms_used": 10
+    },
+    {
+      "drug": "Eldelumab",
+      "gene": "CXCL10",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:physically_interacts_with"
+      ],
+      "drug_curie": "UNII:15O91A27I5",
+      "gene_curie": "NCBIGene:3627",
+      "n_synonyms_used": 1
+    },
+    {
+      "drug": "Xentuzumab",
+      "gene": "IGF1",
+      "asserted_direction": null,
+      "n_contrasts": 0,
+      "n_agree": 0,
+      "n_disagree": 0,
+      "verdict": "not_covered",
+      "median_log2fc": null,
+      "min_adj_p": null,
+      "experiments": [],
+      "agents": [
+        "ara-arax"
+      ],
+      "predicates": [
+        "biolink:physically_interacts_with"
+      ],
+      "drug_curie": "UNII:X86Z1O656G",
+      "gene_curie": "NCBIGene:3479",
+      "n_synonyms_used": 1
+    }
+  ]
+}

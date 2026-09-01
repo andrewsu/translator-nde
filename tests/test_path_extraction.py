@@ -75,7 +75,7 @@ def test_recovers_celiprolol_adrb2_path():
     assert p.score == 0.87
 
 
-def test_captures_qualifiers_for_tier1_comparison():
+def test_captures_qualifiers_for_route_a_comparison():
     """Direction/aspect must survive -- they are what GXA is checked against."""
     p = dedupe_paths(extract_paths(MESSAGE, VEDS))[0]
     assert p.drug_gene.direction == "increased"
