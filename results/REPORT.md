@@ -59,12 +59,45 @@ So the direction-agreement test — the strongest thing Route A can do — is av
 | disagrees | 0 |
 | **covered by ≥1 contrast** | **4 / 123 (3%)** |
 
-| Drug → gene | contrasts | agree | median log2FC | verdict |
-|---|--:|--:|--:|---|
-| Rifampicin → PPARGC1A | 1 | 1 | 3.2 | agrees |
-| Cyclic AMP → PPARGC1A | 2 | 2 | 1.85 | agrees |
-| Infliximab → TNF | 3 | – | 1.1 | ambiguous |
-| Antibodies → TNF | 1 | – | 1.6 | ambiguous |
+| Drug → gene | contrasts | agree | median log2FC | verdict | GXA experiment | GEO |
+|---|--:|--:|--:|---|---|---|
+| Rifampicin → PPARGC1A | 1 | 1 | 3.2 | agrees | [E-GEOD-61705](https://www.ebi.ac.uk/gxa/experiments/E-GEOD-61705/Results) | GSE61705 |
+| Cyclic AMP → PPARGC1A | 2 | 2 | 1.85 | agrees | [E-MTAB-2602](https://www.ebi.ac.uk/gxa/experiments/E-MTAB-2602/Results) | — (ENA ERR522174–86) |
+| Infliximab → TNF | 3 | – | 1.1 | ambiguous | [E-GEOD-16879](https://www.ebi.ac.uk/gxa/experiments/E-GEOD-16879/Results) | GSE16879 |
+| Antibodies → TNF | 1 | – | 1.6 | ambiguous | [E-GEOD-53514](https://www.ebi.ac.uk/gxa/experiments/E-GEOD-53514/Results) | GSE53514 |
+
+GEO series confirmed by resolving the contrasts' GSM accessions against NDE production
+`@type:Sample` records, not inferred from the `E-GEOD-` naming.
+
+### ⚠️ Reading those contrast strings invalidates three of the four rows
+
+Adding the dataset IDs made the underlying contrasts checkable, and they do not say what the
+verdicts claim:
+
+| edge | what the contrast actually is | |
+|---|---|---|
+| Rifampicin → PPARGC1A | `'MITF-RFP-HA overexpression' vs 'control'` | ❌ **"RFP" is red fluorescent protein.** A synonym-list string collision; rifampicin is not in this experiment. |
+| Cyclic AMP → PPARGC1A | `'cyclic AMP' vs 'none'` in brown and white adipocyte | ✅ genuine compound-vs-vehicle, though cAMP is a second messenger rather than a drug |
+| Infliximab → TNF | `'before first infliximab treatment; no response…; ulcerative colitis' vs 'control'` | ❌ **the variable is disease, not drug** — patients vs healthy controls, and two of the three contrasts are *before* any treatment |
+| Antibodies → TNF | `stimulated with monoclonal antibodies to CD3 and CD28' vs 'none'` | ❌ anti-CD3/CD28 T-cell stimulation, not a therapeutic antibody |
+
+So asthma's real Route A coverage is **1 of 123 edges, not 4**, and *both* "agrees" verdicts are
+spurious. The same check across RA and AS finds the pattern is general — of ~19 covered edges over
+all three diseases only about 6 are genuine compound-vs-vehicle designs:
+
+- `Nitric Oxide → TNF/TLR4` matches the same infliximab records because the synonym **"NO"** hits
+  the English word in *"**no** response to infliximab treatment"*.
+- `Calcium → CAST` matches `'A/CA/04/2009 Influenza virus' vs 'mock'` — **"CA" is California**.
+- Genuine ones: cyclic AMP → PPARGC1A, doxorubicin → C3 (E-GEOD-46493, E-MTAB-6045),
+  cisplatin → C3 (E-MTAB-3645), azacitidine → PLAU (E-GEOD-41586), metformin → TNF (E-MTAB-7737),
+  dinoprostone → TNF (E-MEXP-1230).
+
+The existing `NOT measurementDenominator` guard catches the drug-in-both-arms trap but does nothing
+about **short or ambiguous synonyms colliding with unrelated text** ("RFP", "NO", "CA",
+"Antibodies"). Route A's already-low coverage figures are therefore *over*-stated, which
+strengthens rather than weakens the conclusion of examples 1–3. Fixing it needs a minimum-length /
+stop-word filter on the synonym list plus a check that the matched term appears in the contrast
+string as a compound rather than incidentally — not yet implemented.
 
 ## Why coverage is so low
 
