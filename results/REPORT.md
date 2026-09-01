@@ -126,3 +126,81 @@ PYTHONPATH=src .venv/bin/python scripts/run_route_a.py data/ars/<pk>/paths.json
 
 ⚠️ ARS results change over time, so a fresh run will not match this exactly. The archived
 `paths.json` is the citable artifact.
+
+---
+
+# Working backward from GXA
+
+Example 1 asked "here are Translator's answers, does GXA cover them?" and got 3%. This asks the
+inverse: **which drugs does GXA actually contain**, and what diseases are they used for? If the
+bridge works anywhere, it works there.
+
+## What is in GXA
+
+GXA has no chemical field and no facetable field carrying the compound
+(`variableMeasured.value` and `measurementQualifier` are both `text`), so the drug vocabulary has
+to be probed rather than listed. Two approaches:
+
+**1. Sample the contrast strings.** 40,000 human `Inference` records yielded only 299 distinct
+contrasts — scroll order is grouped by experiment, so this is a biased sample and the counts mean
+nothing. It is still informative about *shape*: the top arms are things like
+`blood alcohol content 0.04%rising`, `early mesodermal progenitors`, `clear cell renal carcinoma`,
+`cultured skin substitute; 28 day`, `SARS coronavirus Urbani`. **Most GXA contrasts are not drug
+perturbations at all** — they are disease-vs-normal, cell type, developmental stage, timepoint and
+genotype comparisons.
+
+**2. Probe a drug vocabulary.** DrugMechDB supplies 1,652 curated drugs, each already paired with
+the diseases it treats — which is exactly what is needed to close the loop back to Translator.
+
+> **66 of 1,643 drugs (4.3%) have ≥1 human GXA test-arm contrast.**
+
+| drug | contrasts | ref-arm | note |
+|---|--:|--:|---|
+| doxycycline | 29,768 | 3,291 | **Tet-on inducer** — largely a tool compound |
+| dexamethasone | 23,314 | 0 | clean |
+| valproic acid | 21,056 | 0 | clean |
+| cisplatin | 18,766 | 3,209 | cell-line cytotoxicity |
+| doxorubicin | 13,244 | 3,370 | ref-arm 25% — mixed |
+| infliximab | 12,759 | 375 | clean |
+| estradiol | 7,097 | 1,872 | ref-arm 26% — mixed |
+| panobinostat | 4,759 | 0 | clean |
+| acetaminophen | 4,543 | 0 | clean |
+| anakinra | 4,070 | 0 | clean |
+| gefitinib | 3,817 | 1,486 | ref-arm 39% — mixed |
+| sorafenib | 2,962 | 0 | clean |
+| digoxin | 2,817 | 0 | clean |
+| methotrexate | 2,289 | 3,966 | **more in ref arm than test arm** |
+| prednisone | 2,289 | 0 | clean |
+| metformin | 928 | 0 | clean |
+
+The reference-arm column is doing real work here. `doxycycline` topping the list is an artefact —
+it is the Tet-on induction agent in a large number of experiments, not a tested therapeutic. And
+`methotrexate` appears in *more* reference arms than test arms. Without the
+`NOT measurementDenominator.value:<drug>` clause both would be badly overcounted, which is the
+same failure mode as the Arabidopsis dexamethasone record in `tests/test_gxa_fixtures.py`.
+
+The covered set skews to three families: **corticosteroids** (dexamethasone, prednisone,
+prednisolone, methylprednisolone), **oncology cytotoxics** used as cell-line stressors (cisplatin,
+doxorubicin, paclitaxel, docetaxel, methotrexate), and a **small number of biologics**
+(infliximab, anakinra, etanercept). Everyday small-molecule therapeutics are largely absent.
+
+## Which diseases does that point to
+
+Ranking DrugMechDB diseases by how many GXA-covered drugs treat them:
+
+| disease | covered drugs | net contrasts | drugs |
+|---|--:|--:|---|
+| **Rheumatoid arthritis** | **9** | 41,298 | dexamethasone, infliximab, anakinra, methotrexate, etanercept, prednisone… |
+| Ankylosing spondylitis | 6 | 39,376 | dexamethasone, infliximab, prednisone, etanercept… |
+| Pemphigus | 5 | 28,769 | dexamethasone, prednisone, benzoic acid, methylprednisolone… |
+| Psoriasis | 5 | 27,220 | dexamethasone, methotrexate, prednisone, methylprednisolone… |
+| Non-small cell lung cancer | 5 | 5,058 | gefitinib, docetaxel, paclitaxel, erlotinib… |
+| Asthma | 4 | 27,220 | dexamethasone, prednisone, methylprednisolone, prednisolone |
+
+A caveat on this table: the long tail of 4-drug diseases all sit at exactly 27,220 contrasts
+because they share the *same four corticosteroids*. Steroid breadth inflates any
+steroid-responsive condition. **Rheumatoid arthritis and ankylosing spondylitis are the genuine
+leaders** because they add disease-specific biologics (infliximab, anakinra, etanercept) on top.
+
+Both are immune-mediated and so squarely in NIAID's remit. They are the diseases used for
+example 2.

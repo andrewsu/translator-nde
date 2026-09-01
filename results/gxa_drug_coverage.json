@@ -1,0 +1,2438 @@
+{
+  "n_tested": 1643,
+  "n_covered": 70,
+  "drugs": [
+    {
+      "drug": "doxycycline",
+      "drug_mesh": "MESH:D004318",
+      "contrasts": 29768,
+      "reference_arm_contrasts": 3291,
+      "diseases": [
+        [
+          "Acne vulgaris",
+          "MESH:D000152"
+        ],
+        [
+          "Actinomycosis",
+          "MESH:D000196"
+        ],
+        [
+          "Anthrax",
+          "MESH:D000881"
+        ],
+        [
+          "Bartonella Infections",
+          "MESH:D001474"
+        ],
+        [
+          "Boutonneuse Fever",
+          "MESH:D001907"
+        ],
+        [
+          "Bronchitis",
+          "MESH:D001991"
+        ],
+        [
+          "Brucellosis",
+          "MESH:D002006"
+        ],
+        [
+          "Chancroid",
+          "MESH:D002602"
+        ],
+        [
+          "Chlamydia Infections",
+          "MESH:D002690"
+        ],
+        [
+          "Cholera",
+          "MESH:D002771"
+        ],
+        [
+          "Conjunctivitis, Inclusion",
+          "MESH:D003235"
+        ],
+        [
+          "Cutaneous anthrax",
+          "MESH:C531621"
+        ],
+        [
+          "Gastrointestinal anthrax",
+          "MESH:C571911"
+        ],
+        [
+          "Gonorrhea",
+          "MESH:D006069"
+        ],
+        [
+          "Granuloma Inguinale",
+          "MESH:D006100"
+        ],
+        [
+          "Inhalation anthrax",
+          "MESH:C571912"
+        ],
+        [
+          "Listeriosis",
+          "MESH:D008088"
+        ],
+        [
+          "Lymphogranuloma Venereum",
+          "MESH:D008219"
+        ],
+        [
+          "Pharyngitis",
+          "MESH:D010612"
+        ],
+        [
+          "Pneumonia, Bacterial",
+          "MESH:D018410"
+        ],
+        [
+          "Pneumonia, Mycoplasma",
+          "MESH:D011019"
+        ],
+        [
+          "Psittacosis",
+          "MESH:D009956"
+        ],
+        [
+          "Q Fever",
+          "MESH:D011778"
+        ],
+        [
+          "Relapsing Fever",
+          "MESH:D012061"
+        ],
+        [
+          "Rickettsia Infections",
+          "MESH:D012282"
+        ],
+        [
+          "Rocky Mountain Spotted Fever",
+          "MESH:D012373"
+        ],
+        [
+          "Scrub Typhus",
+          "MESH:D012612"
+        ],
+        [
+          "Sinusitis",
+          "MESH:D012852"
+        ],
+        [
+          "Spotted Fever Group Rickettsiosis",
+          "MESH:D000073605"
+        ],
+        [
+          "Syphilis",
+          "MESH:D013587"
+        ],
+        [
+          "Trachoma",
+          "MESH:D014141"
+        ],
+        [
+          "Tularemia",
+          "MESH:D014406"
+        ],
+        [
+          "Typhus, Endemic Flea-Borne",
+          "MESH:D014437"
+        ],
+        [
+          "Typhus, Epidemic Louse-Borne",
+          "MESH:D014438"
+        ],
+        [
+          "Yaws",
+          "MESH:D015001"
+        ]
+      ]
+    },
+    {
+      "drug": "dexamethasone",
+      "drug_mesh": "MESH:D003907",
+      "contrasts": 23314,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Adrenal cortical hypofunction",
+          "MESH:D000309"
+        ],
+        [
+          "Adrenogenital disorder",
+          "MESH:D000312"
+        ],
+        [
+          "Allergic conjunctivitis",
+          "MESH:D003233"
+        ],
+        [
+          "Allergic rhinitis",
+          "MESH:D065631"
+        ],
+        [
+          "Angioedema",
+          "MESH:D000799"
+        ],
+        [
+          "Ankylosing spondylitis",
+          "MESH:D013167"
+        ],
+        [
+          "Anterior uveitis",
+          "MESH:D014606"
+        ],
+        [
+          "Articular gout",
+          "MESH:D015210"
+        ],
+        [
+          "Asthma",
+          "MESH:D001249"
+        ],
+        [
+          "Atopic dermatitis",
+          "MESH:D003876"
+        ],
+        [
+          "Autoimmune hemolytic anemia",
+          "MESH:D000744"
+        ],
+        [
+          "Berylliosis",
+          "MESH:D001607"
+        ],
+        [
+          "Burkitt's lymphoma",
+          "MESH:D002051"
+        ],
+        [
+          "Bursitis",
+          "MESH:D002062"
+        ],
+        [
+          "Cerebral edema",
+          "MESH:D001929"
+        ],
+        [
+          "Congenital hypoplastic anemia",
+          "MESH:D029503"
+        ],
+        [
+          "Contact dermatitis",
+          "MESH:D003877"
+        ],
+        [
+          "Corneal ulcer",
+          "MESH:D003320"
+        ],
+        [
+          "Crohn's disease",
+          "MESH:D003424"
+        ],
+        [
+          "Dermatitis herpetiformis",
+          "MESH:D003874"
+        ],
+        [
+          "Diffuse non-Hodgkin's lymphoma, large cell",
+          "MESH:D016403"
+        ],
+        [
+          "Discoid lupus erythematosus",
+          "MESH:D008179"
+        ],
+        [
+          "Disorder of eye",
+          "MESH:D005128"
+        ],
+        [
+          "Disorder of musculoskeletal system",
+          "MESH:D009140"
+        ],
+        [
+          "Disorder of skin",
+          "MESH:D012871"
+        ],
+        [
+          "Edema of larynx",
+          "MESH:D007819"
+        ],
+        [
+          "Epicondylitis",
+          "MESH:D013716"
+        ],
+        [
+          "Eruption of skin",
+          "MESH:D005076"
+        ],
+        [
+          "Erythema multiforme",
+          "MESH:D004892"
+        ],
+        [
+          "Erythroderma",
+          "MESH:D003873"
+        ],
+        [
+          "Follicular non-Hodgkin's lymphoma",
+          "MESH:D008224"
+        ],
+        [
+          "Granuloma annulare",
+          "MESH:D016460"
+        ],
+        [
+          "Hodgkin disease",
+          "MESH:D006689"
+        ],
+        [
+          "Humoral Hypercalcemia Of Malignancy",
+          "MESH:C562390"
+        ],
+        [
+          "Infection by larvae of Trichinella spiralis",
+          "MESH:D014235"
+        ],
+        [
+          "Inflammatory bowel disease",
+          "MESH:D015212"
+        ],
+        [
+          "Iridocyclitis",
+          "MESH:D015863"
+        ],
+        [
+          "Iritis",
+          "MESH:D007500"
+        ],
+        [
+          "Keloid scar",
+          "MESH:D007627"
+        ],
+        [
+          "Keratitis",
+          "MESH:D007634"
+        ],
+        [
+          "Lichen simplex chronicus",
+          "MESH:D009450"
+        ],
+        [
+          "L\u00f6ffler's syndrome",
+          "MESH:D011657"
+        ],
+        [
+          "Miliary tuberculosis",
+          "MESH:D014391"
+        ],
+        [
+          "Multiple myeloma",
+          "MESH:D009101"
+        ],
+        [
+          "Multiple sclerosis",
+          "MESH:D009103"
+        ],
+        [
+          "Mycosis fungoides",
+          "MESH:D009182"
+        ],
+        [
+          "Nephrotic Syndrome",
+          "MESH:D009404"
+        ],
+        [
+          "Non-Hodgkin's lymphoma",
+          "MESH:D008228"
+        ],
+        [
+          "Otitis externa",
+          "MESH:D010032"
+        ],
+        [
+          "Pemphigus",
+          "MESH:D010392"
+        ],
+        [
+          "Primary adrenocortical insufficiency",
+          "MESH:D000224"
+        ],
+        [
+          "Primary cutaneous T-cell lymphoma",
+          "MESH:D016410"
+        ],
+        [
+          "Pruritus ani",
+          "MESH:D011538"
+        ],
+        [
+          "Psoriasis",
+          "MESH:D011565"
+        ],
+        [
+          "Psoriasis with arthropathy",
+          "MESH:D015535"
+        ],
+        [
+          "Rheumatic heart disease",
+          "MESH:D012214"
+        ],
+        [
+          "Rheumatoid arthritis",
+          "MESH:D001172"
+        ],
+        [
+          "Rosacea",
+          "MESH:D012393"
+        ],
+        [
+          "Sarcoidosis",
+          "MESH:D012507"
+        ],
+        [
+          "Seborrheic dermatitis",
+          "MESH:D012628"
+        ],
+        [
+          "Systemic lupus erythematosus",
+          "MESH:D008180"
+        ],
+        [
+          "Tenosynovitis",
+          "MESH:D013717"
+        ],
+        [
+          "Thyroiditis",
+          "MESH:D013966"
+        ],
+        [
+          "Transfusion reaction due to serum protein reaction",
+          "MESH:D012713"
+        ],
+        [
+          "Uveitis",
+          "MESH:D014605"
+        ]
+      ]
+    },
+    {
+      "drug": "Valproic Acid",
+      "drug_mesh": "MESH:D014635",
+      "contrasts": 21056,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Epilepsy, Absence",
+          "MESH:D004832"
+        ]
+      ]
+    },
+    {
+      "drug": "valproic acid",
+      "drug_mesh": "MESH:D014635",
+      "contrasts": 21056,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Bipolar disorder",
+          "MESH:D001714"
+        ],
+        [
+          "Epilepsy",
+          "MESH:D004827"
+        ],
+        [
+          "migraine",
+          "MESH:D008881"
+        ]
+      ]
+    },
+    {
+      "drug": "cisplatin",
+      "drug_mesh": "MESH:D002945",
+      "contrasts": 18766,
+      "reference_arm_contrasts": 3209,
+      "diseases": [
+        [
+          "Ovarian Cancer",
+          "MESH:D010051"
+        ]
+      ]
+    },
+    {
+      "drug": "doxorubicin",
+      "drug_mesh": "MESH:D004317",
+      "contrasts": 13244,
+      "reference_arm_contrasts": 3370,
+      "diseases": [
+        [
+          "AIDS-related Kaposi sarcoma",
+          "MESH:C554498"
+        ],
+        [
+          "Breast Neoplasms",
+          "MESH:D001943"
+        ],
+        [
+          "Burkitt Lymphoma",
+          "MESH:D002051"
+        ],
+        [
+          "Hodgkin Disease",
+          "MESH:D006689"
+        ],
+        [
+          "Leukemia, Myeloid, Acute",
+          "MESH:D015470"
+        ],
+        [
+          "Lung Neoplasms",
+          "MESH:D008175"
+        ],
+        [
+          "Lymphoma, Follicular",
+          "MESH:D008224"
+        ],
+        [
+          "Lymphoma, Large B-Cell, Diffuse",
+          "MESH:D016403"
+        ],
+        [
+          "Lymphoma, Non-Hodgkin",
+          "MESH:D008228"
+        ],
+        [
+          "Multiple Myeloma",
+          "MESH:D009101"
+        ],
+        [
+          "Neuroblastoma",
+          "MESH:D009447"
+        ],
+        [
+          "Ovarian Neoplasms",
+          "MESH:D010051"
+        ],
+        [
+          "Sarcoma, Kaposi",
+          "MESH:D012514"
+        ],
+        [
+          "Small Cell Lung Carcinoma",
+          "MESH:D055752"
+        ],
+        [
+          "Wilms Tumor",
+          "MESH:D009396"
+        ]
+      ]
+    },
+    {
+      "drug": "infliximab",
+      "drug_mesh": "MESH:D000069285",
+      "contrasts": 12759,
+      "reference_arm_contrasts": 375,
+      "diseases": [
+        [
+          "Ankylosing spondylitis",
+          "MESH:D013167"
+        ],
+        [
+          "Crohn's disease",
+          "MESH:D003424"
+        ],
+        [
+          "Psoriatic Arthritis",
+          "MESH:D015535"
+        ],
+        [
+          "Rheumatoid arthritis",
+          "MESH:D001172"
+        ],
+        [
+          "Ulcerative colitis",
+          "MESH:D003093"
+        ]
+      ]
+    },
+    {
+      "drug": "Estradiol",
+      "drug_mesh": "MESH:D004958",
+      "contrasts": 7097,
+      "reference_arm_contrasts": 1872,
+      "diseases": [
+        [
+          "Acne vulgaris",
+          "MESH:D000152"
+        ],
+        [
+          "Atrophic vaginitis",
+          "MESH:D059268"
+        ],
+        [
+          "Menopausal flushing",
+          "MESH:D019584"
+        ],
+        [
+          "Postmenopausal osteoporosis",
+          "MESH:D015663"
+        ]
+      ]
+    },
+    {
+      "drug": "estradiol",
+      "drug_mesh": "MESH:D004958",
+      "contrasts": 7097,
+      "reference_arm_contrasts": 1872,
+      "diseases": [
+        [
+          "Premenstrual dysphoric disorder",
+          "MESH:D065446"
+        ]
+      ]
+    },
+    {
+      "drug": "Panobinostat",
+      "drug_mesh": "MESH:C496932",
+      "contrasts": 4759,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Multiple myeloma",
+          "MESH:D009101"
+        ],
+        [
+          "Primary cutaneous T-cell lymphoma",
+          "MESH:D016410"
+        ]
+      ]
+    },
+    {
+      "drug": "Acetaminophen",
+      "drug_mesh": "MESH:D000082",
+      "contrasts": 4543,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Arthralgia",
+          "MESH:D018771"
+        ],
+        [
+          "Common Cold",
+          "MESH:D003139"
+        ],
+        [
+          "Headache Disorders",
+          "MESH:D020773"
+        ],
+        [
+          "Migraine Disorders",
+          "MESH:D008881"
+        ],
+        [
+          "Pain",
+          "MESH:D010146"
+        ],
+        [
+          "Rhinitis, Allergic",
+          "MESH:D065631"
+        ],
+        [
+          "Tension-Type Headache",
+          "MESH:D018781"
+        ],
+        [
+          "Toothache",
+          "MESH:D014098"
+        ]
+      ]
+    },
+    {
+      "drug": "acetaminophen",
+      "drug_mesh": "MESH:D000082",
+      "contrasts": 4543,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Fever",
+          "MESH:D005334"
+        ]
+      ]
+    },
+    {
+      "drug": "anakinra",
+      "drug_mesh": "MESH:D053590",
+      "contrasts": 4070,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Cryopyrin associated periodic syndrome",
+          "MESH:D056587"
+        ],
+        [
+          "Rheumatoid arthritis",
+          "MESH:D001172"
+        ]
+      ]
+    },
+    {
+      "drug": "gefitinib",
+      "drug_mesh": "MESH:C419708",
+      "contrasts": 3817,
+      "reference_arm_contrasts": 1486,
+      "diseases": [
+        [
+          "Non-small cell lung cancer",
+          "MESH:D002289"
+        ]
+      ]
+    },
+    {
+      "drug": "docetaxel",
+      "drug_mesh": "MESH:C067311",
+      "contrasts": 3750,
+      "reference_arm_contrasts": 1243,
+      "diseases": [
+        [
+          "Carcinoma of breast",
+          "MESH:D001943"
+        ],
+        [
+          "Malignant tumor of head and/or neck",
+          "MESH:D006258"
+        ],
+        [
+          "Malignant tumor of prostate",
+          "MESH:D011471"
+        ],
+        [
+          "Malignant tumor of stomach",
+          "MESH:D013274"
+        ],
+        [
+          "Non-small cell lung cancer",
+          "MESH:D002289"
+        ]
+      ]
+    },
+    {
+      "drug": "sorafenib",
+      "drug_mesh": "MESH:C471405",
+      "contrasts": 2962,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Liver cell carcinoma",
+          "MESH:D006528"
+        ],
+        [
+          "Renal cell carcinoma",
+          "MESH:D002292"
+        ]
+      ]
+    },
+    {
+      "drug": "Trabectedin",
+      "drug_mesh": "MESH:C099150",
+      "contrasts": 2893,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Leiomyosarcoma",
+          "MESH:D007890"
+        ],
+        [
+          "Liposarcoma",
+          "MESH:D008080"
+        ],
+        [
+          "Malignant tumor of ovary",
+          "MESH:D010051"
+        ]
+      ]
+    },
+    {
+      "drug": "digoxin",
+      "drug_mesh": "MESH:D004077",
+      "contrasts": 2817,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Atrial fibrillation",
+          "MESH:D001281"
+        ]
+      ]
+    },
+    {
+      "drug": "methotrexate",
+      "drug_mesh": "MESH:D008727",
+      "contrasts": 2289,
+      "reference_arm_contrasts": 3966,
+      "diseases": [
+        [
+          "Burkitt's lymphoma",
+          "MESH:D002051"
+        ],
+        [
+          "Gestational trophoblastic neoplasia",
+          "MESH:D031901"
+        ],
+        [
+          "Juvenile rheumatoid arthritis",
+          "MESH:D001171"
+        ],
+        [
+          "Malignant tumor of head and/or neck",
+          "MESH:D006258"
+        ],
+        [
+          "Malignant tumor of lung",
+          "MESH:D008175"
+        ],
+        [
+          "Mycosis fungoides",
+          "MESH:D009182"
+        ],
+        [
+          "Non-Hodgkin's lymphoma",
+          "MESH:D008228"
+        ],
+        [
+          "Psoriasis",
+          "MESH:D011565"
+        ],
+        [
+          "Rheumatoid arthritis",
+          "MESH:D001172"
+        ]
+      ]
+    },
+    {
+      "drug": "prednisone",
+      "drug_mesh": "MESH:D011241",
+      "contrasts": 2289,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Addison Disease",
+          "MESH:D000224"
+        ],
+        [
+          "Adrenal Hyperplasia, Congenital",
+          "MESH:D000312"
+        ],
+        [
+          "Adrenal Insufficiency",
+          "MESH:D000309"
+        ],
+        [
+          "Anemia, Diamond-Blackfan",
+          "MESH:D029503"
+        ],
+        [
+          "Anemia, Hemolytic, Autoimmune",
+          "MESH:D000744"
+        ],
+        [
+          "Angioedema",
+          "MESH:D000799"
+        ],
+        [
+          "Ankylosing spondylitis",
+          "MESH:D013167"
+        ],
+        [
+          "Arthritis, Gouty",
+          "MESH:D015210"
+        ],
+        [
+          "Arthritis, Juvenile",
+          "MESH:D001171"
+        ],
+        [
+          "Arthritis, Psoriatic",
+          "MESH:D015535"
+        ],
+        [
+          "Arthritis, Rheumatoid",
+          "MESH:D001172"
+        ],
+        [
+          "Asthma",
+          "MESH:D001249"
+        ],
+        [
+          "Autoimmune Diseases",
+          "MESH:D001327"
+        ],
+        [
+          "Berylliosis",
+          "MESH:D001607"
+        ],
+        [
+          "Crohn Disease",
+          "MESH:D003424"
+        ],
+        [
+          "Dermatitis Herpetiformis",
+          "MESH:D003874"
+        ],
+        [
+          "Dermatitis, Atopic",
+          "MESH:D003876"
+        ],
+        [
+          "Dermatitis, Contact",
+          "MESH:D003877"
+        ],
+        [
+          "Dermatitis, Exfoliative",
+          "MESH:D003873"
+        ],
+        [
+          "Erythema Multiforme",
+          "MESH:D004892"
+        ],
+        [
+          "Hodgkin Disease",
+          "MESH:D006689"
+        ],
+        [
+          "Humoral Hypercalcemia Of Malignancy",
+          "MESH:C562390"
+        ],
+        [
+          "Inflammatory Bowel Diseases",
+          "MESH:D015212"
+        ],
+        [
+          "Laryngeal Edema",
+          "MESH:D007819"
+        ],
+        [
+          "Leukemia, Lymphocytic, Chronic, B-Cell",
+          "MESH:D015451"
+        ],
+        [
+          "Lupus Erythematosus, Systemic",
+          "MESH:D008180"
+        ],
+        [
+          "Lymphoma, Follicular",
+          "MESH:D008224"
+        ],
+        [
+          "Lymphoma, Large B-Cell, Diffuse",
+          "MESH:D016403"
+        ],
+        [
+          "Lymphoma, Non-Hodgkin",
+          "MESH:D008228"
+        ],
+        [
+          "Lymphoma, T-Cell, Cutaneous",
+          "MESH:D016410"
+        ],
+        [
+          "Multiple Sclerosis",
+          "MESH:D009103"
+        ],
+        [
+          "Musculoskeletal Diseases",
+          "MESH:D009140"
+        ],
+        [
+          "Mycosis Fungoides",
+          "MESH:D009182"
+        ],
+        [
+          "Nephrotic Syndrome",
+          "MESH:D009404"
+        ],
+        [
+          "Pemphigus",
+          "MESH:D010392"
+        ],
+        [
+          "Psoriasis",
+          "MESH:D011565"
+        ],
+        [
+          "Pulmonary Eosinophilia",
+          "MESH:D011657"
+        ],
+        [
+          "Rheumatic Heart Disease",
+          "MESH:D012214"
+        ],
+        [
+          "Rhinitis, Allergic",
+          "MESH:D065631"
+        ],
+        [
+          "Sarcoidosis",
+          "MESH:D012507"
+        ],
+        [
+          "Serum Sickness",
+          "MESH:D012713"
+        ],
+        [
+          "Skin Diseases",
+          "MESH:D012871"
+        ],
+        [
+          "Tennis Elbow",
+          "MESH:D013716"
+        ],
+        [
+          "Thyroiditis",
+          "MESH:D013966"
+        ],
+        [
+          "Trichinellosis",
+          "MESH:D014235"
+        ]
+      ]
+    },
+    {
+      "drug": "Trovafloxacin",
+      "drug_mesh": "MESH:C080163",
+      "contrasts": 2089,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Chlamydial pneumonia",
+          "MESH:D061387"
+        ],
+        [
+          "Endomyometritis",
+          "MESH:D004716"
+        ],
+        [
+          "Infectious disease of abdomen",
+          "MESH:D059413"
+        ],
+        [
+          "Pneumonia due to Mycoplasma pneumoniae",
+          "MESH:D011019"
+        ],
+        [
+          "Pneumonia due to Streptococcus",
+          "MESH:D011018"
+        ],
+        [
+          "Staphylococcal pneumonia",
+          "MESH:D011023"
+        ],
+        [
+          "Urinary tract infectious disease",
+          "MESH:D014552"
+        ]
+      ]
+    },
+    {
+      "drug": "paclitaxel",
+      "drug_mesh": "MESH:D017239,MESH:D000068196",
+      "contrasts": 1675,
+      "reference_arm_contrasts": 3701,
+      "diseases": [
+        [
+          "Carcinoma of breast",
+          "MESH:D001943"
+        ],
+        [
+          "Hypertensive disorder",
+          "MESH:D006973"
+        ],
+        [
+          "Kaposi's sarcoma",
+          "MESH:D012514"
+        ],
+        [
+          "Malignant tumor of ovary",
+          "MESH:D010051"
+        ],
+        [
+          "Non-small cell lung cancer",
+          "MESH:D002289"
+        ],
+        [
+          "Ocular hypertension",
+          "MESH:D009798"
+        ],
+        [
+          "Open-angle glaucoma",
+          "MESH:D005902"
+        ]
+      ]
+    },
+    {
+      "drug": "Benzoic Acid",
+      "drug_mesh": "MESH:D019817",
+      "contrasts": 1549,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Hyperammonemia",
+          "MESH:D022124"
+        ],
+        [
+          "Penile Induration",
+          "MESH:D010411"
+        ],
+        [
+          "Scleroderma, Localized",
+          "MESH:D012594"
+        ]
+      ]
+    },
+    {
+      "drug": "Benzoic acid",
+      "drug_mesh": "MESH:D019817",
+      "contrasts": 1549,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Dermatomyositis",
+          "MESH:D003882"
+        ],
+        [
+          "Pemphigus",
+          "MESH:D010392"
+        ]
+      ]
+    },
+    {
+      "drug": "methylprednisolone",
+      "drug_mesh": "MESH:D008775",
+      "contrasts": 1401,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Addison Disease",
+          "MESH:D000224"
+        ],
+        [
+          "Adrenal Hyperplasia, Congenital",
+          "MESH:D000312"
+        ],
+        [
+          "Adrenal Insufficiency",
+          "MESH:D000309"
+        ],
+        [
+          "Anemia, Diamond-Blackfan",
+          "MESH:D029503"
+        ],
+        [
+          "Anemia, Hemolytic, Autoimmune",
+          "MESH:D000744"
+        ],
+        [
+          "Angioedema",
+          "MESH:D000799"
+        ],
+        [
+          "Arthritis, Gouty",
+          "MESH:D015210"
+        ],
+        [
+          "Arthritis, Juvenile",
+          "MESH:D001171"
+        ],
+        [
+          "Arthritis, Psoriatic",
+          "MESH:D015535"
+        ],
+        [
+          "Arthritis, Rheumatoid",
+          "MESH:D001172"
+        ],
+        [
+          "Asthma",
+          "MESH:D001249"
+        ],
+        [
+          "Autoimmune Diseases",
+          "MESH:D001327"
+        ],
+        [
+          "Berylliosis",
+          "MESH:D001607"
+        ],
+        [
+          "Brain Edema",
+          "MESH:D001929"
+        ],
+        [
+          "Bursitis",
+          "MESH:D002062"
+        ],
+        [
+          "Crohn Disease",
+          "MESH:D003424"
+        ],
+        [
+          "Dermatitis Herpetiformis",
+          "MESH:D003874"
+        ],
+        [
+          "Dermatitis, Atopic",
+          "MESH:D003876"
+        ],
+        [
+          "Dermatitis, Contact",
+          "MESH:D003877"
+        ],
+        [
+          "Dermatitis, Exfoliative",
+          "MESH:D003873"
+        ],
+        [
+          "Dermatitis, Seborrheic",
+          "MESH:D012628"
+        ],
+        [
+          "Erythema Multiforme",
+          "MESH:D004892"
+        ],
+        [
+          "Exanthema",
+          "MESH:D005076"
+        ],
+        [
+          "Eye Diseases",
+          "MESH:D005128"
+        ],
+        [
+          "Granuloma Annulare",
+          "MESH:D016460"
+        ],
+        [
+          "Hodgkin Disease",
+          "MESH:D006689"
+        ],
+        [
+          "Humoral Hypercalcemia Of Malignancy",
+          "MESH:C562390"
+        ],
+        [
+          "Inflammatory Bowel Diseases",
+          "MESH:D015212"
+        ],
+        [
+          "Laryngeal Edema",
+          "MESH:D007819"
+        ],
+        [
+          "Lupus Erythematosus, Discoid",
+          "MESH:D008179"
+        ],
+        [
+          "Lupus Erythematosus, Systemic",
+          "MESH:D008180"
+        ],
+        [
+          "Lymphoma, Follicular",
+          "MESH:D008224"
+        ],
+        [
+          "Lymphoma, Non-Hodgkin",
+          "MESH:D008228"
+        ],
+        [
+          "Lymphoma, T-Cell, Cutaneous",
+          "MESH:D016410"
+        ],
+        [
+          "Multiple Sclerosis",
+          "MESH:D009103"
+        ],
+        [
+          "Musculoskeletal Diseases",
+          "MESH:D009140"
+        ],
+        [
+          "Mycosis Fungoides",
+          "MESH:D009182"
+        ],
+        [
+          "Nephrotic Syndrome",
+          "MESH:D009404"
+        ],
+        [
+          "Neurodermatitis",
+          "MESH:D009450"
+        ],
+        [
+          "Pemphigus",
+          "MESH:D010392"
+        ],
+        [
+          "Pneumonia, Aspiration",
+          "MESH:D011015"
+        ],
+        [
+          "Pruritus Ani",
+          "MESH:D011538"
+        ],
+        [
+          "Psoriasis",
+          "MESH:D011565"
+        ],
+        [
+          "Pulmonary Eosinophilia",
+          "MESH:D011657"
+        ],
+        [
+          "Rheumatic Heart Disease",
+          "MESH:D012214"
+        ],
+        [
+          "Rhinitis, Allergic",
+          "MESH:D065631"
+        ],
+        [
+          "Rhinitis, Allergic, Perennial",
+          "MESH:D012221"
+        ],
+        [
+          "Rhinitis, Allergic, Seasonal",
+          "MESH:D006255"
+        ],
+        [
+          "Sarcoidosis",
+          "MESH:D012507"
+        ],
+        [
+          "Serum Sickness",
+          "MESH:D012713"
+        ],
+        [
+          "Skin Diseases",
+          "MESH:D012871"
+        ],
+        [
+          "Spondylitis, Ankylosing",
+          "MESH:D013167"
+        ],
+        [
+          "Synovitis",
+          "MESH:D013585"
+        ],
+        [
+          "Tendinopathy",
+          "MESH:D052256"
+        ],
+        [
+          "Tennis Elbow",
+          "MESH:D013716"
+        ],
+        [
+          "Tenosynovitis",
+          "MESH:D013717"
+        ],
+        [
+          "Thyroiditis",
+          "MESH:D013966"
+        ],
+        [
+          "Trichinellosis",
+          "MESH:D014235"
+        ],
+        [
+          "Tuberculosis, Miliary",
+          "MESH:D014391"
+        ]
+      ]
+    },
+    {
+      "drug": "Etanercept",
+      "drug_mesh": "MESH:D000068800",
+      "contrasts": 1231,
+      "reference_arm_contrasts": 65,
+      "diseases": [
+        [
+          "Ankylosing spondylitis",
+          "MESH:D013167"
+        ],
+        [
+          "Juvenile idiopathic arthritis",
+          "MESH:D001171"
+        ],
+        [
+          "Psoriasis with arthropathy",
+          "MESH:D015535"
+        ],
+        [
+          "Rheumatoid arthritis",
+          "MESH:D001172"
+        ]
+      ]
+    },
+    {
+      "drug": "daunorubicin",
+      "drug_mesh": "MESH:D003630",
+      "contrasts": 1203,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Acute monocytic/monoblastic leukemia",
+          "MESH:D007948"
+        ],
+        [
+          "Acute myeloid leukemia, disease",
+          "MESH:D015470"
+        ],
+        [
+          "Acute promyelocytic leukemia, FAB M3",
+          "MESH:D015473"
+        ],
+        [
+          "Erythroleukemia, FAB M6",
+          "MESH:D004915"
+        ],
+        [
+          "Kaposi's sarcoma",
+          "MESH:D012514"
+        ]
+      ]
+    },
+    {
+      "drug": "metformin",
+      "drug_mesh": "MESH:D008687",
+      "contrasts": 928,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Diabetes mellitus type 2",
+          "MESH:D003924"
+        ]
+      ]
+    },
+    {
+      "drug": "ribavirin",
+      "drug_mesh": "MESH:D012254",
+      "contrasts": 741,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Chronic hepatitis C",
+          "MESH:D019698"
+        ],
+        [
+          "Respiratory syncytial virus infection",
+          "MESH:D018357"
+        ]
+      ]
+    },
+    {
+      "drug": "enzalutamide",
+      "drug_mesh": "MESH:C540278",
+      "contrasts": 642,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Malignant tumor of prostate",
+          "MESH:D011471"
+        ]
+      ]
+    },
+    {
+      "drug": "teriflunomide",
+      "drug_mesh": "MESH:C527525",
+      "contrasts": 526,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Multiple sclerosis",
+          "MESH:D009103"
+        ]
+      ]
+    },
+    {
+      "drug": "glycine",
+      "drug_mesh": "MESH:D005998",
+      "contrasts": 491,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Allergic rhinitis",
+          "MESH:D065631"
+        ],
+        [
+          "Common cold",
+          "MESH:D003139"
+        ],
+        [
+          "Cough",
+          "MESH:D003371"
+        ],
+        [
+          "Rhinitis",
+          "MESH:D012220"
+        ]
+      ]
+    },
+    {
+      "drug": "ascorbic acid",
+      "drug_mesh": "MESH:D001205",
+      "contrasts": 431,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Ascorbic acid deficiency",
+          "MESH:D001206"
+        ]
+      ]
+    },
+    {
+      "drug": "tibolone",
+      "drug_mesh": "MESH:C027385",
+      "contrasts": 419,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Postmenopausal osteoporosis",
+          "MESH:D015663"
+        ]
+      ]
+    },
+    {
+      "drug": "arsenic trioxide",
+      "drug_mesh": "MESH:C006632",
+      "contrasts": 417,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Acute myelomonocytic leukemia, FAB M4",
+          "MESH:D015479"
+        ],
+        [
+          "Acute promyelocytic leukemia, FAB M3",
+          "MESH:D015473"
+        ]
+      ]
+    },
+    {
+      "drug": "lactic acid",
+      "drug_mesh": "MESH:D019344",
+      "contrasts": 414,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Itching of skin",
+          "MESH:D011537"
+        ]
+      ]
+    },
+    {
+      "drug": "Progesterone",
+      "drug_mesh": "MESH:D011374",
+      "contrasts": 367,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Atrophic vaginitis",
+          "MESH:D059268"
+        ],
+        [
+          "Dysfunctional uterine bleeding",
+          "MESH:D008796"
+        ],
+        [
+          "Endometrial carcinoma",
+          "MESH:D016889"
+        ],
+        [
+          "Endometriosis",
+          "MESH:D004715"
+        ],
+        [
+          "Menopausal flushing",
+          "MESH:D019584"
+        ],
+        [
+          "Postmenopausal osteoporosis",
+          "MESH:D015663"
+        ]
+      ]
+    },
+    {
+      "drug": "peginterferon alfa-2a",
+      "drug_mesh": "MESH:C100416",
+      "contrasts": 346,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Chronic hepatitis C",
+          "MESH:D019698"
+        ]
+      ]
+    },
+    {
+      "drug": "rituximab",
+      "drug_mesh": "MESH:D000069283",
+      "contrasts": 327,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Chronic lymphoid leukemia, disease",
+          "MESH:D015451"
+        ],
+        [
+          "Non-Hodgkin's lymphoma",
+          "MESH:D008228"
+        ],
+        [
+          "Rheumatoid arthritis",
+          "MESH:D001172"
+        ]
+      ]
+    },
+    {
+      "drug": "orlistat",
+      "drug_mesh": "MESH:C055122",
+      "contrasts": 284,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Obesity",
+          "MESH:D009765"
+        ]
+      ]
+    },
+    {
+      "drug": "Rosuvastatin",
+      "drug_mesh": "MESH:D000068718",
+      "contrasts": 268,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Arteriosclerotic vascular disease",
+          "MESH:D001161"
+        ],
+        [
+          "Cerebrovascular accident",
+          "MESH:D020521"
+        ],
+        [
+          "Familial type 3 hyperlipoproteinemia",
+          "MESH:D006952"
+        ],
+        [
+          "Hypercholesterolemia",
+          "MESH:D006937"
+        ],
+        [
+          "Hypertriglyceridemia",
+          "MESH:D015228"
+        ],
+        [
+          "Mixed hyperlipidemia",
+          "MESH:D006950"
+        ]
+      ]
+    },
+    {
+      "drug": "Interferon beta-1a",
+      "drug_mesh": "MESH:D000068556",
+      "contrasts": 260,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Relapsing remitting multiple sclerosis",
+          "MESH:D020529"
+        ]
+      ]
+    },
+    {
+      "drug": "atorvastatin",
+      "drug_mesh": "MESH:D000069059",
+      "contrasts": 260,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Angina Pectoris",
+          "MESH:D000787"
+        ],
+        [
+          "Angina Pectoris, Variant",
+          "MESH:D000788"
+        ],
+        [
+          "Arteriosclerosis",
+          "MESH:D001161"
+        ],
+        [
+          "Hypercholesterolemia",
+          "MESH:D006937"
+        ],
+        [
+          "Hyperlipidemia, Familial Combined",
+          "MESH:D006950"
+        ],
+        [
+          "Hyperlipoproteinemia Type III",
+          "MESH:D006952"
+        ],
+        [
+          "Hypertriglyceridemia",
+          "MESH:D015228"
+        ],
+        [
+          "Stroke",
+          "MESH:D020521"
+        ]
+      ]
+    },
+    {
+      "drug": "erlotinib",
+      "drug_mesh": "MESH:D000069347",
+      "contrasts": 251,
+      "reference_arm_contrasts": 674,
+      "diseases": [
+        [
+          "Non-small cell lung cancer",
+          "MESH:D002289"
+        ]
+      ]
+    },
+    {
+      "drug": "Simvastatin",
+      "drug_mesh": "MESH:D019821",
+      "contrasts": 233,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Arteriosclerosis",
+          "MESH:D001161"
+        ],
+        [
+          "Hypercholesterolemia",
+          "MESH:D006937"
+        ],
+        [
+          "Hyperlipidemia, Familial Combined",
+          "MESH:D006950"
+        ],
+        [
+          "Hyperlipoproteinemia Type III",
+          "MESH:D006952"
+        ],
+        [
+          "Hypertriglyceridemia",
+          "MESH:D015228"
+        ],
+        [
+          "Hypoalphalipoproteinemias",
+          "MESH:D052456"
+        ],
+        [
+          "Stroke",
+          "MESH:D020521"
+        ]
+      ]
+    },
+    {
+      "drug": "prednisolone",
+      "drug_mesh": "MESH:D011239",
+      "contrasts": 224,
+      "reference_arm_contrasts": 8,
+      "diseases": [
+        [
+          "Addison Disease",
+          "MESH:D000224"
+        ],
+        [
+          "Adrenal Hyperplasia, Congenital",
+          "MESH:D000312"
+        ],
+        [
+          "Adrenal Insufficiency",
+          "MESH:D000309"
+        ],
+        [
+          "Alveolitis, Extrinsic Allergic",
+          "MESH:D000542"
+        ],
+        [
+          "Anemia, Diamond-Blackfan",
+          "MESH:D029503"
+        ],
+        [
+          "Anemia, Hemolytic, Autoimmune",
+          "MESH:D000744"
+        ],
+        [
+          "Angioedema",
+          "MESH:D000799"
+        ],
+        [
+          "Ankylosing spondylitis",
+          "MESH:D013167"
+        ],
+        [
+          "Arthritis, Gouty",
+          "MESH:D015210"
+        ],
+        [
+          "Arthritis, Juvenile",
+          "MESH:D001171"
+        ],
+        [
+          "Arthritis, Psoriatic",
+          "MESH:D015535"
+        ],
+        [
+          "Arthritis, Rheumatoid",
+          "MESH:D001172"
+        ],
+        [
+          "Aspergillosis, Allergic Bronchopulmonary",
+          "MESH:D001229"
+        ],
+        [
+          "Asthma",
+          "MESH:D001249"
+        ],
+        [
+          "Autoimmune Diseases",
+          "MESH:D001327"
+        ],
+        [
+          "Berylliosis",
+          "MESH:D001607"
+        ],
+        [
+          "Brain Edema",
+          "MESH:D001929"
+        ],
+        [
+          "Bursitis",
+          "MESH:D002062"
+        ],
+        [
+          "Colitis, Ulcerative",
+          "MESH:D003093"
+        ],
+        [
+          "Conjunctivitis, Allergic",
+          "MESH:D003233"
+        ],
+        [
+          "Corneal Ulcer",
+          "MESH:D003320"
+        ],
+        [
+          "Crohn Disease",
+          "MESH:D003424"
+        ],
+        [
+          "Dacryocystitis",
+          "MESH:D003607"
+        ],
+        [
+          "Dermatitis Herpetiformis",
+          "MESH:D003874"
+        ],
+        [
+          "Dermatitis, Atopic",
+          "MESH:D003876"
+        ],
+        [
+          "Dermatitis, Contact",
+          "MESH:D003877"
+        ],
+        [
+          "Dermatitis, Exfoliative",
+          "MESH:D003873"
+        ],
+        [
+          "Dermatitis, Seborrheic",
+          "MESH:D012628"
+        ],
+        [
+          "Erythema Multiforme",
+          "MESH:D004892"
+        ],
+        [
+          "Exanthema",
+          "MESH:D005076"
+        ],
+        [
+          "Eye Diseases",
+          "MESH:D005128"
+        ],
+        [
+          "Giant Cell Arteritis",
+          "MESH:D013700"
+        ],
+        [
+          "Granuloma Annulare",
+          "MESH:D016460"
+        ],
+        [
+          "Hodgkin Disease",
+          "MESH:D006689"
+        ],
+        [
+          "Humoral Hypercalcemia Of Malignancy",
+          "MESH:C562390"
+        ],
+        [
+          "Inflammatory Bowel Diseases",
+          "MESH:D015212"
+        ],
+        [
+          "Iridocyclitis",
+          "MESH:D015863"
+        ],
+        [
+          "Iritis",
+          "MESH:D007500"
+        ],
+        [
+          "Keratitis",
+          "MESH:D007634"
+        ],
+        [
+          "Laryngeal Edema",
+          "MESH:D007819"
+        ],
+        [
+          "Lupus Erythematosus, Discoid",
+          "MESH:D008179"
+        ],
+        [
+          "Lupus Erythematosus, Systemic",
+          "MESH:D008180"
+        ],
+        [
+          "Lymphoma, Follicular",
+          "MESH:D008224"
+        ],
+        [
+          "Lymphoma, Non-Hodgkin",
+          "MESH:D008228"
+        ],
+        [
+          "Lymphoma, T-Cell, Cutaneous",
+          "MESH:D016410"
+        ],
+        [
+          "Multiple Sclerosis",
+          "MESH:D009103"
+        ],
+        [
+          "Musculoskeletal Diseases",
+          "MESH:D009140"
+        ],
+        [
+          "Mycosis Fungoides",
+          "MESH:D009182"
+        ],
+        [
+          "Nephrotic Syndrome",
+          "MESH:D009404"
+        ],
+        [
+          "Neurodermatitis",
+          "MESH:D009450"
+        ],
+        [
+          "Ophthalmia, Sympathetic",
+          "MESH:D009879"
+        ],
+        [
+          "Pemphigus",
+          "MESH:D010392"
+        ],
+        [
+          "Pneumonia, Aspiration",
+          "MESH:D011015"
+        ],
+        [
+          "Polymyalgia Rheumatica",
+          "MESH:D011111"
+        ],
+        [
+          "Pruritus Ani",
+          "MESH:D011538"
+        ],
+        [
+          "Psoriasis",
+          "MESH:D011565"
+        ],
+        [
+          "Pulmonary Eosinophilia",
+          "MESH:D011657"
+        ],
+        [
+          "Pulmonary Fibrosis",
+          "MESH:D011658"
+        ],
+        [
+          "Rheumatic Heart Disease",
+          "MESH:D012214"
+        ],
+        [
+          "Rhinitis, Allergic",
+          "MESH:D065631"
+        ],
+        [
+          "Rosacea",
+          "MESH:D012393"
+        ],
+        [
+          "Sarcoidosis",
+          "MESH:D012507"
+        ],
+        [
+          "Serum Sickness",
+          "MESH:D012713"
+        ],
+        [
+          "Sjogren's Syndrome",
+          "MESH:D012859"
+        ],
+        [
+          "Skin Diseases",
+          "MESH:D012871"
+        ],
+        [
+          "Stevens-Johnson Syndrome",
+          "MESH:D013262"
+        ],
+        [
+          "Synovitis",
+          "MESH:D013585"
+        ],
+        [
+          "Tendinopathy",
+          "MESH:D052256"
+        ],
+        [
+          "Tennis Elbow",
+          "MESH:D013716"
+        ],
+        [
+          "Tenosynovitis",
+          "MESH:D013717"
+        ],
+        [
+          "Thyroiditis",
+          "MESH:D013966"
+        ],
+        [
+          "Tuberculosis, Miliary",
+          "MESH:D014391"
+        ]
+      ]
+    },
+    {
+      "drug": "pemetrexed",
+      "drug_mesh": "MESH:D000068437",
+      "contrasts": 220,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Non-small cell lung cancer",
+          "MESH:D002289"
+        ]
+      ]
+    },
+    {
+      "drug": "glutamine",
+      "drug_mesh": "MESH:D005973",
+      "contrasts": 202,
+      "reference_arm_contrasts": 6,
+      "diseases": [
+        [
+          "Short bowel syndrome",
+          "MESH:D012778"
+        ]
+      ]
+    },
+    {
+      "drug": "canakinumab",
+      "drug_mesh": "MESH:C541220",
+      "contrasts": 192,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Articular gout",
+          "MESH:D015210"
+        ],
+        [
+          "Cryopyrin associated periodic syndrome",
+          "MESH:D056587"
+        ],
+        [
+          "Deficiency of mevalonate kinase",
+          "MESH:D054078"
+        ],
+        [
+          "Familial Mediterranean fever",
+          "MESH:D010505"
+        ],
+        [
+          "TNF receptor-associated periodic fever syndrome (TRAPS)",
+          "MESH:C536657"
+        ]
+      ]
+    },
+    {
+      "drug": "glucose",
+      "drug_mesh": "MESH:D005947",
+      "contrasts": 168,
+      "reference_arm_contrasts": 10,
+      "diseases": [
+        [
+          "Hypoglycemia",
+          "MESH:D007003"
+        ]
+      ]
+    },
+    {
+      "drug": "parathyroid hormone",
+      "drug_mesh": "MESH:D010281",
+      "contrasts": 116,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Hypoparathyroidism",
+          "MESH:D007011"
+        ]
+      ]
+    },
+    {
+      "drug": "Rifampicin",
+      "drug_mesh": "MESH:D012293",
+      "contrasts": 108,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Pulmonary tuberculosis",
+          "MESH:D014397"
+        ]
+      ]
+    },
+    {
+      "drug": "serine",
+      "drug_mesh": "MESH:D012694",
+      "contrasts": 84,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Open-angle glaucoma",
+          "MESH:D005902"
+        ],
+        [
+          "Pulmonary tuberculosis",
+          "MESH:D014397"
+        ]
+      ]
+    },
+    {
+      "drug": "iron",
+      "drug_mesh": "MESH:D007501",
+      "contrasts": 73,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Iron deficiency anemia",
+          "MESH:D018798"
+        ]
+      ]
+    },
+    {
+      "drug": "Nitric Oxide",
+      "drug_mesh": "MESH:D009569",
+      "contrasts": 71,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Hypertension, Pulmonary",
+          "MESH:D006976"
+        ],
+        [
+          "Persistent Fetal Circulation Syndrome",
+          "MESH:D010547"
+        ]
+      ]
+    },
+    {
+      "drug": "fluvastatin",
+      "drug_mesh": "MESH:C065180",
+      "contrasts": 36,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Arteriosclerotic vascular disease",
+          "MESH:D001161"
+        ],
+        [
+          "Hypercholesterolemia",
+          "MESH:D006937"
+        ],
+        [
+          "Mixed hyperlipidemia",
+          "MESH:D006950"
+        ]
+      ]
+    },
+    {
+      "drug": "baricitinib",
+      "drug_mesh": "MESH:C000596027",
+      "contrasts": 33,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Arthritis, Rheumatoid",
+          "MESH:D001172"
+        ]
+      ]
+    },
+    {
+      "drug": "Interferon beta-1b",
+      "drug_mesh": "MESH:D000068576",
+      "contrasts": 30,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Relapsing remitting multiple sclerosis",
+          "MESH:D020529"
+        ]
+      ]
+    },
+    {
+      "drug": "lithium carbonate",
+      "drug_mesh": "MESH:D016651",
+      "contrasts": 27,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Bipolar disorder",
+          "MESH:D001714"
+        ],
+        [
+          "Dysmenorrhea",
+          "MESH:D004412"
+        ],
+        [
+          "Fever",
+          "MESH:D005334"
+        ],
+        [
+          "Headache disorder",
+          "MESH:D020773"
+        ],
+        [
+          "Juvenile rheumatoid arthritis",
+          "MESH:D001171"
+        ],
+        [
+          "Osteoarthritis",
+          "MESH:D010003"
+        ],
+        [
+          "Pain",
+          "MESH:D010146"
+        ],
+        [
+          "Rheumatoid arthritis",
+          "MESH:D001172"
+        ]
+      ]
+    },
+    {
+      "drug": "vorinostat",
+      "drug_mesh": "MESH:C111237",
+      "contrasts": 27,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Primary cutaneous T-cell lymphoma",
+          "MESH:D016410"
+        ]
+      ]
+    },
+    {
+      "drug": "Bevacizumab",
+      "drug_mesh": "MESH:D000068258",
+      "contrasts": 25,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Glioblastoma multiforme",
+          "MESH:D005909"
+        ]
+      ]
+    },
+    {
+      "drug": "phenol",
+      "drug_mesh": "MESH:D019800",
+      "contrasts": 19,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Itching of skin",
+          "MESH:D011537"
+        ]
+      ]
+    },
+    {
+      "drug": "Pioglitazone",
+      "drug_mesh": "MESH:D000077205",
+      "contrasts": 16,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Diabetes Mellitus, Type 2",
+          "MESH:D003924"
+        ]
+      ]
+    },
+    {
+      "drug": "dupilumab",
+      "drug_mesh": "MESH:C582203",
+      "contrasts": 14,
+      "reference_arm_contrasts": 5,
+      "diseases": [
+        [
+          "Atopic dermatitis",
+          "MESH:D003876"
+        ]
+      ]
+    },
+    {
+      "drug": "tamoxifen",
+      "drug_mesh": "MESH:D013629",
+      "contrasts": 12,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Infiltrating duct carcinoma of breast",
+          "MESH:D018270"
+        ]
+      ]
+    },
+    {
+      "drug": "anastrozole",
+      "drug_mesh": "MESH:D000077384",
+      "contrasts": 8,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Hormone receptor positive malignant neoplasm of breast",
+          "MESH:D001943"
+        ]
+      ]
+    },
+    {
+      "drug": "indomethacin",
+      "drug_mesh": "MESH:D007213",
+      "contrasts": 7,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Ankylosing spondylitis",
+          "MESH:D013167"
+        ],
+        [
+          "Bursitis",
+          "MESH:D002062"
+        ],
+        [
+          "Gout",
+          "MESH:D006073"
+        ],
+        [
+          "Osteoarthritis",
+          "MESH:D010003"
+        ],
+        [
+          "Patent ductus arteriosus",
+          "MESH:D004374"
+        ],
+        [
+          "Rheumatoid arthritis",
+          "MESH:D001172"
+        ],
+        [
+          "Synovitis",
+          "MESH:D013585"
+        ],
+        [
+          "Tendinitis",
+          "MESH:D052256"
+        ],
+        [
+          "Tenosynovitis",
+          "MESH:D013717"
+        ]
+      ]
+    },
+    {
+      "drug": "cytarabine",
+      "drug_mesh": "MESH:D003561",
+      "contrasts": 4,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Acute myeloid leukemia, disease",
+          "MESH:D015470"
+        ],
+        [
+          "Acute promyelocytic leukemia, FAB M3",
+          "MESH:D015473"
+        ]
+      ]
+    },
+    {
+      "drug": "isotretinoin",
+      "drug_mesh": "MESH:D015474",
+      "contrasts": 4,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Hypertensive disorder",
+          "MESH:D006973"
+        ]
+      ]
+    },
+    {
+      "drug": "chloroquine",
+      "drug_mesh": "MESH:D002738",
+      "contrasts": 3,
+      "reference_arm_contrasts": 0,
+      "diseases": [
+        [
+          "Discoid lupus erythematosus",
+          "MESH:D008179"
+        ],
+        [
+          "Falciparum malaria",
+          "MESH:D016778"
+        ],
+        [
+          "Rheumatoid arthritis",
+          "MESH:D001172"
+        ],
+        [
+          "Systemic lupus erythematosus",
+          "MESH:D008180"
+        ],
+        [
+          "Vivax malaria",
+          "MESH:D016780"
+        ]
+      ]
+    }
+  ]
+}

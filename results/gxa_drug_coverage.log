@@ -1,0 +1,83 @@
+testing 1643 DrugMechDB drugs against GXA human contrasts
+
+  [4/1643] Acetaminophen                      contrasts=  4543 (ref-arm 0)  indications=8
+  [49/1643] Benzoic Acid                       contrasts=  1549 (ref-arm 0)  indications=3
+  [50/1643] Benzoic acid                       contrasts=  1549 (ref-arm 0)  indications=2
+  [54/1643] Bevacizumab                        contrasts=    25 (ref-arm 0)  indications=1
+  [148/1643] Estradiol                          contrasts=  7097 (ref-arm 1872)  indications=4
+  [150/1643] Etanercept                         contrasts=  1231 (ref-arm 65)  indications=4
+  [192/1643] Interferon beta-1a                 contrasts=   260 (ref-arm 0)  indications=1
+  [193/1643] Interferon beta-1b                 contrasts=    30 (ref-arm 0)  indications=1
+  ... 200/1643 tested, 8 with coverage, 9s
+  [255/1643] Nitric Oxide                       contrasts=    71 (ref-arm 0)  indications=2
+  [270/1643] Panobinostat                       contrasts=  4759 (ref-arm 0)  indications=2
+  [287/1643] Pioglitazone                       contrasts=    16 (ref-arm 0)  indications=1
+  [302/1643] Progesterone                       contrasts=   367 (ref-arm 0)  indications=6
+  [312/1643] Rifampicin                         contrasts=   108 (ref-arm 0)  indications=1
+  [318/1643] Rosuvastatin                       contrasts=   268 (ref-arm 0)  indications=6
+  [326/1643] Simvastatin                        contrasts=   233 (ref-arm 0)  indications=7
+  [360/1643] Trabectedin                        contrasts=  2893 (ref-arm 0)  indications=3
+  [375/1643] Trovafloxacin                      contrasts=  2089 (ref-arm 0)  indications=7
+  [380/1643] Valproic Acid                      contrasts= 21056 (ref-arm 0)  indications=1
+  [399/1643] acetaminophen                      contrasts=  4543 (ref-arm 0)  indications=1
+  ... 400/1643 tested, 19 with coverage, 18s
+  [456/1643] anakinra                           contrasts=  4070 (ref-arm 0)  indications=2
+  [457/1643] anastrozole                        contrasts=     8 (ref-arm 0)  indications=1
+  [466/1643] arsenic trioxide                   contrasts=   417 (ref-arm 0)  indications=2
+  [468/1643] ascorbic acid                      contrasts=   431 (ref-arm 0)  indications=1
+  [476/1643] atorvastatin                       contrasts=   260 (ref-arm 0)  indications=8
+  [493/1643] baricitinib                        contrasts=    33 (ref-arm 0)  indications=1
+  [574/1643] canakinumab                        contrasts=   192 (ref-arm 0)  indications=5
+  ... 600/1643 tested, 26 with coverage, 26s
+  [622/1643] chloroquine                        contrasts=     3 (ref-arm 0)  indications=5
+  [643/1643] cisplatin                          contrasts= 18766 (ref-arm 3209)  indications=1
+  [685/1643] cytarabine                         contrasts=     4 (ref-arm 0)  indications=2
+  [701/1643] daunorubicin                       contrasts=  1203 (ref-arm 0)  indications=5
+  [720/1643] dexamethasone                      contrasts= 23314 (ref-arm 0)  indications=65
+  [746/1643] digoxin                            contrasts=  2817 (ref-arm 0)  indications=1
+  [767/1643] docetaxel                          contrasts=  3750 (ref-arm 1243)  indications=5
+  [778/1643] doxorubicin                        contrasts= 13244 (ref-arm 3370)  indications=15
+  [779/1643] doxycycline                        contrasts= 29768 (ref-arm 3291)  indications=35
+  [785/1643] dupilumab                          contrasts=    14 (ref-arm 5)  indications=1
+  ... 800/1643 tested, 36 with coverage, 34s
+  [809/1643] enzalutamide                       contrasts=   642 (ref-arm 0)  indications=1
+  [821/1643] erlotinib                          contrasts=   251 (ref-arm 674)  indications=1
+  [829/1643] estradiol                          contrasts=  7097 (ref-arm 1872)  indications=1
+  [890/1643] fluvastatin                        contrasts=    36 (ref-arm 0)  indications=3
+  [909/1643] gefitinib                          contrasts=  3817 (ref-arm 1486)  indications=1
+  [928/1643] glucose                            contrasts=   168 (ref-arm 10)  indications=1
+  [929/1643] glutamine                          contrasts=   202 (ref-arm 6)  indications=1
+  [934/1643] glycine                            contrasts=   491 (ref-arm 0)  indications=4
+  [988/1643] indomethacin                       contrasts=     7 (ref-arm 0)  indications=9
+  [989/1643] infliximab                         contrasts= 12759 (ref-arm 375)  indications=5
+  ... 1000/1643 tested, 46 with coverage, 43s
+  [1004/1643] iron                               contrasts=    73 (ref-arm 0)  indications=1
+  [1010/1643] isotretinoin                       contrasts=     4 (ref-arm 0)  indications=1
+  [1022/1643] lactic acid                        contrasts=   414 (ref-arm 0)  indications=1
+  [1065/1643] lithium carbonate                  contrasts=    27 (ref-arm 0)  indications=8
+  [1122/1643] metformin                          contrasts=   928 (ref-arm 0)  indications=1
+  [1131/1643] methotrexate                       contrasts=  2289 (ref-arm 3966)  indications=9
+  [1143/1643] methylprednisolone                 contrasts=  1401 (ref-arm 0)  indications=59
+  ... 1200/1643 tested, 53 with coverage, 52s
+  [1243/1643] orlistat                           contrasts=   284 (ref-arm 0)  indications=1
+  [1261/1643] paclitaxel                         contrasts=  1675 (ref-arm 3701)  indications=7
+  [1266/1643] parathyroid hormone                contrasts=   116 (ref-arm 0)  indications=1
+  [1275/1643] peginterferon alfa-2a              contrasts=   346 (ref-arm 0)  indications=1
+  [1280/1643] pemetrexed                         contrasts=   220 (ref-arm 0)  indications=1
+  [1304/1643] phenol                             contrasts=    19 (ref-arm 0)  indications=1
+  [1348/1643] prednisolone                       contrasts=   224 (ref-arm 8)  indications=72
+  [1351/1643] prednisone                         contrasts=  2289 (ref-arm 0)  indications=45
+  [1397/1643] ribavirin                          contrasts=   741 (ref-arm 0)  indications=2
+  ... 1400/1643 tested, 62 with coverage, 60s
+  [1410/1643] rituximab                          contrasts=   327 (ref-arm 0)  indications=3
+  [1435/1643] serine                             contrasts=    84 (ref-arm 0)  indications=2
+  [1462/1643] sorafenib                          contrasts=  2962 (ref-arm 0)  indications=2
+  [1494/1643] tamoxifen                          contrasts=    12 (ref-arm 0)  indications=1
+  [1523/1643] teriflunomide                      contrasts=   526 (ref-arm 0)  indications=1
+  [1542/1643] tibolone                           contrasts=   419 (ref-arm 0)  indications=1
+  ... 1600/1643 tested, 68 with coverage, 69s
+  [1606/1643] valproic acid                      contrasts= 21056 (ref-arm 0)  indications=3
+  [1630/1643] vorinostat                         contrasts=    27 (ref-arm 0)  indications=1
+
+--- 70/1643 DrugMechDB drugs have >=1 human GXA contrast (4.3%) in 71s ---
+wrote results/gxa_drug_coverage.json

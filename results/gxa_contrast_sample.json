@@ -1,0 +1,2205 @@
+{
+  "sampled_records": 40000,
+  "distinct_contrasts": 299,
+  "distinct_experiments": 1220,
+  "test_arms": [
+    [
+      "blood alcohol content 0.04%rising",
+      2598
+    ],
+    [
+      "blood alcohol content 0.08%",
+      2193
+    ],
+    [
+      "blood alcohol content 0.04%declining",
+      2041
+    ],
+    [
+      "blood alcohol content 0%",
+      1404
+    ],
+    [
+      "blood alcohol content 0.02%declining",
+      799
+    ],
+    [
+      "early mesodermal progenitors",
+      774
+    ],
+    [
+      "cultured skin substitute; 28 day",
+      709
+    ],
+    [
+      "stimulation",
+      627
+    ],
+    [
+      "docosahexaenoic acid; lipopolysaccharide",
+      585
+    ],
+    [
+      "SARS coronavirus Urbani \u0394ORF6 mutant",
+      521
+    ],
+    [
+      "clear cell renal carcinoma",
+      514
+    ],
+    [
+      "MCF-7 clone 5C",
+      497
+    ],
+    [
+      "SARS coronavirus Urbani",
+      492
+    ],
+    [
+      "malignant mesothelioma; wild type",
+      478
+    ],
+    [
+      "Kidney Oncocytoma",
+      476
+    ],
+    [
+      "cultured skin substitute; 7 day",
+      458
+    ],
+    [
+      "cells activated for 72 hr by adding PHA-L",
+      443
+    ],
+    [
+      "DAOY M14; MYC overexpression",
+      442
+    ],
+    [
+      "child; burn; middle stage",
+      439
+    ],
+    [
+      "10 unit per milliliter; JFHA",
+      414
+    ],
+    [
+      "dexamethasone; 100 nanomolar",
+      408
+    ],
+    [
+      "12 month",
+      388
+    ],
+    [
+      "lesional; psoriasis",
+      382
+    ],
+    [
+      "Numb5 overexpression",
+      380
+    ],
+    [
+      "cultured skin substitute; 14 day",
+      371
+    ],
+    [
+      "pEGZ-transfected (empty vector)",
+      364
+    ],
+    [
+      "atopic eczema; normal skin",
+      359
+    ],
+    [
+      "ML792; 400 nanomolar; 24 hour",
+      358
+    ],
+    [
+      "Numb6 overexpression",
+      338
+    ],
+    [
+      "Ad-HER2-wt (wild type)",
+      321
+    ],
+    [
+      "adrenocortical carcinoma",
+      316
+    ],
+    [
+      "Numb4 overexpression",
+      311
+    ],
+    [
+      "non-small cell lung cancer",
+      308
+    ],
+    [
+      "ML792; 400 nanomolar; 4 hour",
+      301
+    ],
+    [
+      "H5N1 influenza virus",
+      291
+    ],
+    [
+      "resveratrol; 250 millimolar",
+      287
+    ],
+    [
+      "papillary renal cell carcinoma",
+      283
+    ],
+    [
+      "after first infliximab treatment; no response to infliximab treatment; Crohn's disease",
+      280
+    ],
+    [
+      "DU-145; converted to docetaxel resistant cells",
+      272
+    ],
+    [
+      "villitis of unknown etiology; high immune cell infiltration",
+      269
+    ],
+    [
+      "PC3; converted to docetaxel resistant cells",
+      268
+    ],
+    [
+      "influenza A virus",
+      266
+    ],
+    [
+      "cultured skin substitute; 42 day",
+      263
+    ],
+    [
+      "cancer tissue",
+      257
+    ],
+    [
+      "1,25-dihydroxyvitamin D3; 10 nanomolar",
+      254
+    ],
+    [
+      "pituitary cancer",
+      253
+    ],
+    [
+      "BMP2",
+      252
+    ],
+    [
+      "gastric carcinoma; tumor",
+      244
+    ],
+    [
+      "adult; burn; early stage",
+      243
+    ],
+    [
+      "healthy volunteers; 12 hours cortisol and 6 hours lipopolysaccharide",
+      238
+    ],
+    [
+      "Mycobacterium tuberculosis H37Rv whole cell lysate",
+      235
+    ],
+    [
+      "stromal cell; invasive breast cancer",
+      234
+    ],
+    [
+      "breast carcinoma",
+      227
+    ],
+    [
+      "MCF-7 clone 2A",
+      224
+    ],
+    [
+      "cultured skin substitute; 3 day",
+      223
+    ],
+    [
+      "resveratrol; 150 millimolar",
+      211
+    ],
+    [
+      "hyperglycemic condition",
+      204
+    ],
+    [
+      "5-aza-deoxycytidine and trichostatin",
+      202
+    ],
+    [
+      "20 percent oxygen; old",
+      198
+    ],
+    [
+      "BEZ235; 90 per cent inhibitory concentration",
+      196
+    ],
+    [
+      "ependymoma",
+      187
+    ],
+    [
+      "primary tumor",
+      185
+    ],
+    [
+      "human rhinovirus",
+      185
+    ],
+    [
+      "serum-free medium",
+      184
+    ],
+    [
+      "child; burn; early stage",
+      182
+    ],
+    [
+      "before first infliximab treatment; response to infliximab treatment; Crohn's disease",
+      182
+    ],
+    [
+      "3 percent oxygen; young",
+      176
+    ],
+    [
+      "ML792; 400 nanomolar; 48 hour",
+      176
+    ],
+    [
+      "TGFbeta3",
+      176
+    ],
+    [
+      "S1 stimulation (French trial conditions)' at '48 hour",
+      175
+    ],
+    [
+      "Newcastle disease virus' at '16 hour",
+      172
+    ],
+    [
+      "resistant to BMS-554417",
+      170
+    ],
+    [
+      "docetaxel; 2 nanomolar",
+      169
+    ],
+    [
+      "after first infliximab treatment; no response to infliximab treatment; ulcerative colitis",
+      169
+    ],
+    [
+      "S2 stimulation (British trial conditions)' at '48 hour",
+      165
+    ],
+    [
+      "10 nanomolar; estradiol",
+      164
+    ],
+    [
+      "kidney transplant; rejection",
+      164
+    ],
+    [
+      "3 percent oxygen; old",
+      162
+    ],
+    [
+      "Newcastle disease virus' at '14 hour",
+      162
+    ],
+    [
+      "CD3 and CD28",
+      161
+    ],
+    [
+      "metastatic tissue",
+      161
+    ],
+    [
+      "S2 stimulation (British trial conditions)' at '72 hour",
+      160
+    ],
+    [
+      "intraductal papillary-mucinous neoplasm (IPMN)",
+      157
+    ],
+    [
+      "oligodendroglioma",
+      155
+    ],
+    [
+      "25 nanogram per milliliter; IL28b",
+      154
+    ],
+    [
+      "invasive ductal carcinoma",
+      150
+    ],
+    [
+      "A375; Wnt-1 overexpressing; ",
+      149
+    ],
+    [
+      "LBH589 (panobinostat)",
+      149
+    ],
+    [
+      "Plasmodium falciparum 3D7",
+      149
+    ],
+    [
+      "chromophobe renal cell carcinoma",
+      141
+    ],
+    [
+      "PR8 influenza virus",
+      140
+    ],
+    [
+      "lesional",
+      135
+    ],
+    [
+      "cigarette smoke",
+      134
+    ],
+    [
+      "M24met; Wnt-1 overexpressing; ",
+      134
+    ],
+    [
+      "IKK2kd-transfected",
+      131
+    ],
+    [
+      "S1 stimulation (French trial conditions)' at '96 hour",
+      130
+    ],
+    [
+      "Notch2-IC expression",
+      128
+    ],
+    [
+      "control media in hypoxia (1% pO2)",
+      126
+    ],
+    [
+      "human cytomegalovirus strain Towne/E-infected monocyte",
+      118
+    ],
+    [
+      "LMP1",
+      116
+    ],
+    [
+      "invasive",
+      111
+    ],
+    [
+      "24 month",
+      111
+    ],
+    [
+      "S1 stimulation (French trial conditions)' at '72 hour",
+      109
+    ],
+    [
+      "GCD0941; max",
+      108
+    ],
+    [
+      "interferon-alpha",
+      105
+    ],
+    [
+      "leucine free medium",
+      104
+    ],
+    [
+      "panobinostat",
+      103
+    ],
+    [
+      "shear stress; senescent",
+      101
+    ],
+    [
+      "glioblastoma tumor mass",
+      101
+    ],
+    [
+      "oral squamous cell carcinoma",
+      100
+    ],
+    [
+      "malignant mesothelioma; ERK5 knockdown",
+      98
+    ],
+    [
+      "villitis of unknown etiology; low immune cell infiltration",
+      97
+    ],
+    [
+      "3 month",
+      97
+    ],
+    [
+      "5 micromolar CG-1521",
+      96
+    ],
+    [
+      "interferon-alpha + U0126",
+      96
+    ],
+    [
+      "non small cell lung cancer; sensitive to erlotinib",
+      92
+    ],
+    [
+      "10 nanomolar 17beta-estradiol and 5 micromolar CG-1521",
+      90
+    ],
+    [
+      "HRV-16 rhinovirus",
+      89
+    ],
+    [
+      "ML792; 400 nanomolar; 8 hour",
+      89
+    ],
+    [
+      "MEK1 over expression",
+      89
+    ],
+    [
+      "neoplasm",
+      88
+    ],
+    [
+      "2HRZE/4HR' at '26 week",
+      85
+    ],
+    [
+      "miR-221/222",
+      85
+    ],
+    [
+      "immortalised T lymphocyte; interleukin 2 deprivation",
+      84
+    ],
+    [
+      "BEZ235; max",
+      80
+    ],
+    [
+      "astrocytic glioma",
+      80
+    ],
+    [
+      "Lot II; Zoledronate; 100 micromolar' at '24 hour",
+      79
+    ],
+    [
+      "prostaglandin",
+      78
+    ],
+    [
+      "expression of BRAF(V600E) and MITF",
+      75
+    ],
+    [
+      "static stress; senescent",
+      74
+    ],
+    [
+      "hypoxia",
+      70
+    ],
+    [
+      "PKA RII-beta over expression",
+      70
+    ],
+    [
+      "vehicle; lipopolysaccharide",
+      69
+    ],
+    [
+      "adult; burn; middle stage",
+      68
+    ],
+    [
+      "rotenone; 5 nanomolar' at '4 week",
+      67
+    ],
+    [
+      "6 hour; IFN",
+      64
+    ],
+    [
+      "Stat5a/b knockdown",
+      61
+    ],
+    [
+      "interferon alpha",
+      61
+    ],
+    [
+      "6 hour; IL28B",
+      60
+    ],
+    [
+      "100 picogram per milliliter; staphylococcal superantigen SEB",
+      60
+    ],
+    [
+      "6 hour 100 nanomolar estrogen",
+      57
+    ],
+    [
+      "24 hour, IL28B",
+      55
+    ],
+    [
+      "arsenic trioxide; 2.5 micromolar",
+      54
+    ],
+    [
+      "U0126",
+      51
+    ],
+    [
+      "Newcastle disease virus' at '8 hour",
+      49
+    ],
+    [
+      "Newcastle disease virus' at '10 hour",
+      46
+    ],
+    [
+      "resistant to cisplatin",
+      45
+    ],
+    [
+      "rheumatoid arthritis",
+      43
+    ],
+    [
+      "xenografted spheroid",
+      43
+    ],
+    [
+      "lymphangiogenic",
+      43
+    ],
+    [
+      "tumor",
+      42
+    ],
+    [
+      "1 micromolar NSC319726",
+      41
+    ],
+    [
+      "dysplasia",
+      41
+    ],
+    [
+      "CXCR4 shRNA I",
+      41
+    ],
+    [
+      "overexpression of HO-1",
+      38
+    ],
+    [
+      "3 hour 100 nanomolar estrogen",
+      38
+    ],
+    [
+      "meningococcal sepsis; blood' at '24 hour",
+      37
+    ],
+    [
+      "paclitaxel-eluting stent",
+      37
+    ],
+    [
+      "JMJD6 over-expressed; MCF-7",
+      35
+    ],
+    [
+      "Late SV40 Factor (LSF) over expression",
+      35
+    ],
+    [
+      "resistant to methotrexate",
+      34
+    ],
+    [
+      "paclitaxel; 7 nanomolar",
+      33
+    ],
+    [
+      "tobacco smoke condensate 1 microgram per milliliter",
+      33
+    ],
+    [
+      "estradiol",
+      33
+    ],
+    [
+      "recombinant human TGF-beta 3 (5 nanogram per milliliter)",
+      32
+    ],
+    [
+      "6 month",
+      30
+    ],
+    [
+      "Stat3 knockdown",
+      30
+    ],
+    [
+      "nephrosclerosis",
+      28
+    ],
+    [
+      "MPS-1 shRNA",
+      27
+    ],
+    [
+      "lung cancer",
+      27
+    ],
+    [
+      "expressing CXCR4",
+      27
+    ],
+    [
+      "insulin-like growth factor' at '24 hour",
+      26
+    ],
+    [
+      "tumor tissue",
+      26
+    ],
+    [
+      "Newcastle disease virus' at '18 hour",
+      26
+    ],
+    [
+      "S2 stimulation (British trial conditions)' at '96 hour",
+      25
+    ],
+    [
+      "HRas over expression",
+      24
+    ],
+    [
+      "adrenocortical adenoma",
+      23
+    ],
+    [
+      "xenografted parental",
+      23
+    ],
+    [
+      "LSD1 knockdown",
+      23
+    ],
+    [
+      "10 nanomolar 17beta-estradiol and 7.5 micromolar CG-1521",
+      23
+    ],
+    [
+      "side population cell",
+      23
+    ],
+    [
+      "before first infliximab treatment; no response to infliximab treatment; Crohn's disease",
+      23
+    ],
+    [
+      "1,25-dihydroxyvitamin D3",
+      23
+    ],
+    [
+      "glioblastoma",
+      22
+    ],
+    [
+      "abl; dihydrotestosterone; 16 hour",
+      21
+    ],
+    [
+      "atypical teratoid / rhabdoid tumor",
+      21
+    ],
+    [
+      "24 hour; IFN",
+      21
+    ],
+    [
+      "expressing Cyr61",
+      21
+    ],
+    [
+      "BRCA1 RNAi",
+      20
+    ],
+    [
+      "transfection with miR-Dmimic",
+      19
+    ],
+    [
+      "interstitial lung disease; forced vital capacity 2",
+      18
+    ],
+    [
+      "interferon beta",
+      18
+    ],
+    [
+      "medulloblastoma, large-cell",
+      17
+    ],
+    [
+      "bg-CAT 25 nanonmolar",
+      17
+    ],
+    [
+      "BEZ235; 50 per cent inhibitory concentration",
+      16
+    ],
+    [
+      "2HRZE/4HR' at '4 week",
+      16
+    ],
+    [
+      "rotenone; 50 nanomolar' at '1 week",
+      15
+    ],
+    [
+      "neocarzinostatin",
+      15
+    ],
+    [
+      "standard immunotherapy",
+      15
+    ],
+    [
+      "estrogen receptor alpha knockdown",
+      15
+    ],
+    [
+      "acute myeloid leukemia; two days post-chemotherapy",
+      14
+    ],
+    [
+      "malignant mesothelioma; ERK2 knockdown",
+      14
+    ],
+    [
+      "12 hour 100 nanomolar estrogen",
+      13
+    ],
+    [
+      "benzo[a]pyrene diolepoxide; 0.05 micromolar' at '10 hour",
+      13
+    ],
+    [
+      "rheumatoid factor-negative juvenile idiopathic arthritis",
+      13
+    ],
+    [
+      "estrogen receptor alpha mutation: positive; PIK3CA mutation: positive",
+      12
+    ],
+    [
+      "tobacco smoke condensate 3 microgram per milliliter",
+      12
+    ],
+    [
+      "100 picogram per milliliter; staphylococcal superantigen SEI",
+      11
+    ],
+    [
+      "medulloblastoma",
+      11
+    ],
+    [
+      "second occurrence of tumor; dendritic cell vaccination",
+      11
+    ],
+    [
+      "Nijmegen breakage syndrome; interleukin 2 deprivation",
+      10
+    ],
+    [
+      "colon cancer",
+      10
+    ],
+    [
+      "Lot II; Zoledronate; 30 micromolar' at '48 hour",
+      9
+    ],
+    [
+      "gastric carcinoma; adjacent normal tissue",
+      8
+    ],
+    [
+      "transfection with miR-Qmimic",
+      8
+    ],
+    [
+      "co-culture with airway epithelial cells",
+      8
+    ],
+    [
+      "Parkinson's disease",
+      7
+    ],
+    [
+      "high dose IL2",
+      7
+    ],
+    [
+      "sarcoidosis; no uveitis",
+      7
+    ],
+    [
+      "benzo[a]pyrene diolepoxide; 0.05 micromolar' at '22 hour",
+      6
+    ],
+    [
+      "before first infliximab treatment; response to infliximab treatment; ulcerative colitis",
+      6
+    ],
+    [
+      "stromal cell; normal",
+      6
+    ],
+    [
+      "acute myeloid leukemia; pre-chemotherapy",
+      5
+    ],
+    [
+      "A375; Wnt-1 overexpressing; animals were fed with cyclosporine A (50mg/kg/day)",
+      5
+    ],
+    [
+      "type II diabetes mellitus and post-ischemic heart failure",
+      5
+    ],
+    [
+      "androgen and tamoxifen",
+      5
+    ],
+    [
+      "androgen and letrozole",
+      5
+    ],
+    [
+      "axial spondyloarthropathy; no uveitis",
+      5
+    ],
+    [
+      "si221",
+      4
+    ],
+    [
+      "interferon gamma",
+      4
+    ],
+    [
+      "Ad-HER2-ki (kinase inactive)",
+      3
+    ],
+    [
+      "co-culture with nurse-like cells",
+      3
+    ],
+    [
+      "none; PKCiota, PKCzeta double knockdown",
+      3
+    ],
+    [
+      "monocyte; meningococcal sepsis' at '24 hour",
+      3
+    ],
+    [
+      "S100P overexpressing",
+      3
+    ],
+    [
+      "pancreatic cancer",
+      3
+    ],
+    [
+      "rotenone; 5 nanomolar' at '1 week",
+      2
+    ],
+    [
+      "androgen and anastrozole",
+      2
+    ],
+    [
+      "healthy volunteers; 24 hours post saline and lipopolysaccharide",
+      2
+    ],
+    [
+      "dexamethasone",
+      2
+    ],
+    [
+      "interstitial lung disease; forced vital capacity 1",
+      1
+    ],
+    [
+      "transforming growth factor beta; PKCiota, PKCzeta double knockdown",
+      1
+    ],
+    [
+      "pulmonary arterial hypertension",
+      1
+    ],
+    [
+      "Lot I; Fluvastatin; 2 micromolar' at '12 hour",
+      1
+    ],
+    [
+      "BCL11A siRNA",
+      1
+    ],
+    [
+      "long-term survival",
+      1
+    ],
+    [
+      "normal epithelial cell; pregnancy associate breast cancer patient",
+      1
+    ],
+    [
+      "tumor associated stroma cell; pregnancy associate breast cancer patient",
+      1
+    ],
+    [
+      "tumor epithelial cell; pregnancy associate breast cancer patient",
+      1
+    ],
+    [
+      "pirinixic acid; 50 micromolar",
+      1
+    ]
+  ],
+  "contrasts": [
+    [
+      "'blood alcohol content 0.04%rising' vs 'control' in 'time point 2'",
+      2598
+    ],
+    [
+      "'blood alcohol content 0.08%' vs 'control' in 'time point 3'",
+      2193
+    ],
+    [
+      "'blood alcohol content 0.04%declining' vs 'control' in 'time point 4'",
+      2041
+    ],
+    [
+      "'blood alcohol content 0%' vs 'control' in 'time point 1'",
+      1404
+    ],
+    [
+      "'blood alcohol content 0.02%declining' vs 'control' in 'time point 5'",
+      799
+    ],
+    [
+      "'early mesodermal progenitors' vs 'undifferentiated cells'",
+      774
+    ],
+    [
+      "'cultured skin substitute; 28 day' vs 'skin; 0 day'",
+      709
+    ],
+    [
+      "'stimulation' vs 'control'",
+      627
+    ],
+    [
+      "'docosahexaenoic acid; lipopolysaccharide' vs 'docosahexaenoic acid; vehicle'",
+      585
+    ],
+    [
+      "'clear cell renal carcinoma' vs 'normal' in 'adult'",
+      514
+    ],
+    [
+      "'MCF-7 clone 5C' vs 'MCF-7'",
+      497
+    ],
+    [
+      "'malignant mesothelioma; wild type' vs 'normal; wild type'",
+      478
+    ],
+    [
+      "'Kidney Oncocytoma' vs 'normal' in 'adult'",
+      476
+    ],
+    [
+      "'cultured skin substitute; 7 day' vs 'skin; 0 day'",
+      458
+    ],
+    [
+      "'cells activated for 72 hr by adding PHA-L' vs 'control'",
+      443
+    ],
+    [
+      "'child; burn; middle stage' vs 'child; control'",
+      439
+    ],
+    [
+      "'10 unit per milliliter; JFHA' vs 'control'",
+      414
+    ],
+    [
+      "'DAOY M14; MYC overexpression' vs 'DAOY; vector control'",
+      412
+    ],
+    [
+      "'cultured skin substitute; 14 day' vs 'skin; 0 day'",
+      371
+    ],
+    [
+      "'atopic eczema; normal skin' vs 'normal; normal skin'",
+      359
+    ],
+    [
+      "'ML792; 400 nanomolar; 24 hour' vs 'dimethyl sulfoxide; 48 hour'",
+      358
+    ],
+    [
+      "'Ad-HER2-wt (wild type)' vs 'Ad-GFP'",
+      321
+    ],
+    [
+      "'adrenocortical carcinoma' vs 'normal'",
+      316
+    ],
+    [
+      "'non-small cell lung cancer' vs 'normal'",
+      308
+    ],
+    [
+      "'ML792; 400 nanomolar; 4 hour' vs 'dimethyl sulfoxide; 48 hour'",
+      301
+    ],
+    [
+      "'H5N1 influenza virus' vs 'none' in 'wild type'",
+      291
+    ],
+    [
+      "'resveratrol; 250 millimolar' vs 'vehicle; '",
+      287
+    ],
+    [
+      "'papillary renal cell carcinoma' vs 'normal' in 'adult'",
+      283
+    ],
+    [
+      "'after first infliximab treatment; no response to infliximab treatment; Crohn's disease' vs 'control' in 'colon'",
+      280
+    ],
+    [
+      "'DU-145; converted to docetaxel resistant cells' vs 'DU-145; none'",
+      272
+    ],
+    [
+      "'villitis of unknown etiology; high immune cell infiltration' vs 'normal; normal tissue'",
+      269
+    ],
+    [
+      "'PC3; converted to docetaxel resistant cells' vs 'PC3; none'",
+      268
+    ],
+    [
+      "'influenza A virus' vs 'none' in 'wild type'",
+      266
+    ],
+    [
+      "'cultured skin substitute; 42 day' vs 'skin; 0 day'",
+      263
+    ],
+    [
+      "'pituitary cancer' vs 'normal'",
+      253
+    ],
+    [
+      "'adult; burn; early stage' vs 'adult; control'",
+      243
+    ],
+    [
+      "'Numb5 overexpression' vs 'control' in 'MDAMB231'",
+      239
+    ],
+    [
+      "'healthy volunteers; 12 hours cortisol and 6 hours lipopolysaccharide' vs 'healthy volunteers; 6 hours of saline'",
+      238
+    ],
+    [
+      "'SARS coronavirus Urbani \u0394ORF6 mutant' vs 'mock' at '54 hour'",
+      237
+    ],
+    [
+      "'stromal cell; invasive breast cancer' vs 'epithelial cell; invasive breast cancer'",
+      234
+    ],
+    [
+      "'breast carcinoma' vs 'normal'",
+      227
+    ],
+    [
+      "'dexamethasone; 100 nanomolar' vs 'ethanol' at '24 hour'",
+      224
+    ],
+    [
+      "'MCF-7 clone 2A' vs 'MCF-7'",
+      224
+    ],
+    [
+      "'cultured skin substitute; 3 day' vs 'skin; 0 day'",
+      223
+    ],
+    [
+      "'lesional; psoriasis' vs 'normal'",
+      223
+    ],
+    [
+      "'12 month' vs '0 month' in 'deceased donor'",
+      222
+    ],
+    [
+      "'Numb6 overexpression' vs 'control' in 'MDAMB231'",
+      212
+    ],
+    [
+      "'resveratrol; 150 millimolar' vs 'vehicle; '",
+      211
+    ],
+    [
+      "'hyperglycemic condition' vs 'non-diabetic condition'",
+      204
+    ],
+    [
+      "'pEGZ-transfected (empty vector)' vs 'wild type' in 'influenza A virus infected'",
+      198
+    ],
+    [
+      "'20 percent oxygen; old' vs '20 percent oxygen; young'",
+      198
+    ],
+    [
+      "'BEZ235; 90 per cent inhibitory concentration' vs 'DMSO; '",
+      196
+    ],
+    [
+      "'SARS coronavirus Urbani \u0394ORF6 mutant' vs 'mock' at '48 hour'",
+      194
+    ],
+    [
+      "'Numb4 overexpression' vs 'control' in 'MDAMB231'",
+      192
+    ],
+    [
+      "'ependymoma' vs 'normal'",
+      187
+    ],
+    [
+      "'primary tumor' vs 'adjacent normal tissue'",
+      185
+    ],
+    [
+      "'human rhinovirus' vs 'mock' in 'normal'",
+      185
+    ],
+    [
+      "'serum-free medium' vs 'control'",
+      184
+    ],
+    [
+      "'child; burn; early stage' vs 'child; control'",
+      182
+    ],
+    [
+      "'before first infliximab treatment; response to infliximab treatment; Crohn's disease' vs 'control' in 'colon'",
+      182
+    ],
+    [
+      "'3 percent oxygen; young' vs '20 percent oxygen; young'",
+      176
+    ],
+    [
+      "'ML792; 400 nanomolar; 48 hour' vs 'dimethyl sulfoxide; 48 hour'",
+      176
+    ],
+    [
+      "'S1 stimulation (French trial conditions)' at '48 hour' vs 'control' at '0 hour'",
+      175
+    ],
+    [
+      "'cancer tissue' vs 'surrounding noncancerous tissue' in 'hepatitis C virus induced hepatocellular carcinoma'",
+      173
+    ],
+    [
+      "'Newcastle disease virus' at '16 hour' vs 'none' at '0 hour'",
+      172
+    ],
+    [
+      "'5-aza-deoxycytidine and trichostatin' vs 'none' in 'HPAM1'",
+      171
+    ],
+    [
+      "'resistant to BMS-554417' vs 'sensitive to BMS-554417'",
+      170
+    ],
+    [
+      "'docetaxel; 2 nanomolar' vs 'none'",
+      169
+    ],
+    [
+      "'after first infliximab treatment; no response to infliximab treatment; ulcerative colitis' vs 'control' in 'colon'",
+      169
+    ],
+    [
+      "'Mycobacterium tuberculosis H37Rv whole cell lysate' vs 'none' in 'meningeal tuberculosis'",
+      167
+    ],
+    [
+      "'dexamethasone; 100 nanomolar' vs 'ethanol; 0.1 percent'",
+      166
+    ],
+    [
+      "'12 month' vs '0 month' in 'living donor'",
+      166
+    ],
+    [
+      "'pEGZ-transfected (empty vector)' vs 'wild type' in 'PR8 influenza virus infected'",
+      166
+    ],
+    [
+      "'S2 stimulation (British trial conditions)' at '48 hour' vs 'control' at '0 hour'",
+      165
+    ],
+    [
+      "'kidney transplant; rejection' vs 'none; none'",
+      164
+    ],
+    [
+      "'Newcastle disease virus' at '14 hour' vs 'none' at '0 hour'",
+      162
+    ],
+    [
+      "'CD3 and CD28' vs 'none'",
+      161
+    ],
+    [
+      "'metastatic tissue' vs 'normal tissue adjacent to neoplasm' in 'clear cell renal cell carcinoma'",
+      161
+    ],
+    [
+      "'S2 stimulation (British trial conditions)' at '72 hour' vs 'control' at '0 hour'",
+      160
+    ],
+    [
+      "'lesional; psoriasis' vs 'non-lesional; psoriasis'",
+      159
+    ],
+    [
+      "'intraductal papillary-mucinous neoplasm (IPMN)' vs 'normal'",
+      157
+    ],
+    [
+      "'oligodendroglioma' vs 'normal'",
+      155
+    ],
+    [
+      "'25 nanogram per milliliter; IL28b' vs 'control'",
+      154
+    ],
+    [
+      "'BMP2' vs 'control' at '21 day'",
+      152
+    ],
+    [
+      "'invasive ductal carcinoma' vs 'normal'",
+      150
+    ],
+    [
+      "'A375; Wnt-1 overexpressing; ' vs 'A375; wild type; '",
+      149
+    ],
+    [
+      "'Plasmodium falciparum 3D7' vs 'none' in 'differentiated to orthochromatic erythroblast'",
+      149
+    ],
+    [
+      "'gastric carcinoma; tumor' vs 'gastric carcinoma; adjacent normal tissue'",
+      147
+    ],
+    [
+      "'3 percent oxygen; old' vs '20 percent oxygen; old'",
+      146
+    ],
+    [
+      "'chromophobe renal cell carcinoma' vs 'normal' in 'adult'",
+      141
+    ],
+    [
+      "'Numb5 overexpression' vs 'control' in 'MCF7'",
+      141
+    ],
+    [
+      "'PR8 influenza virus' vs 'none' in 'wild type'",
+      140
+    ],
+    [
+      "'SARS coronavirus Urbani' vs 'mock' at '48 hour'",
+      138
+    ],
+    [
+      "'M24met; Wnt-1 overexpressing; ' vs 'M24met; wild type; '",
+      134
+    ],
+    [
+      "'1,25-dihydroxyvitamin D3; 10 nanomolar' vs 'vehicle' in 'immature dentritic cell' at '5 day'",
+      132
+    ],
+    [
+      "'S1 stimulation (French trial conditions)' at '96 hour' vs 'control' at '0 hour'",
+      130
+    ],
+    [
+      "'Notch2-IC expression' vs 'control' at '3 day'",
+      128
+    ],
+    [
+      "'Numb6 overexpression' vs 'control' in 'MCF7'",
+      126
+    ],
+    [
+      "'control media in hypoxia (1% pO2)' vs 'control'",
+      126
+    ],
+    [
+      "'TGFbeta3' vs 'control' at '3 day'",
+      125
+    ],
+    [
+      "'1,25-dihydroxyvitamin D3; 10 nanomolar' vs 'vehicle' in 'differentiating dendritic cell' at '12 hour'",
+      122
+    ],
+    [
+      "'Numb4 overexpression' vs 'control' in 'MCF7'",
+      119
+    ],
+    [
+      "'human cytomegalovirus strain Towne/E-infected monocyte' vs 'control'",
+      118
+    ],
+    [
+      "'SARS coronavirus Urbani' vs 'mock' at '54 hour'",
+      117
+    ],
+    [
+      "'SARS coronavirus Urbani' vs 'mock' at '60 hour'",
+      116
+    ],
+    [
+      "'LMP1' vs 'empty vector'",
+      116
+    ],
+    [
+      "'IKK2kd-transfected' vs 'wild type' in 'PR8 influenza virus infected'",
+      115
+    ],
+    [
+      "'cigarette smoke' vs 'vehicle' at '24 hour'",
+      114
+    ],
+    [
+      "'invasive' vs 'non-invasive'",
+      111
+    ],
+    [
+      "'24 month' vs '0 month' in 'living donor'",
+      111
+    ],
+    [
+      "'SARS coronavirus Urbani' vs 'mock' at '36 hour'",
+      111
+    ],
+    [
+      "'S1 stimulation (French trial conditions)' at '72 hour' vs 'control' at '0 hour'",
+      109
+    ],
+    [
+      "'GCD0941; max' vs 'DMSO; '",
+      108
+    ],
+    [
+      "'leucine free medium' vs 'complete medium'",
+      104
+    ],
+    [
+      "'panobinostat' vs 'none' in 'MOLT-4'",
+      103
+    ],
+    [
+      "'shear stress; senescent' vs 'shear stress; young'",
+      101
+    ],
+    [
+      "'glioblastoma tumor mass' vs 'control'",
+      101
+    ],
+    [
+      "'oral squamous cell carcinoma' vs 'normal'",
+      100
+    ],
+    [
+      "'malignant mesothelioma; ERK5 knockdown' vs 'malignant mesothelioma; scrambled control'",
+      98
+    ],
+    [
+      "'gastric carcinoma; tumor' vs 'normal; normal'",
+      97
+    ],
+    [
+      "'villitis of unknown etiology; low immune cell infiltration' vs 'normal; normal tissue'",
+      97
+    ],
+    [
+      "'5 micromolar CG-1521' vs 'vehicle' in 'SUM190PT'",
+      96
+    ],
+    [
+      "'non small cell lung cancer; sensitive to erlotinib' vs 'non small cell lung cancer; non-sensitive to erlotinib'",
+      92
+    ],
+    [
+      "'10 nanomolar 17beta-estradiol and 5 micromolar CG-1521' vs 'vehicle' in 'SUM190PT'",
+      90
+    ],
+    [
+      "'HRV-16 rhinovirus' vs 'control' at '2 day'",
+      89
+    ],
+    [
+      "'ML792; 400 nanomolar; 8 hour' vs 'dimethyl sulfoxide; 48 hour'",
+      89
+    ],
+    [
+      "'MEK1 over expression' vs 'empty vector control'",
+      89
+    ],
+    [
+      "'interferon-alpha' vs 'none' in 'SKOV3' at '6 hour'",
+      86
+    ],
+    [
+      "'10 nanomolar; estradiol' vs 'vehicle' at '48 hour'",
+      85
+    ],
+    [
+      "'2HRZE/4HR' at '26 week' vs 'none' at '0 week'",
+      85
+    ],
+    [
+      "'miR-221/222' vs 'control'",
+      85
+    ],
+    [
+      "'cancer tissue' vs 'surrounding noncancerous tissue' in 'hepatitis B virus induced hepatocellular carcinoma'",
+      84
+    ],
+    [
+      "'immortalised T lymphocyte; interleukin 2 deprivation' vs 'immortalised T lymphocyte; control' in 'normal spleen'",
+      84
+    ],
+    [
+      "'LBH589 (panobinostat)' vs 'DMSO' in 'HeLa'",
+      82
+    ],
+    [
+      "'BEZ235; max' vs 'DMSO; '",
+      80
+    ],
+    [
+      "'astrocytic glioma' vs 'normal'",
+      80
+    ],
+    [
+      "'Lot II; Zoledronate; 100 micromolar' at '24 hour' vs 'Lot II; control; ' at '24 hour'",
+      79
+    ],
+    [
+      "'prostaglandin' vs 'DMSO' at '2 hour ex vivo incubation at 37 degree Celsius'",
+      78
+    ],
+    [
+      "'expression of BRAF(V600E) and MITF' vs 'expression of BRAF(V600E)'",
+      75
+    ],
+    [
+      "'static stress; senescent' vs 'static stress; young'",
+      74
+    ],
+    [
+      "'lesional' vs 'non-lesional'",
+      72
+    ],
+    [
+      "'PKA RII-beta over expression' vs 'wild type'",
+      70
+    ],
+    [
+      "'vehicle; lipopolysaccharide' vs 'vehicle; vehicle'",
+      69
+    ],
+    [
+      "'adult; burn; middle stage' vs 'adult; control'",
+      68
+    ],
+    [
+      "'Mycobacterium tuberculosis H37Rv whole cell lysate' vs 'none' in 'latent tuberculosis'",
+      68
+    ],
+    [
+      "'rotenone; 5 nanomolar' at '4 week' vs 'vehicle; ' at '4 week'",
+      67
+    ],
+    [
+      "'BMP2' vs 'control' at '1 day'",
+      66
+    ],
+    [
+      "'6 hour; IFN' vs 'none'",
+      64
+    ],
+    [
+      "'interferon-alpha + U0126' vs 'none' in 'HT1080' at '6 hour'",
+      64
+    ],
+    [
+      "'3 month' vs '0 month' in 'deceased donor'",
+      63
+    ],
+    [
+      "'lesional' vs 'non-lesional' in 'one-cycle cDNA synthesis from bulk tissue'",
+      63
+    ],
+    [
+      "'LBH589 (panobinostat)' vs 'DMSO' in 'H295R'",
+      62
+    ],
+    [
+      "'interferon alpha' vs 'none'",
+      61
+    ],
+    [
+      "'6 hour; IL28B' vs 'none'",
+      60
+    ],
+    [
+      "'100 picogram per milliliter; staphylococcal superantigen SEB' vs 'none'",
+      60
+    ],
+    [
+      "'6 hour 100 nanomolar estrogen' vs 'none'",
+      57
+    ],
+    [
+      "'24 hour, IL28B' vs 'none'",
+      55
+    ],
+    [
+      "'hypoxia' vs 'normoxia' in 'adenocarcinoma'",
+      54
+    ],
+    [
+      "'arsenic trioxide; 2.5 micromolar' vs 'none; '",
+      54
+    ],
+    [
+      "'Stat5a/b knockdown' vs 'control' in 'DU145'",
+      53
+    ],
+    [
+      "'U0126' vs 'none' in 'HT1080' at '6 hour'",
+      51
+    ],
+    [
+      "'TGFbeta3' vs 'control' at '7 day'",
+      51
+    ],
+    [
+      "'Newcastle disease virus' at '8 hour' vs 'none' at '0 hour'",
+      49
+    ],
+    [
+      "'SARS coronavirus Urbani \u0394ORF6 mutant' vs 'mock' at '30 hour'",
+      48
+    ],
+    [
+      "'10 nanomolar; estradiol' vs 'vehicle' at '24 hour'",
+      48
+    ],
+    [
+      "'neoplasm' vs 'normal tissue adjacent to neoplasm' in 'clear cell renal cell carcinoma'",
+      48
+    ],
+    [
+      "'Newcastle disease virus' at '10 hour' vs 'none' at '0 hour'",
+      46
+    ],
+    [
+      "'resistant to cisplatin' vs 'sensitive to cisplatin'",
+      45
+    ],
+    [
+      "'rheumatoid arthritis' vs 'normal'",
+      43
+    ],
+    [
+      "'xenografted spheroid' vs 'cultured spheroid' in 'stem-cell medium'",
+      43
+    ],
+    [
+      "'lymphangiogenic' vs 'parental pool'",
+      43
+    ],
+    [
+      "'SARS coronavirus Urbani \u0394ORF6 mutant' vs 'mock' at '60 hour'",
+      42
+    ],
+    [
+      "'tumor' vs 'adjacent normal tissue'",
+      42
+    ],
+    [
+      "'1 micromolar NSC319726' vs 'none'",
+      41
+    ],
+    [
+      "'dysplasia' vs 'normal'",
+      41
+    ],
+    [
+      "'CXCR4 shRNA I' vs 'none'",
+      41
+    ],
+    [
+      "'neoplasm' vs 'normal tissue adjacent to neoplasm' in 'lung adenocarcinoma'",
+      40
+    ],
+    [
+      "'3 hour 100 nanomolar estrogen' vs 'none'",
+      38
+    ],
+    [
+      "'meningococcal sepsis; blood' at '24 hour' vs '; normal; blood' at '0 hour'",
+      37
+    ],
+    [
+      "'paclitaxel-eluting stent' vs 'control'",
+      37
+    ],
+    [
+      "'JMJD6 over-expressed; MCF-7' vs 'control; MCF-7'",
+      35
+    ],
+    [
+      "'Late SV40 Factor (LSF) over expression' vs 'wild type'",
+      35
+    ],
+    [
+      "'3 month' vs '0 month' in 'living donor'",
+      34
+    ],
+    [
+      "'resistant to methotrexate' vs 'sensitive to methotrexate'",
+      34
+    ],
+    [
+      "'paclitaxel; 7 nanomolar' vs 'none'",
+      33
+    ],
+    [
+      "'tobacco smoke condensate 1 microgram per milliliter' vs 'control' in 'A549'",
+      33
+    ],
+    [
+      "'estradiol' vs 'control'",
+      33
+    ],
+    [
+      "'recombinant human TGF-beta 3 (5 nanogram per milliliter)' vs 'control'",
+      32
+    ],
+    [
+      "'interferon-alpha + U0126' vs 'none' in 'HT1080' at '12 hour'",
+      32
+    ],
+    [
+      "'10 nanomolar; estradiol' vs 'vehicle' at '12 hour'",
+      31
+    ],
+    [
+      "'5-aza-deoxycytidine and trichostatin' vs 'none' in 'HPAF1'",
+      31
+    ],
+    [
+      "'DAOY M14; MYC overexpression' vs 'DAOY; wild type'",
+      30
+    ],
+    [
+      "'6 month' vs '0 month' in 'living donor'",
+      30
+    ],
+    [
+      "'overexpression of HO-1' vs 'control' in '0 nanogram per milliliter; tumor necrosis factor'",
+      29
+    ],
+    [
+      "'nephrosclerosis' vs 'normal'",
+      28
+    ],
+    [
+      "'MPS-1 shRNA' vs 'control shRNA'",
+      27
+    ],
+    [
+      "'expressing CXCR4' vs 'not expressing CXCR4'",
+      27
+    ],
+    [
+      "'insulin-like growth factor' at '24 hour' vs 'control' at '24 hour'",
+      26
+    ],
+    [
+      "'tumor tissue' vs 'adjacent normal tissue' in 'gastric cardia carcinoma'",
+      26
+    ],
+    [
+      "'Newcastle disease virus' at '18 hour' vs 'none' at '0 hour'",
+      26
+    ],
+    [
+      "'Stat3 knockdown' vs 'control' in 'DU145'",
+      26
+    ],
+    [
+      "'S2 stimulation (British trial conditions)' at '96 hour' vs 'control' at '0 hour'",
+      25
+    ],
+    [
+      "'HRas over expression' vs 'empty vector control'",
+      24
+    ],
+    [
+      "'adrenocortical adenoma' vs 'normal'",
+      23
+    ],
+    [
+      "'xenografted parental' vs 'cultured parental' in 'serum-containing medium'",
+      23
+    ],
+    [
+      "'LSD1 knockdown' vs 'control'",
+      23
+    ],
+    [
+      "'10 nanomolar 17beta-estradiol and 7.5 micromolar CG-1521' vs 'vehicle' in 'SUM149PT'",
+      23
+    ],
+    [
+      "'side population cell' vs 'non-side population cell'",
+      23
+    ],
+    [
+      "'before first infliximab treatment; no response to infliximab treatment; Crohn's disease' vs 'control' in 'colon'",
+      23
+    ],
+    [
+      "'1,25-dihydroxyvitamin D3' vs 'none' at '48 hour'",
+      23
+    ],
+    [
+      "'glioblastoma' vs 'normal'",
+      22
+    ],
+    [
+      "'abl; dihydrotestosterone; 16 hour' vs 'abl; vehicle'",
+      21
+    ],
+    [
+      "'atypical teratoid / rhabdoid tumor' vs 'normal'",
+      21
+    ],
+    [
+      "'24 hour; IFN' vs 'none'",
+      21
+    ],
+    [
+      "'expressing Cyr61' vs 'control'",
+      21
+    ],
+    [
+      "'cigarette smoke' vs 'vehicle' at '2 hour'",
+      20
+    ],
+    [
+      "'BRCA1 RNAi' vs 'control'",
+      20
+    ],
+    [
+      "'BMP2' vs 'control' at '7 day'",
+      20
+    ],
+    [
+      "'transfection with miR-Dmimic' vs 'control'",
+      19
+    ],
+    [
+      "'interferon-alpha' vs 'none' in 'HT1080' at '12 hour'",
+      19
+    ],
+    [
+      "'dexamethasone; 100 nanomolar' vs 'ethanol' at '6 hour'",
+      18
+    ],
+    [
+      "'interstitial lung disease; forced vital capacity 2' vs 'normal'",
+      18
+    ],
+    [
+      "'interferon beta' vs 'none'",
+      18
+    ],
+    [
+      "'lung cancer' vs 'normal' in 'lung; Fresh-frozen tissue'",
+      17
+    ],
+    [
+      "'medulloblastoma, large-cell' vs 'normal'",
+      17
+    ],
+    [
+      "'bg-CAT 25 nanonmolar' vs 'PBS'",
+      17
+    ],
+    [
+      "'3 percent oxygen; old' vs '3 percent oxygen; young'",
+      16
+    ],
+    [
+      "'hypoxia' vs 'normoxia' in 'squamous cell carcinoma'",
+      16
+    ],
+    [
+      "'BEZ235; 50 per cent inhibitory concentration' vs 'DMSO; '",
+      16
+    ],
+    [
+      "'2HRZE/4HR' at '4 week' vs 'none' at '0 week'",
+      16
+    ],
+    [
+      "'rotenone; 50 nanomolar' at '1 week' vs 'vehicle; ' at '1 week'",
+      15
+    ],
+    [
+      "'standard immunotherapy' vs 'healthy'",
+      15
+    ],
+    [
+      "'estrogen receptor alpha knockdown' vs 'control'",
+      15
+    ],
+    [
+      "'acute myeloid leukemia; two days post-chemotherapy' vs 'normal; none'",
+      14
+    ],
+    [
+      "'malignant mesothelioma; ERK2 knockdown' vs 'malignant mesothelioma; scrambled control'",
+      14
+    ],
+    [
+      "'BMP2' vs 'control' at '3 day'",
+      14
+    ],
+    [
+      "'12 hour 100 nanomolar estrogen' vs 'none'",
+      13
+    ],
+    [
+      "'benzo[a]pyrene diolepoxide; 0.05 micromolar' at '10 hour' vs 'DMSO; ' at '10 hour'",
+      13
+    ],
+    [
+      "'estrogen receptor alpha mutation: positive; PIK3CA mutation: positive' vs 'estrogen receptor alpha mutation: positive; PIK3CA mutation: negative'",
+      12
+    ],
+    [
+      "'tobacco smoke condensate 3 microgram per milliliter' vs 'control' in 'A549'",
+      12
+    ],
+    [
+      "'100 picogram per milliliter; staphylococcal superantigen SEI' vs 'none'",
+      11
+    ],
+    [
+      "'medulloblastoma' vs 'normal'",
+      11
+    ],
+    [
+      "'rheumatoid factor-negative juvenile idiopathic arthritis' vs 'normal' in 'peripheral blood mononuclear cell'",
+      11
+    ],
+    [
+      "'second occurrence of tumor; dendritic cell vaccination' vs 'second occurrence of tumor; none'",
+      11
+    ],
+    [
+      "'neocarzinostatin' vs 'none' in 'RNA interference control'",
+      10
+    ],
+    [
+      "'Nijmegen breakage syndrome; interleukin 2 deprivation' vs 'Nijmegen breakage syndrome; control;' in 'immortalised T lymphocyte; peripheral blood'",
+      10
+    ],
+    [
+      "'SARS coronavirus Urbani' vs 'mock' at '72 hour'",
+      10
+    ],
+    [
+      "'lung cancer' vs 'normal' in 'lung; Formalin-fixed paraffin-embedded tissue'",
+      10
+    ],
+    [
+      "'overexpression of HO-1' vs 'control' in '30 nanogram per milliliter; tumor necrosis factor'",
+      9
+    ],
+    [
+      "'Lot II; Zoledronate; 30 micromolar' at '48 hour' vs 'Lot II; control; ' at '48 hour'",
+      9
+    ],
+    [
+      "'IKK2kd-transfected' vs 'wild type' in 'influenza A virus infected'",
+      9
+    ],
+    [
+      "'gastric carcinoma; adjacent normal tissue' vs 'normal; normal'",
+      8
+    ],
+    [
+      "'transfection with miR-Qmimic' vs 'control'",
+      8
+    ],
+    [
+      "'colon cancer' vs 'normal' in 'colon; Fresh-frozen tissue'",
+      8
+    ],
+    [
+      "'co-culture with airway epithelial cells' vs 'control'",
+      8
+    ],
+    [
+      "'Stat5a/b knockdown' vs 'control' in 'CWR22Rv1'",
+      8
+    ],
+    [
+      "'high dose IL2' vs 'none' in 'primary human NK cells'",
+      7
+    ],
+    [
+      "'sarcoidosis; no uveitis' vs 'normal; no uveitis'",
+      7
+    ],
+    [
+      "'IKK2kd-transfected' vs 'wild type' in 'H5N1 influenza virus infected'",
+      7
+    ],
+    [
+      "'benzo[a]pyrene diolepoxide; 0.05 micromolar' at '22 hour' vs 'DMSO; ' at '22 hour'",
+      6
+    ],
+    [
+      "'before first infliximab treatment; response to infliximab treatment; ulcerative colitis' vs 'control' in 'colon'",
+      6
+    ],
+    [
+      "'stromal cell; normal' vs 'epithelial cell; normal'",
+      6
+    ],
+    [
+      "'acute myeloid leukemia; pre-chemotherapy' vs 'normal; none'",
+      5
+    ],
+    [
+      "'Parkinson's disease' vs 'normal' in 'male'",
+      5
+    ],
+    [
+      "'A375; Wnt-1 overexpressing; animals were fed with cyclosporine A (50mg/kg/day)' vs 'A375; wild type; animals were fed with cyclosporine A (50mg/kg/day)'",
+      5
+    ],
+    [
+      "'LBH589 (panobinostat)' vs 'DMSO' in 'MCF7her2'",
+      5
+    ],
+    [
+      "'type II diabetes mellitus and post-ischemic heart failure' vs 'normal'",
+      5
+    ],
+    [
+      "'androgen and tamoxifen' vs 'vehicle control'",
+      5
+    ],
+    [
+      "'androgen and letrozole' vs 'vehicle control'",
+      5
+    ],
+    [
+      "'axial spondyloarthropathy; no uveitis' vs 'normal; no uveitis'",
+      5
+    ],
+    [
+      "'si221' vs 'control'",
+      4
+    ],
+    [
+      "'interferon gamma' vs 'none'",
+      4
+    ],
+    [
+      "'Stat3 knockdown' vs 'control' in 'CWR22Rv1'",
+      4
+    ],
+    [
+      "'Ad-HER2-ki (kinase inactive)' vs 'Ad-GFP'",
+      3
+    ],
+    [
+      "'co-culture with nurse-like cells' vs 'no co-culture'",
+      3
+    ],
+    [
+      "'none; PKCiota, PKCzeta double knockdown' vs 'none; control' at '0 hour'",
+      3
+    ],
+    [
+      "'monocyte; meningococcal sepsis' at '24 hour' vs 'monocyte; meningococcal sepsis' at '0 hour'",
+      3
+    ],
+    [
+      "'neocarzinostatin' vs 'none' in 'p53 knockdown'",
+      3
+    ],
+    [
+      "'S100P overexpressing' vs 'control'",
+      3
+    ],
+    [
+      "'pancreatic cancer' vs 'normal'",
+      3
+    ],
+    [
+      "'rotenone; 5 nanomolar' at '1 week' vs 'vehicle; ' at '1 week'",
+      2
+    ],
+    [
+      "'Parkinson's disease' vs 'normal' in 'female'",
+      2
+    ],
+    [
+      "'colon cancer' vs 'normal' in 'colon; Formalin-fixed paraffin-embedded tissue'",
+      2
+    ],
+    [
+      "'androgen and anastrozole' vs 'vehicle control'",
+      2
+    ],
+    [
+      "'healthy volunteers; 24 hours post saline and lipopolysaccharide' vs 'healthy volunteers; 6 hours of saline'",
+      2
+    ],
+    [
+      "'dexamethasone' vs 'vehicle' at '24 hour'",
+      2
+    ],
+    [
+      "'rheumatoid factor-negative juvenile idiopathic arthritis' vs 'normal' in 'neutrophil'",
+      2
+    ],
+    [
+      "'interstitial lung disease; forced vital capacity 1' vs 'normal'",
+      1
+    ],
+    [
+      "'transforming growth factor beta; PKCiota, PKCzeta double knockdown' vs 'transforming growth factor beta; control' at '8 hour'",
+      1
+    ],
+    [
+      "'pulmonary arterial hypertension' vs 'normal'",
+      1
+    ],
+    [
+      "'neocarzinostatin' vs 'none' in 'LacZ control'",
+      1
+    ],
+    [
+      "'neocarzinostatin' vs 'none' in 'RelA knockdown'",
+      1
+    ],
+    [
+      "'Lot I; Fluvastatin; 2 micromolar' at '12 hour' vs 'Lot I; control; ' at '12 hour'",
+      1
+    ],
+    [
+      "'BCL11A siRNA' vs 'non-targeting siRNA'",
+      1
+    ],
+    [
+      "'long-term survival' vs 'short-term survival' in 'adenocarcinoma'",
+      1
+    ],
+    [
+      "'normal epithelial cell; pregnancy associate breast cancer patient' vs 'normal epithelial cell; non-pregnancy associate breast cancer patient'",
+      1
+    ],
+    [
+      "'tumor associated stroma cell; pregnancy associate breast cancer patient' vs 'tumor associated stroma cell; non-pregnancy associate breast cancer patient'",
+      1
+    ],
+    [
+      "'tumor epithelial cell; pregnancy associate breast cancer patient' vs 'tumor epithelial cell; non-pregnancy associate breast cancer patient'",
+      1
+    ],
+    [
+      "'pirinixic acid; 50 micromolar' vs 'DMSO' at '24 hour'",
+      1
+    ]
+  ]
+}

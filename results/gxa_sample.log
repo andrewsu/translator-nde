@@ -1,0 +1,12 @@
+  5000 records -> 47 distinct contrasts, 207 experiments
+  10000 records -> 104 distinct contrasts, 590 experiments
+  15000 records -> 134 distinct contrasts, 895 experiments
+  20000 records -> 175 distinct contrasts, 917 experiments
+  25000 records -> 210 distinct contrasts, 987 experiments
+  30000 records -> 253 distinct contrasts, 1063 experiments
+  35000 records -> 286 distinct contrasts, 1199 experiments
+  40000 records -> 299 distinct contrasts, 1220 experiments
+
+sampled 40000 records
+distinct contrasts: 299   distinct experiments: 1220
+wrote results/gxa_contrast_sample.json

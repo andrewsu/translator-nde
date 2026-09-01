@@ -149,12 +149,13 @@ class ARSClient:
             if verbose:
                 ready = sum(1 for c in done if (c.get("result_count") or 0) > 0)
                 print(f"  [{int(time.time()-deadline+max_wait):>4}s] "
-                      f"{len(done)}/{len(children)} ARAs finished, {ready} with results")
+                      f"{len(done)}/{len(children)} ARAs finished, {ready} with results",
+                      flush=True)
             if children and len(done) == len(children):
                 return tr
             if time.time() > deadline:
                 if verbose:
-                    print("  timed out; returning partial trace")
+                    print("  timed out; returning partial trace", flush=True)
                 return tr
             time.sleep(poll)
 
