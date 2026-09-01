@@ -1,0 +1,4290 @@
+{
+  "disease": "MONDO:0005306",
+  "pk": "c3efea15-1a8f-4c09-a521-7462603bec08",
+  "paths": [
+    {
+      "drug": "CHEBI:4462",
+      "drug_name": "dexamethasone sodium phosphate",
+      "gene": "NCBIGene:4314",
+      "gene_name": "MMP3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "secretion",
+      "drug_gene_sources": [
+        "infores:ctd"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.6896551724137931,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:57384786",
+      "drug_name": "2-[(2R)-2-(butanoylamino)-3-[[(2S)-3-hydroxy-1-methoxy-1-oxopropan-2-yl]amino]-3-oxopropyl]sulfanylethyl hexadecanoate",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.6853448275862069,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:155562153",
+      "drug_name": "(2S)-2-[[(2S)-5-amino-2-[[(2S,3R)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2R)-2-amino-3-[(2R)-2,7-di(hexadecanoyloxy)heptyl]sulfanylpropanoyl]amino]-3-hydroxypropanoyl]amino]hexanoyl]amino]hexanoyl]amino]hexanoyl]amino]hexanoyl]amino]-3-hydroxypropanoyl]amino]-4-methylpentanoyl]amino]-4-methylpentanoyl]amino]-4-methylsulfanylbutanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-3-methylpentanoyl]amino]-3-hydroxybutanoyl]amino]-5-oxopentanoyl]amino]-3-methylbutanoic acid",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.6810344827586207,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:118719088",
+      "drug_name": "(2Z)-2-[(2E,4E)-5-[1-[6-[2-[3-[3-[3-[2-[2-[3-[[2-[2-[[(2R)-1-[[2-[[(2R)-1-[3-[2-[2-[3-[[2-(2-amino-2-oxoethoxy)acetyl]amino]propoxy]ethoxy]ethoxy]propylamino]-3-hydroxy-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-3-[(2R)-2,3-di(hexadecanoyloxy)propyl]sulfanyl-1-oxopropan-2-yl]amino]-2-oxoethoxy]acetyl]amino]propoxy]ethoxy]ethoxy]propylamino]-3-oxopropyl]sulfanyl-2,5-dioxopyrrolidin-1-yl]ethylamino]-6-oxohexyl]-5-sulfo-3H-indol-1-ium-2-yl]penta-2,4-dienylidene]-1-ethyl-3H-indole-5-sulfonate",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:pharos"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.6767241379310345,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:118719088",
+      "drug_name": "(2Z)-2-[(2E,4E)-5-[1-[6-[2-[3-[3-[3-[2-[2-[3-[[2-[2-[[(2R)-1-[[2-[[(2R)-1-[3-[2-[2-[3-[[2-(2-amino-2-oxoethoxy)acetyl]amino]propoxy]ethoxy]ethoxy]propylamino]-3-hydroxy-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-3-[(2R)-2,3-di(hexadecanoyloxy)propyl]sulfanyl-1-oxopropan-2-yl]amino]-2-oxoethoxy]acetyl]amino]propoxy]ethoxy]ethoxy]propylamino]-3-oxopropyl]sulfanyl-2,5-dioxopyrrolidin-1-yl]ethylamino]-6-oxohexyl]-5-sulfo-3H-indol-1-ium-2-yl]penta-2,4-dienylidene]-1-ethyl-3H-indole-5-sulfonate",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:pharos"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.6767241379310345,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "CHEBI:206149",
+      "drug_name": "Berkeleyamide D",
+      "gene": "NCBIGene:4314",
+      "gene_name": "MMP3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.6724137931034483,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:155553471",
+      "drug_name": "(2S)-2-[[(2S)-5-amino-2-[[(2S,3R)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2R)-2-amino-3-[(2R)-2,5-di(hexadecanoyloxy)pentyl]sulfanylpropanoyl]amino]-3-hydroxypropanoyl]amino]hexanoyl]amino]hexanoyl]amino]hexanoyl]amino]hexanoyl]amino]-3-hydroxypropanoyl]amino]-4-methylpentanoyl]amino]-4-methylpentanoyl]amino]-4-methylsulfanylbutanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-3-methylpentanoyl]amino]-3-hydroxybutanoyl]amino]-5-oxopentanoyl]amino]-3-methylbutanoic acid",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.6681034482758621,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:11491636",
+      "drug_name": "Dodecanoic acid 3-{(S)-2-hexadecanoylamino-3-[hydroxy-(2-{(2S,3S)-3-methyl-2-[2-(5-phenyl-1H-indol-3-yl)-acetylamino]-pentanoylamino}-ethoxy)-phosphoryloxy]-propionylamino}-propyl ester",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.6637931034482759,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "CHEMBL.COMPOUND:CHEMBL4791879",
+      "drug_name": "(2S,5S,8R,11S,14S,17S,20S,23S,26S,29S,32S,35S,38S,41S,44R,48R)-14-((1H-indol-3-yl)methyl)-44-amino-5-(3-amino-3-oxopropyl)-29,32,35,38-tetrakis(4-aminobutyl)-11-sec-butyl-8-((R)-1-hydroxyethyl)-26,41-bis(hydroxymethyl)-20,23-diisobutyl-2-isopropyl-17-(2-(methylthio)ethyl)-4,7,10,13,16,22,25,28,31,34,37,40,43,53-tetradecaoxo-48-(palmitoyloxy)-52-oxa-46-thia-3,6,9,12,15,18,21,24,27,30,33,36,39,42-tetradecaazaoctahexacontan-1-oic acid",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:pharos"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.5172413793103449,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:91928521",
+      "drug_name": "1-[6-[2-[3-[3-[3-[2-[2-[3-[[2-[2-[[1-[[2-[[1-[3-[2-[2-[3-[[2-(2-amino-2-oxoethoxy)acetyl]amino]propoxy]ethoxy]ethoxy]propylamino]-3-hydroxy-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-3-[2,3-di(hexadecanoyloxy)propylsulfanyl]-1-oxopropan-2-yl]amino]-2-oxoethoxy]acetyl]amino]propoxy]ethoxy]ethoxy]propylamino]-3-oxopropyl]sulfanyl-2,5-dioxopyrrolidin-1-yl]ethylamino]-6-oxohexyl]-2-[(1E,3E,5Z)-5-(1-ethyl-5-sulfonato-3H-indol-2-ylidene)penta-1,3-dienyl]-3H-indol-1-ium-5-sulfonate",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.5129310344827587,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:56850403",
+      "drug_name": "(2S)-2-[[(2R)-2-amino-3-[(2R)-3-[2-[3-[4-(3-aminopropylamino)butylamino]propylamino]acetyl]oxy-2-hexadecanoyloxypropyl]sulfanylpropanoyl]amino]-3-hydroxypropanoic acid",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.5086206896551724,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:56850406",
+      "drug_name": "(2S)-2-[[(2R)-2-amino-3-[(2R)-3-hexadecanoyloxy-2-hydroxypropyl]sulfanylpropanoyl]amino]-3-hydroxypropanoic acid",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:pharos"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.5043103448275862,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "CHEBI:94305",
+      "drug_name": "UK-356618",
+      "gene": "NCBIGene:4314",
+      "gene_name": "MMP3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:gtopdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.5,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:134231375",
+      "drug_name": "(2S)-6-amino-2-(benzylamino)-N-(2-heptoxyethyl)hexanamide",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.4956896551724138,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:145969059",
+      "drug_name": "(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2R)-2-amino-3-[(2R)-2-hexadecanoyloxy-3-[9-(hexanoylamino)nonanoyloxy]propyl]sulfanylpropanoyl]amino]-3-hydroxypropanoyl]amino]hexanoyl]amino]hexanoyl]amino]hexanoyl]amino]hexanoic acid",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.49137931034482757,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:166634516",
+      "drug_name": "propyl 2-(naphthalen-1-ylcarbamothioylamino)-5,6-dihydro-4H-cyclopenta[b]thiophene-3-carboxylate",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.4870689655172414,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:91900533",
+      "drug_name": "91900533",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.4827586206896552,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "MESH:D015054",
+      "drug_name": "Zymosan",
+      "gene": "NCBIGene:718",
+      "gene_name": "C3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:ctd"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.47844827586206895,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "MESH:C547126",
+      "drug_name": "AZM551248",
+      "gene": "NCBIGene:4314",
+      "gene_name": "MMP3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:ctd"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.47413793103448276,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:155515837",
+      "drug_name": "(2S)-2-[[(2S)-5-amino-2-[[(2S,3R)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2R)-2-amino-3-[(2R)-2,6-di(hexadecanoyloxy)hexyl]sulfanylpropanoyl]amino]-3-hydroxypropanoyl]amino]hexanoyl]amino]hexanoyl]amino]hexanoyl]amino]hexanoyl]amino]-3-hydroxypropanoyl]amino]-4-methylpentanoyl]amino]-4-methylpentanoyl]amino]-4-methylsulfanylbutanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-3-methylpentanoyl]amino]-3-hydroxybutanoyl]amino]-5-oxopentanoyl]amino]-3-methylbutanoic acid",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.46551724137931033,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "CHEBI:28748",
+      "drug_name": "Doxorubicin",
+      "gene": "NCBIGene:718",
+      "gene_name": "C3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "secretion",
+      "drug_gene_sources": [
+        "infores:ctd"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.46120689655172414,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:20166280",
+      "drug_name": "Methyl 2-[[4-(trifluoromethyl)phenyl]carbamothioylamino]-4,5,6,7-tetrahydro-1-benzothiophene-3-carboxylate",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.4525862068965517,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:134231420",
+      "drug_name": "N-[2,3-bis[(9Z,12Z)-octadeca-9,12-dienoxy]propyl]-3-piperidin-4-ylbenzamide",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.4482758620689655,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:91933238",
+      "drug_name": "Ac-I[CVWQDWGHHRC]T-NH2",
+      "gene": "NCBIGene:718",
+      "gene_name": "C3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.44396551724137934,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:91933235",
+      "drug_name": "Ac-I[CV(Bpa)QDWGAHRC]T-NH2",
+      "gene": "NCBIGene:718",
+      "gene_name": "C3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.4396551724137931,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:91933234",
+      "drug_name": "Ac-I[CV(Bta)QDWGAHRC]T-NH2",
+      "gene": "NCBIGene:718",
+      "gene_name": "C3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.4353448275862069,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:91933233",
+      "drug_name": "Ac-I[CVFQDWGHHRC]T-NH2",
+      "gene": "NCBIGene:718",
+      "gene_name": "C3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.43103448275862066,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:145970164",
+      "drug_name": "(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2R)-2-amino-3-[(2R)-3-hexadecanoyloxy-2-[4-(undecanoylamino)butanoyloxy]propyl]sulfanylpropanoyl]amino]-3-hydroxypropanoyl]amino]hexanoyl]amino]hexanoyl]amino]hexanoyl]amino]hexanoic acid",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.4267241379310345,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:56849985",
+      "drug_name": "(2S)-2-[[(2R)-2-amino-3-[(2R)-2,3-di(dodecanoyloxy)propyl]sulfanylpropanoyl]amino]-3-hydroxypropanoic acid",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:pharos"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.4224137931034483,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:44325666",
+      "drug_name": "2-[[4-[[(2S)-2-methyl-4-oxo-2,3-dihydro-1H-quinolin-6-yl]methyl-prop-2-ynylamino]benzoyl]amino]pentanedioic acid",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.41810344827586204,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:13974078",
+      "drug_name": "1-(tert-butylamino)-3-[[2-(2,6-dichloroanilino)-4,5-dihydro-1H-imidazol-5-yl]methoxy]propan-2-ol",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.41379310344827586,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:151543599",
+      "drug_name": "N-[(6-aminopyridin-3-yl)methyl]-7-fluoro-4-hydroxy-12-methyl-2-oxo-1-azatricyclo[7.3.1.05,13]trideca-3,5,7,9(13)-tetraene-3-carboxamide",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:pharos"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.40948275862068967,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:20414857",
+      "drug_name": "methyl 2-(naphthalen-1-ylcarbamothioylamino)-5,6-dihydro-4H-cyclopenta[b]thiophene-3-carboxylate",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.4051724137931034,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:5368282",
+      "drug_name": "3-Benzyloxy-trans-beta-nitrostyrene",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.40086206896551724,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:91900594",
+      "drug_name": "91900594",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.39655172413793105,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:91900596",
+      "drug_name": "91900596",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.3922413793103448,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:145968400",
+      "drug_name": "(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2R)-2-amino-3-[(2R)-3-hexadecanoyloxy-2-[6-(nonanoylamino)hexanoyloxy]propyl]sulfanylpropanoyl]amino]-3-hydroxypropanoyl]amino]hexanoyl]amino]hexanoyl]amino]hexanoyl]amino]hexanoic acid",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.3879310344827586,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:14801646",
+      "drug_name": "5-(5,6-dimethoxy-2,3-dihydro-1H-inden-1-yl)pyrimidine-2,4-diamine",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.38362068965517243,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:57384787",
+      "drug_name": "2-[(2R)-3-[[(2S)-3-hydroxy-1-methoxy-1-oxopropan-2-yl]amino]-2-(octanoylamino)-3-oxopropyl]sulfanylethyl hexadecanoate",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.3793103448275862,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:166636549",
+      "drug_name": "Propan-2-yl 6-methyl-2-(naphthalen-1-ylcarbamothioylamino)-4,5,6,7-tetrahydro-1-benzothiophene-3-carboxylate",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.375,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:155530294",
+      "drug_name": "(2S)-2-[[(2S)-5-amino-2-[[(2S,3R)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2R)-3-[(2S)-2,3-di(hexadecanoyloxy)propyl]sulfanyl-2-(hexadecanoylamino)propanoyl]amino]-3-hydroxypropanoyl]amino]hexanoyl]amino]hexanoyl]amino]hexanoyl]amino]hexanoyl]amino]-3-hydroxypropanoyl]amino]-4-methylpentanoyl]amino]-4-methylpentanoyl]amino]-4-methylsulfanylbutanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-3-methylpentanoyl]amino]-3-hydroxybutanoyl]amino]-5-oxopentanoyl]amino]-3-methylbutanoic acid",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:pharos"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.3706896551724138,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:59255093",
+      "drug_name": "1-Cyclopropylmethoxy-3-((E)-2-nitro-vinyl)-benzene",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.36637931034482757,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:44294891",
+      "drug_name": "N-[4-(1H-imidazol-5-yl)phenyl]-N'-(2-methylbutan-2-yl)methanimidamide",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.3620689655172414,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:1053009",
+      "drug_name": "Ethyl 2-(naphthalen-1-ylcarbamoylamino)-4,5,6,7-tetrahydro-1-benzothiophene-3-carboxylate",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.3577586206896552,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "CHEBI:34730",
+      "drug_name": "doxycycline hyclate",
+      "gene": "NCBIGene:4314",
+      "gene_name": "MMP3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.35344827586206895,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:145968297",
+      "drug_name": "(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2R)-2-amino-3-[(2R)-2-[3-(dodecanoylamino)propanoyloxy]-3-hexadecanoyloxypropyl]sulfanylpropanoyl]amino]-3-hydroxypropanoyl]amino]hexanoyl]amino]hexanoyl]amino]hexanoyl]amino]hexanoic acid",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.34913793103448276,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:168279717",
+      "drug_name": "1-(cyclohexylmethoxy)-3-[(E)-2-nitroethenyl]benzene",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.3448275862068966,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "CHEBI:6636",
+      "drug_name": "Magnesium chloride",
+      "gene": "NCBIGene:718",
+      "gene_name": "C3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "degradation",
+      "drug_gene_sources": [
+        "infores:ctd"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.34051724137931033,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:166626501",
+      "drug_name": "Propan-2-yl 2-(naphthalen-1-ylcarbamothioylamino)-4,5,6,7-tetrahydro-1-benzothiophene-3-carboxylate",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.33620689655172414,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:59255249",
+      "drug_name": "2-(3-((E)-2-nitro-vinyl)-phenoxymethyl)-pyridine",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.33189655172413796,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "CHEBI:175804",
+      "drug_name": "Methyl rosmarinate",
+      "gene": "NCBIGene:4314",
+      "gene_name": "MMP3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.3232758620689655,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "CHEBI:27899",
+      "drug_name": "Cisplatin",
+      "gene": "NCBIGene:718",
+      "gene_name": "C3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "secretion",
+      "drug_gene_sources": [
+        "infores:ctd"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.31896551724137934,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "CHEBI:27902",
+      "drug_name": "Tetracycline",
+      "gene": "NCBIGene:4314",
+      "gene_name": "MMP3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:ctd"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.3146551724137931,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:166635638",
+      "drug_name": "propan-2-yl 2-(naphthalen-1-ylcarbamothioylamino)-5,6,7,8-tetrahydro-4H-cyclohepta[b]thiophene-3-carboxylate",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.3103448275862069,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:91930066",
+      "drug_name": "(3S)-3-[[(2S)-2-[[2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2R)-2-[[(2S,3R)-2-amino-3-hydroxybutanoyl]amino]-3-sulfanylpropanoyl]amino]-5-(diaminomethylideneamino)pentanoyl]amino]-3-(1H-imidazol-5-yl)propanoyl]amino]propanoyl]amino]acetyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-4-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2R)-1-[[(2S,3S)-1-methoxy-3-methyl-1-oxopentan-2-yl]amino]-1-oxo-3-sulfanylpropan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-3-(1-methylindol-3-yl)-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-4-oxobutanoic acid",
+      "gene": "NCBIGene:718",
+      "gene_name": "C3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.30603448275862066,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:91930063",
+      "drug_name": "2-[(4R,7S,10R,13S,19S,22R,25S,28R,31R,34R)-34-[[(2S,3S)-2-acetamido-3-methylpentanoyl]amino]-4-[[(2R,3R)-1-amino-3-hydroxy-1-oxobutan-2-yl]carbamoyl]-25-(3-amino-3-oxopropyl)-7-[3-(diaminomethylideneamino)propyl]-10-(1H-imidazol-5-ylmethyl)-19,28-bis(1H-indol-3-ylmethyl)-13-methyl-6,9,12,15,18,21,24,27,30,33-decaoxo-31-propan-2-yl-1,2-dithia-5,8,11,14,17,20,23,26,29,32-decazacyclopentatriacont-22-yl]acetic acid",
+      "gene": "NCBIGene:718",
+      "gene_name": "C3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.3017241379310345,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:56849710",
+      "drug_name": "[(2R)-3-[(2R)-2-amino-3-oxo-3-[(2-oxo-2-propan-2-yloxyethyl)amino]propyl]sulfanyl-2-hexadecanoyloxypropyl] hexadecanoate",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.2974137931034483,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:155524646",
+      "drug_name": "(2S)-2-[[(2S)-2-[[(2S,3R)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2R)-2-acetamido-3-[(2S)-2,3-di(hexadecanoyloxy)propyl]sulfanylpropanoyl]amino]-3-hydroxypropanoyl]amino]-6-aminohexanoyl]amino]-6-aminohexanoyl]amino]-6-aminohexanoyl]amino]-6-aminohexanoyl]amino]-3-hydroxypropanoyl]amino]-4-methylpentanoyl]amino]-4-methylpentanoyl]amino]-4-methylsulfanylbutanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-3-methylpentanoyl]amino]-3-hydroxybutanoyl]amino]-5-amino-5-oxopentanoyl]amino]-3-methylbutanoic acid",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:pharos"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.29310344827586204,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:91900601",
+      "drug_name": "91900601",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.28879310344827586,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:91900605",
+      "drug_name": "91900605",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.28448275862068967,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:91900607",
+      "drug_name": "91900607",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.2801724137931034,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:679571",
+      "drug_name": "Ethyl 2-[(phenylcarbamoyl)amino]-4H,5H,6H-cyclopenta[B]thiophene-3-carboxylate",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.27586206896551724,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "CHEBI:137236",
+      "drug_name": "Ilomastat",
+      "gene": "NCBIGene:4314",
+      "gene_name": "MMP3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:gtopdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.2672413793103448,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:91933246",
+      "drug_name": "Ac-I[CVSQDWGHHRC]T-NH2",
+      "gene": "NCBIGene:718",
+      "gene_name": "C3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.2629310344827586,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:168281475",
+      "drug_name": "1-N,1-N-dimethyl-4-[(E)-2-nitroethenyl]-2-N-pyridin-2-ylbenzene-1,2-diamine",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.25862068965517243,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:25157439",
+      "drug_name": "Phosphoric acid (S)-2-(3-hydroxy-hexadecylcarbamoyl)-2-icosanoylamino-ethyl ester 2-[(2S,3S)-2-(2-1H-indol-3-yl-acetylamino)-3-methyl-pentanoylamino]-ethyl ester",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:pharos"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.25,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "CHEBI:188765",
+      "drug_name": "Tanomastat",
+      "gene": "NCBIGene:4314",
+      "gene_name": "MMP3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.24568965517241378,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:44405462",
+      "drug_name": "Dodecanoic acid (R)-1-{2-[(S)-3-({2-[2-carboxy-3-(4-hydroxy-phenyl)-propionylamino]-ethoxy}-hydroxy-phosphoryloxy)-2-tetradecanoylamino-propionyloxy]-ethyl}-octyl ester",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:pharos"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.2413793103448276,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:44405661",
+      "drug_name": "Dodecanoic acid (R)-1-{2-[(S)-3-({2-[2-carboxy-3-(4-hydroxy-phenyl)-propionylamino]-ethoxy}-hydroxy-phosphoryloxy)-2-tetradecanoylamino-propoxy]-ethyl}-octyl ester",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.23706896551724138,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:166628195",
+      "drug_name": "Propan-2-yl 2-[(4-bromonaphthalen-1-yl)carbamothioylamino]-4,5,6,7-tetrahydro-1-benzothiophene-3-carboxylate",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.23275862068965517,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:155548681",
+      "drug_name": "methyl 2-[(4-methylpiperazine-1-carbonyl)amino]-5,6,7,8-tetrahydro-4H-cyclohepta[b]thiophene-3-carboxylate",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.22844827586206898,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:44589027",
+      "drug_name": "Phosphoric acid 2-{(2S,3S)-2-[2-(5-benzyloxy-1H-indol-3-yl)-acetylamino]-3-methyl-pentanoylamino}-ethyl ester (S)-2-(3-hydroxy-hexadecylcarbamoyl)-2-icosanoylamino-ethyl ester",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:pharos"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.22413793103448276,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:44589028",
+      "drug_name": "Dodecanoic acid 1-(2-{(S)-3-[(2-{(2S,3R)-3-carboxy-2-[2-(4-hydroxy-phenyl)-acetylamino]-butyrylamino}-ethoxy)-hydroxy-phosphoryloxy]-2-tetradecanoylamino-propionylamino}-ethyl)-octyl ester",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:pharos"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.21982758620689655,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:166632191",
+      "drug_name": "ethyl 2-(naphthalen-1-ylcarbamothioylamino)-5,6-dihydro-4H-cyclopenta[b]thiophene-3-carboxylate",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.21551724137931033,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:168284366",
+      "drug_name": "1-[(4-methoxyphenyl)methoxy]-3-[(E)-2-nitroethenyl]benzene",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.21120689655172414,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:56655503",
+      "drug_name": "[(2R)-3-[(2R)-2-amino-3-[[(2S)-3-hydroxy-1-methoxy-1-oxopropan-2-yl]amino]-3-oxopropyl]selanyl-2-hexadecanoyloxypropyl] hexadecanoate",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.20689655172413793,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "CHEMBL.COMPOUND:CHEMBL4780449",
+      "drug_name": "(2S,5S,8R,11S,14S,17S,20S,23S,26S,29S,32S,35S,38S,41S,44R,48R)-14-((1H-indol-3-yl)methyl)-44-amino-5-(3-amino-3-oxopropyl)-29,32,35,38-tetrakis(4-aminobutyl)-11-sec-butyl-8-((R)-1-hydroxyethyl)-26,41-bis(hydroxymethyl)-20,23-diisobutyl-2-isopropyl-17-(2-(methylthio)ethyl)-4,7,10,13,16,22,25,28,31,34,37,40,43,51-tetradecaoxo-48-(palmitoyloxy)-50-oxa-46-thia-3,6,9,12,15,18,21,24,27,30,33,36,39,42-tetradecaazahexahexacontan-1-oic acid",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:pharos"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.2025862068965517,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:152598982",
+      "drug_name": "Propyl 2-[(4-methylpiperazine-1-carbonyl)amino]-4,5,6,7-tetrahydro-1-benzothiophene-3-carboxylate",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.19827586206896552,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:14348819",
+      "drug_name": "1-(tert-butylamino)-3-[3,5-dichloro-4-(4,5-dihydro-1H-imidazol-2-ylamino)phenoxy]propan-2-ol",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.1939655172413793,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:44405780",
+      "drug_name": "Dodecanoic acid (S)-1-{2-[(S)-3-({2-[2-carboxy-3-(4-hydroxy-phenyl)-propionylamino]-ethoxy}-hydroxy-phosphoryloxy)-2-tetradecanoylamino-propoxy]-ethyl}-octyl ester",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.1896551724137931,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:14479829",
+      "drug_name": "N'-ethyl-N-[4-(1H-imidazol-5-yl)phenyl]methanimidamide",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.1853448275862069,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "CHEBI:310312",
+      "drug_name": "Isoliquiritigenin",
+      "gene": "NCBIGene:4314",
+      "gene_name": "MMP3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.17672413793103448,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:13108040",
+      "drug_name": "(2R,3R,4S,5S)-2-(6-aminopurin-9-yl)-5-[[(3S)-1,8-diaminooctan-3-yl]sulfanylmethyl]oxolane-3,4-diol",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.1724137931034483,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:168276299",
+      "drug_name": "N-[3-[(E)-2-nitroethenyl]phenyl]pyrimidin-2-amine",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.16810344827586207,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:44405603",
+      "drug_name": "Dodecanoic acid (R)-1-{2-[(R)-3-(hydroxy-{2-[3-(4-hydroxy-phenyl)-propionylamino]-ethoxy}-phosphoryloxy)-2-tetradecanoylamino-propoxy]-ethyl}-octyl ester",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.16379310344827586,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:1368296",
+      "drug_name": "ethyl 2-[(phenylcarbamothioyl)amino]-5,6,7,8-tetrahydro-4H-cyclohepta[b]thiophene-3-carboxylate",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.15948275862068967,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:10001964",
+      "drug_name": "N-hydroxy-2-[[4-[4-(3-methoxyphenyl)-3-methylphenyl]-3,6-dihydro-2H-pyridin-1-yl]sulfonyl]acetamide",
+      "gene": "NCBIGene:4314",
+      "gene_name": "MMP3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:pharos"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.15517241379310345,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "CHEBI:202178",
+      "drug_name": "Berkeleyamide A",
+      "gene": "NCBIGene:4314",
+      "gene_name": "MMP3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:pharos"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.15086206896551724,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "CHEMBL.COMPOUND:CHEMBL337512",
+      "drug_name": "(2R,3R)-N-{(1R)-4-Nitroguanyl-1-[(1,3-thiazol-2-ylamino)carbonyl]butyl}-2-{(1S)-1-[formyl(hydroxy)amino]-2-phenylethyl}-4-methylpentanamide",
+      "gene": "NCBIGene:4314",
+      "gene_name": "MMP3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:pharos"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.14655172413793102,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "CHEMBL.COMPOUND:CHEMBL4524116",
+      "drug_name": "3-[4-(4-Fluoro-phenoxy)-benzenesulfonylamino]-8-oxa-bicyclo[3.2.1]octane-3-carboxylic acid hydroxyamide",
+      "gene": "NCBIGene:4314",
+      "gene_name": "MMP3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:pharos"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.13793103448275862,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "CHEBI:53620",
+      "drug_name": "Methylisothiazolinone",
+      "gene": "NCBIGene:4314",
+      "gene_name": "MMP3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "secretion",
+      "drug_gene_sources": [
+        "infores:ctd"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.1336206896551724,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:761938",
+      "drug_name": "Methyl 2-[(phenylcarbamothioyl)amino]-4,5,6,7-tetrahydro-1-benzothiophene-3-carboxylate",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.12931034482758622,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:166636316",
+      "drug_name": "2-Methylpropyl 2-(naphthalen-1-ylcarbamothioylamino)-4,5,6,7-tetrahydro-1-benzothiophene-3-carboxylate",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.125,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:15112598",
+      "drug_name": "1-(tert-butylamino)-3-[(E)-1-[3,5-dichloro-4-[1-(4,5-dihydro-1H-imidazol-2-yl)ethoxy]phenyl]ethylideneamino]oxypropan-2-ol",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.1206896551724138,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:91900553",
+      "drug_name": "91900553",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.11637931034482758,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:91900552",
+      "drug_name": "91900552",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.11206896551724138,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:71453783",
+      "drug_name": "(4R)-4-[[(2R)-2-[[(2R)-2-[[(2R)-2-[[(2R)-2-[[(2R)-2-[[(2R)-2-[[(2R)-2-[[(2R)-2-[[(2R)-2-[[2-[2-[3-[2-[2-(3-acetamidopropoxy)ethoxy]ethoxy]propylamino]-2-oxoethoxy]acetyl]amino]-3-[(2R)-2,3-di(hexadecanoyloxy)propyl]sulfanylpropanoyl]amino]-3-hydroxypropanoyl]amino]-5-(diaminomethylideneamino)pentanoyl]amino]-3-phenylpropanoyl]amino]-3-carboxypropanoyl]amino]-4-carboxybutanoyl]amino]-3-carboxypropanoyl]amino]-3-carboxypropanoyl]amino]-4-methylpentanoyl]amino]-5-amino-5-oxopentanoic acid",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:pharos"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.10775862068965517,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "CHEBI:195398",
+      "drug_name": "Batimastat",
+      "gene": "NCBIGene:4314",
+      "gene_name": "MMP3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:gtopdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.10344827586206896,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:91900575",
+      "drug_name": "91900575",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.09913793103448276,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:15707356",
+      "drug_name": "Methyl 2-(2-hydroxyethanesulfonyl)-5-sulfamoylbenzoate",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.09482758620689655,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:56850266",
+      "drug_name": "(2S)-2-[[(2R)-2-amino-3-[(2R)-3-[2-[3-[2-(2-ethoxyethoxy)ethoxy]propylamino]acetyl]oxy-2-hexadecanoyloxypropyl]sulfanylpropanoyl]amino]-3-hydroxypropanoic acid",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:pharos"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.09051724137931035,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:71462638",
+      "drug_name": "compound 13 [PMID: 23098072]",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:gtopdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.08620689655172414,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:91900589",
+      "drug_name": "91900589",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.08189655172413793,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:91900587",
+      "drug_name": "91900587",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.07758620689655173,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:91900582",
+      "drug_name": "91900582",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.07327586206896551,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:91933229",
+      "drug_name": "Ac-I[CVTQDWGHHRC]T-NH2",
+      "gene": "NCBIGene:718",
+      "gene_name": "C3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.06896551724137931,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "MESH:D004365",
+      "drug_name": "Drugs, Chinese Herbal",
+      "gene": "NCBIGene:2056",
+      "gene_name": "EPO",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "secretion",
+      "drug_gene_sources": [
+        "infores:ctd"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.06465517241379311,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:145985080",
+      "drug_name": "Ac-Ile-Cys(1)-Val-Trp(Me)-Gln-Asp-Trp-Sar-Ala-His-Arg-Cys(1)-N(Me)Ile-NH2",
+      "gene": "NCBIGene:718",
+      "gene_name": "C3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.05603448275862069,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:91900521",
+      "drug_name": "91900521",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "increased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:bindingdb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.05172413793103448,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "PUBCHEM.COMPOUND:71451937",
+      "drug_name": "[(2R)-3-[(2R)-3-[[2-[[(2R)-1-[3-[2-[2-[3-[[2-(2-amino-2-oxoethoxy)acetyl]amino]propoxy]ethoxy]ethoxy]propylamino]-3-hydroxy-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-3-oxo-2-[[2-[2-oxo-2-[3-[2-[2-[3-(3-sulfanylpropanoylamino)propoxy]ethoxy]ethoxy]propylamino]ethoxy]acetyl]amino]propyl]sulfanyl-2-hexadecanoyloxypropyl] hexadecanoate",
+      "gene": "NCBIGene:7097",
+      "gene_name": "TLR2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": "decreased",
+      "aspect": "activity",
+      "drug_gene_sources": [
+        "infores:pharos"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.04310344827586207,
+      "agent": "ara-unsecret"
+    },
+    {
+      "drug": "CHEBI:6888",
+      "drug_name": "Methylprednisolone",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.935,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:41423",
+      "drug_name": "Celecoxib",
+      "gene": "NCBIGene:6774",
+      "gene_name": "STAT3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.917,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "UNII:B72HH48FLU",
+      "drug_name": "Infliximab",
+      "gene": "NCBIGene:3553",
+      "gene_name": "IL1B",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.914,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "UNII:B72HH48FLU",
+      "drug_name": "Infliximab",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:directly_physically_interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:drugcentral"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.914,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "UNII:B72HH48FLU",
+      "drug_name": "Infliximab",
+      "gene": "NCBIGene:2212",
+      "gene_name": "FCGR2A",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.914,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "UNII:B72HH48FLU",
+      "drug_name": "Infliximab",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.914,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "UNII:B72HH48FLU",
+      "drug_name": "Infliximab",
+      "gene": "NCBIGene:7099",
+      "gene_name": "TLR4",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.914,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "UNII:B72HH48FLU",
+      "drug_name": "Infliximab",
+      "gene": "NCBIGene:3593",
+      "gene_name": "IL12B",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.914,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "UNII:B72HH48FLU",
+      "drug_name": "Infliximab",
+      "gene": "NCBIGene:7132",
+      "gene_name": "TNFRSF1A",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.914,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:24261",
+      "drug_name": "glucocorticoid",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.914,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:24261",
+      "drug_name": "glucocorticoid",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.914,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "MESH:D000305",
+      "drug_name": "Adrenal Cortex Hormones",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.914,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:44185",
+      "drug_name": "Methotrexate",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.89,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "MESH:D020381",
+      "drug_name": "Interleukin-17",
+      "gene": "NCBIGene:6774",
+      "gene_name": "STAT3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.832,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "MESH:D020381",
+      "drug_name": "Interleukin-17",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.832,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "MESH:D020381",
+      "drug_name": "Interleukin-17",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.832,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "MESH:D000906",
+      "drug_name": "Antibodies",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.832,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "MESH:D000906",
+      "drug_name": "Antibodies",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.832,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "UNII:QX3JU54GYQ",
+      "drug_name": "Gevokizumab",
+      "gene": "NCBIGene:3553",
+      "gene_name": "IL1B",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:physically_interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:ncit"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.832,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "MESH:D000911",
+      "drug_name": "Antibodies, Monoclonal",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.832,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "UNII:FU77B4U5Z0",
+      "drug_name": "Ustekinumab",
+      "gene": "NCBIGene:3593",
+      "gene_name": "IL12B",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:directly_physically_interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:drugcentral"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.832,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "UNII:DEW6X41BEK",
+      "drug_name": "Tildrakizumab",
+      "gene": "NCBIGene:3593",
+      "gene_name": "IL12B",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:directly_physically_interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:drugcentral"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.832,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "UNII:2S9ZZM9Q9V",
+      "drug_name": "Bevacizumab",
+      "gene": "NCBIGene:2212",
+      "gene_name": "FCGR2A",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:physically_interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:drugbank"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.742,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:16480",
+      "drug_name": "Nitric Oxide",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.742,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:16480",
+      "drug_name": "Nitric Oxide",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.742,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:16480",
+      "drug_name": "Nitric Oxide",
+      "gene": "NCBIGene:7099",
+      "gene_name": "TLR4",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.742,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:50673",
+      "drug_name": "Methimazole",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.742,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:50673",
+      "drug_name": "Methimazole",
+      "gene": "NCBIGene:3559",
+      "gene_name": "IL2RA",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.742,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:16709",
+      "drug_name": "Pyridoxine",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.742,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:8502",
+      "drug_name": "Propylthiouracil",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.742,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:8502",
+      "drug_name": "Propylthiouracil",
+      "gene": "NCBIGene:3559",
+      "gene_name": "IL2RA",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.742,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:2682",
+      "drug_name": "Amphotericin B",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.742,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:45285",
+      "drug_name": "Pyrazinamide",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.742,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:8310",
+      "drug_name": "Polymyxin B",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.742,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:15640",
+      "drug_name": "Leucovorin",
+      "gene": "NCBIGene:864",
+      "gene_name": "RUNX3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.677,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:166520",
+      "drug_name": "Tenamfetamine",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.677,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:15551",
+      "drug_name": "Dinoprostone",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.677,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "UMLS:C0003211",
+      "drug_name": "Anti-Inflammatory Agents, Non-Steroidal",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.677,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:17489",
+      "drug_name": "Cyclic AMP",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.677,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:28125",
+      "drug_name": "Doconexent",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.674,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:4877",
+      "drug_name": "Ethambutol",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.33,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:77363",
+      "drug_name": "Ramiprilat",
+      "gene": "NCBIGene:1636",
+      "gene_name": "ACE",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.33,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:174690",
+      "drug_name": "Clenbuterol",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:physically_interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:drugbank"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.33,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:65408",
+      "drug_name": "Andrographolide",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:physically_interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:drugbank"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.33,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:5383",
+      "drug_name": "Glimepiride",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.33,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:81005",
+      "drug_name": "Cilazaprilat",
+      "gene": "NCBIGene:1636",
+      "gene_name": "ACE",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:physically_interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:drugbank"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.33,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "UMLS:C0003015",
+      "drug_name": "Angiotensin-Converting Enzyme Inhibitors",
+      "gene": "NCBIGene:1636",
+      "gene_name": "ACE",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.296,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "UNII:M89N0Q7EQR",
+      "drug_name": "Aldesleukin",
+      "gene": "NCBIGene:3559",
+      "gene_name": "IL2RA",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.271,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "UNII:M89N0Q7EQR",
+      "drug_name": "Aldesleukin",
+      "gene": "NCBIGene:3558",
+      "gene_name": "IL2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:subclass_of",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:umls-metathesaurus"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.271,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:175901",
+      "drug_name": "Gemcitabine",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.271,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:16236",
+      "drug_name": "Ethanol",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.271,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:16236",
+      "drug_name": "Ethanol",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.271,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:4031",
+      "drug_name": "Cyclosporine",
+      "gene": "NCBIGene:3683",
+      "gene_name": "ITGAL",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.271,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:4031",
+      "drug_name": "Cyclosporine",
+      "gene": "NCBIGene:3558",
+      "gene_name": "IL2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.271,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:4031",
+      "drug_name": "Cyclosporine",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.271,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:9598",
+      "drug_name": "Tiludronic acid",
+      "gene": "NCBIGene:3553",
+      "gene_name": "IL1B",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.271,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:44185",
+      "drug_name": "Methotrexate",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.271,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:63791",
+      "drug_name": "Lenalidomide",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:physically_interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:ncit"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.271,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:17895",
+      "drug_name": "Tyrosine",
+      "gene": "NCBIGene:6774",
+      "gene_name": "STAT3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.261,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:17895",
+      "drug_name": "Tyrosine",
+      "gene": "NCBIGene:6774",
+      "gene_name": "STAT3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.261,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:9241",
+      "drug_name": "Spironolactone",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.261,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:50131",
+      "drug_name": "Decitabine",
+      "gene": "NCBIGene:1788",
+      "gene_name": "DNMT3A",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.261,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:48981",
+      "drug_name": "Oxyquinoline",
+      "gene": "NCBIGene:4088",
+      "gene_name": "SMAD3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.261,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:74947",
+      "drug_name": "Thalidomide",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.261,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:74947",
+      "drug_name": "Thalidomide",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:physically_interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:ncit"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.261,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:27666",
+      "drug_name": "Dactinomycin",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.261,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:16027",
+      "drug_name": "AMP",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.247,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:16027",
+      "drug_name": "AMP",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.247,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:94557",
+      "drug_name": "Thiocolchicoside",
+      "gene": "NCBIGene:8600",
+      "gene_name": "TNFSF11",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:drugbank"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.247,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:63581",
+      "drug_name": "Stavudine",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.247,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:7986",
+      "drug_name": "Pentoxifylline",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.237,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:7986",
+      "drug_name": "Pentoxifylline",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.237,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:6931",
+      "drug_name": "Midazolam",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.237,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:9168",
+      "drug_name": "Sirolimus",
+      "gene": "NCBIGene:6794",
+      "gene_name": "STK11",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.237,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:9168",
+      "drug_name": "Sirolimus",
+      "gene": "NCBIGene:6198",
+      "gene_name": "RPS6KB1",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.237,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:9168",
+      "drug_name": "Sirolimus",
+      "gene": "NCBIGene:6198",
+      "gene_name": "RPS6KB1",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.237,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:9168",
+      "drug_name": "Sirolimus",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.237,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:472805",
+      "drug_name": "Ouabain",
+      "gene": "NCBIGene:6774",
+      "gene_name": "STAT3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.237,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:472805",
+      "drug_name": "Ouabain",
+      "gene": "NCBIGene:4088",
+      "gene_name": "SMAD3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.237,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:28544",
+      "drug_name": "Digitoxin",
+      "gene": "NCBIGene:4088",
+      "gene_name": "SMAD3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.237,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:28544",
+      "drug_name": "Digitoxin",
+      "gene": "NCBIGene:6774",
+      "gene_name": "STAT3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.237,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:3387",
+      "drug_name": "Carbamazepine",
+      "gene": "NCBIGene:3105",
+      "gene_name": "HLA-A",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.237,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:3387",
+      "drug_name": "Carbamazepine",
+      "gene": "NCBIGene:3106",
+      "gene_name": "HLA-B",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.237,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:6359",
+      "drug_name": "Lactulose",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.237,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:135825",
+      "drug_name": "Peruvoside",
+      "gene": "NCBIGene:4088",
+      "gene_name": "SMAD3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.237,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:27732",
+      "drug_name": "Caffeine",
+      "gene": "NCBIGene:3559",
+      "gene_name": "IL2RA",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.237,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:5165",
+      "drug_name": "Fosphenytoin",
+      "gene": "NCBIGene:3106",
+      "gene_name": "HLA-B",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.227,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:15367",
+      "drug_name": "Tretinoin",
+      "gene": "UMLS:C0033692",
+      "gene_name": "Proteoglycan",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:causes",
+      "score": 0.227,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:7824",
+      "drug_name": "Oxcarbazepine",
+      "gene": "NCBIGene:3106",
+      "gene_name": "HLA-B",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.227,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:8069",
+      "drug_name": "Phenobarbital",
+      "gene": "NCBIGene:1543",
+      "gene_name": "CYP1A1",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.227,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:8107",
+      "drug_name": "Phenytoin",
+      "gene": "NCBIGene:1543",
+      "gene_name": "CYP1A1",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.227,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:8107",
+      "drug_name": "Phenytoin",
+      "gene": "NCBIGene:3106",
+      "gene_name": "HLA-B",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.227,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:6437",
+      "drug_name": "Levetiracetam",
+      "gene": "NCBIGene:3105",
+      "gene_name": "HLA-A",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.227,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:27690",
+      "drug_name": "Acetazolamide",
+      "gene": "NCBIGene:3106",
+      "gene_name": "HLA-B",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.227,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:10127",
+      "drug_name": "Zonisamide",
+      "gene": "NCBIGene:3105",
+      "gene_name": "HLA-A",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.227,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:2038",
+      "drug_name": "Azacitidine",
+      "gene": "NCBIGene:5328",
+      "gene_name": "PLAU",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.216,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:2038",
+      "drug_name": "Azacitidine",
+      "gene": "NCBIGene:1788",
+      "gene_name": "DNMT3A",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.216,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:16469",
+      "drug_name": "Estradiol",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.216,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:16469",
+      "drug_name": "Estradiol",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.216,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:8768",
+      "drug_name": "Rabeprazole",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.216,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:2686",
+      "drug_name": "Amrinone",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:drugbank"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.216,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:72690",
+      "drug_name": "Pomalidomide",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:drugbank"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.216,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:490877",
+      "drug_name": "Didanosine",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.216,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "UNII:089658A12D",
+      "drug_name": "Guselkumab",
+      "gene": "NCBIGene:3593",
+      "gene_name": "IL12B",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:directly_physically_interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:drugcentral"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.196,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "UMLS:C1136254",
+      "drug_name": "Microbicides",
+      "gene": "NCBIGene:7099",
+      "gene_name": "TLR4",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.186,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:17026",
+      "drug_name": "Progesterone",
+      "gene": "NCBIGene:3559",
+      "gene_name": "IL2RA",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.165,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:50924",
+      "drug_name": "Sorafenib",
+      "gene": "NCBIGene:6774",
+      "gene_name": "STAT3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.165,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:46345",
+      "drug_name": "Fluorouracil",
+      "gene": "NCBIGene:3559",
+      "gene_name": "IL2RA",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.165,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:46345",
+      "drug_name": "Fluorouracil",
+      "gene": "NCBIGene:3570",
+      "gene_name": "IL6R",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.165,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:8673",
+      "drug_name": "Pyrimethamine",
+      "gene": "NCBIGene:6774",
+      "gene_name": "STAT3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.165,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:45409",
+      "drug_name": "Ritonavir",
+      "gene": "NCBIGene:7099",
+      "gene_name": "TLR4",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.165,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:8064",
+      "drug_name": "Phenformin",
+      "gene": "NCBIGene:6794",
+      "gene_name": "STK11",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.165,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "UNII:YB18NF020M",
+      "drug_name": "Satralizumab",
+      "gene": "NCBIGene:3570",
+      "gene_name": "IL6R",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:directly_physically_interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:drugbank"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.165,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:4315",
+      "drug_name": "Danazol",
+      "gene": "NCBIGene:4153",
+      "gene_name": "MBL2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.165,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:6030",
+      "drug_name": "Isoniazid",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.165,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:28077",
+      "drug_name": "Rifampicin",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.165,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:63918",
+      "drug_name": "Artesunate",
+      "gene": "NCBIGene:4790",
+      "gene_name": "NFKB1",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.165,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:9150",
+      "drug_name": "Simvastatin",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.165,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:7553",
+      "drug_name": "Niclosamide",
+      "gene": "NCBIGene:6774",
+      "gene_name": "STAT3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.144,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:2968",
+      "drug_name": "Bacampicillin",
+      "gene": "NCBIGene:3105",
+      "gene_name": "HLA-A",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.144,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:9587",
+      "drug_name": "Ticarcillin",
+      "gene": "NCBIGene:3558",
+      "gene_name": "IL2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.144,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "UNII:0WA1B15A1Z",
+      "drug_name": "Polaprezinc",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:drugbank"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.144,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:75934",
+      "drug_name": "Vadimezan",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.134,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:63621",
+      "drug_name": "Saquinavir",
+      "gene": "NCBIGene:7099",
+      "gene_name": "TLR4",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.134,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:5801",
+      "drug_name": "Hydroxychloroquine",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.134,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:28971",
+      "drug_name": "Ampicillin",
+      "gene": "NCBIGene:3105",
+      "gene_name": "HLA-A",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.134,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:22984",
+      "drug_name": "Calcium",
+      "gene": "NCBIGene:831",
+      "gene_name": "CAST",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:physically_interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:drugbank"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.134,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:64227",
+      "drug_name": "Ciglitazone",
+      "gene": "NCBIGene:6774",
+      "gene_name": "STAT3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.134,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:51209",
+      "drug_name": "Pseudoephedrine",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:drugbank"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.124,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:42223",
+      "drug_name": "Emodin",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.124,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:50122",
+      "drug_name": "Rosiglitazone",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.041,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:6801",
+      "drug_name": "Metformin",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.041,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:6801",
+      "drug_name": "Metformin",
+      "gene": "NCBIGene:6774",
+      "gene_name": "STAT3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.041,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:6801",
+      "drug_name": "Metformin",
+      "gene": "NCBIGene:6794",
+      "gene_name": "STK11",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.041,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:31781",
+      "drug_name": "Lopinavir",
+      "gene": "NCBIGene:4088",
+      "gene_name": "SMAD3",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.041,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:3181",
+      "drug_name": "Bromocriptine",
+      "gene": "NCBIGene:3558",
+      "gene_name": "IL2",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.041,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:3181",
+      "drug_name": "Bromocriptine",
+      "gene": "NCBIGene:3952",
+      "gene_name": "LEP",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.041,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:8228",
+      "drug_name": "Pioglitazone",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.041,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:104872",
+      "drug_name": "Rolipram",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.021,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:28177",
+      "drug_name": "Theophylline",
+      "gene": "NCBIGene:3559",
+      "gene_name": "IL2RA",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:dgidb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.021,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:16796",
+      "drug_name": "Melatonin",
+      "gene": "NCBIGene:7124",
+      "gene_name": "TNF",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:interacts_with",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.021,
+      "agent": "ara-arax"
+    },
+    {
+      "drug": "CHEBI:6804",
+      "drug_name": "Methacholine",
+      "gene": "NCBIGene:196",
+      "gene_name": "AHR",
+      "disease": "MONDO:0005306",
+      "disease_name": "ankylosing spondylitis",
+      "drug_gene_predicate": "biolink:affects",
+      "direction": null,
+      "aspect": null,
+      "drug_gene_sources": [
+        "infores:semmeddb"
+      ],
+      "gene_disease_predicate": "biolink:gene_associated_with_condition",
+      "score": 0.021,
+      "agent": "ara-arax"
+    }
+  ]
+}

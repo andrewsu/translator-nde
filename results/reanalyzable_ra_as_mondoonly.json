@@ -1,0 +1,3304 @@
+{
+  "diseases": {
+    "0008383": "rheumatoid arthritis",
+    "0005306": "ankylosing spondylitis"
+  },
+  "n_candidates": 228,
+  "datasets": [
+    {
+      "gse": "GSE100531",
+      "name": "Extracellular Vesicles Transfer the Receptor PD-1 in Rheumatoid Arthritis.",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100531",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE100531_miRNA_expression_raw_counts.txt.gz"
+      ],
+      "n_suppl_files": 2,
+      "nde_samples": 18,
+      "error": null
+    },
+    {
+      "gse": "GSE102728",
+      "name": "IgG immunocomplexes sensitize human monocytes for  inflammatory hyperactivity via transcriptomic and epigenetic reprogramming in Rheumatoid Arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE102728",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE102728_ALL_expression_Matrix.txt.gz"
+      ],
+      "n_suppl_files": 3,
+      "nde_samples": 16,
+      "error": null
+    },
+    {
+      "gse": "GSE107363",
+      "name": "Deduction of Novel Genes Potentially Involved in Osteoblasts of Rheumatoid Arthritis Using Next-Generation Sequencing and Bioinformatic Approaches",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE107363",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 4,
+      "error": null
+    },
+    {
+      "gse": "GSE109448",
+      "name": "RNA-seq analysis of freshly isolated synovial fibroblast subsets from patients with rheumatoid arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE109448",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE109448_rnaseq_gene_counts.tsv.gz",
+        "GSE109448_rnaseq_transcript_counts.tsv.gz"
+      ],
+      "n_suppl_files": 5,
+      "nde_samples": 25,
+      "error": null
+    },
+    {
+      "gse": "GSE109449",
+      "name": "Single cell RNA-seq analysis of freshly isolated synovial fibroblasts in patients with rheumatoid arthritis or osteoarthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE109449",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE109449_singlecell_rnaseq_gene_counts.tsv.gz",
+        "GSE109449_singlecell_rnaseq_transcript_counts.tsv.gz"
+      ],
+      "n_suppl_files": 5,
+      "nde_samples": 384,
+      "error": null
+    },
+    {
+      "gse": "GSE109450",
+      "name": "Functionally distinct disease-associated fibroblast subsets in rheumatoid arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE109450",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 445,
+      "error": null
+    },
+    {
+      "gse": "GSE110999",
+      "name": "RNA sequencing of B cell subsets (CD11c hi IgD+ B cells, CD11c hi IgD- B cells, Memory B cells and Na\u00c3\u00afve B cells) from healthy subjects and subjects with Systemic lupus erythematosus (SLE) or Rheumatoid arthritis (RA)",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE110999",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE110999_rlog.deseq2.txt.gz"
+      ],
+      "n_suppl_files": 3,
+      "nde_samples": 48,
+      "error": null
+    },
+    {
+      "gse": "GSE112654",
+      "name": "Comprehensive Epigenetic Landscape of Rheumatoid Arthritis Fibroblast-like Synoviocytes [ATAC-seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE112654",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 22,
+      "error": null
+    },
+    {
+      "gse": "GSE112655",
+      "name": "Comprehensive Epigenetic Landscape of Rheumatoid Arthritis Fibroblast-like Synoviocytes [ChIP-seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE112655",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 152,
+      "error": null
+    },
+    {
+      "gse": "GSE112656",
+      "name": "Comprehensive Epigenetic Landscape of Rheumatoid Arthritis Fibroblast-like Synoviocytes [RNA-seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE112656",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE112656_Counts_matix.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 20,
+      "error": null
+    },
+    {
+      "gse": "GSE112658",
+      "name": "Comprehensive Epigenetic Landscape of Rheumatoid Arthritis Fibroblast-like Synoviocytes",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE112658",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 213,
+      "error": null
+    },
+    {
+      "gse": "GSE113156",
+      "name": "Transcriptome change after tocilizumab therapy in rheumatoid arthritis patients",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE113156",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 22,
+      "error": null
+    },
+    {
+      "gse": "GSE116142",
+      "name": "Fibroblasts in cholesteatoma activate osteoclasts.",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE116142",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE116497",
+      "name": "Fine-mapping and functional studies highlight potential causal variants for rheumatoid arthritis and type 1 diabetes",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE116497",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 8,
+      "error": null
+    },
+    {
+      "gse": "GSE116780",
+      "name": "RNA sequencing of CRISPR/Cas9-generated A20 DUB-inative and A20 knock-out U937 cells to elucidate the role of human A20 DUB-domain",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE116780",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE116780_combined.counts.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 28,
+      "error": null
+    },
+    {
+      "gse": "GSE118829",
+      "name": "Gene expressions of T cells in each developmental stages in healthy volunteers and patients with rheumatoid arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE118829",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 336,
+      "error": null
+    },
+    {
+      "gse": "GSE120178",
+      "name": "Pharmacodynamic Biomarkers and Differential Effects of TNF- and GM-CSF-Targeting Biologics in Rheumatoid Arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120178",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE120178_mavri_baseline_hc_fpkm_data.Sept2018.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 147,
+      "error": null
+    },
+    {
+      "gse": "GSE122412",
+      "name": "Engulfment gene ELMO1 in neutrophils as a promoter of inflammatory arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE122412",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE122412_all.csv.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 16,
+      "error": null
+    },
+    {
+      "gse": "GSE122612",
+      "name": "Predicting drug-free remission in rheumatoid arthritis: the Biomarkers of Remission in Rheumatoid Arthritis (BioRRA) Study",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE122612",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 44,
+      "error": null
+    },
+    {
+      "gse": "GSE123484",
+      "name": "Loss-of-function of PTPN2 promotes pathogenic loss of FoxP3+ in RORgt+ Tregs [RNA-seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE123484",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE123484_all_counts.tsv.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 32,
+      "error": null
+    },
+    {
+      "gse": "GSE123486",
+      "name": "Loss-of-function of PTPN2 promotes pathogenic loss of FoxP3+ in RORgt+ Tregs [ATAC-seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE123486",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 12,
+      "error": null
+    },
+    {
+      "gse": "GSE126991",
+      "name": "Histone H3K27 demethylases regulate human Th17 cell maturation and effector functions by impacting on metabolism [I]",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126991",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 7,
+      "error": null
+    },
+    {
+      "gse": "GSE127766",
+      "name": "Histone H3K27 demethylases regulate human Th17 cell maturation and effector functions by impacting on metabolism [II]",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE127766",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 9,
+      "error": null
+    },
+    {
+      "gse": "GSE128008",
+      "name": "Histone H3K27 demethylases regulate human Th17 cell maturation and effector functions by impacting on metabolism [III]",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE128008",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 15,
+      "error": null
+    },
+    {
+      "gse": "GSE128638",
+      "name": "TNF-induced Inflammatory Genes Escape Repression in Fibroblast-like Synoviocytes: Transcriptomic and Epigenomic Analysis [RNA-seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE128638",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE128638_RNA_MF_Ctrl_T1_T3_T6_T24.xlsx"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 5,
+      "error": null
+    },
+    {
+      "gse": "GSE128642",
+      "name": "TNF-induced Inflammatory Genes Escape Repression in Fibroblast-like Synoviocytes: Transcriptomic and Epigenomic Analysis [ChIP-seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE128642",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE128644",
+      "name": "TNF-induced Inflammatory Genes Escape Repression in Fibroblast-like Synoviocytes: Transcriptomic and Epigenomic Analysis [ATAC-seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE128644",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE129486",
+      "name": "Transcriptional responses of human synovial fibroblasts to TNF and IL-17A over time (RNA-seq Data 1)",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE129486",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE129486_rnaseq-data-1_gene-counts.tsv.gz",
+        "GSE129486_rnaseq-data-1_transcript-counts.tsv.gz"
+      ],
+      "n_suppl_files": 5,
+      "nde_samples": 175,
+      "error": null
+    },
+    {
+      "gse": "GSE129705",
+      "name": "RNA-sequencing of whole blood samples from biologic na\u00c3\u00afve rheumatoid arthritis patients initiating anti-TNF treatment",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE129705",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE129705_RNA-seQC_metrics.txt.gz",
+        "GSE129705_c12-ra-wb-bl-mo3-processed-data-file.txt.gz"
+      ],
+      "n_suppl_files": 2,
+      "nde_samples": 128,
+      "error": null
+    },
+    {
+      "gse": "GSE133527",
+      "name": "miR-221-3p drives the Shift of M2-Macrophage to a Pro-Inflammatory Function by Modulating JAK3/STAT3 Signaling and is Increased in Rheumatoid Arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE133527",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE133527_gene_counts.tsv.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 20,
+      "error": null
+    },
+    {
+      "gse": "GSE133719",
+      "name": "Systematic assessment of commercially available low-input miRNA library preparation kits",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE133719",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE133719_countTable_biological.tsv.gz",
+        "GSE133719_countTable_biological_downsampled.csv.gz",
+        "GSE133719_countTable_biological_rlog_downsampled.csv.gz",
+        "GSE133719_countTable_synthetic.tsv.gz",
+        "GSE133719_countTable_synthetic_downsampled.csv.gz",
+        "GSE133719_countTable_synthetic_rlog_downsampled.csv.gz"
+      ],
+      "n_suppl_files": 8,
+      "nde_samples": 126,
+      "error": null
+    },
+    {
+      "gse": "GSE138746",
+      "name": "Multi-omics and Machine Learning Accurately Predicts Clinical Response to Adalimumab and Etanercept Therapy in Patients with Rheumatoid Arthritis [RNA-Seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE138746",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE138746_Counts_Normalization_PBMC.csv.gz",
+        "GSE138746_Counts_Normalization_cd14.csv.gz",
+        "GSE138746_Counts_Normalization_cd4.csv.gz",
+        "GSE138746_rawReadsData.csv.gz"
+      ],
+      "n_suppl_files": 4,
+      "nde_samples": 240,
+      "error": null
+    },
+    {
+      "gse": "GSE138747",
+      "name": "Multi-omics and Machine Learning Accurately Predicts Clinical Response to Adalimumab and Etanercept Therapy in Patients with Rheumatoid Arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE138747",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 320,
+      "error": null
+    },
+    {
+      "gse": "GSE138767",
+      "name": "Simultaneous analysis of open chromatin, promoter interactions and gene expression in stimulated T cells implicates GWAS SNPs with causal genes",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE138767",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE138767_combined_RNA-seq_counts.csv.gz"
+      ],
+      "n_suppl_files": 7,
+      "nde_samples": 36,
+      "error": null
+    },
+    {
+      "gse": "GSE141105",
+      "name": "Bulk and single cell transcriptomic data indicate that a dichotomy between inflammatory pathways in peripheral blood and arthritic joints complicates biomarker discovery",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141105",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE141105_Blood_expression_matrix.txt.gz",
+        "GSE141105_Joint_expression_matrix.txt.gz"
+      ],
+      "n_suppl_files": 2,
+      "nde_samples": 9,
+      "error": null
+    },
+    {
+      "gse": "GSE141646",
+      "name": "Transcriptome analysis of ankylosing spondylitis patients before and after TNF-\u00ce\u00b1 inhibitor therapy reveals the pathways affected",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141646",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE141646_AS-TNF_counts.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 44,
+      "error": null
+    },
+    {
+      "gse": "GSE141658",
+      "name": "An extension to: Systematic assessment of commercially available low-input miRNA library preparation kits",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141658",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE141658_countTable_biological.csv.gz",
+        "GSE141658_countTable_biological_downsampled.csv.gz",
+        "GSE141658_countTable_biological_rlog_downsampled.csv.gz",
+        "GSE141658_countTable_synthetic.csv.gz",
+        "GSE141658_countTable_synthetic_downsampled.csv.gz",
+        "GSE141658_countTable_synthetic_rlog_downsampled.csv.gz"
+      ],
+      "n_suppl_files": 8,
+      "nde_samples": 42,
+      "error": null
+    },
+    {
+      "gse": "GSE141836",
+      "name": "The pathogenic role of stem cell-like memory T cells in rheumatoid arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141836",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE141836_DESeq2_RSEM.gene.LRT.xlsx"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 8,
+      "error": null
+    },
+    {
+      "gse": "GSE142786",
+      "name": "Single-cell RNA-seq analysis reveals reduction of B cells in the bone marrow promote fracture healing",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE142786",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE142786_AllSample.counts.tsv.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 2,
+      "error": null
+    },
+    {
+      "gse": "GSE143443",
+      "name": "Joint Location-Specific JAK-STAT Signaling in Rheumatoid Arthritis Fibroblast-like Synoviocytes",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143443",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE143443_lcpm2.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 20,
+      "error": null
+    },
+    {
+      "gse": "GSE149050",
+      "name": "Multi-cell type gene co-expression network analysis reveals coordinated interferon response and cross cell-type correlations in systemic lupus erythematosus",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE149050",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE149050_Bulk_Human_RawCounts.txt.gz"
+      ],
+      "n_suppl_files": 2,
+      "nde_samples": 288,
+      "error": null
+    },
+    {
+      "gse": "GSE150466",
+      "name": "Neutrophil extracellular traps mediate articular cartilage damage and enhance the immunogenicity of cartilage components in rheumatoid arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE150466",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE150466_RA_NETs_48hrs_RPKM.xlsx"
+      ],
+      "n_suppl_files": 2,
+      "nde_samples": 4,
+      "error": null
+    },
+    {
+      "gse": "GSE151161",
+      "name": "Blocking of the CD80/86 axis as a therapeutic approach to prevent progression to more severe forms of COVID-19",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE151161",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE151161_Raw_counts.csv.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 76,
+      "error": null
+    },
+    {
+      "gse": "GSE151897",
+      "name": "RHEUMATOID ARTHRITIS SYNOVIAL MICROENVIRONMENT INDUCES METABOLIC AND FUNCTIONAL ADAPTATIONS IN DENDRITIC CELLS",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE151897",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE151897_CD1c_rawdata.xlsx"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 9,
+      "error": null
+    },
+    {
+      "gse": "GSE152912",
+      "name": "TNF is a homeostatic regulator of distinct epigenetically primed human osteoclast precursors",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152912",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 32,
+      "error": null
+    },
+    {
+      "gse": "GSE153310",
+      "name": "Single-nucleotide-polymorphism-adjacent super enhancer network mediates enhanced osteogenic differentiation of mesenchymal stem cells in ankylosing spondylitis [RNA-seq]",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE153310",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE153310_Raw_gene_counts_matrix.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE153311",
+      "name": "Single-nucleotide-polymorphism-adjacent super enhancer network mediates enhanced osteogenic differentiation of mesenchymal stem cells in ankylosing spondylitis [ChIP-seq]",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE153311",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 4,
+      "error": null
+    },
+    {
+      "gse": "GSE153312",
+      "name": "Single-nucleotide-polymorphism-adjacent super enhancer network mediates enhanced osteogenic differentiation of mesenchymal stem cells in ankylosing spondylitis.",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE153312",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 10,
+      "error": null
+    },
+    {
+      "gse": "GSE154474",
+      "name": "RNAseq analysis of peripheral blood and synovial fluid neutrophils from rheumatoid arthritis patients",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE154474",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE154474_SF.Gene.Rep.Matrix.csv.gz"
+      ],
+      "n_suppl_files": 2,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE154988",
+      "name": "Properties of PD1+ B cells in Rheumatoid Arthritis (RA) Patients",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE154988",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 10,
+      "error": null
+    },
+    {
+      "gse": "GSE157047",
+      "name": "Interplay of NLRC4/NLRP3 inflammasomes and Fc-\u00cb\u00a0-Receptors on CD1c+ DC Associates with Pathogenic IFN\u00cb\u00a0+IL17+ T cells and RA Severity",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE157047",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 42,
+      "error": null
+    },
+    {
+      "gse": "GSE157595",
+      "name": "Gene-regulatory network analysis of ankylosing spondylitis with a single-cell chromatin accessible assay",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE157595",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 2,
+      "error": null
+    },
+    {
+      "gse": "GSE159117",
+      "name": "Single cell RNA-seq for PBMC from rheumatoid arthritis patient",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159117",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 1,
+      "error": null
+    },
+    {
+      "gse": "GSE159618",
+      "name": "miR-497 Reduction and the Increase of its Family Member miR-424 Leads to the Dysregulation of Multiple Inflammation Related Gene in Synovial Fibroblasts with Rheumatoid Arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159618",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 12,
+      "error": null
+    },
+    {
+      "gse": "GSE162051",
+      "name": "RNA-sequencing analysis of the effect of progesterone on T cell activation",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE162051",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE162051_Gene_counts_from_unactivated_activated_CD4+_T_cells_in_the_presence_or_absence_of_progesterone.csv.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 38,
+      "error": null
+    },
+    {
+      "gse": "GSE163548",
+      "name": "Functional genomics atlas of synovial fibroblasts defining rheumatoid arthritis heritability",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE163548",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE163548_Knee_TNF_clusters_tpm.txt.gz",
+        "GSE163548_Knee_clusters_tpm.txt.gz",
+        "GSE163548_MCP_TNF_clusters_tpm.txt.gz",
+        "GSE163548_MCP_clusters_tpm.txt.gz",
+        "GSE163548_Shoulder_TNF_clusters_tpm.txt.gz",
+        "GSE163548_Shoulder_clusters_tpm.txt.gz"
+      ],
+      "n_suppl_files": 27,
+      "nde_samples": 142,
+      "error": null
+    },
+    {
+      "gse": "GSE163605",
+      "name": "Expression levels of HLA-DRB and HLA-DQ are associated with MHC Class II haplotypes in healthy individuals and rheumatoid arthritis patients",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE163605",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE163605_Matrix_normalized_counts_CD14.txt.gz",
+        "GSE163605_Matrix_normalized_counts_CD4.txt.gz",
+        "GSE163605_Matrix_normalized_counts_CD8.txt.gz",
+        "GSE163605_Matrix_normalized_counts_PBMCs.txt.gz"
+      ],
+      "n_suppl_files": 4,
+      "nde_samples": 86,
+      "error": null
+    },
+    {
+      "gse": "GSE166535",
+      "name": "Loss of mutual protection between osteoclasts and chondrocytes in damaged joints: effects on osteoclast-mediated cartilage degradation via matrix metalloproteinases",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE166535",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE166535_final_counts.tsv.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 24,
+      "error": null
+    },
+    {
+      "gse": "GSE166746",
+      "name": "Epigenetic regulator UHRF1 suppressively organize multiple pathogenesis in rheumatoid arthritis [RNA-seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE166746",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE166746_tmm_SF_Cont_KO.xlsx"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE168284",
+      "name": "MicroRNA expression differences in\u00c2\u00a0blood-derived\u00c2\u00a0CD19+ B cells\u00c2\u00a0of\u00c2\u00a0methotrexate\u00c2\u00a0treated\u00c2\u00a0rheumatoid arthritis patients\u00c2\u00a0\u00c2",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE168284",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE168284_miRNA_count_table.csv.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 37,
+      "error": null
+    },
+    {
+      "gse": "GSE176465",
+      "name": "Urine single cell RNA-sequencing in focal segmental glomerulosclerosis reveals inflammatory signatures in immune cells and podocytes",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE176465",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 23,
+      "error": null
+    },
+    {
+      "gse": "GSE178408",
+      "name": "CircRNA sequencing in peripheral blood mononuclear cells from Ankylosing Spondylitis patients and healthy controls",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE178408",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE178408_circRNA_reads_count.txt.gz"
+      ],
+      "n_suppl_files": 2,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE180539",
+      "name": "MAFB surrogates the glucocorticoid receptor ability to induce tolerogenesis in dendritic cells [CHIP_SEQ]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE180539",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 23,
+      "error": null
+    },
+    {
+      "gse": "GSE180540",
+      "name": "MAFB surrogates the glucocorticoid receptor ability to induce tolerogenesis in dendritic cells [RNA_SEQ]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE180540",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE180540_counts_table.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 12,
+      "error": null
+    },
+    {
+      "gse": "GSE181082",
+      "name": "MAFB surrogates the glucocorticoid receptor ability to induce tolerogenesis in dendritic cells",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE181082",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 2,
+      "error": null
+    },
+    {
+      "gse": "GSE181313",
+      "name": "Transcriptional effects of LXR on the differentiation of monocyte-derived macrophages by tumor ascitic fluids or rheumatoid arthritis synovial fluids",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE181313",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 20,
+      "error": null
+    },
+    {
+      "gse": "GSE181364",
+      "name": "The potential mechanism of ankylosing spondylitis",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE181364",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE181364_expressed_gene_FPKM.txt.gz"
+      ],
+      "n_suppl_files": 2,
+      "nde_samples": 8,
+      "error": null
+    },
+    {
+      "gse": "GSE182038",
+      "name": "Elevated N-linked glycosylation of IgG variable regions in myasthenia gravis disease subtypes",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE182038",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 31,
+      "error": null
+    },
+    {
+      "gse": "GSE183970",
+      "name": "Gene-regulatory network study of rheumatoid arthritis in single-cell chromatin landscapes of peripheral blood mononuclear cells",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE183970",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 2,
+      "error": null
+    },
+    {
+      "gse": "GSE184582",
+      "name": "Arthritis Flares Mediated by Tissue Resident Memory T Cells in the Joint\u00c2",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE184582",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 3,
+      "nde_samples": 5,
+      "error": null
+    },
+    {
+      "gse": "GSE184609",
+      "name": "A pathogenic Th17/CD38+ macrophage feedback loop drives inflammatory arthritis through TNFa",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE184609",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 5,
+      "error": null
+    },
+    {
+      "gse": "GSE185440",
+      "name": "The long-non coding RNA HOTAIR shapes the inflammatory response in joints of the lower extremity",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE185440",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE185440_RNAseq_data.xlsx",
+        "GSE185440_metadata_HOTAIR.xlsx"
+      ],
+      "n_suppl_files": 4,
+      "nde_samples": 18,
+      "error": null
+    },
+    {
+      "gse": "GSE185696",
+      "name": "Cross-tissue, single-cell stromal atlas identifies shared pathological fibroblast phenotypes in four chronic inflammatory diseases [scRNA-Seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE185696",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE185710",
+      "name": "Cross-tissue, single-cell stromal atlas identifies shared pathological fibroblast phenotypes in four chronic inflammatory diseases [RNA-Seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE185710",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 41,
+      "error": null
+    },
+    {
+      "gse": "GSE185996",
+      "name": "Exogenous Oncostatin M Induces Cardiac Dysfunction, Muscluloskeletal Atrophy and Fibrosis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE185996",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE185996_merged_counts.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 9,
+      "error": null
+    },
+    {
+      "gse": "GSE186063",
+      "name": "Multi-omics profiling reveals the interactions of host defense and hyper-keratinization in psoriasis",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE186063",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE186063_Raw_gene_counts_matrix.txt.gz"
+      ],
+      "n_suppl_files": 3,
+      "nde_samples": 66,
+      "error": null
+    },
+    {
+      "gse": "GSE189136",
+      "name": "Targeting MyD88 Downregulates Inflammatory Mediators and Pathogenic Processes in PBMC From DMARDs-Na\u00c3\u00afve Rheumatoid Arthritis Patients",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE189136",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE189136_Normalized_DESeq_matrix.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 19,
+      "error": null
+    },
+    {
+      "gse": "GSE190138",
+      "name": "Systematic analysis of inflammation and pain pathways in a mouse model of gout",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE190138",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE190138_rawdata.xlsx"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 18,
+      "error": null
+    },
+    {
+      "gse": "GSE190349",
+      "name": "RNAseq of CD4 T cells from female Rheumatoid arthritis patients",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE190349",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE190349_RNAseq_RA_patients_CD4_ds1_.xlsx"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 24,
+      "error": null
+    },
+    {
+      "gse": "GSE190999",
+      "name": "Single Cell Transcriptomic Analysis of Popliteal Lymphatic Vessels and Peripheral Veins with Smooth Muscle Cell Enrichment in TNF-Tg vs WT Mice",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE190999",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 4,
+      "error": null
+    },
+    {
+      "gse": "GSE191157",
+      "name": "Integrated Analysis of lncRNA and mRNA Expression Profiles Indicates Age-related Changes in Meniscus",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE191157",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 8,
+      "error": null
+    },
+    {
+      "gse": "GSE193193",
+      "name": "Transcriptome -Wide m6A Methylome and Potential Drug Targets Prediction Analysis of Rheumatoid Arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE193193",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE193193_gene_differential_expression.xlsx",
+        "GSE193193_peak.xlsx"
+      ],
+      "n_suppl_files": 2,
+      "nde_samples": 20,
+      "error": null
+    },
+    {
+      "gse": "GSE195557",
+      "name": "TNFR2 is critical for TNF-induced rheumatoid arthritis fibroblast-like synoviocyte inflammation",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE195557",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE195557_Raw_counts_matrix.tsv.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 16,
+      "error": null
+    },
+    {
+      "gse": "GSE195817",
+      "name": "Dissecting the molecular control of immune cell accumulation in the inflamed joint",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE195817",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE195817_count_matrix.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 18,
+      "error": null
+    },
+    {
+      "gse": "GSE196150",
+      "name": "Single Cell RNA in RA Synovium",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196150",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 3,
+      "nde_samples": 5,
+      "error": null
+    },
+    {
+      "gse": "GSE196743",
+      "name": "Next Generation Sequencing Analysis of Healthy donors and rhumatoid arthritis patients with or without anti-TNF-treatment",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196743",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 13,
+      "error": null
+    },
+    {
+      "gse": "GSE198520",
+      "name": "Synovial inflammatory pathways characterize anti-TNF-responsive rheumatoid arthritis patients",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198520",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE198520_Raw_gene_count_matrix.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 92,
+      "error": null
+    },
+    {
+      "gse": "GSE199490",
+      "name": "PD-1 expressing CD4 and CD8 lymphocyte populations were compared to PD-1 negative CD4 and CD8 lymphocyte populations from 5 RA patients",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE199490",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE199490_PD1sig_read_counts.tsv.gz"
+      ],
+      "n_suppl_files": 2,
+      "nde_samples": 47,
+      "error": null
+    },
+    {
+      "gse": "GSE200030",
+      "name": "Regulation of type I interferon signature by VGLL3 in the fibroblast-like synoviocytes of rheumatoid arthritis patients via targeting the Hippo pathway",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE200030",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE200030_fpkm.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 2,
+      "error": null
+    },
+    {
+      "gse": "GSE200597",
+      "name": "Hyaluronan And Proteoglycan Link Protein 1 (HAPLN1) promotes Proliferation and Pro-inflammatory phenotype but not mobility of Fibroblast-like Synoviocytes",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE200597",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE200597_gene_counts_matrix.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 3,
+      "error": null
+    },
+    {
+      "gse": "GSE201669",
+      "name": "RNAseq of CD4 T cells from female Rheumatoid arthritis patients [NeumRA_CD4]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE201669",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE201669_CD4NeumRA.xlsx"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 60,
+      "error": null
+    },
+    {
+      "gse": "GSE201670",
+      "name": "RNAseq of CD14 T cells from female Rheumatoid arthritis patients [NeumRA_CD14]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE201670",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE201670_CD14_NEUMRA.xlsx"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 59,
+      "error": null
+    },
+    {
+      "gse": "GSE202365",
+      "name": "Bulk RNA-seq of human synovial fluid CD8 T cells sorted by Granzyme B vs Granzyme K expression",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE202365",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE202365_Fixed_cell_bulk_RNAseq_log2tpm_batch_corrected.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 12,
+      "error": null
+    },
+    {
+      "gse": "GSE202366",
+      "name": "Single-cell RNA-seq of CD8 T cells sorted from one sample of seropositive rheumatoid arthritis synovial fluid",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE202366",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 1,
+      "error": null
+    },
+    {
+      "gse": "GSE202367",
+      "name": "Effect of T cell supernatants or cytokines on synovial fibroblasts",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE202367",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE202367_Fibroblast_stim_RNAseq_log2tpm_GEO.txt.gz"
+      ],
+      "n_suppl_files": 2,
+      "nde_samples": 46,
+      "error": null
+    },
+    {
+      "gse": "GSE202375",
+      "name": "Pooled single-cell RNA-seq data from T cells from human synovial tissue",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE202375",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE202375_Synovial_tissue_T_cells_normalized_expression.rds.gz"
+      ],
+      "n_suppl_files": 2,
+      "nde_samples": 5,
+      "error": null
+    },
+    {
+      "gse": "GSE202712",
+      "name": "Meg-01 cell line expression data after propionate stimulation",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE202712",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE202712_readcount.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE203354",
+      "name": "Chromatin Accessibility Profiling of Osteoclasts Precursor Cells",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE203354",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE203355",
+      "name": "Investigation of Genomic RNA Polymerase II-Rich Locations in Osteoclast Precursor Cells",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE203355",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 4,
+      "error": null
+    },
+    {
+      "gse": "GSE203356",
+      "name": "Base-Level Resolution Run-On Sequencing in Osteoclast Precursor Cells",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE203356",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE203359",
+      "name": "Strand-Specific Nuclear Transcriptome Analysis of Osteoclast Precursor Cells",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE203359",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 4,
+      "error": null
+    },
+    {
+      "gse": "GSE203586",
+      "name": "Assessment of genomic location of acetylation of lysine 27 of histone H3 in Osteoclast Precursor Cells [ChIP_seq_H3K27ac]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE203586",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE205812",
+      "name": "RNA Sequencing and Bioinformatics Analysis of Differentially Expressed Genes in the Peripheral Serum of Ankylosing Spondylitis patients",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE205812",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE205812_gene_TMM_normalized_CPM.xlsx"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE208161",
+      "name": "Randomized phase-1 trial of antigen-specific tolerizing immunotherapy with peptide/calcitriol liposomes in ACPA+ rheumatoid arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE208161",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE208161_Pt04_D1_D29_filtered_TCR_table.csv.gz",
+        "GSE208161_Pt04_Pt11_Pt19_Pt21_integrated_NormExpresMatrix.csv.gz",
+        "GSE208161_Pt04_Pt11_Pt19_Pt21_integrated_metadata.csv.gz",
+        "GSE208161_Pt11_D1_D29_filtered_TCR_table.csv.gz",
+        "GSE208161_Pt19_D1_D29_filtered_TCR_table.csv.gz",
+        "GSE208161_Pt21_D1_D29_filtered_TCR_table.csv.gz"
+      ],
+      "n_suppl_files": 10,
+      "nde_samples": 12,
+      "error": null
+    },
+    {
+      "gse": "GSE211124",
+      "name": "Single Cell Transcriptomic Analysis of Popliteal Lymph Nodes from TNF-Tg Mice with Early and Advanced Inflammatory-Erosive Arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE211124",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 2,
+      "error": null
+    },
+    {
+      "gse": "GSE212613",
+      "name": "Aberrant lncRNA\u00e2\u0080\u0093mRNA Expression Profile and Function Networks during the Adipogenesis of Mesenchymal Stem Cells from Patients with Ankylosing Spondylitis",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE212613",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE212613_H1H2H3--A2A3A4.all.gene.xls.gz",
+        "GSE212613_H1H2H3--A2A3A4.all.mRNA.xls.gz",
+        "GSE212613_H1H2H3--A2A3A4.all.ncRNA.xls.gz",
+        "GSE212613_H1H2H3--A2A3A4.different.gene.xls.gz",
+        "GSE212613_H1H2H3--A2A3A4.different.mRNA.xls.gz",
+        "GSE212613_H1H2H3--A2A3A4.different.ncRNA.xls.gz"
+      ],
+      "n_suppl_files": 6,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE214842",
+      "name": "ATF6\u00ce\u00b1is required for the inflammation and survival in rheumatoid arthritis fibroblast-like synoviocytes",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE214842",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE216245",
+      "name": "Single-cell immunoprofiling of synovial helper T cell of rheumatoid arthritis patients.",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE216245",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE216245_DK21229_01_consensus_annotations.csv.gz",
+        "GSE216245_DK21229_02_consensus_annotations.csv.gz",
+        "GSE216245_DK21229_03_consensus_annotations.csv.gz",
+        "GSE216245_DK21229_04_consensus_annotations.csv.gz"
+      ],
+      "n_suppl_files": 16,
+      "nde_samples": 8,
+      "error": null
+    },
+    {
+      "gse": "GSE216914",
+      "name": "Single cell analysis reveals multiple subsets of CD8+ TRM and non-TRM cells with a type 17 signature in the inflamed psoriatic arthritis joint",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE216914",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 12,
+      "error": null
+    },
+    {
+      "gse": "GSE217012",
+      "name": "MYD88 dimerization controls the proliferative, invasive, and pro-inflammatory responses of synovial fibroblasts from rheumatoid arthritis patients",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE217012",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE217012_Normalized_RPKM_LOG2_matrix.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 15,
+      "error": null
+    },
+    {
+      "gse": "GSE221012",
+      "name": "Targeting macrophage M1 polarization suppression through PCAF inhibition alleviates autoimmune arthritis via synergistic NF-\u00ce\u00baB and H3K9Ac blockade",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE221012",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE221012_core_table_gene.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 9,
+      "error": null
+    },
+    {
+      "gse": "GSE221704",
+      "name": "RANK+TLR2+ Myeloid Subpopulation Converts Autoimmune to Joint Destruction in Rheumatoid Arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE221704",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 3,
+      "error": null
+    },
+    {
+      "gse": "GSE223325",
+      "name": "Rheumatoid Arthritis macrophages are primed for inflammation and display bioenergetic and functional alterations",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE223325",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 18,
+      "error": null
+    },
+    {
+      "gse": "GSE224190",
+      "name": "Inflammatory cytokines pre-treatment enhances the immunomodulatory property of hUC-MSCs",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE224190",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE224190_gene_FPKM.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE225336",
+      "name": "Genetics of Myocardial Interstitial Fibrosis in the Human Heart and Association with Disease",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225336",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE225336_Hum_CF_TGFB_RNAseq_CountsTable.csv.gz"
+      ],
+      "n_suppl_files": 3,
+      "nde_samples": 36,
+      "error": null
+    },
+    {
+      "gse": "GSE225731",
+      "name": "Disease activity drives transcriptomic heterogeneity in early untreated rheumatoid synovitis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225731",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE225731_raw_counts_74RA_samples.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 74,
+      "error": null
+    },
+    {
+      "gse": "GSE229449",
+      "name": "Peripheral blood cellular dynamics of Rheumatoid arthritis treatment informs about efficacy of response to disease modifying drugs.",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE229449",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE229449_processed_data_matrix.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 60,
+      "error": null
+    },
+    {
+      "gse": "GSE233666",
+      "name": "Single-cell RNA-seq analysis reveals that immune cells induce human nucleus pulposus ossification and degeneration",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE233666",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 4,
+      "error": null
+    },
+    {
+      "gse": "GSE234595",
+      "name": "TH17 cells converted into exTH17 cells sustain rheumatoid-like IL-17\u00e2\u0080\u0093independent inflammatory arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE234595",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE234595_raw_counts_all_samples.csv.gz"
+      ],
+      "n_suppl_files": 2,
+      "nde_samples": 16,
+      "error": null
+    },
+    {
+      "gse": "GSE234596",
+      "name": "TH17 cells converted into exTH17 cells sustain rheumatoid-like IL-17\u00e2\u0080\u0093independent inflammatory arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE234596",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE234596_atac_fragments.tsv.gz"
+      ],
+      "n_suppl_files": 6,
+      "nde_samples": 5,
+      "error": null
+    },
+    {
+      "gse": "GSE234597",
+      "name": "TH17 cells converted into exTH17 cells sustain rheumatoid-like IL-17\u00e2\u0080\u0093independent inflammatory arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE234597",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 0,
+      "nde_samples": 21,
+      "error": "no suppl directory"
+    },
+    {
+      "gse": "GSE235400",
+      "name": "SIRPa agonist antibody treatment ameliorates experimental arthritis and colitis [sequencing]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE235400",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE235400_counts.tsv.gz"
+      ],
+      "n_suppl_files": 3,
+      "nde_samples": 12,
+      "error": null
+    },
+    {
+      "gse": "GSE235508",
+      "name": "Single-cell resolution of longitudinal blood transcriptome profiles in rheumatoid arthritis, systemic lupus erythematosus and healthy control pregnancies",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE235508",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE235508_mRNA_counts.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 335,
+      "error": null
+    },
+    {
+      "gse": "GSE235868",
+      "name": "Non-coding autoimmune risk variant accelerates T peripheral helper cell development via ICOS",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE235868",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE235868_TPM_count_matrix.xlsx"
+      ],
+      "n_suppl_files": 2,
+      "nde_samples": 24,
+      "error": null
+    },
+    {
+      "gse": "GSE236122",
+      "name": "The histone acetyl transferases CBP and p300 regulate stress response pathways in synovial fibroblasts",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE236122",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE236122_SF_CBP_p300_sequencing_normalized_reads_all_data.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 36,
+      "error": null
+    },
+    {
+      "gse": "GSE237991",
+      "name": "Human umbilical cord mesenchymal stem cell-derived exosomes deliver miRNA-451a targeting ATF2 to inhibit rheumatoid arthritis [RNA-seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE237991",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE237991_FPKM_Sample1-12.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 12,
+      "error": null
+    },
+    {
+      "gse": "GSE237992",
+      "name": "Human umbilical cord mesenchymal stem cell-derived exosomes deliver miRNA-451a targeting ATF2 to inhibit rheumatoid arthritis [small RNA-seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE237992",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE237992_TPM_Sample1-15.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 15,
+      "error": null
+    },
+    {
+      "gse": "GSE237993",
+      "name": "Human umbilical cord mesenchymal stem cell-derived exosomes deliver miRNA-451a targeting ATF2 to inhibit rheumatoid arthritis.",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE237993",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 0,
+      "nde_samples": 27,
+      "error": "no suppl directory"
+    },
+    {
+      "gse": "GSE241409",
+      "name": "Bub1 negatively regulates osteoclast activation through NF-\u00ce\u00baB suppression in inflammatory arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE241409",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE241409_processed_data.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE241655",
+      "name": "Microbiota-dependent indole production is required for the development of collagen-induced arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE241655",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE241655_CD19+_indole_DESeq.csv.gz",
+        "GSE241655_CD3+_indole_DESeq.csv.gz"
+      ],
+      "n_suppl_files": 4,
+      "nde_samples": 20,
+      "error": null
+    },
+    {
+      "gse": "GSE242173",
+      "name": "Secretory phenotype in PBMCs of elderly patients with rheumatoid arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE242173",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE242173_raw_counts.xlsx"
+      ],
+      "n_suppl_files": 2,
+      "nde_samples": 9,
+      "error": null
+    },
+    {
+      "gse": "GSE243689",
+      "name": "Ankylosing spondylitis patients present a distinct CD8 T-cell subset with osteogenic and cytotoxic potential",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243689",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 11,
+      "error": null
+    },
+    {
+      "gse": "GSE243917",
+      "name": "Multimodal gene expression and chromatin accessibility profiles at the single-cell level of synovial tissue from individuals with arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243917",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 8,
+      "nde_samples": 24,
+      "error": null
+    },
+    {
+      "gse": "GSE245064",
+      "name": "STAT1 deficiency underlies a proinflammatory imprint of naive CD4+ T cells in spondyloarthritis [ChIP-Seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE245064",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 18,
+      "error": null
+    },
+    {
+      "gse": "GSE245066",
+      "name": "STAT1 deficiency underlies a proinflammatory imprint of naive CD4+ T cells in spondyloarthritis [RNA-Seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE245066",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE245066_Counts_Adult_T_B27vsNTG.tsv.gz",
+        "GSE245066_Counts_Premorbid_T_B27vsNTG.tsv.gz",
+        "GSE245066_DEG_B27vsNTG_Adult.tsv.gz",
+        "GSE245066_DEG_B27vsNTG_Premorbid.tsv.gz"
+      ],
+      "n_suppl_files": 4,
+      "nde_samples": 26,
+      "error": null
+    },
+    {
+      "gse": "GSE245403",
+      "name": "Single-cell insights into immune dysregulation in rheumatoid arthritis flare versus drug-free remission",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE245403",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 24,
+      "error": null
+    },
+    {
+      "gse": "GSE246416",
+      "name": "Loss of synovial tissue macrophage homeostasis precedes Rheumatoid Arthritis clinical onset.",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE246416",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 5,
+      "error": null
+    },
+    {
+      "gse": "GSE246421",
+      "name": "Loss of synovial tissue macrophage homeostasis precedes Rheumatoid Arthritis clinical onset",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE246421",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 26,
+      "error": null
+    },
+    {
+      "gse": "GSE247226",
+      "name": "BRD3 regulates the inflammatory and stress response in rheu-matoid arthritis synovial fibroblasts",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE247226",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE247226_BRD3-RNA-seq-counts.csv.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 12,
+      "error": null
+    },
+    {
+      "gse": "GSE253495",
+      "name": "Human CD14+ monocytes from rheumatoid arthritis patients before and after a 3-month period of Upadacitinib treatment",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253495",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE253553",
+      "name": "Two Broad Categories Overlapping With Rheumatoid Arthritis Observed in Synovial Biopsies from Patients With Juvenile Idiopathic Arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253553",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE253553_count_matrix_AL.tsv.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 24,
+      "error": null
+    },
+    {
+      "gse": "GSE255372",
+      "name": "Targeting CDK7 function in the RNA Polymerase II transcription cycle in inflammatory arthritis [ChIP-seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE255372",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 69,
+      "error": null
+    },
+    {
+      "gse": "GSE255755",
+      "name": "The Effects of Complement in a Chronic Murine Model of Inflammatory Erosive Arthritis and Pulmonary Vascular Disease",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE255755",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 4,
+      "error": null
+    },
+    {
+      "gse": "GSE260796",
+      "name": "single-cell transcriptomics in patients with anti-citrullinated peptide antibody-positive early rheumatoid arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE260796",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 4,
+      "error": null
+    },
+    {
+      "gse": "GSE266295",
+      "name": "A novel immunosenescent CD8+ T cell subset in patients with Ankylosing Spondylitis and Psoriatic Arthritis links spontaneous motility to telomere shortening and dysfunction",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE266295",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE266295_normalized_vst_values.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 16,
+      "error": null
+    },
+    {
+      "gse": "GSE266310",
+      "name": "Effects of methotrexate and tofacitinib on gene expression of activated rheumatoid arthritis fibroblast-like synoviocytes",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE266310",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE266310_NormalizedCountsBySizeFactor_MTexp.xlsx"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 9,
+      "error": null
+    },
+    {
+      "gse": "GSE271161",
+      "name": "Serum exosomes lncRNAs: TCONS_I2_00013502 and ENST00000363624 are new diagnostic markers for rheumatoid arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE271161",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE271161_LncRNA_Expression_Profiling.xlsx",
+        "GSE271161_mRNA_Expression_Profiling.xlsx"
+      ],
+      "n_suppl_files": 2,
+      "nde_samples": 18,
+      "error": null
+    },
+    {
+      "gse": "GSE271209",
+      "name": "Therapeutic Single-Cell Landscape: Methotrexate Exacerbates Interstitial Lung Disease by Compromising the Stemness of Alveolar Epithelial Cells under Systemic Inflammation",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE271209",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 16,
+      "error": null
+    },
+    {
+      "gse": "GSE271643",
+      "name": "Cellular Communication Network Factor 3 contributes to the pathological process of rheumatoid arthritis via promoting cell senescence in synovial cells",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE271643",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE271643_gene_count.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE272017",
+      "name": "Opposing Regulation of TNF Responses and IL-1b+ Macrophages by PGE2-cAMP Signaling and IFN-g [ATAC-seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE272017",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE272017_rawcounts_ATAC.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 24,
+      "error": null
+    },
+    {
+      "gse": "GSE272019",
+      "name": "Opposing Regulation of TNF Responses and IL-1b+ Macrophages by PGE2-cAMP Signaling and IFN-g [RNA-seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE272019",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE272019_rawcounts_IFNg.txt.gz",
+        "GSE272019_rawcounts_PGE.txt.gz"
+      ],
+      "n_suppl_files": 2,
+      "nde_samples": 48,
+      "error": null
+    },
+    {
+      "gse": "GSE272361",
+      "name": "Herpes simplex virus 1 infection of human brain organoids and pancreatic stem cell-islets drives transcripts associated with Alzheimer\u00e2\u0080\u0099s disease and autoimmune diseases",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE272361",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE272361_islet_raw_and_deseq.xlsx"
+      ],
+      "n_suppl_files": 2,
+      "nde_samples": 9,
+      "error": null
+    },
+    {
+      "gse": "GSE272743",
+      "name": "Cellular Communication Network Factor 3 contributes to the pathological process of rheumatoid arthritis via osteoclastgenesis in the joint.",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE272743",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE272743_NOV_MCSF_all.xlsx"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 3,
+      "error": null
+    },
+    {
+      "gse": "GSE273760",
+      "name": "Homeostatic signals induce the development of peripheral helper T cells promoted in the pathogenesis of rheumatoid arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE273760",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE273760_raw_count.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 12,
+      "error": null
+    },
+    {
+      "gse": "GSE274598",
+      "name": "RNAseq analysis of human neutrophils from people with rheumatoid arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE274598",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE274598_Gene_counts_WrightH_1.csv.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 41,
+      "error": null
+    },
+    {
+      "gse": "GSE274680",
+      "name": "Inflammation and lymphocyte activation during longitudinal progression to rheumatoid arthritis in at-risk individuals",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE274680",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 243,
+      "error": null
+    },
+    {
+      "gse": "GSE274996",
+      "name": "RNAseq analysis of human neutrophils from people with DMARD-refractory rheumatoid arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE274996",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE274996_Gene_counts_WrightH_2.csv.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 48,
+      "error": null
+    },
+    {
+      "gse": "GSE276473",
+      "name": "DLX4 regulates the invasiveness of Rheumatoid Arthritis Fibroblast-Like Synoviocytes and a cancer transcriptomic signature",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE276473",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE276473_fpkm_sample.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE276556",
+      "name": "Bone-protective effects of neutralizing angiopoietin-like protein 4 monoclonal antibody in rheumatoid arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE276556",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE276556_FPKM_allsamples_anno.txt.gz"
+      ],
+      "n_suppl_files": 2,
+      "nde_samples": 15,
+      "error": null
+    },
+    {
+      "gse": "GSE278613",
+      "name": "A New Role for Huntingtin-Interacting Protein 1-Related (HIP1R) in Rheumatoid Arthritis Synovial Fibroblast Transcriptomic, Biological Processes and Invasiveness",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE278613",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE278613_fpkm_HIP1r.xlsx"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 9,
+      "error": null
+    },
+    {
+      "gse": "GSE279719",
+      "name": "Human CD14+ monocytes from early inflammatory arthritis patients before and after a 5day-and 30day-period of methotrexate treatment",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE279719",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 72,
+      "error": null
+    },
+    {
+      "gse": "GSE279858",
+      "name": "Gene expression profile on dermal fibroblasts treated with melanocortin compounds",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE279858",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE279858_2_Processed_data_file.xlsx"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 16,
+      "error": null
+    },
+    {
+      "gse": "GSE282122",
+      "name": "A longitudinal single-cell atlas of anti-tumour necrosis factor treatment in inflammatory bowel disease",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE282122",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 216,
+      "error": null
+    },
+    {
+      "gse": "GSE282218",
+      "name": "WBT-DC Pipeline: Whole Blood Transcriptomics data-based Disease Classification",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE282218",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE282218_tpm_data.txt.gz"
+      ],
+      "n_suppl_files": 2,
+      "nde_samples": 165,
+      "error": null
+    },
+    {
+      "gse": "GSE282511",
+      "name": "Multi-omics analysis in primary T cells elucidates mechanisms behind disease associated genetic loci [RNA-seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE282511",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 128,
+      "error": null
+    },
+    {
+      "gse": "GSE282660",
+      "name": "Salsalate improves the anti-tumor efficacy of Lenvatinib in MASH-driven hepatocellular carcinoma.",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE282660",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE282660_cells_VST_normalized_counts.txt.gz",
+        "GSE282660_mouse_VST_normalized_counts.txt.gz"
+      ],
+      "n_suppl_files": 2,
+      "nde_samples": 36,
+      "error": null
+    },
+    {
+      "gse": "GSE282992",
+      "name": "Multi-omics analysis in primary T cells elucidates mechanisms behind disease associated genetic loci",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE282992",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 126,
+      "error": null
+    },
+    {
+      "gse": "GSE283762",
+      "name": "Circulating microRNA profiles in early-stage osteoarthritis and rheumatoid arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE283762",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE283762_allsamples_raw_counts.csv.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 62,
+      "error": null
+    },
+    {
+      "gse": "GSE283881",
+      "name": "Differential response of tissue engineered skeletal muscle from rheumatoid arthritis patients and healthy controls",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE283881",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE283881_Counts.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 24,
+      "error": null
+    },
+    {
+      "gse": "GSE284234",
+      "name": "Lung disease in relation to unique monocyte-macrophage subpopulations induced by combined inhalant endotoxin and collagen-induced arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE284234",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 4,
+      "error": null
+    },
+    {
+      "gse": "GSE284403",
+      "name": "Lactylated histone promotes rheumatoid arthritis progression by increasing NFATc2 expression and the production of anti-lactylated histone autoantibodies",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE284403",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE284403_processed_data.xlsx"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE284763",
+      "name": "Lactylated histone promotes rheumatoid arthritis progression by increasing NFATc2 expression and the production of anti-lactylated histone autoantibodies [CUT&Tag]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE284763",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE285602",
+      "name": "Citrullinated IGF2BP1 promotes rheumatoid synovial aggression via increasing the mRNA stability of SEMA3D",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE285602",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE285602_MUTVSNC_Gene_differential_expression.xlsx"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE285734",
+      "name": "Lactylated histone promotes rheumatoid arthritis progression by increasing NFATc2 expression and the production of anti-lactylated histone autoantibodies [II]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE285734",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE285734_processed_data.xlsx"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE286871",
+      "name": "Transcriptional analysis of alveolar bone, jaw and ankle joint in inflammatory arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE286871",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE286871_Overview_TPM.xlsx"
+      ],
+      "n_suppl_files": 3,
+      "nde_samples": 24,
+      "error": null
+    },
+    {
+      "gse": "GSE288373",
+      "name": "Tofacitinib Repairs GM-CSF-induced RA Mitochondrial Dysfunction",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE288373",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE288542",
+      "name": "Serum miRNA-186-3P and miRNA-382-3P constitute a novel Diagnostic miRNA signature for palindromic rheumatism",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE288542",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE288542_Expression_miRNA.xlsx"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 10,
+      "error": null
+    },
+    {
+      "gse": "GSE288581",
+      "name": "Single Cell Immune Profiling in Ankylosing Spondylitis Reveals Resistance of CD8+ T cells to Immune Exhaustion",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE288581",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 30,
+      "error": null
+    },
+    {
+      "gse": "GSE288976",
+      "name": "Differences between human male and female neutrophils with respect to which RNAs are present in polysomes",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE288976",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE288976_RNAseq_PMN_polysomes_Whole_lysate_counts.csv.gz",
+        "GSE288976_RNAseq_PMN_polysomes_fraction_lysate_counts.csv.gz"
+      ],
+      "n_suppl_files": 2,
+      "nde_samples": 34,
+      "error": null
+    },
+    {
+      "gse": "GSE289019",
+      "name": "Single-cell multi-omics reveals the TNF-\u00ce\u00b1 activation threshold for Classical Monocytes by studying healthy donors and rheumatoid arthritis patients",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE289019",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE289019_supplementary_information.txt.gz"
+      ],
+      "n_suppl_files": 4,
+      "nde_samples": 2,
+      "error": null
+    },
+    {
+      "gse": "GSE291978",
+      "name": "Expression and significance of lncRNAs derived from PBMC in rheumatoid arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE291978",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE291978_FPKM_all_samples.xlsx"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE292338",
+      "name": "RNAseq analysis of human neutrophils from healthy controls, people with frailty and people with rheumatoid arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE292338",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE292338_Gene_counts_Wright_2025_2.csv.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 39,
+      "error": null
+    },
+    {
+      "gse": "GSE292806",
+      "name": "NOTCH2 disrupts the synovial fibroblast identity and the inflammatory response of epiphyseal chondrocytes",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE292806",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 15,
+      "error": null
+    },
+    {
+      "gse": "GSE292807",
+      "name": "NOTCH2 disrupts the synovial fibroblast identity and the inflammatory response of epiphyseal chondrocytes [scRNA-Seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE292807",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 4,
+      "error": null
+    },
+    {
+      "gse": "GSE294225",
+      "name": "Transcriptional profiles are dramatically altered in circulating CD14+ monocytes in Rheumatoid Arthritis [RNA-seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE294225",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE294225_RNAseq_RA_Normalised_Counts.csv.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 24,
+      "error": null
+    },
+    {
+      "gse": "GSE294235",
+      "name": "Rheumatoid Arthritis circulating CD14+ monocytes are epigenetically primed [ChIP-seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE294235",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE294235_H3K27me3_RA_Normalised_Counts.csv.gz",
+        "GSE294235_H3K4me3_RA_Normalised_Counts.csv.gz"
+      ],
+      "n_suppl_files": 2,
+      "nde_samples": 75,
+      "error": null
+    },
+    {
+      "gse": "GSE296117",
+      "name": "A single-cell RNA-seq dataset of synovial fluid from rheumatoid arthritis treated with TNF-\u00ce\u00b1/JAK inhibitor",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE296117",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 1,
+      "nde_samples": 18,
+      "error": null
+    },
+    {
+      "gse": "GSE299518",
+      "name": "Single cell RNA sequencing on synovium, meniscus and cartilage of rheumatoid arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE299518",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 3,
+      "nde_samples": 3,
+      "error": null
+    },
+    {
+      "gse": "GSE299540",
+      "name": "Autoimmunity-associated DIORA1 binds the MRCK family of serine/threonine kinases and controls cell motility",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE299540",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE299540_AS_CRISPRi_raw_counts.txt.gz",
+        "GSE299540_SH_CRISPRi_raw_counts.txt.gz",
+        "GSE299540_SH_siRNA_raw_counts.txt.gz"
+      ],
+      "n_suppl_files": 3,
+      "nde_samples": 24,
+      "error": null
+    },
+    {
+      "gse": "GSE301891",
+      "name": "RNA-Seq Analysis of Fibroblast-Like Synoviocytes Treated With Lutein in a Rheumatoid Arthritis Context",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE301891",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE301891_FPKM.txt.gz"
+      ],
+      "n_suppl_files": 3,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE302355",
+      "name": "Synovial MS4A4A correlates with inflammation and counteracts response to corticosteroids in arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE302355",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE302355_raw_counts_filtered_All_Samples.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 42,
+      "error": null
+    },
+    {
+      "gse": "GSE305182",
+      "name": "Nature-inspired IL-1 targeted therapy to treat chronic inflammatory diseases",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE305182",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE305182_SKG_BulkRNAseq_expected_counts.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE307297",
+      "name": "Single cell RNAseq on rheumatoid arthritis-related interstitial lung disease",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE307297",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 12,
+      "error": null
+    },
+    {
+      "gse": "GSE307854",
+      "name": "Regulation of basal and TNFa-induced fibroblast gene expressions by peptidylarginine deiminase 2",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE307854",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE307854_Raw_Counts_Matrix_All_Samples.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 11,
+      "error": null
+    },
+    {
+      "gse": "GSE309430",
+      "name": "Blood-Based Gene Signatures Associated with Therapeutic Response to Anti-TNF Therapy in Rheumatoid Arthritis: A Combined Meta-Analytical and Machine Learning Approach",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE309430",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE309430_processed_data.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 8,
+      "error": null
+    },
+    {
+      "gse": "GSE309533",
+      "name": "snoRNA Snord3 promotes rheumatoid arthritis by epigenetic regulation of ESM1 in fibroblast-like synoviocytes in mice",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE309533",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE309533_ALL_count_anno.csv.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 11,
+      "error": null
+    },
+    {
+      "gse": "GSE309906",
+      "name": "Single-cell RNA sequencing of stem cell\u00e2\u0080\u0093like memory T (Tscm) cells from rheumatoid arthritis patients and healthy controls",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE309906",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 11,
+      "error": null
+    },
+    {
+      "gse": "GSE314080",
+      "name": "Transcriptional Profiling of Synovial Macrophages using Minimally Invasive Ultrasound-Guided Synovial Biopsies in Rheumatoid Arthritis [dataset2]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314080",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE314080_FPKM_RA_SynovialBiopsy_MACS_RNAseq_Rerun2021_final_count_GEO.txt.gz"
+      ],
+      "n_suppl_files": 2,
+      "nde_samples": 24,
+      "error": null
+    },
+    {
+      "gse": "GSE314245",
+      "name": "Pathogenic Role of MIF Receptor (CD74) Expressing T cells in Inflammatory Arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314245",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE314245_feature_reference.csv.gz"
+      ],
+      "n_suppl_files": 4,
+      "nde_samples": 2,
+      "error": null
+    },
+    {
+      "gse": "GSE31667",
+      "name": "Identification of microRNAs association with Rheumatoid Arthritis Synovial Fibroblasts using the Human TNF Transgenic Mouse Model",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE31667",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 4,
+      "error": null
+    },
+    {
+      "gse": "GSE322576",
+      "name": "Inflammatory arthritis immune related adverse events represent a unique autoimmune disease entity primarily driven by T cells, but likely not autoantibodies",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE322576",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 38,
+      "error": null
+    },
+    {
+      "gse": "GSE62408",
+      "name": "Expression profiles of long non-coding RNAs located in autoimmune disease-associated regions reveal immune cell type specificity",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62408",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE62408_13-10-2014_RNA-SEQ_7cells_Expression_RPKM.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 7,
+      "error": null
+    },
+    {
+      "gse": "GSE73254",
+      "name": "Identification of genetic variants affecting vitamin D receptor binding and associations with autoimmune disease",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE73254",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 5,
+      "nde_samples": 30,
+      "error": null
+    },
+    {
+      "gse": "GSE79702",
+      "name": "USP15 regulates type I interferon response in vivo and is required for pathogenesis of microbial and autoimmune neuroinflammation",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE79702",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE79702_EAE_samples_cpm_counts.txt.gz",
+        "GSE79702_PbA_B6-d0-d5_vs_USP15-d5_samples_cpm_counts.txt.gz"
+      ],
+      "n_suppl_files": 4,
+      "nde_samples": 25,
+      "error": null
+    },
+    {
+      "gse": "GSE80072",
+      "name": "Joint-specific DNA transcriptome signatures in rheumatoid arthritis [RNA-seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE80072",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE80072_RA_joint-specific_RNAseq_processed_matrix.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 9,
+      "error": null
+    },
+    {
+      "gse": "GSE81881",
+      "name": "Genetic variants alter T-bet binding and gene expression in mucosal inflammatory disease",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81881",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 4,
+      "error": null
+    },
+    {
+      "gse": "GSE83930",
+      "name": "Using AmpliSeq we have performed quantitative analysis of 20,803 genes in Negative control precursor-miR (NC-Pre-miR) and pre-miR-17 transfected Rheumatoid arthritis Synovial Fibroblasts (RASFs)",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE83930",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE83930_Supplementary_AmpliSeq_data_RASFs_miR-17.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 4,
+      "error": null
+    },
+    {
+      "gse": "GSE85967",
+      "name": "Induction of alternative proinflammatory cytokines accounts for sustained psoriasiform skin inflammation in IL-17C+IL-6KO mice [RNA-Seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE85967",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 10,
+      "error": null
+    },
+    {
+      "gse": "GSE89408",
+      "name": "RNAseq study of synovial biopsies",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE89408",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE89408_GEO_count_matrix_rename.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 218,
+      "error": null
+    },
+    {
+      "gse": "GSE89484",
+      "name": "Selective modulation of inflammatory Natural Killer (NK) cell phenotypes following histone H3K27 demethylase inhibition [RNA-Seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE89484",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE89484_Final_counts_J4.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 6,
+      "error": null
+    },
+    {
+      "gse": "GSE89668",
+      "name": "Selective modulation of inflammatory Natural Killer (NK) cell phenotypes following histone H3K27 demethylase inhibition [ATAC-Seq and ChIP-Seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE89668",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 14,
+      "error": null
+    },
+    {
+      "gse": "GSE90081",
+      "name": "Discovery of new candidate genes for rheumatoid arthritis through integration of genetic association data with expression pathway analysis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90081",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE90081_5nRA_12HC_7tRA_fpkm_table.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 24,
+      "error": null
+    },
+    {
+      "gse": "GSE93709",
+      "name": "Transcription factors operate across disease loci: EBNA2 in autoimmunity",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE93709",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE93709_EBV-Ramos.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 2,
+      "error": null
+    },
+    {
+      "gse": "GSE94859",
+      "name": "EOMES-expressing CD4+ T cells are increased in PTPN22 (1858T) risk allele carriers",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE94859",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE94859_RPKMs.xlsx"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 32,
+      "error": null
+    },
+    {
+      "gse": "GSE94897",
+      "name": "B cells expressing the IgA receptor FcRL4 participate in the autoimmune response in patients with rheumatoid arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE94897",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE94897_Expression.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 8,
+      "error": null
+    },
+    {
+      "gse": "GSE95251",
+      "name": "Genomic responses of mouse synovial fibroblasts during TNF-driven arthritogenesis greatly mimic those of human rheumatoid arthritis (RNA-Seq).",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE95251",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 4,
+      "nde_samples": 21,
+      "error": null
+    },
+    {
+      "gse": "GSE95254",
+      "name": "Genomic responses of mouse synovial fibroblasts during TNF-driven arthritogenesis greatly mimic those of human rheumatoid arthritis (H3K4me3-Seq).",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE95254",
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE95254_11weeks.annotated.txt.gz",
+        "GSE95254_3weeks.annotated.txt.gz",
+        "GSE95254_8weeks.annotated.txt.gz",
+        "GSE95254_8weekstnf.annotated.txt.gz"
+      ],
+      "n_suppl_files": 4,
+      "nde_samples": 22,
+      "error": null
+    },
+    {
+      "gse": "GSE95256",
+      "name": "Genomic responses of mouse synovial fibroblasts during TNF-driven arthritogenesis greatly mimic those of human rheumatoid arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE95256",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 0,
+      "nde_samples": 64,
+      "error": "no suppl directory"
+    },
+    {
+      "gse": "GSE95588",
+      "name": "Macrophage polarization controlled by fibroblast crosstalk and targeted by medications in rheumatoid arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE95588",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE95588_coculture_htseq_counts.txt.gz",
+        "GSE95588_d1d2d3d4_counts.txt.gz"
+      ],
+      "n_suppl_files": 2,
+      "nde_samples": 74,
+      "error": null
+    },
+    {
+      "gse": "GSE97165",
+      "name": "RNAseq study of synovial biopsies after triple DMARD treatment",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97165",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE97165_GEO_count_matrix.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 38,
+      "error": null
+    },
+    {
+      "gse": "GSE97474",
+      "name": "RA-MAP: mapping molecular immunological landscapes in early rheumatoid arthritis and healthy vaccine recipients [small RNA SEQUENCING]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97474",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 2714,
+      "error": null
+    },
+    {
+      "gse": "GSE97476",
+      "name": "RA-MAP: mapping molecular immunological landscapes in early rheumatoid arthritis and healthy vaccine recipients",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97476",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 5066,
+      "error": null
+    },
+    {
+      "gse": "GSE98365",
+      "name": "IFN-\u00ce\u00b3 Represses M2 Gene Expression in Human Macrophages by Suppressing and Disassembling MAF-binding Enhancers [ATAC-seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE98365",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 4,
+      "error": null
+    },
+    {
+      "gse": "GSE98367",
+      "name": "IFN-\u00ce\u00b3 Represses M2 Gene Expression in Human Macrophages by Suppressing and Disassembling MAF-binding Enhancers [ChIP-seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE98367",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 17,
+      "error": null
+    },
+    {
+      "gse": "GSE98368",
+      "name": "IFN-\u00ce\u00b3 Represses M2 Gene Expression in Human Macrophages by Suppressing and Disassembling MAF-binding Enhancers [RNA-seq]",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE98368",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE98368_AdGFP_AdMAF_RPKM_table.txt.gz",
+        "GSE98368_Resting_IFNg_RPKM_table.txt.gz",
+        "GSE98368_siCtrl_siMAF_RPKM_table.txt.gz"
+      ],
+      "n_suppl_files": 3,
+      "nde_samples": 16,
+      "error": null
+    },
+    {
+      "gse": "GSE98658",
+      "name": "BMS-470539 on human synovial fibroblasts",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE98658",
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "n_suppl_files": 2,
+      "nde_samples": 16,
+      "error": null
+    },
+    {
+      "gse": "GSE99006",
+      "name": "Whole transcriptome profile of citrulline-specific B cells from patients with rheumatoid arthritis",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE99006",
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE99006_RA_Normalized_counts.txt.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 12,
+      "error": null
+    },
+    {
+      "gse": "GSE99293",
+      "name": "Repurposing tofacitinib as an anti-myeloma therapeutic to reverse growth-promoting effects of the bone marrow microenvironment",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE99293",
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE99293_Raw_read_counts_and_RPKM_Lam_et_al.xlsx.gz"
+      ],
+      "n_suppl_files": 1,
+      "nde_samples": 3,
+      "error": null
+    }
+  ]
+}

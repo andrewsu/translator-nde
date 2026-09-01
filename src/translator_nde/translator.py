@@ -107,6 +107,18 @@ class MechanisticPath:
         }
 
 
+def _result_count(child: dict) -> int:
+    """ARS children report result_count inconsistently -- some ARAs send a string.
+
+    Observed live: ara-* children returning "0"/"12" rather than 0/12, which
+    made a naive `(x or 0) > 0` raise TypeError mid-poll.
+    """
+    try:
+        return int(child.get("result_count") or 0)
+    except (TypeError, ValueError):
+        return 0
+
+
 class ARSClient:
     """Submit to and read from the Translator ARS.
 
@@ -147,7 +159,7 @@ class ARSClient:
             children = tr.get("children", [])
             done = [c for c in children if c.get("status") in TERMINAL_STATUSES]
             if verbose:
-                ready = sum(1 for c in done if (c.get("result_count") or 0) > 0)
+                ready = sum(1 for c in done if _result_count(c) > 0)
                 print(f"  [{int(time.time()-deadline+max_wait):>4}s] "
                       f"{len(done)}/{len(children)} ARAs finished, {ready} with results",
                       flush=True)
@@ -178,7 +190,7 @@ class ARSClient:
         tr = self.trace(pk)
         out: dict[str, Path] = {}
         for child in tr.get("children", []):
-            if (child.get("result_count") or 0) < min_results:
+            if _result_count(child) < min_results:
                 continue
             agent = (child.get("actor") or {}).get("agent", "?")
             path = self.fetch_child(child["message"], agent=agent)

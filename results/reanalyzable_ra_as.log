@@ -1,0 +1,85 @@
+rheumatoid arthritis: 422 human GEO sequencing datasets
+ankylosing spondylitis: 34 human GEO sequencing datasets
+
+453 distinct GSE candidates; checking GEO for matrices
+
+  [3/453] GSE100382    normalized   samples=  24  Type I IFNs and TNF Cooperatively Reprogram Epigenom
+  [5/453] GSE100531    raw_counts   samples=  18  Extracellular Vesicles Transfer the Receptor PD-1 in
+  [6/453] GSE102728    normalized   samples=  16  IgG immunocomplexes sensitize human monocytes for  i
+  [9/453] GSE104853    raw_counts   samples=   6  MicroRNA-125a-5p overexpression in human macrophages
+  [11/453] GSE109448    raw_counts   samples=  25  RNA-seq analysis of freshly isolated synovial fibrob
+  [12/453] GSE109449    raw_counts   samples= 384  Single cell RNA-seq analysis of freshly isolated syn
+  [15/453] GSE110999    normalized   samples=  48  RNA sequencing of B cell subsets (CD11c hi IgD+ B ce
+  [16/453] GSE112057    raw_counts   samples= 202  Whole Blood Transcriptome Profiling in Juvenile Idio
+  [22/453] GSE114555    raw_counts   samples=  18  Altered thymic differentiation and modulation of art
+  ... 25/453 checked, 9 usable, 11s
+  [26/453] GSE116780    raw_counts   samples=  28  RNA sequencing of CRISPR/Cas9-generated A20 DUB-inat
+  [32/453] GSE120178    normalized   samples= 147  Pharmacodynamic Biomarkers and Differential Effects 
+  [35/453] GSE120944    normalized   samples=   4  IFN-Î³ selectively suppresses a subset of TLR4-activ
+  [38/453] GSE121871    raw_counts   samples=   8  Multidimensional Assessment of the Host Response in 
+  [41/453] GSE122616    raw_counts   samples=   6  lncRNA expression profiles inin fibroblast-like syno
+  [43/453] GSE123484    raw_counts   samples=  32  Loss-of-function of PTPN2 promotes pathogenic loss o
+  [45/453] GSE124731    raw_counts   samples=  80  Transcriptomic characterization of human innate T ce
+  [46/453] GSE126641    normalized   samples=  45  FAMIN is a multifunctional purine enzyme enabling th
+  ... 50/453 checked, 17 usable, 22s
+  [59/453] GSE129486    raw_counts   samples= 175  Transcriptional responses of human synovial fibrobla
+  [60/453] GSE129487    raw_counts   samples= 192  Effects of siRNA gene silencing on transcriptional r
+  [63/453] GSE129934    raw_counts   samples=   4  Lnc-ITSN1-2 promotes rheumatoid arthritis fibroblast
+  [67/453] GSE133527    raw_counts   samples=  20  miR-221-3p drives the Shift of M2-Macrophage to a Pr
+  [68/453] GSE133719    raw_counts   samples= 126  Systematic assessment of commercially available low-
+  [72/453] GSE138767    raw_counts   samples=  36  Simultaneous analysis of open chromatin, promoter in
+  [73/453] GSE140244    raw_counts   samples= 200  RNA-seq time course on human CD4 memory T cells stim
+  [74/453] GSE141105    normalized   samples=   9  Bulk and single cell transcriptomic data indicate th
+  ... 75/453 checked, 25 usable, 33s
+  [76/453] GSE141646    raw_counts   samples=  44  Transcriptome analysis of ankylosing spondylitis pat
+  [77/453] GSE141658    raw_counts   samples=  42  An extension to: Systematic assessment of commercial
+  [78/453] GSE141836    normalized   samples=   8  The pathogenic role of stem cell-like memory T cells
+  [79/453] GSE142786    raw_counts   samples=   2  Single-cell RNA-seq analysis reveals reduction of B 
+  [82/453] GSE145204    raw_counts   samples=  14  Transcriptional responses to TNF following HFl treat
+  [83/453] GSE148395    raw_counts   samples=  24  Effect of BET Inhibitors on Rheumatoid Synovial Fibr
+  [87/453] GSE149050    raw_counts   samples= 288  Multi-cell type gene co-expression network analysis 
+  [88/453] GSE150466    normalized   samples=   4  Neutrophil extracellular traps mediate articular car
+  [89/453] GSE151161    raw_counts   samples=  76  Blocking of the CD80/86 axis as a therapeutic approa
+  [92/453] GSE153310    raw_counts   samples=   6  Single-nucleotide-polymorphism-adjacent super enhanc
+  ... 100/453 checked, 35 usable, 44s
+  [101/453] GSE157163    normalized   samples=   6  CD73+ memory CD4 T cells are a long-lived population
+  [103/453] GSE157364    normalized   samples=  32  Integration of clinical and multi-omics data identif
+  [107/453] GSE159279    normalized   samples=  12  Antigen Presentation-Independent Reciprocal Immune M
+  [111/453] GSE161426    normalized   samples=  26  Transcriptome profiling to identify a human effector
+  [112/453] GSE162051    raw_counts   samples=  38  RNA-sequencing analysis of the effect of progesteron
+  [114/453] GSE163123    raw_counts   samples=  12  RNA-seq of B cells treated with recombinant CD52-Fc
+  [116/453] GSE163548    normalized   samples= 142  Functional genomics atlas of synovial fibroblasts de
+  [117/453] GSE163605    normalized   samples=  86  Expression levels of HLA-DRB and HLA-DQ are associat
+  [122/453] GSE166535    raw_counts   samples=  24  Loss of mutual protection between osteoclasts and ch
+  [123/453] GSE166605    raw_counts   samples=  10  RNA-sequencing analysis of effect of miR-155 overexp
+  [125/453] GSE166924    raw_counts   samples=  95  RNA sequencing of FACS-sorted cell populations from 
+  [126/453] GSE166925    raw_counts   samples=  96  RNA-sequencing of whole tissue samples from patients
+  [127/453] GSE166927    raw_counts   samples=  24  RNA-sequencing of cytokine-stimulated cultured human
+  [129/453] GSE168008    raw_counts   samples=  10  RNA sequencing of mesenchymal stem cells reveals a b
+  [130/453] GSE168284    raw_counts   samples=  37  MicroRNA expression differences inÂ blood-derivedÂ C
+  [131/453] GSE168710    normalized   samples=   4  IFN-Î³ and TNF-Î± drive a CXCL10+ CCL2+ macrophage p
+  [133/453] GSE173876    normalized   samples=  32  The lupus susceptibility allele DRB1*03:01 encodes a
+  [136/453] GSE178408    raw_counts   samples=   6  CircRNA sequencing in peripheral blood mononuclear c
+  [137/453] GSE178514    normalized   samples=  18  Effects of Long-term Culture on the Biological Chara
+  [138/453] GSE179302    raw_counts   samples=  35  Physical Activity Moderates Inflammatory Gene Expres
+  [140/453] GSE180540    raw_counts   samples=  12  MAFB surrogates the glucocorticoid receptor ability 
+  [143/453] GSE181364    normalized   samples=   8  The potential mechanism of ankylosing spondylitis
+  [145/453] GSE181889    raw_counts   samples=  12  Quantitative Analysis of CXCL4 and TLR8 signaling cr
+  [148/453] GSE182572    raw_counts   samples=  24  TLR7 sensing of SARS-CoV-2 and IFN-I response by pla
+  ... 150/453 checked, 59 usable, 66s
+  [152/453] GSE185040    normalized   samples=   6  Effect of Nitidine Chloride on Rheumatoid Synovial F
+  [153/453] GSE185193    raw_counts   samples=   6  RNA sequencing of T helper type 1 differentiated cul
+  [155/453] GSE185508    raw_counts   samples=  88  RNA-sequencing of human monocytes with high and low 
+  [156/453] GSE185509    raw_counts   samples=  11  RNA-sequencing of macrophages after stimulation of S
+  [159/453] GSE185996    raw_counts   samples=   9  Exogenous Oncostatin M Induces Cardiac Dysfunction, 
+  [160/453] GSE186063    raw_counts   samples=  66  Multi-omics profiling reveals the interactions of ho
+  [161/453] GSE186166    raw_counts   samples=  12  Treatment of human polymorphonuclear neutrophils wit
+  [162/453] GSE189136    normalized   samples=  19  Targeting MyD88 Downregulates Inflammatory Mediators
+  [167/453] GSE191054    normalized   samples= 116  Transcriptomic data on the response of macropohages 
+  [174/453] GSE195557    raw_counts   samples=  16  TNFR2 is critical for TNF-induced rheumatoid arthrit
+  [175/453] GSE195817    raw_counts   samples=  18  Dissecting the molecular control of immune cell accu
+  [179/453] GSE198520    raw_counts   samples=  92  Synovial inflammatory pathways characterize anti-TNF
+  [180/453] GSE199152    raw_counts   samples=  27  Next Generation Sequencing Quantitative Analysis of 
+  [181/453] GSE199490    raw_counts   samples=  47  PD-1 expressing CD4 and CD8 lymphocyte populations w
+  [182/453] GSE200030    normalized   samples=   2  Regulation of type I interferon signature by VGLL3 i
+  [185/453] GSE200597    raw_counts   samples=   3  Hyaluronan And Proteoglycan Link Protein 1 (HAPLN1) 

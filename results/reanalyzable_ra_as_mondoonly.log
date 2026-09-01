@@ -1,0 +1,114 @@
+rheumatoid arthritis: 213 human GEO sequencing datasets
+ankylosing spondylitis: 15 human GEO sequencing datasets
+
+228 distinct GSE candidates; checking GEO for matrices
+
+  [1/228] GSE100531    raw_counts   samples=  18  Extracellular Vesicles Transfer the Receptor PD-1 in
+  [2/228] GSE102728    normalized   samples=  16  IgG immunocomplexes sensitize human monocytes for  i
+  [4/228] GSE109448    raw_counts   samples=  25  RNA-seq analysis of freshly isolated synovial fibrob
+  [5/228] GSE109449    raw_counts   samples= 384  Single cell RNA-seq analysis of freshly isolated syn
+  [7/228] GSE110999    normalized   samples=  48  RNA sequencing of B cell subsets (CD11c hi IgD+ B ce
+  [15/228] GSE116780    raw_counts   samples=  28  RNA sequencing of CRISPR/Cas9-generated A20 DUB-inat
+  [17/228] GSE120178    normalized   samples= 147  Pharmacodynamic Biomarkers and Differential Effects 
+  [20/228] GSE123484    raw_counts   samples=  32  Loss-of-function of PTPN2 promotes pathogenic loss o
+  ... 25/228 checked, 8 usable, 12s
+  [28/228] GSE129486    raw_counts   samples= 175  Transcriptional responses of human synovial fibrobla
+  [30/228] GSE133527    raw_counts   samples=  20  miR-221-3p drives the Shift of M2-Macrophage to a Pr
+  [31/228] GSE133719    raw_counts   samples= 126  Systematic assessment of commercially available low-
+  [34/228] GSE138767    raw_counts   samples=  36  Simultaneous analysis of open chromatin, promoter in
+  [35/228] GSE141105    normalized   samples=   9  Bulk and single cell transcriptomic data indicate th
+  [36/228] GSE141646    raw_counts   samples=  44  Transcriptome analysis of ankylosing spondylitis pat
+  [37/228] GSE141658    raw_counts   samples=  42  An extension to: Systematic assessment of commercial
+  [38/228] GSE141836    normalized   samples=   8  The pathogenic role of stem cell-like memory T cells
+  [39/228] GSE142786    raw_counts   samples=   2  Single-cell RNA-seq analysis reveals reduction of B 
+  [41/228] GSE149050    raw_counts   samples= 288  Multi-cell type gene co-expression network analysis 
+  [42/228] GSE150466    normalized   samples=   4  Neutrophil extracellular traps mediate articular car
+  [43/228] GSE151161    raw_counts   samples=  76  Blocking of the CD80/86 axis as a therapeutic approa
+  [46/228] GSE153310    raw_counts   samples=   6  Single-nucleotide-polymorphism-adjacent super enhanc
+  ... 50/228 checked, 21 usable, 24s
+  [55/228] GSE162051    raw_counts   samples=  38  RNA-sequencing analysis of the effect of progesteron
+  [56/228] GSE163548    normalized   samples= 142  Functional genomics atlas of synovial fibroblasts de
+  [57/228] GSE163605    normalized   samples=  86  Expression levels of HLA-DRB and HLA-DQ are associat
+  [58/228] GSE166535    raw_counts   samples=  24  Loss of mutual protection between osteoclasts and ch
+  [60/228] GSE168284    raw_counts   samples=  37  MicroRNA expression differences inÂ blood-derivedÂ C
+  [62/228] GSE178408    raw_counts   samples=   6  CircRNA sequencing in peripheral blood mononuclear c
+  [64/228] GSE180540    raw_counts   samples=  12  MAFB surrogates the glucocorticoid receptor ability 
+  [67/228] GSE181364    normalized   samples=   8  The potential mechanism of ankylosing spondylitis
+  [75/228] GSE185996    raw_counts   samples=   9  Exogenous Oncostatin M Induces Cardiac Dysfunction, 
+  [76/228] GSE186063    raw_counts   samples=  66  Multi-omics profiling reveals the interactions of ho
+  [77/228] GSE189136    normalized   samples=  19  Targeting MyD88 Downregulates Inflammatory Mediators
+  [83/228] GSE195557    raw_counts   samples=  16  TNFR2 is critical for TNF-induced rheumatoid arthrit
+  [84/228] GSE195817    raw_counts   samples=  18  Dissecting the molecular control of immune cell accu
+  [87/228] GSE198520    raw_counts   samples=  92  Synovial inflammatory pathways characterize anti-TNF
+  [88/228] GSE199490    raw_counts   samples=  47  PD-1 expressing CD4 and CD8 lymphocyte populations w
+  [89/228] GSE200030    normalized   samples=   2  Regulation of type I interferon signature by VGLL3 i
+  [90/228] GSE200597    raw_counts   samples=   3  Hyaluronan And Proteoglycan Link Protein 1 (HAPLN1) 
+  [93/228] GSE202365    normalized   samples=  12  Bulk RNA-seq of human synovial fluid CD8 T cells sor
+  [95/228] GSE202367    normalized   samples=  46  Effect of T cell supernatants or cytokines on synovi
+  [96/228] GSE202375    normalized   samples=   5  Pooled single-cell RNA-seq data from T cells from hu
+  ... 100/228 checked, 41 usable, 47s
+  [103/228] GSE205812    normalized   samples=   6  RNA Sequencing and Bioinformatics Analysis of Differ
+  [110/228] GSE217012    normalized   samples=  15  MYD88 dimerization controls the proliferative, invas
+  [114/228] GSE224190    normalized   samples=   6  Inflammatory cytokines pre-treatment enhances the im
+  [115/228] GSE225336    raw_counts   samples=  36  Genetics of Myocardial Interstitial Fibrosis in the 
+  [116/228] GSE225731    raw_counts   samples=  74  Disease activity drives transcriptomic heterogeneity
+  [119/228] GSE234595    raw_counts   samples=  16  TH17 cells converted into exTH17 cells sustain rheum
+  [122/228] GSE235400    raw_counts   samples=  12  SIRPa agonist antibody treatment ameliorates experim
+  [123/228] GSE235508    raw_counts   samples= 335  Single-cell resolution of longitudinal blood transcr
+  [124/228] GSE235868    raw_counts   samples=  24  Non-coding autoimmune risk variant accelerates T per
+  [125/228] GSE236122    normalized   samples=  36  The histone acetyl transferases CBP and p300 regulat
+  [126/228] GSE237991    normalized   samples=  12  Human umbilical cord mesenchymal stem cell-derived e
+  [127/228] GSE237992    normalized   samples=  15  Human umbilical cord mesenchymal stem cell-derived e
+  [130/228] GSE241655    normalized   samples=  20  Microbiota-dependent indole production is required f
+  [131/228] GSE242173    raw_counts   samples=   9  Secretory phenotype in PBMCs of elderly patients wit
+  [139/228] GSE247226    raw_counts   samples=  12  BRD3 regulates the inflammatory and stress response 
+  [141/228] GSE253553    raw_counts   samples=  24  Two Broad Categories Overlapping With Rheumatoid Art
+  [145/228] GSE266295    normalized   samples=  16  A novel immunosenescent CD8+ T cell subset in patien
+  [146/228] GSE266310    normalized   samples=   9  Effects of methotrexate and tofacitinib on gene expr
+  [149/228] GSE271643    raw_counts   samples=   6  Cellular Communication Network Factor 3 contributes 
+  [150/228] GSE272017    raw_counts   samples=  24  Opposing Regulation of TNF Responses and IL-1b+ Macr
+  [151/228] GSE272019    raw_counts   samples=  48  Opposing Regulation of TNF Responses and IL-1b+ Macr
+  [152/228] GSE272361    normalized   samples=   9  Herpes simplex virus 1 infection of human brain orga
+  [154/228] GSE273760    raw_counts   samples=  12  Homeostatic signals induce the development of periph
+  [155/228] GSE274598    raw_counts   samples=  41  RNAseq analysis of human neutrophils from people wit
+  [157/228] GSE274996    raw_counts   samples=  48  RNAseq analysis of human neutrophils from people wit
+  [158/228] GSE276473    normalized   samples=   6  DLX4 regulates the invasiveness of Rheumatoid Arthri
+  [159/228] GSE276556    normalized   samples=  15  Bone-protective effects of neutralizing angiopoietin
+  [160/228] GSE278613    normalized   samples=   9  A New Role for Huntingtin-Interacting Protein 1-Rela
+  [164/228] GSE282218    normalized   samples= 165  WBT-DC Pipeline: Whole Blood Transcriptomics data-ba
+  [166/228] GSE282660    raw_counts   samples=  36  Salsalate improves the anti-tumor efficacy of Lenvat
+  [168/228] GSE283762    raw_counts   samples=  62  Circulating microRNA profiles in early-stage osteoar
+  [169/228] GSE283881    raw_counts   samples=  24  Differential response of tissue engineered skeletal 
+  [175/228] GSE286871    normalized   samples=  24  Transcriptional analysis of alveolar bone, jaw and a
+  [179/228] GSE288976    raw_counts   samples=  34  Differences between human male and female neutrophil
+  [181/228] GSE291978    normalized   samples=   6  Expression and significance of lncRNAs derived from 
+  [182/228] GSE292338    raw_counts   samples=  39  RNAseq analysis of human neutrophils from healthy co
+  [185/228] GSE294225    raw_counts   samples=  24  Transcriptional profiles are dramatically altered in
+  [186/228] GSE294235    raw_counts   samples=  75  Rheumatoid Arthritis circulating CD14+ monocytes are
+  [189/228] GSE299540    raw_counts   samples=  24  Autoimmunity-associated DIORA1 binds the MRCK family
+  [190/228] GSE301891    normalized   samples=   6  RNA-Seq Analysis of Fibroblast-Like Synoviocytes Tre
+  [191/228] GSE302355    raw_counts   samples=  42  Synovial MS4A4A correlates with inflammation and cou
+  [192/228] GSE305182    raw_counts   samples=   6  Nature-inspired IL-1 targeted therapy to treat chron
+  [194/228] GSE307854    raw_counts   samples=  11  Regulation of basal and TNFa-induced fibroblast gene
+  [198/228] GSE314080    normalized   samples=  24  Transcriptional Profiling of Synovial Macrophages us
+  ... 200/228 checked, 85 usable, 94s
+  [202/228] GSE62408     normalized   samples=   7  Expression profiles of long non-coding RNAs located 
+  [204/228] GSE79702     raw_counts   samples=  25  USP15 regulates type I interferon response in vivo a
+  [209/228] GSE89408     raw_counts   samples= 218  RNAseq study of synovial biopsies
+  [212/228] GSE90081     normalized   samples=  24  Discovery of new candidate genes for rheumatoid arth
+  [214/228] GSE94859     normalized   samples=  32  EOMES-expressing CD4+ T cells are increased in PTPN2
+  [219/228] GSE95588     raw_counts   samples=  74  Macrophage polarization controlled by fibroblast cro
+  [220/228] GSE97165     raw_counts   samples=  38  RNAseq study of synovial biopsies after triple DMARD
+  [225/228] GSE98368     normalized   samples=  16  IFN-Î³ Represses M2 Gene Expression in Human Macroph
+  [227/228] GSE99006     raw_counts   samples=  12  Whole transcriptome profile of citrulline-specific B
+  [228/228] GSE99293     normalized   samples=   3  Repurposing tofacitinib as an anti-myeloma therapeut
+
+--- 228 series checked in 106s ---
+  none               92
+  raw_counts         58
+  processed_other    41
+  normalized         37
+
+re-analyzable: 95/228 (42%)
+  with NDE sample-level arm labels: 95
+wrote results/reanalyzable_ra_as.json

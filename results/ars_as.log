@@ -1,2 +1,42 @@
 submitted ankylosing spondylitis (MONDO:0005306) -> pk=c3efea15-1a8f-4c09-a521-7462603bec08
 UI: https://ui.transltr.io/main/results?l=ankylosing spondylitis&i=MONDO:0005306&t=0&r=0&q=c3efea15-1a8f-4c09-a521-7462603bec08
+  [   0s] 3/9 ARAs finished, 0 with results
+  [  20s] 11/13 ARAs finished, 3 with results
+  [  40s] 11/13 ARAs finished, 3 with results
+  [  60s] 11/13 ARAs finished, 3 with results
+  [  80s] 11/13 ARAs finished, 3 with results
+  [ 100s] 11/13 ARAs finished, 3 with results
+  [ 120s] 11/13 ARAs finished, 3 with results
+  [ 140s] 11/13 ARAs finished, 3 with results
+  [ 161s] 11/13 ARAs finished, 3 with results
+  [ 181s] 11/13 ARAs finished, 3 with results
+  [ 201s] 11/13 ARAs finished, 3 with results
+  [ 221s] 11/13 ARAs finished, 3 with results
+  [ 241s] 11/13 ARAs finished, 3 with results
+  [ 261s] 12/13 ARAs finished, 4 with results
+  [ 281s] 12/13 ARAs finished, 4 with results
+  [ 301s] 13/13 ARAs finished, 5 with results
+
+downloaded 5 ARA payloads
+  ara-aragorn                          4.6 MB  results=  182 aux=   880 2hop_paths=0
+  ara-unsecret                         0.9 MB  results=  232 aux=   247 2hop_paths=110
+  ara-bte                              1.2 MB  results=  109 aux=   109 2hop_paths=0
+  kp-molecular                         0.3 MB  results=   41 aux=     0 2hop_paths=0
+  ara-arax                             6.0 MB  results=   97 aux=   140 2hop_paths=142
+
+total drug->gene->disease paths: 252  -> data/ars/c3efea15-1a8f-4c09-a521-7462603bec08/paths.json
+  dexamethasone sodium phosphate --affects[increased/secretion]--> MMP3 --> ankylosing spondylitis
+  2-[(2R)-2-(butanoylamino)-3-[[(2S)-3-hydroxy-1-methoxy-1-oxopropan-2-yl]amino]-3-oxopropyl]sulfanylethyl hexadecanoate --affects[increased/activity]--> TLR2 --> ankylosing spondylitis
+  (2S)-2-[[(2S)-5-amino-2-[[(2S,3R)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2R)-2-amino-3-[(2R)-2,7-di(hexadecanoyloxy)heptyl]sulfanylpropanoyl]amino]-3-hydroxypropanoyl]amino]hexanoyl]amino]hexanoyl]amino]hexanoyl]amino]hexanoyl]amino]-3-hydroxypropanoyl]amino]-4-methylpentanoyl]amino]-4-methylpentanoyl]amino]-4-methylsulfanylbutanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-3-methylpentanoyl]amino]-3-hydroxybutanoyl]amino]-5-oxopentanoyl]amino]-3-methylbutanoic acid --affects[increased/activity]--> TLR2 --> ankylosing spondylitis
+  (2Z)-2-[(2E,4E)-5-[1-[6-[2-[3-[3-[3-[2-[2-[3-[[2-[2-[[(2R)-1-[[2-[[(2R)-1-[3-[2-[2-[3-[[2-(2-amino-2-oxoethoxy)acetyl]amino]propoxy]ethoxy]ethoxy]propylamino]-3-hydroxy-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-3-[(2R)-2,3-di(hexadecanoyloxy)propyl]sulfanyl-1-oxopropan-2-yl]amino]-2-oxoethoxy]acetyl]amino]propoxy]ethoxy]ethoxy]propylamino]-3-oxopropyl]sulfanyl-2,5-dioxopyrrolidin-1-yl]ethylamino]-6-oxohexyl]-5-sulfo-3H-indol-1-ium-2-yl]penta-2,4-dienylidene]-1-ethyl-3H-indole-5-sulfonate --affects[increased/activity]--> TLR2 --> ankylosing spondylitis
+  (2Z)-2-[(2E,4E)-5-[1-[6-[2-[3-[3-[3-[2-[2-[3-[[2-[2-[[(2R)-1-[[2-[[(2R)-1-[3-[2-[2-[3-[[2-(2-amino-2-oxoethoxy)acetyl]amino]propoxy]ethoxy]ethoxy]propylamino]-3-hydroxy-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-3-[(2R)-2,3-di(hexadecanoyloxy)propyl]sulfanyl-1-oxopropan-2-yl]amino]-2-oxoethoxy]acetyl]amino]propoxy]ethoxy]ethoxy]propylamino]-3-oxopropyl]sulfanyl-2,5-dioxopyrrolidin-1-yl]ethylamino]-6-oxohexyl]-5-sulfo-3H-indol-1-ium-2-yl]penta-2,4-dienylidene]-1-ethyl-3H-indole-5-sulfonate --affects[decreased/activity]--> TLR2 --> ankylosing spondylitis
+  Berkeleyamide D --affects[decreased/activity]--> MMP3 --> ankylosing spondylitis
+  (2S)-2-[[(2S)-5-amino-2-[[(2S,3R)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2R)-2-amino-3-[(2R)-2,5-di(hexadecanoyloxy)pentyl]sulfanylpropanoyl]amino]-3-hydroxypropanoyl]amino]hexanoyl]amino]hexanoyl]amino]hexanoyl]amino]hexanoyl]amino]-3-hydroxypropanoyl]amino]-4-methylpentanoyl]amino]-4-methylpentanoyl]amino]-4-methylsulfanylbutanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-3-methylpentanoyl]amino]-3-hydroxybutanoyl]amino]-5-oxopentanoyl]amino]-3-methylbutanoic acid --affects[increased/activity]--> TLR2 --> ankylosing spondylitis
+  Dodecanoic acid 3-{(S)-2-hexadecanoylamino-3-[hydroxy-(2-{(2S,3S)-3-methyl-2-[2-(5-phenyl-1H-indol-3-yl)-acetylamino]-pentanoylamino}-ethoxy)-phosphoryloxy]-propionylamino}-propyl ester --affects[decreased/activity]--> TLR2 --> ankylosing spondylitis
+  (2S,5S,8R,11S,14S,17S,20S,23S,26S,29S,32S,35S,38S,41S,44R,48R)-14-((1H-indol-3-yl)methyl)-44-amino-5-(3-amino-3-oxopropyl)-29,32,35,38-tetrakis(4-aminobutyl)-11-sec-butyl-8-((R)-1-hydroxyethyl)-26,41-bis(hydroxymethyl)-20,23-diisobutyl-2-isopropyl-17-(2-(methylthio)ethyl)-4,7,10,13,16,22,25,28,31,34,37,40,43,53-tetradecaoxo-48-(palmitoyloxy)-52-oxa-46-thia-3,6,9,12,15,18,21,24,27,30,33,36,39,42-tetradecaazaoctahexacontan-1-oic acid --affects[increased/activity]--> TLR2 --> ankylosing spondylitis
+  1-[6-[2-[3-[3-[3-[2-[2-[3-[[2-[2-[[1-[[2-[[1-[3-[2-[2-[3-[[2-(2-amino-2-oxoethoxy)acetyl]amino]propoxy]ethoxy]ethoxy]propylamino]-3-hydroxy-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-3-[2,3-di(hexadecanoyloxy)propylsulfanyl]-1-oxopropan-2-yl]amino]-2-oxoethoxy]acetyl]amino]propoxy]ethoxy]ethoxy]propylamino]-3-oxopropyl]sulfanyl-2,5-dioxopyrrolidin-1-yl]ethylamino]-6-oxohexyl]-2-[(1E,3E,5Z)-5-(1-ethyl-5-sulfonato-3H-indol-2-ylidene)penta-1,3-dienyl]-3H-indol-1-ium-5-sulfonate --affects[increased/activity]--> TLR2 --> ankylosing spondylitis
+  (2S)-2-[[(2R)-2-amino-3-[(2R)-3-[2-[3-[4-(3-aminopropylamino)butylamino]propylamino]acetyl]oxy-2-hexadecanoyloxypropyl]sulfanylpropanoyl]amino]-3-hydroxypropanoic acid --affects[increased/activity]--> TLR2 --> ankylosing spondylitis
+  (2S)-2-[[(2R)-2-amino-3-[(2R)-3-hexadecanoyloxy-2-hydroxypropyl]sulfanylpropanoyl]amino]-3-hydroxypropanoic acid --affects[increased/activity]--> TLR2 --> ankylosing spondylitis
+  UK-356618 --affects[decreased/activity]--> MMP3 --> ankylosing spondylitis
+  (2S)-6-amino-2-(benzylamino)-N-(2-heptoxyethyl)hexanamide --affects[decreased/activity]--> TLR2 --> ankylosing spondylitis
+  (2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2R)-2-amino-3-[(2R)-2-hexadecanoyloxy-3-[9-(hexanoylamino)nonanoyloxy]propyl]sulfanylpropanoyl]amino]-3-hydroxypropanoyl]amino]hexanoyl]amino]hexanoyl]amino]hexanoyl]amino]hexanoic acid --affects[decreased/activity]--> TLR2 --> ankylosing spondylitis
