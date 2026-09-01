@@ -58,6 +58,38 @@ line up directly with Translator's edge qualifiers:
 So the question upgrades from *"does a dataset exist?"* to ***"does the measured direction agree
 with the asserted one?"*** — with an effect size attached.
 
+## Four routes
+
+Routes A and B ask *"is the asserted edge supported by data?"* Three worked examples showed that
+question is largely unanswerable as posed, because **Translator's drug→gene edges assert changes in
+*activity* while the expression atlases measure *abundance***. Kinase inhibitors, receptor
+antagonists and neutralising antibodies do not change their target's transcript — baricitinib →
+JAK1/2/3, infliximab → TNF, JQ1 → BRD4 are all textbook-correct and all invisible (or
+contradictory) to expression data.
+
+Routes C and D ask questions the data can actually answer.
+
+| route | question | data | status |
+|---|---|---|---|
+| **A** | does the drug change the gene's *expression*? | GXA `@type:Inference` (staging) | built — 1–9% coverage, mostly the wrong question |
+| **B** | can we *compute* that from raw data? | GEO count matrices via NDE | built + validated |
+| **C** | what *other* compounds move this gene? | GXA, queried gene-first | designed, query verified |
+| **D** | does *activity* data confirm the inhibition? | PubChem BioAssay, ChEMBL | designed, both verified |
+
+**Route C** inverts the question. Given `Drug1 –inhibits→ Gene2 –associated_with→ Disease3`, take
+the therapeutic hypothesis ("less Gene2 is good for Disease3") and ask GXA which *other* compounds
+reduce Gene2. Abundance reduction becomes an alternate modality to activity inhibition, and each
+hit is a repurposing candidate Translator did not propose. This plays to GXA's one structured
+axis — `observationAbout` carries a gene symbol and Ensembl id, so no text matching is needed.
+
+**Route D** uses assays that measure inhibition directly. **Neither source is in NDE** — its
+catalog has only LINCS (424) and ReframeDB (408) as activity-adjacent, no ChEMBL/PubChem/BindingDB,
+which is a real coverage gap for this use case. PubChem BioAssay is keyed on **NCBI Gene ID**, the
+exact identifier Translator emits (`NCBIGene:7124` → 4,866 activity rows for TNF), and its
+*Inactive* rows are the true negative controls Route A never had. ChEMBL types the interaction by
+`action_type` (INHIBITOR, AGONIST, ANTAGONIST…), matching Translator's own qualifier semantics, so
+it is a like-for-like check rather than a proxy.
+
 ## Layout
 
 | Path | What |
