@@ -26,7 +26,13 @@ HUMAN_TAXON = "9606"
 # Biolink direction qualifier values <-> GXA's tripleSubjectQualifier direction.
 _DIRECTION_MAP = {"increase": "increased", "decrease": "decreased"}
 
-Verdict = Literal["agrees", "disagrees", "ambiguous", "not_covered"]
+Verdict = Literal[
+    "agrees",                 # gene is DE under the drug, direction matches
+    "disagrees",              # gene is DE under the drug, direction opposes
+    "ambiguous",              # gene is DE but direction is mixed or unasserted
+    "tested_not_significant", # drug HAS contrasts; gene never significantly DE
+    "no_drug_data",           # drug absent from GXA -- no information either way
+]
 
 
 @dataclass
@@ -83,6 +89,7 @@ class EdgeEvidence:
     gene: str
     asserted_direction: str | None
     n_contrasts: int
+    n_drug_contrasts: int      # contrasts for the drug across ALL genes
     n_agree: int
     n_disagree: int
     verdict: Verdict
@@ -121,6 +128,19 @@ class GXAMatcher:
         return (
             f"@type:Inference AND species.identifier:{self.taxon} "
             f"AND {test_arm} AND NOT {ref_arm} AND {gene}"
+        )
+
+    def drug_contrast_count(self, drug_synonyms: list[str]) -> int:
+        """How many contrasts test this drug at all, across every gene.
+
+        GXA stores only *significant* DE results, so a gene having no record is
+        not the same as the drug being absent. This separates the two.
+        """
+        test_arm = lucene_or("variableMeasured.value", drug_synonyms)
+        ref_arm = lucene_or("measurementDenominator.value", drug_synonyms)
+        return self.client.count(
+            f"@type:Inference AND species.identifier:{self.taxon} "
+            f"AND {test_arm} AND NOT {ref_arm}"
         )
 
     def contrasts(
@@ -163,6 +183,9 @@ class GXAMatcher:
         in which case we can report coverage but not agreement.
         """
         found = self.contrasts(drug_synonyms, gene_terms, max_records=max_records)
+        n_drug = len(found) and -1  # only pay for the extra query when needed
+        if not found:
+            n_drug = self.drug_contrast_count(drug_synonyms)
         agree = disagree = 0
         for c in found:
             mapped = _DIRECTION_MAP.get((c.direction or "").lower())
@@ -179,9 +202,10 @@ class GXAMatcher:
             gene=gene_label,
             asserted_direction=asserted_direction,
             n_contrasts=len(found),
+            n_drug_contrasts=n_drug if n_drug >= 0 else len(found),
             n_agree=agree,
             n_disagree=disagree,
-            verdict=_verdict(found, asserted_direction, agree, disagree),
+            verdict=_verdict(found, asserted_direction, agree, disagree, n_drug),
             median_log2fc=statistics.median(fcs) if fcs else None,
             min_adj_p=min(ps) if ps else None,
             experiments=sorted({c.experiment for c in found if c.experiment}),
@@ -190,10 +214,14 @@ class GXAMatcher:
 
 
 def _verdict(
-    found: list[Contrast], asserted: str | None, agree: int, disagree: int
+    found: list[Contrast], asserted: str | None, agree: int, disagree: int,
+    n_drug_contrasts: int = 0,
 ) -> Verdict:
     if not found:
-        return "not_covered"
+        # The drug being present in GXA but the gene never turning up means the
+        # gene was measured genome-wide and was not significantly DE -- that is
+        # evidence against the edge, not absence of evidence.
+        return "tested_not_significant" if n_drug_contrasts > 0 else "no_drug_data"
     if not asserted or (agree == 0 and disagree == 0):
         return "ambiguous"  # covered by data, but no directional claim to test
     if agree and not disagree:

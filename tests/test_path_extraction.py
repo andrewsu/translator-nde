@@ -98,3 +98,16 @@ def test_rejects_non_gene_intermediate():
     msg = copy.deepcopy(MESSAGE)
     msg["knowledge_graph"]["nodes"]["NCBIGene:154"]["categories"] = ["biolink:Disease"]
     assert dedupe_paths(extract_paths(msg, VEDS)) == []
+
+
+def test_biologic_is_not_a_gene_intermediate():
+    """An antibody drug is biolink:Protein too -- it must not fill the gene slot.
+
+    Regression for observed output `Etoricoxib -> Infliximab -> RA`.
+    """
+    import copy
+    msg = copy.deepcopy(MESSAGE)
+    msg["knowledge_graph"]["nodes"]["NCBIGene:154"]["categories"] = [
+        "biolink:Protein", "biolink:Drug",
+    ]
+    assert dedupe_paths(extract_paths(msg, VEDS)) == []

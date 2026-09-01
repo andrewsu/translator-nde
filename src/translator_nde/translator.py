@@ -214,6 +214,18 @@ def _node_categories(node: dict) -> set[str]:
     return set(node.get("categories") or [])
 
 
+def is_gene_intermediate(node: dict) -> bool:
+    """True for a gene/protein node that is not itself a drug.
+
+    Biologics are the trap: infliximab is an antibody, so its categories include
+    biolink:Protein alongside biolink:Drug. Matching on Protein alone produced
+    paths like `Etoricoxib -> Infliximab -> rheumatoid arthritis`, treating a
+    drug as the mechanistic intermediate. Drug-ness wins.
+    """
+    cats = _node_categories(node)
+    return bool(cats & GENE_CATEGORIES) and not (cats & DRUG_CATEGORIES)
+
+
 def _qualifiers(edge: dict) -> dict[str, str]:
     return {
         q["qualifier_type_id"]: q["qualifier_value"]
@@ -309,7 +321,7 @@ def extract_paths(message: dict, disease_curie: str) -> Iterator[MechanisticPath
                 continue
             for _, e1 in first_hops:
                 gene_id = e1["object"]
-                if not (_node_categories(nodes.get(gene_id, {})) & GENE_CATEGORIES):
+                if not is_gene_intermediate(nodes.get(gene_id, {})):
                     continue
                 for _, e2 in by_subject.get(gene_id, []):
                     dis_id = e2["object"]

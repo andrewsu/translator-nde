@@ -1,3 +1,28 @@
 submitted rheumatoid arthritis (MONDO:0008383) -> pk=d1f9daae-9330-4c2c-81f5-5c21ee2f44f4
 UI: https://ui.transltr.io/main/results?l=rheumatoid arthritis&i=MONDO:0008383&t=0&r=0&q=d1f9daae-9330-4c2c-81f5-5c21ee2f44f4
   [   0s] 5/13 ARAs finished, 0 with results
+  [  20s] 12/13 ARAs finished, 3 with results
+  [  40s] 13/13 ARAs finished, 4 with results
+
+downloaded 4 ARA payloads
+  kp-molecular                         1.2 MB  results=  342 aux=     0 2hop_paths=0
+  ara-arax                            10.7 MB  results=  243 aux=   282 2hop_paths=488
+  ara-bte                             21.3 MB  results=  500 aux=  1118 2hop_paths=0
+  ara-unsecret                         0.8 MB  results=  232 aux=   242 2hop_paths=106
+
+total drug->gene->disease paths: 594  -> data/ars/d1f9daae-9330-4c2c-81f5-5c21ee2f44f4/paths.json
+  CERTOLIZUMAB --directly_physically_interacts_with[None/None]--> TNF --> Inflammatory Response
+  CERTOLIZUMAB --directly_physically_interacts_with[None/None]--> TNF --> Inflammatory Response
+  CERTOLIZUMAB --directly_physically_interacts_with[None/None]--> TNF --> cardiovascular disorder
+  CERTOLIZUMAB --directly_physically_interacts_with[None/None]--> TNF --> Inflammation
+  CERTOLIZUMAB --directly_physically_interacts_with[None/None]--> TNF --> psoriatic arthritis
+  CERTOLIZUMAB --directly_physically_interacts_with[None/None]--> TNF --> ankylosing spondylitis
+  CERTOLIZUMAB --directly_physically_interacts_with[None/None]--> TNF --> Sicca Syndrome
+  CERTOLIZUMAB --directly_physically_interacts_with[None/None]--> TNF --> Inflammatory Response
+  CERTOLIZUMAB --directly_physically_interacts_with[None/None]--> TNF --> cardiovascular disorder
+  CERTOLIZUMAB --directly_physically_interacts_with[None/None]--> TNF --> Inflammatory Response
+  CERTOLIZUMAB --directly_physically_interacts_with[None/None]--> TNF --> Inflammation
+  CERTOLIZUMAB --directly_physically_interacts_with[None/None]--> TNF --> Inflammation
+  Triamcinolone --affects[None/None]--> NR3C1 --> vasculitis
+  Triamcinolone --affects[None/None]--> NR3C1 --> Autoimmunity
+  Triamcinolone --affects[None/None]--> NR3C1 --> cardiovascular disorder

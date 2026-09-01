@@ -1,0 +1,39 @@
+498 paths -> 238 distinct drug->gene edges
+
+  [1/238] Methylprednisolone           -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+ *[2/238] Infliximab                   -> TNF      n=   3 agree=   0 dis=   0 ambiguous    log2FC=1.1
+  [3/238] Infliximab                   -> TNFRSF1A n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+ *[4/238] Infliximab                   -> IL1B     n=  12 agree=   0 dis=   0 ambiguous    log2FC=2.95
+  [5/238] Infliximab                   -> IL12B    n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [6/238] Infliximab                   -> FCGR2A   n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+ *[7/238] Infliximab                   -> TLR4     n=   3 agree=   0 dis=   0 ambiguous    log2FC=1.2
+  [8/238] Adrenal Cortex Hormones      -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [9/238] glucocorticoid               -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [10/238] Celecoxib                    -> STAT3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [11/238] Methotrexate                 -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [12/238] Pyridoxine                   -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [13/238] Propylthiouracil             -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [14/238] Propylthiouracil             -> IL2RA    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [15/238] Methimazole                  -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [16/238] Methimazole                  -> IL2RA    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [17/238] Polymyxin B                  -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [18/238] Pyrazinamide                 -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+ *[19/238] Nitric Oxide                 -> TNF      n=   4 agree=   0 dis=   0 ambiguous    log2FC=1.4500000000000002
+ *[20/238] Nitric Oxide                 -> TLR4     n=   3 agree=   0 dis=   0 ambiguous    log2FC=1.2
+  [21/238] Amphotericin B               -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [22/238] Bevacizumab                  -> FCGR2A   n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [23/238] Tildrakizumab                -> IL12B    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [24/238] Gevokizumab                  -> IL1B     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [25/238] Interleukin-17               -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [26/238] Interleukin-17               -> STAT3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [27/238] Ustekinumab                  -> IL12B    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [28/238] Anti-Inflammatory Agents, No -> TNF      skip (not drug-like)
+ *[29/238] Dinoprostone                 -> TNF      n=   1 agree=   0 dis=   0 ambiguous    log2FC=1.2
+  [30/238] Cyclic AMP                   -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [31/238] Tenamfetamine                -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [32/238] Leucovorin                   -> RUNX3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [33/238] dexamethasone sodium phospha -> MMP3     n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [34/238] Doconexent                   -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [35/238] 2-[(2R)-2-(butanoylamino)-3- -> TLR2     skip (not drug-like)
+  [36/238] (2S)-2-[[(2S)-5-amino-2-[[(2 -> TLR2     skip (not drug-like)
+  [37/238] (2Z)-2-[(2E,4E)-5-[1-[6-[2-[ -> TLR2     skip (not drug-like)

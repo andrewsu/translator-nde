@@ -1,0 +1,25 @@
+1144 paths -> 254 distinct drug->gene edges
+
+  [1/254] Baricitinib                  -> JAK3     n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [2/254] Baricitinib                  -> TYK2     n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [3/254] Baricitinib                  -> JAK2     n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [4/254] Baricitinib                  -> JAK1     n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [5/254] ionomycin                    -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [6/254] Baicalein                    -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [7/254] CERTOLIZUMAB                 -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [8/254] Triamcinolone                -> NR3C1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [9/254] Triamcinolone                -> CD1A     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [10/254] Triamcinolone                -> VEGFA    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [11/254] Fenoprofen                   -> PTGS1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [12/254] Fenoprofen                   -> PTGS2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [13/254] Celecoxib                    -> PTGS2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [14/254] Celecoxib                    -> DDIT3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [15/254] Celecoxib                    -> VEGFA    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [16/254] Celecoxib                    -> CA9      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [17/254] Celecoxib                    -> STAT3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [18/254] Celecoxib                    -> PTGS1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [19/254] Celecoxib                    -> CA12     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [20/254] Piroxicam                    -> PTGS2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [21/254] Piroxicam                    -> PTGS1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [22/254] Etoricoxib                   -> PTGS2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [23/254] cyclooxygenase 2 inhibitor   -> VEGFA    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None

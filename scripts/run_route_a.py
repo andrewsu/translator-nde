@@ -21,6 +21,11 @@ paths = doc["paths"]
 
 # One evaluation per distinct drug->gene edge; keep an asserted direction if any
 # path for that pair carries one (ARAX omits qualifiers entirely).
+# ars-ars-agent is the ARS *merged* result set; it overlaps the individual ARAs,
+# so counting it alongside them double-counts provenance. Edges are deduped by
+# (drug, gene) regardless, but the agent list should stay honest.
+MERGED_AGENT = "ars-ars-agent"
+
 edges: dict[tuple, dict] = {}
 for p in paths:
     if not p.get("drug_name") or not p.get("gene_name"):
@@ -90,9 +95,14 @@ out_file.write_text(json.dumps(
 print(f"\n--- {len(results)} edges evaluated in {time.time()-t0:.0f}s ---")
 print("verdicts:", dict(Counter(r["verdict"] for r in results)))
 covered = [r for r in results if r["n_contrasts"] > 0]
+informative = [r for r in results
+               if r["n_contrasts"] > 0 or r["verdict"] == "tested_not_significant"]
 print(f"covered by >=1 GXA contrast: {len(covered)}/{len(results)}"
       f" ({100*len(covered)/max(len(results),1):.0f}%)")
 testable = [r for r in results if r["asserted_direction"]]
+print(f"edges with ANY GXA information (incl. tested-not-significant): "
+      f"{len(informative)}/{len(results)} "
+      f"({100*len(informative)/max(len(results),1):.0f}%)")
 print(f"edges carrying an asserted direction: {len(testable)}/{len(results)}")
 print(f"skipped as not drug-like: {len(skipped)}")
 print(f"wrote {out_file}")
