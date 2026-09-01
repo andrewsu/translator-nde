@@ -5,7 +5,8 @@ then asks GEO which of them deposited a counts or expression matrix -- those are
 re-analyzable without realigning raw reads.
 
 Also records how many NDE `@type:Sample` records each series has, since those
-carry the per-GSM arm labels the DE step needs for grouping.
+have per-GSM records in NDE. Note this counts sample *presence*, not whether
+those records carry a usable treatment label -- see GSE162120 in results/REPORT.md.
 """
 import json, sys, time
 from collections import Counter
@@ -81,6 +82,6 @@ for k, n in kinds.most_common():
     print(f"  {k:18s} {n}")
 print(f"\nre-analyzable: {len(usable)}/{len(rows)} "
       f"({100*len(usable)/max(len(rows),1):.0f}%)")
-print(f"  with NDE sample-level arm labels: "
+print(f"  with NDE Sample records (not necessarily arm labels): "
       f"{sum(1 for r in usable if r['nde_samples'] > 0)}")
 print(f"wrote {out}")

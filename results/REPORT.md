@@ -256,6 +256,19 @@ edge. GXA is a curated re-analysis of whatever was deposited in ArrayExpress and
 drug-perturbation atlas, and its compound coverage tracks use as a *toxicology or laboratory model*
 far more than clinical importance in humans.
 
+**A worked case: GSE162120.** The DISARM trial (`PRJNA680616`) is 118 human bronchial-brush
+RNA-seq samples from COPD patients randomised to formoterol, formoterol/**budesonide**, or
+salmeterol/**fluticasone**, bronchoscoped before and after 12 weeks. It is exactly the experiment
+the four zero rows above call for, and it is **not in GXA**: of GXA's 4,562 experiments, none
+mentions GSE162120, DISARM, budesonide, formoterol, fluticasone or salmeterol. GXA's entire
+human drug-perturbation universe is **363 experiments** (860 of 4,562 carry a `compound` factor;
+363 of those are human), so a 2021 respiratory trial not being among them is unremarkable — which
+is the point. Route A's blind spot is a selection gap in GXA, not a defect in the matching.
+
+The same series is fully present in **NDE production**: the `Dataset` record, all 118 `Sample`
+records, and a deposited counts matrix (`GSE162120_gene_NumReads.txt.gz`). Paired pre/post,
+three arms, subject IDs for pairing — a Route B dataset of exactly the shape example 3 wants.
+
 **Dexamethasone is the outlier that makes the atlas look better than it is.** Its 23,314 human
 contrasts are two orders of magnitude above the next drug Translator proposed, and they arise
 because dexamethasone is a workhorse cell-culture reagent. Reasoning from dexamethasone to "GXA
@@ -471,7 +484,25 @@ matrix:
 | **re-analyzable** | **182 (40%)** |
 | — raw counts | 117 |
 | — normalized matrix | 65 |
-| with NDE sample-level arm labels | **182 (100%)** |
+| with NDE `Sample` records | **182 (100%)** |
+
+⚠️ That last row counts series for which NDE holds per-sample records — **not** series whose
+records carry a usable treatment label. Those are different claims, and GSE162120 separates them:
+NDE structures its timepoint (`temporalCoverage.duration`, 62 pre / 56 post) and its subject id is
+in the sample `name` (`DIS320001-V3`), but the **treatment arm is not a structured field**. There
+is no `additionalProperty` for it, and `variableMeasured` lists only the characteristic *names*
+(`subject`, `smoking_status`) without values. The arm survives only inside the free-text
+`sampleProcess` blob, wedged between the file description and the extraction protocol:
+
+```
+… Supplementary_files_format_and_content: Matrix table with number of reads
+for every gene and every sample FOR/BUD total RNA RNA was extracted from …
+```
+
+A regex over that field does recover all three arms exactly — FOR 41, FOR/BUD 36, SAL/FLU 40, plus
+one unlabelled — matching the GEO series matrix. So the labels are retrievable, but by text
+scraping rather than field lookup, and Route B's arm assignment should not be assumed to work from
+NDE metadata alone until it is checked per series.
 
 Raw-counts series: median 24 samples, 65 with ≥20, 22 with ≥50.
 
