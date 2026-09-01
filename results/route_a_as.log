@@ -10,7 +10,7 @@
   [8/238] Adrenal Cortex Hormones      -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [9/238] glucocorticoid               -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [10/238] Celecoxib                    -> STAT3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
-  [11/238] Methotrexate                 -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [11/238] Methotrexate                 -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [12/238] Pyridoxine                   -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [13/238] Propylthiouracil             -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [14/238] Propylthiouracil             -> IL2RA    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
@@ -33,7 +33,7 @@
   [31/238] Tenamfetamine                -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [32/238] Leucovorin                   -> RUNX3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [33/238] dexamethasone sodium phospha -> MMP3     n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
-  [34/238] Doconexent                   -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [34/238] Doconexent                   -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [35/238] 2-[(2R)-2-(butanoylamino)-3- -> TLR2     skip (not drug-like)
   [36/238] (2S)-2-[[(2S)-5-amino-2-[[(2 -> TLR2     skip (not drug-like)
   [37/238] (2Z)-2-[(2E,4E)-5-[1-[6-[2-[ -> TLR2     skip (not drug-like)
@@ -239,10 +239,10 @@
   [237/238] Microbicides                 -> TLR4     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [238/238] Calcium                      -> CAST     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
 
---- 163 edges evaluated in 170s ---
-verdicts: {'no_drug_data': 137, 'tested_not_significant': 23, 'ambiguous': 2, 'agrees': 1}
+--- 163 edges evaluated in 171s ---
+verdicts: {'no_drug_data': 139, 'tested_not_significant': 21, 'ambiguous': 2, 'agrees': 1}
 covered by >=1 GXA contrast: 3/163 (2%)
-edges with ANY GXA information (incl. tested-not-significant): 26/163 (16%)
+edges with ANY GXA information (incl. tested-not-significant): 24/163 (15%)
 edges carrying an asserted direction: 36/163
 skipped as not drug-like: 75
 wrote data/ars/c3efea15-1a8f-4c09-a521-7462603bec08/route_a.json

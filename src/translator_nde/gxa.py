@@ -59,6 +59,18 @@ def factor_supports_drug(variable_measured: str | None, synonyms: list[str]) -> 
     So require the synonym to be a whole factor, or to lead one with nothing but
     a dose after it. Returns the matching factor, or None.
     """
+    return next(iter(_matching_factors(variable_measured, synonyms)), None)
+
+
+def _matching_factors(variable_measured: str | None, synonyms: list[str]) -> list[str]:
+    """Every factor in which the drug occupies the variable position.
+
+    There can be more than one: a TG-GATEs test arm carries both the bare cohort
+    label ``aspirin`` and the administered ``aspirin 150 milligram per kilogram``.
+    Dosed factors are returned first, since they are the more specific evidence
+    that the compound was actually given.
+    """
+    bare, dosed = [], []
     for factor in re.split(r"[,;]", variable_measured or ""):
         f = factor.strip()
         low = f.lower()
@@ -67,10 +79,12 @@ def factor_supports_drug(variable_measured: str | None, synonyms: list[str]) -> 
             if len(t) < _MIN_SYNONYM_LEN or t in _STOPWORDS:
                 continue
             if low == t:
-                return f
+                bare.append(f)
+                break
             if low.startswith(t + " ") and _DOSE.match(low[len(t):].strip()):
-                return f
-    return None
+                dosed.append(f)
+                break
+    return dosed + bare
 
 # Biolink direction qualifier values <-> GXA's tripleSubjectQualifier direction.
 _DIRECTION_MAP = {"increase": "increased", "decrease": "decreased"}
@@ -82,6 +96,38 @@ Verdict = Literal[
     "tested_not_significant", # drug HAS contrasts; gene never significantly DE
     "no_drug_data",           # drug absent from GXA -- no information either way
 ]
+
+
+def drug_is_the_variable(
+    test_arm: str | None, reference_arm: str | None, synonyms: list[str]
+) -> str | None:
+    """Is the drug the thing that differs between the two arms?
+
+    Two ways this can fail, and they need opposite treatment:
+
+    * **Drug in both arms as the same factor.** ``10 uM dexamethasone in ethanol``
+      appears identically on each side of an *Arabidopsis* genotype contrast, and
+      ``prednisolone 20 milligram per day`` on each side of a
+      polymyalgia-rheumatica-vs-normal contrast. The variable is genotype or
+      disease; these must be excluded.
+    * **Drug named in the reference arm without being administered.** TG-GATEs
+      studies (``E-CURD-*``) carry a ``cohort`` factor holding the compound name
+      on *every* sample, so the vehicle control of the aspirin study reads
+      ``aspirin, liver, 15 day`` while its test arm reads
+      ``aspirin, aspirin 150 milligram per kilogram, liver, 15 day``. Excluding
+      on the mere presence of the name in the reference arm deletes the entire
+      study -- 213 aspirin, 222 theophylline and 12,528 allopurinol contrasts.
+
+    So compare *factors*, not names: the drug must occupy the variable position
+    in the test arm, and that exact factor must not also be a reference factor.
+    """
+    ref_factors = {
+        f.strip().lower() for f in re.split(r"[,;]", reference_arm or "") if f.strip()
+    }
+    for matched in _matching_factors(test_arm, synonyms):
+        if matched.lower() not in ref_factors:
+            return matched
+    return None
 
 
 @dataclass
@@ -97,6 +143,7 @@ class Contrast:
     aspect: str | None             # "abundance"
     comparison: str | None         # human-readable contrast string
     test_arm: str | None           # variableMeasured.value, the factor list
+    reference_arm: str | None      # measurementDenominator.value, likewise
     matched_factor: str | None     # the factor the drug name matched, if any
     experiment: str | None         # e.g. E-MTAB-7745
     gsm_ids: list[str] = field(default_factory=list)
@@ -116,6 +163,9 @@ class Contrast:
         var = hit.get("variableMeasured") or {}
         if isinstance(var, list):
             var = var[0] if var else {}
+        den = hit.get("measurementDenominator") or {}
+        if isinstance(den, list):
+            den = den[0] if den else {}
         subject_of = hit.get("subjectOf") or {}
         if isinstance(subject_of, list):
             subject_of = subject_of[0] if subject_of else {}
@@ -130,6 +180,7 @@ class Contrast:
             aspect=quals.get("aspect"),
             comparison=hit.get("measurementQualifier"),
             test_arm=var.get("value"),
+            reference_arm=den.get("value"),
             matched_factor=None,
             experiment=next((i for i in ids if not i.startswith("GSM")), None),
             gsm_ids=[i for i in ids if i.startswith("GSM")],
@@ -174,19 +225,19 @@ class GXAMatcher:
         self.n_rejected = 0
 
     def build_query(self, drug_synonyms: list[str], gene_terms: list[str]) -> str:
-        """Compose the query, including the two filters that make it correct.
+        """Compose the retrieval query: species, drug in the test arm, gene.
 
-        The drug must appear in the **test** arm and be absent from the
-        **reference** arm. Without the exclusion, contrasts where the compound is
-        present in both arms -- i.e. where it is an experimental tool rather than
-        the variable -- are wrongly counted as drug->gene evidence.
+        Deliberately *not* ``AND NOT measurementDenominator.value:<drug>``. That
+        clause looks right and is far too blunt -- it deletes every TG-GATEs
+        study, whose controls carry the compound name as a cohort label. Arm
+        discrimination happens in Python, in ``drug_is_the_variable``, where the
+        two factor lists can be compared instead of merely searched.
         """
         test_arm = lucene_or("variableMeasured.value", drug_synonyms)
-        ref_arm = lucene_or("measurementDenominator.value", drug_synonyms)
         gene = lucene_or("observationAbout.name", gene_terms)
         return (
             f"@type:Inference AND species.identifier:{self.taxon} "
-            f"AND {test_arm} AND NOT {ref_arm} AND {gene}"
+            f"AND {test_arm} AND {gene}"
         )
 
     def drug_contrast_count(self, drug_synonyms: list[str], *, sample: int = 200) -> int:
@@ -196,9 +247,8 @@ class GXAMatcher:
         not the same as the drug being absent. This separates the two.
         """
         test_arm = lucene_or("variableMeasured.value", drug_synonyms)
-        ref_arm = lucene_or("measurementDenominator.value", drug_synonyms)
         q = (f"@type:Inference AND species.identifier:{self.taxon} "
-             f"AND {test_arm} AND NOT {ref_arm}")
+             f"AND {test_arm}")
         if self.client.count(q) == 0:
             return 0
         # Text-verify a capped sample rather than trusting the raw count, which
@@ -206,12 +256,13 @@ class GXAMatcher:
         return sum(
             1
             for h in self.client.scroll(
-                q, fields="variableMeasured.value", max_records=sample
+                q,
+                fields="variableMeasured.value,measurementDenominator.value",
+                max_records=sample,
             )
-            if factor_supports_drug(
-                (lambda v: (v[0] if isinstance(v, list) else v) or {})(
-                    h.get("variableMeasured") or {}
-                ).get("value"),
+            if drug_is_the_variable(
+                _first(h.get("variableMeasured")).get("value"),
+                _first(h.get("measurementDenominator")).get("value"),
                 drug_synonyms,
             )
         )
@@ -228,6 +279,7 @@ class GXAMatcher:
                 "marginOfError.value",
                 "measurementQualifier",
                 "variableMeasured.value",
+                "measurementDenominator.value",
                 "semanticMapping.tripleSubjectQualifier",
                 "subjectOf.identifier",
                 "subjectOf.url",
@@ -238,7 +290,7 @@ class GXAMatcher:
         kept = []
         for h in self.client.scroll(q, fields=fields, max_records=max_records):
             c = Contrast.from_hit(h)
-            factor = factor_supports_drug(c.test_arm, drug_synonyms)
+            factor = drug_is_the_variable(c.test_arm, c.reference_arm, drug_synonyms)
             if factor is None:
                 self.n_rejected += 1
                 continue
@@ -316,6 +368,13 @@ def _verdict(
     if disagree / total >= 0.8:
         return "disagrees"
     return "ambiguous"
+
+
+def _first(v: Any) -> dict:
+    """First element of a field NDE may return as a dict or a list."""
+    if isinstance(v, list):
+        return v[0] if v else {}
+    return v or {}
 
 
 def _as_list(v: Any) -> list:

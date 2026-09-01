@@ -255,7 +255,7 @@
   [253/254] Perphenazine                 -> HRH1     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [254/254] Ibutilide                    -> CACNA1C  n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
 
---- 174 edges evaluated in 164s ---
+--- 174 edges evaluated in 141s ---
 verdicts: {'tested_not_significant': 6, 'no_drug_data': 168}
 covered by >=1 GXA contrast: 0/174 (0%)
 edges with ANY GXA information (incl. tested-not-significant): 6/174 (3%)

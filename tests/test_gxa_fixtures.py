@@ -7,7 +7,9 @@ drug->gene evidence count, so they are pinned as tests.
 import pytest
 
 from translator_nde.nde import NDEClient, STAGING
-from translator_nde.gxa import GXAMatcher, factor_supports_drug
+from translator_nde.gxa import (
+    GXAMatcher, factor_supports_drug, drug_is_the_variable,
+)
 
 # Arabidopsis; dexamethasone is a GR *inducer* present in BOTH arms, so the real
 # contrast is genotype (bZIP1 vs empty vector), not drug. Must be excluded.
@@ -107,3 +109,49 @@ def test_keeps_compound_with_a_dose():
     assert factor_supports_drug(
         "5-aza-deoxy-cytidine 5 micromolar", ["Azacitidine", "5-aza-deoxy-cytidine"]
     ) == "5-aza-deoxy-cytidine 5 micromolar"
+
+
+# --- arm discrimination: the drug must be what *differs* between the arms -----
+# `NOT measurementDenominator.value:<drug>` looks like the right rule and is far
+# too blunt. These four pin the distinction it gets wrong.
+
+def test_keeps_tggates_cohort_labelled_control():
+    """TG-GATEs names the compound on every sample via a `cohort` factor, so the
+    aspirin study's vehicle control reads 'aspirin, liver, 15 day' without any
+    aspirin having been given. Excluding on the name deletes the whole study."""
+    assert drug_is_the_variable(
+        "aspirin, aspirin 150 milligram per kilogram, liver, 15 day",
+        "aspirin, liver, 15 day",
+        ["aspirin"],
+    ) == "aspirin 150 milligram per kilogram"
+
+
+def test_excludes_identical_drug_factor_in_both_arms():
+    """The Arabidopsis case: dexamethasone is a GR inducer given to both arms
+    and the variable is genotype."""
+    assert drug_is_the_variable(
+        "pBeaconRFP_GR::bZIP1, Treated with cycloheximide, "
+        "10 uM dexamethasone in ethanol",
+        "empty vector, Treated with cycloheximide, 10 uM dexamethasone in ethanol",
+        ["dexamethasone"],
+    ) is None
+
+
+def test_excludes_drug_held_constant_across_a_disease_contrast():
+    """'prednisolone 20 milligram per day, polymyalgia rheumatica' vs the same
+    dose in 'normal' -- the variable is disease. Eight real human records."""
+    assert drug_is_the_variable(
+        "prednisolone 20 milligram per day, polymyalgia rheumatica",
+        "prednisolone 20 milligram per day, normal",
+        ["prednisolone"],
+    ) is None
+
+
+def test_prefers_the_dosed_factor_over_a_bare_label():
+    """When a test arm carries both a bare and a dosed occurrence, the dosed one
+    is the evidence that the compound was administered."""
+    from translator_nde.gxa import _matching_factors
+
+    assert _matching_factors(
+        "aspirin, aspirin 45 milligram per kilogram", ["aspirin"]
+    )[0] == "aspirin 45 milligram per kilogram"

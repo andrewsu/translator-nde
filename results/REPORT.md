@@ -70,11 +70,27 @@ would otherwise be scored wrongly.
 **1. Species.** `species.identifier:9606`. Without it, plant and mouse tool-compound designs
 dominate.
 
-**2. The drug must be absent from the reference arm.** Record
-`gxa_e_geod_54049_g1_g5_at1g03790` contrasts `'pBeaconRFP_GR::bZIP1; …10 uM dexamethasone…'` vs
-`'empty vector; …10 uM dexamethasone…'` — dexamethasone is a GR *inducer* present in both arms and
-the real variable is genotype. `AND NOT measurementDenominator.value:<drug>` removes 7,590
-dexamethasone contrasts.
+**2. The drug must be what *differs* between the arms.** Record
+`gxa_e_geod_54049_g1_g5_at1g03790` contrasts `'pBeaconRFP_GR::bZIP1, …, 10 uM dexamethasone in
+ethanol'` vs `'empty vector, …, 10 uM dexamethasone in ethanol'` — dexamethasone is a GR *inducer*
+given to both arms and the real variable is genotype. Eight human records do the same thing with
+disease: `'prednisolone 20 milligram per day, polymyalgia rheumatica'` vs
+`'prednisolone 20 milligram per day, normal'`.
+
+The obvious implementation, `AND NOT measurementDenominator.value:<drug>`, is wrong. TG-GATEs
+studies (`E-CURD-*`) carry a `cohort` factor holding the compound name on **every** sample, so the
+aspirin study's vehicle control reads `'aspirin, liver, 15 day'` while its test arm reads
+`'aspirin, aspirin 150 milligram per kilogram, liver, 15 day'` — no aspirin was administered to the
+control, but the name is there. Excluding on the name deletes the entire study: **213 aspirin, 222
+theophylline, 2,204 rifampicin and 12,528 allopurinol contrasts**, all of them genuine
+dose-vs-vehicle designs.
+
+So compare *factors*, not names. `gxa.drug_is_the_variable()` requires the drug to occupy the
+variable position in the test arm (filter 3 below) **and** that exact factor not to be a reference
+factor too. Where a test arm carries both a bare label and a dosed one, the dosed factor is
+preferred, since it is the evidence the compound was actually given. This keeps the TG-GATEs
+designs and still excludes both the *Arabidopsis* and the polymyalgia cases, where the drug factor
+is identical on each side.
 
 **3. The drug must occupy the variable position.** Elasticsearch matches a synonym *anywhere* in the
 test-arm text, which admits contrasts where the drug name is incidental:
@@ -196,7 +212,7 @@ Almost all the loss happens at step 1. Of the **77 distinct drugs** behind asthm
 edges, only **6 have even one verified human GXA contrast** (8%): prednisolone, prednisone,
 sorafenib, rifampicin, dupilumab and cyclic AMP. Whatever the matcher does at step 2, it can only
 ever work on those six drugs. The same measurement for the other two diseases in this report gives
-2 of 79 for RA (3%) and 20 of 140 for AS (14%).
+2 of 79 for RA (3%) and 18 of 140 for AS (13%).
 
 So the question becomes: *why* does GXA lack these drugs? The table below spot-checks twelve
 compounds to characterise the shape of the gap. It is a hand-assembled list, not a sample — five
@@ -204,25 +220,26 @@ are drugs Translator actually proposed for asthma, four are first-line asthma th
 Translator did *not* propose (included to show the gap is in GXA rather than in Translator's
 answer), and three are well-studied compounds included as reference points.
 
-Columns: **any species** and **human** are counts of GXA contrasts with the drug in the test arm
-and absent from the reference arm, with and without `species.identifier:9606`. **verified** is how
-many of up to 200 sampled human contrasts survive the factor-position check — i.e. how many
-actually put the drug in the variable position rather than merely mentioning it.
+Columns: **any species** and **human** are counts of GXA contrasts naming the drug in the test
+arm, with and without `species.identifier:9606`. **verified** is how many of up to 200 sampled
+human contrasts survive the arm checks above — i.e. how many actually make the drug the variable
+rather than merely mentioning it. The 200-record cap means a drug whose genuine contrasts are rare
+among many confounded ones can sample to zero, so `verified` is a floor.
 
 | Drug | in asthma answer? | any species | human | verified / sampled |
 |---|---|--:|--:|--:|
-| dexamethasone | no — reference point | 52,846 | 23,314 | 200/200 |
-| metformin | no — reference point | 2,097 | 928 | 200/200 |
-| prednisolone | **yes** | 361 | 224 | 200/200 |
-| rifampicin | **yes** | 108 | 108 | 108/108 |
+| dexamethasone | no — reference point | 57,679 | 23,314 | 200/200 |
+| metformin | no — reference point | 2,818 | 928 | 200/200 |
+| rifampicin | **yes** | 2,312 | 108 | 108/108 |
+| prednisolone | **yes** | 481 | 232 | 200/200 |
+| theophylline | no — first-line asthma | 222 | **0** | – |
+| aspirin | **yes** | 213 | **0** | – |
+| imatinib | no — reference point | 80 | **0** | – |
 | albuterol / salbutamol | no — first-line asthma | 6 | 6 | **0/6** |
 | **budesonide** | **yes** | **0** | 0 | – |
 | **formoterol** | **yes** | **0** | 0 | – |
 | **fluticasone** | no — first-line asthma | **0** | 0 | – |
 | **montelukast** | no — first-line asthma | **0** | 0 | – |
-| theophylline | no — first-line asthma | 0 | 0 | – |
-| aspirin | **yes** | 0 | 0 | – |
-| imatinib | no — reference point | 80 | **0** | – |
 
 Three things follow.
 
@@ -231,11 +248,13 @@ montelukast have **zero** contrasts in any species. Two of those are drugs Trans
 asthma, so this is a gap in GXA, not a quirk of the answer set. Albuterol's six human contrasts
 look like coverage but none survive the factor-position check, so it belongs with the zeros.
 
-**Coverage is not about how well-known a drug is.** Aspirin and theophylline have zero contrasts;
-imatinib has 80, none of them human. GXA is a curated re-analysis of experiments submitted to
-ArrayExpress and GEO, not a drug-perturbation atlas — a compound appears if somebody happened to
-deposit a study using it, which correlates with its use as a *laboratory tool* far more than with
-its clinical importance.
+**Human coverage is the binding constraint, not coverage in general.** Aspirin (213), theophylline
+(222) and imatinib (80) all have contrasts — every one of them in **rat**. Aspirin's come from the
+TG-GATEs liver and kidney studies `E-CURD-59` and `E-CURD-50`, which are clean 45/150/450 mg/kg
+dose series against untreated controls; they are simply the wrong species for a human drug→gene
+edge. GXA is a curated re-analysis of whatever was deposited in ArrayExpress and GEO, not a
+drug-perturbation atlas, and its compound coverage tracks use as a *toxicology or laboratory model*
+far more than clinical importance in humans.
 
 **Dexamethasone is the outlier that makes the atlas look better than it is.** Its 23,314 human
 contrasts are two orders of magnitude above the next drug Translator proposed, and they arise
@@ -331,11 +350,12 @@ unaffected.
 | prednisone | 2,289 | 0 | clean |
 | metformin | 928 | 0 | clean |
 
-The reference-arm column is doing real work here. `doxycycline` topping the list is an artefact —
-it is the Tet-on induction agent in a large number of experiments, not a tested therapeutic. And
-`methotrexate` appears in *more* reference arms than test arms. Without the
-`NOT measurementDenominator.value:<drug>` clause both would be badly overcounted, which is the
-same failure mode as the Arabidopsis dexamethasone record in `tests/test_gxa_fixtures.py`.
+The reference-arm column is a useful flag: `doxycycline` topping the list is an artefact — it is
+the Tet-on induction agent in a large number of experiments, not a tested therapeutic — and
+`methotrexate` appears in *more* reference arms than test arms. But it is only a flag. A high
+reference-arm count can mean the compound is held constant across both arms (the *Arabidopsis*
+case) **or** merely that a cohort factor names it (the TG-GATEs case), and those need opposite
+treatment. Which one applies is decided per contrast by comparing factor lists, not by this column.
 
 The covered set skews to three families: **corticosteroids** (dexamethasone, prednisone,
 prednisolone, methylprednisolone), **oncology cytotoxics** used as cell-line stressors (cisplatin,
@@ -377,7 +397,7 @@ says more about the bridge than the coverage numbers do.
 |---|--:|--:|--:|--:|--:|--:|
 | asthma (`MONDO:0004979`) | 123 | 1 (1%) | 7 (6%) | 1 | 0 | 6 |
 | rheumatoid arthritis (`MONDO:0008383`) | 174 | **0 (0%)** | 6 (3%) | 0 | 0 | 6 |
-| ankylosing spondylitis (`MONDO:0005306`) | 163 | 3 (2%) | 26 (**16%**) | 1 | 0 | 23 |
+| ankylosing spondylitis (`MONDO:0005306`) | 163 | 3 (2%) | 24 (**15%**) | 1 | 0 | 21 |
 
 RA scored **worse than asthma**: zero covered edges, from the disease selected precisely because
 it had the most GXA-covered drugs.
@@ -420,7 +440,7 @@ skew toward mechanism-adjacent and investigational compounds. They are different
 ## Splitting "no data" from "tested and null"
 
 GXA stores only *significant* DE results, so an absent record was ambiguous. Separating the two
-multiplies the interpretable fraction several-fold (asthma 1%→6%, AS 2%→16%):
+multiplies the interpretable fraction several-fold (asthma 1%→6%, AS 2%→15%):
 
 - `tested_not_significant` — GXA tests the drug, but the gene is never significantly DE.
   **Evidence against** the edge.

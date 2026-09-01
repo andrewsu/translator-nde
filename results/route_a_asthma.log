@@ -221,7 +221,7 @@
   [219/220] Antibodies                   -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [220/220] INTERFERON GAMMA-1B          -> IFNGR2   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
 
---- 123 edges evaluated in 109s ---
+--- 123 edges evaluated in 104s ---
 verdicts: {'no_drug_data': 116, 'tested_not_significant': 6, 'agrees': 1}
 covered by >=1 GXA contrast: 1/123 (1%)
 edges with ANY GXA information (incl. tested-not-significant): 7/123 (6%)
