@@ -26,6 +26,8 @@ import numpy as np
 import pandas as pd
 import requests
 
+from scipy import stats
+
 from . import _de
 from .geo import suppl_url
 from .nde import PROD, NDEClient
@@ -168,6 +170,9 @@ class DEResult:
     matched_treated: int
     matched_control: int
     arm_source: str = "gsm"   # "gsm" | "title" | "matrix_columns"
+    design: str = "unpaired"  # "unpaired" | "paired"
+    n_pairs: int = 0
+    warnings: list[str] = field(default_factory=list)
     table: pd.DataFrame | None = None
     error: str | None = None
 
@@ -190,12 +195,15 @@ def run_de(
     *, is_counts: bool = True, min_per_group: int = 2,
     samples: list[Sample] | None = None,
     patterns: tuple[str, str] | None = None,
+    subject_re: str | None = None,
+    map_symbols: bool = True,
 ) -> DEResult:
     """Moderated t-test of treated vs control, positive logFC = up in treated."""
     try:
         df = load_matrix(matrix_path)
     except Exception as exc:
-        return DEResult(gse, len(treated), len(control), 0, 0, error=f"load: {exc}"[:150])
+        return DEResult(gse, len(treated), len(control), 0, 0,
+                        error=f"load: {exc}"[:150])
 
     t_cols = match_columns(df, treated, samples)
     c_cols = match_columns(df, control, samples)
@@ -207,16 +215,127 @@ def run_de(
         return DEResult(gse, len(treated), len(control), len(t_cols), len(c_cols),
                         error="too few samples matched to matrix columns")
 
+    warnings: list[str] = []
+    ratio = max(len(t_cols), len(c_cols)) / max(min(len(t_cols), len(c_cols)), 1)
+    if ratio >= 2:
+        warnings.append(
+            f"arms badly unbalanced ({len(t_cols)} vs {len(c_cols)}); "
+            f"check the arm patterns match every column naming variant")
+
     sub = df[t_cols + c_cols]
     # Counts need CPM filtering + log2; already-normalized matrices only need log2
     # if they still look linear.
     genes = _de.counts_to_log2cpm(sub) if is_counts else _de.maybe_log2(sub)
+
+    if map_symbols and looks_ensembl(genes.index):
+        mapping = map_ensembl_to_symbol(list(genes.index))
+        if mapping:
+            genes = genes.rename(index=lambda i: mapping.get(str(i).split(".")[0], str(i)))
+            warnings.append(f"mapped {len(mapping)} Ensembl ids to symbols")
+        else:
+            warnings.append("index looks Ensembl but symbol mapping returned nothing")
     genes = _de.collapse_by_symbol(genes)
-    is_treated = np.array([True] * len(t_cols) + [False] * len(c_cols))
+
+    pairs = pair_subjects(t_cols, c_cols, subject_re) if subject_re else []
     try:
-        table = _de.moderated_ttest(genes, is_treated)
+        if len(pairs) >= 3:
+            table = paired_moderated_ttest(genes, pairs)
+            design, n_pairs = "paired", len(pairs)
+        else:
+            if subject_re:
+                warnings.append(
+                    f"paired analysis requested but only {len(pairs)} pairs matched; "
+                    f"fell back to unpaired")
+            is_treated = np.array([True] * len(t_cols) + [False] * len(c_cols))
+            table = _de.moderated_ttest(genes, is_treated)
+            design, n_pairs = "unpaired", 0
     except Exception as exc:
         return DEResult(gse, len(treated), len(control), len(t_cols), len(c_cols),
-                        arm_source, error=f"de: {exc}"[:150])
+                        arm_source, error=f"de: {exc}"[:150], warnings=warnings)
     return DEResult(gse, len(treated), len(control), len(t_cols), len(c_cols),
-                    arm_source, table=table)
+                    arm_source, design, n_pairs, warnings, table=table)
+
+# ---------------------------------------------------------------- paired designs
+
+
+def pair_subjects(
+    treated_cols: list[str], control_cols: list[str], subject_re: str
+) -> list[tuple[str, str]]:
+    """Pair treated/control columns by a subject id captured from the name.
+
+    Pre/post designs sample the *same patient* twice. Analyzing them unpaired
+    throws away the within-subject blocking and is badly underpowered -- between
+    -patient variation in synovium or whole blood dwarfs the treatment effect.
+    """
+    rx = re.compile(subject_re, re.I)
+    def key(c: str) -> str | None:
+        m = rx.search(c)
+        return (m.group(1) if m.groups() else m.group(0)).lower() if m else None
+
+    ctrl = {key(c): c for c in control_cols if key(c)}
+    return [(t, ctrl[key(t)]) for t in treated_cols if key(t) and key(t) in ctrl]
+
+
+def paired_moderated_ttest(genes: pd.DataFrame, pairs: list[tuple[str, str]]):
+    """Empirical-Bayes moderated paired t-test on within-subject differences.
+
+    Same shrinkage as the two-group test in ``_de`` (reusing its ``fit_f_dist``),
+    applied to the one-sample problem mean(treated - control) != 0.
+    Positive logFC = up in the treated member of each pair.
+    """
+    diffs = np.column_stack([
+        genes[t].to_numpy(float) - genes[c].to_numpy(float) for t, c in pairs
+    ])
+    n = diffs.shape[1]
+    if n < 3:
+        raise ValueError(f"need >=3 pairs, got {n}")
+    mean_d = diffs.mean(1)
+    s2 = diffs.var(1, ddof=1)
+    dg = n - 1
+    d0, s0_2 = _de.fit_f_dist(s2, dg)
+    if np.isinf(d0):
+        s2_post, df_tot = s2, dg
+    else:
+        s2_post = (d0 * s0_2 + dg * s2) / (d0 + dg)
+        df_tot = dg + d0
+    se = np.sqrt(s2_post / n)
+    with np.errstate(divide="ignore", invalid="ignore"):
+        t = mean_d / se
+    p = 2 * stats.t.sf(np.abs(t), df_tot)
+    out = pd.DataFrame({"gene": genes.index, "logFC": mean_d, "t": t,
+                        "P.Value": p, "n_pairs": n}).set_index("gene")
+    out["adj.P.Val"] = _de.bh_fdr(out["P.Value"].to_numpy())
+    return out.sort_values("P.Value")
+
+
+# ------------------------------------------------------------- gene identifiers
+
+_ENSEMBL_RE = re.compile(r"^ENS[A-Z]*G\d{6,}", re.I)
+
+
+def looks_ensembl(index: pd.Index) -> bool:
+    sample = [str(i) for i in list(index)[:50]]
+    return sum(bool(_ENSEMBL_RE.match(i)) for i in sample) > len(sample) / 2
+
+
+def map_ensembl_to_symbol(ids: list[str], *, batch: int = 900) -> dict[str, str]:
+    """Ensembl gene id -> HGNC symbol via MyGene.info.
+
+    Needed because several GEO count matrices are indexed on Ensembl ids, which
+    silently defeats symbol-based gene lookup (every marker reads "not in
+    matrix").
+    """
+    stripped = sorted({str(i).split(".")[0] for i in ids})
+    out: dict[str, str] = {}
+    for i in range(0, len(stripped), batch):
+        chunk = stripped[i : i + batch]
+        r = requests.post("https://mygene.info/v3/query",
+                          data={"q": ",".join(chunk), "scopes": "ensembl.gene",
+                                "fields": "symbol", "species": "human"},
+                          timeout=120)
+        if not r.ok:
+            continue
+        for rec in r.json():
+            if rec.get("symbol") and rec.get("query"):
+                out.setdefault(rec["query"], rec["symbol"])
+    return out

@@ -1,0 +1,94 @@
+89 raw-counts series with >=12 samples
+
+  [1/89] GSE109449   SKIP single-cell
+  [2/89] GSE235508   SKIP single-cell
+  [3/89] GSE149050   n= 288 ctrl= 85 trt=  0       Multi-cell type gene co-expression network a
+  [4/89] GSE89408    n= 218 ctrl=  0 trt=  0       RNAseq study of synovial biopsies
+  [5/89] GSE216678   n= 211 ctrl=114 trt=  0       Reduced CD8 T cell exhaustion in DR4 risk su
+  [6/89] GSE112057   n= 202 ctrl= 12 trt=  0       Whole Blood Transcriptome Profiling in Juven
+  [7/89] GSE140244   n= 200 ctrl=  0 trt=  0       RNA-seq time course on human CD4 memory T ce
+  [8/89] GSE129487   n= 192 ctrl=  0 trt=  0       Effects of siRNA gene silencing on transcrip
+  [9/89] GSE129486   n= 175 ctrl=  0 trt=  0       Transcriptional responses of human synovial 
+  [10/89] GSE133719   n= 126 ctrl= 18 trt=  0       Systematic assessment of commercially availa
+  [11/89] GSE166925   n=  96 ctrl=  0 trt=  0       RNA-sequencing of whole tissue samples from 
+  [12/89] GSE166924   n=  95 ctrl=  0 trt=  0       RNA sequencing of FACS-sorted cell populatio
+  [13/89] GSE233501   n=  94 ctrl=  0 trt=  0       Adipocyte associated glucocorticoid signalin
+  [14/89] GSE198520   n=  92 ctrl=  0 trt= 92       Synovial inflammatory pathways characterize 
+  [15/89] GSE185508   n=  88 ctrl= 30 trt=  0       RNA-sequencing of human monocytes with high 
+  [16/89] GSE124731   n=  80 ctrl=  0 trt=  0       Transcriptomic characterization of human inn
+  [17/89] GSE151161   n=  76 ctrl=  0 trt=  0       Blocking of the CD80/86 axis as a therapeuti
+  [18/89] GSE294235   n=  75 ctrl= 45 trt=  0       Rheumatoid Arthritis circulating CD14+ monoc
+  [19/89] GSE225731   n=  74 ctrl=  0 trt=  0       Disease activity drives transcriptomic heter
+  [20/89] GSE95588    n=  74 ctrl=  0 trt=  0       Macrophage polarization controlled by fibrob
+  [21/89] GSE186063   n=  66 ctrl=  0 trt=  0       Multi-omics profiling reveals the interactio
+  [22/89] GSE283762   n=  62 ctrl=  0 trt=  0       Circulating microRNA profiles in early-stage
+  [23/89] GSE272019   n=  48 ctrl=  0 trt=  0       Opposing Regulation of TNF Responses and IL-
+  [24/89] GSE274996   n=  48 ctrl= 48 trt=  0       RNAseq analysis of human neutrophils from pe
+  [25/89] GSE199490   n=  47 ctrl=  0 trt=  0       PD-1 expressing CD4 and CD8 lymphocyte popul
+  [26/89] GSE141646   n=  44 ctrl=  0 trt=  0       Transcriptome analysis of ankylosing spondyl
+  [27/89] GSE141658   n=  42 ctrl=  6 trt=  0       An extension to: Systematic assessment of co
+  [28/89] GSE224526   n=  42 ctrl=  0 trt=  0       CD4 T cells in Giant Cell Arteritis (RNA-Seq
+  [29/89] GSE302355   n=  42 ctrl= 18 trt=  0       Synovial MS4A4A correlates with inflammation
+  [30/89] GSE274598   n=  41 ctrl= 41 trt=  0       RNAseq analysis of human neutrophils from pe
+  [31/89] GSE275634   n=  41 ctrl=  0 trt=  0       ATAC-seq of antigen-specific memory CD8+ T c
+  [32/89] GSE216679   n=  40 ctrl= 24 trt=  0       Reduced CD8 T cell exhaustion in DR4 risk su
+  [33/89] GSE292338   n=  39 ctrl= 39 trt=  0       RNAseq analysis of human neutrophils from he
+  [34/89] GSE162051   n=  38 ctrl=  0 trt=  0       RNA-sequencing analysis of the effect of pro
+  [35/89] GSE227128   n=  38 ctrl=  0 trt=  0       Transcriptomic profile of Lin negative, LEPR
+  [36/89] GSE97165    n=  38 ctrl= 19 trt=  0       RNAseq study of synovial biopsies after trip
+  [37/89] GSE168284   n=  37 ctrl=  9 trt=  0       MicroRNA expression differences inÂ blood-de
+  [38/89] GSE138767   n=  36 ctrl=  0 trt= 29       Simultaneous analysis of open chromatin, pro
+  [39/89] GSE225336   n=  36 ctrl=  0 trt=  0       Genetics of Myocardial Interstitial Fibrosis
+  [40/89] GSE282660   n=  36 ctrl=  9 trt= 36 DRUG  Salsalate improves the anti-tumor efficacy o
+  [41/89] GSE179302   n=  35 ctrl=  0 trt=  0       Physical Activity Moderates Inflammatory Gen
+  [42/89] GSE288976   n=  34 ctrl=  0 trt=  0       Differences between human male and female ne
+  [43/89] GSE123484   n=  32 ctrl=  0 trt=  0       Loss-of-function of PTPN2 promotes pathogeni
+  [44/89] GSE261243   n=  30 ctrl=  0 trt=  6       IL-10 Targets IRF1/5 to Suppress IFN and Inf
+  [45/89] GSE287345   n=  30 ctrl=  0 trt=  0       Transcriptional analysis of murine biliary a
+  [46/89] GSE290111   n=  29 ctrl=  5 trt=  0       Interstitial Pneumonia associated with an au
+  [47/89] GSE116780   n=  28 ctrl=  0 trt=  0       RNA sequencing of CRISPR/Cas9-generated A20 
+  [48/89] GSE261245   n=  28 ctrl=  0 trt=  0       IL-10 Targets IRF1/5 to Suppress IFN and Inf
+  [49/89] GSE199152   n=  27 ctrl=  0 trt=  0       Next Generation Sequencing Quantitative Anal
+  [50/89] GSE109448   n=  25 ctrl=  0 trt=  0       RNA-seq analysis of freshly isolated synovia
+  [51/89] GSE220264   n=  25 ctrl= 13 trt=  0       Conventional DC1 (cDC1) are Strongly Enriche
+  [52/89] GSE79702    n=  25 ctrl=  0 trt=  0       USP15 regulates type I interferon response i
+  [53/89] GSE148395   n=  24 ctrl= 12 trt= 24 DRUG  Effect of BET Inhibitors on Rheumatoid Synov
+  [54/89] GSE166535   n=  24 ctrl=  0 trt=  0       Loss of mutual protection between osteoclast
+  [55/89] GSE166927   n=  24 ctrl=  0 trt=  0       RNA-sequencing of cytokine-stimulated cultur
+  [56/89] GSE182572   n=  24 ctrl=  4 trt=  0       TLR7 sensing of SARS-CoV-2 and IFN-I respons
+  [57/89] GSE235868   n=  24 ctrl=  0 trt=  0       Non-coding autoimmune risk variant accelerat
+  [58/89] GSE253553   n=  24 ctrl=  0 trt=  0       Two Broad Categories Overlapping With Rheuma
+  [59/89] GSE261244   n=  24 ctrl=  0 trt=  0       IL-10 Targets IRF1/5 to Suppress IFN and Inf
+  [60/89] GSE262911   n=  24 ctrl=  0 trt=  0       Interferons and epigenetic mechanisms in tra
+  [61/89] GSE272017   n=  24 ctrl=  0 trt=  0       Opposing Regulation of TNF Responses and IL-
+  [62/89] GSE283881   n=  24 ctrl=  6 trt=  0       Differential response of tissue engineered s
+  [63/89] GSE294225   n=  24 ctrl= 15 trt=  0       Transcriptional profiles are dramatically al
+  [64/89] GSE299540   n=  24 ctrl=  0 trt=  0       Autoimmunity-associated DIORA1 binds the MRC
+  [65/89] GSE133527   n=  20 ctrl=  0 trt=  0       miR-221-3p drives the Shift of M2-Macrophage
+  [66/89] GSE100531   n=  18 ctrl=  0 trt=  0       Extracellular Vesicles Transfer the Receptor
+  [67/89] GSE114555   n=  18 ctrl=  0 trt=  0       Altered thymic differentiation and modulatio
+  [68/89] GSE195817   n=  18 ctrl=  0 trt=  0       Dissecting the molecular control of immune c
+  [69/89] GSE228953   n=  18 ctrl=  0 trt=  0       Molecular reframing of fibroblasts during re
+  [70/89] GSE314078   n=  18 ctrl=  0 trt=  0       Transcriptional Profiling of Synovial Macrop
+  [71/89] GSE195557   n=  16 ctrl=  0 trt=  0       TNFR2 is critical for TNF-induced rheumatoid
+  [72/89] GSE209982   n=  16 ctrl=  0 trt=  0       Osteoclast microRNA profiling to capture the
+  [73/89] GSE216688   n=  16 ctrl=  0 trt=  0       Identification of a transcription factor net
+  [74/89] GSE233047   n=  16 ctrl=  0 trt=  0       Interferon subverts an AHR-JUN axis to promo
+  [75/89] GSE234595   n=  16 ctrl=  0 trt=  0       TH17 cells converted into exTH17 cells susta
+  [76/89] GSE242753   n=  16 ctrl=  8 trt=  0       Mitochondrial N-formylmethionine instructs t
+  [77/89] GSE145204   n=  14 ctrl=  0 trt=  0       Transcriptional responses to TNF following H
+  [78/89] GSE163123   n=  12 ctrl=  6 trt=  6 DRUG  RNA-seq of B cells treated with recombinant 
+  [79/89] GSE180540   n=  12 ctrl=  8 trt=  0       MAFB surrogates the glucocorticoid receptor 
+  [80/89] GSE181889   n=  12 ctrl=  3 trt=  0       Quantitative Analysis of CXCL4 and TLR8 sign
+  [81/89] GSE186166   n=  12 ctrl=  0 trt=  0       Treatment of human polymorphonuclear neutrop
+  [82/89] GSE233045   n=  12 ctrl=  0 trt=  0       Interferon subverts an AHR-JUN axis to promo
+  [83/89] GSE233048   n=  12 ctrl=  0 trt=  0       Interferon subverts an AHR-JUN axis to promo
+  [84/89] GSE235400   n=  12 ctrl=  4 trt=  0       SIRPa agonist antibody treatment ameliorates
+  [85/89] GSE247226   n=  12 ctrl=  0 trt=  0       BRD3 regulates the inflammatory and stress r
+  [86/89] GSE273760   n=  12 ctrl=  0 trt=  0       Homeostatic signals induce the development o
+  [87/89] GSE289490   n=  12 ctrl=  0 trt=  0       RNA-seq of RA-FLS(siNC vs siFUNDC1)
+  [88/89] GSE300831   n=  12 ctrl=  3 trt=  0       RNA-seq of Immortalized RAFLS treated with T
+  [89/89] GSE99006    n=  12 ctrl=  0 trt=  0       Whole transcriptome profile of citrulline-sp
+
+--- 87 profiled, 3 with a drug-treatment contrast ---
+wrote results/arm_profiles.json

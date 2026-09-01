@@ -1,0 +1,2860 @@
+[
+  {
+    "gse": "GSE148395",
+    "name": "Effect of BET Inhibitors on Rheumatoid Synovial Fibroblast Cells [RNA-seq]",
+    "n": 24,
+    "n_control": 12,
+    "n_treatment": 24,
+    "drug_contrast": true,
+    "matrix_files": [
+      "GSE148395_final_FLS_JQ1_genecounts.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "st#_dmso",
+        6
+      ],
+      [
+        "st#_dmso_il#b",
+        6
+      ],
+      [
+        "st#_jq#_il#b",
+        6
+      ],
+      [
+        "st#_jq#",
+        6
+      ]
+    ]
+  },
+  {
+    "gse": "GSE282660",
+    "name": "Salsalate improves the anti-tumor efficacy of Lenvatinib in MASH-driven hepatocellular carcinoma.",
+    "n": 36,
+    "n_control": 9,
+    "n_treatment": 36,
+    "drug_contrast": true,
+    "matrix_files": [
+      "GSE282660_cells_VST_normalized_counts.txt.gz",
+      "GSE282660_mouse_VST_normalized_counts.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "non-tumor liver tissue, vehicle gavaged, biol rep #",
+        6
+      ],
+      [
+        "non-tumor liver tissue, salsalate gavaged, biol rep #",
+        6
+      ],
+      [
+        "non-tumor liver tissue, salsalate + lenvatinib gavaged, biol rep #",
+        6
+      ],
+      [
+        "non-tumor liver tissue, lenvatinib gavaged, biol rep #",
+        6
+      ],
+      [
+        "hep#b cells, dmso control, biol rep #",
+        3
+      ],
+      [
+        "hep#b cells, salsalate-treated, biol rep #",
+        3
+      ]
+    ]
+  },
+  {
+    "gse": "GSE163123",
+    "name": "RNA-seq of B cells treated with recombinant CD52-Fc",
+    "n": 12,
+    "n_control": 6,
+    "n_treatment": 6,
+    "drug_contrast": true,
+    "matrix_files": [
+      "GSE163123_counts.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "untreated rep #",
+        6
+      ],
+      [
+        "recombinant cd#-fc treated rep #",
+        6
+      ]
+    ]
+  },
+  {
+    "gse": "GSE149050",
+    "name": "Multi-cell type gene co-expression network analysis reveals coordinated interferon response and cross cell-type correlations in systemic lupus erythematosus",
+    "n": 288,
+    "n_control": 85,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE149050_Bulk_Human_RawCounts.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "#_s#a_ifnpos_cmo",
+        26
+      ],
+      [
+        "#_s#a_ifnneg_cmo",
+        25
+      ],
+      [
+        "#_t#_hc_cmo",
+        17
+      ],
+      [
+        "#_s#a_ifnneg_t",
+        12
+      ],
+      [
+        "#_s#a_ifnpos_t",
+        12
+      ],
+      [
+        "#_s#a_ifnneg_pmn",
+        12
+      ]
+    ]
+  },
+  {
+    "gse": "GSE89408",
+    "name": "RNAseq study of synovial biopsies",
+    "n": 218,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE89408_GEO_count_matrix_rename.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "rheumatoid arthritis tissue #",
+        152
+      ],
+      [
+        "healthy tissue #",
+        28
+      ],
+      [
+        "osteoarthritis tissue #",
+        22
+      ],
+      [
+        "arthralgia tissue #",
+        10
+      ],
+      [
+        "undifferentiated arthritis tissue #",
+        6
+      ]
+    ]
+  },
+  {
+    "gse": "GSE216678",
+    "name": "Reduced CD8 T cell exhaustion in DR4 risk subjects is selectively augmented with therapy [whole blood]",
+    "n": 211,
+    "n_control": 114,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE216678_WholeBloodRawCountsMatrix.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "donor#_control [lib#]",
+        114
+      ],
+      [
+        "donor#_ra [lib#]",
+        97
+      ]
+    ]
+  },
+  {
+    "gse": "GSE112057",
+    "name": "Whole Blood Transcriptome Profiling in Juvenile Idiopathic Arthritis and Inflammatory Bowel Disease",
+    "n": 202,
+    "n_control": 12,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE112057_RawCounts_dataset.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "sample#_crohn's disease",
+        60
+      ],
+      [
+        "sample#_polyarticular jia",
+        46
+      ],
+      [
+        "sample#_oligoarticular jia",
+        43
+      ],
+      [
+        "sample#_systemic jia",
+        26
+      ],
+      [
+        "sample#_ulcerative colitis",
+        15
+      ],
+      [
+        "sample#_control",
+        12
+      ]
+    ]
+  },
+  {
+    "gse": "GSE140244",
+    "name": "RNA-seq time course on human CD4 memory T cells stimulated with anti-CD3/CD28 beads",
+    "n": 200,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE140244_rnaseq_gene_counts.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "x#_#_#e#_a",
+        184
+      ],
+      [
+        "x#_#_#e#_b",
+        16
+      ]
+    ]
+  },
+  {
+    "gse": "GSE129487",
+    "name": "Effects of siRNA gene silencing on transcriptional responses of human synovial fibroblasts to TNF and IL-17A (RNA-seq Data 2)",
+    "n": 192,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE129487_rnaseq-data-2_gene-counts.tsv.gz",
+      "GSE129487_rnaseq-data-2_transcript-counts.tsv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "s#",
+        192
+      ]
+    ]
+  },
+  {
+    "gse": "GSE129486",
+    "name": "Transcriptional responses of human synovial fibroblasts to TNF and IL-17A over time (RNA-seq Data 1)",
+    "n": 175,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE129486_rnaseq-data-1_gene-counts.tsv.gz",
+      "GSE129486_rnaseq-data-1_transcript-counts.tsv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "s# time-course",
+        175
+      ]
+    ]
+  },
+  {
+    "gse": "GSE133719",
+    "name": "Systematic assessment of commercially available low-input miRNA library preparation kits",
+    "n": 126,
+    "n_control": 18,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE133719_countTable_biological.tsv.gz",
+      "GSE133719_countTable_biological_downsampled.csv.gz",
+      "GSE133719_countTable_biological_rlog_downsampled.csv.gz",
+      "GSE133719_countTable_synthetic.tsv.gz",
+      "GSE133719_countTable_synthetic_downsampled.csv.gz",
+      "GSE133719_countTable_synthetic_rlog_downsampled.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "cats c #",
+        3
+      ],
+      [
+        "cats e #",
+        3
+      ],
+      [
+        "cats ra #",
+        3
+      ],
+      [
+        "cats hc #",
+        3
+      ],
+      [
+        "srlp b #",
+        3
+      ],
+      [
+        "srlp ra #",
+        3
+      ]
+    ]
+  },
+  {
+    "gse": "GSE166925",
+    "name": "RNA-sequencing of whole tissue samples from patients with inflammatory bowel disease and colorectal cancer",
+    "n": 96,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE166925_featurecounts_counts.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "crc_n_li_m_#",
+        23
+      ],
+      [
+        "crc_n_li_f_#",
+        19
+      ],
+      [
+        "cd_i_si_f_#",
+        6
+      ],
+      [
+        "cd_u_li_m_#",
+        5
+      ],
+      [
+        "uc_i_li_f_#",
+        5
+      ],
+      [
+        "cd_i_li_m_#",
+        5
+      ]
+    ]
+  },
+  {
+    "gse": "GSE166924",
+    "name": "RNA sequencing of FACS-sorted cell populations from inflamed and non-inflamed endoscopic biopsies of patients with IBD, or from blood of patients with IBD and healthy donors",
+    "n": 95,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE166924_featurecounts_counts.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "#_n",
+        26
+      ],
+      [
+        "#_m",
+        26
+      ],
+      [
+        "#_e",
+        26
+      ],
+      [
+        "#_s",
+        17
+      ]
+    ]
+  },
+  {
+    "gse": "GSE233501",
+    "name": "Adipocyte associated glucocorticoid signaling regulates normal fibroblast function which is lost in inflammatory arthritis [fibroblast_bulk RNAseq]",
+    "n": 94,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE233501_Bulk_RNA_seq_raw_counts_genenames.xls.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "#hr_cortisol_stb-#, bio rep #",
+        8
+      ],
+      [
+        "#hr_fcm_stb-#, bio rep #",
+        8
+      ],
+      [
+        "#hr_basal_stb-#, bio rep #",
+        8
+      ],
+      [
+        "#hr_fcm_tnf_stb-#, bio rep #",
+        8
+      ],
+      [
+        "#hr_tnf_stb-#, bio rep #",
+        8
+      ],
+      [
+        "#hr_fcm_tgfb_stb-#, bio rep #",
+        8
+      ]
+    ]
+  },
+  {
+    "gse": "GSE198520",
+    "name": "Synovial inflammatory pathways characterize anti-TNF-responsive rheumatoid arthritis patients",
+    "n": 92,
+    "n_control": 0,
+    "n_treatment": 92,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE198520_Raw_gene_count_matrix.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "r_#_post",
+        19
+      ],
+      [
+        "r_#_pre",
+        19
+      ],
+      [
+        "nr_#_post",
+        14
+      ],
+      [
+        "nr_#_pre",
+        14
+      ],
+      [
+        "mr_#_post",
+        13
+      ],
+      [
+        "mr_#_pre",
+        13
+      ]
+    ]
+  },
+  {
+    "gse": "GSE185508",
+    "name": "RNA-sequencing of human monocytes with high and low expression of SLAMF7",
+    "n": 88,
+    "n_control": 30,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE185508_SLAMF7_High_Counts.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "donor # peripheral blood cd#++cd#- slamf# low",
+        12
+      ],
+      [
+        "donor # peripheral blood cd#++cd#- slamf# high",
+        12
+      ],
+      [
+        "donor # peripheral blood cd#+cd#+ slamf# high",
+        12
+      ],
+      [
+        "donor # peripheral blood cd#++cd#+ slamf# low",
+        12
+      ],
+      [
+        "donor # peripheral blood cd#+cd#+ slamf# low",
+        12
+      ],
+      [
+        "donor # peripheral blood cd#++cd#+ slamf# high",
+        12
+      ]
+    ]
+  },
+  {
+    "gse": "GSE124731",
+    "name": "Transcriptomic characterization of human innate T cells",
+    "n": 80,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE124731_low_input_rnaseq_gene_counts.txt.gz",
+      "GSE124731_single_cell_rnaseq_gene_counts.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "low_input_rnaseq_cd#_igtb#_#",
+        19
+      ],
+      [
+        "low_input_rnaseq_vd#_igtb#_#",
+        18
+      ],
+      [
+        "low_input_rnaseq_nkt_igtb#_#",
+        10
+      ],
+      [
+        "low_input_rnaseq_mait_igtb#_#",
+        9
+      ],
+      [
+        "low_input_rnaseq_nk_igtb#_#",
+        9
+      ],
+      [
+        "low_input_rnaseq_vd#_igpr#_#",
+        4
+      ]
+    ]
+  },
+  {
+    "gse": "GSE151161",
+    "name": "Blocking of the CD80/86 axis as a therapeutic approach to prevent progression to more severe forms of COVID-19",
+    "n": 76,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE151161_Raw_counts.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "patient # week#",
+        76
+      ]
+    ]
+  },
+  {
+    "gse": "GSE294235",
+    "name": "Rheumatoid Arthritis circulating CD14+ monocytes are epigenetically primed [ChIP-seq]",
+    "n": 75,
+    "n_control": 45,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE294235_H3K27me3_RA_Normalised_Counts.csv.gz",
+      "GSE294235_H3K4me3_RA_Normalised_Counts.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "peripheral blood cd#+ monocyte, healthy control, rep# - h#k#me#",
+        30
+      ],
+      [
+        "peripheral blood cd#+ monocyte, rheumatoid arthritis, rep# - h#k#me#",
+        20
+      ],
+      [
+        "peripheral blood cd#+ monocyte, healthy control, rep# - input",
+        14
+      ],
+      [
+        "peripheral blood cd#+ monocyte, rheumatoid arthritis, rep# - input",
+        10
+      ],
+      [
+        "peripheral blood cd#+ monocyte, healthy control, rep#  - input",
+        1
+      ]
+    ]
+  },
+  {
+    "gse": "GSE225731",
+    "name": "Disease activity drives transcriptomic heterogeneity in early untreated rheumatoid synovitis",
+    "n": 74,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE225731_raw_counts_74RA_samples.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "#_b_rna",
+        42
+      ],
+      [
+        "rna#",
+        32
+      ]
+    ]
+  },
+  {
+    "gse": "GSE95588",
+    "name": "Macrophage polarization controlled by fibroblast crosstalk and targeted by medications in rheumatoid arthritis",
+    "n": 74,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE95588_coculture_htseq_counts.txt.gz",
+      "GSE95588_d1d2d3d4_counts.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "p#_m",
+        4
+      ],
+      [
+        "p#_mtf",
+        4
+      ],
+      [
+        "p#_mtf_plus_a#",
+        4
+      ],
+      [
+        "p#_mt",
+        4
+      ],
+      [
+        "p#_mt_plus_nap",
+        3
+      ],
+      [
+        "p#_mtf_plus_ag",
+        3
+      ]
+    ]
+  },
+  {
+    "gse": "GSE186063",
+    "name": "Multi-omics profiling reveals the interactions of host defense and hyper-keratinization in psoriasis",
+    "n": 66,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE186063_Raw_gene_counts_matrix.txt.gz"
+    ],
+    "diseases": [
+      "ankylosing spondylitis"
+    ],
+    "top_labels": [
+      [
+        "#-#-#",
+        66
+      ]
+    ]
+  },
+  {
+    "gse": "GSE283762",
+    "name": "Circulating microRNA profiles in early-stage osteoarthritis and rheumatoid arthritis",
+    "n": 62,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE283762_allsamples_raw_counts.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "non-oa/ra#",
+        44
+      ],
+      [
+        "earlyoa#",
+        12
+      ],
+      [
+        "earlyra#",
+        6
+      ]
+    ]
+  },
+  {
+    "gse": "GSE272019",
+    "name": "Opposing Regulation of TNF Responses and IL-1b+ Macrophages by PGE2-cAMP Signaling and IFN-g [RNA-seq]",
+    "n": 48,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE272019_rawcounts_IFNg.txt.gz",
+      "GSE272019_rawcounts_PGE.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "ctrl_#h_rep#",
+        6
+      ],
+      [
+        "pge_#h_rep#",
+        6
+      ],
+      [
+        "tnf-pge_#h_rep#",
+        6
+      ],
+      [
+        "tnf_#h_rep#",
+        6
+      ],
+      [
+        "ifng_rep#",
+        3
+      ],
+      [
+        "pge#_rep#",
+        3
+      ]
+    ]
+  },
+  {
+    "gse": "GSE274996",
+    "name": "RNAseq analysis of human neutrophils from people with DMARD-refractory rheumatoid arthritis",
+    "n": 48,
+    "n_control": 48,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE274996_Gene_counts_WrightH_2.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "blood neutrophil, #h, ra replicate#",
+        43
+      ],
+      [
+        "blood neutrophil, #h, healthy control replicate#",
+        5
+      ]
+    ]
+  },
+  {
+    "gse": "GSE199490",
+    "name": "PD-1 expressing CD4 and CD8 lymphocyte populations were compared to PD-1 negative CD4 and CD8 lymphocyte populations from 5 RA patients",
+    "n": 47,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE199490_PD1sig_read_counts.tsv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "ap#pbmccd#pospd#neg",
+        10
+      ],
+      [
+        "ap#pbmccd#pospd#pos",
+        8
+      ],
+      [
+        "sf#cd#pospd#neg",
+        3
+      ],
+      [
+        "#pbmccd#pospd#pos",
+        2
+      ],
+      [
+        "hcpbmccd#pospd#neg",
+        2
+      ],
+      [
+        "rasfcd#pospd#pos",
+        2
+      ]
+    ]
+  },
+  {
+    "gse": "GSE141646",
+    "name": "Transcriptome analysis of ankylosing spondylitis patients before and after TNF-\u00ce\u00b1 inhibitor therapy reveals the pathways affected",
+    "n": 44,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE141646_AS-TNF_counts.txt.gz"
+    ],
+    "diseases": [
+      "ankylosing spondylitis"
+    ],
+    "top_labels": [
+      [
+        "a#-#",
+        44
+      ]
+    ]
+  },
+  {
+    "gse": "GSE141658",
+    "name": "An extension to: Systematic assessment of commercially available low-input miRNA library preparation kits",
+    "n": 42,
+    "n_control": 6,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE141658_countTable_biological.csv.gz",
+      "GSE141658_countTable_biological_downsampled.csv.gz",
+      "GSE141658_countTable_biological_rlog_downsampled.csv.gz",
+      "GSE141658_countTable_synthetic.csv.gz",
+      "GSE141658_countTable_synthetic_downsampled.csv.gz",
+      "GSE141658_countTable_synthetic_rlog_downsampled.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "nebnext c #",
+        3
+      ],
+      [
+        "nebnext e #",
+        3
+      ],
+      [
+        "nebnext ra #",
+        3
+      ],
+      [
+        "nextflex b #",
+        3
+      ],
+      [
+        "nextflex c #",
+        3
+      ],
+      [
+        "nextflex e #",
+        3
+      ]
+    ]
+  },
+  {
+    "gse": "GSE224526",
+    "name": "CD4 T cells in Giant Cell Arteritis (RNA-Seq)",
+    "n": 42,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE224526_Bulk_RNA_processed_count.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "aortitis_rep#",
+        22
+      ],
+      [
+        "control_rep#",
+        20
+      ]
+    ]
+  },
+  {
+    "gse": "GSE302355",
+    "name": "Synovial MS4A4A correlates with inflammation and counteracts response to corticosteroids in arthritis",
+    "n": 42,
+    "n_control": 18,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE302355_raw_counts_filtered_All_Samples.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "vehicle, wt, #h, rep#",
+        9
+      ],
+      [
+        "dex, wt, #h, rep#",
+        9
+      ],
+      [
+        "vehicle, ko, #h, rep#",
+        9
+      ],
+      [
+        "dex, ko, #h, rep#",
+        9
+      ],
+      [
+        "untr, ko, #_baseline, rep#",
+        3
+      ],
+      [
+        "untr, wt, #_baseline, rep#",
+        3
+      ]
+    ]
+  },
+  {
+    "gse": "GSE274598",
+    "name": "RNAseq analysis of human neutrophils from people with rheumatoid arthritis",
+    "n": 41,
+    "n_control": 41,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE274598_Gene_counts_WrightH_1.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "blood neutrophil, #h, sra replicate#",
+        22
+      ],
+      [
+        "blood neutrophil, #h, era replicate #",
+        13
+      ],
+      [
+        "blood neutrophil, #h, hc replicate #",
+        6
+      ]
+    ]
+  },
+  {
+    "gse": "GSE275634",
+    "name": "ATAC-seq of antigen-specific memory CD8+ T cells",
+    "n": 41,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE275634_Peaks_counts.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "temra_p#_#_m_exp#",
+        7
+      ],
+      [
+        "temra_p#_#_f_exp#",
+        5
+      ],
+      [
+        "ebv-bmlf#_p#_#_m_exp#",
+        4
+      ],
+      [
+        "ebv-brlf#_p#_#_f_exp#",
+        4
+      ],
+      [
+        "em_p#_#_f_exp#",
+        4
+      ],
+      [
+        "ebv-lmp#_p#_#_f_exp#",
+        4
+      ]
+    ]
+  },
+  {
+    "gse": "GSE216679",
+    "name": "Reduced CD8 T cell exhaustion in DR4 risk subjects is selectively augmented with therapy [CD8s]",
+    "n": 40,
+    "n_control": 24,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE216679_CD8RawCountsMatrix.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "#_hc_klrg#+/tigit+ [lib#]",
+        8
+      ],
+      [
+        "#_hc_klrg#-/tigit- [lib#]",
+        7
+      ],
+      [
+        "#_flu_klrg#+/tigit+ [lib#]",
+        5
+      ],
+      [
+        "#_t#d_klrg#+/tigit+ [lib#]",
+        4
+      ],
+      [
+        "#_rcc_klrg#+/tigit+ [lib#]",
+        4
+      ],
+      [
+        "#_cmv_klrg#+/tigit+ [lib#]",
+        4
+      ]
+    ]
+  },
+  {
+    "gse": "GSE292338",
+    "name": "RNAseq analysis of human neutrophils from healthy controls, people with frailty and people with rheumatoid arthritis",
+    "n": 39,
+    "n_control": 39,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE292338_Gene_counts_Wright_2025_2.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "blood neutrophil, #h, frailty, replicate #",
+        10
+      ],
+      [
+        "blood neutrophil, #h, healthy young, replicate #",
+        10
+      ],
+      [
+        "blood neutrophil, #h, rheumatoid arthritis, replicate #",
+        10
+      ],
+      [
+        "blood neutrophil, #h, healthy old, replicate #",
+        9
+      ]
+    ]
+  },
+  {
+    "gse": "GSE162051",
+    "name": "RNA-sequencing analysis of the effect of progesterone on T cell activation",
+    "n": 38,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE162051_Gene_counts_from_unactivated_activated_CD4+_T_cells_in_the_presence_or_absence_of_progesterone.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "activated cd#+ with # um prog # hrs donor #",
+        16
+      ],
+      [
+        "activated cd#+_#hrs_donor #",
+        16
+      ],
+      [
+        "unactivated cd#+ # hrs_donor #",
+        6
+      ]
+    ]
+  },
+  {
+    "gse": "GSE227128",
+    "name": "Transcriptomic profile of Lin negative, LEPR positive cells of human peri-implant fibrous tissue and peri-implant bone",
+    "n": 38,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE227128_countMatrix.tsv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "leprneg_membrane_rep#",
+        10
+      ],
+      [
+        "leprpos_membrane_rep#",
+        10
+      ],
+      [
+        "leprneg_bone_rep#",
+        9
+      ],
+      [
+        "leprpos_bone_rep#",
+        9
+      ]
+    ]
+  },
+  {
+    "gse": "GSE97165",
+    "name": "RNAseq study of synovial biopsies after triple DMARD treatment",
+    "n": 38,
+    "n_control": 19,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE97165_GEO_count_matrix.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "rheumatoid arthritis tissue # (ra_post_#)",
+        19
+      ],
+      [
+        "rheumatoid arthritis tissue # (ra_pre_#)",
+        19
+      ]
+    ]
+  },
+  {
+    "gse": "GSE168284",
+    "name": "MicroRNA expression differences in\u00c2\u00a0blood-derived\u00c2\u00a0CD19+ B cells\u00c2\u00a0of\u00c2\u00a0methotrexate\u00c2\u00a0treated\u00c2\u00a0rheumatoid arthritis patients\u00c2\u00a0\u00c2",
+    "n": 37,
+    "n_control": 9,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE168284_miRNA_count_table.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "mtx-#",
+        18
+      ],
+      [
+        "new-#",
+        10
+      ],
+      [
+        "hc-#",
+        9
+      ]
+    ]
+  },
+  {
+    "gse": "GSE138767",
+    "name": "Simultaneous analysis of open chromatin, promoter interactions and gene expression in stimulated T cells implicates GWAS SNPs with causal genes",
+    "n": 36,
+    "n_control": 0,
+    "n_treatment": 29,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE138767_combined_RNA-seq_counts.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "rna-seq, primary cd#+ t-cells, #hr stimulated, replicate #",
+        8
+      ],
+      [
+        "hi-c, primary cd#+ t-cells, #hr stimulated, replicate #",
+        5
+      ],
+      [
+        "capture hi-c, primary cd#+ t-cells, #hr stimulated, replicate #",
+        4
+      ],
+      [
+        "atac-seq, primary cd#+ t-cells, #hr stimulated, replicates #-#",
+        4
+      ],
+      [
+        "hi-c, primary cd#+ t-cells, unstimulated, replicate #",
+        2
+      ],
+      [
+        "hi-c, primary cd#+ t-cells, #min stimulated, replicate #",
+        2
+      ]
+    ]
+  },
+  {
+    "gse": "GSE225336",
+    "name": "Genetics of Myocardial Interstitial Fibrosis in the Human Heart and Association with Disease",
+    "n": 36,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE225336_Hum_CF_TGFB_RNAseq_CountsTable.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "cf_atac_#hrtgfb-s#",
+        12
+      ],
+      [
+        "cf_rna_#hr-s#",
+        9
+      ],
+      [
+        "cf_rna_#hrtgfb-s#",
+        9
+      ],
+      [
+        "cf_rna_ctrl-#",
+        3
+      ],
+      [
+        "cf_atac_ctrl-#",
+        3
+      ]
+    ]
+  },
+  {
+    "gse": "GSE179302",
+    "name": "Physical Activity Moderates Inflammatory Gene Expression in Rheumatoid Arthritis",
+    "n": 35,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE179302_raw_counts.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "razz_#",
+        35
+      ]
+    ]
+  },
+  {
+    "gse": "GSE288976",
+    "name": "Differences between human male and female neutrophils with respect to which RNAs are present in polysomes",
+    "n": 34,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE288976_RNAseq_PMN_polysomes_Whole_lysate_counts.csv.gz",
+      "GSE288976_RNAseq_PMN_polysomes_fraction_lysate_counts.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "female # late polysome rna (f#-#)",
+        4
+      ],
+      [
+        "female # total cell rna (total)",
+        4
+      ],
+      [
+        "female # free rna (f#-#)",
+        4
+      ],
+      [
+        "female # early polysome rna (f#-#)",
+        4
+      ],
+      [
+        "female # monosome rna (f#-#)",
+        4
+      ],
+      [
+        "male # early polysome rna (f#-#)",
+        3
+      ]
+    ]
+  },
+  {
+    "gse": "GSE123484",
+    "name": "Loss-of-function of PTPN2 promotes pathogenic loss of FoxP3+ in RORgt+ Tregs [RNA-seq]",
+    "n": 32,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE123484_all_counts.tsv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "#_#_yfppos_il#neg",
+        4
+      ],
+      [
+        "#_#_yfpneg_il#pos",
+        4
+      ],
+      [
+        "#_#_yfppos_il#aneg",
+        4
+      ],
+      [
+        "#_#_yfpneg_il#apos",
+        4
+      ],
+      [
+        "#_#extrpos_neg",
+        3
+      ],
+      [
+        "#_#trpos_pos",
+        3
+      ]
+    ]
+  },
+  {
+    "gse": "GSE261243",
+    "name": "IL-10 Targets IRF1/5 to Suppress IFN and Inflammatory Responses by Epigenetic Mechanisms [RNA-Seq]",
+    "n": 30,
+    "n_control": 0,
+    "n_treatment": 6,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE261243_RNAseq_Cas9_LPS_filtered_raw_counts.txt.gz",
+      "GSE261243_RNAseq_LPS_filtered_raw_counts.txt.gz",
+      "GSE261243_RNAseq_TNF_filtered_raw_counts.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "rna_il#_lps_rep_#",
+        3
+      ],
+      [
+        "rna_rest_control_rep_#",
+        3
+      ],
+      [
+        "rna_lps_hprt_rep_#",
+        3
+      ],
+      [
+        "rna_il-#_donor#",
+        3
+      ],
+      [
+        "rna_il#_rep_#",
+        3
+      ],
+      [
+        "rna_lps_rep_#",
+        3
+      ]
+    ]
+  },
+  {
+    "gse": "GSE287345",
+    "name": "Transcriptional analysis of murine biliary atresia identifies macrophage heterogeneity and subset-specific macrophage functions",
+    "n": 30,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE287345_BA_mouse_macrophages_counts.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "balb/c murine hepatic macrophages ly#c+mhcii+ controls, replicate #",
+        4
+      ],
+      [
+        "balb/c murine hepatic macrophages ly#c+mhcii- controls, replicate #",
+        4
+      ],
+      [
+        "balb/c murine hepatic macrophages ly#c-mhcii+ controls, replicate #",
+        4
+      ],
+      [
+        "balb/c murine hepatic macrophages ly#c+mhcii+ rrv, replicate #",
+        4
+      ],
+      [
+        "balb/c murine hepatic macrophages ly#c-mhcii+ rrv, replicate #",
+        4
+      ],
+      [
+        "balb/c murine hepatic macrophages ly#c+mhcii- rrv, replicate #",
+        4
+      ]
+    ]
+  },
+  {
+    "gse": "GSE290111",
+    "name": "Interstitial Pneumonia associated with an autoimmune background; miRNA discovery cohort",
+    "n": 29,
+    "n_control": 5,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE290111_SanchezPernaute_counts.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "serum, case #",
+        24
+      ],
+      [
+        "serum, healthy control #",
+        5
+      ]
+    ]
+  },
+  {
+    "gse": "GSE116780",
+    "name": "RNA sequencing of CRISPR/Cas9-generated A20 DUB-inative and A20 knock-out U937 cells to elucidate the role of human A20 DUB-domain",
+    "n": 28,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE116780_combined.counts.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "wt#_#",
+        6
+      ],
+      [
+        "wt#_lps_#",
+        6
+      ],
+      [
+        "ko#_lps_#",
+        4
+      ],
+      [
+        "ko#_#",
+        4
+      ],
+      [
+        "ki#_lps_#",
+        3
+      ],
+      [
+        "ki#_#",
+        3
+      ]
+    ]
+  },
+  {
+    "gse": "GSE261245",
+    "name": "IL-10 Targets IRF1/5 to Suppress IFN and Inflammatory Responses by Epigenetic Mechanisms [Cut & Run]",
+    "n": 28,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE261245_CNR_H3K27ac_Normalized_counts.txt.gz",
+      "GSE261245_CNR_IRF1_Normalized_counts.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "cnr_il#_lps_irf#_rep#",
+        3
+      ],
+      [
+        "cnr_rest_irf#_rep#",
+        3
+      ],
+      [
+        "cnr_il#_irf#_rep#",
+        3
+      ],
+      [
+        "cnr_lps_irf#_rep#",
+        3
+      ],
+      [
+        "cnr_rest_h#k#me#_rep#",
+        2
+      ],
+      [
+        "cnr_il#_h#k#ac_rep#",
+        2
+      ]
+    ]
+  },
+  {
+    "gse": "GSE199152",
+    "name": "Next Generation Sequencing Quantitative Analysis of RA-UIP, IPF-UIP, and Non-UIP Patient Lung Biopsy Transcriptomes",
+    "n": 27,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE199152_GeneCount.tsv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "s_#",
+        27
+      ]
+    ]
+  },
+  {
+    "gse": "GSE109448",
+    "name": "RNA-seq analysis of freshly isolated synovial fibroblast subsets from patients with rheumatoid arthritis",
+    "n": 25,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE109448_rnaseq_gene_counts.tsv.gz",
+      "GSE109448_rnaseq_transcript_counts.tsv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "fibroblasts gated by flow cytometry from donor ra# (ra#_cd#l_cd#l_cad#h)",
+        4
+      ],
+      [
+        "fibroblasts gated by flow cytometry from donor ra# (ra#_cd#h_cd#h_cad#h)",
+        4
+      ],
+      [
+        "fibroblasts gated by flow cytometry from donor ra# (ra#_cd#l_cd#l_cad#l)",
+        4
+      ],
+      [
+        "fibroblasts gated by flow cytometry from donor ra# (ra#_cd#l_cd#h_cad#l)",
+        4
+      ],
+      [
+        "fibroblasts gated by flow cytometry from donor ra# (ra#_cd#l_cd#h_cad#h)",
+        4
+      ],
+      [
+        "fibroblasts gated by flow cytometry from donor ra# (ra#_cd#h_cd#h_cad#l)",
+        3
+      ]
+    ]
+  },
+  {
+    "gse": "GSE220264",
+    "name": "Conventional DC1 (cDC1) are Strongly Enriched, Quiescent and Relatively Tolerogenic in Local Inflammatory Arthritis",
+    "n": 25,
+    "n_control": 13,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE220264_AB_raw.counts_rna.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "sorted cdc# hla-dr+ cd#c+ cd#- cd#- cd#c- cd#hi patient #",
+        4
+      ],
+      [
+        "sorted cdc# hla-dr+ cd#c+ cd#- cd#- cd#-/dim cd#c hi patient #",
+        4
+      ],
+      [
+        "sorted intermediate monocytes hla-dr+ cd#c+ cd#+ cd#+ healthy control #",
+        4
+      ],
+      [
+        "sorted monocytes hla-dr+ cd#c+ cd#+ cd#+ patient #",
+        4
+      ],
+      [
+        "sorted classical monocytes hla-dr+ cd#c+ cd#hi cd#- healthy control #",
+        4
+      ],
+      [
+        "sorted cdc# hla-dr+ cd#c+ cd#- cd#- cd#-/dim cd#c hi healthy control #",
+        3
+      ]
+    ]
+  },
+  {
+    "gse": "GSE79702",
+    "name": "USP15 regulates type I interferon response in vivo and is required for pathogenesis of microbial and autoimmune neuroinflammation",
+    "n": 25,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE79702_EAE_samples_cpm_counts.txt.gz",
+      "GSE79702_PbA_B6-d0-d5_vs_USP15-d5_samples_cpm_counts.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "b#_brain_d#_pba_#",
+        6
+      ],
+      [
+        "usp#l#r_brain_d#_pba_#",
+        6
+      ],
+      [
+        "b#_brain_d#_pba_#b",
+        3
+      ],
+      [
+        "trim#-ko_brain_d#_pba_#",
+        3
+      ],
+      [
+        "b#_brain_ni_#",
+        3
+      ],
+      [
+        "b#_spinalcord_d#_eae_#",
+        2
+      ]
+    ]
+  },
+  {
+    "gse": "GSE166535",
+    "name": "Loss of mutual protection between osteoclasts and chondrocytes in damaged joints: effects on osteoclast-mediated cartilage degradation via matrix metalloproteinases",
+    "n": 24,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE166535_final_counts.tsv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "i#-oc-bh-cart_s#",
+        1
+      ],
+      [
+        "i#-oc-bb-no-sub-_s#",
+        1
+      ],
+      [
+        "i#-oc-bf-no-sub-_s#",
+        1
+      ],
+      [
+        "i#-oc-bi-no-sub-_s#",
+        1
+      ],
+      [
+        "i#-oc-be-no-sub-_s#",
+        1
+      ],
+      [
+        "i#-oc-bb-dent_s#",
+        1
+      ]
+    ]
+  },
+  {
+    "gse": "GSE166927",
+    "name": "RNA-sequencing of cytokine-stimulated cultured human fibroblasts",
+    "n": 24,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE166927_featurecounts_counts.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "il#betatnf-#",
+        6
+      ],
+      [
+        "tnf-#",
+        6
+      ],
+      [
+        "unstimulated-#",
+        6
+      ],
+      [
+        "il#beta-#",
+        6
+      ]
+    ]
+  },
+  {
+    "gse": "GSE182572",
+    "name": "TLR7 sensing of SARS-CoV-2 and IFN-I response by plasmacytoid dendritic cells leads to the hyperactivation of macrophages.",
+    "n": 24,
+    "n_control": 4,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE182572_countMatrix.tsv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "resting-#",
+        4
+      ],
+      [
+        "ifn\u00ee\u00b1-#",
+        4
+      ],
+      [
+        "lps-#",
+        4
+      ],
+      [
+        "ifn\u00ee\u00b1-lps-#",
+        4
+      ],
+      [
+        "pdc sup-lps-#",
+        4
+      ],
+      [
+        "pdc sup-#",
+        4
+      ]
+    ]
+  },
+  {
+    "gse": "GSE235868",
+    "name": "Non-coding autoimmune risk variant accelerates T peripheral helper cell development via ICOS",
+    "n": 24,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE235868_TPM_count_matrix.xlsx"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "aa#",
+        8
+      ],
+      [
+        "ac#",
+        8
+      ],
+      [
+        "cc#",
+        8
+      ]
+    ]
+  },
+  {
+    "gse": "GSE253553",
+    "name": "Two Broad Categories Overlapping With Rheumatoid Arthritis Observed in Synovial Biopsies from Patients With Juvenile Idiopathic Arthritis",
+    "n": 24,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE253553_count_matrix_AL.tsv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "rna#",
+        22
+      ],
+      [
+        "#",
+        2
+      ]
+    ]
+  },
+  {
+    "gse": "GSE261244",
+    "name": "IL-10 Targets IRF1/5 to Suppress IFN and Inflammatory Responses by Epigenetic Mechanisms [ATAC-Seq]",
+    "n": 24,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE261244_ATAC_normalized_counts.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "atac_il#_rep#",
+        4
+      ],
+      [
+        "atac_il#+tnf_rep#",
+        4
+      ],
+      [
+        "atac_lps_rep#",
+        4
+      ],
+      [
+        "atac_rest_rep#",
+        4
+      ],
+      [
+        "atac_tnf_rep#",
+        4
+      ],
+      [
+        "atac_il#+lps_rep#",
+        4
+      ]
+    ]
+  },
+  {
+    "gse": "GSE262911",
+    "name": "Interferons and epigenetic mechanisms in training, priming and tolerance of monocytes and hematopoietic progenitors [RNA-seq]",
+    "n": 24,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE262911_RNAseq_Filtered_log2_transformed_Day0_and_Day3_IFNg-Priming_counts.txt.gz",
+      "GSE262911_RNAseq_Raw_counts_Day0_and_Day3_IFNg-Priming_counts.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "ifng_lps_d#_day_#_rna",
+        6
+      ],
+      [
+        "lps_d#_day_#_rna",
+        6
+      ],
+      [
+        "rest_d#_day_#_rna",
+        6
+      ],
+      [
+        "ifng_d#_day_#_rna",
+        6
+      ]
+    ]
+  },
+  {
+    "gse": "GSE272017",
+    "name": "Opposing Regulation of TNF Responses and IL-1b+ Macrophages by PGE2-cAMP Signaling and IFN-g [ATAC-seq]",
+    "n": 24,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE272017_rawcounts_ATAC.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "ifng_p#_rep#",
+        3
+      ],
+      [
+        "t#_rep#",
+        3
+      ],
+      [
+        "c#_rep#",
+        3
+      ],
+      [
+        "ifng_t#_rep#",
+        3
+      ],
+      [
+        "ifng_tp#_rep#",
+        3
+      ],
+      [
+        "p#_rep#",
+        3
+      ]
+    ]
+  },
+  {
+    "gse": "GSE283881",
+    "name": "Differential response of tissue engineered skeletal muscle from rheumatoid arthritis patients and healthy controls",
+    "n": 24,
+    "n_control": 6,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE283881_Counts.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "c#  il-#",
+        3
+      ],
+      [
+        "c# ifn_il-#",
+        3
+      ],
+      [
+        "ra# untreated (nt)",
+        3
+      ],
+      [
+        "c# ifn",
+        3
+      ],
+      [
+        "c# untreated (nt)",
+        3
+      ],
+      [
+        "ra# ifn_il-#",
+        3
+      ]
+    ]
+  },
+  {
+    "gse": "GSE294225",
+    "name": "Transcriptional profiles are dramatically altered in circulating CD14+ monocytes in Rheumatoid Arthritis [RNA-seq]",
+    "n": 24,
+    "n_control": 15,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE294225_RNAseq_RA_Normalised_Counts.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "peripheral blood cd#+ monocyte, healthy control, rep#",
+        15
+      ],
+      [
+        "peripheral blood cd#+ monocyte, rheumatoid arthritis, rep#",
+        9
+      ]
+    ]
+  },
+  {
+    "gse": "GSE299540",
+    "name": "Autoimmunity-associated DIORA1 binds the MRCK family of serine/threonine kinases and controls cell motility",
+    "n": 24,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE299540_AS_CRISPRi_raw_counts.txt.gz",
+      "GSE299540_SH_CRISPRi_raw_counts.txt.gz",
+      "GSE299540_SH_siRNA_raw_counts.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "sk-n-sh, diora#-targetting sirna pool, replicate #",
+        5
+      ],
+      [
+        "sk-n-sh, ntc sirna, replicate #",
+        5
+      ],
+      [
+        "sk-n-as, sgdiora#, crispri, replicate #",
+        4
+      ],
+      [
+        "sk-n-as, sggal# (ntc), crispri, replicate #",
+        4
+      ],
+      [
+        "sk-n-sh, sgdiora#, crispri, replicate #",
+        3
+      ],
+      [
+        "sk-n-sh, sggal# (ntc), crispri, replicate #",
+        3
+      ]
+    ]
+  },
+  {
+    "gse": "GSE133527",
+    "name": "miR-221-3p drives the Shift of M2-Macrophage to a Pro-Inflammatory Function by Modulating JAK3/STAT3 Signaling and is Increased in Rheumatoid Arthritis",
+    "n": 20,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE133527_gene_counts.tsv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "ctrl_#",
+        5
+      ],
+      [
+        "ctrl_lps_#",
+        5
+      ],
+      [
+        "#_lps_#",
+        5
+      ],
+      [
+        "#_#",
+        5
+      ]
+    ]
+  },
+  {
+    "gse": "GSE100531",
+    "name": "Extracellular Vesicles Transfer the Receptor PD-1 in Rheumatoid Arthritis.",
+    "n": 18,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE100531_miRNA_expression_raw_counts.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "patient# sfmc sti",
+        4
+      ],
+      [
+        "hc# pbmc sti",
+        3
+      ],
+      [
+        "patient# pbmc sti",
+        3
+      ],
+      [
+        "patient# sfmc unsti",
+        3
+      ],
+      [
+        "patient# pbmc unsti",
+        3
+      ],
+      [
+        "hc# pbmc unsti",
+        2
+      ]
+    ]
+  },
+  {
+    "gse": "GSE114555",
+    "name": "Altered thymic differentiation and modulation of arthritis by invariant NKT cells expressing mutant ZAP70 [RNA-Seq]",
+    "n": 18,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE114555_All_HTSeq_Counts.tsv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "#_#_#_ww#_n#s#",
+        9
+      ],
+      [
+        "#_#_#_ss#_n#s#",
+        9
+      ]
+    ]
+  },
+  {
+    "gse": "GSE195817",
+    "name": "Dissecting the molecular control of immune cell accumulation in the inflamed joint",
+    "n": 18,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE195817_count_matrix.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "joint_hao_k_#",
+        3
+      ],
+      [
+        "naive_#",
+        3
+      ],
+      [
+        "ear kr_#",
+        3
+      ],
+      [
+        "pln_hao_#",
+        3
+      ],
+      [
+        "pln_pbs_kg_#",
+        3
+      ],
+      [
+        "ln_kr_#",
+        3
+      ]
+    ]
+  },
+  {
+    "gse": "GSE228953",
+    "name": "Molecular reframing of fibroblasts during resolution of arthritis [RNA]",
+    "n": 18,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE228953_normalized_counts.txt.gz",
+      "GSE228953_raw_counts.txt.gz",
+      "GSE228953_rlog_trnasformed_counts.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "synovia of ra patient st#",
+        10
+      ],
+      [
+        "synovia of psa patient st#",
+        8
+      ]
+    ]
+  },
+  {
+    "gse": "GSE314078",
+    "name": "Transcriptional Profiling of Synovial Macrophages using Minimally Invasive Ultrasound-Guided Synovial Biopsies in Rheumatoid Arthritis [dataset1]",
+    "n": 18,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE314078_WT.htseq.counts_GEO.txt.gz",
+      "GSE314078_WT.htseq.fpkms_GEO.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "whole synovial tissue, ra, patient #",
+        9
+      ],
+      [
+        "whole synovial tissue, oa, patient #",
+        9
+      ]
+    ]
+  },
+  {
+    "gse": "GSE195557",
+    "name": "TNFR2 is critical for TNF-induced rheumatoid arthritis fibroblast-like synoviocyte inflammation",
+    "n": 16,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE195557_Raw_counts_matrix.tsv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "st#_sitnfr#_tnf",
+        4
+      ],
+      [
+        "st#_sictrl_ctrl",
+        4
+      ],
+      [
+        "st#_sitnfr#_ctrl",
+        4
+      ],
+      [
+        "st#_sictrl_tnf",
+        4
+      ]
+    ]
+  },
+  {
+    "gse": "GSE209982",
+    "name": "Osteoclast microRNA profiling to capture the erosive factor in rheumatoid arthritis",
+    "n": 16,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE209982_raw_count_matrix_all_samples_arthritis.tsv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "index_#.ne-#",
+        8
+      ],
+      [
+        "index_#.e-#",
+        8
+      ]
+    ]
+  },
+  {
+    "gse": "GSE216688",
+    "name": "Identification of a transcription factor network that regulates anti-TNF mediated IL-10 expression in human CD4+ T-cells",
+    "n": 16,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE216688_PB_CD4plusCD45RAmin_rawcounts_T72.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "pb_cd#pluscd#ramin_d#_t#_noada_atac",
+        4
+      ],
+      [
+        "pb, cd#pluscd#ramin, d#, t#, noada",
+        4
+      ],
+      [
+        "pb_cd#pluscd#ramin_d#_t#_ada_atac",
+        4
+      ],
+      [
+        "pb, cd#pluscd#ramin, d#, t#, ada",
+        4
+      ]
+    ]
+  },
+  {
+    "gse": "GSE233047",
+    "name": "Interferon subverts an AHR-JUN axis to promote CXCL13+ T cells in lupus [JUN AHR modulation]",
+    "n": 16,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE233047_Law_JUN_CnR_AHR_mod_norm_counts.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "cd#_mem_ahrinh_jun_cnr_rep#",
+        4
+      ],
+      [
+        "cd#_mem_tcdd_igg_cnr_rep#",
+        4
+      ],
+      [
+        "cd#_mem_tcdd_jun_cnr_rep#",
+        4
+      ],
+      [
+        "cd#_mem_ahrinh_igg_cnr_rep#",
+        4
+      ]
+    ]
+  },
+  {
+    "gse": "GSE234595",
+    "name": "TH17 cells converted into exTH17 cells sustain rheumatoid-like IL-17\u00e2\u0080\u0093independent inflammatory arthritis",
+    "n": 16,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE234595_raw_counts_all_samples.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "joint th#_sample #",
+        4
+      ],
+      [
+        "joint exth#_sample #",
+        4
+      ],
+      [
+        "lymph nodes th#_sample #",
+        4
+      ],
+      [
+        "lymph nodes exth#_sample #",
+        4
+      ]
+    ]
+  },
+  {
+    "gse": "GSE242753",
+    "name": "Mitochondrial N-formylmethionine instructs tissue-inflammatory CD4+ T cells by redirecting endolysosomal pathways",
+    "n": 16,
+    "n_control": 8,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE242753_gene_count.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "cd#+t cells, ra (atplow)-#,control",
+        4
+      ],
+      [
+        "cd#+t cells, ra (atpint)-#,fmet",
+        4
+      ],
+      [
+        "cd#+t cells, ra (atpint)-#,control",
+        4
+      ],
+      [
+        "cd#+t cells, ra (atplow)-#,csa",
+        4
+      ]
+    ]
+  },
+  {
+    "gse": "GSE145204",
+    "name": "Transcriptional responses to TNF following HFl treatment of primary rheumatoid arthritis fibroblast like synoviocytes (RA-FLS)",
+    "n": 14,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE145204_rawcounts.tsv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "ra-fls_tnf_#_hr [my#]",
+        4
+      ],
+      [
+        "ra-fls_tnf_hf_#_hr [my#]",
+        4
+      ],
+      [
+        "ra-fls_hf_#hr [my#]",
+        2
+      ],
+      [
+        "ra-fls_hf_#_hr [my#]",
+        2
+      ],
+      [
+        "ra-fls_untreated [my#]",
+        2
+      ]
+    ]
+  },
+  {
+    "gse": "GSE180540",
+    "name": "MAFB surrogates the glucocorticoid receptor ability to induce tolerogenesis in dendritic cells [RNA_SEQ]",
+    "n": 12,
+    "n_control": 8,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE180540_counts_table.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "dendritic_cells_sictl_repa (rna-seq)",
+        1
+      ],
+      [
+        "tolerogenic_dendritic_cells_simafb_repa (rna-seq)",
+        1
+      ],
+      [
+        "dendritic_cells_sictl_repb (rna-seq)",
+        1
+      ],
+      [
+        "tolerogenic_dendritic_cells_sictl_repb (rna-seq)",
+        1
+      ],
+      [
+        "dendritic_cells_sictl_repc (rna-seq)",
+        1
+      ],
+      [
+        "tolerogenic_dendritic_cells_sictl_repc (rna-seq)",
+        1
+      ]
+    ]
+  },
+  {
+    "gse": "GSE181889",
+    "name": "Quantitative Analysis of CXCL4 and TLR8 signaling crosstalk in human primary monocytes by RNA-Seq",
+    "n": 12,
+    "n_control": 3,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE181889_Raw_counts_CXCL4_ORN8L_RNA_Seq.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "resting-#",
+        3
+      ],
+      [
+        "cxcl#-#",
+        3
+      ],
+      [
+        "cxcl#+orn#l-#",
+        3
+      ],
+      [
+        "orn#l-#",
+        3
+      ]
+    ]
+  },
+  {
+    "gse": "GSE186166",
+    "name": "Treatment of human polymorphonuclear neutrophils with platelet-derived mitochondria or damage-associated molecular patterns",
+    "n": 12,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE186166_PMNLs_DAMP_Mito_Counts.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "pmn-jlrnaseq-#",
+        4
+      ],
+      [
+        "pmn-damps-jlrnaseq-#",
+        4
+      ],
+      [
+        "pmn-mito-jlrnaseq-#",
+        4
+      ]
+    ]
+  },
+  {
+    "gse": "GSE233045",
+    "name": "Interferon subverts an AHR-JUN axis to promote CXCL13+ T cells in lupus [AHR]",
+    "n": 12,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE233045_LAW_AHR_CnR_AHR_CRISPR_norm_counts.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "cd#_mem_sgahr_igg_cnr_rep#",
+        3
+      ],
+      [
+        "cd#_mem_sgahr_ahr_cnr_rep#",
+        3
+      ],
+      [
+        "cd#_mem_sgnt_igg_cnr_rep#",
+        3
+      ],
+      [
+        "cd#_mem_sgnt_ahr_cnr_rep#",
+        3
+      ]
+    ]
+  },
+  {
+    "gse": "GSE233048",
+    "name": "Interferon subverts an AHR-JUN axis to promote CXCL13+ T cells in lupus [JUN OE]",
+    "n": 12,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE233048_Law_JUN_CnR_JUN_OE_norm_counts.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "cd#_mem_jun_oe_jun_cnr_rep#",
+        3
+      ],
+      [
+        "cd#_mem_control_igg_cnr_rep#",
+        3
+      ],
+      [
+        "cd#_mem_control_jun_cnr_rep#",
+        3
+      ],
+      [
+        "cd#_mem_jun_oe_igg_cnr_rep#",
+        3
+      ]
+    ]
+  },
+  {
+    "gse": "GSE235400",
+    "name": "SIRPa agonist antibody treatment ameliorates experimental arthritis and colitis [sequencing]",
+    "n": 12,
+    "n_control": 4,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE235400_counts.tsv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "joint sample, naive + agp#-#",
+        4
+      ],
+      [
+        "joint sample, kbxn + agp#-#",
+        4
+      ],
+      [
+        "joint sample, kbxn + #f#-#",
+        4
+      ]
+    ]
+  },
+  {
+    "gse": "GSE247226",
+    "name": "BRD3 regulates the inflammatory and stress response in rheu-matoid arthritis synovial fibroblasts",
+    "n": 12,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE247226_BRD3-RNA-seq-counts.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "#brd#_tnf",
+        3
+      ],
+      [
+        "#ctrl_tnf",
+        3
+      ],
+      [
+        "#ctrl",
+        3
+      ],
+      [
+        "#brd#",
+        3
+      ]
+    ]
+  },
+  {
+    "gse": "GSE273760",
+    "name": "Homeostatic signals induce the development of peripheral helper T cells promoted in the pathogenesis of rheumatoid arthritis",
+    "n": 12,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE273760_raw_count.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "sample#",
+        12
+      ]
+    ]
+  },
+  {
+    "gse": "GSE289490",
+    "name": "RNA-seq of RA-FLS(siNC vs siFUNDC1)",
+    "n": 12,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE289490_salmon.merged.gene_counts.tsv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "ra-fls sinc #",
+        6
+      ],
+      [
+        "ra -fls sifundc# #",
+        6
+      ]
+    ]
+  },
+  {
+    "gse": "GSE300831",
+    "name": "RNA-seq of Immortalized RAFLS treated with TNF\u00ce\u00b1 for 24h and DMSO or celastrol derivatives for 4h in human",
+    "n": 12,
+    "n_control": 3,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE300831_counts.matrix.tab.gz",
+      "GSE300831_normalized_counts.csv.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "cel#-#",
+        6
+      ],
+      [
+        "dmso-#",
+        3
+      ],
+      [
+        "cel-#",
+        3
+      ]
+    ]
+  },
+  {
+    "gse": "GSE99006",
+    "name": "Whole transcriptome profile of citrulline-specific B cells from patients with rheumatoid arthritis",
+    "n": 12,
+    "n_control": 0,
+    "n_treatment": 0,
+    "drug_contrast": false,
+    "matrix_files": [
+      "GSE99006_RA_Normalized_counts.txt.gz"
+    ],
+    "diseases": [
+      "rheumatoid arthritis"
+    ],
+    "top_labels": [
+      [
+        "ra#-ccppos",
+        4
+      ],
+      [
+        "ha#pos",
+        4
+      ],
+      [
+        "ra#-ccpneg",
+        4
+      ]
+    ]
+  }
+]

@@ -327,3 +327,61 @@ so neither the GSM accession nor the title matches a column. Matching is layered
 (accession → title → column-name regex) and `DEResult.arm_source` records which one was used.
 Here it fell through to `matrix_columns`, which loses the link back to NDE sample records; that
 is a weaker provenance chain and should be flagged in any result built on it.
+
+---
+
+# Worked example 3 — Route B on three drug-treatment contrasts
+
+Selected on **contrast structure**, not sample count. GSE89408 has 218 samples but contrasts RA
+against healthy, which tests no drug→gene edge. Of 87 profiled raw-counts series, only a handful
+have a genuine drug arm *and* a matched control arm.
+
+| series | contrast | n | design | genes | sig FDR<0.05 |
+|---|---|--:|---|--:|--:|
+| GSE97165 | RA synovium, post vs pre triple DMARD | 19+19 | **paired** | 16,452 | 464 (3%) |
+| GSE148395 | RA fibroblasts, JQ1 vs DMSO | 12+12 | unpaired | 13,840 | 6,546 (**47%**) |
+| GSE141646 | AS whole blood, post vs pre TNF inhibitor | 22+22 | **paired** | 14,089 | 282 (2%) |
+
+## Three pipeline bugs, all found by running only three datasets
+
+1. **Paired designs were analysed unpaired.** GSE97165 and GSE141646 sample the *same patient*
+   before and after treatment; between-patient variation in synovium and whole blood dwarfs the
+   drug effect. Unpaired gave GSE97165 **0/7** markers and GSE141646 **0** significant genes.
+   Paired gives 2/7 and 282. `paired_moderated_ttest` applies the same empirical-Bayes shrinkage
+   to within-subject differences.
+2. **Arm regexes missed separator variants.** GSE148395 columns use both `ST1359_JQ` and
+   `ST1387-JQ`; `r"_JQ"` matched 4 of 12, so the run compared **4 JQ vs 12 DMSO** — unbalanced
+   *and* confounded by the IL-1β sub-arm. `run_de` now warns when arms are ≥2:1 unbalanced.
+3. **Ensembl-indexed matrices silently defeated gene lookup.** Every GSE141646 marker read
+   "not in matrix". Now detected and mapped via MyGene.info (13,256 ids).
+
+## The finding that changes the design
+
+**A generic "expect the drug to decrease the gene" rule is wrong.** For JQ1 the correct
+pharmacodynamic readout is *up*:
+
+| gene | logFC | adj p | |
+|---|--:|--:|---|
+| **HEXIM1** | **+1.77** | 1.8e-14 | canonical BET-inhibitor biomarker — P-TEFb release |
+| **BRD2** | **+1.62** | 1.8e-12 | known compensatory BET upregulation |
+| IL21R | −3.14 | 1.8e-14 | |
+| MMP1 | −1.70 | 4.9e-02 | |
+| MYC | +1.01 | 1.6e-06 | JQ1's MYC suppression is cell-type specific, not universal |
+
+The drug demonstrably worked. The panel scored 1/7 only because the "expect decreased"
+hypothesis was naive. **Direction must come from the Translator edge's own
+`object_direction_qualifier`, per gene** — never from a blanket expectation.
+
+## GSE141646 looks like a technical artifact
+
+Its top hits are *all* small non-coding RNA — SNORD17, SNORA74B, RNU4-2, RNY4, SCARNA1,
+SNORA74D, RNU4-1, SNORA73B. That is a library-prep / RNA-degradation signature, not TNF biology,
+and none of the TNF-pathway markers move. 282 "significant" genes dominated by housekeeping
+non-coding RNA should be treated as a failed run, not a negative result. Worth an automatic
+biotype check before trusting any series.
+
+## Power differs by an order of magnitude
+
+In-vitro drug perturbation: **47%** of genes significant. Clinical pre/post: **2–3%**.
+For testing drug→gene edges, in-vitro perturbation series are the productive substrate;
+clinical pre/post designs are underpowered for anything but the largest effects.
