@@ -1,0 +1,229 @@
+796 paths -> 220 distinct drug->gene edges
+
+ -[1/220] Terbutaline                  -> ADRB1    measured_inactive   act/inact=   0/   1 pChEMBL=None 
+ *[2/220] Terbutaline                  -> ADRB2    mechanism_untyped   act/inact=   5/   0 pChEMBL=5.6 AGONIST
+ *[3/220] Prednisolone                 -> NR3C1    mechanism_untyped   act/inact=  14/   0 pChEMBL=9.28 AGONIST
+ +[4/220] Prednisolone                 -> NR3C2    binding_confirmed   act/inact=  11/   0 pChEMBL=9.54 
+  [5/220] Adrenal Cortex Hormones      -> TNF      no_compound_id      act/inact=   0/   0 pChEMBL=None 
+ *[6/220] Prednisone                   -> NR3C1    mechanism_untyped   act/inact=   8/   7 pChEMBL=7.54 AGONIST
+ +[7/220] Zafirlukast                  -> MAPK1    binding_confirmed   act/inact=   1/   0 pChEMBL=6.27 
+ +[8/220] Zafirlukast                  -> CYSLTR2  binding_confirmed   act/inact=   6/   0 pChEMBL=5.13 
+ *[9/220] Zafirlukast                  -> CYSLTR1  mechanism_untyped   act/inact=  13/   0 pChEMBL=9.59 ANTAGONIST
+ +[10/220] beclomethasone               -> NR3C1    binding_confirmed   act/inact=   5/   1 pChEMBL=8.43 
+ *[11/220] Zileuton                     -> ALOX5    mechanism_untyped   act/inact=  94/   0 pChEMBL=6.82 INHIBITOR
+ +[12/220] Roflumilast                  -> PDE4D    binding_confirmed   act/inact=   1/   0 pChEMBL=9.89 
+ *[13/220] Roflumilast                  -> PDE4B    mechanism_untyped   act/inact=   1/   0 pChEMBL=9.82 INHIBITOR
+ *[14/220] Roflumilast                  -> PDE4A    mechanism_untyped   act/inact=   8/   0 pChEMBL=9.68 INHIBITOR
+  [15/220] Triamcinolone                -> MMP1     not_tested          act/inact=   0/   0 pChEMBL=None 
+  [16/220] Triamcinolone                -> CD1A     no_activity_data    act/inact=   0/   0 pChEMBL=None 
+ *[17/220] Triamcinolone                -> NR3C1    mechanism_untyped   act/inact=   8/   1 pChEMBL=8.04 AGONIST
+  [18/220] Mepolizumab                  -> IL5RA    not_tested          act/inact=   0/   0 pChEMBL=None 
+ *[19/220] Mepolizumab                  -> IL5      mechanism_untyped   act/inact=   0/   0 pChEMBL=None INHIBITOR
+ *[20/220] Aspirin                      -> PTGS2    mechanism_untyped   act/inact=  10/   2 pChEMBL=5.62 INHIBITOR
+ +[21/220] Aspirin                      -> PTGS1    binding_confirmed   act/inact=   2/   0 pChEMBL=6.46 
+  [22/220] Aspirin                      -> TGFB1    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [23/220] Aspirin                      -> DDIT3    not_tested          act/inact=   0/   0 pChEMBL=None 
+ *[24/220] Dupilumab                    -> IL4R     mechanism_untyped   act/inact=   0/   0 pChEMBL=None ANTAGONIST
+ *[25/220] Betamethasone                -> NR3C1    mechanism_untyped   act/inact=   6/   1 pChEMBL=8.45 AGONIST
+ +[26/220] Tranilast                    -> HPGDS    binding_confirmed   act/inact=   0/   1 pChEMBL=4.94 
+  [27/220] Tranilast                    -> TGFB1    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [28/220] Tranilast                    -> HRH1     not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[29/220] Ketotifen                    -> CYP2D6   binding_confirmed   act/inact=   9/   0 pChEMBL=5.5 
+ *[30/220] Ketotifen                    -> HRH1     mechanism_untyped   act/inact=   5/   0 pChEMBL=9.86 ANTAGONIST
+ *[31/220] Flunisolide                  -> NR3C1    mechanism_untyped   act/inact=   3/   0 pChEMBL=8.62 AGONIST
+ *[32/220] Tulobuterol                  -> ADRB2    mechanism_untyped   act/inact=   2/   1 pChEMBL=6.29 AGONIST
+ +[33/220] Troleandomycin               -> CYP3A4   binding_confirmed   act/inact=   2/   0 pChEMBL=5.1 
+  [34/220] Troleandomycin               -> CYP2D6   not_tested          act/inact=   0/   0 pChEMBL=None 
+  [35/220] Troleandomycin               -> CYP1A2   not_tested          act/inact=   0/   0 pChEMBL=None 
+ *[36/220] Bambuterol                   -> ADRB2    mechanism_untyped   act/inact=   1/   2 pChEMBL=5.01 AGONIST
+ +[37/220] Bambuterol                   -> BCHE     binding_confirmed   act/inact=   5/   0 pChEMBL=8.52 
+  [38/220] Pemirolast                   -> HRH1     not_tested          act/inact=   0/   0 pChEMBL=None 
+  [39/220] P [Preparations]             -> PROC     no_compound_id      act/inact=   0/   0 pChEMBL=None 
+ +[40/220] Budesonide                   -> CYP3A4   binding_confirmed   act/inact=   5/   1 pChEMBL=5.1 
+  [41/220] Budesonide                   -> CRHR1    not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[42/220] Budesonide                   -> NR1I2    binding_confirmed   act/inact=   2/   0 pChEMBL=None 
+  [43/220] Budesonide                   -> EDN1     no_activity_data    act/inact=   0/   0 pChEMBL=None 
+ +[44/220] Budesonide                   -> PGR      binding_confirmed   act/inact=   7/   1 pChEMBL=8.05 
+ +[45/220] Budesonide                   -> NR3C2    binding_confirmed   act/inact=   3/   0 pChEMBL=8.32 
+ -[46/220] Budesonide                   -> CYP1A2   measured_inactive   act/inact=   0/   4 pChEMBL=None 
+  [47/220] Budesonide                   -> ANXA1    not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[48/220] Budesonide                   -> CYP2C19  binding_confirmed   act/inact=   2/   2 pChEMBL=None 
+ +[49/220] Budesonide                   -> CYP2C9   binding_confirmed   act/inact=   5/   0 pChEMBL=None 
+ +[50/220] Formoterol                   -> ADRB1    binding_confirmed   act/inact=   9/   0 pChEMBL=7.9 
+ +[51/220] Formoterol                   -> CYP2C19  binding_confirmed   act/inact=   0/   0 pChEMBL=5.2 
+  [52/220] glucocorticoid               -> TNF      no_compound_id      act/inact=   0/   0 pChEMBL=None 
+  [53/220] glucocorticoid               -> TSC22D3  no_compound_id      act/inact=   0/   0 pChEMBL=None 
+  [54/220] glucocorticoid               -> TGFB1    no_compound_id      act/inact=   0/   0 pChEMBL=None 
+  [55/220] Oxtriphylline                -> ADORA2A  not_tested          act/inact=   0/   0 pChEMBL=None 
+  [56/220] Oxtriphylline                -> ADORA1   not_tested          act/inact=   0/   0 pChEMBL=None 
+ *[57/220] Oxtriphylline                -> PDE4A    mechanism_untyped   act/inact=   0/   0 pChEMBL=None INHIBITOR
+ +[58/220] Terfenadine                  -> THPO     binding_confirmed   act/inact=   1/   0 pChEMBL=5.6 
+ *[59/220] Terfenadine                  -> HRH1     mechanism_untyped   act/inact=   5/   0 pChEMBL=9.0 ANTAGONIST
+  [60/220] Terfenadine                  -> CD86     not_tested          act/inact=   0/   0 pChEMBL=None 
+ *[61/220] Oxatomide                    -> HRH1     mechanism_untyped   act/inact=   2/   0 pChEMBL=7.47 ANTAGONIST
+  [62/220] Pseudoephedrine              -> ADRB2    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [63/220] Pseudoephedrine              -> ADRB1    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [64/220] Pseudoephedrine              -> DRD2     not_tested          act/inact=   0/   0 pChEMBL=None 
+ *[65/220] Desonide                     -> NR3C1    mechanism_untyped   act/inact=   3/   0 pChEMBL=7.8 AGONIST
+ +[66/220] 4-[2-(3,5-Dimethoxyphenyl)et -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=7.4 
+ +[67/220] L-βγ-meATP                   -> P2RX3    binding_confirmed   act/inact=   1/   0 pChEMBL=5.04 
+ +[68/220] A317491                      -> P2RX3    binding_confirmed   act/inact=   5/   0 pChEMBL=7.66 
+ +[69/220] (7S)-3-[2-(2,5-dimethoxyphen -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=7.68 
+ +[70/220] PPADS                        -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=6.62 
+ +[71/220] 4-[2-(2,5-dimethoxyphenyl)et -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=7.7 
+ +[72/220] 2-[1-[(4-Chlorophenyl)methyl -> P2RX3    binding_confirmed   act/inact=   1/   0 pChEMBL=6.82 
+ +[73/220] H-D-Phe-His-Leu-Leu-Arg-Glu- -> CRHR2    binding_confirmed   act/inact=   1/   0 pChEMBL=8.3 
+ +[74/220] Ac-Asp-Leu-Ser-D-Phe-His-aMe -> CRHR2    binding_confirmed   act/inact=   1/   0 pChEMBL=7.75 
+ +[75/220] Ac-Asp-Leu-Ser-D-Phe-His-aMe -> CRHR2    binding_confirmed   act/inact=   1/   0 pChEMBL=9.04 
+ +[76/220] Ac-Asp-Leu-Ser-D-Phe-His-D-a -> CRHR2    binding_confirmed   act/inact=   1/   0 pChEMBL=9.21 
+ +[77/220] 11-Acetyl-4-[2-(2,5-dimethox -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=6.85 
+ +[78/220] alpha,beta-Methyleneadenosin -> P2RX3    binding_confirmed   act/inact=   1/   0 pChEMBL=6.13 
+ +[79/220] Bafilomycin A1               -> P2RX3    binding_confirmed   act/inact=   1/   0 pChEMBL=6.12 
+ +[80/220] 3'-[2-(3,5-dimethoxyphenyl)e -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=7.19 
+ +[81/220] 4-[2-(3,5-Dimethoxyphenyl)et -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=7.26 
+ +[82/220] 4-[2-(2,5-Dimethoxyphenyl)et -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=7.46 
+  [83/220] Sorafenib                    -> ATG5     no_activity_data    act/inact=   0/   0 pChEMBL=None 
+  [84/220] corticotrophin-releasing hor -> CRHR2    no_compound_id      act/inact=   0/   0 pChEMBL=None 
+ +[85/220] RO3                          -> P2RX3    binding_confirmed   act/inact=   2/   0 pChEMBL=None 
+ +[86/220] 5-cyclohexyl-3-hydroxy-4-(4- -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=7.14 
+ +[87/220] 4-(2-cyclohexyl-4-hydroxy-1- -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=6.69 
+  [88/220] Phorbol 12-myristate 13-acet -> GATA1    no_activity_data    act/inact=   0/   0 pChEMBL=None 
+ +[89/220] 1-[(4-Chlorophenyl)methyl]-3 -> P2RX3    binding_confirmed   act/inact=   1/   0 pChEMBL=6.83 
+ +[90/220] [4-[[3-[1-[4-Chloro-3-(trifl -> P2RX3    binding_confirmed   act/inact=   1/   0 pChEMBL=6.22 
+ +[91/220] 4-[2-(2-Methoxyphenyl)ethyl] -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=6.14 
+ +[92/220] 1,n6-Ethenoadenosine 5'-trip -> P2RX3    binding_confirmed   act/inact=   2/   0 pChEMBL=6.0 
+ +[93/220] [[(3aR,4R,6R,6aR)-4-(6-amino -> P2RX3    binding_confirmed   act/inact=   2/   0 pChEMBL=7.75 
+ +[94/220] ethyl 4-[3-(2,2-dimethylprop -> P2RX3    binding_confirmed   act/inact=   1/   0 pChEMBL=6.58 
+ +[95/220] 3-[3-[2-(2,5-Dimethoxyphenyl -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=7.35 
+ +[96/220] 11-(4-Fluorophenyl)sulfonyl- -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=6.08 
+ +[97/220] (4E)-4-[hydroxy-(4-methoxyph -> P2RX3    binding_confirmed   act/inact=   1/   0 pChEMBL=None 
+ +[98/220] 4-[2-(3,5-Dimethoxyphenyl)et -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=7.82 
+ +[99/220] AF-906                       -> P2RX3    binding_confirmed   act/inact=   5/   0 pChEMBL=8.2 
+  [100/220] astressin 2B                 -> CRHR2    not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[101/220] (4Z)-4-[hydroxy-(4-methoxyph -> P2RX3    binding_confirmed   act/inact=   1/   0 pChEMBL=None 
+ +[102/220] 2-(4-acetylpiperazin-1-yl)-4 -> P2RX3    binding_confirmed   act/inact=   1/   0 pChEMBL=6.36 
+ +[103/220] ATPGAMMAS                    -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=6.16 
+ +[104/220] 3-hydroxy-1-(4-(isoxazol-3-y -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=6.85 
+  [105/220] DDE                          -> PPARGC1A not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[106/220] [(1R)-3-(3,4-dimethoxyphenyl -> FKBP4    binding_confirmed   act/inact=   1/   0 pChEMBL=5.55 
+ +[107/220] 1-(5-chlorothiophen-2-yl)-6- -> P2RX3    binding_confirmed   act/inact=   1/   0 pChEMBL=6.84 
+ +[108/220] (2S)-3-[3-[(4-chlorophenyl)m -> P2RX3    binding_confirmed   act/inact=   1/   0 pChEMBL=7.51 
+ +[109/220] TNP-ATP                      -> P2RX3    binding_confirmed   act/inact=   1/   0 pChEMBL=None 
+ +[110/220] 2-[2-[2-(2,5-Dimethoxyphenyl -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=7.72 
+ +[111/220] Tert-butyl 4-[2-(2-fluorophe -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=5.3 
+ +[112/220] 2-[3-[(1R)-1-[(2S)-1-(3-cyan -> FKBP4    binding_confirmed   act/inact=   0/   0 pChEMBL=4.16 
+ +[113/220] 2-[3-[(1R)-1-[(2S)-1-(1,3-be -> FKBP4    binding_confirmed   act/inact=   0/   0 pChEMBL=4.49 
+ +[114/220] {3-[(1r)-3-(3,4-Dimethoxyphe -> FKBP4    binding_confirmed   act/inact=   2/   0 pChEMBL=5.38 
+ +[115/220] Tert-butyl 4-[2-(2,3-dimetho -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=5.62 
+ +[116/220] Suramin                      -> P2RX3    binding_confirmed   act/inact=   2/   0 pChEMBL=5.52 
+ +[117/220] 2-(1-adamantyl)-N-[2-(4-meth -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=5.52 
+  [118/220] [125I]urocortin 1 (mouse, ra -> CRHR2    no_compound_id      act/inact=   0/   0 pChEMBL=None 
+ +[119/220] 2-(3,4-dimethoxyphenoxy)ethy -> FKBP4    binding_confirmed   act/inact=   0/   0 pChEMBL=4.93 
+ +[120/220] 4-[2-(2,5-dimethoxyphenyl)pr -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=5.85 
+ +[121/220] (2S)-3-[3-[(4-chlorophenyl)m -> P2RX3    binding_confirmed   act/inact=   1/   0 pChEMBL=8.25 
+  [122/220] (2S)-1-[2-[[(2S)-2-[[(2S)-2- -> FKBP4    not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[123/220] DISODIUM 4,4'-DIISOTHIOCYANA -> P2RX3    binding_confirmed   act/inact=   1/   0 pChEMBL=6.0 
+  [124/220] Aclarubicin                  -> GATA1    no_activity_data    act/inact=   0/   0 pChEMBL=None 
+  [125/220] H-Ser-Gln-D-Glu-D-Pro-Pro-Il -> CRHR2    not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[126/220] 3-tert-butyl-5-(4-(isoxazol- -> P2RX3    binding_confirmed   act/inact=   1/   0 pChEMBL=7.0 
+ +[127/220] 11-(2-Aminoacetyl)-4-[2-(3,5 -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=5.85 
+ *[128/220] Capsaicin                    -> TRPV1    mechanism_untyped   act/inact=  29/   3 pChEMBL=8.6 OPENER
+ +[129/220] Capsaicin                    -> MAPK1    binding_confirmed   act/inact=   0/   2 pChEMBL=4.5 
+ +[130/220] 5-(4-fluorophenyl)-3-hydroxy -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=6.44 
+ +[131/220] 4-(2-cyclohexyl-4-hydroxy-1- -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=7.96 
+ +[132/220] 4-[2-(3,5-Dimethoxyphenyl)et -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=7.4 
+ +[133/220] (S)-((R)-3-(3,4-dimethoxyphe -> FKBP4    binding_confirmed   act/inact=   1/   0 pChEMBL=6.05 
+ +[134/220] 2-[3-[(1R)-3-(3,4-dimethoxyp -> FKBP4    binding_confirmed   act/inact=   1/   0 pChEMBL=5.58 
+ +[135/220] 4-[2-(3,5-Dimethoxyphenyl)et -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=6.19 
+ +[136/220] {5-[(Cyclopropylmethyl-propy -> CRHR2    binding_confirmed   act/inact=   2/   0 pChEMBL=7.38 
+ +[137/220] [4-[3-[1-[4-(Dimethylamino)b -> P2RX3    binding_confirmed   act/inact=   1/   0 pChEMBL=6.04 
+ +[138/220] (2S)-3-[3-[(4-chlorophenyl)m -> P2RX3    binding_confirmed   act/inact=   1/   0 pChEMBL=8.51 
+ +[139/220] Ac-Asp-Leu-Ser-D-Phe-His-aMe -> CRHR2    binding_confirmed   act/inact=   1/   0 pChEMBL=9.14 
+ +[140/220] 3-(5-Chloropyridin-2-yl)-5-( -> P2RX3    binding_confirmed   act/inact=   2/   0 pChEMBL=7.75 
+ +[141/220] 4-[1-(2,5-dimethoxyphenyl)pr -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=5.48 
+ +[142/220] 2-(4-acetylpiperazin-1-yl)-6 -> P2RX3    binding_confirmed   act/inact=   1/   0 pChEMBL=7.19 
+ +[143/220] 4-[2-(2,6-dimethoxy-5-methyl -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=5.12 
+ +[144/220] 2-[3-[2-(2,5-Dimethoxyphenyl -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=6.72 
+ +[145/220] 2-[3-[(1R)-1-[(2S)-1-(3,5-di -> FKBP4    binding_confirmed   act/inact=   0/   0 pChEMBL=4.69 
+ +[146/220] N,N-dimethyl-3-oxo-4-[2-[2-( -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=6.75 
+ +[147/220] 11-(Benzenesulfonyl)-4-[2-(2 -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=6.09 
+ +[148/220] 2-[2-[2-(2,5-Dimethoxyphenyl -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=7.19 
+  [149/220] 8-Azidoadenosine 5'-triphosp -> P2RX3    not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[150/220] 1-(5-Chlorothiophen-2-yl)-6- -> P2RX3    binding_confirmed   act/inact=   1/   0 pChEMBL=6.84 
+ +[151/220] Tert-butyl 4-[2-(2,4-dimetho -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=6.24 
+ +[152/220] N-[4-[3-[2-(2,5-dimethoxyphe -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=8.3 
+ +[153/220] 2-[3-[2-(3,5-Dimethoxyphenyl -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=6.89 
+ +[154/220] 4-[2-(3,6-dichloro-2-fluorop -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=6.42 
+ +[155/220] Ac-D-Phe-His-aMeLeu-Leu-Arg- -> CRHR2    binding_confirmed   act/inact=   1/   0 pChEMBL=8.72 
+  [156/220] mono(2-ethylhexyl) phthalate -> PPARGC1A not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[157/220] CID 73356174                 -> CRHR2    binding_confirmed   act/inact=   1/   0 pChEMBL=8.92 
+ +[158/220] (3aR,4R,7S,7aS)-7-ethyl 2,4- -> DNTT     binding_confirmed   act/inact=   0/   0 pChEMBL=4.4 
+ +[159/220] 3-((5E)-5-{[3-(4-ethoxy-3-me -> P2RX3    binding_confirmed   act/inact=   1/   0 pChEMBL=5.07 
+ +[160/220] BAY-1797                     -> P2RX3    binding_confirmed   act/inact=   2/   0 pChEMBL=5.08 
+ +[161/220] H-D-Phe-His-Leu-Leu-Arg-Glu- -> CRHR2    binding_confirmed   act/inact=   1/   0 pChEMBL=7.22 
+ +[162/220] 4-[2-(2-Methoxyphenyl)ethyl] -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=5.68 
+ +[163/220] 2-[3-[2-(3,5-dimethoxyphenyl -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=7.02 
+ +[164/220] 4-[2-(3,5-Dimethoxyphenyl)et -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=5.89 
+ +[165/220] untenone A                   -> DNTT     binding_confirmed   act/inact=   0/   0 pChEMBL=4.8 
+  [166/220] N-methyl-N'-nitro-N-nitrosog -> YY1      no_activity_data    act/inact=   0/   0 pChEMBL=None 
+ +[167/220] Tert-butyl 4-[2-(3,4-dimetho -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=5.43 
+ +[168/220] Tert-butyl 3-oxo-4-(2-phenyl -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=5.0 
+ +[169/220] 5-[(3-chlorophenoxy)methyl]- -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=4.96 
+ +[170/220] 2-[3-[(1R)-3-(3,4-dimethoxyp -> FKBP4    binding_confirmed   act/inact=   0/   0 pChEMBL=4.07 
+ +[171/220] 2'-fluoro-2'-deoxyadenosine  -> P2RX3    binding_confirmed   act/inact=   1/   0 pChEMBL=4.98 
+ +[172/220] ethyl 4-[4-hydroxy-3-[(4-met -> P2RX3    binding_confirmed   act/inact=   1/   0 pChEMBL=5.86 
+  [173/220] Rifampicin                   -> PPARGC1A not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[174/220] 2-(4-acetylpiperazin-1-yl)-4 -> P2RX3    binding_confirmed   act/inact=   1/   0 pChEMBL=6.21 
+ +[175/220] 5-cyclohexyl-3-hydroxy-1-(4- -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=7.36 
+  [176/220] Cyclic AMP                   -> PPARGC1A not_tested          act/inact=   0/   0 pChEMBL=None 
+  [177/220] INTERFERON ALFA-2A           -> IFNAR1   not_tested          act/inact=   0/   0 pChEMBL=None 
+ *[178/220] INTERFERON ALFA-2A           -> IFNAR2   mechanism_untyped   act/inact=   0/   0 pChEMBL=None AGONIST
+ +[179/220] 11-(2,2-Difluoropropanoyl)-4 -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=7.82 
+ +[180/220] 11-(2-Amino-2-methylpropanoy -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=6.19 
+  [181/220] Tabalumab                    -> TNFSF13B no_compound_id      act/inact=   0/   0 pChEMBL=None 
+  [182/220] Camrelizumab                 -> PDCD1    no_compound_id      act/inact=   0/   0 pChEMBL=None 
+ *[183/220] Tildrakizumab                -> IL12B    mechanism_untyped   act/inact=   0/   0 pChEMBL=None INHIBITOR
+  [184/220] Tovetumab                    -> PDGFRA   no_compound_id      act/inact=   0/   0 pChEMBL=None 
+  [185/220] Vanucizumab                  -> VEGFA    no_compound_id      act/inact=   0/   0 pChEMBL=None 
+  [186/220] RI 624                       -> NGF      no_compound_id      act/inact=   0/   0 pChEMBL=None 
+  [187/220] Galcanezumab                 -> CALCA    not_tested          act/inact=   0/   0 pChEMBL=None 
+ *[188/220] Ustekinumab                  -> IL12B    mechanism_untyped   act/inact=   0/   0 pChEMBL=None INHIBITOR
+  [189/220] Clazakizumab                 -> IL6      no_compound_id      act/inact=   0/   0 pChEMBL=None 
+ *[190/220] Benralizumab                 -> IL5RA    mechanism_untyped   act/inact=   0/   0 pChEMBL=None INHIBITOR
+  [191/220] Omalizumab                   -> FCER1A   not_tested          act/inact=   0/   0 pChEMBL=None 
+ *[192/220] Infliximab                   -> TNF      mechanism_untyped   act/inact=   0/   0 pChEMBL=None INHIBITOR
+  [193/220] Depatuxizumab                -> EGFR     no_compound_id      act/inact=   0/   0 pChEMBL=None 
+  [194/220] Tezepelumab                  -> TSLP     not_tested          act/inact=   0/   0 pChEMBL=None 
+  [195/220] INTERFERON GAMMA-1B          -> IFNGR1   no_activity_data    act/inact=   0/   0 pChEMBL=None 
+ +[196/220] Tert-butyl 4-[3-(2-methoxyph -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=5.12 
+ +[197/220] Brinzolamide                 -> CA4      binding_confirmed   act/inact=   5/   0 pChEMBL=7.34 
+ +[198/220] Brinzolamide                 -> CA1      binding_confirmed   act/inact=  13/   1 pChEMBL=8.52 
+ +[199/220] 2-[3-[(1R)-1-[(2S)-1-(4-acet -> FKBP4    binding_confirmed   act/inact=   0/   0 pChEMBL=4.69 
+ *[200/220] Epinephrine                  -> ADRB1    mechanism_untyped   act/inact=   4/   1 pChEMBL=6.54 AGONIST
+ +[201/220] epinine                      -> TP53     binding_confirmed   act/inact=   1/   3 pChEMBL=5.0 
+  [202/220] Testosterone cypionate       -> NR3C2    not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[203/220] 3-[2-(2,5-dimethoxyphenyl)et -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=5.13 
+ +[204/220] Piribedil                    -> CYP3A4   binding_confirmed   act/inact=   8/   3 pChEMBL=5.5 
+ +[205/220] Piribedil                    -> DRD2     binding_confirmed   act/inact=   4/   4 pChEMBL=5.26 
+ +[206/220] Piribedil                    -> ADRA2A   binding_confirmed   act/inact=   2/   0 pChEMBL=7.23 
+ +[207/220] Piribedil                    -> DRD3     binding_confirmed   act/inact=   4/   0 pChEMBL=5.15 
+ +[208/220] Piribedil                    -> HTR1A    binding_confirmed   act/inact=   2/   0 pChEMBL=4.7 
+ +[209/220] Tert-butyl 4-[2-(3,5-dimetho -> P2RX3    binding_confirmed   act/inact=   0/   0 pChEMBL=6.41 
+  [210/220] Dipyrithione                 -> PTGS2    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [211/220] Dipyrithione                 -> NOS2     not_tested          act/inact=   0/   0 pChEMBL=None 
+  [212/220] Troglitazone                 -> PPARGC1A not_tested          act/inact=   0/   0 pChEMBL=None 
+  [213/220] Tanezumab                    -> NGF      no_compound_id      act/inact=   0/   0 pChEMBL=None 
+  [214/220] Gevokizumab                  -> IL1B     no_compound_id      act/inact=   0/   0 pChEMBL=None 
+  [215/220] Apomab                       -> TNFRSF10B no_compound_id      act/inact=   0/   0 pChEMBL=None 
+  [216/220] Xentuzumab                   -> IGF1     no_compound_id      act/inact=   0/   0 pChEMBL=None 
+  [217/220] Eldelumab                    -> CXCL10   no_compound_id      act/inact=   0/   0 pChEMBL=None 
+  [218/220] Pseudoephedrine              -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [219/220] Antibodies                   -> TNF      no_compound_id      act/inact=   0/   0 pChEMBL=None 
+  [220/220] INTERFERON GAMMA-1B          -> IFNGR2   no_activity_data    act/inact=   0/   0 pChEMBL=None 
+
+--- 220 edges evaluated in 399s ---
+verdicts: {'binding_confirmed': 129, 'not_tested': 34, 'mechanism_untyped': 27, 'no_compound_id': 20, 'no_activity_data': 8, 'measured_inactive': 2}
+edges with ANY activity information: 192/220 (87%)
+edges with a measured compound-target result: 131/220 (60%)
+edges carrying an asserted direction: 116  of which curated-mechanism-scored: 0
+wrote data/ars/5b656c0f-b7da-4db4-ba1f-d3a794b422d4/route_d.json

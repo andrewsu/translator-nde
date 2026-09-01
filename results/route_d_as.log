@@ -1,0 +1,246 @@
+498 paths -> 237 distinct drug->gene edges
+
+  [1/237] Methylprednisolone           -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+ *[2/237] Infliximab                   -> TNF      mechanism_untyped   act/inact=   0/   0 pChEMBL=None INHIBITOR
+  [3/237] Infliximab                   -> TNFRSF1A not_tested          act/inact=   0/   0 pChEMBL=None 
+  [4/237] Infliximab                   -> IL1B     not_tested          act/inact=   0/   0 pChEMBL=None 
+  [5/237] Infliximab                   -> IL12B    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [6/237] Infliximab                   -> FCGR2A   not_tested          act/inact=   0/   0 pChEMBL=None 
+  [7/237] Infliximab                   -> TLR4     not_tested          act/inact=   0/   0 pChEMBL=None 
+  [8/237] Adrenal Cortex Hormones      -> TNF      no_compound_id      act/inact=   0/   0 pChEMBL=None 
+  [9/237] glucocorticoid               -> TNF      no_compound_id      act/inact=   0/   0 pChEMBL=None 
+  [10/237] Celecoxib                    -> STAT3    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [11/237] Methotrexate                 -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [12/237] Pyridoxine                   -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+ -[13/237] Propylthiouracil             -> TNF      measured_inactive   act/inact=   0/   1 pChEMBL=None 
+  [14/237] Propylthiouracil             -> IL2RA    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [15/237] Methimazole                  -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [16/237] Methimazole                  -> IL2RA    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [17/237] Polymyxin B                  -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+ -[18/237] Pyrazinamide                 -> TNF      measured_inactive   act/inact=   0/   1 pChEMBL=None 
+  [19/237] Nitric Oxide                 -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [20/237] Nitric Oxide                 -> TLR4     not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[21/237] Amphotericin B               -> TNF      binding_confirmed   act/inact=   1/   0 pChEMBL=None 
+  [22/237] Bevacizumab                  -> FCGR2A   not_tested          act/inact=   0/   0 pChEMBL=None 
+ *[23/237] Tildrakizumab                -> IL12B    mechanism_untyped   act/inact=   0/   0 pChEMBL=None INHIBITOR
+  [24/237] Gevokizumab                  -> IL1B     no_compound_id      act/inact=   0/   0 pChEMBL=None 
+  [25/237] Interleukin-17               -> TNF      no_compound_id      act/inact=   0/   0 pChEMBL=None 
+  [26/237] Interleukin-17               -> STAT3    no_compound_id      act/inact=   0/   0 pChEMBL=None 
+ *[27/237] Ustekinumab                  -> IL12B    mechanism_untyped   act/inact=   0/   0 pChEMBL=None INHIBITOR
+  [28/237] Anti-Inflammatory Agents, No -> TNF      no_compound_id      act/inact=   0/   0 pChEMBL=None 
+  [29/237] Dinoprostone                 -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [30/237] Cyclic AMP                   -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [31/237] Tenamfetamine                -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [32/237] Leucovorin                   -> RUNX3    no_activity_data    act/inact=   0/   0 pChEMBL=None 
+  [33/237] dexamethasone sodium phospha -> MMP3     not_tested          act/inact=   0/   0 pChEMBL=None 
+  [34/237] Doconexent                   -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[35/237] 2-[(2R)-2-(butanoylamino)-3- -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=8.79 
+ +[36/237] (2S)-2-[[(2S)-5-amino-2-[[(2 -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=8.35 
+ +[37/237] (2Z)-2-[(2E,4E)-5-[1-[6-[2-[ -> TLR2     binding_confirmed   act/inact=   0/   0 pChEMBL=7.96 
+ +[38/237] Berkeleyamide D              -> MMP3     binding_confirmed   act/inact=   0/   0 pChEMBL=6.21 
+ +[39/237] (2S)-2-[[(2S)-5-amino-2-[[(2 -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=9.42 
+ +[40/237] Dodecanoic acid 3-{(S)-2-hex -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=6.64 
+ +[41/237] (2S,5S,8R,11S,14S,17S,20S,23 -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=9.42 
+  [42/237] 1-[6-[2-[3-[3-[3-[2-[2-[3-[[ -> TLR2     not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[43/237] (2S)-2-[[(2R)-2-amino-3-[(2R -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=8.49 
+ +[44/237] (2S)-2-[[(2R)-2-amino-3-[(2R -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=8.71 
+ +[45/237] UK-356618                    -> MMP3     binding_confirmed   act/inact=   1/   0 pChEMBL=8.23 
+ +[46/237] (2S)-6-amino-2-(benzylamino) -> TLR2     binding_confirmed   act/inact=   0/   0 pChEMBL=4.86 
+ +[47/237] (2S)-6-amino-2-[[(2S)-6-amin -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=5.12 
+ +[48/237] propyl 2-(naphthalen-1-ylcar -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=6.09 
+  [49/237] 91900533                     -> TLR2     not_tested          act/inact=   0/   0 pChEMBL=None 
+  [50/237] Zymosan                      -> C3       no_compound_id      act/inact=   0/   0 pChEMBL=None 
+  [51/237] AZM551248                    -> MMP3     no_compound_id      act/inact=   0/   0 pChEMBL=None 
+ +[52/237] (2S)-2-[[(2S)-5-amino-2-[[(2 -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=9.52 
+  [53/237] Doxorubicin                  -> C3       not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[54/237] Methyl 2-[[4-(trifluoromethy -> TLR2     binding_confirmed   act/inact=   0/   0 pChEMBL=4.47 
+ +[55/237] N-[2,3-bis[(9Z,12Z)-octadeca -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=5.48 
+ +[56/237] Ac-I[CVWQDWGHHRC]T-NH2       -> C3       binding_confirmed   act/inact=   0/   0 pChEMBL=5.16 
+ +[57/237] Ac-I[CV(Bpa)QDWGAHRC]T-NH2   -> C3       binding_confirmed   act/inact=   0/   0 pChEMBL=6.22 
+ +[58/237] Ac-I[CV(Bta)QDWGAHRC]T-NH2   -> C3       binding_confirmed   act/inact=   0/   0 pChEMBL=6.1 
+ +[59/237] Ac-I[CVFQDWGHHRC]T-NH2       -> C3       binding_confirmed   act/inact=   0/   0 pChEMBL=5.22 
+ +[60/237] (2S)-6-amino-2-[[(2S)-6-amin -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=5.71 
+ +[61/237] (2S)-2-[[(2R)-2-amino-3-[(2R -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=8.19 
+  [62/237] 2-[[4-[[(2S)-2-methyl-4-oxo- -> TLR2     not_tested          act/inact=   0/   0 pChEMBL=None 
+  [63/237] 1-(tert-butylamino)-3-[[2-(2 -> TLR2     not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[64/237] N-[(6-aminopyridin-3-yl)meth -> TLR2     binding_confirmed   act/inact=   0/   0 pChEMBL=6.5 
+ +[65/237] methyl 2-(naphthalen-1-ylcar -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=5.45 
+ +[66/237] 3-Benzyloxy-trans-beta-nitro -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=5.48 
+  [67/237] 91900594                     -> TLR2     not_tested          act/inact=   0/   0 pChEMBL=None 
+  [68/237] 91900596                     -> TLR2     not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[69/237] (2S)-6-amino-2-[[(2S)-6-amin -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=5.32 
+  [70/237] 5-(5,6-dimethoxy-2,3-dihydro -> TLR2     not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[71/237] 2-[(2R)-3-[[(2S)-3-hydroxy-1 -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=8.42 
+ +[72/237] Propan-2-yl 6-methyl-2-(naph -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=5.77 
+ +[73/237] (2S)-2-[[(2S)-5-amino-2-[[(2 -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=6.79 
+ +[74/237] 1-Cyclopropylmethoxy-3-((E)- -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=5.62 
+  [75/237] N-[4-(1H-imidazol-5-yl)pheny -> TLR2     not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[76/237] Ethyl 2-(naphthalen-1-ylcarb -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=5.23 
+  [77/237] doxycycline hyclate          -> MMP3     not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[78/237] (2S)-6-amino-2-[[(2S)-6-amin -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=5.77 
+ +[79/237] 1-(cyclohexylmethoxy)-3-[(E) -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=5.47 
+  [80/237] Magnesium chloride           -> C3       not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[81/237] Propan-2-yl 2-(naphthalen-1- -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=6.85 
+ +[82/237] 2-(3-((E)-2-nitro-vinyl)-phe -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=5.96 
+ +[83/237] Ramiprilat                   -> ACE      binding_confirmed   act/inact=   1/   0 pChEMBL=None 
+  [84/237] Ethambutol                   -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [85/237] Glimepiride                  -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [86/237] Cilazaprilat                 -> ACE      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [87/237] Clenbuterol                  -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [88/237] Andrographolide              -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[89/237] Methyl rosmarinate           -> MMP3     binding_confirmed   act/inact=   0/   0 pChEMBL=4.55 
+  [90/237] Cisplatin                    -> C3       not_tested          act/inact=   0/   0 pChEMBL=None 
+  [91/237] Tetracycline                 -> MMP3     not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[92/237] propan-2-yl 2-(naphthalen-1- -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=5.65 
+ +[93/237] (3S)-3-[[(2S)-2-[[2-[[(2S)-2 -> C3       binding_confirmed   act/inact=   2/   0 pChEMBL=7.82 
+  [94/237] 2-[(4R,7S,10R,13S,19S,22R,25 -> C3       not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[95/237] [(2R)-3-[(2R)-2-amino-3-oxo- -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=9.35 
+  [96/237] Angiotensin-Converting Enzym -> ACE      no_compound_id      act/inact=   0/   0 pChEMBL=None 
+ +[97/237] (2S)-2-[[(2S)-2-[[(2S,3R)-2- -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=6.82 
+  [98/237] 91900601                     -> TLR2     not_tested          act/inact=   0/   0 pChEMBL=None 
+  [99/237] 91900605                     -> TLR2     not_tested          act/inact=   0/   0 pChEMBL=None 
+  [100/237] 91900607                     -> TLR2     not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[101/237] Ethyl 2-[(phenylcarbamoyl)am -> TLR2     binding_confirmed   act/inact=   0/   0 pChEMBL=4.92 
+ -[102/237] Ethanol                      -> TNF      measured_inactive   act/inact=   0/   1 pChEMBL=None 
+  [103/237] Cyclosporine                 -> ITGAL    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [104/237] Cyclosporine                 -> IL2      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [105/237] Cyclosporine                 -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [106/237] Aldesleukin                  -> IL2RA    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [107/237] Aldesleukin                  -> IL2      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [108/237] Tiludronic acid              -> IL1B     not_tested          act/inact=   0/   0 pChEMBL=None 
+  [109/237] Gemcitabine                  -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[110/237] Lenalidomide                 -> TNF      binding_confirmed   act/inact=   0/   0 pChEMBL=6.66 
+ +[111/237] Ilomastat                    -> MMP3     binding_confirmed   act/inact=   2/   0 pChEMBL=9.72 
+ +[112/237] Ac-I[CVSQDWGHHRC]T-NH2       -> C3       binding_confirmed   act/inact=   0/   0 pChEMBL=5.22 
+ +[113/237] Oxyquinoline                 -> SMAD3    binding_confirmed   act/inact=   3/   4 pChEMBL=None 
+ *[114/237] Decitabine                   -> DNMT3A   mechanism_untyped   act/inact=   0/   0 pChEMBL=None INHIBITOR
+  [115/237] Spironolactone               -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [116/237] Thalidomide                  -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+ -[117/237] Dactinomycin                 -> TNF      measured_inactive   act/inact=   0/   1 pChEMBL=None 
+  [118/237] Tyrosine                     -> STAT3    not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[119/237] 1-N,1-N-dimethyl-4-[(E)-2-ni -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=5.44 
+ +[120/237] Phosphoric acid (S)-2-(3-hyd -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=6.34 
+ -[121/237] Stavudine                    -> TNF      measured_inactive   act/inact=   0/   2 pChEMBL=None 
+  [122/237] AMP                          -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [123/237] Thiocolchicoside             -> TNFSF11  not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[124/237] Tanomastat                   -> MMP3     binding_confirmed   act/inact=   0/   0 pChEMBL=6.87 
+ +[125/237] Dodecanoic acid (R)-1-{2-[(S -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=6.02 
+ +[126/237] Dodecanoic acid (R)-1-{2-[(S -> TLR2     binding_confirmed   act/inact=   0/   0 pChEMBL=4.66 
+ +[127/237] Digitoxin                    -> STAT3    binding_confirmed   act/inact=   0/   0 pChEMBL=6.16 
+ +[128/237] Digitoxin                    -> SMAD3    binding_confirmed   act/inact=   1/   2 pChEMBL=None 
+  [129/237] Sirolimus                    -> RPS6KB1  not_tested          act/inact=   0/   0 pChEMBL=None 
+  [130/237] Sirolimus                    -> STK11    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [131/237] Sirolimus                    -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+ -[132/237] Ouabain                      -> SMAD3    measured_inactive   act/inact=   0/   2 pChEMBL=None 
+ +[133/237] Ouabain                      -> STAT3    binding_confirmed   act/inact=   0/   1 pChEMBL=5.94 
+ +[134/237] Pentoxifylline               -> TNF      binding_confirmed   act/inact=   0/   0 pChEMBL=4.07 
+  [135/237] Midazolam                    -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [136/237] Lactulose                    -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+ -[137/237] Carbamazepine                -> HLA-B    measured_inactive   act/inact=   0/   1 pChEMBL=None 
+  [138/237] Carbamazepine                -> HLA-A    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [139/237] Peruvoside                   -> SMAD3    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [140/237] Caffeine                     -> IL2RA    not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[141/237] Propan-2-yl 2-[(4-bromonapht -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=7.32 
+ +[142/237] methyl 2-[(4-methylpiperazin -> TLR2     binding_confirmed   act/inact=   0/   0 pChEMBL=5.88 
+  [143/237] Levetiracetam                -> HLA-A    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [144/237] Phenytoin                    -> CYP1A1   not_tested          act/inact=   0/   0 pChEMBL=None 
+ -[145/237] Phenytoin                    -> HLA-B    measured_inactive   act/inact=   0/   1 pChEMBL=None 
+  [146/237] Zonisamide                   -> HLA-A    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [147/237] Phenobarbital                -> CYP1A1   not_tested          act/inact=   0/   0 pChEMBL=None 
+  [148/237] Fosphenytoin                 -> HLA-B    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [149/237] Oxcarbazepine                -> HLA-B    not_tested          act/inact=   0/   0 pChEMBL=None 
+ -[150/237] Acetazolamide                -> HLA-B    measured_inactive   act/inact=   0/   1 pChEMBL=None 
+ +[151/237] Phosphoric acid 2-{(2S,3S)-2 -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=6.62 
+ +[152/237] Dodecanoic acid 1-(2-{(S)-3- -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=6.05 
+  [153/237] Amrinone                     -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [154/237] Rabeprazole                  -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+ -[155/237] Didanosine                   -> TNF      measured_inactive   act/inact=   0/   1 pChEMBL=None 
+ *[156/237] Azacitidine                  -> DNMT3A   mechanism_untyped   act/inact=   0/   0 pChEMBL=None INHIBITOR
+  [157/237] Azacitidine                  -> PLAU     not_tested          act/inact=   0/   0 pChEMBL=None 
+ -[158/237] Estradiol                    -> TNF      measured_inactive   act/inact=   0/   1 pChEMBL=None 
+ +[159/237] Pomalidomide                 -> TNF      binding_confirmed   act/inact=   0/   0 pChEMBL=7.48 
+ +[160/237] ethyl 2-(naphthalen-1-ylcarb -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=6.44 
+ +[161/237] 1-[(4-methoxyphenyl)methoxy] -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=5.36 
+ +[162/237] [(2R)-3-[(2R)-2-amino-3-[[(2 -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=9.59 
+ +[163/237] (2S,5S,8R,11S,14S,17S,20S,23 -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=9.33 
+ +[164/237] Propyl 2-[(4-methylpiperazin -> TLR2     binding_confirmed   act/inact=   0/   0 pChEMBL=5.18 
+ *[165/237] Guselkumab                   -> IL12B    mechanism_untyped   act/inact=   0/   0 pChEMBL=None INHIBITOR
+  [166/237] 1-(tert-butylamino)-3-[3,5-d -> TLR2     not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[167/237] Dodecanoic acid (S)-1-{2-[(S -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=5.16 
+  [168/237] N'-ethyl-N-[4-(1H-imidazol-5 -> TLR2     not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[169/237] Isoliquiritigenin            -> MMP3     binding_confirmed   act/inact=   0/   0 pChEMBL=7.09 
+  [170/237] (2R,3R,4S,5S)-2-(6-aminopuri -> TLR2     not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[171/237] N-[3-[(E)-2-nitroethenyl]phe -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=5.58 
+  [172/237] Phenformin                   -> STK11    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [173/237] Satralizumab                 -> IL6R     not_tested          act/inact=   0/   0 pChEMBL=None 
+  [174/237] Danazol                      -> MBL2     not_tested          act/inact=   0/   0 pChEMBL=None 
+  [175/237] Progesterone                 -> IL2RA    not_tested          act/inact=   0/   0 pChEMBL=None 
+ -[176/237] Isoniazid                    -> TNF      measured_inactive   act/inact=   0/   1 pChEMBL=None 
+  [177/237] Artesunate                   -> NFKB1    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [178/237] Fluorouracil                 -> IL6R     not_tested          act/inact=   0/   0 pChEMBL=None 
+  [179/237] Fluorouracil                 -> IL2RA    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [180/237] Pyrimethamine                -> STAT3    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [181/237] Ritonavir                    -> TLR4     not_tested          act/inact=   0/   0 pChEMBL=None 
+ -[182/237] Sorafenib                    -> STAT3    measured_inactive   act/inact=   0/   1 pChEMBL=None 
+  [183/237] Rifampicin                   -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [184/237] Simvastatin                  -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[185/237] Dodecanoic acid (R)-1-{2-[(R -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=5.67 
+ +[186/237] ethyl 2-[(phenylcarbamothioy -> TLR2     binding_confirmed   act/inact=   0/   0 pChEMBL=4.54 
+ +[187/237] N-hydroxy-2-[[4-[4-(3-methox -> MMP3     binding_confirmed   act/inact=   0/   0 pChEMBL=8.3 
+ +[188/237] Berkeleyamide A              -> MMP3     binding_confirmed   act/inact=   0/   0 pChEMBL=6.48 
+ +[189/237] (2R,3R)-N-{(1R)-4-Nitroguany -> MMP3     binding_confirmed   act/inact=   0/   0 pChEMBL=7.51 
+ +[190/237] Niclosamide                  -> STAT3    binding_confirmed   act/inact=   2/   0 pChEMBL=6.68 
+  [191/237] Polaprezinc                  -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [192/237] Bacampicillin                -> HLA-A    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [193/237] Ticarcillin                  -> IL2      not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[194/237] 3-[4-(4-Fluoro-phenoxy)-benz -> MMP3     binding_confirmed   act/inact=   0/   0 pChEMBL=8.38 
+  [195/237] Vadimezan                    -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [196/237] Hydroxychloroquine           -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [197/237] Ampicillin                   -> HLA-A    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [198/237] Ciglitazone                  -> STAT3    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [199/237] Saquinavir                   -> TLR4     not_tested          act/inact=   0/   0 pChEMBL=None 
+  [200/237] Methylisothiazolinone        -> MMP3     not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[201/237] Methyl 2-[(phenylcarbamothio -> TLR2     binding_confirmed   act/inact=   0/   0 pChEMBL=4.83 
+ +[202/237] 2-Methylpropyl 2-(naphthalen -> TLR2     binding_confirmed   act/inact=   0/   0 pChEMBL=4.52 
+  [203/237] Pseudoephedrine              -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [204/237] Emodin                       -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [205/237] 1-(tert-butylamino)-3-[(E)-1 -> TLR2     not_tested          act/inact=   0/   0 pChEMBL=None 
+  [206/237] 91900553                     -> TLR2     not_tested          act/inact=   0/   0 pChEMBL=None 
+  [207/237] 91900552                     -> TLR2     not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[208/237] (4R)-4-[[(2R)-2-[[(2R)-2-[[( -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=7.6 
+ +[209/237] Batimastat                   -> MMP3     binding_confirmed   act/inact=   0/   0 pChEMBL=9.25 
+  [210/237] 91900575                     -> TLR2     not_tested          act/inact=   0/   0 pChEMBL=None 
+  [211/237] Methyl 2-(2-hydroxyethanesul -> TLR2     not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[212/237] (2S)-2-[[(2R)-2-amino-3-[(2R -> TLR2     binding_confirmed   act/inact=   1/   0 pChEMBL=8.68 
+  [213/237] compound 13 [PMID: 23098072] -> TLR2     not_tested          act/inact=   0/   0 pChEMBL=None 
+  [214/237] 91900589                     -> TLR2     not_tested          act/inact=   0/   0 pChEMBL=None 
+  [215/237] 91900587                     -> TLR2     not_tested          act/inact=   0/   0 pChEMBL=None 
+  [216/237] 91900582                     -> TLR2     not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[217/237] Ac-I[CVTQDWGHHRC]T-NH2       -> C3       binding_confirmed   act/inact=   0/   0 pChEMBL=5.22 
+ +[218/237] Ac-Ile-Cys(1)-Val-Trp(Me)-Gl -> C3       binding_confirmed   act/inact=   2/   0 pChEMBL=8.64 
+  [219/237] 91900521                     -> TLR2     not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[220/237] [(2R)-3-[(2R)-3-[[2-[[(2R)-1 -> TLR2     binding_confirmed   act/inact=   2/   0 pChEMBL=7.6 
+  [221/237] Bromocriptine                -> IL2      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [222/237] Bromocriptine                -> LEP      no_activity_data    act/inact=   0/   0 pChEMBL=None 
+  [223/237] Pioglitazone                 -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [224/237] Metformin                    -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [225/237] Metformin                    -> STK11    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [226/237] Metformin                    -> STAT3    not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[227/237] Lopinavir                    -> SMAD3    binding_confirmed   act/inact=   2/   1 pChEMBL=None 
+  [228/237] Rosiglitazone                -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [229/237] Methacholine                 -> AHR      not_tested          act/inact=   0/   0 pChEMBL=None 
+ +[230/237] Rolipram                     -> TNF      binding_confirmed   act/inact=   0/   0 pChEMBL=6.7 
+  [231/237] Theophylline                 -> IL2RA    not_tested          act/inact=   0/   0 pChEMBL=None 
+  [232/237] Melatonin                    -> TNF      not_tested          act/inact=   0/   0 pChEMBL=None 
+  [233/237] Drugs, Chinese Herbal        -> EPO      no_compound_id      act/inact=   0/   0 pChEMBL=None 
+  [234/237] Antibodies                   -> TNF      no_compound_id      act/inact=   0/   0 pChEMBL=None 
+  [235/237] Antibodies, Monoclonal       -> TNF      no_compound_id      act/inact=   0/   0 pChEMBL=None 
+  [236/237] Microbicides                 -> TLR4     no_compound_id      act/inact=   0/   0 pChEMBL=None 
+  [237/237] Calcium                      -> CAST     no_activity_data    act/inact=   0/   0 pChEMBL=None 
+
+--- 237 edges evaluated in 569s ---
+verdicts: {'not_tested': 116, 'binding_confirmed': 86, 'no_compound_id': 13, 'measured_inactive': 13, 'mechanism_untyped': 6, 'no_activity_data': 3}
+edges with ANY activity information: 221/237 (93%)
+edges with a measured compound-target result: 99/237 (42%)
+edges carrying an asserted direction: 109  of which curated-mechanism-scored: 0
+wrote data/ars/c3efea15-1a8f-4c09-a521-7462603bec08/route_d.json

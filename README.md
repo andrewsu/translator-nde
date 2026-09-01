@@ -74,7 +74,7 @@ Routes C and D ask questions the data can actually answer.
 | **A** | does the drug change the gene's *expression*? | GXA `@type:Inference` (staging) | built — 1–9% coverage, mostly the wrong question |
 | **B** | can we *compute* that from raw data? | GEO count matrices via NDE | built + validated |
 | **C** | what *other* compounds move this gene? | GXA, queried gene-first | designed, query verified |
-| **D** | does *activity* data confirm the inhibition? | PubChem BioAssay, ChEMBL | designed, both verified |
+| **D** | does *activity* data confirm the inhibition? | PubChem BioAssay, ChEMBL | built — 52% coverage, 20 true negatives |
 
 **Route C** inverts the question. Given `Drug1 –inhibits→ Gene2 –associated_with→ Disease3`, take
 the therapeutic hypothesis ("less Gene2 is good for Disease3") and ask GXA which *other* compounds
@@ -82,13 +82,26 @@ reduce Gene2. Abundance reduction becomes an alternate modality to activity inhi
 hit is a repurposing candidate Translator did not propose. This plays to GXA's one structured
 axis — `observationAbout` carries a gene symbol and Ensembl id, so no text matching is needed.
 
-**Route D** uses assays that measure inhibition directly. **Neither source is in NDE** — its
-catalog has only LINCS (424) and ReframeDB (408) as activity-adjacent, no ChEMBL/PubChem/BindingDB,
-which is a real coverage gap for this use case. PubChem BioAssay is keyed on **NCBI Gene ID**, the
-exact identifier Translator emits (`NCBIGene:7124` → 4,866 activity rows for TNF), and its
-*Inactive* rows are the true negative controls Route A never had. ChEMBL types the interaction by
-`action_type` (INHIBITOR, AGONIST, ANTAGONIST…), matching Translator's own qualifier semantics, so
-it is a like-for-like check rather than a proxy.
+**Route D** uses assays that measure inhibition directly, and is the highest-coverage route in
+the project: **367 of 710 drug→gene edges (52%) have a directly measured compound–target result**,
+against 1–9% for Route A on the same edges. The join is exact end to end — Translator emits
+`NCBIGene:7124`, PubChem's `Target GeneID` column is `7124`, and Node Normalizer supplies the
+compound's CID and ChEMBL id — so no text matching is involved anywhere. PubChem's *Inactive* rows
+give 20 genuine negatives, which GXA structurally cannot (it stores only significant results).
+
+**Neither source is in NDE** — its catalog has only LINCS (424) and ReframeDB (408) as
+activity-adjacent, no ChEMBL/PubChem/BindingDB. Since activity is the modality Translator's edges
+are actually about, that is a real coverage gap.
+
+The headline finding is a structural one about Translator. Of 710 edges, 330 carry a direction
+qualifier and 63 have a curated ChEMBL mechanism, but **only 1 has both** — because the qualifiers
+come from screening databases (BindingDB, Pharos) whose compounds are research chemicals, while
+curated mechanism-of-action exists almost only for approved drugs, which arrive via
+DrugBank/DrugCentral/DGIdb emitting a bare `biolink:affects` with no qualifier. Measured: 4% of
+directional-edge drugs have any ChEMBL mechanism, versus 79% of the rest. So Route D's value is
+not adjudicating directions Translator asserts — it is *supplying* the action type Translator
+omits, correctly and for approved drugs, on the very edges Route A scored 1/174. See
+[`results/REPORT.md`](results/REPORT.md#worked-example-4--route-d-activity-data).
 
 ## Layout
 
@@ -98,7 +111,10 @@ it is a like-for-like check rather than a proxy.
 | `src/translator_nde/ids.py` | CURIE ↔ NDE bridge: Node Normalizer + Name Resolver |
 | `src/translator_nde/translator.py` | ARS creative-mode client + path extraction |
 | `src/translator_nde/gxa.py` | Route A: drug→gene edges vs. GXA DE contrasts |
+| `src/translator_nde/reanalysis.py` | Route B: GEO reanalysis from NDE sample arm labels |
+| `src/translator_nde/activity.py` | Route D: PubChem BioAssay + ChEMBL activity evidence |
 | `scripts/run_ars.py` | Submit a disease query, extract paths |
+| `scripts/run_route_{a,b,d}.py` | Score a `paths.json` edge set against each route |
 | `tests/` | Regression fixtures (see below) |
 
 ## Setup

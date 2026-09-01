@@ -10,5 +10,8 @@ __pycache__/
 data/ars/*.json
 data/geo/
 
+# Route D API cache: re-fetchable from PubChem/ChEMBL by CID and ChEMBL id.
+data/activity/
+
 # Notebook noise
 .ipynb_checkpoints/

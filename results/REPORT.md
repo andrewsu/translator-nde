@@ -385,3 +385,127 @@ biotype check before trusting any series.
 In-vitro drug perturbation: **47%** of genes significant. Clinical pre/post: **2–3%**.
 For testing drug→gene edges, in-vitro perturbation series are the productive substrate;
 clinical pre/post designs are underpowered for anything but the largest effects.
+
+---
+
+# Worked example 4 — Route D: activity data
+
+Routes A and B ask expression data whether a drug changes its target's abundance.
+Examples 1–3 established that this is the wrong question for most Translator
+edges, which assert changes in **activity**. Route D asks the question the
+assertions actually make, of assays that measure it: PubChem BioAssay and ChEMBL.
+
+Run over the same three ARS creative-mode answer sets, deduped to distinct
+drug→gene edges. Everything below is measured, 2026-09-01.
+
+## Coverage — 52% of edges have a directly measured compound–target result
+
+```
+          edges  measured  mech  bind  inact  nottest  nodata  noid
+asthma      220    131(60%)   27   129      2       34       8    20
+RA          253    137(54%)   30   131      5       72       8     7
+AS          237     99(42%)    6    86     13      116       3    13
+TOTAL       710    367(52%)   63   346     20      222      19    40
+```
+
+`measured` = a curated mechanism, a measured potency, or a recorded Inactive
+outcome for that exact compound against that exact target.
+
+Set against Route A on the same edges — asthma 3%, RA 1%, AS 9% — this is a
+**one-to-two order of magnitude** difference in how often the data can say
+anything at all. 244 edges carry a potency value; 232 carry a pChEMBL ≥ 6.
+
+The join is exact end to end. Translator emits `NCBIGene:7124`; PubChem's
+`Target GeneID` column is `7124`. Node Normalizer supplies the compound's CID
+and ChEMBL id from its clique (461/524 and 470/524 of the distinct drugs
+respectively; the 32 with neither are mostly biologics). **No text matching
+anywhere** — the failure mode that limits Routes A and B does not arise.
+
+## 20 true negatives — the thing Route A structurally could not produce
+
+GXA stores only significant results, so a missing record is uninformative.
+PubChem records **Inactive** outcomes, so "this compound was tested against this
+target and did nothing" is a real observation. Twenty edges are contradicted
+this way, e.g. `Baicalein → CFTR` (4 inactive) against an asserted *increased*
+activity, and five separate compounds recorded inactive against TNF in the AS
+answer set.
+
+## The finding: Translator's directions and curated mechanism barely intersect
+
+Of 710 edges, **330 carry a direction qualifier and 63 have a curated ChEMBL
+mechanism — but only 1 has both** (crofelemer → CFTR, INHIBITOR vs. *decreased*:
+agrees). By drug the disjointness is just as sharp: 330 drugs vs. 50 drugs,
+overlapping on that same one.
+
+This is not an artifact of the matcher. It follows from provenance:
+
+| | edges with a direction | edges without |
+|---|---|---|
+| supplying KPs | bindingdb 334, pharos 258, ctd 53, gtopdb 18 | dgidb 737, drugbank 444, semmeddb 296, drugcentral 235 |
+| drugs with *any* curated ChEMBL mechanism | **12 / 302 (4%)** | **134 / 169 (79%)** |
+
+Translator's directional qualifiers come from **screening databases**, whose
+compounds are overwhelmingly research chemicals; curated mechanism-of-action
+exists almost exclusively for **approved drugs**, which reach Translator through
+DrugBank/DrugCentral/DGIdb — and those emit a bare `biolink:affects` with no
+qualifier at all. The two evidence types are sourced from opposite ends of the
+pharmacology pipeline.
+
+Two consequences:
+
+1. **The direction-agreement test is nearly untestable on this data** — n=1. That
+   is a negative result about qualifier coverage in Translator, not about
+   activity data. Reporting an agreement rate over one edge would be dishonest.
+2. **Route D's real value is the inverse**: for the 63 mechanism edges it
+   *supplies* the action type Translator omits. Every one is textbook-correct
+   and 59/63 are max_phase 4 (approved) — baricitinib→JAK1/JAK2 INHIBITOR,
+   infliximab and certolizumab→TNF INHIBITOR, celecoxib/etoricoxib/rofecoxib→
+   PTGS2 INHIBITOR, triamcinolone/betamethasone/flunisolide→NR3C1 AGONIST.
+   Route A scored 1/174 on the RA set; Route D recovers RA's actual pharmacology.
+
+Action types across all three: INHIBITOR 37, AGONIST 16, ANTAGONIST 8,
+BLOCKER 1, OPENER 1.
+
+## Not in NDE
+
+NDE's `includedInDataCatalog` facet has LINCS (424) and ReframeDB (408) as the
+only activity-adjacent sources — no ChEMBL, PubChem BioAssay or BindingDB. Route
+D therefore reaches outside NDE entirely. Given that activity is the modality
+Translator's edges are actually about, that is a real coverage gap for
+mechanism-of-action work, and worth reporting to the NDE team as such.
+
+## Four defects found by running it
+
+Each broke a whole class of edges, and each is pinned in `tests/test_activity.py`.
+
+1. **Salt-form mechanisms.** Imatinib (`CHEMBL941`) has *no* mechanism rows of
+   its own; all four are filed under the mesylate `CHEMBL1642`. Querying only
+   `molecule_chembl_id` downgraded the canonical ABL1 inhibitor to a mere binding
+   observation. Fixed by unioning with `parent_molecule_chembl_id`.
+2. **Protein-family targets.** Aspirin's mechanism target is `CHEMBL2094253`
+   "Cyclooxygenase", a PROTEIN FAMILY, not the PTGS2 single protein. Target-id
+   equality missed it; matching on the target's component UniProt accessions
+   catches it.
+3. **The gene-keyed PubChem endpoint does not scale.** `/gene/geneid/{id}/concise`
+   returns 337 MB for CFTR, and for DRD2 a 436 MB body that arrives **truncated
+   and unparseable** — so the most heavily screened targets, the interesting ones,
+   silently returned nothing and were scored `not_tested`. The compound-keyed
+   `/compound/cid/{cid}/assaysummary` view carries a `Target GeneID` column, so
+   the join stays an exact integer match at ~300 KB per compound. Spot-checked
+   identical: imatinib/ABL1 gives 154 Active + 10 Inactive either way. Cache for
+   the whole run fell from 521 MB (9 genes) to 6.2 MB.
+4. **A fetch failure was being laundered into evidence.** With (3) in place a
+   PubChem error yielded zero rows and a `not_tested` verdict — an error
+   presented as a measured negative. Failures now get their own `fetch_failed`
+   verdict and a `pubchem_error` flag, and are excluded from denominators.
+
+One hypothesis checked and **rejected**: BindingDB and Pharos directions are
+~50/50 increased/decreased, which looked like non-committal hedging. It is not —
+of 294 pairs, only 2 carry both directions. The claims are genuine.
+
+## Reproduce
+
+```bash
+.venv/bin/python scripts/run_route_d.py data/ars/<pk>/paths.json
+PYTHONPATH=src .venv/bin/python -m pytest tests/test_activity.py -q
+```
