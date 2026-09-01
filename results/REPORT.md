@@ -1,58 +1,71 @@
-# Worked example 1 — asthma
+# Grounding Translator knowledge-graph paths in primary data
 
-**Date:** 2026-09-01 · **Disease:** asthma (`MONDO:0004979`)
-**ARS pk:** `5b656c0f-b7da-4db4-ba1f-d3a794b422d4`
-**NDE:** staging (`api-staging.data.niaid.nih.gov/v1`)
-**Artifacts:** `data/ars/5b656c0f-.../paths.json`, `.../route_a.json`, `results/route_a_asthma.log`
+**Results report** · all figures measured 2026-09-01 · code and artifacts in this repository.
 
-## TL;DR
+A Translator `drug → gene → disease` path is a mechanistic hypothesis. This report asks, for each
+`drug → gene` hop, whether primary data exists that tests it — and answers that question four
+different ways, because the obvious way turns out to be the wrong question.
 
-The pipeline works end to end, and Route A is **precise but very narrow**: of 123 evaluable
-`drug → gene` edges from a real Translator creative-mode answer, GXA had a matching
-differential-expression contrast — one in which the drug is genuinely the experimental variable —
-for **1 (1%)**.
+| route | question it asks | data source |
+|---|---|---|
+| **A** | does the drug change the gene's **expression**? | NDE `@type:Inference` — Gene Expression Atlas DE contrasts (staging only) |
+| **B** | can we **compute** that ourselves from raw data? | GEO count matrices, with treated/control arms from NDE `@type:Sample` |
+| **C** | what **other** compounds move this gene? | the same GXA contrasts, queried gene-first |
+| **D** | does **activity** data confirm the asserted inhibition? | PubChem BioAssay and ChEMBL (neither indexed by NDE) |
 
-The bottleneck is **GXA's drug coverage, not the matching logic** — Expression Atlas contains no
-contrasts at all for the drugs asthma answers are actually built from. This is the finding that
-matters for the project: **Route B (GEO reanalysis) is required, not optional.**
+Routes A, B and D are built and run; **Route C is designed but not yet run**, so it has no results
+in this report.
 
-## What Translator returned
+Routes A and B interrogate expression. Route D interrogates activity. That distinction is the
+central result: **Translator's drug→gene edges overwhelmingly assert changes in *activity*, while
+the expression atlases measure *abundance*** — and a kinase inhibitor or a neutralising antibody
+does not move its target's transcript.
 
-Creative-mode `biolink:treats` on asthma, 13 ARAs, ~40 s to completion.
+## Results at a glance
 
-| ARA | payload | results | aux graphs | 2-hop drug→gene→disease paths |
-|---|--:|--:|--:|--:|
-| ara-arax | 10.3 MB | 260 | 296 | **311** |
-| ara-unsecret | 0.8 MB | 227 | 248 | **117** |
-| ara-bte | 6.9 MB | 500 | 826 | 0 |
-| kp-molecular | 1.6 MB | 525 | 0 | 0 |
+Across three NIAID-relevant diseases — asthma, rheumatoid arthritis, ankylosing spondylitis —
+drawn from live ARS creative-mode `treats` queries:
 
-**428 paths → 220 distinct drug→gene edges → 76 distinct genes, 174 distinct drugs.**
+| | Route A (expression) | Route D (activity) |
+|---|--:|--:|
+| drug→gene edges evaluated | 460 | 710 |
+| edges with a usable measurement | **4 (0.9%)** | **367 (52%)** |
+| agreements with the asserted direction | 2 | 1 |
+| contradictions | 0 | 20 (measured-inactive) |
 
-The genes are exactly right for asthma, which is a good sign the extraction is sound:
-`P2RX3` (82), `NR3C1` (54, the glucocorticoid receptor), `ADRB2` (32, the β2-agonist target),
-`HRH1` (30), `PTGS2` (22), `TNF` (19), `IL4R` (14).
+The denominators differ because Route A skips 252 edges whose "drug" is an IUPAC string or a
+synthetic peptide — free-text search cannot match those — whereas Route D joins on identifiers and
+can attempt every edge carrying an `NCBIGene` id. Restricting Route D to the same 460 edges would
+not change its conclusion; the gap is more than an order of magnitude either way.
 
-### BTE returns no mechanistic intermediates
+Route B is not scored per edge; it is a *capability* result — 182 of 453 RA/AS GEO series (40%)
+are re-analyzable from NDE metadata alone, and the pipeline reproduces the expected biology
+wherever the underlying series is sound (one of the four series run turned out to be a technical
+artifact, which the report treats as a failed run rather than a negative result).
 
-Its 0 is not an extractor bug. BTE's knowledge graph for this query contains **0 drug→gene edges
-out of 1,666**; its answers are drug→disease directly (`treats`,
-`treats_or_applied_or_studied_to_treat`, `in_clinical_trials_for`) plus disease subclass
-reasoning. Mechanistic paths come from ARAX and unsecret-agent only.
+## How to read this
 
-### Only 19 of 123 edges carry a direction qualifier
+Examples 1–3 are chronological and each one changed the design, so they are worth reading in
+order. Example 4 is where the project's most useful evidence comes from.
 
-**All 311 ARAX paths have `direction: None`.** ARAX does not emit
-`object_direction_qualifier` / `object_aspect_qualifier` on these edges; only unsecret-agent does.
-So the direction-agreement test — the strongest thing Route A can do — is available on
-**15% of edges**. Everything else can only be scored for coverage.
+- **Method** — how a GXA contrast is matched to a Translator edge. Needed to read example 1.
+- **Example 1 — asthma.** Route A end to end on a real answer set.
+- **Working backward from GXA.** Which drugs GXA actually contains, and which diseases that implies.
+- **Example 2 — RA and AS.** The backward selection tested, and why it fails.
+- **Example 3 — Route B.** Reanalysis of three drug-treatment series.
+- **Example 4 — Route D.** Activity data, and the highest-coverage result in the project.
+- **Conclusions.**
 
-## How a contrast is matched to an edge
+---
+
+# Method — matching a drug→gene edge to a GXA contrast
+
+This governs every Route A number in the report.
 
 NDE `@type:Inference` records carry no chemical identifier — the compound appears only as free text
 in `variableMeasured.value` (test arm) and `measurementDenominator.value` (reference arm). Three
-filters are needed before a contrast counts as evidence, and each was derived from a case that
-would otherwise have been scored wrongly.
+filters are needed before a contrast counts as evidence, and each is derived from a case that
+would otherwise be scored wrongly.
 
 **1. Species.** `species.identifier:9606`. Without it, plant and mouse tool-compound designs
 dominate.
@@ -98,6 +111,58 @@ Name Resolver synonym lists are themselves a hazard: azacitidine returns `AZC`, 
 `5 aza`, `AZA-CR`, which match **5-aza-2-deoxycytidine** contrasts — that is decitabine, a
 different drug.
 
+---
+
+# Worked example 1 — asthma
+
+**Date:** 2026-09-01 · **Disease:** asthma (`MONDO:0004979`)
+**ARS pk:** `5b656c0f-b7da-4db4-ba1f-d3a794b422d4`
+**NDE:** staging (`api-staging.data.niaid.nih.gov/v1`)
+**Artifacts:** `data/ars/5b656c0f-.../paths.json`, `.../route_a.json`, `results/route_a_asthma.log`
+
+## TL;DR
+
+The pipeline works end to end, and Route A is **precise but very narrow**: of 123 evaluable
+`drug → gene` edges from a real Translator creative-mode answer, GXA had a matching
+differential-expression contrast — one in which the drug is genuinely the experimental variable —
+for **1 (1%)**.
+
+The bottleneck is **GXA's drug coverage, not the matching logic** — Expression Atlas contains no
+contrasts at all for the drugs asthma answers are actually built from. Precomputed expression
+therefore cannot carry the project on its own, which is what motivates Route B (computing the
+contrasts ourselves) in example 3.
+
+## What Translator returned
+
+Creative-mode `biolink:treats` on asthma, 13 ARAs, ~40 s to completion.
+
+| ARA | payload | results | aux graphs | 2-hop drug→gene→disease paths |
+|---|--:|--:|--:|--:|
+| ara-arax | 10.3 MB | 260 | 296 | **311** |
+| ara-unsecret | 0.8 MB | 227 | 248 | **117** |
+| ara-bte | 6.9 MB | 500 | 826 | 0 |
+| kp-molecular | 1.6 MB | 525 | 0 | 0 |
+
+**428 paths → 220 distinct drug→gene edges → 76 distinct genes, 174 distinct drugs.**
+
+The genes are exactly right for asthma, which is a good sign the extraction is sound:
+`P2RX3` (82), `NR3C1` (54, the glucocorticoid receptor), `ADRB2` (32, the β2-agonist target),
+`HRH1` (30), `PTGS2` (22), `TNF` (19), `IL4R` (14).
+
+### BTE returns no mechanistic intermediates
+
+Its 0 is not an extractor bug. BTE's knowledge graph for this query contains **0 drug→gene edges
+out of 1,666**; its answers are drug→disease directly (`treats`,
+`treats_or_applied_or_studied_to_treat`, `in_clinical_trials_for`) plus disease subclass
+reasoning. Mechanistic paths come from ARAX and unsecret-agent only.
+
+### Only 19 of 123 edges carry a direction qualifier
+
+**All 311 ARAX paths have `direction: None`.** ARAX does not emit
+`object_direction_qualifier` / `object_aspect_qualifier` on these edges; only unsecret-agent does.
+So the direction-agreement test — the strongest thing Route A can do — is available on
+**15% of edges**. Everything else can only be scored for coverage.
+
 ## What Route A found
 
 97 of 220 edges were skipped as not drug-like (IUPAC strings, synthetic peptides such as
@@ -119,19 +184,6 @@ The contrast is `'cyclic AMP' vs 'none'` in differentiated brown and white adipo
 for GXA experiments are resolved by looking up each contrast's GSM accessions in NDE production
 `@type:Sample` records, not inferred from the `E-GEOD-` naming; E-MTAB-2602 is ArrayExpress-native
 and has ENA run accessions instead.
-
-Across all three diseases in this report, Route A covers **4 of 460 drug→gene edges (0.9%)**:
-
-| edge | contrast | verdict |
-|---|---|---|
-| Cyclic AMP → PPARGC1A | `cyclic AMP` vs `none`, brown/white adipocyte (E-MTAB-2602) | agrees |
-| Doxorubicin → C3 | `doxorubicin 0.6 µg/mL` vs `none` (E-GEOD-46493, E-MTAB-6045, E-MTAB-9362) | ambiguous |
-| Cisplatin → C3 | `Cisplatin` vs `None` (E-MTAB-3645) | agrees |
-| Metformin → TNF | `metformin 4 millimolar` vs `none` (E-MTAB-7737) | ambiguous |
-
-Two agreements, zero disagreements. One borderline exclusion worth naming: dinoprostone → TNF is
-dropped because its factor is `PGE2-maturation`, a maturation protocol rather than a dosed PGE2
-arm. That is defensible but shows the shape of false negative the rule produces.
 
 ## Why coverage is so low
 
@@ -174,10 +226,11 @@ context-dependent.
 ## Conclusions
 
 1. **The bridge is real but the precomputed route is thin.** 1% coverage on a real disease query
-   is too low to be useful alone. Route B has to carry the load.
-2. **Prioritise Route B on the drugs that matter.** Asthma's actual drugs are absent from GXA but
+   is too low to be useful alone.
+2. **The data exists, just not precomputed.** Asthma's actual drugs are absent from GXA but
    present in GEO — production NDE has 5,253 dexamethasone datasets (1,302 GEO), and
-   drug-anchored search plus the 8.7M `Sample` records should reach budesonide/formoterol.
+   drug-anchored search plus the 8.7M `Sample` records should reach budesonide and formoterol.
+   That is the Route B hypothesis, tested in example 3.
 3. **Direction-agreement is only testable on 15% of edges** given ARAX omits qualifiers. Either
    restrict the strong claim to unsecret-agent edges, or recover directions from a KP that
    supplies them (DGIdb-derived edges do).
@@ -281,8 +334,9 @@ example 2.
 
 # Worked example 2 — rheumatoid arthritis and ankylosing spondylitis
 
-RA and AS were chosen by the backward analysis above. **The selection did not
-work**, and why it failed is the most useful result in this report.
+RA and AS were chosen by the backward analysis above, on the expectation that picking diseases
+for maximum GXA drug coverage would raise Route A's hit rate. **It did not**, and why it failed
+says more about the bridge than the coverage numbers do.
 
 ## Route A across all three diseases
 
@@ -292,8 +346,22 @@ work**, and why it failed is the most useful result in this report.
 | rheumatoid arthritis (`MONDO:0008383`) | 174 | **0 (0%)** | 6 (3%) | 0 | 0 | 6 |
 | ankylosing spondylitis (`MONDO:0005306`) | 163 | 3 (2%) | 26 (**16%**) | 1 | 0 | 23 |
 
-RA scored **worse than asthma** — zero covered edges — despite being picked for maximum GXA drug
-coverage.
+RA scored **worse than asthma**: zero covered edges, from the disease selected precisely because
+it had the most GXA-covered drugs.
+
+That leaves **4 covered edges out of 460 (0.9%)** across all three diseases. Every one is a
+genuine compound-vs-vehicle design:
+
+| edge | contrast | verdict |
+|---|---|---|
+| Cyclic AMP → PPARGC1A | `cyclic AMP` vs `none`, brown/white adipocyte (E-MTAB-2602) | agrees |
+| Doxorubicin → C3 | `doxorubicin 0.6 µg/mL` vs `none` (E-GEOD-46493, E-MTAB-6045, E-MTAB-9362) | ambiguous |
+| Cisplatin → C3 | `Cisplatin` vs `None` (E-MTAB-3645) | agrees |
+| Metformin → TNF | `metformin 4 millimolar` vs `none` (E-MTAB-7737) | ambiguous |
+
+Two agreements, zero disagreements. One borderline exclusion worth naming: dinoprostone → TNF is
+dropped because its factor is `PGE2-maturation`, a maturation protocol rather than a dosed PGE2
+arm. That is defensible but shows the shape of false negative the rule produces.
 
 ## Why the backward selection failed
 
@@ -368,14 +436,16 @@ any `healthCondition`, so the union with free text is necessary (RA 213→422, A
 - **ARS `result_count` is sometimes a string**, so the poll loop must coerce it rather than
   compare it numerically.
 
-## Where this leaves the project
+## Where this leaves Route A
 
 Route A is a **cheap, precise, very low-recall** filter, and much of what it returns is negative
-evidence about transcription rather than support for a mechanism. It is worth keeping as a
-first pass, but it cannot carry the project.
+evidence about transcription rather than support for a mechanism. It is worth keeping as a first
+pass, but on this evidence it cannot carry the project.
 
-Route B has 182 re-analyzable series for two diseases alone, all with usable arm labels. That is
-where the remaining effort belongs.
+Route B has 182 re-analyzable series for these two diseases alone, all with usable arm labels, so
+that is where example 3 goes next. The deeper problem — that expression is the wrong assay for an
+activity claim — is not fixed by computing the contrasts ourselves, and is what eventually
+motivates Route D.
 
 ## Route B validated end-to-end on GSE89408
 
@@ -486,8 +556,9 @@ TOTAL       710    367(52%)   63   346     20      222      19    40
 `measured` = a curated mechanism, a measured potency, or a recorded Inactive
 outcome for that exact compound against that exact target.
 
-Set against Route A on the same edges — asthma 1%, RA 0%, AS 2%, and 4/460 (0.9%) overall —
-this is a **fifty-fold** difference in how often the data can say anything at all. 244 edges carry a potency value; 232 carry a pChEMBL ≥ 6.
+Set against Route A on the same edges — asthma 1%, RA 0%, AS 2%, and 4/460 (0.9%) overall — this
+is a **fifty-fold** difference in how often the data can say anything at all. 244 edges carry a
+potency value; 232 carry a pChEMBL ≥ 6.
 
 The join is exact end to end. Translator emits `NCBIGene:7124`; PubChem's
 `Target GeneID` column is `7124`. Node Normalizer supplies the compound's CID
@@ -583,3 +654,66 @@ of 294 pairs, only 2 carry both directions. The claims are genuine.
 .venv/bin/python scripts/run_route_d.py data/ars/<pk>/paths.json
 PYTHONPATH=src .venv/bin/python -m pytest tests/test_activity.py -q
 ```
+
+---
+
+# Conclusions
+
+## 1. The bridge exists, but not where the sketch put it
+
+The original design assumed the `drug → gene` hop could be grounded in expression data: either
+precomputed (Route A) or recomputed (Route B). Measured across 460 edges from three real
+Translator answers, **Route A grounds 4 of them (0.9%)**. Two agree with the asserted direction,
+none contradict it. That is not a matching failure — the filters were validated against a
+dexamethasone positive control that recovers FKBP5 and TSC22D3 exactly as textbook pharmacology
+predicts. Expression Atlas simply does not contain the drugs Translator proposes.
+
+## 2. The reason is a modality mismatch, not a coverage gap
+
+Translator's drug→gene edges assert changes in **activity**; the expression atlases measure
+**abundance**. Baricitinib inhibits JAK kinase activity and the JAKs are never differentially
+expressed. Infliximab neutralises TNF protein and the transcript moves the *other* way. Both are
+textbook-correct mechanisms that expression data cannot confirm, and computing the contrasts
+ourselves does not change that — Route B reaches the same wall from the other side.
+
+## 3. Activity data answers the question that was actually asked
+
+Route D covers **367 of 710 edges (52%)** — fifty times Route A — because it queries assays that
+measure what the edges assert. It also supplies the one evidence class the expression routes
+structurally cannot: PubChem records **Inactive** outcomes, so 20 edges have a genuine measured
+negative rather than mere absence.
+
+Neither PubChem BioAssay nor ChEMBL is indexed by NDE. Since activity is the modality Translator's
+edges are about, that is a substantive coverage gap in NDE for mechanism-of-action work, and the
+most actionable thing in this report for the NDE team.
+
+## 4. Translator's qualifiers and its curated mechanisms come from different worlds
+
+Of 710 edges, 330 carry a direction qualifier and 63 have a curated ChEMBL mechanism — **1 has
+both**. Directions come from screening databases whose compounds are research chemicals (4% have
+any ChEMBL mechanism); curated mechanism exists for approved drugs, which arrive via
+DrugBank/DrugCentral/DGIdb emitting a bare `biolink:affects` with no qualifier (79%).
+
+So the direction-agreement test that motivated Route D is not answerable at n=1. Route D's actual
+contribution is the inverse — **supplying** the action type Translator omits, correct in all 63
+cases and approved-drug-backed in 59.
+
+## 5. Route B is worth keeping, for a different job
+
+40% of RA/AS GEO series are re-analyzable straight from NDE metadata, and the pipeline reproduces
+known biology. Its value is not adjudicating individual Translator edges — clinical pre/post
+designs yield 2–3% of genes significant, too underpowered for that — but generating fresh
+disease-level contrasts from data nobody has re-analysed. In-vitro perturbation series (47%
+significant) are the productive substrate.
+
+## What to do next
+
+1. **Route C** — invert the GXA query: given `Drug1 –inhibits→ Gene2`, ask which *other* compounds
+   move Gene2. This is the one use of GXA that plays to its structured axis (`observationAbout`
+   carries symbol and Ensembl id, so no text matching), and it generates repurposing candidates
+   Translator did not propose.
+2. **Score Route A per `aspect`.** Only `abundance`/`expression` edges should ever be judged by
+   expression data; `activity` edges should be out-of-scope, not `disagrees`.
+3. **Add a biotype check to Route B**, so a run dominated by snoRNA/snRNA is reported as a failed
+   run rather than a result.
+4. **Report the ChEMBL/PubChem/BindingDB absence to the NDE team** as a coverage gap.
