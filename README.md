@@ -105,3 +105,16 @@ direction agreement (median log2FC 3.4, min adj-p 1e-115, 10 experiments), and �
 49/49; both are canonical glucocorticoid-induced genes. Route B is not built yet.
 
 See [`results/REPORT.md`](results/REPORT.md) for the first worked example (asthma).
+
+## License
+
+MIT — see [LICENSE](LICENSE).
+
+`src/translator_nde/_de.py` is vendored from
+[andrewsu/DN-meta-analysis](https://github.com/andrewsu/DN-meta-analysis) (same author) and is
+covered by the same license here; see the file header for provenance.
+
+Data retrieved through this code belongs to its original sources and carries their terms —
+[NIAID Data Ecosystem](https://data.niaid.nih.gov), [NCATS Translator](https://ui.transltr.io),
+[NCBI GEO](https://www.ncbi.nlm.nih.gov/geo/), and the
+[EBI Gene Expression Atlas](https://www.ebi.ac.uk/gxa/).
