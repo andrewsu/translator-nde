@@ -302,3 +302,28 @@ first pass, but it cannot carry the project.
 
 Route B has 182 re-analyzable series for two diseases alone, all with usable arm labels. That is
 where the remaining effort belongs.
+
+## Route B validated end-to-end on GSE89408
+
+RA synovial biopsies, 218 NDE `Sample` records, `GSE89408_GEO_count_matrix_rename.txt.gz`.
+Arms split 152 RA / 28 healthy; 16,284 genes tested in ~1 s.
+
+| gene | logFC | adj. p | role |
+|---|--:|--:|---|
+| MMP1 | +4.98 | 2.1e-13 | classic RA synovial protease |
+| MMP3 | +4.97 | 3.2e-13 | " |
+| POSTN | +2.88 | 3.3e-13 | fibroblast activation |
+| MS4A1 | +2.67 | 3.4e-09 | B-cell infiltration |
+| CXCL13 | +2.32 | 2.0e-08 | ectopic lymphoid follicles |
+| IL6 | +1.66 | 1.2e-07 | drug target |
+| CD3E | +1.41 | 1.4e-08 | T-cell infiltration |
+| TNF | +1.08 | 7.4e-11 | drug target |
+
+All eight known markers up in RA. The pipeline recovers the expected biology.
+
+⚠️ **Arm provenance matters and is reported.** Depositors name matrix columns arbitrarily: this
+series uses `normal_tissue_1` / `RA_tissue_148`, while the GEO titles are `healthy tissue 2` —
+so neither the GSM accession nor the title matches a column. Matching is layered
+(accession → title → column-name regex) and `DEResult.arm_source` records which one was used.
+Here it fell through to `matrix_columns`, which loses the link back to NDE sample records; that
+is a weaker provenance chain and should be flagged in any result built on it.

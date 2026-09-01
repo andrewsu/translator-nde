@@ -112,18 +112,52 @@ def load_matrix(path: Path) -> pd.DataFrame:
     return df.apply(pd.to_numeric, errors="coerce").dropna(how="all")
 
 
-def match_columns(df: pd.DataFrame, gsms: list[str]) -> list[str]:
-    """Map GSM accessions onto matrix columns, which rarely use them verbatim."""
-    cols = {str(c): str(c) for c in df.columns}
+def _norm(s: str) -> str:
+    """Collapse to comparable form: lowercase alphanumerics only."""
+    return re.sub(r"[^a-z0-9]", "", str(s).lower())
+
+
+def match_columns(
+    df: pd.DataFrame, gsms: list[str], samples: list[Sample] | None = None
+) -> list[str]:
+    """Map GSMs onto matrix columns by accession, then by sample title.
+
+    Depositors name supplementary-matrix columns however they like, so the
+    accession is frequently absent. GSE89408 for instance uses
+    ``normal_tissue_1`` / ``RA_tissue_148`` while the GEO titles are
+    ``healthy tissue 2`` -- neither accession nor title matches.
+    """
+    cols = [str(c) for c in df.columns]
+    norm_cols = {_norm(c): c for c in cols}
+    titles = {s.gsm: s.name for s in (samples or []) if s.name}
+
     out = []
     for g in gsms:
-        if g in cols:
-            out.append(g)
-            continue
         hit = next((c for c in cols if g.lower() in c.lower()), None)
+        if hit is None and g in titles:
+            hit = norm_cols.get(_norm(titles[g]))
         if hit:
             out.append(hit)
     return out
+
+
+def arms_from_columns(
+    df: pd.DataFrame, treated: str, control: str
+) -> tuple[list[str], list[str]]:
+    """Last-resort arm assignment from the matrix column names themselves.
+
+    Used when GSM/title matching fails. This loses the link back to NDE sample
+    records, so callers must report that the weaker strategy was used.
+    """
+    t_re, c_re = re.compile(treated, re.I), re.compile(control, re.I)
+    t, c = [], []
+    for col in (str(x) for x in df.columns):
+        in_t, in_c = bool(t_re.search(col)), bool(c_re.search(col))
+        if in_t and not in_c:
+            t.append(col)
+        elif in_c and not in_t:
+            c.append(col)
+    return t, c
 
 
 @dataclass
@@ -133,6 +167,7 @@ class DEResult:
     n_control: int
     matched_treated: int
     matched_control: int
+    arm_source: str = "gsm"   # "gsm" | "title" | "matrix_columns"
     table: pd.DataFrame | None = None
     error: str | None = None
 
@@ -153,6 +188,8 @@ class DEResult:
 def run_de(
     gse: str, matrix_path: Path, treated: list[str], control: list[str],
     *, is_counts: bool = True, min_per_group: int = 2,
+    samples: list[Sample] | None = None,
+    patterns: tuple[str, str] | None = None,
 ) -> DEResult:
     """Moderated t-test of treated vs control, positive logFC = up in treated."""
     try:
@@ -160,7 +197,12 @@ def run_de(
     except Exception as exc:
         return DEResult(gse, len(treated), len(control), 0, 0, error=f"load: {exc}"[:150])
 
-    t_cols, c_cols = match_columns(df, treated), match_columns(df, control)
+    t_cols = match_columns(df, treated, samples)
+    c_cols = match_columns(df, control, samples)
+    arm_source = "gsm"
+    if (len(t_cols) < min_per_group or len(c_cols) < min_per_group) and patterns:
+        t_cols, c_cols = arms_from_columns(df, *patterns)
+        arm_source = "matrix_columns"
     if len(t_cols) < min_per_group or len(c_cols) < min_per_group:
         return DEResult(gse, len(treated), len(control), len(t_cols), len(c_cols),
                         error="too few samples matched to matrix columns")
@@ -175,6 +217,6 @@ def run_de(
         table = _de.moderated_ttest(genes, is_treated)
     except Exception as exc:
         return DEResult(gse, len(treated), len(control), len(t_cols), len(c_cols),
-                        error=f"de: {exc}"[:150])
+                        arm_source, error=f"de: {exc}"[:150])
     return DEResult(gse, len(treated), len(control), len(t_cols), len(c_cols),
-                    table=table)
+                    arm_source, table=table)
