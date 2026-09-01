@@ -37,3 +37,212 @@
   [35/238] 2-[(2R)-2-(butanoylamino)-3- -> TLR2     skip (not drug-like)
   [36/238] (2S)-2-[[(2S)-5-amino-2-[[(2 -> TLR2     skip (not drug-like)
   [37/238] (2Z)-2-[(2E,4E)-5-[1-[6-[2-[ -> TLR2     skip (not drug-like)
+  [38/238] Berkeleyamide D              -> MMP3     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [39/238] (2S)-2-[[(2S)-5-amino-2-[[(2 -> TLR2     skip (not drug-like)
+  [40/238] Dodecanoic acid 3-{(S)-2-hex -> TLR2     skip (not drug-like)
+  [41/238] (2S,5S,8R,11S,14S,17S,20S,23 -> TLR2     skip (not drug-like)
+  [42/238] 1-[6-[2-[3-[3-[3-[2-[2-[3-[[ -> TLR2     skip (not drug-like)
+  [43/238] (2S)-2-[[(2R)-2-amino-3-[(2R -> TLR2     skip (not drug-like)
+  [44/238] (2S)-2-[[(2R)-2-amino-3-[(2R -> TLR2     skip (not drug-like)
+  [45/238] UK-356618                    -> MMP3     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [46/238] (2S)-6-amino-2-(benzylamino) -> TLR2     skip (not drug-like)
+  [47/238] (2S)-6-amino-2-[[(2S)-6-amin -> TLR2     skip (not drug-like)
+  [48/238] propyl 2-(naphthalen-1-ylcar -> TLR2     skip (not drug-like)
+  [49/238] 91900533                     -> TLR2     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [50/238] Zymosan                      -> C3       n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [51/238] AZM551248                    -> MMP3     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [52/238] (2S)-2-[[(2S)-5-amino-2-[[(2 -> TLR2     skip (not drug-like)
+ *[53/238] Doxorubicin                  -> C3       n=   3 agree=   2 dis=   1 ambiguous    log2FC=1.3
+  [54/238] Methyl 2-[[4-(trifluoromethy -> TLR2     skip (not drug-like)
+  [55/238] N-[2,3-bis[(9Z,12Z)-octadeca -> TLR2     skip (not drug-like)
+  [56/238] Ac-I[CVWQDWGHHRC]T-NH2       -> C3       n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [57/238] Ac-I[CV(Bpa)QDWGAHRC]T-NH2   -> C3       skip (not drug-like)
+  [58/238] Ac-I[CV(Bta)QDWGAHRC]T-NH2   -> C3       skip (not drug-like)
+  [59/238] Ac-I[CVFQDWGHHRC]T-NH2       -> C3       n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [60/238] (2S)-6-amino-2-[[(2S)-6-amin -> TLR2     skip (not drug-like)
+  [61/238] (2S)-2-[[(2R)-2-amino-3-[(2R -> TLR2     skip (not drug-like)
+  [62/238] 2-[[4-[[(2S)-2-methyl-4-oxo- -> TLR2     skip (not drug-like)
+  [63/238] 1-(tert-butylamino)-3-[[2-(2 -> TLR2     skip (not drug-like)
+  [64/238] N-[(6-aminopyridin-3-yl)meth -> TLR2     skip (not drug-like)
+  [65/238] methyl 2-(naphthalen-1-ylcar -> TLR2     skip (not drug-like)
+  [66/238] 3-Benzyloxy-trans-beta-nitro -> TLR2     skip (not drug-like)
+  [67/238] 91900594                     -> TLR2     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [68/238] 91900596                     -> TLR2     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [69/238] (2S)-6-amino-2-[[(2S)-6-amin -> TLR2     skip (not drug-like)
+  [70/238] 5-(5,6-dimethoxy-2,3-dihydro -> TLR2     skip (not drug-like)
+  [71/238] 2-[(2R)-3-[[(2S)-3-hydroxy-1 -> TLR2     skip (not drug-like)
+  [72/238] Propan-2-yl 6-methyl-2-(naph -> TLR2     skip (not drug-like)
+  [73/238] (2S)-2-[[(2S)-5-amino-2-[[(2 -> TLR2     skip (not drug-like)
+  [74/238] 1-Cyclopropylmethoxy-3-((E)- -> TLR2     skip (not drug-like)
+  [75/238] N-[4-(1H-imidazol-5-yl)pheny -> TLR2     skip (not drug-like)
+  [76/238] Ethyl 2-(naphthalen-1-ylcarb -> TLR2     skip (not drug-like)
+  [77/238] doxycycline hyclate          -> MMP3     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [78/238] (2S)-6-amino-2-[[(2S)-6-amin -> TLR2     skip (not drug-like)
+  [79/238] 1-(cyclohexylmethoxy)-3-[(E) -> TLR2     skip (not drug-like)
+  [80/238] Magnesium chloride           -> C3       n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [81/238] Propan-2-yl 2-(naphthalen-1- -> TLR2     skip (not drug-like)
+  [82/238] 2-(3-((E)-2-nitro-vinyl)-phe -> TLR2     skip (not drug-like)
+  [83/238] Ramiprilat                   -> ACE      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [84/238] Ethambutol                   -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [85/238] Glimepiride                  -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [86/238] Cilazaprilat                 -> ACE      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [87/238] Clenbuterol                  -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [88/238] Andrographolide              -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [89/238] Methyl rosmarinate           -> MMP3     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+ *[90/238] Cisplatin                    -> C3       n=   1 agree=   1 dis=   0 agrees       log2FC=1.2
+  [91/238] Tetracycline                 -> MMP3     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [92/238] propan-2-yl 2-(naphthalen-1- -> TLR2     skip (not drug-like)
+  [93/238] (3S)-3-[[(2S)-2-[[2-[[(2S)-2 -> C3       skip (not drug-like)
+  [94/238] 2-[(4R,7S,10R,13S,19S,22R,25 -> C3       skip (not drug-like)
+  [95/238] [(2R)-3-[(2R)-2-amino-3-oxo- -> TLR2     skip (not drug-like)
+  [96/238] Angiotensin-Converting Enzym -> ACE      skip (not drug-like)
+  [97/238] (2S)-2-[[(2S)-2-[[(2S,3R)-2- -> TLR2     skip (not drug-like)
+  [98/238] 91900601                     -> TLR2     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [99/238] 91900605                     -> TLR2     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [100/238] 91900607                     -> TLR2     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [101/238] Ethyl 2-[(phenylcarbamoyl)am -> TLR2     skip (not drug-like)
+  [102/238] Ethanol                      -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [103/238] Cyclosporine                 -> ITGAL    n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [104/238] Cyclosporine                 -> IL2      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [105/238] Cyclosporine                 -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [106/238] Aldesleukin                  -> IL2RA    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [107/238] Aldesleukin                  -> IL2      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [108/238] Tiludronic acid              -> IL1B     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [109/238] Gemcitabine                  -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [110/238] Lenalidomide                 -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [111/238] Ilomastat                    -> MMP3     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [112/238] Ac-I[CVSQDWGHHRC]T-NH2       -> C3       n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [113/238] Oxyquinoline                 -> SMAD3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [114/238] Decitabine                   -> DNMT3A   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [115/238] Spironolactone               -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [116/238] Thalidomide                  -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [117/238] Dactinomycin                 -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [118/238] Tyrosine                     -> STAT3    n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [119/238] 1-N,1-N-dimethyl-4-[(E)-2-ni -> TLR2     skip (not drug-like)
+  [120/238] Phosphoric acid (S)-2-(3-hyd -> TLR2     skip (not drug-like)
+  [121/238] Stavudine                    -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [122/238] AMP                          -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [123/238] Thiocolchicoside             -> TNFSF11  n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [124/238] Tanomastat                   -> MMP3     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [125/238] Dodecanoic acid (R)-1-{2-[(S -> TLR2     skip (not drug-like)
+  [126/238] Dodecanoic acid (R)-1-{2-[(S -> TLR2     skip (not drug-like)
+  [127/238] Digitoxin                    -> STAT3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [128/238] Digitoxin                    -> SMAD3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [129/238] Sirolimus                    -> RPS6KB1  n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [130/238] Sirolimus                    -> STK11    n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [131/238] Sirolimus                    -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [132/238] Ouabain                      -> SMAD3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [133/238] Ouabain                      -> STAT3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [134/238] Pentoxifylline               -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [135/238] Midazolam                    -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [136/238] Lactulose                    -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [137/238] Carbamazepine                -> HLA-B    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [138/238] Carbamazepine                -> HLA-A    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [139/238] Peruvoside                   -> SMAD3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [140/238] Caffeine                     -> IL2RA    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [141/238] Propan-2-yl 2-[(4-bromonapht -> TLR2     skip (not drug-like)
+  [142/238] methyl 2-[(4-methylpiperazin -> TLR2     skip (not drug-like)
+  [143/238] Tretinoin                    -> Proteoglycan n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [144/238] Levetiracetam                -> HLA-A    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [145/238] Phenytoin                    -> CYP1A1   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [146/238] Phenytoin                    -> HLA-B    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [147/238] Zonisamide                   -> HLA-A    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [148/238] Phenobarbital                -> CYP1A1   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [149/238] Fosphenytoin                 -> HLA-B    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [150/238] Oxcarbazepine                -> HLA-B    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [151/238] Acetazolamide                -> HLA-B    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [152/238] Phosphoric acid 2-{(2S,3S)-2 -> TLR2     skip (not drug-like)
+  [153/238] Dodecanoic acid 1-(2-{(S)-3- -> TLR2     skip (not drug-like)
+  [154/238] Amrinone                     -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [155/238] Rabeprazole                  -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [156/238] Didanosine                   -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [157/238] Azacitidine                  -> DNMT3A   n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+ *[158/238] Azacitidine                  -> PLAU     n=   2 agree=   0 dis=   0 ambiguous    log2FC=2.1500000000000004
+  [159/238] Estradiol                    -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [160/238] Pomalidomide                 -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [161/238] ethyl 2-(naphthalen-1-ylcarb -> TLR2     skip (not drug-like)
+  [162/238] 1-[(4-methoxyphenyl)methoxy] -> TLR2     skip (not drug-like)
+  [163/238] [(2R)-3-[(2R)-2-amino-3-[[(2 -> TLR2     skip (not drug-like)
+  [164/238] (2S,5S,8R,11S,14S,17S,20S,23 -> TLR2     skip (not drug-like)
+  [165/238] Propyl 2-[(4-methylpiperazin -> TLR2     skip (not drug-like)
+  [166/238] Guselkumab                   -> IL12B    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [167/238] 1-(tert-butylamino)-3-[3,5-d -> TLR2     skip (not drug-like)
+  [168/238] Dodecanoic acid (S)-1-{2-[(S -> TLR2     skip (not drug-like)
+  [169/238] N'-ethyl-N-[4-(1H-imidazol-5 -> TLR2     skip (not drug-like)
+  [170/238] Isoliquiritigenin            -> MMP3     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [171/238] (2R,3R,4S,5S)-2-(6-aminopuri -> TLR2     skip (not drug-like)
+  [172/238] N-[3-[(E)-2-nitroethenyl]phe -> TLR2     skip (not drug-like)
+  [173/238] Phenformin                   -> STK11    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [174/238] Satralizumab                 -> IL6R     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [175/238] Danazol                      -> MBL2     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [176/238] Progesterone                 -> IL2RA    n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [177/238] Isoniazid                    -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [178/238] Artesunate                   -> NFKB1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [179/238] Fluorouracil                 -> IL6R     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [180/238] Fluorouracil                 -> IL2RA    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [181/238] Pyrimethamine                -> STAT3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [182/238] Ritonavir                    -> TLR4     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [183/238] Sorafenib                    -> STAT3    n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+ *[184/238] Rifampicin                   -> TNF      n=   1 agree=   0 dis=   0 ambiguous    log2FC=-1.1
+  [185/238] Simvastatin                  -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [186/238] Dodecanoic acid (R)-1-{2-[(R -> TLR2     skip (not drug-like)
+  [187/238] ethyl 2-[(phenylcarbamothioy -> TLR2     skip (not drug-like)
+  [188/238] N-hydroxy-2-[[4-[4-(3-methox -> MMP3     skip (not drug-like)
+  [189/238] Berkeleyamide A              -> MMP3     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [190/238] (2R,3R)-N-{(1R)-4-Nitroguany -> MMP3     skip (not drug-like)
+  [191/238] Niclosamide                  -> STAT3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [192/238] Polaprezinc                  -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [193/238] Bacampicillin                -> HLA-A    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [194/238] Ticarcillin                  -> IL2      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [195/238] 3-[4-(4-Fluoro-phenoxy)-benz -> MMP3     skip (not drug-like)
+  [196/238] Vadimezan                    -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [197/238] Hydroxychloroquine           -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [198/238] Ampicillin                   -> HLA-A    n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [199/238] Ciglitazone                  -> STAT3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [200/238] Saquinavir                   -> TLR4     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [201/238] Methylisothiazolinone        -> MMP3     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [202/238] Methyl 2-[(phenylcarbamothio -> TLR2     skip (not drug-like)
+  [203/238] 2-Methylpropyl 2-(naphthalen -> TLR2     skip (not drug-like)
+  [204/238] Pseudoephedrine              -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [205/238] Emodin                       -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [206/238] 1-(tert-butylamino)-3-[(E)-1 -> TLR2     skip (not drug-like)
+  [207/238] 91900553                     -> TLR2     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [208/238] 91900552                     -> TLR2     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [209/238] (4R)-4-[[(2R)-2-[[(2R)-2-[[( -> TLR2     skip (not drug-like)
+  [210/238] Batimastat                   -> MMP3     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [211/238] 91900575                     -> TLR2     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [212/238] Methyl 2-(2-hydroxyethanesul -> TLR2     skip (not drug-like)
+  [213/238] (2S)-2-[[(2R)-2-amino-3-[(2R -> TLR2     skip (not drug-like)
+  [214/238] compound 13 [PMID: 23098072] -> TLR2     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [215/238] 91900589                     -> TLR2     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [216/238] 91900587                     -> TLR2     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [217/238] 91900582                     -> TLR2     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [218/238] Ac-I[CVTQDWGHHRC]T-NH2       -> C3       n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [219/238] Ac-Ile-Cys(1)-Val-Trp(Me)-Gl -> C3       skip (not drug-like)
+  [220/238] 91900521                     -> TLR2     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [221/238] [(2R)-3-[(2R)-3-[[2-[[(2R)-1 -> TLR2     skip (not drug-like)
+  [222/238] Bromocriptine                -> IL2      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [223/238] Bromocriptine                -> LEP      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [224/238] Pioglitazone                 -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+ *[225/238] Metformin                    -> TNF      n=   1 agree=   0 dis=   0 ambiguous    log2FC=1.1
+  [226/238] Metformin                    -> STK11    n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [227/238] Metformin                    -> STAT3    n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [228/238] Lopinavir                    -> SMAD3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [229/238] Rosiglitazone                -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [230/238] Methacholine                 -> AHR      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [231/238] Rolipram                     -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [232/238] Theophylline                 -> IL2RA    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [233/238] Melatonin                    -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [234/238] Drugs, Chinese Herbal        -> EPO      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+ *[235/238] Antibodies                   -> TNF      n=   1 agree=   0 dis=   0 ambiguous    log2FC=1.6
+ *[236/238] Antibodies, Monoclonal       -> TNF      n=   1 agree=   0 dis=   0 ambiguous    log2FC=1.6
+  [237/238] Microbicides                 -> TLR4     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+ *[238/238] Calcium                      -> CAST     n=   5 agree=   0 dis=   0 ambiguous    log2FC=-1.2
+
+--- 163 edges evaluated in 156s ---
+verdicts: {'tested_not_significant': 32, 'ambiguous': 13, 'no_drug_data': 117, 'agrees': 1}
+covered by >=1 GXA contrast: 14/163 (9%)
+edges with ANY GXA information (incl. tested-not-significant): 46/163 (28%)
+edges carrying an asserted direction: 36/163
+skipped as not drug-like: 75
+wrote data/ars/c3efea15-1a8f-4c09-a521-7462603bec08/route_a.json

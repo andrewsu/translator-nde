@@ -35,3 +35,196 @@
   [33/220] Troleandomycin               -> CYP3A4   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [34/220] Troleandomycin               -> CYP2D6   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [35/220] Troleandomycin               -> CYP1A2   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [36/220] Bambuterol                   -> ADRB2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [37/220] Bambuterol                   -> BCHE     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [38/220] Pemirolast                   -> HRH1     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [39/220] P [Preparations]             -> PROC     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [40/220] Budesonide                   -> CYP3A4   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [41/220] Budesonide                   -> CRHR1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [42/220] Budesonide                   -> NR1I2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [43/220] Budesonide                   -> EDN1     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [44/220] Budesonide                   -> PGR      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [45/220] Budesonide                   -> NR3C2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [46/220] Budesonide                   -> CYP1A2   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [47/220] Budesonide                   -> ANXA1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [48/220] Budesonide                   -> CYP2C19  n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [49/220] Budesonide                   -> CYP2C9   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [50/220] Formoterol                   -> ADRB1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [51/220] Formoterol                   -> CYP2C19  n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [52/220] glucocorticoid               -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [53/220] glucocorticoid               -> TSC22D3  n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [54/220] glucocorticoid               -> TGFB1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [55/220] Oxtriphylline                -> ADORA2A  n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [56/220] Oxtriphylline                -> ADORA1   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [57/220] Oxtriphylline                -> PDE4A    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [58/220] Terfenadine                  -> THPO     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [59/220] Terfenadine                  -> HRH1     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [60/220] Terfenadine                  -> CD86     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [61/220] Oxatomide                    -> HRH1     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [62/220] Pseudoephedrine              -> ADRB2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [63/220] Pseudoephedrine              -> ADRB1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [64/220] Pseudoephedrine              -> DRD2     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [65/220] Desonide                     -> NR3C1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [66/220] 4-[2-(3,5-Dimethoxyphenyl)et -> P2RX3    skip (not drug-like)
+  [67/220] L-βγ-meATP                   -> P2RX3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [68/220] A317491                      -> P2RX3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [69/220] (7S)-3-[2-(2,5-dimethoxyphen -> P2RX3    skip (not drug-like)
+  [70/220] PPADS                        -> P2RX3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [71/220] 4-[2-(2,5-dimethoxyphenyl)et -> P2RX3    skip (not drug-like)
+  [72/220] 2-[1-[(4-Chlorophenyl)methyl -> P2RX3    skip (not drug-like)
+  [73/220] H-D-Phe-His-Leu-Leu-Arg-Glu- -> CRHR2    skip (not drug-like)
+  [74/220] Ac-Asp-Leu-Ser-D-Phe-His-aMe -> CRHR2    skip (not drug-like)
+  [75/220] Ac-Asp-Leu-Ser-D-Phe-His-aMe -> CRHR2    skip (not drug-like)
+  [76/220] Ac-Asp-Leu-Ser-D-Phe-His-D-a -> CRHR2    skip (not drug-like)
+  [77/220] 11-Acetyl-4-[2-(2,5-dimethox -> P2RX3    skip (not drug-like)
+  [78/220] alpha,beta-Methyleneadenosin -> P2RX3    skip (not drug-like)
+  [79/220] Bafilomycin A1               -> P2RX3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [80/220] 3'-[2-(3,5-dimethoxyphenyl)e -> P2RX3    skip (not drug-like)
+  [81/220] 4-[2-(3,5-Dimethoxyphenyl)et -> P2RX3    skip (not drug-like)
+  [82/220] 4-[2-(2,5-Dimethoxyphenyl)et -> P2RX3    skip (not drug-like)
+  [83/220] Sorafenib                    -> ATG5     n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [84/220] corticotrophin-releasing hor -> CRHR2    skip (not drug-like)
+  [85/220] RO3                          -> P2RX3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [86/220] 5-cyclohexyl-3-hydroxy-4-(4- -> P2RX3    skip (not drug-like)
+  [87/220] 4-(2-cyclohexyl-4-hydroxy-1- -> P2RX3    skip (not drug-like)
+  [88/220] Phorbol 12-myristate 13-acet -> GATA1    skip (not drug-like)
+  [89/220] 1-[(4-Chlorophenyl)methyl]-3 -> P2RX3    skip (not drug-like)
+  [90/220] [4-[[3-[1-[4-Chloro-3-(trifl -> P2RX3    skip (not drug-like)
+  [91/220] 4-[2-(2-Methoxyphenyl)ethyl] -> P2RX3    skip (not drug-like)
+  [92/220] 1,n6-Ethenoadenosine 5'-trip -> P2RX3    skip (not drug-like)
+  [93/220] [[(3aR,4R,6R,6aR)-4-(6-amino -> P2RX3    skip (not drug-like)
+  [94/220] ethyl 4-[3-(2,2-dimethylprop -> P2RX3    skip (not drug-like)
+  [95/220] 3-[3-[2-(2,5-Dimethoxyphenyl -> P2RX3    skip (not drug-like)
+  [96/220] 11-(4-Fluorophenyl)sulfonyl- -> P2RX3    skip (not drug-like)
+  [97/220] (4E)-4-[hydroxy-(4-methoxyph -> P2RX3    skip (not drug-like)
+  [98/220] 4-[2-(3,5-Dimethoxyphenyl)et -> P2RX3    skip (not drug-like)
+  [99/220] AF-906                       -> P2RX3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [100/220] astressin 2B                 -> CRHR2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [101/220] (4Z)-4-[hydroxy-(4-methoxyph -> P2RX3    skip (not drug-like)
+  [102/220] 2-(4-acetylpiperazin-1-yl)-4 -> P2RX3    skip (not drug-like)
+  [103/220] ATPGAMMAS                    -> P2RX3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [104/220] 3-hydroxy-1-(4-(isoxazol-3-y -> P2RX3    skip (not drug-like)
+  [105/220] DDE                          -> PPARGC1A n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [106/220] [(1R)-3-(3,4-dimethoxyphenyl -> FKBP4    skip (not drug-like)
+  [107/220] 1-(5-chlorothiophen-2-yl)-6- -> P2RX3    skip (not drug-like)
+  [108/220] (2S)-3-[3-[(4-chlorophenyl)m -> P2RX3    skip (not drug-like)
+  [109/220] TNP-ATP                      -> P2RX3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [110/220] 2-[2-[2-(2,5-Dimethoxyphenyl -> P2RX3    skip (not drug-like)
+  [111/220] Tert-butyl 4-[2-(2-fluorophe -> P2RX3    skip (not drug-like)
+  [112/220] 2-[3-[(1R)-1-[(2S)-1-(3-cyan -> FKBP4    skip (not drug-like)
+  [113/220] 2-[3-[(1R)-1-[(2S)-1-(1,3-be -> FKBP4    skip (not drug-like)
+  [114/220] {3-[(1r)-3-(3,4-Dimethoxyphe -> FKBP4    skip (not drug-like)
+  [115/220] Tert-butyl 4-[2-(2,3-dimetho -> P2RX3    skip (not drug-like)
+  [116/220] Suramin                      -> P2RX3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [117/220] 2-(1-adamantyl)-N-[2-(4-meth -> P2RX3    skip (not drug-like)
+  [118/220] [125I]urocortin 1 (mouse, ra -> CRHR2    skip (not drug-like)
+  [119/220] 2-(3,4-dimethoxyphenoxy)ethy -> FKBP4    skip (not drug-like)
+  [120/220] 4-[2-(2,5-dimethoxyphenyl)pr -> P2RX3    skip (not drug-like)
+  [121/220] (2S)-3-[3-[(4-chlorophenyl)m -> P2RX3    skip (not drug-like)
+  [122/220] (2S)-1-[2-[[(2S)-2-[[(2S)-2- -> FKBP4    skip (not drug-like)
+  [123/220] DISODIUM 4,4'-DIISOTHIOCYANA -> P2RX3    skip (not drug-like)
+  [124/220] Aclarubicin                  -> GATA1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [125/220] H-Ser-Gln-D-Glu-D-Pro-Pro-Il -> CRHR2    skip (not drug-like)
+  [126/220] 3-tert-butyl-5-(4-(isoxazol- -> P2RX3    skip (not drug-like)
+  [127/220] 11-(2-Aminoacetyl)-4-[2-(3,5 -> P2RX3    skip (not drug-like)
+  [128/220] Capsaicin                    -> TRPV1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [129/220] Capsaicin                    -> MAPK1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [130/220] 5-(4-fluorophenyl)-3-hydroxy -> P2RX3    skip (not drug-like)
+  [131/220] 4-(2-cyclohexyl-4-hydroxy-1- -> P2RX3    skip (not drug-like)
+  [132/220] 4-[2-(3,5-Dimethoxyphenyl)et -> P2RX3    skip (not drug-like)
+  [133/220] (S)-((R)-3-(3,4-dimethoxyphe -> FKBP4    skip (not drug-like)
+  [134/220] 2-[3-[(1R)-3-(3,4-dimethoxyp -> FKBP4    skip (not drug-like)
+  [135/220] 4-[2-(3,5-Dimethoxyphenyl)et -> P2RX3    skip (not drug-like)
+  [136/220] {5-[(Cyclopropylmethyl-propy -> CRHR2    skip (not drug-like)
+  [137/220] [4-[3-[1-[4-(Dimethylamino)b -> P2RX3    skip (not drug-like)
+  [138/220] (2S)-3-[3-[(4-chlorophenyl)m -> P2RX3    skip (not drug-like)
+  [139/220] Ac-Asp-Leu-Ser-D-Phe-His-aMe -> CRHR2    skip (not drug-like)
+  [140/220] 3-(5-Chloropyridin-2-yl)-5-( -> P2RX3    skip (not drug-like)
+  [141/220] 4-[1-(2,5-dimethoxyphenyl)pr -> P2RX3    skip (not drug-like)
+  [142/220] 2-(4-acetylpiperazin-1-yl)-6 -> P2RX3    skip (not drug-like)
+  [143/220] 4-[2-(2,6-dimethoxy-5-methyl -> P2RX3    skip (not drug-like)
+  [144/220] 2-[3-[2-(2,5-Dimethoxyphenyl -> P2RX3    skip (not drug-like)
+  [145/220] 2-[3-[(1R)-1-[(2S)-1-(3,5-di -> FKBP4    skip (not drug-like)
+  [146/220] N,N-dimethyl-3-oxo-4-[2-[2-( -> P2RX3    skip (not drug-like)
+  [147/220] 11-(Benzenesulfonyl)-4-[2-(2 -> P2RX3    skip (not drug-like)
+  [148/220] 2-[2-[2-(2,5-Dimethoxyphenyl -> P2RX3    skip (not drug-like)
+  [149/220] 8-Azidoadenosine 5'-triphosp -> P2RX3    skip (not drug-like)
+  [150/220] 1-(5-Chlorothiophen-2-yl)-6- -> P2RX3    skip (not drug-like)
+  [151/220] Tert-butyl 4-[2-(2,4-dimetho -> P2RX3    skip (not drug-like)
+  [152/220] N-[4-[3-[2-(2,5-dimethoxyphe -> P2RX3    skip (not drug-like)
+  [153/220] 2-[3-[2-(3,5-Dimethoxyphenyl -> P2RX3    skip (not drug-like)
+  [154/220] 4-[2-(3,6-dichloro-2-fluorop -> P2RX3    skip (not drug-like)
+  [155/220] Ac-D-Phe-His-aMeLeu-Leu-Arg- -> CRHR2    skip (not drug-like)
+  [156/220] mono(2-ethylhexyl) phthalate -> PPARGC1A skip (not drug-like)
+  [157/220] CID 73356174                 -> CRHR2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [158/220] (3aR,4R,7S,7aS)-7-ethyl 2,4- -> DNTT     skip (not drug-like)
+  [159/220] 3-((5E)-5-{[3-(4-ethoxy-3-me -> P2RX3    skip (not drug-like)
+  [160/220] BAY-1797                     -> P2RX3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [161/220] H-D-Phe-His-Leu-Leu-Arg-Glu- -> CRHR2    skip (not drug-like)
+  [162/220] 4-[2-(2-Methoxyphenyl)ethyl] -> P2RX3    skip (not drug-like)
+  [163/220] 2-[3-[2-(3,5-dimethoxyphenyl -> P2RX3    skip (not drug-like)
+  [164/220] 4-[2-(3,5-Dimethoxyphenyl)et -> P2RX3    skip (not drug-like)
+  [165/220] untenone A                   -> DNTT     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [166/220] N-methyl-N'-nitro-N-nitrosog -> YY1      skip (not drug-like)
+  [167/220] Tert-butyl 4-[2-(3,4-dimetho -> P2RX3    skip (not drug-like)
+  [168/220] Tert-butyl 3-oxo-4-(2-phenyl -> P2RX3    skip (not drug-like)
+  [169/220] 5-[(3-chlorophenoxy)methyl]- -> P2RX3    skip (not drug-like)
+  [170/220] 2-[3-[(1R)-3-(3,4-dimethoxyp -> FKBP4    skip (not drug-like)
+  [171/220] 2'-fluoro-2'-deoxyadenosine  -> P2RX3    skip (not drug-like)
+  [172/220] ethyl 4-[4-hydroxy-3-[(4-met -> P2RX3    skip (not drug-like)
+ *[173/220] Rifampicin                   -> PPARGC1A n=   1 agree=   1 dis=   0 agrees       log2FC=3.2
+  [174/220] 2-(4-acetylpiperazin-1-yl)-4 -> P2RX3    skip (not drug-like)
+  [175/220] 5-cyclohexyl-3-hydroxy-1-(4- -> P2RX3    skip (not drug-like)
+ *[176/220] Cyclic AMP                   -> PPARGC1A n=   2 agree=   2 dis=   0 agrees       log2FC=1.85
+  [177/220] INTERFERON ALFA-2A           -> IFNAR1   n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [178/220] INTERFERON ALFA-2A           -> IFNAR2   n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [179/220] 11-(2,2-Difluoropropanoyl)-4 -> P2RX3    skip (not drug-like)
+  [180/220] 11-(2-Amino-2-methylpropanoy -> P2RX3    skip (not drug-like)
+  [181/220] Tabalumab                    -> TNFSF13B n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [182/220] Camrelizumab                 -> PDCD1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [183/220] Tildrakizumab                -> IL12B    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [184/220] Tovetumab                    -> PDGFRA   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [185/220] Vanucizumab                  -> VEGFA    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [186/220] RI 624                       -> NGF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [187/220] Galcanezumab                 -> CALCA    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [188/220] Ustekinumab                  -> IL12B    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [189/220] Clazakizumab                 -> IL6      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [190/220] Benralizumab                 -> IL5RA    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [191/220] Omalizumab                   -> FCER1A   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+ *[192/220] Infliximab                   -> TNF      n=   3 agree=   0 dis=   0 ambiguous    log2FC=1.1
+  [193/220] Depatuxizumab                -> EGFR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [194/220] Tezepelumab                  -> TSLP     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [195/220] INTERFERON GAMMA-1B          -> IFNGR1   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [196/220] Tert-butyl 4-[3-(2-methoxyph -> P2RX3    skip (not drug-like)
+  [197/220] Brinzolamide                 -> CA4      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [198/220] Brinzolamide                 -> CA1      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [199/220] 2-[3-[(1R)-1-[(2S)-1-(4-acet -> FKBP4    skip (not drug-like)
+  [200/220] Epinephrine                  -> ADRB1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [201/220] epinine                      -> TP53     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [202/220] Testosterone cypionate       -> NR3C2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [203/220] 3-[2-(2,5-dimethoxyphenyl)et -> P2RX3    skip (not drug-like)
+  [204/220] Piribedil                    -> CYP3A4   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [205/220] Piribedil                    -> DRD2     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [206/220] Piribedil                    -> ADRA2A   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [207/220] Piribedil                    -> DRD3     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [208/220] Piribedil                    -> HTR1A    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [209/220] Tert-butyl 4-[2-(3,5-dimetho -> P2RX3    skip (not drug-like)
+  [210/220] Dipyrithione                 -> PTGS2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [211/220] Dipyrithione                 -> NOS2     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [212/220] Troglitazone                 -> PPARGC1A n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [213/220] Tanezumab                    -> NGF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [214/220] Gevokizumab                  -> IL1B     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [215/220] Apomab                       -> TNFRSF10B n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [216/220] Xentuzumab                   -> IGF1     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [217/220] Eldelumab                    -> CXCL10   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [218/220] Pseudoephedrine              -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+ *[219/220] Antibodies                   -> TNF      n=   1 agree=   0 dis=   0 ambiguous    log2FC=1.6
+  [220/220] INTERFERON GAMMA-1B          -> IFNGR2   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+
+--- 123 edges evaluated in 105s ---
+verdicts: {'no_drug_data': 112, 'tested_not_significant': 7, 'agrees': 2, 'ambiguous': 2}
+covered by >=1 GXA contrast: 4/123 (3%)
+edges with ANY GXA information (incl. tested-not-significant): 11/123 (9%)
+edges carrying an asserted direction: 19/123
+skipped as not drug-like: 97
+wrote data/ars/5b656c0f-b7da-4db4-ba1f-d3a794b422d4/route_a.json

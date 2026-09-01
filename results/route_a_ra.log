@@ -23,3 +23,242 @@
   [21/254] Piroxicam                    -> PTGS1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [22/254] Etoricoxib                   -> PTGS2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [23/254] cyclooxygenase 2 inhibitor   -> VEGFA    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [24/254] Cyclooxygenase 2             -> VEGFA    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+ *[25/254] Infliximab                   -> TNF      n=   3 agree=   0 dis=   0 ambiguous    log2FC=1.1
+  [26/254] Chondroitin sulfate          -> VEGFA    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [27/254] Ketoprofen                   -> PTGS1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [28/254] Ketoprofen                   -> CXCR1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [29/254] Ketoprofen                   -> PTGS2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [30/254] Betamethasone                -> ACHE     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [31/254] Betamethasone                -> NR3C1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [32/254] Betamethasone                -> HMOX2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [33/254] Flurbiprofen                 -> PTGS1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [34/254] Flurbiprofen                 -> PTGS2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [35/254] Zoledronic acid              -> VEGFA    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [36/254] Proglumetacin                -> PPARD    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [37/254] Anti-Inflammatory Agents, No -> TNF      skip (not drug-like)
+  [38/254] epinine                      -> TP53     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [39/254] Tenamfetamine                -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [40/254] Rofecoxib                    -> ELN      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [41/254] Rofecoxib                    -> PTGS2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [42/254] Rofecoxib                    -> BIRC5    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [43/254] Penicillamine                -> CP       n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [44/254] Penicillamine                -> PTH      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [45/254] Penicillamine                -> DDIT3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [46/254] Penicillamine                -> GCG      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [47/254] Tenoxicam                    -> PTGS1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [48/254] Tenoxicam                    -> PTGS2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [49/254] Salsalate                    -> PTGS1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [50/254] Salsalate                    -> PTGS2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [51/254] Tiaprofenic acid             -> PTGS2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [52/254] Tiaprofenic acid             -> PTGS1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [53/254] Tenidap                      -> ALOX5    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [54/254] Antirheumatic Agents         -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [55/254] Meclofenamic acid            -> PTGS1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [56/254] Meclofenamic acid            -> PTGS2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [57/254] Meclofenamic acid            -> ALOX5    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [58/254] Benorilate                   -> AR       n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [59/254] B [Preparations]             -> CTLA4    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [60/254] 3-((4-Oxo-2-thioxo-3-(3-(tri -> CFTR     skip (not drug-like)
+  [61/254] (3S)-N-(4-pentylphenyl)-2-(3 -> CFTR     skip (not drug-like)
+  [62/254] 1-Benzyl-3-[4-(trifluorometh -> CFTR     skip (not drug-like)
+  [63/254] CID 129304807                -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [64/254] 1-Benzyl-5-chloro-3-(3-nitro -> CFTR     skip (not drug-like)
+  [65/254] 3-amino-N-(3,3,3-trifluoro-2 -> CFTR     skip (not drug-like)
+  [66/254] CID 129285968                -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [67/254] Phosphate ion                -> Glucose-6-Phosphate Isomerase n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [68/254] ethyl 2-[2-[ethyl-(4-iodoben -> CFTR     skip (not drug-like)
+  [69/254] Dronabinol                   -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [70/254] Fenbufen                     -> PTGS2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [71/254] Fenbufen                     -> PTGS1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [72/254] (2S,3R,4S,5S)-3-tert-butyl-1 -> CFTR     skip (not drug-like)
+  [73/254] 3-(3-Nitrophenyl)-1-(pyridin -> CFTR     skip (not drug-like)
+  [74/254] (3S)-2-(3-cyclopentyloxybenz -> CFTR     skip (not drug-like)
+  [75/254] Asperidine C                 -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [76/254] [3-Amino-5-(4-fluorophenyl)s -> CFTR     skip (not drug-like)
+  [77/254] (8-Methoxy-1,3,4,5-tetrahydr -> CFTR     skip (not drug-like)
+  [78/254] (8-Fluoro-1,3,4,5-tetrahydro -> CFTR     skip (not drug-like)
+  [79/254] 4-(6-Amino-2-chloropurin-9-y -> CFTR     skip (not drug-like)
+  [80/254] 3-amino-N-[(2R)-3,3,3-triflu -> CFTR     skip (not drug-like)
+  [81/254] Captopril                    -> CYP19A1  n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [82/254] Captopril                    -> ACE2     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [83/254] Captopril                    -> MMP2     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [84/254] Captopril                    -> SERPINE1 n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [85/254] Captopril                    -> MMP9     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [86/254] Captopril                    -> DPP4     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [87/254] Captopril                    -> NOS2     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [88/254] CID 129304815                -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [89/254] 3-[2-(2,2-dimethylpropanoyla -> CFTR     skip (not drug-like)
+  [90/254] 1-(1,3-benzodioxol-5-yl)-N-[ -> CFTR     skip (not drug-like)
+  [91/254] (2S,3R,4S,5S)-3-tert-butyl-4 -> CFTR     skip (not drug-like)
+  [92/254] CID 140857572                -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [93/254] 1,3,4,5-tetrahydropyrido[4,3 -> CFTR     skip (not drug-like)
+  [94/254] (1S,11R,12S,15S,16S)-6-amino -> CFTR     skip (not drug-like)
+  [95/254] Lornoxicam                   -> PTGS1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [96/254] Lornoxicam                   -> PTGS2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [97/254] Lornoxicam                   -> GCG      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [98/254] Apigenin                     -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [99/254] Chelerythrine                -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [100/254] N-[12-(2-methoxy-5-nitroanil -> CFTR     skip (not drug-like)
+  [101/254] Galicaftor (ABBV-2222)       -> CFTR     skip (not drug-like)
+  [102/254] Eluforsen                    -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [103/254] (14S)-12,12-dimethyl-2,2-dio -> CFTR     skip (not drug-like)
+  [104/254] 2-(1-Hydroxypentyl)-6-methyl -> CFTR     skip (not drug-like)
+  [105/254] 1-(benzo[d][1,3]dioxol-5-yl) -> CFTR     skip (not drug-like)
+  [106/254] (8-methoxy-1,3,4,5-tetrahydr -> CFTR     skip (not drug-like)
+  [107/254] (2S,3S,4S,5S)-1-(cyclohexane -> CFTR     skip (not drug-like)
+  [108/254] (2S,3S,4S,5S)-3-tert-butyl-1 -> CFTR     skip (not drug-like)
+  [109/254] 1-Benzyl-3-(3-nitrophenyl)qu -> CFTR     skip (not drug-like)
+  [110/254] 1-Benzyl-3-(4-nitrophenyl)qu -> CFTR     skip (not drug-like)
+  [111/254] (7-methyl-1,3,4,5-tetrahydro -> CFTR     skip (not drug-like)
+  [112/254] Ethyl 2-[[1-(1,3-benzodioxol -> CFTR     skip (not drug-like)
+  [113/254] ethyl 4-(2-(1-(benzo[d][1,3] -> CFTR     skip (not drug-like)
+  [114/254] (3S)-2-(3-cyclohexyloxybenzo -> CFTR     skip (not drug-like)
+  [115/254] (2S,3R,4S,5S)-3-tert-butyl-5 -> CFTR     skip (not drug-like)
+  [116/254] 1-(1,3-benzodioxol-5-yl)-N-[ -> CFTR     skip (not drug-like)
+  [117/254] GLPG-1837                    -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [118/254] Unii-W94ID4MZ81              -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [119/254] 3-(4-Benzyl-3-oxoquinoxalin- -> CFTR     skip (not drug-like)
+  [120/254] CID 129285959                -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [121/254] (2S,3S,4S,5S)-3-tert-butyl-4 -> CFTR     skip (not drug-like)
+  [122/254] (1S,11R,12S,15S,16S)-5-amino -> CFTR     skip (not drug-like)
+  [123/254] 3-amino-N-(2-hydroxy-2-methy -> CFTR     skip (not drug-like)
+  [124/254] N-[5-[5-[(5-chloro-2-methoxy -> CFTR     skip (not drug-like)
+  [125/254] N-[12-[5-chloro-2-(dimethyla -> CFTR     skip (not drug-like)
+  [126/254] 1-Benzyl-6-bromo-3-(3-nitrop -> CFTR     skip (not drug-like)
+  [127/254] (6-fluoro-8-methyl-1,3,4,5-t -> CFTR     skip (not drug-like)
+  [128/254] bile acids                   -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [129/254] N-[12-(5-chloro-2-methoxyani -> CFTR     skip (not drug-like)
+  [130/254] (3S)-N-(4-chlorophenyl)-2-(3 -> CFTR     skip (not drug-like)
+  [131/254] 2-(3-((4-Oxo-2-thioxo-3-(3-( -> CFTR     skip (not drug-like)
+  [132/254] (6-fluoro-9-methyl-1,3,4,5-t -> CFTR     skip (not drug-like)
+  [133/254] CGP 12177                    -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [134/254] 3-(4-chlorophenyl)-N-(2,3-di -> CFTR     skip (not drug-like)
+  [135/254] N-(3-methylsulfanylphenyl)-4 -> CFTR     skip (not drug-like)
+  [136/254] N-[2-[[6-[(4-fluorophenyl)me -> CFTR     skip (not drug-like)
+  [137/254] CID 129304813                -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [138/254] 1-Benzyl-3-(2-nitrophenyl)qu -> CFTR     skip (not drug-like)
+  [139/254] (8-Methyl-1,3,4,5-tetrahydro -> CFTR     skip (not drug-like)
+  [140/254] CID 140857436                -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [141/254] (9-methyl-1,3,4,5-tetrahydro -> CFTR     skip (not drug-like)
+  [142/254] PHENANTHROLINE               -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [143/254] (2S,3S,4S,5S)-3-tert-butyl-4 -> CFTR     skip (not drug-like)
+  [144/254] 4-(4-fluorophenyl)-N-(3-meth -> CFTR     skip (not drug-like)
+  [145/254] (2S,3S,4S,5S)-4-[[5-(1-adama -> CFTR     skip (not drug-like)
+  [146/254] ethyl 3-[(2R,4S,6S)-4-[[1-(2 -> CFTR     skip (not drug-like)
+  [147/254] (8-(Trifluoromethyl)-1,3,4,5 -> CFTR     skip (not drug-like)
+  [148/254] (R)-(6-Fluoro-3,9-dimethyl-1 -> CFTR     skip (not drug-like)
+  [149/254] CID 137547626                -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [150/254] CID 140857761                -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [151/254] (6-Fluoro-8-methoxy-1,3,4,5- -> CFTR     skip (not drug-like)
+  [152/254] N-[12-(5-chloro-2-methoxyani -> CFTR     skip (not drug-like)
+  [153/254] [8-(trifluoromethoxy)-1,3,4, -> CFTR     skip (not drug-like)
+  [154/254] (2S,3R,4S,5S)-3-tert-butyl-1 -> CFTR     skip (not drug-like)
+  [155/254] 4-(4-methyl-2-phenyl-1,3-thi -> CFTR     skip (not drug-like)
+  [156/254] 4-(2-(1-(benzo[d][1,3]dioxol -> CFTR     skip (not drug-like)
+  [157/254] (4-Fluoro-1-methyl-5,6,7,8,9 -> CFTR     skip (not drug-like)
+  [158/254] (2S,3R,4S,5R)-3-tert-butyl-1 -> CFTR     skip (not drug-like)
+  [159/254] 3-[(2R,4S)-4-({[1-(2,2-diflu -> CFTR     skip (not drug-like)
+  [160/254] acarbose                     -> SI       n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [161/254] acarbose                     -> MGAM     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [162/254] acarbose                     -> SLC2A4   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [163/254] acarbose                     -> LPL      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [164/254] (3S)-2-(4-methoxy-3-propan-2 -> CFTR     skip (not drug-like)
+  [165/254] Trimetrexate                 -> MEN1     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [166/254] Trimetrexate                 -> VDR      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [167/254] Trimetrexate                 -> DHFR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [168/254] Trimetrexate                 -> KMT2A    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [169/254] Trimetrexate                 -> ABCB1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [170/254] Trimetrexate                 -> EHMT2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [171/254] Trimetrexate                 -> MAPT     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [172/254] 1-(1,3-benzodioxol-5-yl)-N-[ -> CFTR     skip (not drug-like)
+  [173/254] Aldesleukin                  -> IL2RA    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [174/254] Aldesleukin                  -> IL2      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [175/254] Aldesleukin                  -> IL2RG    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [176/254] Aldesleukin                  -> IL2RB    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [177/254] [6-fluoro-8-(trifluoromethyl -> CFTR     skip (not drug-like)
+  [178/254] Perphenazine                 -> HTR2C    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [179/254] Perphenazine                 -> MTOR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [180/254] Perphenazine                 -> DRD2     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [181/254] Perphenazine                 -> HTR2A    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [182/254] CID 129285924                -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [183/254] Peginterferon alfa-2b        -> IFNAR2   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [184/254] Peginterferon alfa-2b        -> IFNA2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [185/254] Peginterferon alfa-2b        -> IFNAR1   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [186/254] (R/S)-(6-Fluoro-1,9-dimethyl -> CFTR     skip (not drug-like)
+  [187/254] Nateglinide                  -> CYP3A4   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [188/254] Nateglinide                  -> ABCC8    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [189/254] Nateglinide                  -> SLCO1B1  n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [190/254] Nateglinide                  -> PPARG    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [191/254] Nateglinide                  -> CYP1A2   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [192/254] Adapalene                    -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [193/254] Fomepizole                   -> ADH1B    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [194/254] Fomepizole                   -> AVP      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [195/254] Fomepizole                   -> ADH1C    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [196/254] Fomepizole                   -> EHMT2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [197/254] Fomepizole                   -> ADH1A    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [198/254] Fomepizole                   -> CAT      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [199/254] Crofelemer                   -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [200/254] Tirofiban                    -> ITGA2B   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [201/254] Tirofiban                    -> FGG      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [202/254] Tirofiban                    -> FGB      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [203/254] Tirofiban                    -> ITGB3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [204/254] Tirofiban                    -> FGA      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [205/254] N-acetylsphingosine          -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [206/254] Prazepam                     -> GABRA1   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [207/254] Prazepam                     -> TSPO     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [208/254] Prazepam                     -> AR       n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [209/254] 4-(4-chlorothiophen-2-yl)-N- -> CFTR     skip (not drug-like)
+  [210/254] Flupentixol                  -> DRD1     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [211/254] Flupentixol                  -> DRD2     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [212/254] Flupentixol                  -> ATXN2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [213/254] Flupentixol                  -> ADRA1A   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [214/254] Flupentixol                  -> HTR2C    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [215/254] Flupentixol                  -> HTR2A    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [216/254] 1-(Benzo[d][1,3]dioxol-6-yl) -> CFTR     skip (not drug-like)
+  [217/254] AMP                          -> ADORA2A  n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [218/254] AMP                          -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [219/254] Lumefantrine                 -> CYP3A5   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [220/254] Lumefantrine                 -> CYP3A4   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [221/254] Lumefantrine                 -> ATP1A1   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [222/254] 2,4-Dimethylpyrimido[2,1-a]i -> CFTR     skip (not drug-like)
+  [223/254] Nefazodone                   -> HTR2A    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [224/254] Nefazodone                   -> AR       n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [225/254] Nefazodone                   -> ADRA1A   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [226/254] Nefazodone                   -> ABCB1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [227/254] Nefazodone                   -> ADRA2A   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [228/254] Nefazodone                   -> HTT      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [229/254] Nefazodone                   -> CYP3A4   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [230/254] Nefazodone                   -> HTR2C    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [231/254] Nefazodone                   -> HTR1A    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [232/254] (8-Methoxy-1,3,4,5-tetrahydr -> CFTR     skip (not drug-like)
+  [233/254] Acetyldigitoxin              -> ATP1A1   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [234/254] Flunisolide                  -> NR3C1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [235/254] Sirolimus                    -> VEGFA    n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [236/254] Lactulose                    -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [237/254] Corr4A                       -> CFTR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [238/254] Metildigoxin                 -> AR       n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [239/254] Bevacizumab                  -> VEGFA    n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [240/254] Bevacizumab                  -> FCGR2A   n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [241/254] 6-[(4-fluorophenyl)methyl]-2 -> CFTR     skip (not drug-like)
+  [242/254] Ibutilide                    -> CACNA2D1 n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [243/254] Ibutilide                    -> KCNH2    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [244/254] Ibutilide                    -> KCNH7    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [245/254] (2S,3S,4S,5S)-3-tert-butyl-4 -> CFTR     skip (not drug-like)
+  [246/254] Bifonazole                   -> CYP2B6   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [247/254] Bifonazole                   -> HSP90AA1 n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [248/254] Bifonazole                   -> KDM4A    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [249/254] Bifonazole                   -> AR       n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [250/254] 1-(benzo[d][1,3]dioxol-5-yl) -> CFTR     skip (not drug-like)
+  [251/254] Penicillamine                -> STS      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [252/254] Chondroitin sulfate          -> CCL2     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [253/254] Perphenazine                 -> HRH1     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [254/254] Ibutilide                    -> CACNA1C  n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+
+--- 174 edges evaluated in 222s ---
+verdicts: {'tested_not_significant': 10, 'no_drug_data': 163, 'ambiguous': 1}
+covered by >=1 GXA contrast: 1/174 (1%)
+edges with ANY GXA information (incl. tested-not-significant): 11/174 (6%)
+edges carrying an asserted direction: 27/174
+skipped as not drug-like: 80
+wrote data/ars/d1f9daae-9330-4c2c-81f5-5c21ee2f44f4/route_a.json

@@ -204,3 +204,101 @@ leaders** because they add disease-specific biologics (infliximab, anakinra, eta
 
 Both are immune-mediated and so squarely in NIAID's remit. They are the diseases used for
 example 2.
+
+---
+
+# Worked example 2 — rheumatoid arthritis and ankylosing spondylitis
+
+RA and AS were chosen by the backward analysis above. **The selection did not
+work**, and why it failed is the most useful result in this report.
+
+## Route A across all three diseases
+
+| disease | edges | GXA-covered | any GXA info | agrees | disagrees | tested-not-sig |
+|---|--:|--:|--:|--:|--:|--:|
+| asthma (`MONDO:0004979`) | 123 | 4 (3%) | 11 (9%) | 2 | 0 | 7 |
+| rheumatoid arthritis (`MONDO:0008383`) | 174 | 1 (**1%**) | 11 (6%) | 0 | 0 | 10 |
+| ankylosing spondylitis (`MONDO:0005306`) | 163 | 14 (9%) | 46 (**28%**) | 1 | 0 | 32 |
+
+RA scored **worse than asthma** despite being picked for maximum GXA drug coverage.
+
+## Why the backward selection failed
+
+RA was selected because 9 GXA-covered drugs treat it *according to DrugMechDB*. But
+Translator's creative-mode answer proposes a largely disjoint drug set:
+
+- Translator returns **159 distinct drugs** for RA; **3** are GXA-covered
+  (Baricitinib, Bevacizumab, Infliximab).
+- Of the 9 drugs RA was selected for, **8 never appear in Translator's answer at all** —
+  methotrexate, anakinra, etanercept, prednisone, prednisolone, methylprednisolone,
+  dexamethasone, doxorubicin.
+
+The bottleneck is a **three-way intersection**, and selecting on only one term does not move
+the others:
+
+1. Translator proposes drug D for disease X *with a gene intermediate*
+2. GXA tests D in human
+3. gene G is *significantly* DE in those contrasts
+
+DrugMechDB indications describe established therapy; Translator's inferred `treats` answers
+skew toward mechanism-adjacent and investigational compounds. They are different distributions.
+
+## Splitting "no data" from "tested and null"
+
+GXA stores only *significant* DE results, so an absent record was ambiguous. Separating the two
+roughly triples the interpretable fraction (asthma 3%→9%, AS 9%→28%):
+
+- `tested_not_significant` — GXA tests the drug, but the gene is never significantly DE.
+  **Evidence against** the edge.
+- `no_drug_data` — the drug is absent from GXA. No information either way.
+
+Two cases show why this matters, and both are the same underlying limitation:
+
+| edge | GXA | reading |
+|---|---|---|
+| Baricitinib → JAK1/2/3, TYK2 | drug covered; JAKs never DE | correct mechanism, invisible to expression |
+| Infliximab → TNF | 12,759 drug contrasts, 3 mention TNF, direction *opposes* | correct mechanism, **disagrees** on expression |
+
+Baricitinib inhibits JAK *kinase activity*; infliximab neutralises TNF *protein*. Neither
+changes the transcript in the asserted direction. **Expression is not activity** — this was
+listed as a caveat in the plan and is now the dominant empirical finding. A `disagrees` verdict
+against an `activity`-aspect edge should not be read as contradicting the biology.
+
+Across all three diseases there were **zero genuine `disagrees`** and only 3 `agrees`.
+
+## Route B discovery is far healthier
+
+RA + AS human GEO sequencing series, discovered through NDE, checked against GEO for a deposited
+matrix:
+
+| | series |
+|---|--:|
+| candidates (union of MONDO + free text) | 453 |
+| **re-analyzable** | **182 (40%)** |
+| — raw counts | 117 |
+| — normalized matrix | 65 |
+| with NDE sample-level arm labels | **182 (100%)** |
+
+Raw-counts series: median 24 samples, 65 with ≥20, 22 with ≥50.
+
+⚠️ MONDO-only discovery would have found half of this. Only **41.9%** of NDE's GEO datasets carry
+any `healthCondition`, so the union with free text is necessary (RA 213→422, AS 15→34).
+
+⚠️ Some hits are single-cell (GSE109449, GSE235508) and need different handling than bulk DE.
+
+## Two bugs worth recording
+
+- **Biologics were being used as gene intermediates.** Infliximab is `biolink:Protein` as well as
+  `biolink:Drug`, producing `Etoricoxib → Infliximab → rheumatoid arthritis`. Drug-ness now wins;
+  regression test in `tests/test_path_extraction.py`.
+- **ARS `result_count` is sometimes a string**, which crashed the poll loop with a TypeError and
+  killed the first RA run.
+
+## Where this leaves the project
+
+Route A is a **cheap, precise, very low-recall** filter, and much of what it returns is negative
+evidence about transcription rather than support for a mechanism. It is worth keeping as a
+first pass, but it cannot carry the project.
+
+Route B has 182 re-analyzable series for two diseases alone, all with usable arm labels. That is
+where the remaining effort belongs.
