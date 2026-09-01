@@ -187,27 +187,60 @@ and has ENA run accessions instead.
 
 ## Why coverage is so low
 
-Not the matcher. GXA simply does not contain the drugs. Test-arm contrast counts, measured
-directly, with the fraction of a 200-record sample in which the drug is genuinely the variable:
+Covering an edge takes two independent things to go right:
 
-| Drug | any species | human | verified / sampled |
-|---|--:|--:|--:|
-| dexamethasone | 52,846 | 23,314 | 200/200 |
-| metformin | 2,097 | 928 | 200/200 |
-| prednisolone | 361 | 224 | 200/200 |
-| rifampicin | 108 | 108 | 108/108 |
-| albuterol / salbutamol | 6 | 6 | **0/6** |
-| **budesonide** | **0** | 0 | – |
-| **formoterol** | **0** | 0 | – |
-| **fluticasone** | **0** | 0 | – |
-| **montelukast** | **0** | 0 | – |
-| theophylline | 0 | 0 | – |
-| aspirin | 0 | 0 | – |
-| imatinib | 80 | **0** | – |
+1. GXA has to have **tested that drug in human at all**, and
+2. the **gene** has to be significantly differentially expressed in those contrasts.
 
-The first-line asthma therapeutics have **zero** contrasts, and albuterol's six are all incidental
-matches. Dexamethasone is an outlier, not the norm — GXA is a curated re-analysis of selected
-experiments, not a drug-perturbation atlas.
+Almost all the loss happens at step 1. Of the **77 distinct drugs** behind asthma's 123 evaluable
+edges, only **6 have even one verified human GXA contrast** (8%): prednisolone, prednisone,
+sorafenib, rifampicin, dupilumab and cyclic AMP. Whatever the matcher does at step 2, it can only
+ever work on those six drugs. The same measurement for the other two diseases in this report gives
+2 of 79 for RA (3%) and 20 of 140 for AS (14%).
+
+So the question becomes: *why* does GXA lack these drugs? The table below spot-checks twelve
+compounds to characterise the shape of the gap. It is a hand-assembled list, not a sample — five
+are drugs Translator actually proposed for asthma, four are first-line asthma therapeutics
+Translator did *not* propose (included to show the gap is in GXA rather than in Translator's
+answer), and three are well-studied compounds included as reference points.
+
+Columns: **any species** and **human** are counts of GXA contrasts with the drug in the test arm
+and absent from the reference arm, with and without `species.identifier:9606`. **verified** is how
+many of up to 200 sampled human contrasts survive the factor-position check — i.e. how many
+actually put the drug in the variable position rather than merely mentioning it.
+
+| Drug | in asthma answer? | any species | human | verified / sampled |
+|---|---|--:|--:|--:|
+| dexamethasone | no — reference point | 52,846 | 23,314 | 200/200 |
+| metformin | no — reference point | 2,097 | 928 | 200/200 |
+| prednisolone | **yes** | 361 | 224 | 200/200 |
+| rifampicin | **yes** | 108 | 108 | 108/108 |
+| albuterol / salbutamol | no — first-line asthma | 6 | 6 | **0/6** |
+| **budesonide** | **yes** | **0** | 0 | – |
+| **formoterol** | **yes** | **0** | 0 | – |
+| **fluticasone** | no — first-line asthma | **0** | 0 | – |
+| **montelukast** | no — first-line asthma | **0** | 0 | – |
+| theophylline | no — first-line asthma | 0 | 0 | – |
+| aspirin | **yes** | 0 | 0 | – |
+| imatinib | no — reference point | 80 | **0** | – |
+
+Three things follow.
+
+**The inhaled therapeutics are simply absent.** Budesonide, formoterol, fluticasone and
+montelukast have **zero** contrasts in any species. Two of those are drugs Translator proposed for
+asthma, so this is a gap in GXA, not a quirk of the answer set. Albuterol's six human contrasts
+look like coverage but none survive the factor-position check, so it belongs with the zeros.
+
+**Coverage is not about how well-known a drug is.** Aspirin and theophylline have zero contrasts;
+imatinib has 80, none of them human. GXA is a curated re-analysis of experiments submitted to
+ArrayExpress and GEO, not a drug-perturbation atlas — a compound appears if somebody happened to
+deposit a study using it, which correlates with its use as a *laboratory tool* far more than with
+its clinical importance.
+
+**Dexamethasone is the outlier that makes the atlas look better than it is.** Its 23,314 human
+contrasts are two orders of magnitude above the next drug Translator proposed, and they arise
+because dexamethasone is a workhorse cell-culture reagent. Reasoning from dexamethasone to "GXA
+covers drugs" is the mistake this table is here to prevent.
 
 ## Positive control
 
