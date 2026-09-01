@@ -172,12 +172,12 @@
   [170/220] 2-[3-[(1R)-3-(3,4-dimethoxyp -> FKBP4    skip (not drug-like)
   [171/220] 2'-fluoro-2'-deoxyadenosine  -> P2RX3    skip (not drug-like)
   [172/220] ethyl 4-[4-hydroxy-3-[(4-met -> P2RX3    skip (not drug-like)
- *[173/220] Rifampicin                   -> PPARGC1A n=   1 agree=   1 dis=   0 agrees       log2FC=3.2
+  [173/220] Rifampicin                   -> PPARGC1A n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
   [174/220] 2-(4-acetylpiperazin-1-yl)-4 -> P2RX3    skip (not drug-like)
   [175/220] 5-cyclohexyl-3-hydroxy-1-(4- -> P2RX3    skip (not drug-like)
  *[176/220] Cyclic AMP                   -> PPARGC1A n=   2 agree=   2 dis=   0 agrees       log2FC=1.85
-  [177/220] INTERFERON ALFA-2A           -> IFNAR1   n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
-  [178/220] INTERFERON ALFA-2A           -> IFNAR2   n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [177/220] INTERFERON ALFA-2A           -> IFNAR1   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [178/220] INTERFERON ALFA-2A           -> IFNAR2   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [179/220] 11-(2,2-Difluoropropanoyl)-4 -> P2RX3    skip (not drug-like)
   [180/220] 11-(2-Amino-2-methylpropanoy -> P2RX3    skip (not drug-like)
   [181/220] Tabalumab                    -> TNFSF13B n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
@@ -191,7 +191,7 @@
   [189/220] Clazakizumab                 -> IL6      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [190/220] Benralizumab                 -> IL5RA    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [191/220] Omalizumab                   -> FCER1A   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
- *[192/220] Infliximab                   -> TNF      n=   3 agree=   0 dis=   0 ambiguous    log2FC=1.1
+  [192/220] Infliximab                   -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [193/220] Depatuxizumab                -> EGFR     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [194/220] Tezepelumab                  -> TSLP     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [195/220] INTERFERON GAMMA-1B          -> IFNGR1   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
@@ -218,13 +218,13 @@
   [216/220] Xentuzumab                   -> IGF1     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [217/220] Eldelumab                    -> CXCL10   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [218/220] Pseudoephedrine              -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
- *[219/220] Antibodies                   -> TNF      n=   1 agree=   0 dis=   0 ambiguous    log2FC=1.6
+  [219/220] Antibodies                   -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [220/220] INTERFERON GAMMA-1B          -> IFNGR2   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
 
---- 123 edges evaluated in 105s ---
-verdicts: {'no_drug_data': 112, 'tested_not_significant': 7, 'agrees': 2, 'ambiguous': 2}
-covered by >=1 GXA contrast: 4/123 (3%)
-edges with ANY GXA information (incl. tested-not-significant): 11/123 (9%)
+--- 123 edges evaluated in 109s ---
+verdicts: {'no_drug_data': 116, 'tested_not_significant': 6, 'agrees': 1}
+covered by >=1 GXA contrast: 1/123 (1%)
+edges with ANY GXA information (incl. tested-not-significant): 7/123 (6%)
 edges carrying an asserted direction: 19/123
 skipped as not drug-like: 97
 wrote data/ars/5b656c0f-b7da-4db4-ba1f-d3a794b422d4/route_a.json

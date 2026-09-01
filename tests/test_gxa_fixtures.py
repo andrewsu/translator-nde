@@ -7,7 +7,7 @@ drug->gene evidence count, so they are pinned as tests.
 import pytest
 
 from translator_nde.nde import NDEClient, STAGING
-from translator_nde.gxa import GXAMatcher
+from translator_nde.gxa import GXAMatcher, factor_supports_drug
 
 # Arabidopsis; dexamethasone is a GR *inducer* present in BOTH arms, so the real
 # contrast is genotype (bZIP1 vs empty vector), not drug. Must be excluded.
@@ -46,3 +46,64 @@ def test_reference_arm_exclusion_removes_records(client):
     base = "@type:Inference AND variableMeasured.value:dexamethasone"
     with_excl = f"{base} AND NOT measurementDenominator.value:dexamethasone"
     assert client.count(base) > client.count(with_excl) > 0
+
+
+# --- incidental text matches -------------------------------------------------
+# Elasticsearch matches a synonym anywhere in the test-arm text. Each of these
+# was counted as real drug->gene evidence by Route A before the factor-position
+# filter, and each represents a distinct way the match can be incidental.
+
+def test_rejects_synonym_colliding_with_a_protein_tag():
+    """'RFP' is red fluorescent protein here, not rifampicin."""
+    assert factor_supports_drug(
+        "MITF-RFP-HA overexpression", ["Rifampicin", "RIF", "RFP"]
+    ) is None
+
+
+def test_rejects_synonym_colliding_with_english():
+    """'NO' is the word, not nitric oxide."""
+    assert factor_supports_drug(
+        "no response to infliximab treatment, Crohn's disease", ["Nitric Oxide", "NO"]
+    ) is None
+
+
+def test_rejects_synonym_inside_a_strain_name():
+    """'CA' is California, not calcium."""
+    assert factor_supports_drug(
+        "A/CA/04/2009 Influenza virus, 30 hour", ["Calcium", "CA"]
+    ) is None
+
+
+def test_rejects_drug_naming_the_patient_group():
+    """The variable is disease; infliximab only describes the cohort, and this
+    contrast is taken *before* any treatment was given."""
+    assert factor_supports_drug(
+        "before first infliximab treatment, no response to infliximab treatment, "
+        "Crohn's disease, colon",
+        ["Infliximab", "Remicade"],
+    ) is None
+
+
+def test_rejects_drug_named_only_as_a_stimulus_description():
+    assert factor_supports_drug(
+        "Tr1 cell clone, 6 hour, stimulated with monoclonal antibodies to CD3 and CD28",
+        ["Antibodies"],
+    ) is None
+
+
+def test_keeps_bare_compound_factor():
+    assert factor_supports_drug("A2780cis, Cisplatin, Normoxia", ["Cisplatin"]) == "Cisplatin"
+    assert factor_supports_drug(
+        "differentiated brown adiopcyte, cyclic AMP", ["Cyclic AMP"]
+    ) == "cyclic AMP"
+
+
+def test_keeps_compound_with_a_dose():
+    assert factor_supports_drug("SK-BR-3, metformin 4 millimolar", ["Metformin"]) \
+        == "metformin 4 millimolar"
+    assert factor_supports_drug(
+        "doxorubicin 0.6 microgram per milliliter", ["Doxorubicin"]
+    ) == "doxorubicin 0.6 microgram per milliliter"
+    assert factor_supports_drug(
+        "5-aza-deoxy-cytidine 5 micromolar", ["Azacitidine", "5-aza-deoxy-cytidine"]
+    ) == "5-aza-deoxy-cytidine 5 micromolar"

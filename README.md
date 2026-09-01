@@ -71,7 +71,7 @@ Routes C and D ask questions the data can actually answer.
 
 | route | question | data | status |
 |---|---|---|---|
-| **A** | does the drug change the gene's *expression*? | GXA `@type:Inference` (staging) | built — 1–9% coverage, mostly the wrong question |
+| **A** | does the drug change the gene's *expression*? | GXA `@type:Inference` (staging) | built — **0.9%** coverage, mostly the wrong question |
 | **B** | can we *compute* that from raw data? | GEO count matrices via NDE | built + validated |
 | **C** | what *other* compounds move this gene? | GXA, queried gene-first | designed, query verified |
 | **D** | does *activity* data confirm the inhibition? | PubChem BioAssay, ChEMBL | built — 52% coverage, 20 true negatives |
@@ -124,7 +124,7 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 PYTHONPATH=src .venv/bin/python -m pytest tests/ -q
 ```
 
-## Two things that will bite you
+## Three things that will bite you
 
 **1. `Inference` is staging-only.** It does not exist in production, and an `@type:Inference`
 query against prod returns **0 hits with no error**. `NDEClient` raises rather than let that pass
@@ -145,6 +145,17 @@ q=@type:Inference AND species.identifier:9606
 
 The exclusion removes 7,590 dexamethasone contrasts. Both records are pinned in
 `tests/test_gxa_fixtures.py`.
+
+**3. …and the query above is still not enough.** Elasticsearch matches a synonym *anywhere* in the
+test-arm text, which counts contrasts where the drug name is incidental. Measured, all previously
+scored as evidence: `MITF-RFP-HA overexpression` matched **rifampicin** via the synonym "RFP" (red
+fluorescent protein); `no response to infliximab treatment` matched **nitric oxide** via "NO";
+`A/CA/04/2009 Influenza virus` matched **calcium** via "CA". There is no structured factor type to
+filter on — `constraintProperty` is identical for genuine and spurious contrasts — but
+`variableMeasured.value` is a comma-separated factor list, so `gxa.factor_supports_drug()` requires
+a synonym to **be** a factor or to **lead** one followed only by a dose. This cut Route A's measured
+coverage from 19/460 edges to **4/460**; see
+[`results/REPORT.md`](results/REPORT.md#the-fix-require-the-drug-to-occupy-the-variable-position).
 
 ## Status
 

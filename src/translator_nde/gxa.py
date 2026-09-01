@@ -15,6 +15,7 @@ STAGING ONLY -- these records do not exist in production.
 
 from __future__ import annotations
 
+import re
 import statistics
 from dataclasses import asdict, dataclass, field
 from typing import Any, Literal
@@ -22,6 +23,54 @@ from typing import Any, Literal
 from .nde import STAGING, NDEClient, lucene_or
 
 HUMAN_TAXON = "9606"
+
+# A dose-like remainder: "4 millimolar", "0.6 microgram per milliliter", "5 uM".
+_DOSE = re.compile(r"^[\d.]+\s*(e-?\d+\s*)?[a-z%/ ]*$", re.I)
+
+# Terms that are legitimate chemical names or abbreviations but overwhelmingly
+# occur in GXA as ordinary English or as reference-arm labels.
+_STOPWORDS = frozenset({
+    "no", "none", "control", "untreated", "vehicle", "na", "normal",
+    "wild type", "mock", "as", "in", "it", "at", "dmso", "placebo",
+})
+
+# Below this length a synonym collides with unrelated text far more often than
+# it identifies a compound ("RFP", "NO", "CA", "RIF").
+_MIN_SYNONYM_LEN = 3
+
+
+def factor_supports_drug(variable_measured: str | None, synonyms: list[str]) -> str | None:
+    """Is the drug the experimental *variable*, or does its name merely occur?
+
+    Elasticsearch matches a synonym anywhere in the test-arm text, which admits
+    contrasts where the term is incidental. Four measured examples, all of which
+    Route A originally counted as evidence:
+
+    * ``MITF-RFP-HA overexpression`` -- "RFP" is red fluorescent protein, not
+      rifampicin;
+    * ``no response to infliximab treatment`` -- "NO" is the English word, not
+      nitric oxide;
+    * ``A/CA/04/2009 Influenza virus`` -- "CA" is California, not calcium;
+    * ``before first infliximab treatment, ..., Crohn's disease`` -- infliximab
+      describes the patient group; the variable is disease.
+
+    ``variableMeasured.value`` is a comma-separated list of *factor values*, and
+    a compound factor is the compound name alone or the name followed by a dose.
+    So require the synonym to be a whole factor, or to lead one with nothing but
+    a dose after it. Returns the matching factor, or None.
+    """
+    for factor in re.split(r"[,;]", variable_measured or ""):
+        f = factor.strip()
+        low = f.lower()
+        for syn in synonyms:
+            t = (syn or "").strip().lower()
+            if len(t) < _MIN_SYNONYM_LEN or t in _STOPWORDS:
+                continue
+            if low == t:
+                return f
+            if low.startswith(t + " ") and _DOSE.match(low[len(t):].strip()):
+                return f
+    return None
 
 # Biolink direction qualifier values <-> GXA's tripleSubjectQualifier direction.
 _DIRECTION_MAP = {"increase": "increased", "decrease": "decreased"}
@@ -47,6 +96,8 @@ class Contrast:
     direction: str | None          # "increase" / "decrease"
     aspect: str | None             # "abundance"
     comparison: str | None         # human-readable contrast string
+    test_arm: str | None           # variableMeasured.value, the factor list
+    matched_factor: str | None     # the factor the drug name matched, if any
     experiment: str | None         # e.g. E-MTAB-7745
     gsm_ids: list[str] = field(default_factory=list)
     url: str | None = None
@@ -62,6 +113,9 @@ class Contrast:
             for q in _as_list(sem.get("tripleSubjectQualifier"))
             if isinstance(q, dict)
         }
+        var = hit.get("variableMeasured") or {}
+        if isinstance(var, list):
+            var = var[0] if var else {}
         subject_of = hit.get("subjectOf") or {}
         if isinstance(subject_of, list):
             subject_of = subject_of[0] if subject_of else {}
@@ -75,6 +129,8 @@ class Contrast:
             direction=quals.get("direction"),
             aspect=quals.get("aspect"),
             comparison=hit.get("measurementQualifier"),
+            test_arm=var.get("value"),
+            matched_factor=None,
             experiment=next((i for i in ids if not i.startswith("GSM")), None),
             gsm_ids=[i for i in ids if i.startswith("GSM")],
             url=subject_of.get("url"),
@@ -113,6 +169,9 @@ class GXAMatcher:
         if self.client.base_url != STAGING:
             raise ValueError("GXA Inference records exist only on NDE staging")
         self.taxon = taxon
+        # Contrasts the Lucene query returned but whose test arm does not put
+        # the drug in the variable position. Reported, not silently discarded.
+        self.n_rejected = 0
 
     def build_query(self, drug_synonyms: list[str], gene_terms: list[str]) -> str:
         """Compose the query, including the two filters that make it correct.
@@ -130,7 +189,7 @@ class GXAMatcher:
             f"AND {test_arm} AND NOT {ref_arm} AND {gene}"
         )
 
-    def drug_contrast_count(self, drug_synonyms: list[str]) -> int:
+    def drug_contrast_count(self, drug_synonyms: list[str], *, sample: int = 200) -> int:
         """How many contrasts test this drug at all, across every gene.
 
         GXA stores only *significant* DE results, so a gene having no record is
@@ -138,9 +197,23 @@ class GXAMatcher:
         """
         test_arm = lucene_or("variableMeasured.value", drug_synonyms)
         ref_arm = lucene_or("measurementDenominator.value", drug_synonyms)
-        return self.client.count(
-            f"@type:Inference AND species.identifier:{self.taxon} "
-            f"AND {test_arm} AND NOT {ref_arm}"
+        q = (f"@type:Inference AND species.identifier:{self.taxon} "
+             f"AND {test_arm} AND NOT {ref_arm}")
+        if self.client.count(q) == 0:
+            return 0
+        # Text-verify a capped sample rather than trusting the raw count, which
+        # is inflated by the same incidental matches factor_supports_drug drops.
+        return sum(
+            1
+            for h in self.client.scroll(
+                q, fields="variableMeasured.value", max_records=sample
+            )
+            if factor_supports_drug(
+                (lambda v: (v[0] if isinstance(v, list) else v) or {})(
+                    h.get("variableMeasured") or {}
+                ).get("value"),
+                drug_synonyms,
+            )
         )
 
     def contrasts(
@@ -154,6 +227,7 @@ class GXAMatcher:
                 "unitText",
                 "marginOfError.value",
                 "measurementQualifier",
+                "variableMeasured.value",
                 "semanticMapping.tripleSubjectQualifier",
                 "subjectOf.identifier",
                 "subjectOf.url",
@@ -161,10 +235,16 @@ class GXAMatcher:
         )
         if self.client.count(q) == 0:
             return []
-        return [
-            Contrast.from_hit(h)
-            for h in self.client.scroll(q, fields=fields, max_records=max_records)
-        ]
+        kept = []
+        for h in self.client.scroll(q, fields=fields, max_records=max_records):
+            c = Contrast.from_hit(h)
+            factor = factor_supports_drug(c.test_arm, drug_synonyms)
+            if factor is None:
+                self.n_rejected += 1
+                continue
+            c.matched_factor = factor
+            kept.append(c)
+        return kept
 
     def evaluate(
         self,

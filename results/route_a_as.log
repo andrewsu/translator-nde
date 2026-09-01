@@ -1,12 +1,12 @@
 498 paths -> 238 distinct drug->gene edges
 
-  [1/238] Methylprednisolone           -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
- *[2/238] Infliximab                   -> TNF      n=   3 agree=   0 dis=   0 ambiguous    log2FC=1.1
-  [3/238] Infliximab                   -> TNFRSF1A n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
- *[4/238] Infliximab                   -> IL1B     n=  12 agree=   0 dis=   0 ambiguous    log2FC=2.95
-  [5/238] Infliximab                   -> IL12B    n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
-  [6/238] Infliximab                   -> FCGR2A   n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
- *[7/238] Infliximab                   -> TLR4     n=   3 agree=   0 dis=   0 ambiguous    log2FC=1.2
+  [1/238] Methylprednisolone           -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [2/238] Infliximab                   -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [3/238] Infliximab                   -> TNFRSF1A n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [4/238] Infliximab                   -> IL1B     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [5/238] Infliximab                   -> IL12B    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [6/238] Infliximab                   -> FCGR2A   n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [7/238] Infliximab                   -> TLR4     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [8/238] Adrenal Cortex Hormones      -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [9/238] glucocorticoid               -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [10/238] Celecoxib                    -> STAT3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
@@ -18,8 +18,8 @@
   [16/238] Methimazole                  -> IL2RA    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [17/238] Polymyxin B                  -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [18/238] Pyrazinamide                 -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
- *[19/238] Nitric Oxide                 -> TNF      n=   4 agree=   0 dis=   0 ambiguous    log2FC=1.4500000000000002
- *[20/238] Nitric Oxide                 -> TLR4     n=   3 agree=   0 dis=   0 ambiguous    log2FC=1.2
+  [19/238] Nitric Oxide                 -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [20/238] Nitric Oxide                 -> TLR4     n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
   [21/238] Amphotericin B               -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [22/238] Bevacizumab                  -> FCGR2A   n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
   [23/238] Tildrakizumab                -> IL12B    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
@@ -28,9 +28,9 @@
   [26/238] Interleukin-17               -> STAT3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [27/238] Ustekinumab                  -> IL12B    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [28/238] Anti-Inflammatory Agents, No -> TNF      skip (not drug-like)
- *[29/238] Dinoprostone                 -> TNF      n=   1 agree=   0 dis=   0 ambiguous    log2FC=1.2
+  [29/238] Dinoprostone                 -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [30/238] Cyclic AMP                   -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
-  [31/238] Tenamfetamine                -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [31/238] Tenamfetamine                -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [32/238] Leucovorin                   -> RUNX3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [33/238] dexamethasone sodium phospha -> MMP3     n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
   [34/238] Doconexent                   -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
@@ -79,7 +79,7 @@
   [77/238] doxycycline hyclate          -> MMP3     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [78/238] (2S)-6-amino-2-[[(2S)-6-amin -> TLR2     skip (not drug-like)
   [79/238] 1-(cyclohexylmethoxy)-3-[(E) -> TLR2     skip (not drug-like)
-  [80/238] Magnesium chloride           -> C3       n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [80/238] Magnesium chloride           -> C3       n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [81/238] Propan-2-yl 2-(naphthalen-1- -> TLR2     skip (not drug-like)
   [82/238] 2-(3-((E)-2-nitro-vinyl)-phe -> TLR2     skip (not drug-like)
   [83/238] Ramiprilat                   -> ACE      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
@@ -117,20 +117,20 @@
   [115/238] Spironolactone               -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [116/238] Thalidomide                  -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [117/238] Dactinomycin                 -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
-  [118/238] Tyrosine                     -> STAT3    n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [118/238] Tyrosine                     -> STAT3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [119/238] 1-N,1-N-dimethyl-4-[(E)-2-ni -> TLR2     skip (not drug-like)
   [120/238] Phosphoric acid (S)-2-(3-hyd -> TLR2     skip (not drug-like)
   [121/238] Stavudine                    -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
-  [122/238] AMP                          -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [122/238] AMP                          -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [123/238] Thiocolchicoside             -> TNFSF11  n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [124/238] Tanomastat                   -> MMP3     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [125/238] Dodecanoic acid (R)-1-{2-[(S -> TLR2     skip (not drug-like)
   [126/238] Dodecanoic acid (R)-1-{2-[(S -> TLR2     skip (not drug-like)
   [127/238] Digitoxin                    -> STAT3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [128/238] Digitoxin                    -> SMAD3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
-  [129/238] Sirolimus                    -> RPS6KB1  n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
-  [130/238] Sirolimus                    -> STK11    n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
-  [131/238] Sirolimus                    -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [129/238] Sirolimus                    -> RPS6KB1  n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [130/238] Sirolimus                    -> STK11    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [131/238] Sirolimus                    -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [132/238] Ouabain                      -> SMAD3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [133/238] Ouabain                      -> STAT3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [134/238] Pentoxifylline               -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
@@ -157,7 +157,7 @@
   [155/238] Rabeprazole                  -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [156/238] Didanosine                   -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [157/238] Azacitidine                  -> DNMT3A   n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
- *[158/238] Azacitidine                  -> PLAU     n=   2 agree=   0 dis=   0 ambiguous    log2FC=2.1500000000000004
+  [158/238] Azacitidine                  -> PLAU     n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
   [159/238] Estradiol                    -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
   [160/238] Pomalidomide                 -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [161/238] ethyl 2-(naphthalen-1-ylcarb -> TLR2     skip (not drug-like)
@@ -175,7 +175,7 @@
   [173/238] Phenformin                   -> STK11    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [174/238] Satralizumab                 -> IL6R     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [175/238] Danazol                      -> MBL2     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
-  [176/238] Progesterone                 -> IL2RA    n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [176/238] Progesterone                 -> IL2RA    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [177/238] Isoniazid                    -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [178/238] Artesunate                   -> NFKB1    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [179/238] Fluorouracil                 -> IL6R     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
@@ -183,7 +183,7 @@
   [181/238] Pyrimethamine                -> STAT3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [182/238] Ritonavir                    -> TLR4     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [183/238] Sorafenib                    -> STAT3    n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
- *[184/238] Rifampicin                   -> TNF      n=   1 agree=   0 dis=   0 ambiguous    log2FC=-1.1
+  [184/238] Rifampicin                   -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
   [185/238] Simvastatin                  -> TNF      n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
   [186/238] Dodecanoic acid (R)-1-{2-[(R -> TLR2     skip (not drug-like)
   [187/238] ethyl 2-[(phenylcarbamothioy -> TLR2     skip (not drug-like)
@@ -197,7 +197,7 @@
   [195/238] 3-[4-(4-Fluoro-phenoxy)-benz -> MMP3     skip (not drug-like)
   [196/238] Vadimezan                    -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [197/238] Hydroxychloroquine           -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
-  [198/238] Ampicillin                   -> HLA-A    n=   0 agree=   0 dis=   0 tested_not_significant log2FC=None
+  [198/238] Ampicillin                   -> HLA-A    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [199/238] Ciglitazone                  -> STAT3    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [200/238] Saquinavir                   -> TLR4     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [201/238] Methylisothiazolinone        -> MMP3     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
@@ -234,15 +234,15 @@
   [232/238] Theophylline                 -> IL2RA    n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [233/238] Melatonin                    -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [234/238] Drugs, Chinese Herbal        -> EPO      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
- *[235/238] Antibodies                   -> TNF      n=   1 agree=   0 dis=   0 ambiguous    log2FC=1.6
- *[236/238] Antibodies, Monoclonal       -> TNF      n=   1 agree=   0 dis=   0 ambiguous    log2FC=1.6
+  [235/238] Antibodies                   -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
+  [236/238] Antibodies, Monoclonal       -> TNF      n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
   [237/238] Microbicides                 -> TLR4     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
- *[238/238] Calcium                      -> CAST     n=   5 agree=   0 dis=   0 ambiguous    log2FC=-1.2
+  [238/238] Calcium                      -> CAST     n=   0 agree=   0 dis=   0 no_drug_data log2FC=None
 
---- 163 edges evaluated in 156s ---
-verdicts: {'tested_not_significant': 32, 'ambiguous': 13, 'no_drug_data': 117, 'agrees': 1}
-covered by >=1 GXA contrast: 14/163 (9%)
-edges with ANY GXA information (incl. tested-not-significant): 46/163 (28%)
+--- 163 edges evaluated in 170s ---
+verdicts: {'no_drug_data': 137, 'tested_not_significant': 23, 'ambiguous': 2, 'agrees': 1}
+covered by >=1 GXA contrast: 3/163 (2%)
+edges with ANY GXA information (incl. tested-not-significant): 26/163 (16%)
 edges carrying an asserted direction: 36/163
 skipped as not drug-like: 75
 wrote data/ars/c3efea15-1a8f-4c09-a521-7462603bec08/route_a.json

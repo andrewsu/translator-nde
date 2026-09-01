@@ -59,6 +59,10 @@ So the direction-agreement test — the strongest thing Route A can do — is av
 | disagrees | 0 |
 | **covered by ≥1 contrast** | **4 / 123 (3%)** |
 
+> **Superseded.** Three of these four are incidental text matches. After the
+> factor-position filter (below) asthma's coverage is **1 / 123**. The original
+> figures are kept so the correction is auditable.
+
 | Drug → gene | contrasts | agree | median log2FC | verdict | GXA experiment | GEO |
 |---|--:|--:|--:|---|---|---|
 | Rifampicin → PPARGC1A | 1 | 1 | 3.2 | agrees | [E-GEOD-61705](https://www.ebi.ac.uk/gxa/experiments/E-GEOD-61705/Results) | GSE61705 |
@@ -94,10 +98,61 @@ all three diseases only about 6 are genuine compound-vs-vehicle designs:
 
 The existing `NOT measurementDenominator` guard catches the drug-in-both-arms trap but does nothing
 about **short or ambiguous synonyms colliding with unrelated text** ("RFP", "NO", "CA",
-"Antibodies"). Route A's already-low coverage figures are therefore *over*-stated, which
-strengthens rather than weakens the conclusion of examples 1–3. Fixing it needs a minimum-length /
-stop-word filter on the synonym list plus a check that the matched term appears in the contrast
-string as a compound rather than incidentally — not yet implemented.
+"Antibodies").
+
+### The fix: require the drug to occupy the variable position
+
+There is no structured factor type to key on — `variableMeasured.constraintProperty` is
+`['schema:healthCondition', 'nde:sample']` on genuine and spurious contrasts alike, checked on
+eight records. But `variableMeasured.value` is a **comma-separated list of factor values**, and a
+real compound factor is the compound name alone or the name followed by a dose:
+
+```
+GENUINE   'SK-BR-3, metformin 4 millimolar'          'doxorubicin 0.6 microgram per milliliter'
+          'differentiated brown adiopcyte, cyclic AMP'
+SPURIOUS  'MITF-RFP-HA overexpression'               'A/CA/04/2009 Influenza virus, 30 hour'
+          'before first infliximab treatment, no response to infliximab treatment, Crohn's disease'
+```
+
+`gxa.factor_supports_drug()` splits on commas and keeps a contrast only if some synonym **is** a
+factor, or **leads** one with nothing but a dose after it. Synonyms shorter than 3 characters and a
+stop-word list (`no`, `none`, `control`, `vehicle`, `dmso`, …) are excluded outright. Note that
+`no response to infliximab treatment` *begins* with "no", so the leading-token rule alone is not
+enough — the dose requirement is what rejects it. The same verification is applied to
+`drug_contrast_count`, which was equally inflated; it now text-verifies a 200-record sample rather
+than trusting the raw Lucene count.
+
+### Effect of the filter, re-run across all three diseases
+
+| disease | covered before | covered after |
+|---|--:|--:|
+| asthma | 4 / 123 (3%) | **1 / 123 (1%)** |
+| RA | 1 / 174 (1%) | **0 / 174 (0%)** |
+| AS | 14 / 163 (9%) | **3 / 163 (2%)** |
+| **total** | **19 / 460 (4%)** | **4 / 460 (0.9%)** |
+
+Everything that survives is a genuine compound-vs-vehicle design:
+
+| edge | contrast | verdict |
+|---|---|---|
+| Cyclic AMP → PPARGC1A | `cyclic AMP` vs `none`, brown/white adipocyte (E-MTAB-2602) | agrees |
+| Doxorubicin → C3 | `doxorubicin 0.6 µg/mL` vs `none` (E-GEOD-46493, E-MTAB-6045, E-MTAB-9362) | ambiguous |
+| Cisplatin → C3 | `Cisplatin` vs `None` (E-MTAB-3645) | agrees |
+| Metformin → TNF | `metformin 4 millimolar` vs `none` (E-MTAB-7737) | ambiguous |
+
+**Route A's real coverage across 460 drug→gene edges is 4 (0.9%), with 2 agreements and still zero
+disagreements.** Set against Route D's 367/710 (52%), the case for activity data over expression
+data is stronger than examples 1–3 made it.
+
+Two drops worth naming, both checked individually:
+
+- **Azacitidine → PLAU is correctly dropped** — both contrasts are
+  `5-aza-2-deoxycytidine`, which is **decitabine, a different drug**. Azacitidine's Name Resolver
+  synonyms (`AZC`, `ac 5`, `5-AC`, `5 aza`, `AZA-CR`) matched on token overlap. That synonym list
+  is itself an illustration of the hazard.
+- **Dinoprostone → TNF is a borderline drop** — the factor is `PGE2-maturation`, a maturation
+  protocol rather than a dose-controlled PGE2 arm. Rejecting it is defensible but this is the
+  shape of false negative the rule will produce.
 
 ## Why coverage is so low
 
