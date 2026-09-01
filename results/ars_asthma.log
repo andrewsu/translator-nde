@@ -1,0 +1,28 @@
+submitted asthma (MONDO:0004979) -> pk=5b656c0f-b7da-4db4-ba1f-d3a794b422d4
+UI: https://ui.transltr.io/main/results?l=asthma&i=MONDO:0004979&t=0&r=0&q=5b656c0f-b7da-4db4-ba1f-d3a794b422d4
+  [   0s] 4/13 ARAs finished, 0 with results
+  [  20s] 12/13 ARAs finished, 3 with results
+  [  40s] 13/13 ARAs finished, 4 with results
+
+downloaded 4 ARA payloads
+  ara-unsecret                         0.8 MB  results=  227 aux=   248 2hop_paths=117
+  ara-bte                              6.9 MB  results=  500 aux=   826 2hop_paths=0
+  ara-arax                            10.3 MB  results=  260 aux=   296 2hop_paths=311
+  kp-molecular                         1.6 MB  results=  525 aux=     0 2hop_paths=0
+
+total drug->gene->disease paths: 428  -> data/ars/5b656c0f-b7da-4db4-ba1f-d3a794b422d4/paths.json
+  4-[2-(3,5-Dimethoxyphenyl)ethyl]-11-methylsulfonyl-8-thia-4,6,11-triazatricyclo[7.4.0.02,7]trideca-1(9),2(7),5-trien-3-one --affects[decreased/activity]--> P2RX3 --> asthma
+  L-βγ-meATP --affects[increased/activity]--> P2RX3 --> asthma
+  A317491 --affects[decreased/activity]--> P2RX3 --> asthma
+  (7S)-3-[2-(2,5-dimethoxyphenyl)ethyl]-N,N-dimethyl-4-oxo-5,6,7,8-tetrahydro-[1]benzothiolo[2,3-d]pyrimidine-7-carboxamide --affects[decreased/activity]--> P2RX3 --> asthma
+  PPADS --affects[decreased/activity]--> P2RX3 --> asthma
+  PPADS --affects[increased/activity]--> P2RX3 --> asthma
+  4-[2-(2,5-dimethoxyphenyl)ethyl]-N,N-dimethyl-3-oxo-8-thia-4,6,11-triazatricyclo[7.4.0.02,7]trideca-1(9),2(7),5-triene-11-sulfonamide --affects[decreased/activity]--> P2RX3 --> asthma
+  2-[1-[(4-Chlorophenyl)methyl]-2-(3-chloro-4-propan-2-yloxyanilino)-4-oxopyrimidin-5-yl]acetic acid --affects[decreased/activity]--> P2RX3 --> asthma
+  H-D-Phe-His-Leu-Leu-Arg-Glu-Val-Leu-Glu-Nle-Ala-Arg-Ala-Glu-Gln-Leu-Ala-Glu(1)-Gln-D-Ala-D-Lys(1)-Ser-Asn-Arg-Lys-Leu-Nle-Glu-Ile-Ile-NH2 --affects[decreased/activity]--> CRHR2 --> asthma
+  Ac-Asp-Leu-Ser-D-Phe-His-aMeLeu-Leu-Arg-Lys-Nle-Ile-Glu-Ile-Glu-Lys-Gln-Glu-Lys-Glu-Lys-Glu-Glu-Ala-Ala-Asn-Asn-Glu(1)-Leu-D-Leu-D-Lys(1)-Asp-aMeLeu-Ile-NH2 --affects[decreased/activity]--> CRHR2 --> asthma
+  Ac-Asp-Leu-Ser-D-Phe-His-aMeLeu-Leu-Arg-Lys-Nle-Ile-Glu-Ile-Glu-Lys-Gln-Glu-Lys-Glu-Lys-Glu-Glu-Ala-Glu-Asn-Asn-Lys-Leu-Leu-Leu-Asp-aMeLeu-Ile-NH2 --affects[decreased/activity]--> CRHR2 --> asthma
+  Ac-Asp-Leu-Ser-D-Phe-His-D-aMeLeu-Leu-Arg-Lys-Nle-Ile-Glu-Ile-Glu-Lys-Gln-Glu-Lys-Glu-Lys-Glu-Glu-Ala-Ala-Glu(1)-Asn-D-Arg-D-Lys(1)-Leu-Leu-DL-Asp-aMeLeu-Ile-NH2 --affects[decreased/activity]--> CRHR2 --> asthma
+  11-Acetyl-4-[2-(2,5-dimethoxyphenyl)ethyl]-8-thia-4,6,11-triazatricyclo[7.4.0.02,7]trideca-1(9),2(7),5-trien-3-one --affects[decreased/activity]--> P2RX3 --> asthma
+  alpha,beta-Methyleneadenosine 5'-triphosphate --affects[increased/activity]--> P2RX3 --> asthma
+  Bafilomycin A1 --affects[decreased/activity]--> P2RX3 --> asthma

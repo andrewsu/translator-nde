@@ -1,0 +1,14 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Raw ARS payloads: tens of MB per ARA, re-fetchable by pk.
+# The extracted paths.json under each pk/ IS kept -- it is the citable artifact.
+data/ars/*.json
+data/geo/
+
+# Notebook noise
+.ipynb_checkpoints/
