@@ -7,9 +7,10 @@
 
 ## TL;DR
 
-The pipeline works end to end, and Route A is **precise but narrow**: of 123 evaluable
+The pipeline works end to end, and Route A is **precise but very narrow**: of 123 evaluable
 `drug → gene` edges from a real Translator creative-mode answer, GXA had a matching
-differential-expression contrast for **4 (3%)**.
+differential-expression contrast — one in which the drug is genuinely the experimental variable —
+for **1 (1%)**.
 
 The bottleneck is **GXA's drug coverage, not the matching logic** — Expression Atlas contains no
 contrasts at all for the drugs asthma answers are actually built from. This is the finding that
@@ -46,64 +47,35 @@ reasoning. Mechanistic paths come from ARAX and unsecret-agent only.
 So the direction-agreement test — the strongest thing Route A can do — is available on
 **15% of edges**. Everything else can only be scored for coverage.
 
-## What Route A found
+## How a contrast is matched to an edge
 
-97 of 220 edges were skipped as not drug-like (IUPAC strings, synthetic peptides such as
-`H-D-Phe-His-Leu-Leu-Arg-…`), leaving 123 evaluated in 96 s.
+NDE `@type:Inference` records carry no chemical identifier — the compound appears only as free text
+in `variableMeasured.value` (test arm) and `measurementDenominator.value` (reference arm). Three
+filters are needed before a contrast counts as evidence, and each was derived from a case that
+would otherwise have been scored wrongly.
 
-| Verdict | Edges |
-|---|--:|
-| not covered by any GXA contrast | 119 |
-| agrees | 2 |
-| ambiguous (covered, no asserted direction) | 2 |
-| disagrees | 0 |
-| **covered by ≥1 contrast** | **4 / 123 (3%)** |
+**1. Species.** `species.identifier:9606`. Without it, plant and mouse tool-compound designs
+dominate.
 
-> **Superseded.** Three of these four are incidental text matches. After the
-> factor-position filter (below) asthma's coverage is **1 / 123**. The original
-> figures are kept so the correction is auditable.
+**2. The drug must be absent from the reference arm.** Record
+`gxa_e_geod_54049_g1_g5_at1g03790` contrasts `'pBeaconRFP_GR::bZIP1; …10 uM dexamethasone…'` vs
+`'empty vector; …10 uM dexamethasone…'` — dexamethasone is a GR *inducer* present in both arms and
+the real variable is genotype. `AND NOT measurementDenominator.value:<drug>` removes 7,590
+dexamethasone contrasts.
 
-| Drug → gene | contrasts | agree | median log2FC | verdict | GXA experiment | GEO |
-|---|--:|--:|--:|---|---|---|
-| Rifampicin → PPARGC1A | 1 | 1 | 3.2 | agrees | [E-GEOD-61705](https://www.ebi.ac.uk/gxa/experiments/E-GEOD-61705/Results) | GSE61705 |
-| Cyclic AMP → PPARGC1A | 2 | 2 | 1.85 | agrees | [E-MTAB-2602](https://www.ebi.ac.uk/gxa/experiments/E-MTAB-2602/Results) | — (ENA ERR522174–86) |
-| Infliximab → TNF | 3 | – | 1.1 | ambiguous | [E-GEOD-16879](https://www.ebi.ac.uk/gxa/experiments/E-GEOD-16879/Results) | GSE16879 |
-| Antibodies → TNF | 1 | – | 1.6 | ambiguous | [E-GEOD-53514](https://www.ebi.ac.uk/gxa/experiments/E-GEOD-53514/Results) | GSE53514 |
+**3. The drug must occupy the variable position.** Elasticsearch matches a synonym *anywhere* in the
+test-arm text, which admits contrasts where the drug name is incidental:
 
-GEO series confirmed by resolving the contrasts' GSM accessions against NDE production
-`@type:Sample` records, not inferred from the `E-GEOD-` naming.
-
-### ⚠️ Reading those contrast strings invalidates three of the four rows
-
-Adding the dataset IDs made the underlying contrasts checkable, and they do not say what the
-verdicts claim:
-
-| edge | what the contrast actually is | |
+| test arm | matched | why it is not evidence |
 |---|---|---|
-| Rifampicin → PPARGC1A | `'MITF-RFP-HA overexpression' vs 'control'` | ❌ **"RFP" is red fluorescent protein.** A synonym-list string collision; rifampicin is not in this experiment. |
-| Cyclic AMP → PPARGC1A | `'cyclic AMP' vs 'none'` in brown and white adipocyte | ✅ genuine compound-vs-vehicle, though cAMP is a second messenger rather than a drug |
-| Infliximab → TNF | `'before first infliximab treatment; no response…; ulcerative colitis' vs 'control'` | ❌ **the variable is disease, not drug** — patients vs healthy controls, and two of the three contrasts are *before* any treatment |
-| Antibodies → TNF | `stimulated with monoclonal antibodies to CD3 and CD28' vs 'none'` | ❌ anti-CD3/CD28 T-cell stimulation, not a therapeutic antibody |
+| `MITF-RFP-HA overexpression` | rifampicin, via "RFP" | **RFP is red fluorescent protein** |
+| `no response to infliximab treatment, Crohn's disease` | nitric oxide, via "NO" | **"no" is the English word** |
+| `A/CA/04/2009 Influenza virus, 30 hour` | calcium, via "CA" | **CA is California** |
+| `before first infliximab treatment, …, Crohn's disease` vs `control` | infliximab | the variable is **disease**; two of three contrasts precede treatment |
+| `Tr1 cell clone, 6 hour, stimulated with monoclonal antibodies to CD3 and CD28` | "Antibodies" | anti-CD3/CD28 stimulation, not a therapeutic |
 
-So asthma's real Route A coverage is **1 of 123 edges, not 4**, and *both* "agrees" verdicts are
-spurious. The same check across RA and AS finds the pattern is general — of ~19 covered edges over
-all three diseases only about 6 are genuine compound-vs-vehicle designs:
-
-- `Nitric Oxide → TNF/TLR4` matches the same infliximab records because the synonym **"NO"** hits
-  the English word in *"**no** response to infliximab treatment"*.
-- `Calcium → CAST` matches `'A/CA/04/2009 Influenza virus' vs 'mock'` — **"CA" is California**.
-- Genuine ones: cyclic AMP → PPARGC1A, doxorubicin → C3 (E-GEOD-46493, E-MTAB-6045),
-  cisplatin → C3 (E-MTAB-3645), azacitidine → PLAU (E-GEOD-41586), metformin → TNF (E-MTAB-7737),
-  dinoprostone → TNF (E-MEXP-1230).
-
-The existing `NOT measurementDenominator` guard catches the drug-in-both-arms trap but does nothing
-about **short or ambiguous synonyms colliding with unrelated text** ("RFP", "NO", "CA",
-"Antibodies").
-
-### The fix: require the drug to occupy the variable position
-
-There is no structured factor type to key on — `variableMeasured.constraintProperty` is
-`['schema:healthCondition', 'nde:sample']` on genuine and spurious contrasts alike, checked on
+There is no structured factor type to filter on — `variableMeasured.constraintProperty` is
+`['schema:healthCondition', 'nde:sample']` on genuine and spurious contrasts alike, checked across
 eight records. But `variableMeasured.value` is a **comma-separated list of factor values**, and a
 real compound factor is the compound name alone or the name followed by a dose:
 
@@ -115,23 +87,40 @@ SPURIOUS  'MITF-RFP-HA overexpression'               'A/CA/04/2009 Influenza vir
 ```
 
 `gxa.factor_supports_drug()` splits on commas and keeps a contrast only if some synonym **is** a
-factor, or **leads** one with nothing but a dose after it. Synonyms shorter than 3 characters and a
-stop-word list (`no`, `none`, `control`, `vehicle`, `dmso`, …) are excluded outright. Note that
-`no response to infliximab treatment` *begins* with "no", so the leading-token rule alone is not
-enough — the dose requirement is what rejects it. The same verification is applied to
-`drug_contrast_count`, which was equally inflated; it now text-verifies a 200-record sample rather
-than trusting the raw Lucene count.
+factor, or **leads** one with nothing but a dose after it. Synonyms under 3 characters and a
+stop-word list (`no`, `none`, `control`, `vehicle`, `dmso`, …) are excluded outright. The dose
+requirement is load-bearing: `no response to infliximab treatment` *begins* with "no", so a
+leading-token rule alone would still admit nitric oxide. The same verification is applied to
+`drug_contrast_count`, which text-verifies a 200-record sample rather than trusting the raw Lucene
+count. All five collisions above are pinned in `tests/test_gxa_fixtures.py`.
 
-### Effect of the filter, re-run across all three diseases
+Name Resolver synonym lists are themselves a hazard: azacitidine returns `AZC`, `ac 5`, `5-AC`,
+`5 aza`, `AZA-CR`, which match **5-aza-2-deoxycytidine** contrasts — that is decitabine, a
+different drug.
 
-| disease | covered before | covered after |
-|---|--:|--:|
-| asthma | 4 / 123 (3%) | **1 / 123 (1%)** |
-| RA | 1 / 174 (1%) | **0 / 174 (0%)** |
-| AS | 14 / 163 (9%) | **3 / 163 (2%)** |
-| **total** | **19 / 460 (4%)** | **4 / 460 (0.9%)** |
+## What Route A found
 
-Everything that survives is a genuine compound-vs-vehicle design:
+97 of 220 edges were skipped as not drug-like (IUPAC strings, synthetic peptides such as
+`H-D-Phe-His-Leu-Leu-Arg-…`), leaving 123 evaluated in 109 s.
+
+| Verdict | Edges |
+|---|--:|
+| no GXA data for the drug | 116 |
+| drug tested, gene never significantly DE | 6 |
+| agrees | 1 |
+| disagrees | 0 |
+| **covered by ≥1 contrast** | **1 / 123 (1%)** |
+
+| Drug → gene | contrasts | agree | median log2FC | verdict | GXA experiment | GEO |
+|---|--:|--:|--:|---|---|---|
+| Cyclic AMP → PPARGC1A | 2 | 2 | 1.85 | agrees | [E-MTAB-2602](https://www.ebi.ac.uk/gxa/experiments/E-MTAB-2602/Results) | — (ENA ERR522174–86) |
+
+The contrast is `'cyclic AMP' vs 'none'` in differentiated brown and white adipocyte. GEO series
+for GXA experiments are resolved by looking up each contrast's GSM accessions in NDE production
+`@type:Sample` records, not inferred from the `E-GEOD-` naming; E-MTAB-2602 is ArrayExpress-native
+and has ENA run accessions instead.
+
+Across all three diseases in this report, Route A covers **4 of 460 drug→gene edges (0.9%)**:
 
 | edge | contrast | verdict |
 |---|---|---|
@@ -140,43 +129,33 @@ Everything that survives is a genuine compound-vs-vehicle design:
 | Cisplatin → C3 | `Cisplatin` vs `None` (E-MTAB-3645) | agrees |
 | Metformin → TNF | `metformin 4 millimolar` vs `none` (E-MTAB-7737) | ambiguous |
 
-**Route A's real coverage across 460 drug→gene edges is 4 (0.9%), with 2 agreements and still zero
-disagreements.** Set against Route D's 367/710 (52%), the case for activity data over expression
-data is stronger than examples 1–3 made it.
-
-Two drops worth naming, both checked individually:
-
-- **Azacitidine → PLAU is correctly dropped** — both contrasts are
-  `5-aza-2-deoxycytidine`, which is **decitabine, a different drug**. Azacitidine's Name Resolver
-  synonyms (`AZC`, `ac 5`, `5-AC`, `5 aza`, `AZA-CR`) matched on token overlap. That synonym list
-  is itself an illustration of the hazard.
-- **Dinoprostone → TNF is a borderline drop** — the factor is `PGE2-maturation`, a maturation
-  protocol rather than a dose-controlled PGE2 arm. Rejecting it is defensible but this is the
-  shape of false negative the rule will produce.
+Two agreements, zero disagreements. One borderline exclusion worth naming: dinoprostone → TNF is
+dropped because its factor is `PGE2-maturation`, a maturation protocol rather than a dosed PGE2
+arm. That is defensible but shows the shape of false negative the rule produces.
 
 ## Why coverage is so low
 
-Not the matcher. GXA simply does not contain the drugs. Human test-arm contrast counts, measured
-directly:
+Not the matcher. GXA simply does not contain the drugs. Test-arm contrast counts, measured
+directly, with the fraction of a 200-record sample in which the drug is genuinely the variable:
 
-| Drug | any species | human |
-|---|--:|--:|
-| dexamethasone | 57,679 | 23,314 |
-| metformin | 2,818 | 928 |
-| rifampicin | 2,312 | 108 |
-| prednisolone | 481 | 232 |
-| albuterol | 6 | 6 |
-| **budesonide** | **0** | 0 |
-| **formoterol** | **0** | 0 |
-| **salbutamol** | **0** | 0 |
-| **fluticasone** | **0** | 0 |
-| **montelukast** | **0** | 0 |
-| theophylline | 222 | **0** |
-| imatinib | 80 | **0** |
-| aspirin | 213 | **0** |
+| Drug | any species | human | verified / sampled |
+|---|--:|--:|--:|
+| dexamethasone | 52,846 | 23,314 | 200/200 |
+| metformin | 2,097 | 928 | 200/200 |
+| prednisolone | 361 | 224 | 200/200 |
+| rifampicin | 108 | 108 | 108/108 |
+| albuterol / salbutamol | 6 | 6 | **0/6** |
+| **budesonide** | **0** | 0 | – |
+| **formoterol** | **0** | 0 | – |
+| **fluticasone** | **0** | 0 | – |
+| **montelukast** | **0** | 0 | – |
+| theophylline | 0 | 0 | – |
+| aspirin | 0 | 0 | – |
+| imatinib | 80 | **0** | – |
 
-The first-line asthma therapeutics have **zero** contrasts. Dexamethasone is an outlier, not the
-norm — GXA is a curated re-analysis of selected experiments, not a drug-perturbation atlas.
+The first-line asthma therapeutics have **zero** contrasts, and albuterol's six are all incidental
+matches. Dexamethasone is an outlier, not the norm — GXA is a curated re-analysis of selected
+experiments, not a drug-perturbation atlas.
 
 ## Positive control
 
@@ -184,9 +163,9 @@ Route A does work where GXA has data, and reproduces textbook pharmacology:
 
 | Drug → gene | contrasts | agree | median log2FC | min adj-p | experiments |
 |---|--:|--:|--:|--:|--:|
-| dexamethasone → FKBP5 | 47 | 47 | 3.4 | 1.0e-115 | 10 |
-| dexamethasone → TSC22D3 (GILZ) | 49 | 49 | 2.7 | 0.0 | 12 |
-| dexamethasone → NR3C1 | 5 | 2 (3 disagree) | – | 9.5e-22 | 3 |
+| dexamethasone → FKBP5 | 24 | 24 | 3.25 | 1.0e-115 | 9 |
+| dexamethasone → TSC22D3 (GILZ) | 26 | 26 | 2.55 | 0.0 | 11 |
+| dexamethasone → NR3C1 | 4 | 2 (2 disagree) | 0.25 | 9.5e-22 | 3 |
 
 FKBP5 and TSC22D3 are the canonical glucocorticoid-induced genes. NR3C1 coming back **ambiguous**
 is correct, not a failure — glucocorticoid-receptor autoregulation is genuinely bidirectional and
@@ -194,7 +173,7 @@ context-dependent.
 
 ## Conclusions
 
-1. **The bridge is real but the precomputed route is thin.** 3% coverage on a real disease query
+1. **The bridge is real but the precomputed route is thin.** 1% coverage on a real disease query
    is too low to be useful alone. Route B has to carry the load.
 2. **Prioritise Route B on the drugs that matter.** Asthma's actual drugs are absent from GXA but
    present in GEO — production NDE has 5,253 dexamethasone datasets (1,302 GEO), and
@@ -219,7 +198,7 @@ PYTHONPATH=src .venv/bin/python scripts/run_route_a.py data/ars/<pk>/paths.json
 
 # Working backward from GXA
 
-Example 1 asked "here are Translator's answers, does GXA cover them?" and got 3%. This asks the
+Example 1 asked "here are Translator's answers, does GXA cover them?" and got 1%. This asks the
 inverse: **which drugs does GXA actually contain**, and what diseases are they used for? If the
 bridge works anywhere, it works there.
 
@@ -241,6 +220,11 @@ genotype comparisons.
 the diseases it treats — which is exactly what is needed to close the loop back to Translator.
 
 > **66 of 1,643 drugs (4.3%) have ≥1 human GXA test-arm contrast.**
+
+These are raw text matches and so an **upper bound**: the factor-position check reduces them
+wherever a drug's name or a short synonym also occurs incidentally (albuterol's six human
+contrasts, for instance, all fail it). What the table is for — which drugs GXA lacks entirely — is
+unaffected.
 
 | drug | contrasts | ref-arm | note |
 |---|--:|--:|---|
@@ -304,11 +288,12 @@ work**, and why it failed is the most useful result in this report.
 
 | disease | edges | GXA-covered | any GXA info | agrees | disagrees | tested-not-sig |
 |---|--:|--:|--:|--:|--:|--:|
-| asthma (`MONDO:0004979`) | 123 | 4 (3%) | 11 (9%) | 2 | 0 | 7 |
-| rheumatoid arthritis (`MONDO:0008383`) | 174 | 1 (**1%**) | 11 (6%) | 0 | 0 | 10 |
-| ankylosing spondylitis (`MONDO:0005306`) | 163 | 14 (9%) | 46 (**28%**) | 1 | 0 | 32 |
+| asthma (`MONDO:0004979`) | 123 | 1 (1%) | 7 (6%) | 1 | 0 | 6 |
+| rheumatoid arthritis (`MONDO:0008383`) | 174 | **0 (0%)** | 6 (3%) | 0 | 0 | 6 |
+| ankylosing spondylitis (`MONDO:0005306`) | 163 | 3 (2%) | 26 (**16%**) | 1 | 0 | 23 |
 
-RA scored **worse than asthma** despite being picked for maximum GXA drug coverage.
+RA scored **worse than asthma** — zero covered edges — despite being picked for maximum GXA drug
+coverage.
 
 ## Why the backward selection failed
 
@@ -334,7 +319,7 @@ skew toward mechanism-adjacent and investigational compounds. They are different
 ## Splitting "no data" from "tested and null"
 
 GXA stores only *significant* DE results, so an absent record was ambiguous. Separating the two
-roughly triples the interpretable fraction (asthma 3%→9%, AS 9%→28%):
+multiplies the interpretable fraction several-fold (asthma 1%→6%, AS 2%→16%):
 
 - `tested_not_significant` — GXA tests the drug, but the gene is never significantly DE.
   **Evidence against** the edge.
@@ -352,7 +337,7 @@ changes the transcript in the asserted direction. **Expression is not activity**
 listed as a caveat in the plan and is now the dominant empirical finding. A `disagrees` verdict
 against an `activity`-aspect edge should not be read as contradicting the biology.
 
-Across all three diseases there were **zero genuine `disagrees`** and only 3 `agrees`.
+Across all three diseases there were **zero `disagrees`** and only 2 `agrees`.
 
 ## Route B discovery is far healthier
 
@@ -374,13 +359,14 @@ any `healthCondition`, so the union with free text is necessary (RA 213→422, A
 
 ⚠️ Some hits are single-cell (GSE109449, GSE235508) and need different handling than bulk DE.
 
-## Two bugs worth recording
+## Two requirements on the extractor
 
-- **Biologics were being used as gene intermediates.** Infliximab is `biolink:Protein` as well as
-  `biolink:Drug`, producing `Etoricoxib → Infliximab → rheumatoid arthritis`. Drug-ness now wins;
-  regression test in `tests/test_path_extraction.py`.
-- **ARS `result_count` is sometimes a string**, which crashed the poll loop with a TypeError and
-  killed the first RA run.
+- **A biologic must not be used as the gene intermediate.** Infliximab carries `biolink:Protein`
+  as well as `biolink:Drug`, so a naive category test yields paths like
+  `Etoricoxib → Infliximab → rheumatoid arthritis`. Drug-ness wins; regression test in
+  `tests/test_path_extraction.py`.
+- **ARS `result_count` is sometimes a string**, so the poll loop must coerce it rather than
+  compare it numerically.
 
 ## Where this leaves the project
 
@@ -430,18 +416,19 @@ have a genuine drug arm *and* a matched control arm.
 | GSE148395 | RA fibroblasts, JQ1 vs DMSO | 12+12 | unpaired | 13,840 | 6,546 (**47%**) |
 | GSE141646 | AS whole blood, post vs pre TNF inhibitor | 22+22 | **paired** | 14,089 | 282 (2%) |
 
-## Three pipeline bugs, all found by running only three datasets
+## Three requirements these three datasets impose
 
-1. **Paired designs were analysed unpaired.** GSE97165 and GSE141646 sample the *same patient*
-   before and after treatment; between-patient variation in synovium and whole blood dwarfs the
-   drug effect. Unpaired gave GSE97165 **0/7** markers and GSE141646 **0** significant genes.
-   Paired gives 2/7 and 282. `paired_moderated_ttest` applies the same empirical-Bayes shrinkage
-   to within-subject differences.
-2. **Arm regexes missed separator variants.** GSE148395 columns use both `ST1359_JQ` and
-   `ST1387-JQ`; `r"_JQ"` matched 4 of 12, so the run compared **4 JQ vs 12 DMSO** — unbalanced
-   *and* confounded by the IL-1β sub-arm. `run_de` now warns when arms are ≥2:1 unbalanced.
-3. **Ensembl-indexed matrices silently defeated gene lookup.** Every GSE141646 marker read
-   "not in matrix". Now detected and mapped via MyGene.info (13,256 ids).
+1. **Paired designs must be analysed paired.** GSE97165 and GSE141646 sample the *same patient*
+   before and after treatment, and between-patient variation in synovium and whole blood dwarfs
+   the drug effect — analysed unpaired, neither series yields anything.
+   `paired_moderated_ttest` applies the same empirical-Bayes shrinkage to within-subject
+   differences, and recovers 464 and 282 significant genes respectively.
+2. **Arm assignment must tolerate separator variants.** GSE148395 columns use both `ST1359_JQ`
+   and `ST1387-JQ`, so a `r"_JQ"` pattern captures only 4 of 12 — an unbalanced comparison
+   confounded by the IL-1β sub-arm. `run_de` warns when arms are ≥2:1 unbalanced.
+3. **Ensembl-indexed matrices must be mapped before gene lookup.** GSE141646 is indexed by
+   Ensembl gene id, so symbol lookup finds nothing at all; `looks_ensembl` detects this and maps
+   via MyGene.info (13,256 ids).
 
 ## The finding that changes the design
 
@@ -499,9 +486,8 @@ TOTAL       710    367(52%)   63   346     20      222      19    40
 `measured` = a curated mechanism, a measured potency, or a recorded Inactive
 outcome for that exact compound against that exact target.
 
-Set against Route A on the same edges — asthma 3%, RA 1%, AS 9% — this is a
-**one-to-two order of magnitude** difference in how often the data can say
-anything at all. 244 edges carry a potency value; 232 carry a pChEMBL ≥ 6.
+Set against Route A on the same edges — asthma 1%, RA 0%, AS 2%, and 4/460 (0.9%) overall —
+this is a **fifty-fold** difference in how often the data can say anything at all. 244 edges carry a potency value; 232 carry a pChEMBL ≥ 6.
 
 The join is exact end to end. Translator emits `NCBIGene:7124`; PubChem's
 `Target GeneID` column is `7124`. Node Normalizer supplies the compound's CID
@@ -549,7 +535,7 @@ Two consequences:
    and 59/63 are max_phase 4 (approved) — baricitinib→JAK1/JAK2 INHIBITOR,
    infliximab and certolizumab→TNF INHIBITOR, celecoxib/etoricoxib/rofecoxib→
    PTGS2 INHIBITOR, triamcinolone/betamethasone/flunisolide→NR3C1 AGONIST.
-   Route A scored 1/174 on the RA set; Route D recovers RA's actual pharmacology.
+   Route A covers **zero** of the 174 RA edges; Route D recovers RA's actual pharmacology.
 
 Action types across all three: INHIBITOR 37, AGONIST 16, ANTAGONIST 8,
 BLOCKER 1, OPENER 1.
@@ -562,30 +548,30 @@ D therefore reaches outside NDE entirely. Given that activity is the modality
 Translator's edges are actually about, that is a real coverage gap for
 mechanism-of-action work, and worth reporting to the NDE team as such.
 
-## Four defects found by running it
+## Four things the join has to get right
 
-Each broke a whole class of edges, and each is pinned in `tests/test_activity.py`.
+Each governs a whole class of edges, and each is pinned in `tests/test_activity.py`.
 
-1. **Salt-form mechanisms.** Imatinib (`CHEMBL941`) has *no* mechanism rows of
-   its own; all four are filed under the mesylate `CHEMBL1642`. Querying only
-   `molecule_chembl_id` downgraded the canonical ABL1 inhibitor to a mere binding
-   observation. Fixed by unioning with `parent_molecule_chembl_id`.
-2. **Protein-family targets.** Aspirin's mechanism target is `CHEMBL2094253`
-   "Cyclooxygenase", a PROTEIN FAMILY, not the PTGS2 single protein. Target-id
-   equality missed it; matching on the target's component UniProt accessions
-   catches it.
-3. **The gene-keyed PubChem endpoint does not scale.** `/gene/geneid/{id}/concise`
-   returns 337 MB for CFTR, and for DRD2 a 436 MB body that arrives **truncated
-   and unparseable** — so the most heavily screened targets, the interesting ones,
-   silently returned nothing and were scored `not_tested`. The compound-keyed
-   `/compound/cid/{cid}/assaysummary` view carries a `Target GeneID` column, so
-   the join stays an exact integer match at ~300 KB per compound. Spot-checked
-   identical: imatinib/ABL1 gives 154 Active + 10 Inactive either way. Cache for
-   the whole run fell from 521 MB (9 genes) to 6.2 MB.
-4. **A fetch failure was being laundered into evidence.** With (3) in place a
-   PubChem error yielded zero rows and a `not_tested` verdict — an error
-   presented as a measured negative. Failures now get their own `fetch_failed`
-   verdict and a `pubchem_error` flag, and are excluded from denominators.
+1. **Mechanisms are often filed on the salt.** Imatinib (`CHEMBL941`) has *no*
+   mechanism rows of its own; all four are under the mesylate `CHEMBL1642`.
+   Querying `molecule_chembl_id` alone reduces the canonical ABL1 inhibitor to a
+   mere binding observation, so the lookup unions in `parent_molecule_chembl_id`.
+2. **Mechanism targets are often families or complexes.** Aspirin's target is
+   `CHEMBL2094253` "Cyclooxygenase", a PROTEIN FAMILY, not the PTGS2 single
+   protein. Target-id equality misses these; matching also on the target's
+   component UniProt accessions catches them.
+3. **PubChem must be queried per compound, not per gene.** Both routes join
+   exactly, but `/gene/geneid/{id}/concise` returns 337 MB for CFTR and, for
+   DRD2, a 436 MB body that arrives **truncated and unparseable** — so the most
+   heavily screened targets, the interesting ones, return nothing. The
+   compound-keyed `/compound/cid/{cid}/assaysummary` view carries a
+   `Target GeneID` column, keeping the join an exact integer match at ~300 KB per
+   compound and 6.2 MB for the whole run. Verified equivalent: imatinib/ABL1
+   gives 154 Active + 10 Inactive either way.
+4. **A fetch failure must not become a measured negative.** Zero rows from a
+   PubChem error is not the same observation as zero rows from a compound never
+   tested. Failures get their own `fetch_failed` verdict and a `pubchem_error`
+   flag, and are excluded from denominators.
 
 One hypothesis checked and **rejected**: BindingDB and Pharos directions are
 ~50/50 increased/decreased, which looked like non-committal hedging. It is not —
