@@ -1,0 +1,631 @@
+{
+  "gse": "GSE89408",
+  "paths_file": "data/ars/d1f9daae-9330-4c2c-81f5-5c21ee2f44f4/paths.json",
+  "fdr": 0.05,
+  "n_translator_genes": 95,
+  "n_in_matrix": 68,
+  "n_significant": 57,
+  "background_sig": 13048,
+  "background_total": 16284,
+  "sweep": [
+    {
+      "min_abs_logFC": 0.0,
+      "translator": 57,
+      "translator_pct": 84,
+      "background_pct": 80,
+      "permutation_median": 55,
+      "p": 0.2673663168415792
+    },
+    {
+      "min_abs_logFC": 0.5,
+      "translator": 52,
+      "translator_pct": 76,
+      "background_pct": 64,
+      "permutation_median": 44,
+      "p": 0.019490254872563718
+    },
+    {
+      "min_abs_logFC": 1.0,
+      "translator": 28,
+      "translator_pct": 41,
+      "background_pct": 34,
+      "permutation_median": 23,
+      "p": 0.15142428785607195
+    },
+    {
+      "min_abs_logFC": 1.5,
+      "translator": 13,
+      "translator_pct": 19,
+      "background_pct": 12,
+      "permutation_median": 8,
+      "p": 0.05647176411794103
+    },
+    {
+      "min_abs_logFC": 2.0,
+      "translator": 4,
+      "translator_pct": 6,
+      "background_pct": 3,
+      "permutation_median": 2,
+      "p": 0.12393803098450774
+    }
+  ],
+  "median_abs_logfc_translator": 0.914976398928129,
+  "median_abs_logfc_background": 0.7267046433237356,
+  "n_up": 43,
+  "n_down": 14,
+  "genes": [
+    {
+      "gene": "FCGR2A",
+      "logFC": 2.755982391513913,
+      "p": 3.66838685691479e-28,
+      "adj_p": 4.1026454621324013e-26,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "JAK2",
+      "logFC": 2.059904047934202,
+      "p": 9.461415303168227e-27,
+      "adj_p": 6.340316329086066e-25,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "CCL2",
+      "logFC": 2.5563955421545472,
+      "p": 1.7087594417313104e-21,
+      "adj_p": 2.3382721637943413e-20,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "IFNAR2",
+      "logFC": 1.4206807468698783,
+      "p": 1.0191179506194808e-19,
+      "adj_p": 9.50476329203186e-19,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "IFNAR1",
+      "logFC": 1.275973385991275,
+      "p": 1.1630118228323838e-18,
+      "adj_p": 8.874641294752829e-18,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "MAPT",
+      "logFC": -1.4446565623331042,
+      "p": 4.128997603229774e-17,
+      "adj_p": 2.4601755203437115e-16,
+      "direction": "decreased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "ALOX5",
+      "logFC": 1.9228784015734632,
+      "p": 4.4351471805043903e-17,
+      "adj_p": 2.6252975895068517e-16,
+      "direction": "increased",
+      "n_drugs": 2
+    },
+    {
+      "gene": "IL2RG",
+      "logFC": 2.2594998112296505,
+      "p": 2.290237781112693e-14,
+      "adj_p": 9.494458255508934e-14,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "PTGS2",
+      "logFC": 1.9999632877199849,
+      "p": 1.8217417517465358e-13,
+      "adj_p": 6.811766403086243e-13,
+      "direction": "increased",
+      "n_drugs": 13
+    },
+    {
+      "gene": "CA12",
+      "logFC": 1.8917545362792167,
+      "p": 4.4484640295325174e-13,
+      "adj_p": 1.5931116836795143e-12,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "NR3C1",
+      "logFC": 1.0608562681067646,
+      "p": 2.448927514490417e-12,
+      "adj_p": 8.136775279731065e-12,
+      "direction": "increased",
+      "n_drugs": 3
+    },
+    {
+      "gene": "JAK1",
+      "logFC": 1.0313453545621583,
+      "p": 2.4906289013945817e-12,
+      "adj_p": 8.270269378121812e-12,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "VDR",
+      "logFC": 1.3014243119635451,
+      "p": 1.4170932076990021e-11,
+      "adj_p": 4.344116301613432e-11,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "TNF",
+      "logFC": 1.080819929263117,
+      "p": 2.4751435297528536e-11,
+      "adj_p": 7.376507547308834e-11,
+      "direction": "increased",
+      "n_drugs": 7
+    },
+    {
+      "gene": "MGAM",
+      "logFC": 1.7443984713675165,
+      "p": 6.255309317373511e-11,
+      "adj_p": 1.7939671878145518e-10,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "ATP1A1",
+      "logFC": 0.9421139279514419,
+      "p": 8.899468561192383e-11,
+      "adj_p": 2.514644213958993e-10,
+      "direction": "increased",
+      "n_drugs": 2
+    },
+    {
+      "gene": "SLC2A4",
+      "logFC": -1.5684033587903274,
+      "p": 1.287897982396656e-10,
+      "adj_p": 3.589888864318238e-10,
+      "direction": "decreased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "CXCR1",
+      "logFC": 1.5689871715015078,
+      "p": 2.0076732613492493e-10,
+      "adj_p": 5.479877872579815e-10,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "IL2RA",
+      "logFC": 1.6104836084554524,
+      "p": 5.076201916017771e-10,
+      "adj_p": 1.3336700871318714e-09,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "BIRC5",
+      "logFC": 1.0807885737466316,
+      "p": 6.868494308697135e-10,
+      "adj_p": 1.7821313148952224e-09,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "STAT3",
+      "logFC": 0.8552066164166838,
+      "p": 7.363739395549848e-10,
+      "adj_p": 1.906074269863833e-09,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "CTLA4",
+      "logFC": 1.248045120576116,
+      "p": 1.1603522187900492e-09,
+      "adj_p": 2.9395108168601682e-09,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "HSP90AA1",
+      "logFC": 0.9120264248507333,
+      "p": 1.6279449056907974e-09,
+      "adj_p": 4.072112879303985e-09,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "MTOR",
+      "logFC": 0.8233856708367409,
+      "p": 1.7422273603937445e-09,
+      "adj_p": 4.339977105193779e-09,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "CP",
+      "logFC": 1.7723751199798414,
+      "p": 8.494469955025772e-09,
+      "adj_p": 1.9871275498870806e-08,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "HMOX2",
+      "logFC": 0.6814532431900346,
+      "p": 1.6313953179480516e-08,
+      "adj_p": 3.7133968908954526e-08,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "JAK3",
+      "logFC": 1.472921386199137,
+      "p": 4.6708754877900376e-08,
+      "adj_p": 1.0213580830290449e-07,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "ABCB1",
+      "logFC": 0.9912096903386212,
+      "p": 4.817123235784635e-08,
+      "adj_p": 1.0515018065886997e-07,
+      "direction": "increased",
+      "n_drugs": 2
+    },
+    {
+      "gene": "HRH1",
+      "logFC": 0.9179263730055247,
+      "p": 1.1982491080055545e-06,
+      "adj_p": 2.3116086334276092e-06,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "STS",
+      "logFC": 0.7383784181332933,
+      "p": 1.3855955996009925e-06,
+      "adj_p": 2.658541150453937e-06,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "KMT2A",
+      "logFC": 0.6496782690241183,
+      "p": 3.8962241360759166e-06,
+      "adj_p": 7.154500883159701e-06,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "MMP9",
+      "logFC": 1.3333841205501347,
+      "p": 4.798168069527085e-06,
+      "adj_p": 8.726085419273962e-06,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "ADH1C",
+      "logFC": -1.216850188261529,
+      "p": 5.849473780733328e-06,
+      "adj_p": 1.054965456257188e-05,
+      "direction": "decreased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "EHMT2",
+      "logFC": -0.5199028455008374,
+      "p": 9.230472671655383e-06,
+      "adj_p": 1.6330836265236446e-05,
+      "direction": "decreased",
+      "n_drugs": 2
+    },
+    {
+      "gene": "IL2RB",
+      "logFC": 1.1447008376452774,
+      "p": 9.290886482251704e-06,
+      "adj_p": 1.643593649940106e-05,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "ADRA2A",
+      "logFC": -1.0261115742916074,
+      "p": 1.951680101695113e-05,
+      "adj_p": 3.348204675095156e-05,
+      "direction": "decreased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "HTR2A",
+      "logFC": 0.9406859938459906,
+      "p": 2.008650720787971e-05,
+      "adj_p": 3.4415896819561574e-05,
+      "direction": "increased",
+      "n_drugs": 3
+    },
+    {
+      "gene": "AR",
+      "logFC": -1.1169761222284351,
+      "p": 2.214521723073549e-05,
+      "adj_p": 3.78000751976202e-05,
+      "direction": "decreased",
+      "n_drugs": 5
+    },
+    {
+      "gene": "PPARD",
+      "logFC": -0.5325857749186853,
+      "p": 3.9656421970950255e-05,
+      "adj_p": 6.610350858582802e-05,
+      "direction": "decreased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "ADRA1A",
+      "logFC": -0.7687360965054001,
+      "p": 8.267975795296603e-05,
+      "adj_p": 0.00013397921967420626,
+      "direction": "decreased",
+      "n_drugs": 2
+    },
+    {
+      "gene": "CAT",
+      "logFC": 0.7998131438955003,
+      "p": 9.241081186005353e-05,
+      "adj_p": 0.00014903611571051914,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "KDM4A",
+      "logFC": 0.479176746401758,
+      "p": 0.0002458412796658209,
+      "adj_p": 0.00038155541346532855,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "ATXN2",
+      "logFC": 0.5124439546721069,
+      "p": 0.0002554443671095085,
+      "adj_p": 0.0003957431332900044,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "CYP3A5",
+      "logFC": 0.5766896198347207,
+      "p": 0.00026191556790075126,
+      "adj_p": 0.00040549848903744375,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "DPP4",
+      "logFC": 0.9977801333185723,
+      "p": 0.0003991164393562881,
+      "adj_p": 0.000607005893198636,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "ADH1B",
+      "logFC": -1.937461494268605,
+      "p": 0.0004884439904517076,
+      "adj_p": 0.0007363286373371234,
+      "direction": "decreased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "MMP2",
+      "logFC": 0.7386438008503617,
+      "p": 0.0011345627389398542,
+      "adj_p": 0.0016572676391188182,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "TP53",
+      "logFC": 0.415627562719175,
+      "p": 0.001878872662350391,
+      "adj_p": 0.0026845277207786056,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "ITGA2B",
+      "logFC": 0.5776201473916793,
+      "p": 0.0026817960400211407,
+      "adj_p": 0.0037813115175083776,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "CACNA2D1",
+      "logFC": 0.6014418260235925,
+      "p": 0.003558831619292087,
+      "adj_p": 0.004952317047389535,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "VEGFA",
+      "logFC": -0.5562108720804426,
+      "p": 0.004008768161151272,
+      "adj_p": 0.005552805438600486,
+      "direction": "decreased",
+      "n_drugs": 8
+    },
+    {
+      "gene": "DHFR",
+      "logFC": 0.4398686620028709,
+      "p": 0.004741156917439383,
+      "adj_p": 0.00652069250368099,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "NOS2",
+      "logFC": 0.649468444308519,
+      "p": 0.013592548454120022,
+      "adj_p": 0.017840014429506765,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "LPL",
+      "logFC": -0.9645140669123986,
+      "p": 0.015976481607132113,
+      "adj_p": 0.02083288168566138,
+      "direction": "decreased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "ELN",
+      "logFC": -0.6030876089215962,
+      "p": 0.019753708283743485,
+      "adj_p": 0.025503003701932838,
+      "direction": "decreased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "MEN1",
+      "logFC": -0.26071314375823595,
+      "p": 0.025108288121202693,
+      "adj_p": 0.03210800720635029,
+      "direction": "decreased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "TYK2",
+      "logFC": -0.3021757710007913,
+      "p": 0.035741528926040045,
+      "adj_p": 0.04488778783214839,
+      "direction": "decreased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "SERPINE1",
+      "logFC": 0.5819999572467163,
+      "p": 0.05182302741157283,
+      "adj_p": 0.0638002705352727,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "CYP19A1",
+      "logFC": 0.19502406623684554,
+      "p": 0.061456126705724576,
+      "adj_p": 0.07481136034058601,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "HTT",
+      "logFC": 0.1758157407721006,
+      "p": 0.17656032603897043,
+      "adj_p": 0.20264366712846027,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "PTGS1",
+      "logFC": 0.21118510743119323,
+      "p": 0.22577842852459554,
+      "adj_p": 0.2549990241430513,
+      "direction": "increased",
+      "n_drugs": 11
+    },
+    {
+      "gene": "CACNA1C",
+      "logFC": 0.2277980066915939,
+      "p": 0.2620050153810993,
+      "adj_p": 0.29299851579692293,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "ADORA2A",
+      "logFC": -0.1369120223293091,
+      "p": 0.296563478691267,
+      "adj_p": 0.32858676512271834,
+      "direction": "decreased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "DDIT3",
+      "logFC": 0.10813164677951148,
+      "p": 0.37666270728020224,
+      "adj_p": 0.40991616155522376,
+      "direction": "increased",
+      "n_drugs": 2
+    },
+    {
+      "gene": "TSPO",
+      "logFC": 0.14047104974155378,
+      "p": 0.4105370425842126,
+      "adj_p": 0.4443755119277664,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "ITGB3",
+      "logFC": 0.1356743926634172,
+      "p": 0.5259170593553102,
+      "adj_p": 0.558463214512023,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "PPARG",
+      "logFC": 0.13235422945721798,
+      "p": 0.5874179354195599,
+      "adj_p": 0.6188066800602997,
+      "direction": "increased",
+      "n_drugs": 1
+    },
+    {
+      "gene": "ACHE",
+      "logFC": 0.06061238706024685,
+      "p": 0.6658684569760505,
+      "adj_p": 0.6933309005305969,
+      "direction": "increased",
+      "n_drugs": 1
+    }
+  ],
+  "not_in_matrix": [
+    "ABCC8",
+    "ACE2",
+    "ADH1A",
+    "AVP",
+    "CA9",
+    "CD1A",
+    "CFTR",
+    "CYP1A2",
+    "CYP2B6",
+    "CYP3A4",
+    "DRD1",
+    "DRD2",
+    "FGA",
+    "FGB",
+    "FGG",
+    "GABRA1",
+    "GCG",
+    "Glucose-6-Phosphate Isomerase",
+    "HTR1A",
+    "HTR2C",
+    "IFNA2",
+    "IL2",
+    "KCNH2",
+    "KCNH7",
+    "PTH",
+    "SI",
+    "SLCO1B1"
+  ]
+}

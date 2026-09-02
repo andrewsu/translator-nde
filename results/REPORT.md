@@ -549,6 +549,50 @@ Arms split 152 RA / 28 healthy; 16,284 genes tested in ~1 s.
 
 All eight known markers up in RA. The pipeline recovers the expected biology.
 
+### Relating it back to Translator
+
+Route B as run in example 3 tests `drug → gene` edges, and GSE89408 cannot: it contrasts RA
+synovium against healthy, so no drug varies. It can test the *other* hop of the same path. If
+Translator proposes `drug → gene → disease` for RA, its gene intermediates ought to be
+differentially expressed in RA tissue.
+
+RA's answer set yields **95 distinct gene intermediates**, 68 of them in this matrix. The join is
+`scripts/join_route_b_translator.py`, scored against size-matched random gene sets drawn from the
+same matrix, because "most of them are DE" means nothing without knowing how many genes are DE
+overall — and here that number is enormous.
+
+| threshold | Translator | background | permutation p |
+|---|--:|--:|--:|
+| adj p < 0.05 | 84% | 80% | 0.27 |
+| adj p < 0.05 & \|logFC\| > 0.5 | 76% | 64% | 0.019 |
+| adj p < 0.05 & \|logFC\| > 1.0 | 41% | 34% | 0.15 |
+| adj p < 0.05 & \|logFC\| > 1.5 | 19% | 12% | 0.056 |
+| adj p < 0.05 & \|logFC\| > 2.0 | 6% | 3% | 0.12 |
+
+Median \|logFC\| is 0.92 for Translator's genes against 0.73 for the transcriptome; of the 57
+significant ones, 43 are up and 14 down.
+
+**Read this as a negative result.** The shift is in the expected direction and it is small. The
+p-values are non-monotonic across five thresholds and two fall nominally below 0.05, which is
+about what five tries buys you by chance — picking the 0.019 and reporting that alone would be
+cherry-picking. On this contrast, Translator's RA gene intermediates are only marginally
+distinguishable from randomly chosen expressed genes.
+
+Three reasons not to read much into it either way:
+
+1. **The contrast is over-powered for this question.** 152 vs 28 samples puts **80% of the
+   transcriptome** below FDR 0.05, so DE membership carries almost no information and the test has
+   little room to discriminate.
+2. **The background is the wrong null.** Translator's intermediates are drug targets — biased
+   toward well-studied, well-expressed, immune-related genes. A fair comparison needs an
+   expression-matched or druggable-genome background, not all 16,284 genes.
+3. **This tests `gene → disease`, not the hop the project is about.** A gene being DE in RA tissue
+   says nothing about whether a given drug acts on it, which is the claim Routes A and D address.
+
+The useful conclusion is methodological: **a disease-vs-healthy contrast is the wrong instrument
+for validating mechanistic paths**, and the 40% of RA/AS series that are re-analyzable are worth
+far more when they carry a drug arm. That is what example 3 goes after.
+
 ⚠️ **Arm provenance matters and is reported.** Depositors name matrix columns arbitrarily: this
 series uses `normal_tissue_1` / `RA_tissue_148`, while the GEO titles are `healthy tissue 2` —
 so neither the GSM accession nor the title matches a column. Matching is layered
@@ -785,10 +829,14 @@ cases and approved-drug-backed in 59.
 ## 5. Route B is worth keeping, for a different job
 
 40% of RA/AS GEO series are re-analyzable straight from NDE metadata, and the pipeline reproduces
-known biology. Its value is not adjudicating individual Translator edges — clinical pre/post
-designs yield 2–3% of genes significant, too underpowered for that — but generating fresh
-disease-level contrasts from data nobody has re-analysed. In-vitro perturbation series (47%
-significant) are the productive substrate.
+known biology. But **none of its results has yet been joined back to a Translator drug→gene edge.**
+The one join the data supports — Translator's RA gene intermediates against RA-vs-healthy synovium
+in GSE89408 — tests the `gene → disease` hop instead, and returns a weak, unconvincing enrichment
+over random genes. Route B's value is therefore not adjudicating individual edges: clinical
+pre/post designs yield 2–3% of genes significant, too underpowered for that, while
+disease-vs-healthy designs are so over-powered that 80% of the transcriptome is significant and
+nothing discriminates. It is worth keeping to generate fresh contrasts from data nobody has
+re-analysed, with in-vitro perturbation series (47% significant) as the productive substrate.
 
 ## What to do next
 
@@ -800,4 +848,10 @@ significant) are the productive substrate.
    expression data; `activity` edges should be out-of-scope, not `disagrees`.
 3. **Add a biotype check to Route B**, so a run dominated by snoRNA/snRNA is reported as a failed
    run rather than a result.
-4. **Report the ChEMBL/PubChem/BindingDB absence to the NDE team** as a coverage gap.
+4. **Join Route B to Translator on a drug arm.** The GSE89408 join tests the wrong hop. The right
+   test scores a series with a genuine drug arm — GSE148395 (JQ1) or GSE97165 (triple DMARD) —
+   against that drug's own Translator edges and their `object_direction_qualifier`, replacing the
+   hand-curated marker panels used in example 3. GSE162120 (formoterol/budesonide, paired pre/post)
+   would extend it to asthma and COPD.
+5. **Report the ChEMBL/PubChem/BindingDB absence to the NDE team** as a coverage gap,
+   alongside the GEO `characteristics_ch1` flattening seen in GSE162120.
