@@ -90,7 +90,8 @@ TOP_N = 20
 # \b before the 0 matters: "0 uM" otherwise matches inside "50 uM".
 CONTROL = re.compile(
     r"vehicle|placebo|untreated|\bcontrol\b|dmso|\bnone\b|no treat|baseline|"
-    r"saline|\bpbs\b|\b0\s?(u|n|m|µ)M\b|\bmock\b", re.I)
+    r"saline|\bpbs\b|\b0\s?(u|n|m|µ)M\b|\bmock\b|unstim\w*|"
+    r"no stimulation|\bDMSO\b", re.I)
 # A dose-series control reads "<drug>_dosis: 0" -- it names the drug, so it looks
 # like a treatment arm unless zero and absent levels are excluded explicitly.
 ZERO_LEVEL = re.compile(r":\s*(0|0\.0|NA|-|FALSE|no|none|neg\w*)\s*$", re.I)
@@ -102,20 +103,55 @@ for p in paths:
     genes[p["drug_name"]].add(p["gene_name"])
 top = sorted(score, key=lambda d: -score[d])[:TOP_N]
 
+# Fields a depositor may use to encode the treatment arm. `characteristics_ch1`
+# is the conventional place, but GSE20297 -- a real terbutaline experiment --
+# keeps its arms only in the sample title ("HaCaT_TNF+IFNg+terbutaline") and
+# leaves characteristics constant, so confirming on characteristics alone
+# discards it.
+ARM_FIELDS = ("!Sample_characteristics_ch1", "!Sample_title",
+              "!Sample_source_name_ch1")
+
+
+def confirm_arm(gse: str, drug: str) -> dict | None:
+    """A per-sample field that names the drug and takes more than one value."""
+    header = series_header(gse)
+    for key in ARM_FIELDS:
+        for vals in _rows(header, key):
+            counts = collections.Counter(v for v in vals if v)
+            if len(counts) < 2 or not any(drug.lower() in v.lower() for v in counts):
+                continue
+            first = next(iter(counts))
+            field = (first.split(":", 1)[0].strip() if ":" in first
+                     else key.replace("!Sample_", ""))
+            return {"gse": gse, "field": field, "values": dict(counts.most_common(8)),
+                    "arm_field": key.replace("!Sample_", ""),
+                    "n_samples_mentioning": sum(
+                        n for v, n in counts.items() if drug.lower() in v.lower())}
+    return None
+
+
 sweep = json.loads(Path("results/perturbation_series.json").read_text())
 stage1 = {r["drug"].lower(): r for r in sweep["stage1"]}
-confirmed = defaultdict(list)
-for c in sweep["confirmed"]:
-    confirmed[c["drug"].lower()].append(c)
 
 rows = []
 for rank, drug in enumerate(top, 1):
     s1 = stage1.get(drug.lower())
-    hits = confirmed.get(drug.lower(), [])
+    # Re-confirm the NDE candidates here rather than reusing the sweep's verdicts,
+    # so the wider arm-field search applies.
+    hits = [h for h in (confirm_arm(g, drug) for g, _ in (s1["series"] if s1 else []))
+            if h]
     # Prefer a series with an explicit control arm; those are directly analysable.
     def has_control(c):
         return any(CONTROL.search(v) and drug.lower() not in v.lower() for v in c["values"])
-    hits = sorted(hits, key=lambda c: (not has_control(c), -c["n_samples_mentioning"]))
+
+    # An arm declared in `characteristics_ch1` is a deliberate annotation; one
+    # recovered from a sample title is inferred from a naming convention, so
+    # prefer the former when a drug has both.
+    def rank_key(c):
+        return (c["arm_field"] != "characteristics_ch1", not has_control(c),
+                -c["n_samples_mentioning"])
+
+    hits = sorted(hits, key=rank_key)
     best = hits[0] if hits else None
     arm = ctrl = None
     if best:
@@ -137,6 +173,7 @@ for rank, drug in enumerate(top, 1):
         "candidate_series": s1["n_series"] if s1 else 0,
         "confirmed_series": len(hits),
         "best_series": best["gse"] if best else None,
+        "arm_field": best["arm_field"] if best else None,
         "arm": arm, "control": ctrl,
         "all_confirmed": [c["gse"] for c in hits],
     })

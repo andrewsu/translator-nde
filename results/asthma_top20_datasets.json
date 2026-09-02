@@ -6,18 +6,21 @@
       "rank": 1,
       "drug": "Terbutaline",
       "score": 0.994,
-      "system": null,
+      "system": "HaCaT, cell line from epidermal keratinocyte",
       "genes": [
         "ADRB1",
         "ADRB2"
       ],
       "nde_samples": 14,
       "candidate_series": 1,
-      "confirmed_series": 0,
-      "best_series": null,
-      "arm": null,
-      "control": null,
-      "all_confirmed": []
+      "confirmed_series": 1,
+      "best_series": "GSE20297",
+      "arm_field": "title",
+      "arm": "HaCaT_TNF+IFNg+terbutaline_1",
+      "control": "HaCaT_unstimulated_1",
+      "all_confirmed": [
+        "GSE20297"
+      ]
     },
     {
       "rank": 2,
@@ -32,6 +35,7 @@
       "candidate_series": 37,
       "confirmed_series": 4,
       "best_series": "GSE40165",
+      "arm_field": "characteristics_ch1",
       "arm": "treated with: high-dose (2mg/kg) of prednisolone",
       "control": "treated with: placebo",
       "all_confirmed": [
@@ -53,6 +57,7 @@
       "candidate_series": 0,
       "confirmed_series": 0,
       "best_series": null,
+      "arm_field": null,
       "arm": null,
       "control": null,
       "all_confirmed": []
@@ -69,13 +74,14 @@
       "candidate_series": 20,
       "confirmed_series": 4,
       "best_series": "GSE224705",
+      "arm_field": "characteristics_ch1",
       "arm": "prednisone_dosis: 5",
       "control": "prednisone_dosis: 0",
       "all_confirmed": [
         "GSE224705",
-        "GSE73578",
         "GSE77344",
-        "GSE226147"
+        "GSE226147",
+        "GSE73578"
       ]
     },
     {
@@ -92,6 +98,7 @@
       "candidate_series": 0,
       "confirmed_series": 0,
       "best_series": null,
+      "arm_field": null,
       "arm": null,
       "control": null,
       "all_confirmed": []
@@ -108,6 +115,7 @@
       "candidate_series": 0,
       "confirmed_series": 0,
       "best_series": null,
+      "arm_field": null,
       "arm": null,
       "control": null,
       "all_confirmed": []
@@ -124,6 +132,7 @@
       "candidate_series": 2,
       "confirmed_series": 2,
       "best_series": "GSE175616",
+      "arm_field": "characteristics_ch1",
       "arm": "treatment: Aspirin+Zileuton",
       "control": "treatment: Placebo",
       "all_confirmed": [
@@ -143,14 +152,16 @@
       ],
       "nde_samples": 114,
       "candidate_series": 4,
-      "confirmed_series": 3,
+      "confirmed_series": 4,
       "best_series": "GSE126981",
+      "arm_field": "characteristics_ch1",
       "arm": "treatment: Roflumilast N-oxide (RNO)",
       "control": "treatment: Vehicle",
       "all_confirmed": [
         "GSE126981",
         "GSE267218",
-        "GSE297400"
+        "GSE297400",
+        "GSE283313"
       ]
     },
     {
@@ -167,6 +178,7 @@
       "candidate_series": 8,
       "confirmed_series": 3,
       "best_series": "GSE136034",
+      "arm_field": "characteristics_ch1",
       "arm": "treatment: 100 nM triamcinolone acetonide(TA) for 4 hours.",
       "control": "treatment: DMSO(Veh control) for 4 hours",
       "all_confirmed": [
@@ -179,17 +191,20 @@
       "rank": 10,
       "drug": "Betamethasone",
       "score": 0.949,
-      "system": null,
+      "system": "skin biopsy",
       "genes": [
         "NR3C1"
       ],
       "nde_samples": 80,
       "candidate_series": 3,
-      "confirmed_series": 0,
-      "best_series": null,
-      "arm": null,
-      "control": null,
-      "all_confirmed": []
+      "confirmed_series": 1,
+      "best_series": "GSE32473",
+      "arm_field": "title",
+      "arm": "patient 6, arm treated with betamethasone",
+      "control": "patient 6, baseline",
+      "all_confirmed": [
+        "GSE32473"
+      ]
     },
     {
       "rank": 11,
@@ -203,13 +218,15 @@
       ],
       "nde_samples": 55,
       "candidate_series": 5,
-      "confirmed_series": 2,
+      "confirmed_series": 3,
       "best_series": "GSE246079",
+      "arm_field": "characteristics_ch1",
       "arm": "treatment: 50 uM Tranilast",
       "control": null,
       "all_confirmed": [
         "GSE246079",
-        "GSE246078"
+        "GSE246078",
+        "GSE134029"
       ]
     },
     {
@@ -225,6 +242,7 @@
       "candidate_series": 0,
       "confirmed_series": 0,
       "best_series": null,
+      "arm_field": null,
       "arm": null,
       "control": null,
       "all_confirmed": []
@@ -241,6 +259,7 @@
       "candidate_series": 0,
       "confirmed_series": 0,
       "best_series": null,
+      "arm_field": null,
       "arm": null,
       "control": null,
       "all_confirmed": []
@@ -257,6 +276,7 @@
       "candidate_series": 0,
       "confirmed_series": 0,
       "best_series": null,
+      "arm_field": null,
       "arm": null,
       "control": null,
       "all_confirmed": []
@@ -274,6 +294,7 @@
       "candidate_series": 0,
       "confirmed_series": 0,
       "best_series": null,
+      "arm_field": null,
       "arm": null,
       "control": null,
       "all_confirmed": []
@@ -291,6 +312,7 @@
       "candidate_series": 5,
       "confirmed_series": 5,
       "best_series": "GSE292059",
+      "arm_field": "characteristics_ch1",
       "arm": "treatment: Mepolizumab",
       "control": "treatment: Placebo",
       "all_confirmed": [
@@ -305,22 +327,24 @@
       "rank": 17,
       "drug": "Dupilumab",
       "score": 0.78,
-      "system": "homo sapiens skin biopsy, Week 0, lesional",
+      "system": "nasal brushings",
       "genes": [
         "IL4R"
       ],
       "nde_samples": 530,
       "candidate_series": 10,
-      "confirmed_series": 5,
-      "best_series": "GSE130588",
+      "confirmed_series": 6,
+      "best_series": "GSE267331",
+      "arm_field": "characteristics_ch1",
       "arm": "treatment: Dupilumab",
       "control": "treatment: Placebo",
       "all_confirmed": [
-        "GSE130588",
         "GSE267331",
+        "GSE130588",
         "GSE59294",
         "GSE157194",
-        "GSE326320"
+        "GSE326320",
+        "GSE279422"
       ]
     },
     {
@@ -335,6 +359,7 @@
       "candidate_series": 0,
       "confirmed_series": 0,
       "best_series": null,
+      "arm_field": null,
       "arm": null,
       "control": null,
       "all_confirmed": []
@@ -351,6 +376,7 @@
       "candidate_series": 0,
       "confirmed_series": 0,
       "best_series": null,
+      "arm_field": null,
       "arm": null,
       "control": null,
       "all_confirmed": []
@@ -368,8 +394,9 @@
       ],
       "nde_samples": 1874,
       "candidate_series": 24,
-      "confirmed_series": 5,
+      "confirmed_series": 6,
       "best_series": "GSE158765",
+      "arm_field": "characteristics_ch1",
       "arm": "treatment_drug_label: 81 mg Aspirin",
       "control": "treatment_drug_label: none",
       "all_confirmed": [
@@ -377,7 +404,8 @@
         "GSE175616",
         "GSE48988",
         "GSE324265",
-        "GSE142257"
+        "GSE142257",
+        "GSE102006"
       ]
     }
   ]
