@@ -6,3 +6,4 @@ pytest>=7.4
 nbformat
 nbclient
 ipykernel
+pydeseq2

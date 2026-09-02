@@ -1,710 +1,338 @@
 {
   "gse": "GSE292059",
   "fdr": 0.05,
+  "min_reads": 1000000,
+  "primary_method": "DESeq2 (pydeseq2)",
   "contrasts": {
     "visit14": {
-      "n_treated": 73,
-      "n_control": 79,
-      "n_tested": 13190,
-      "n_significant": 482,
+      "n_treated": 66,
+      "n_control": 73,
+      "lib_min": 1031707.0,
+      "lib_max": 15694843.0,
+      "n_tested": 14410,
+      "n_significant": 1366,
+      "n_up": 770,
+      "n_down": 596,
+      "limma_n_significant": 440,
+      "n_shared": 350,
+      "cell_composition": {
+        "eos total": {
+          "mepolizumab_median": 0.730070014,
+          "placebo_median": 4.98049805,
+          "p": 1.2832926417051278e-06
+        },
+        "neut total": {
+          "mepolizumab_median": 57.1031827251036,
+          "placebo_median": 61.5761576157615,
+          "p": 0.9983173126245275
+        },
+        "mac total": {
+          "mepolizumab_median": 2.41629710840071,
+          "placebo_median": 2.5102510251025,
+          "p": 0.8083710042223103
+        },
+        "lym total": {
+          "mepolizumab_median": 0.425022502250225,
+          "placebo_median": 0.63,
+          "p": 0.5667631118467769
+        },
+        "epi total": {
+          "mepolizumab_median": 2.330349558260485,
+          "placebo_median": 1.67,
+          "p": 0.23442817030638052
+        },
+        "squ total": {
+          "mepolizumab_median": 23.498800119987997,
+          "placebo_median": 12.3312331233123,
+          "p": 0.06316653303320424
+        }
+      },
+      "eos_adjusted": {
+        "n_significant": 69,
+        "translator_genes": {
+          "IL5": {
+            "logFC": 1.028680925986263,
+            "adj_p": 0.2899619269886662
+          },
+          "IL5RA": {
+            "logFC": -0.6925218058813202,
+            "adj_p": 0.09030524540065214
+          }
+        }
+      },
       "translator_genes": {
         "IL5": {
-          "logFC": -0.0835720837881847,
-          "p": 0.6443235358733754,
-          "adj_p": 0.8506188596009399
+          "logFC": 0.358201940383088,
+          "p": 0.47757144814457875,
+          "adj_p": 0.7253366419886461,
+          "limma_logFC": -0.19647062449775832,
+          "limma_adj_p": 0.6015519915776616
         },
         "IL5RA": {
-          "logFC": -1.2569383327828236,
-          "p": 2.633914631315884e-06,
-          "adj_p": 0.0011979770340364315
+          "logFC": -1.5211819713046306,
+          "p": 1.2083762593115854e-07,
+          "adj_p": 3.3485965185922975e-05,
+          "limma_logFC": -1.2977060848371733,
+          "limma_adj_p": 0.000831714110554539
         }
       },
       "top_de": [
         {
           "gene": "RNASE2",
-          "logFC": -1.882014027868983,
-          "adj_p": 0.00027662139681895216
-        },
-        {
-          "gene": "TM6SF1",
-          "logFC": -0.807358822822466,
-          "adj_p": 0.00027662139681895216
-        },
-        {
-          "gene": "PRSS33",
-          "logFC": -1.8684437606729714,
-          "adj_p": 0.00027662139681895216
-        },
-        {
-          "gene": "LGALS12",
-          "logFC": -1.9213524906754507,
-          "adj_p": 0.00027662139681895216
-        },
-        {
-          "gene": "CLC",
-          "logFC": -2.099644014983731,
-          "adj_p": 0.00027662139681895216
-        },
-        {
-          "gene": "ADORA3",
-          "logFC": -1.5684103771079263,
-          "adj_p": 0.00027662139681895216
-        },
-        {
-          "gene": "ADGRE1",
-          "logFC": -1.15823869387608,
-          "adj_p": 0.00027662139681895216
-        },
-        {
-          "gene": "VSTM1",
-          "logFC": -1.637962161917549,
-          "adj_p": 0.00027662139681895216
-        },
-        {
-          "gene": "CEBPE",
-          "logFC": -1.7231692012999478,
-          "adj_p": 0.00027662139681895216
-        },
-        {
-          "gene": "SIGLEC8",
-          "logFC": -1.7521171441304086,
-          "adj_p": 0.0003571044686074141
-        },
-        {
-          "gene": "PTGDR2",
-          "logFC": -1.7591159841754478,
-          "adj_p": 0.0003571044686074141
-        },
-        {
-          "gene": "KCNH2",
-          "logFC": -1.4928088431525128,
-          "adj_p": 0.0003571044686074141
-        },
-        {
-          "gene": "CCL23",
-          "logFC": -1.675300973684762,
-          "adj_p": 0.0003966345709306401
-        },
-        {
-          "gene": "CD244",
-          "logFC": -1.0474223162235319,
-          "adj_p": 0.00039905976672037176
-        },
-        {
-          "gene": "CYSLTR2",
-          "logFC": -1.6886185451992461,
-          "adj_p": 0.00039905976672037176
-        },
-        {
-          "gene": "THBS4",
-          "logFC": -0.894568985274008,
-          "adj_p": 0.00039905976672037176
-        },
-        {
-          "gene": "SLC29A1",
-          "logFC": -1.5964868343972842,
-          "adj_p": 0.00041949866134889766
-        },
-        {
-          "gene": "TEC",
-          "logFC": -1.079909448068486,
-          "adj_p": 0.00041949866134889766
-        },
-        {
-          "gene": "SLCO4C1",
-          "logFC": -1.0935969536964363,
-          "adj_p": 0.0004563414095679541
+          "logFC": -2.6046157376125216,
+          "adj_p": 1.2884764298975102e-09
         },
         {
           "gene": "CAMK1",
-          "logFC": -1.40591701923214,
-          "adj_p": 0.0004922598793349488
+          "logFC": -1.8559232789105498,
+          "adj_p": 8.549617963623475e-09
+        },
+        {
+          "gene": "CEBPE",
+          "logFC": -2.269314796085127,
+          "adj_p": 2.5499406767743106e-08
+        },
+        {
+          "gene": "SLC29A1",
+          "logFC": -1.8849205663511337,
+          "adj_p": 6.260744121050337e-08
         },
         {
           "gene": "PMP22",
-          "logFC": -1.3156294507449502,
-          "adj_p": 0.0006162007486761224
+          "logFC": -1.5869291266535686,
+          "adj_p": 2.6016901670598905e-07
         },
         {
-          "gene": "ARHGEF6",
-          "logFC": -0.7247460443131226,
-          "adj_p": 0.0006558166037508177
+          "gene": "CCL23",
+          "logFC": -2.6414781202017275,
+          "adj_p": 3.9356926249584464e-07
         },
         {
-          "gene": "STARD4",
-          "logFC": -1.1576257160238752,
-          "adj_p": 0.0006994389781926424
+          "gene": "SUSD3",
+          "logFC": -1.1385111689692473,
+          "adj_p": 7.206578712993262e-07
         },
         {
-          "gene": "GATA1",
-          "logFC": -1.5610930847864197,
-          "adj_p": 0.000699839879288416
+          "gene": "VSTM1",
+          "logFC": -1.9026099512959112,
+          "adj_p": 7.206578712993262e-07
         },
         {
-          "gene": "PLAAT5",
-          "logFC": -1.4619688864075666,
-          "adj_p": 0.000699839879288416
+          "gene": "PRSS33",
+          "logFC": -2.24700415710007,
+          "adj_p": 7.287792483676898e-07
         },
         {
-          "gene": "RD3",
-          "logFC": -0.920935287373757,
-          "adj_p": 0.0007440324310186006
+          "gene": "TEC",
+          "logFC": -1.2798990745535161,
+          "adj_p": 7.287792483676898e-07
         },
         {
-          "gene": "RAB44",
-          "logFC": -1.5102840982886687,
-          "adj_p": 0.0010495778451532901
-        },
-        {
-          "gene": "SYNE1",
-          "logFC": -1.2117167923301606,
-          "adj_p": 0.0010942714151449043
-        },
-        {
-          "gene": "IL5RA",
-          "logFC": -1.2569383327828236,
-          "adj_p": 0.0011979770340364315
-        },
-        {
-          "gene": "PDE4D",
-          "logFC": -0.7904163467993826,
-          "adj_p": 0.001267119680589221
-        },
-        {
-          "gene": "GAPT",
-          "logFC": -0.8574670602095322,
-          "adj_p": 0.001267119680589221
-        },
-        {
-          "gene": "ACSM3",
-          "logFC": -1.399490807563005,
-          "adj_p": 0.001267119680589221
-        },
-        {
-          "gene": "PTPN22",
-          "logFC": -0.9602484223938585,
-          "adj_p": 0.0012759921972480461
-        },
-        {
-          "gene": "CCR3",
-          "logFC": -1.081973776269435,
-          "adj_p": 0.0012759921972480461
+          "gene": "DDIT4L",
+          "logFC": 2.1217450052251032,
+          "adj_p": 7.287792483676898e-07
         },
         {
           "gene": "LFNG",
-          "logFC": -0.9146576749148396,
-          "adj_p": 0.0012759921972480461
+          "logFC": -1.0933281723009796,
+          "adj_p": 7.287792483676898e-07
         },
         {
-          "gene": "RNASE3",
-          "logFC": -1.2240863472896273,
-          "adj_p": 0.0013389322850079293
+          "gene": "FAM124B",
+          "logFC": -1.7356426190682628,
+          "adj_p": 7.287792483676898e-07
         },
         {
-          "gene": "SLC18A2",
-          "logFC": -1.0512964093642714,
-          "adj_p": 0.0013389322850079293
+          "gene": "CD101",
+          "logFC": -1.7997452976084547,
+          "adj_p": 7.287792483676898e-07
         },
         {
-          "gene": "TSPAN18",
-          "logFC": -1.2145104041913595,
-          "adj_p": 0.0014884547430092166
+          "gene": "CYSLTR2",
+          "logFC": -1.816732678381797,
+          "adj_p": 7.313667031888009e-07
         },
         {
-          "gene": "S1PR1",
-          "logFC": -1.237944195029883,
-          "adj_p": 0.0015001413609485156
+          "gene": "PIK3R6",
+          "logFC": -1.1043433332709744,
+          "adj_p": 1.677960601824996e-06
         },
         {
-          "gene": "AURKA",
-          "logFC": -1.0691007661975203,
-          "adj_p": 0.00152379178919403
+          "gene": "RD3",
+          "logFC": -2.2722219021104144,
+          "adj_p": 1.677960601824996e-06
+        },
+        {
+          "gene": "LTC4S",
+          "logFC": -1.3942171446651188,
+          "adj_p": 1.7182185715742018e-06
+        },
+        {
+          "gene": "THBS4",
+          "logFC": -1.8126168311946929,
+          "adj_p": 2.042549383740269e-06
+        },
+        {
+          "gene": "SPNS3",
+          "logFC": -1.6676771978889662,
+          "adj_p": 2.1141245206163438e-06
+        },
+        {
+          "gene": "TMIGD3",
+          "logFC": -1.6172534417521047,
+          "adj_p": 3.3646114066591213e-06
+        },
+        {
+          "gene": "SMAD7",
+          "logFC": -1.101956716131553,
+          "adj_p": 3.636984886722318e-06
+        },
+        {
+          "gene": "PTGDR2",
+          "logFC": -2.057751203075014,
+          "adj_p": 4.3596302287383905e-06
+        },
+        {
+          "gene": "SLC7A8",
+          "logFC": -1.50061622132501,
+          "adj_p": 4.3596302287383905e-06
+        },
+        {
+          "gene": "RAB44",
+          "logFC": -1.6344228736914659,
+          "adj_p": 4.3596302287383905e-06
+        },
+        {
+          "gene": "HIC1",
+          "logFC": -1.2410399842427966,
+          "adj_p": 4.3596302287383905e-06
+        },
+        {
+          "gene": "ARHGEF6",
+          "logFC": -0.6435289330885445,
+          "adj_p": 4.3596302287383905e-06
+        },
+        {
+          "gene": "KCNH2",
+          "logFC": -2.2321002591119963,
+          "adj_p": 4.3596302287383905e-06
+        },
+        {
+          "gene": "PNLIPRP3",
+          "logFC": 2.742390544163342,
+          "adj_p": 4.3596302287383905e-06
+        },
+        {
+          "gene": "ADORA3",
+          "logFC": -1.9288910243387238,
+          "adj_p": 5.303482556084237e-06
+        },
+        {
+          "gene": "TCF7",
+          "logFC": -1.0976685333862557,
+          "adj_p": 5.581797810869026e-06
+        },
+        {
+          "gene": "SLC47A1",
+          "logFC": -1.8466554194694687,
+          "adj_p": 5.846168621341045e-06
+        },
+        {
+          "gene": "OLFM2",
+          "logFC": -1.8798932888935678,
+          "adj_p": 6.012800848500825e-06
+        },
+        {
+          "gene": "LYL1",
+          "logFC": -0.8904070469631553,
+          "adj_p": 6.012800848500825e-06
+        },
+        {
+          "gene": "MARCKSL1",
+          "logFC": -0.9945509253216998,
+          "adj_p": 7.767160893318073e-06
+        },
+        {
+          "gene": "ATP2A3",
+          "logFC": -0.7677858435964277,
+          "adj_p": 1.2557623491082702e-05
+        },
+        {
+          "gene": "ACSM3",
+          "logFC": -1.6701830895134788,
+          "adj_p": 1.3638797256973442e-05
+        },
+        {
+          "gene": "PDE4D",
+          "logFC": -0.8274706055792302,
+          "adj_p": 1.3785726882409536e-05
+        },
+        {
+          "gene": "TNNT1",
+          "logFC": -1.8600103463558408,
+          "adj_p": 1.5935483390161126e-05
+        },
+        {
+          "gene": "SMG5",
+          "logFC": 0.3022797543261015,
+          "adj_p": 1.984880692357169e-05
         }
       ],
-      "n_up": 17,
-      "n_down": 465,
       "enrichment": {
-        "all:Reactome_2022": [
-          {
-            "term": "Signaling By GPCR R-HSA-372790",
-            "p": 5.129176375966809e-06,
-            "adj_p": 0.004385445801451621,
-            "odds": 2.405879920038602,
-            "n_genes": 37,
-            "genes": [
-              "RGS18",
-              "DGKD",
-              "GIPR",
-              "PTGDR2",
-              "PDE3B",
-              "OPRL1",
-              "PIK3R1",
-              "PIK3R6"
-            ]
-          },
-          {
-            "term": "Signal Transduction R-HSA-162582",
-            "p": 1.1183566532839112e-05,
-            "adj_p": 0.004439376608587169,
-            "odds": 1.7043664300301469,
-            "n_genes": 92,
-            "genes": [
-              "DGKD",
-              "CCNT1",
-              "PTGDR2",
-              "ZWILCH",
-              "PDE3B",
-              "ATP2A3",
-              "IL5RA",
-              "PIK3CB"
-            ]
-          },
-          {
-            "term": "Immune System R-HSA-168256",
-            "p": 1.5576760030130416e-05,
-            "adj_p": 0.004439376608587169,
-            "odds": 1.7697525864047852,
-            "n_genes": 76,
-            "genes": [
-              "PGLYRP3",
-              "ITGAM",
-              "MS4A3",
-              "ICAM2",
-              "IL5RA",
-              "PTPN22",
-              "PYGL",
-              "PIK3CB"
-            ]
-          },
-          {
-            "term": "Neutrophil Degranulation R-HSA-6798695",
-            "p": 2.9044318473123485e-05,
-            "adj_p": 0.006208223073630145,
-            "odds": 2.5669881139268895,
-            "n_genes": 27,
-            "genes": [
-              "ITGAM",
-              "MS4A3",
-              "PYGL",
-              "RAB44",
-              "ADGRE3",
-              "COTL1",
-              "OLR1",
-              "ACP3"
-            ]
-          },
-          {
-            "term": "Innate Immune System R-HSA-168249",
-            "p": 4.9065321979452986e-05,
-            "adj_p": 0.008390170058486461,
-            "odds": 1.9766375080008534,
-            "n_genes": 46,
-            "genes": [
-              "PGLYRP3",
-              "ITGAM",
-              "MS4A3",
-              "TXK",
-              "ICAM2",
-              "PYGL",
-              "PIK3CB",
-              "PIK3R1"
-            ]
-          },
-          {
-            "term": "GPCR Downstream Signaling R-HSA-388396",
-            "p": 0.00010971605352856799,
-            "adj_p": 0.015634537627820938,
-            "odds": 2.2128829358794517,
-            "n_genes": 31,
-            "genes": [
-              "RGS18",
-              "DGKD",
-              "GIPR",
-              "PTGDR2",
-              "PDE3B",
-              "OPRL1",
-              "PIK3R1",
-              "PIK3R6"
-            ]
-          },
-          {
-            "term": "Drug-mediated Inhibition Of CDK4/CDK6 Activity R-HSA-9754119",
-            "p": 0.00013416983561657125,
-            "adj_p": 0.01638788706459549,
-            "odds": 61.11482254697286,
-            "n_genes": 3,
-            "genes": [
-              "CCND3",
-              "CCND2",
-              "CDK6"
-            ]
-          },
-          {
-            "term": "Immunoregulatory Interactions Between A Lymphoid And A non-Lymphoid Cell R-HSA-198933",
-            "p": 0.0001935341056995359,
-            "adj_p": 0.0206839575466379,
-            "odds": 4.046595389748256,
-            "n_genes": 11,
-            "genes": [
-              "CD96",
-              "JAML",
-              "SIGLEC12",
-              "SIGLEC10",
-              "ICAM2",
-              "CD300LB",
-              "ITGB7",
-              "CD300LF"
-            ]
-          },
-          {
-            "term": "Eicosanoid Ligand-Binding Receptors R-HSA-391903",
-            "p": 0.00036814428483498106,
-            "adj_p": 0.0310715767172556,
-            "odds": 14.839863065804488,
-            "n_genes": 4,
-            "genes": [
-              "CYSLTR1",
-              "CYSLTR2",
-              "PTGDR2",
-              "OXER1"
-            ]
-          },
-          {
-            "term": "Class A/1 (Rhodopsin-like Receptors) R-HSA-373076",
-            "p": 0.0003976896313725849,
-            "adj_p": 0.0310715767172556,
-            "odds": 2.5594653726403185,
-            "n_genes": 19,
-            "genes": [
-              "CCL23",
-              "PTGDR2",
-              "GPR35",
-              "RIPK2",
-              "P2RY14",
-              "OPRL1",
-              "GPR132",
-              "CYSLTR1"
-            ]
-          },
-          {
-            "term": "Interleukin Receptor SHC Signaling R-HSA-912526",
-            "p": 0.0004145293189818231,
-            "adj_p": 0.0310715767172556,
-            "odds": 9.289117591004384,
-            "n_genes": 5,
-            "genes": [
-              "IL2RA",
-              "IL3RA",
-              "IL5RA",
-              "PIK3CB",
-              "PIK3R1"
-            ]
-          },
-          {
-            "term": "LTC4-CYSLTR Mediated IL4 Production R-HSA-9664535",
-            "p": 0.00045292652915359375,
-            "adj_p": 0.0310715767172556,
-            "odds": 30.55427974947808,
-            "n_genes": 3,
-            "genes": [
-              "GGT5",
-              "CYSLTR1",
-              "CYSLTR2"
-            ]
-          }
-        ],
-        "all:GO_Biological_Process_2023": [
-          {
-            "term": "Phosphatidylinositol Phosphate Biosynthetic Process (GO:0046854)",
-            "p": 8.003934531565896e-05,
-            "adj_p": 0.1770470318382376,
-            "odds": 7.759146514935988,
-            "n_genes": 7,
-            "genes": [
-              "SOCS2",
-              "ITPKB",
-              "CISH",
-              "TTC7B",
-              "PIP4K2A",
-              "PIK3CB",
-              "PIK3R1"
-            ]
-          },
-          {
-            "term": "Inflammatory Response (GO:0006954)",
-            "p": 0.0002072597376025725,
-            "adj_p": 0.22922926978844518,
-            "odds": 3.011783066718689,
-            "n_genes": 16,
-            "genes": [
-              "GGT5",
-              "CD96",
-              "CCL23",
-              "NRROS",
-              "RIPK2",
-              "CYBB",
-              "IL4",
-              "TMIGD3"
-            ]
-          },
-          {
-            "term": "Negative Regulation Of Cation Channel Activity (GO:2001258)",
-            "p": 0.0004947370309485049,
-            "adj_p": 0.2479481194220051,
-            "odds": 8.884787166165346,
-            "n_genes": 5,
-            "genes": [
-              "FKBP1A",
-              "PPP3CB",
-              "GSTM2",
-              "GPR35",
-              "SRI"
-            ]
-          },
-          {
-            "term": "Cytokine-Mediated Signaling Pathway (GO:0019221)",
-            "p": 0.0005346542382250976,
-            "adj_p": 0.2479481194220051,
-            "odds": 2.7463537121792245,
-            "n_genes": 16,
-            "genes": [
-              "CCL23",
-              "GPR35",
-              "IL34",
-              "IL5RA",
-              "ILK",
-              "IL4",
-              "IL1RL1",
-              "TMSB4X"
-            ]
-          },
-          {
-            "term": "Negative Regulation Of Calcium Ion Transmembrane Transporter Activity (GO:1901020)",
-            "p": 0.0006895026699270743,
-            "adj_p": 0.2479481194220051,
-            "odds": 8.173165618448637,
-            "n_genes": 5,
-            "genes": [
-              "FKBP1A",
-              "PPP3CB",
-              "GSTM2",
-              "GPR35",
-              "SRI"
-            ]
-          },
-          {
-            "term": "G1/S Transition Of Mitotic Cell Cycle (GO:0000082)",
-            "p": 0.0007799777155170085,
-            "adj_p": 0.2479481194220051,
-            "odds": 5.1215789473684215,
-            "n_genes": 7,
-            "genes": [
-              "CDK17",
-              "CCND3",
-              "GPR132",
-              "CCND2",
-              "TFDP1",
-              "CDK6",
-              "CDK15"
-            ]
-          },
-          {
-            "term": "Phosphorylation (GO:0016310)",
-            "p": 0.0007846459475379908,
-            "adj_p": 0.2479481194220051,
-            "odds": 2.245710928319624,
-            "n_genes": 22,
-            "genes": [
-              "CDK17",
-              "GPI",
-              "DGKD",
-              "CCNT1",
-              "DAPK2",
-              "TXK",
-              "LMTK2",
-              "ILK"
-            ]
-          },
-          {
-            "term": "Activation Of Adenylate Cyclase Activity (GO:0007190)",
-            "p": 0.0011876534829160321,
-            "adj_p": 0.25483247280132304,
-            "odds": 10.19979079497908,
-            "n_genes": 4,
-            "genes": [
-              "TMIGD3",
-              "GIPR",
-              "ADORA2B",
-              "ADORA3"
-            ]
-          },
-          {
-            "term": "Regulation Of Programmed Necrotic Cell Death (GO:0062098)",
-            "p": 0.0014711833201478683,
-            "adj_p": 0.25483247280132304,
-            "odds": 17.45690426483746,
-            "n_genes": 3,
-            "genes": [
-              "CYLD",
-              "BIRC2",
-              "BIRC3"
-            ]
-          },
-          {
-            "term": "Synaptic Vesicle Transport (GO:0048489)",
-            "p": 0.0014711833201478683,
-            "adj_p": 0.25483247280132304,
-            "odds": 17.45690426483746,
-            "n_genes": 3,
-            "genes": [
-              "TOR1A",
-              "SYNJ1",
-              "TMEM230"
-            ]
-          },
-          {
-            "term": "Regulation Of Protein Serine/Threonine Kinase Activity (GO:0071900)",
-            "p": 0.001561130319232229,
-            "adj_p": 0.25483247280132304,
-            "odds": 3.5865883946714834,
-            "n_genes": 9,
-            "genes": [
-              "CCND3",
-              "BLM",
-              "CCND2",
-              "CCNT1",
-              "KSR1",
-              "CCNH",
-              "PIH1D1",
-              "CAMK1"
-            ]
-          },
-          {
-            "term": "Lymphocyte Differentiation (GO:0030098)",
-            "p": 0.0015884380018006804,
-            "adj_p": 0.25483247280132304,
-            "odds": 3.952010573941335,
-            "n_genes": 8,
-            "genes": [
-              "LFNG",
-              "DLL4",
-              "IL4",
-              "TOP2B",
-              "LYL1",
-              "PTPN22",
-              "IKZF1",
-              "PIK3R1"
-            ]
-          }
-        ],
         "down:Reactome_2022": [
           {
-            "term": "Signaling By GPCR R-HSA-372790",
-            "p": 2.2381295919262306e-06,
-            "adj_p": 0.001853171302114919,
-            "odds": 2.5036945989335475,
-            "n_genes": 37,
+            "term": "Regulation Of RUNX1 Expression And Activity R-HSA-8934593",
+            "p": 0.00010618234157687426,
+            "adj_p": 0.06552083103892165,
+            "odds": 13.671742808798646,
+            "n_genes": 5,
             "genes": [
-              "RGS18",
-              "DGKD",
-              "GIPR",
-              "PTGDR2",
-              "PDE3B",
-              "OPRL1",
-              "PIK3R1",
-              "PIK3R6"
+              "TNRC6C",
+              "CCND3",
+              "CCND2",
+              "CDK6",
+              "AGO3"
             ]
           },
           {
-            "term": "Signal Transduction R-HSA-162582",
-            "p": 7.869186551541545e-06,
-            "adj_p": 0.0032578432323381997,
-            "odds": 1.7340631578947368,
-            "n_genes": 90,
+            "term": "SUMO E3 Ligases SUMOylate Target Proteins R-HSA-3108232",
+            "p": 0.00015759126371319796,
+            "adj_p": 0.06552083103892165,
+            "odds": 3.2484560089095877,
+            "n_genes": 15,
             "genes": [
-              "DGKD",
-              "CCNT1",
-              "PTGDR2",
-              "ZWILCH",
-              "PDE3B",
-              "ATP2A3",
-              "IL5RA",
-              "PIK3CB"
+              "MDC1",
+              "TOP2B",
+              "BLM",
+              "NUP155",
+              "UHRF2",
+              "HDAC1",
+              "NSMCE1",
+              "MRTFA"
             ]
           },
           {
-            "term": "Immune System R-HSA-168256",
-            "p": 1.4529763634478233e-05,
-            "adj_p": 0.004010214763115992,
-            "odds": 1.7888910327198784,
-            "n_genes": 74,
+            "term": "SUMOylation R-HSA-2990846",
+            "p": 0.00023181497215087155,
+            "adj_p": 0.06552083103892165,
+            "odds": 3.12489851589647,
+            "n_genes": 15,
             "genes": [
-              "ITGAM",
-              "MS4A3",
-              "ICAM2",
-              "IL5RA",
-              "PTPN22",
-              "PYGL",
-              "PIK3CB",
-              "RAB44"
-            ]
-          },
-          {
-            "term": "Neutrophil Degranulation R-HSA-6798695",
-            "p": 4.201036629615631e-05,
-            "adj_p": 0.008696145823304356,
-            "odds": 2.5583545491089374,
-            "n_genes": 26,
-            "genes": [
-              "ITGAM",
-              "MS4A3",
-              "PYGL",
-              "RAB44",
-              "ADGRE3",
-              "COTL1",
-              "OLR1",
-              "ACP3"
-            ]
-          },
-          {
-            "term": "GPCR Downstream Signaling R-HSA-388396",
-            "p": 5.68415263384824e-05,
-            "adj_p": 0.009412956761652685,
-            "odds": 2.301627793974733,
-            "n_genes": 31,
-            "genes": [
-              "RGS18",
-              "DGKD",
-              "GIPR",
-              "PTGDR2",
-              "PDE3B",
-              "OPRL1",
-              "PIK3R1",
-              "PIK3R6"
-            ]
-          },
-          {
-            "term": "Innate Immune System R-HSA-168249",
-            "p": 8.658695198118151e-05,
-            "adj_p": 0.011948999373403048,
-            "odds": 1.9556914846444604,
-            "n_genes": 44,
-            "genes": [
-              "ITGAM",
-              "MS4A3",
-              "TXK",
-              "ICAM2",
-              "PYGL",
-              "PIK3CB",
-              "PIK3R1",
-              "RAB44"
+              "MDC1",
+              "TOP2B",
+              "BLM",
+              "NUP155",
+              "UHRF2",
+              "HDAC1",
+              "NSMCE1",
+              "MRTFA"
             ]
           },
           {
             "term": "Drug-mediated Inhibition Of CDK4/CDK6 Activity R-HSA-9754119",
-            "p": 0.00012059690169800642,
-            "adj_p": 0.01426489065799276,
-            "odds": 63.41883116883117,
+            "p": 0.00025176111830517444,
+            "adj_p": 0.06552083103892165,
+            "odds": 49.07757166947724,
             "n_genes": 3,
             "genes": [
               "CCND3",
@@ -713,537 +341,880 @@
             ]
           },
           {
-            "term": "Immunoregulatory Interactions Between A Lymphoid And A non-Lymphoid Cell R-HSA-198933",
-            "p": 0.00014172135963623798,
-            "adj_p": 0.01466816072235063,
-            "odds": 4.201797514159849,
-            "n_genes": 11,
-            "genes": [
-              "CD96",
-              "JAML",
-              "SIGLEC12",
-              "SIGLEC10",
-              "ICAM2",
-              "CD300LB",
-              "ITGB7",
-              "CD300LF"
-            ]
-          },
-          {
-            "term": "Class A/1 (Rhodopsin-like Receptors) R-HSA-373076",
-            "p": 0.0002547163920297414,
-            "adj_p": 0.02343390806673621,
-            "odds": 2.659374818007105,
-            "n_genes": 19,
-            "genes": [
-              "CCL23",
-              "PTGDR2",
-              "GPR35",
-              "RIPK2",
-              "P2RY14",
-              "OPRL1",
-              "GPR132",
-              "CYSLTR1"
-            ]
-          },
-          {
             "term": "Eicosanoid Ligand-Binding Receptors R-HSA-391903",
-            "p": 0.0003211643244774654,
-            "adj_p": 0.024825838413850134,
-            "odds": 15.400512719384738,
+            "p": 0.000819970095584045,
+            "adj_p": 0.12426375889037229,
+            "odds": 11.912162162162161,
             "n_genes": 4,
             "genes": [
-              "CYSLTR1",
               "CYSLTR2",
               "PTGDR2",
+              "PTGER3",
               "OXER1"
             ]
           },
           {
-            "term": "Interleukin Receptor SHC Signaling R-HSA-912526",
-            "p": 0.0003516191646462709,
-            "adj_p": 0.024825838413850134,
-            "odds": 9.640810276679842,
-            "n_genes": 5,
+            "term": "Processing Of Capped Intron-Containing Pre-mRNA R-HSA-72203",
+            "p": 0.0009924526913615381,
+            "adj_p": 0.12426375889037229,
+            "odds": 2.50272884283247,
+            "n_genes": 17,
             "genes": [
-              "IL2RA",
-              "IL3RA",
-              "IL5RA",
-              "PIK3CB",
-              "PIK3R1"
+              "SF3A3",
+              "RBM17",
+              "PRPF38A",
+              "NUP155",
+              "GPKOW",
+              "SNU13",
+              "CWC27",
+              "LSM4"
             ]
           },
           {
-            "term": "LTC4-CYSLTR Mediated IL4 Production R-HSA-9664535",
-            "p": 0.0004076331005271846,
-            "adj_p": 0.024825838413850134,
-            "odds": 31.70616883116883,
-            "n_genes": 3,
+            "term": "Nucleotide-like (Purinergic) Receptors R-HSA-418038",
+            "p": 0.001067684810394444,
+            "adj_p": 0.12426375889037229,
+            "odds": 10.91891891891892,
+            "n_genes": 4,
             "genes": [
-              "GGT5",
-              "CYSLTR1",
-              "CYSLTR2"
+              "ADORA2B",
+              "P2RY14",
+              "ADORA3",
+              "P2RY2"
+            ]
+          },
+          {
+            "term": "mRNA Splicing - Major Pathway R-HSA-72163",
+            "p": 0.0010874464877961773,
+            "adj_p": 0.12426375889037229,
+            "odds": 2.770932362079964,
+            "n_genes": 14,
+            "genes": [
+              "SF3A3",
+              "RBM17",
+              "PRPF38A",
+              "GPKOW",
+              "SNU13",
+              "CWC27",
+              "LSM4",
+              "EFTUD2"
+            ]
+          },
+          {
+            "term": "Immunoregulatory Interactions Between A Lymphoid And A non-Lymphoid Cell R-HSA-198933",
+            "p": 0.0011364344666665253,
+            "adj_p": 0.12426375889037229,
+            "odds": 3.238888888888889,
+            "n_genes": 11,
+            "genes": [
+              "CD96",
+              "CD81",
+              "SIGLEC12",
+              "SIGLEC10",
+              "ICAM2",
+              "ITGB7",
+              "ICAM5",
+              "CD300LF"
+            ]
+          },
+          {
+            "term": "Transcriptional Regulation By RUNX1 R-HSA-8878171",
+            "p": 0.0012256633891548727,
+            "adj_p": 0.12426375889037229,
+            "odds": 2.6247848537005165,
+            "n_genes": 15,
+            "genes": [
+              "H2AZ2",
+              "ELOF1",
+              "HDAC1",
+              "ITGA2B",
+              "NFATC2",
+              "GATA1",
+              "TNRC6C",
+              "CCND3"
+            ]
+          },
+          {
+            "term": "Aberrant Regulation Of Mitotic G1/S Transition In Cancer Due To RB1 Defects R-HSA-9659787",
+            "p": 0.001363533198581837,
+            "adj_p": 0.12426375889037229,
+            "odds": 10.078482328482329,
+            "n_genes": 4,
+            "genes": [
+              "CCND3",
+              "CCND2",
+              "CDK6",
+              "TFDP2"
+            ]
+          },
+          {
+            "term": "FCERI Mediated Ca+2 Mobilization R-HSA-2871809",
+            "p": 0.0015164519407431121,
+            "adj_p": 0.12426375889037229,
+            "odds": 6.831641285956007,
+            "n_genes": 5,
+            "genes": [
+              "PPP3CB",
+              "TEC",
+              "TXK",
+              "BTK",
+              "NFATC2"
             ]
           }
         ],
         "down:GO_Biological_Process_2023": [
           {
+            "term": "Regulation Of Extrinsic Apoptotic Signaling Pathway (GO:2001236)",
+            "p": 6.647446260586064e-05,
+            "adj_p": 0.15754447637588972,
+            "odds": 5.818118047900591,
+            "n_genes": 9,
+            "genes": [
+              "BCL2L12",
+              "IL4",
+              "CYLD",
+              "SIAH2",
+              "TNFSF12",
+              "TMC8",
+              "ITGA6",
+              "FADD"
+            ]
+          },
+          {
             "term": "Phosphatidylinositol Phosphate Biosynthetic Process (GO:0046854)",
-            "p": 6.390016331485304e-05,
-            "adj_p": 0.1364907488405261,
-            "odds": 8.054172076006138,
+            "p": 0.00029609844223825834,
+            "adj_p": 0.26424525776420577,
+            "odds": 6.220758959298857,
             "n_genes": 7,
             "genes": [
               "SOCS2",
-              "ITPKB",
+              "SOCS1",
               "CISH",
               "TTC7B",
               "PIP4K2A",
-              "PIK3CB",
-              "PIK3R1"
+              "PIK3R1",
+              "EFR3B"
             ]
           },
           {
-            "term": "Inflammatory Response (GO:0006954)",
-            "p": 0.00013797237283564404,
-            "adj_p": 0.14735449418846783,
-            "odds": 3.1285685361409192,
+            "term": "RNA Splicing, Via Transesterification Reactions With Bulged Adenosine As Nucleophile (GO:0000377)",
+            "p": 0.00033448766805595665,
+            "adj_p": 0.26424525776420577,
+            "odds": 3.010327022375215,
+            "n_genes": 15,
+            "genes": [
+              "SF3A3",
+              "DBR1",
+              "PRPF38A",
+              "GPKOW",
+              "SNU13",
+              "CWC27",
+              "LSM4",
+              "EFTUD2"
+            ]
+          },
+          {
+            "term": "RNA Metabolic Process (GO:0016070)",
+            "p": 0.00048040258921799286,
+            "adj_p": 0.2846385341116608,
+            "odds": 3.6298119658119656,
+            "n_genes": 11,
+            "genes": [
+              "TP53RK",
+              "AGO3",
+              "DKC1",
+              "HNRNPH1",
+              "HNRNPD",
+              "NOL9",
+              "ADARB1",
+              "RNASE3"
+            ]
+          },
+          {
+            "term": "mRNA Splicing, Via Spliceosome (GO:0000398)",
+            "p": 0.0006135702196742692,
+            "adj_p": 0.29083228412560364,
+            "odds": 2.7174535809018567,
             "n_genes": 16,
             "genes": [
-              "GGT5",
-              "CD96",
-              "CCL23",
-              "NRROS",
-              "RIPK2",
-              "CYBB",
-              "IL4",
-              "TMIGD3"
+              "SF3A3",
+              "RBM17",
+              "DBR1",
+              "PRPF38A",
+              "GPKOW",
+              "SNU13",
+              "CWC27",
+              "LSM4"
             ]
           },
           {
-            "term": "Cytokine-Mediated Signaling Pathway (GO:0019221)",
-            "p": 0.00036180734278442483,
-            "adj_p": 0.2242531534221318,
-            "odds": 2.852849578131209,
-            "n_genes": 16,
+            "term": "Ribosome Biogenesis (GO:0042254)",
+            "p": 0.0007693101410747343,
+            "adj_p": 0.30387750572452005,
+            "odds": 3.0247384823520886,
+            "n_genes": 13,
             "genes": [
-              "CCL23",
-              "GPR35",
-              "IL34",
-              "IL5RA",
-              "ILK",
-              "IL4",
-              "IL1RL1",
-              "TMSB4X"
+              "DDX27",
+              "POP4",
+              "PIH1D1",
+              "PAK1IP1",
+              "GTF3A",
+              "NOL7",
+              "LTO1",
+              "SNU13"
             ]
           },
           {
-            "term": "Negative Regulation Of Cation Channel Activity (GO:2001258)",
-            "p": 0.00041994972550961015,
-            "adj_p": 0.2242531534221318,
-            "odds": 9.22117202268431,
-            "n_genes": 5,
+            "term": "Ether Lipid Biosynthetic Process (GO:0008611)",
+            "p": 0.0019337804917117023,
+            "adj_p": 0.4573522590992973,
+            "odds": 16.355817875210793,
+            "n_genes": 3,
             "genes": [
-              "FKBP1A",
-              "PPP3CB",
-              "GSTM2",
-              "GPR35",
-              "SRI"
+              "GNPAT",
+              "LPCAT2",
+              "CHPT1"
             ]
           },
           {
-            "term": "Negative Regulation Of Calcium Ion Transmembrane Transporter Activity (GO:1901020)",
-            "p": 0.000586096086471705,
-            "adj_p": 0.22479656812523233,
-            "odds": 8.482608695652173,
-            "n_genes": 5,
+            "term": "mRNA Processing (GO:0006397)",
+            "p": 0.0019659858999508625,
+            "adj_p": 0.4573522590992973,
+            "odds": 2.491588752713654,
+            "n_genes": 15,
             "genes": [
-              "FKBP1A",
-              "PPP3CB",
-              "GSTM2",
-              "GPR35",
-              "SRI"
+              "SF3A3",
+              "DBR1",
+              "PRPF38A",
+              "GPKOW",
+              "SNU13",
+              "CWC27",
+              "LSM4",
+              "EFTUD2"
             ]
           },
           {
-            "term": "G1/S Transition Of Mitotic Cell Cycle (GO:0000082)",
-            "p": 0.0006314510340596414,
-            "adj_p": 0.22479656812523233,
-            "odds": 5.31632096069869,
-            "n_genes": 7,
-            "genes": [
-              "CDK17",
-              "CCND3",
-              "GPR132",
-              "CCND2",
-              "TFDP1",
-              "CDK6",
-              "CDK15"
-            ]
-          },
-          {
-            "term": "Activation Of Adenylate Cyclase Activity (GO:0007190)",
-            "p": 0.0010396137309641293,
-            "adj_p": 0.25528645289016305,
-            "odds": 10.585140997830802,
+            "term": "Regulation Of Transcription Involved In G1/S Transition Of Mitotic Cell Cycle (GO:0000083)",
+            "p": 0.002118064997762917,
+            "adj_p": 0.4573522590992973,
+            "odds": 8.733783783783784,
             "n_genes": 4,
             "genes": [
-              "TMIGD3",
-              "GIPR",
-              "ADORA2B",
-              "ADORA3"
+              "CDK17",
+              "CDK5",
+              "CDK15",
+              "ZPR1"
+            ]
+          },
+          {
+            "term": "Skeletal Muscle Contraction (GO:0003009)",
+            "p": 0.002118064997762917,
+            "adj_p": 0.4573522590992973,
+            "odds": 8.733783783783784,
+            "n_genes": 4,
+            "genes": [
+              "MYH3",
+              "STAC",
+              "TNNT1",
+              "TNNI3"
+            ]
+          },
+          {
+            "term": "T Cell Differentiation (GO:0030217)",
+            "p": 0.0023221144522990182,
+            "adj_p": 0.4573522590992973,
+            "odds": 4.9230508474576276,
+            "n_genes": 6,
+            "genes": [
+              "LMBR1L",
+              "LFNG",
+              "TCF7",
+              "PTPN22",
+              "PIK3R1",
+              "FADD"
             ]
           },
           {
             "term": "Phosphorylation (GO:0016310)",
-            "p": 0.0011698136391859021,
-            "adj_p": 0.25528645289016305,
-            "odds": 2.217292660307366,
-            "n_genes": 21,
+            "p": 0.0025031861139143585,
+            "adj_p": 0.4573522590992973,
+            "odds": 1.9682983682983684,
+            "n_genes": 24,
             "genes": [
               "CDK17",
               "GPI",
               "DGKD",
-              "CCNT1",
+              "TP53RK",
               "DAPK2",
               "TXK",
               "ILK",
-              "PIK3CB"
-            ]
-          },
-          {
-            "term": "Regulation Of Protein Serine/Threonine Kinase Activity (GO:0071900)",
-            "p": 0.0012190043787151028,
-            "adj_p": 0.25528645289016305,
-            "odds": 3.7235564639754726,
-            "n_genes": 9,
-            "genes": [
-              "CCND3",
-              "BLM",
-              "CCND2",
-              "CCNT1",
-              "KSR1",
-              "CCNH",
-              "PIH1D1",
-              "CAMK1"
-            ]
-          },
-          {
-            "term": "Regulation Of Programmed Necrotic Cell Death (GO:0062098)",
-            "p": 0.0013266119354427388,
-            "adj_p": 0.25528645289016305,
-            "odds": 18.115027829313544,
-            "n_genes": 3,
-            "genes": [
-              "CYLD",
-              "BIRC2",
-              "BIRC3"
-            ]
-          },
-          {
-            "term": "Synaptic Vesicle Transport (GO:0048489)",
-            "p": 0.0013266119354427388,
-            "adj_p": 0.25528645289016305,
-            "odds": 18.115027829313544,
-            "n_genes": 3,
-            "genes": [
-              "TOR1A",
-              "SYNJ1",
-              "TMEM230"
-            ]
-          },
-          {
-            "term": "Adenylate Cyclase-Modulating G Protein-Coupled Receptor Signaling Pathway (GO:0007188)",
-            "p": 0.0015412941574770736,
-            "adj_p": 0.25528645289016305,
-            "odds": 3.0896852538836077,
-            "n_genes": 11,
-            "genes": [
-              "ADGRE1",
-              "RGS1",
-              "GIPR",
-              "ADORA2B",
-              "ADGRG5",
-              "ADGRE3",
-              "GPR171",
-              "OPRL1"
+              "PRKAB1"
             ]
           }
         ],
         "up:Reactome_2022": [
           {
-            "term": "Glycosaminoglycan Metabolism R-HSA-1630316",
-            "p": 0.004577501584745696,
-            "adj_p": 0.06646447383665921,
-            "odds": 22.44632768361582,
-            "n_genes": 2,
+            "term": "Formation Of Cornified Envelope R-HSA-6809371",
+            "p": 3.3298199615222374e-12,
+            "adj_p": 3.6261739380977165e-09,
+            "odds": 9.46962962962963,
+            "n_genes": 20,
             "genes": [
-              "ST3GAL4",
-              "HPSE"
+              "FLG",
+              "SPRR2E",
+              "SPRR2F",
+              "CDSN",
+              "SPINK6",
+              "KLK5",
+              "KLK13",
+              "KAZN"
             ]
           },
           {
-            "term": "Digestion Of Dietary Lipid R-HSA-192456",
-            "p": 0.005935661995124462,
-            "adj_p": 0.06646447383665921,
-            "odds": 208.09375,
-            "n_genes": 1,
+            "term": "Cell-Cell Communication R-HSA-1500931",
+            "p": 7.731083137522785e-07,
+            "adj_p": 0.0004209574768381156,
+            "odds": 4.488735919899875,
+            "n_genes": 18,
             "genes": [
-              "PNLIPRP3"
+              "ITGB1",
+              "DST",
+              "LAMB3",
+              "LAMA4",
+              "PTPN11",
+              "ACTN4",
+              "WASL",
+              "AFDN"
             ]
           },
           {
-            "term": "Constitutive Signaling By NOTCH1 t(7;9)(NOTCH1:M1580 K2555) Translocation Mutant R-HSA-2660826",
-            "p": 0.005935661995124462,
-            "adj_p": 0.06646447383665921,
-            "odds": 208.09375,
-            "n_genes": 1,
+            "term": "Non-integrin membrane-ECM Interactions R-HSA-3000171",
+            "p": 2.5591232527166147e-06,
+            "adj_p": 0.0008241517370308161,
+            "odds": 8.148981324278438,
+            "n_genes": 10,
             "genes": [
-              "DLL4"
+              "ITGB1",
+              "LAMA5",
+              "ITGB5",
+              "LAMB3",
+              "LAMA4",
+              "ITGA2",
+              "DAG1",
+              "SDC1"
             ]
           },
           {
-            "term": "Maturation Of Protein 3A R-HSA-9683673",
-            "p": 0.0076254739654265415,
-            "adj_p": 0.06646447383665921,
-            "odds": 156.0546875,
-            "n_genes": 1,
+            "term": "Extracellular Matrix Organization R-HSA-1474244",
+            "p": 3.027187280186652e-06,
+            "adj_p": 0.0008241517370308161,
+            "odds": 2.833348785940188,
+            "n_genes": 29,
             "genes": [
-              "ST3GAL4"
+              "ITGB1",
+              "LAMA5",
+              "ITGB5",
+              "LAMA4",
+              "CTSV",
+              "KLK7",
+              "CAPN8",
+              "FZR1"
             ]
           },
           {
-            "term": "NOTCH4 Activation And Transmission Of Signal To Nucleus R-HSA-9013700",
-            "p": 0.009312583434128836,
-            "adj_p": 0.06646447383665921,
-            "odds": 124.83125,
-            "n_genes": 1,
+            "term": "Cell Junction Organization R-HSA-446728",
+            "p": 4.844051432584701e-06,
+            "adj_p": 0.001039569126852109,
+            "odds": 4.927469135802469,
+            "n_genes": 14,
             "genes": [
-              "DLL4"
+              "ITGB1",
+              "DST",
+              "LAMB3",
+              "LAMA4",
+              "AFDN",
+              "FZR1",
+              "PARD3",
+              "CLDN23"
             ]
           },
           {
-            "term": "Signaling By NOTCH R-HSA-157118",
-            "p": 0.012612329724431846,
-            "adj_p": 0.06646447383665921,
-            "odds": 13.122388059701493,
-            "n_genes": 2,
+            "term": "Keratinization R-HSA-6805567",
+            "p": 5.7276535914716755e-06,
+            "adj_p": 0.001039569126852109,
+            "odds": 3.169687760049206,
+            "n_genes": 23,
             "genes": [
-              "DLL4",
-              "ST3GAL4"
+              "FLG",
+              "SPRR2E",
+              "SPRR2F",
+              "KRT80",
+              "CDSN",
+              "SPINK6",
+              "KLK5",
+              "KRT24"
             ]
           },
           {
-            "term": "N-Glycan Antennae Elongation R-HSA-975577",
-            "p": 0.012678709933633063,
-            "adj_p": 0.06646447383665921,
-            "odds": 89.14732142857143,
-            "n_genes": 1,
+            "term": "Signal Transduction R-HSA-162582",
+            "p": 7.627890043865517e-06,
+            "adj_p": 0.0011315415615631517,
+            "odds": 1.556655690897787,
+            "n_genes": 136,
             "genes": [
-              "ST3GAL4"
+              "SH3GL3",
+              "CYFIP1",
+              "APP",
+              "VIPR1",
+              "AHCYL1",
+              "IRS1",
+              "WWC1",
+              "PLAT"
             ]
           },
           {
-            "term": "Constitutive Signaling By NOTCH1 HD Domain Mutants R-HSA-2691232",
-            "p": 0.012678709933633063,
-            "adj_p": 0.06646447383665921,
-            "odds": 89.14732142857143,
-            "n_genes": 1,
+            "term": "RHO GTPase Cycle R-HSA-9012999",
+            "p": 8.312518358590646e-06,
+            "adj_p": 0.0011315415615631517,
+            "odds": 2.3522010454797186,
+            "n_genes": 37,
             "genes": [
-              "DLL4"
+              "ITGB1",
+              "CYFIP1",
+              "GRB7",
+              "GARRE1",
+              "DOCK9",
+              "SOWAHC",
+              "ARHGEF28",
+              "ARHGEF10L"
             ]
           },
           {
-            "term": "Lewis Blood Group Biosynthesis R-HSA-9037629",
-            "p": 0.015196239191186837,
-            "adj_p": 0.06646447383665921,
-            "odds": 73.40441176470588,
-            "n_genes": 1,
+            "term": "Laminin Interactions R-HSA-3000157",
+            "p": 1.2536572869810286e-05,
+            "adj_p": 0.0015169253172470447,
+            "odds": 11.752293577981652,
+            "n_genes": 7,
             "genes": [
-              "ST3GAL4"
+              "ITGB1",
+              "LAMA5",
+              "LAMB3",
+              "ITGA2",
+              "LAMA4",
+              "ITGA7",
+              "HSPG2"
             ]
           },
           {
-            "term": "Pre-NOTCH Processing In Golgi R-HSA-1912420",
-            "p": 0.015196239191186837,
-            "adj_p": 0.06646447383665921,
-            "odds": 73.40441176470588,
-            "n_genes": 1,
+            "term": "RND1 GTPase Cycle R-HSA-9696273",
+            "p": 2.522626569083068e-05,
+            "adj_p": 0.0023016541510280453,
+            "odds": 6.879823199139888,
+            "n_genes": 9,
             "genes": [
-              "ST3GAL4"
+              "GRB7",
+              "DST",
+              "PLXNA1",
+              "FRS2",
+              "PKP4",
+              "RASAL2",
+              "ARHGAP5",
+              "PTPN13"
             ]
           },
           {
-            "term": "HS-GAG Degradation R-HSA-2024096",
-            "p": 0.01770772695128657,
-            "adj_p": 0.06646447383665921,
-            "odds": 62.384375,
-            "n_genes": 1,
+            "term": "RND3 GTPase Cycle R-HSA-9696264",
+            "p": 2.522626569083068e-05,
+            "adj_p": 0.0023016541510280453,
+            "odds": 6.879823199139888,
+            "n_genes": 9,
             "genes": [
-              "HPSE"
+              "DST",
+              "TMOD3",
+              "PKP4",
+              "RASAL2",
+              "TNFAIP1",
+              "ARHGAP5",
+              "PTPN13",
+              "RND3"
             ]
           },
           {
-            "term": "NOTCH2 Activation And Transmission Of Signal To Nucleus R-HSA-2979096",
-            "p": 0.01770772695128657,
-            "adj_p": 0.06646447383665921,
-            "odds": 62.384375,
-            "n_genes": 1,
+            "term": "Signaling By MET R-HSA-6806834",
+            "p": 2.536258017661758e-05,
+            "adj_p": 0.0023016541510280453,
+            "odds": 5.345039018952062,
+            "n_genes": 11,
             "genes": [
-              "DLL4"
+              "ITGB1",
+              "SH3GL3",
+              "LAMA5",
+              "GGA3",
+              "SPINT1",
+              "LAMB3",
+              "ITGA2",
+              "LAMA4"
             ]
           }
         ],
         "up:GO_Biological_Process_2023": [
           {
-            "term": "Positive Regulation Of Hemostasis (GO:1900048)",
-            "p": 3.723204414400794e-05,
-            "adj_p": 0.0032391878405286906,
-            "odds": 295.9111111111111,
-            "n_genes": 2,
+            "term": "Keratinocyte Differentiation (GO:0030216)",
+            "p": 1.9787890768802978e-11,
+            "adj_p": 5.51686394634227e-08,
+            "odds": 14.130242825607064,
+            "n_genes": 15,
             "genes": [
-              "ST3GAL4",
-              "HPSE"
+              "SPRR2F",
+              "CDSN",
+              "EVPL",
+              "TGM1",
+              "BCR",
+              "SCEL",
+              "UGCG",
+              "PIP5K1A"
             ]
           },
           {
-            "term": "Positive Regulation Of Coagulation (GO:0050820)",
-            "p": 3.723204414400794e-05,
-            "adj_p": 0.0032391878405286906,
-            "odds": 295.9111111111111,
-            "n_genes": 2,
+            "term": "Epidermal Cell Differentiation (GO:0009913)",
+            "p": 1.1277502593629209e-09,
+            "adj_p": 1.5720838615519118e-06,
+            "odds": 9.776362710137544,
+            "n_genes": 15,
             "genes": [
-              "ST3GAL4",
-              "HPSE"
+              "SPRR2F",
+              "CDSN",
+              "OVOL1",
+              "EVPL",
+              "TGM1",
+              "BCR",
+              "SCEL",
+              "UGCG"
             ]
           },
           {
-            "term": "Positive Regulation Of Blood Coagulation (GO:0030194)",
-            "p": 0.00014145138530987652,
-            "adj_p": 0.008204180347972838,
-            "odds": 140.09824561403508,
-            "n_genes": 2,
+            "term": "Skin Development (GO:0043588)",
+            "p": 3.498823911145062e-08,
+            "adj_p": 3.251573688090811e-05,
+            "odds": 7.188679245283019,
+            "n_genes": 15,
             "genes": [
-              "ST3GAL4",
-              "HPSE"
+              "SPRR2F",
+              "CDSN",
+              "EVPL",
+              "TGM1",
+              "BCR",
+              "SCEL",
+              "UGCG",
+              "ADAM9"
             ]
           },
           {
-            "term": "Regulation Of Blood Coagulation (GO:0030193)",
-            "p": 0.00027238264049152136,
-            "adj_p": 0.011848644861381178,
-            "odds": 98.54814814814814,
-            "n_genes": 2,
+            "term": "Epidermis Development (GO:0008544)",
+            "p": 1.311156073061764e-07,
+            "adj_p": 9.138757829240494e-05,
+            "odds": 5.892745934724945,
+            "n_genes": 16,
             "genes": [
-              "ST3GAL4",
-              "HPSE"
+              "KRTDAP",
+              "SPRR2E",
+              "SPRR2F",
+              "CDSN",
+              "LAMB3",
+              "KLK5",
+              "EMP1",
+              "OVOL1"
             ]
           },
           {
-            "term": "Positive Regulation Of Wound Healing (GO:0090303)",
-            "p": 0.0005204302673761171,
-            "adj_p": 0.018110973304688874,
-            "odds": 69.98245614035088,
-            "n_genes": 2,
+            "term": "Vesicle-Mediated Transport (GO:0016192)",
+            "p": 4.212775793666713e-06,
+            "adj_p": 0.0023490437825485593,
+            "odds": 2.466049046321526,
+            "n_genes": 36,
             "genes": [
-              "ST3GAL4",
-              "HPSE"
+              "USP6NL",
+              "APP",
+              "PLEKHF1",
+              "SNX33",
+              "WASL",
+              "RAB22A",
+              "CYTH2",
+              "GOLGA5"
             ]
           },
           {
-            "term": "Glycoprotein Metabolic Process (GO:0009100)",
-            "p": 0.0009134779480079395,
-            "adj_p": 0.026490860492230244,
-            "odds": 52.10980392156863,
-            "n_genes": 2,
+            "term": "Regulation Of Membrane Protein Ectodomain Proteolysis (GO:0051043)",
+            "p": 8.840671314765885e-06,
+            "adj_p": 0.0036628882499417986,
+            "odds": 12.592398427260813,
+            "n_genes": 7,
             "genes": [
-              "ST3GAL4",
-              "HPSE"
+              "ADAM9",
+              "PACSIN3",
+              "TIMP3",
+              "SNX9",
+              "SNX33",
+              "PTPN3",
+              "SH3D19"
             ]
           },
           {
-            "term": "Pericardium Morphogenesis (GO:0003344)",
-            "p": 0.004243143988996933,
-            "adj_p": 0.04914194333274882,
-            "odds": 312.171875,
-            "n_genes": 1,
+            "term": "Regulation Of GTPase Activity (GO:0043087)",
+            "p": 9.196634773885434e-06,
+            "adj_p": 0.0036628882499417986,
+            "odds": 3.0691491971375906,
+            "n_genes": 23,
             "genes": [
-              "DLL4"
+              "USP6NL",
+              "GPSM1",
+              "ITGB1",
+              "RABGAP1",
+              "CDKL5",
+              "DOCK9",
+              "DAB2IP",
+              "RAP1GAP"
             ]
           },
           {
-            "term": "Positive Regulation Of Osteoblast Proliferation (GO:0033690)",
-            "p": 0.004243143988996933,
-            "adj_p": 0.04914194333274882,
-            "odds": 312.171875,
-            "n_genes": 1,
+            "term": "Negative Regulation Of Cell Population Proliferation (GO:0008285)",
+            "p": 2.9567905418152765e-05,
+            "adj_p": 0.008568946695756448,
+            "odds": 2.3595823278117507,
+            "n_genes": 32,
             "genes": [
-              "HPSE"
+              "KANK2",
+              "APP",
+              "PTPRU",
+              "RARG",
+              "NDRG4",
+              "AKR1B1",
+              "PTPRK",
+              "TOB1"
             ]
           },
           {
-            "term": "Heparan Sulfate Proteoglycan Catabolic Process (GO:0030200)",
-            "p": 0.004243143988996933,
-            "adj_p": 0.04914194333274882,
-            "odds": 312.171875,
-            "n_genes": 1,
+            "term": "Adherens Junction Maintenance (GO:0034334)",
+            "p": 3.07351029259557e-05,
+            "adj_p": 0.008568946695756448,
+            "odds": 50.20365535248042,
+            "n_genes": 4,
             "genes": [
-              "HPSE"
+              "TJP1",
+              "KIFC3",
+              "INAVA",
+              "PLEKHA7"
             ]
           },
           {
-            "term": "Spinal Cord Dorsal/Ventral Patterning (GO:0021513)",
-            "p": 0.005089741453570572,
-            "adj_p": 0.04914194333274882,
-            "odds": 249.725,
-            "n_genes": 1,
+            "term": "Cleavage Furrow Formation (GO:0036089)",
+            "p": 3.07351029259557e-05,
+            "adj_p": 0.008568946695756448,
+            "odds": 50.20365535248042,
+            "n_genes": 4,
             "genes": [
-              "DLL4"
+              "SNX18",
+              "SPIRE1",
+              "SNX9",
+              "SNX33"
             ]
           },
           {
-            "term": "Positive Regulation Of Leukocyte Tethering Or Rolling (GO:1903238)",
-            "p": 0.005089741453570572,
-            "adj_p": 0.04914194333274882,
-            "odds": 249.725,
-            "n_genes": 1,
+            "term": "Actomyosin Structure Organization (GO:0031032)",
+            "p": 3.5908851564200186e-05,
+            "adj_p": 0.009101261650999103,
+            "odds": 4.66774913740613,
+            "n_genes": 12,
             "genes": [
-              "ST3GAL4"
+              "ITGB1",
+              "TJP1",
+              "MYH7B",
+              "ITGB5",
+              "PDCD10",
+              "TMOD3",
+              "FLII",
+              "TNFAIP1"
             ]
           },
           {
-            "term": "Delamination (GO:0060232)",
-            "p": 0.005089741453570572,
-            "adj_p": 0.04914194333274882,
-            "odds": 249.725,
-            "n_genes": 1,
+            "term": "Wound Healing (GO:0042060)",
+            "p": 5.297930056845526e-05,
+            "adj_p": 0.011831887192733873,
+            "odds": 4.461120595995654,
+            "n_genes": 12,
             "genes": [
-              "CDSN"
+              "TGFB2",
+              "DST",
+              "ERBB3",
+              "CHMP4C",
+              "HMOX1",
+              "HPSE",
+              "SYTL4",
+              "EVPL"
             ]
           }
         ]
       }
     },
     "visit01": {
-      "n_treated": 123,
-      "n_control": 122,
-      "n_tested": 13013,
-      "n_significant": 0,
-      "translator_genes": {
-        "IL5": {
-          "logFC": -0.0269318209749011,
-          "p": 0.8321804828498337,
-          "adj_p": 0.9713104033034443
+      "n_treated": 112,
+      "n_control": 117,
+      "lib_min": 1079374.0,
+      "lib_max": 64716479.0,
+      "n_tested": 14706,
+      "n_significant": 17,
+      "n_up": 11,
+      "n_down": 6,
+      "limma_n_significant": 0,
+      "n_shared": 0,
+      "cell_composition": {
+        "eos total": {
+          "mepolizumab_median": 2.8151470145,
+          "placebo_median": 4.42,
+          "p": 0.2245195032690832
         },
-        "IL5RA": {
-          "logFC": -0.3896406013071818,
-          "p": 0.06831390371193528,
-          "adj_p": 0.8726446849462624
+        "neut total": {
+          "mepolizumab_median": 61.787624986537395,
+          "placebo_median": 60.32,
+          "p": 0.9928357301415891
+        },
+        "mac total": {
+          "mepolizumab_median": 2.9950035299500346,
+          "placebo_median": 3.02,
+          "p": 0.8356040223398673
+        },
+        "lym total": {
+          "mepolizumab_median": 0.86495600439956,
+          "placebo_median": 0.95009500950095,
+          "p": 0.6681320698721168
+        },
+        "epi total": {
+          "mepolizumab_median": 1.330199533255985,
+          "placebo_median": 1.66983301669833,
+          "p": 0.5434853249168741
+        },
+        "squ total": {
+          "mepolizumab_median": 13.49931656834315,
+          "placebo_median": 11.001100110011,
+          "p": 0.2763601789202619
         }
       },
-      "top_de": [],
-      "n_up": 0,
-      "n_down": 0
+      "eos_adjusted": {
+        "n_significant": 4,
+        "translator_genes": {
+          "IL5": {
+            "logFC": -0.3327616689446727,
+            "adj_p": 0.9985960242540813
+          },
+          "IL5RA": {
+            "logFC": -0.15045116025300181,
+            "adj_p": 0.9985960242540813
+          }
+        }
+      },
+      "translator_genes": {
+        "IL5": {
+          "logFC": -0.267392912474557,
+          "p": 0.44963338344825055,
+          "adj_p": 0.8640374994932786,
+          "limma_logFC": -0.08557453176733165,
+          "limma_adj_p": 0.9917151950066188
+        },
+        "IL5RA": {
+          "logFC": -0.19887256201171785,
+          "p": 0.3739536943768187,
+          "adj_p": 0.8342842827777217,
+          "limma_logFC": -0.3376715092004168,
+          "limma_adj_p": 0.9917151950066188
+        }
+      },
+      "top_de": [
+        {
+          "gene": "BPIFB1",
+          "logFC": -1.3234585187676313,
+          "adj_p": 0.0040811457547329216
+        },
+        {
+          "gene": "S100A7",
+          "logFC": 1.2300101080761887,
+          "adj_p": 0.0040811457547329216
+        },
+        {
+          "gene": "SIGLEC1",
+          "logFC": 1.468115613031199,
+          "adj_p": 0.0040811457547329216
+        },
+        {
+          "gene": "USP18",
+          "logFC": 1.42968654253953,
+          "adj_p": 0.0040811457547329216
+        },
+        {
+          "gene": "LYPD5",
+          "logFC": 1.151208504430426,
+          "adj_p": 0.004139666867439525
+        },
+        {
+          "gene": "FDCSP",
+          "logFC": 1.5926977673717084,
+          "adj_p": 0.007361065831902638
+        },
+        {
+          "gene": "CDH26",
+          "logFC": -0.9376948633069154,
+          "adj_p": 0.022554612362804136
+        },
+        {
+          "gene": "STRIP1",
+          "logFC": 0.15100698465119558,
+          "adj_p": 0.025192195031100643
+        },
+        {
+          "gene": "MT-ND5",
+          "logFC": 0.7080948785635094,
+          "adj_p": 0.0364896875895326
+        },
+        {
+          "gene": "MT-ND1",
+          "logFC": 0.68178145265701,
+          "adj_p": 0.03884936632084641
+        },
+        {
+          "gene": "NSMCE1",
+          "logFC": -0.34970352537379007,
+          "adj_p": 0.04330161757168427
+        },
+        {
+          "gene": "MT-ATP8",
+          "logFC": 0.6612216309797074,
+          "adj_p": 0.04330161757168427
+        },
+        {
+          "gene": "TRIM40",
+          "logFC": 1.3757860070727852,
+          "adj_p": 0.04330161757168427
+        },
+        {
+          "gene": "TFF3",
+          "logFC": -1.0956855058578432,
+          "adj_p": 0.04330161757168427
+        },
+        {
+          "gene": "SERPINF2",
+          "logFC": -0.5946958326489912,
+          "adj_p": 0.04330161757168427
+        },
+        {
+          "gene": "SPRR2F",
+          "logFC": 1.0734522514278968,
+          "adj_p": 0.049963988042793596
+        },
+        {
+          "gene": "SYP",
+          "logFC": -0.6088982777915211,
+          "adj_p": 0.049963988042793596
+        }
+      ]
     }
   }
 }
