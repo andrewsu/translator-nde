@@ -240,6 +240,23 @@ class PubChemBioAssay(_Cached):
         gid = ncbigene.split(":")[-1]
         return [a for a in self.compound_assays(cid) if a.gene_id == gid]
 
+    def potency_by_type(self, cid: str, ncbigene: str) -> dict[str, float]:
+        """Most potent Active measurement per assay type, in micromolar.
+
+        Reporting a single minimum across all types is misleading: it can hand
+        back a Kd for a compound that also has an IC50, and the meaningful
+        readout depends on the mechanism -- EC50/AC50 for an agonist, IC50/Ki
+        for an inhibitor.
+        """
+        out: dict[str, float] = {}
+        for a in self.assays_for(cid, ncbigene):
+            if a.value_um is None or (a.outcome or "").lower() != "active":
+                continue
+            t = a.activity_name or "unspecified"
+            if t not in out or a.value_um < out[t]:
+                out[t] = a.value_um
+        return out
+
     @classmethod
     def _compact(cls, payload: Any) -> dict:
         """Shrink the dump before caching: lift the repeated assay-name string
@@ -267,6 +284,33 @@ class PubChemBioAssay(_Cached):
             if name_i is not None and out[0] not in names:
                 names[out[0]] = cell(name_i)
         return {"aid_names": names, "rows": rows}
+
+
+# Assay types that answer "how strongly does it engage the target", split by
+# the mechanism they belong to. An AGONIST measured by IC50 is usually a
+# counter-screen, not the readout of interest.
+_AGONIST_ASSAYS = ("EC50", "AC50", "Potency")
+_ANTAGONIST_ASSAYS = ("IC50", "Ki", "Kd", "Potency")
+
+
+def preferred_potency(
+    by_type: dict[str, float], action_type: str | None
+) -> tuple[str, float] | None:
+    """Pick the assay type that matches the mechanism, falling back to any."""
+    a = (action_type or "").upper()
+    order = _AGONIST_ASSAYS if a in _INCREASING else _ANTAGONIST_ASSAYS
+    for t in order:
+        if t in by_type:
+            return t, by_type[t]
+    if not by_type:
+        return None
+    t = min(by_type, key=by_type.get)
+    return t, by_type[t]
+
+
+def pchembl_to_um(pchembl: float | None) -> float | None:
+    """pChEMBL is -log10(molar); convert to micromolar for comparability."""
+    return None if pchembl is None else 10 ** (6 - pchembl)
 
 
 class ChEMBLClient(_Cached):
