@@ -8,9 +8,12 @@ Reads the two-stage sweep in results/perturbation_series.json (NDE sample-level
 search, then GEO `!Sample_characteristics_ch1` confirmation) and joins it back
 to the archived Translator answer.
 """
-import collections, gzip, json, re, urllib.request
+import collections, gzip, json, re, sys, urllib.request
 from collections import defaultdict
 from pathlib import Path
+
+sys.path.insert(0, "src")
+from translator_nde.nde import NDEClient, PROD
 
 HEADER_CACHE = Path("data/geo/series_headers")
 
@@ -69,6 +72,12 @@ def describe_system(gse: str) -> str:
     tissue = next((chars[k] for k in ("tissue", "organism part") if k in chars), "")
     cohort = next((chars[k] for k in ("disease status", "diagnosis", "disease state",
                                       "disease", "condition") if k in chars), "")
+    org = _rows(header, "!Sample_organism_ch1")
+    organism = (collections.Counter(v for v in org[0] if v).most_common(1)[0][0]
+                if org and any(org[0]) else "")
+    # Species belongs in the description: a mouse organoid screen and a human
+    # bronchial brushing are not interchangeable evidence for a human disease.
+    prefix = "" if organism == "Homo sapiens" else (f"{organism}: " if organism else "")
     parts = [x for x in (model, tissue, cohort) if x]
     if not parts:
         parts = [src_common]
@@ -83,7 +92,7 @@ def describe_system(gse: str) -> str:
     # the free-text source name is more informative when that happens.
     if len(desc) < 8 and src_common:
         desc = src_common
-    return desc[:70] or "—"
+    return (prefix + desc)[:74] or "—"
 
 PK = "5b656c0f-b7da-4db4-ba1f-d3a794b422d4"
 TOP_N = 20
@@ -123,23 +132,48 @@ def confirm_arm(gse: str, drug: str) -> dict | None:
             first = next(iter(counts))
             field = (first.split(":", 1)[0].strip() if ":" in first
                      else key.replace("!Sample_", ""))
+            org = _rows(header, "!Sample_organism_ch1")
+            organism = (collections.Counter(v for v in org[0] if v).most_common(1)[0][0]
+                        if org and any(org[0]) else "")
             return {"gse": gse, "field": field, "values": dict(counts.most_common(8)),
-                    "arm_field": key.replace("!Sample_", ""),
+                    "organism": organism, "arm_field": key.replace("!Sample_", ""),
                     "n_samples_mentioning": sum(
                         n for v, n in counts.items() if drug.lower() in v.lower())}
     return None
 
 
-sweep = json.loads(Path("results/perturbation_series.json").read_text())
-stage1 = {r["drug"].lower(): r for r in sweep["stage1"]}
+MIN_PER_SERIES = 3   # below this a mention is more likely incidental than an arm
+SCROLL_CAP = 1500
+nde = NDEClient(base_url=PROD)
+
+
+def nde_candidates(drug: str) -> tuple[int, int, list[tuple[str, int]]]:
+    """(human samples, samples any species, candidate series) naming the drug.
+
+    Both counts are reported because the human filter is not free: pemirolast's
+    only perturbation data is GSE157167, a mouse intestinal-organoid screen, and
+    filtering to Homo sapiens made the drug look like it had no data at all. The
+    series search is left unfiltered and the organism is surfaced in the
+    experimental-system column instead, so the reader can judge.
+    """
+    q_any = f'@type:Sample AND "{drug}"'
+    n_any = nde.count(q_any)
+    n_human = nde.count(f'{q_any} AND species.name:"Homo sapiens"')
+    by = collections.Counter()
+    if n_any:
+        for h in nde.scroll(q_any, fields="isBasisFor.identifier", max_records=SCROLL_CAP):
+            b = h.get("isBasisFor") or {}
+            if isinstance(b, list):
+                b = b[0] if b else {}
+            if str(b.get("identifier", "")).startswith("GSE"):
+                by[b["identifier"]] += 1
+    return n_human, n_any, [(g, k) for g, k in by.most_common() if k >= MIN_PER_SERIES]
+
 
 rows = []
 for rank, drug in enumerate(top, 1):
-    s1 = stage1.get(drug.lower())
-    # Re-confirm the NDE candidates here rather than reusing the sweep's verdicts,
-    # so the wider arm-field search applies.
-    hits = [h for h in (confirm_arm(g, drug) for g, _ in (s1["series"] if s1 else []))
-            if h]
+    n_human, n_any, cands = nde_candidates(drug)
+    hits = [h for h in (confirm_arm(g, drug) for g, _ in cands[:8]) if h]
     # Prefer a series with an explicit control arm; those are directly analysable.
     def has_control(c):
         return any(CONTROL.search(v) and drug.lower() not in v.lower() for v in c["values"])
@@ -147,8 +181,13 @@ for rank, drug in enumerate(top, 1):
     # An arm declared in `characteristics_ch1` is a deliberate annotation; one
     # recovered from a sample title is inferred from a naming convention, so
     # prefer the former when a drug has both.
+    # Human first. A mouse or zebrafish series is worth showing when it is all
+    # that exists -- pemirolast has only GSE157167 -- but it should never
+    # displace a human one, and unranked it does: roflumilast's best series
+    # moved from BEAS-2B airway epithelium to mouse pro-B cells.
     def rank_key(c):
-        return (c["arm_field"] != "characteristics_ch1", not has_control(c),
+        return (c.get("organism") != "Homo sapiens",
+                c["arm_field"] != "characteristics_ch1", not has_control(c),
                 -c["n_samples_mentioning"])
 
     hits = sorted(hits, key=rank_key)
@@ -169,8 +208,8 @@ for rank, drug in enumerate(top, 1):
         "rank": rank, "drug": drug, "score": round(score[drug], 3),
         "system": describe_system(best["gse"]) if best else None,
         "genes": sorted(genes[drug]),
-        "nde_samples": s1["n_samples"] if s1 else 0,
-        "candidate_series": s1["n_series"] if s1 else 0,
+        "nde_samples_human": n_human, "nde_samples_any": n_any,
+        "candidate_series": len(cands),
         "confirmed_series": len(hits),
         "best_series": best["gse"] if best else None,
         "arm_field": best["arm_field"] if best else None,
@@ -185,10 +224,10 @@ with_data = [r for r in rows if r["confirmed_series"]]
 with_ctrl = [r for r in with_data if r["control"]]
 print(f"top {TOP_N} asthma answers: {len(with_data)} have >=1 confirmed perturbation series, "
       f"{len(with_ctrl)} with an explicit control arm")
-print(f"{'#':<3}{'drug':24s}{'score':>6}{'samples':>9}{'series':>7}  best / arm vs control")
+print(f"{'#':<3}{'drug':24s}{'score':>6}{'human':>7}{'any':>7}{'ser':>5}  best / system / arm")
 for r in rows:
     print(f"{r['rank']:<3}{r['drug'][:22]:24s}{r['score']:>6.2f}"
-          f"{r['nde_samples']:>9,}{r['confirmed_series']:>7}"
+          f"{r['nde_samples_human']:>7,}{r['nde_samples_any']:>7,}{r['confirmed_series']:>5}"
           f"  {r['best_series'] or '—'}   {r['system'] or ''}")
     if r["arm"]:
         print(f"      {r['arm'][:58]}  VS  {(r['control'] or '(no control level)')[:34]}")

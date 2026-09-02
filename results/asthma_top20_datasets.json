@@ -11,15 +11,18 @@
         "ADRB1",
         "ADRB2"
       ],
-      "nde_samples": 14,
-      "candidate_series": 1,
-      "confirmed_series": 1,
+      "nde_samples_human": 14,
+      "nde_samples_any": 67,
+      "candidate_series": 5,
+      "confirmed_series": 3,
       "best_series": "GSE20297",
       "arm_field": "title",
       "arm": "HaCaT_TNF+IFNg+terbutaline_1",
       "control": "HaCaT_unstimulated_1",
       "all_confirmed": [
-        "GSE20297"
+        "GSE20297",
+        "GSE1014",
+        "GSE399"
       ]
     },
     {
@@ -31,9 +34,10 @@
         "NR3C1",
         "NR3C2"
       ],
-      "nde_samples": 2123,
-      "candidate_series": 37,
-      "confirmed_series": 4,
+      "nde_samples_human": 2123,
+      "nde_samples_any": 2453,
+      "candidate_series": 54,
+      "confirmed_series": 6,
       "best_series": "GSE40165",
       "arm_field": "characteristics_ch1",
       "arm": "treated with: high-dose (2mg/kg) of prednisolone",
@@ -42,7 +46,9 @@
         "GSE40165",
         "GSE225858",
         "GSE115525",
-        "GSE19143"
+        "GSE19143",
+        "GSE32962",
+        "GSE52779"
       ]
     },
     {
@@ -53,7 +59,8 @@
       "genes": [
         "TNF"
       ],
-      "nde_samples": 0,
+      "nde_samples_human": 0,
+      "nde_samples_any": 0,
       "candidate_series": 0,
       "confirmed_series": 0,
       "best_series": null,
@@ -70,9 +77,10 @@
       "genes": [
         "NR3C1"
       ],
-      "nde_samples": 2344,
-      "candidate_series": 20,
-      "confirmed_series": 4,
+      "nde_samples_human": 2344,
+      "nde_samples_any": 2580,
+      "candidate_series": 36,
+      "confirmed_series": 5,
       "best_series": "GSE224705",
       "arm_field": "characteristics_ch1",
       "arm": "prednisone_dosis: 5",
@@ -81,7 +89,8 @@
         "GSE224705",
         "GSE77344",
         "GSE226147",
-        "GSE73578"
+        "GSE73578",
+        "GSE186438"
       ]
     },
     {
@@ -94,8 +103,9 @@
         "CYSLTR2",
         "MAPK1"
       ],
-      "nde_samples": 0,
-      "candidate_series": 0,
+      "nde_samples_human": 1,
+      "nde_samples_any": 8,
+      "candidate_series": 1,
       "confirmed_series": 0,
       "best_series": null,
       "arm_field": null,
@@ -107,18 +117,24 @@
       "rank": 6,
       "drug": "beclomethasone",
       "score": 0.971,
-      "system": null,
+      "system": "Oncorhynchus mykiss: liver",
       "genes": [
         "NR3C1"
       ],
-      "nde_samples": 0,
-      "candidate_series": 0,
-      "confirmed_series": 0,
-      "best_series": null,
-      "arm_field": null,
-      "arm": null,
-      "control": null,
-      "all_confirmed": []
+      "nde_samples_human": 1,
+      "nde_samples_any": 96,
+      "candidate_series": 7,
+      "confirmed_series": 4,
+      "best_series": "GSE57219",
+      "arm_field": "characteristics_ch1",
+      "arm": "treatment group: beclomethasone diproprionate exposure",
+      "control": "treatment group: control",
+      "all_confirmed": [
+        "GSE57219",
+        "GSE125415",
+        "GSE41904",
+        "GSE122643"
+      ]
     },
     {
       "rank": 7,
@@ -128,16 +144,20 @@
       "genes": [
         "ALOX5"
       ],
-      "nde_samples": 132,
-      "candidate_series": 2,
-      "confirmed_series": 2,
+      "nde_samples_human": 132,
+      "nde_samples_any": 268,
+      "candidate_series": 9,
+      "confirmed_series": 5,
       "best_series": "GSE175616",
       "arm_field": "characteristics_ch1",
       "arm": "treatment: Aspirin+Zileuton",
       "control": "treatment: Placebo",
       "all_confirmed": [
         "GSE175616",
-        "GSE262419"
+        "GSE262419",
+        "GSE141089",
+        "GSE157167",
+        "GSE57815"
       ]
     },
     {
@@ -150,9 +170,10 @@
         "PDE4B",
         "PDE4D"
       ],
-      "nde_samples": 114,
-      "candidate_series": 4,
-      "confirmed_series": 4,
+      "nde_samples_human": 114,
+      "nde_samples_any": 141,
+      "candidate_series": 8,
+      "confirmed_series": 6,
       "best_series": "GSE126981",
       "arm_field": "characteristics_ch1",
       "arm": "treatment: Roflumilast N-oxide (RNO)",
@@ -161,7 +182,9 @@
         "GSE126981",
         "GSE267218",
         "GSE297400",
-        "GSE283313"
+        "GSE283313",
+        "GSE242857",
+        "GSE57815"
       ]
     },
     {
@@ -174,9 +197,10 @@
         "MMP1",
         "NR3C1"
       ],
-      "nde_samples": 185,
-      "candidate_series": 8,
-      "confirmed_series": 3,
+      "nde_samples_human": 185,
+      "nde_samples_any": 198,
+      "candidate_series": 10,
+      "confirmed_series": 5,
       "best_series": "GSE136034",
       "arm_field": "characteristics_ch1",
       "arm": "treatment: 100 nM triamcinolone acetonide(TA) for 4 hours.",
@@ -184,7 +208,9 @@
       "all_confirmed": [
         "GSE136034",
         "GSE109440",
-        "GSE262419"
+        "GSE262419",
+        "GSE225646",
+        "GSE93227"
       ]
     },
     {
@@ -195,15 +221,19 @@
       "genes": [
         "NR3C1"
       ],
-      "nde_samples": 80,
-      "candidate_series": 3,
-      "confirmed_series": 1,
+      "nde_samples_human": 80,
+      "nde_samples_any": 447,
+      "candidate_series": 22,
+      "confirmed_series": 4,
       "best_series": "GSE32473",
       "arm_field": "title",
       "arm": "patient 6, arm treated with betamethasone",
       "control": "patient 6, baseline",
       "all_confirmed": [
-        "GSE32473"
+        "GSE32473",
+        "GSE134810",
+        "GSE151342",
+        "GSE84585"
       ]
     },
     {
@@ -216,8 +246,9 @@
         "HRH1",
         "TGFB1"
       ],
-      "nde_samples": 55,
-      "candidate_series": 5,
+      "nde_samples_human": 55,
+      "nde_samples_any": 91,
+      "candidate_series": 8,
       "confirmed_series": 3,
       "best_series": "GSE246079",
       "arm_field": "characteristics_ch1",
@@ -233,53 +264,66 @@
       "rank": 12,
       "drug": "Ketotifen",
       "score": 0.891,
-      "system": null,
+      "system": "Mus musculus: Liver, DENV2, day 3",
       "genes": [
         "CYP2D6",
         "HRH1"
       ],
-      "nde_samples": 0,
-      "candidate_series": 0,
-      "confirmed_series": 0,
-      "best_series": null,
-      "arm_field": null,
-      "arm": null,
-      "control": null,
-      "all_confirmed": []
+      "nde_samples_human": 3,
+      "nde_samples_any": 124,
+      "candidate_series": 5,
+      "confirmed_series": 5,
+      "best_series": "GSE100194",
+      "arm_field": "characteristics_ch1",
+      "arm": "treatment: DENV2 infection and ketotifen",
+      "control": "treatment: mock-infected",
+      "all_confirmed": [
+        "GSE100194",
+        "GSE100195",
+        "GSE84704",
+        "GSE174805",
+        "GSE174806"
+      ]
     },
     {
       "rank": 13,
       "drug": "Flunisolide",
       "score": 0.858,
-      "system": null,
+      "system": "Mus musculus: Bone Marrow Derived Macrophages, Macrophages, Bone Marrow",
       "genes": [
         "NR3C1"
       ],
-      "nde_samples": 0,
-      "candidate_series": 0,
-      "confirmed_series": 0,
-      "best_series": null,
-      "arm_field": null,
-      "arm": null,
-      "control": null,
-      "all_confirmed": []
+      "nde_samples_human": 0,
+      "nde_samples_any": 3,
+      "candidate_series": 1,
+      "confirmed_series": 1,
+      "best_series": "GSE270608",
+      "arm_field": "characteristics_ch1",
+      "arm": "treatment: Flunisolide",
+      "control": "treatment: Phosphate Buffered Saline",
+      "all_confirmed": [
+        "GSE270608"
+      ]
     },
     {
       "rank": 14,
       "drug": "Tulobuterol",
       "score": 0.829,
-      "system": null,
+      "system": "Mus musculus: Intestine",
       "genes": [
         "ADRB2"
       ],
-      "nde_samples": 0,
-      "candidate_series": 0,
-      "confirmed_series": 0,
-      "best_series": null,
-      "arm_field": null,
+      "nde_samples_human": 0,
+      "nde_samples_any": 3,
+      "candidate_series": 1,
+      "confirmed_series": 1,
+      "best_series": "GSE157167",
+      "arm_field": "characteristics_ch1",
       "arm": null,
-      "control": null,
-      "all_confirmed": []
+      "control": "drug treatment: Control",
+      "all_confirmed": [
+        "GSE157167"
+      ]
     },
     {
       "rank": 15,
@@ -290,7 +334,8 @@
         "ADRB2",
         "BCHE"
       ],
-      "nde_samples": 0,
+      "nde_samples_human": 0,
+      "nde_samples_any": 0,
       "candidate_series": 0,
       "confirmed_series": 0,
       "best_series": null,
@@ -308,7 +353,8 @@
         "IL5",
         "IL5RA"
       ],
-      "nde_samples": 837,
+      "nde_samples_human": 837,
+      "nde_samples_any": 837,
       "candidate_series": 5,
       "confirmed_series": 5,
       "best_series": "GSE292059",
@@ -331,9 +377,10 @@
       "genes": [
         "IL4R"
       ],
-      "nde_samples": 530,
-      "candidate_series": 10,
-      "confirmed_series": 6,
+      "nde_samples_human": 530,
+      "nde_samples_any": 534,
+      "candidate_series": 11,
+      "confirmed_series": 8,
       "best_series": "GSE267331",
       "arm_field": "characteristics_ch1",
       "arm": "treatment: Dupilumab",
@@ -342,6 +389,8 @@
         "GSE267331",
         "GSE130588",
         "GSE59294",
+        "GSE158432",
+        "GSE185764",
         "GSE157194",
         "GSE326320",
         "GSE279422"
@@ -351,18 +400,21 @@
       "rank": 18,
       "drug": "Pemirolast",
       "score": 0.695,
-      "system": null,
+      "system": "Mus musculus: Intestine",
       "genes": [
         "HRH1"
       ],
-      "nde_samples": 0,
-      "candidate_series": 0,
-      "confirmed_series": 0,
-      "best_series": null,
-      "arm_field": null,
+      "nde_samples_human": 0,
+      "nde_samples_any": 4,
+      "candidate_series": 1,
+      "confirmed_series": 1,
+      "best_series": "GSE157167",
+      "arm_field": "characteristics_ch1",
       "arm": null,
-      "control": null,
-      "all_confirmed": []
+      "control": "drug treatment: Control",
+      "all_confirmed": [
+        "GSE157167"
+      ]
     },
     {
       "rank": 19,
@@ -372,7 +424,8 @@
       "genes": [
         "PROC"
       ],
-      "nde_samples": 0,
+      "nde_samples_human": 0,
+      "nde_samples_any": 0,
       "candidate_series": 0,
       "confirmed_series": 0,
       "best_series": null,
@@ -392,9 +445,10 @@
         "PTGS2",
         "TGFB1"
       ],
-      "nde_samples": 1874,
-      "candidate_series": 24,
-      "confirmed_series": 6,
+      "nde_samples_human": 1874,
+      "nde_samples_any": 2196,
+      "candidate_series": 45,
+      "confirmed_series": 8,
       "best_series": "GSE158765",
       "arm_field": "characteristics_ch1",
       "arm": "treatment_drug_label: 81 mg Aspirin",
@@ -405,7 +459,9 @@
         "GSE48988",
         "GSE324265",
         "GSE142257",
-        "GSE102006"
+        "GSE135992",
+        "GSE102006",
+        "GSE175744"
       ]
     }
   ]
