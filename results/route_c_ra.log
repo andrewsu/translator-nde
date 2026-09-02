@@ -1,0 +1,191 @@
+1144 paths -> 95 genes (1 with a Translator direction, 94 run both ways)
+
+  [1/95] ABCB1      Downregulated     1 contrasts,   1 novel compounds
+  [1/95] ABCB1      Upregulated       3 contrasts,   3 novel compounds
+  [2/95] ABCC8      Downregulated     3 contrasts,   2 novel compounds
+  [2/95] ABCC8      Upregulated       7 contrasts,   4 novel compounds
+  [3/95] ACE2       Downregulated     3 contrasts,   1 novel compounds
+  [3/95] ACE2       Upregulated       2 contrasts,   2 novel compounds
+  [4/95] ACHE       Upregulated       7 contrasts,   5 novel compounds
+  [5/95] ADH1A      Downregulated     3 contrasts,   1 novel compounds
+  [5/95] ADH1A      Upregulated       4 contrasts,   3 novel compounds
+  [6/95] ADH1B      Downregulated     3 contrasts,   1 novel compounds
+  [6/95] ADH1B      Upregulated       5 contrasts,   4 novel compounds
+  [7/95] ADH1C      Downregulated     9 contrasts,   4 novel compounds
+  [7/95] ADH1C      Upregulated       5 contrasts,   3 novel compounds
+  [8/95] ADORA2A    Downregulated     2 contrasts,   2 novel compounds
+  [8/95] ADORA2A    Upregulated       6 contrasts,   3 novel compounds
+  [9/95] ADRA1A     Upregulated       3 contrasts,   2 novel compounds
+  [10/95] ADRA2A     Downregulated     2 contrasts,   1 novel compounds
+  [10/95] ADRA2A     Upregulated       4 contrasts,   3 novel compounds
+  [11/95] ALOX5      Downregulated    10 contrasts,   9 novel compounds
+  [11/95] ALOX5      Upregulated      19 contrasts,   7 novel compounds
+  [12/95] AR         Downregulated     3 contrasts,   2 novel compounds
+  [12/95] AR         Upregulated       5 contrasts,   3 novel compounds
+  [13/95] ATP1A1     Downregulated     4 contrasts,   2 novel compounds
+  [13/95] ATP1A1     Upregulated       1 contrasts,   1 novel compounds
+  [14/95] ATXN2      Upregulated       1 contrasts,   1 novel compounds
+  [15/95] AVP        Upregulated       3 contrasts,   2 novel compounds
+  [16/95] BIRC5      Downregulated    34 contrasts,  23 novel compounds
+  [16/95] BIRC5      Upregulated       1 contrasts,   1 novel compounds
+  [17/95] CA12       Downregulated     8 contrasts,   6 novel compounds
+  [17/95] CA12       Upregulated      11 contrasts,   7 novel compounds
+  [18/95] CA9        Downregulated     5 contrasts,   5 novel compounds
+  [18/95] CA9        Upregulated       6 contrasts,   3 novel compounds
+  [19/95] CACNA1C    Upregulated       6 contrasts,   3 novel compounds
+  [20/95] CACNA2D1   Downregulated     5 contrasts,   4 novel compounds
+  [20/95] CACNA2D1   Upregulated       4 contrasts,   2 novel compounds
+  [21/95] CAT        Downregulated     4 contrasts,   4 novel compounds
+  [21/95] CAT        Upregulated       6 contrasts,   3 novel compounds
+  [22/95] CCL2       Downregulated    11 contrasts,   7 novel compounds
+  [22/95] CCL2       Upregulated      15 contrasts,  10 novel compounds
+  [23/95] CD1A       Downregulated     3 contrasts,   2 novel compounds
+  [24/95] CFTR       Downregulated     4 contrasts,   2 novel compounds
+  [24/95] CFTR       Upregulated       6 contrasts,   4 novel compounds
+  [25/95] CP         Downregulated     9 contrasts,   4 novel compounds
+  [25/95] CP         Upregulated       7 contrasts,   6 novel compounds
+  [26/95] CTLA4      Downregulated     3 contrasts,   2 novel compounds
+  [26/95] CTLA4      Upregulated       2 contrasts,   2 novel compounds
+  [27/95] CXCR1      Downregulated     1 contrasts,   1 novel compounds
+  [28/95] CYP19A1    Downregulated     1 contrasts,   1 novel compounds
+  [28/95] CYP19A1    Upregulated       8 contrasts,   6 novel compounds
+  [29/95] CYP1A2     Downregulated     3 contrasts,   2 novel compounds
+  [29/95] CYP1A2     Upregulated       2 contrasts,   2 novel compounds
+  [30/95] CYP2B6     Downregulated     4 contrasts,   2 novel compounds
+  [30/95] CYP2B6     Upregulated       5 contrasts,   3 novel compounds
+  [31/95] CYP3A4     Downregulated     3 contrasts,   1 novel compounds
+  [31/95] CYP3A4     Upregulated       3 contrasts,   3 novel compounds
+  [32/95] CYP3A5     Downregulated     5 contrasts,   3 novel compounds
+  [32/95] CYP3A5     Upregulated       4 contrasts,   4 novel compounds
+  [33/95] DDIT3      Downregulated     1 contrasts,   1 novel compounds
+  [33/95] DDIT3      Upregulated      11 contrasts,   6 novel compounds
+  [34/95] DHFR       Downregulated    16 contrasts,  13 novel compounds
+  [34/95] DHFR       Upregulated       2 contrasts,   2 novel compounds
+  [35/95] DPP4       Downregulated     7 contrasts,   4 novel compounds
+  [35/95] DPP4       Upregulated       9 contrasts,   8 novel compounds
+  [36/95] DRD1       Downregulated     4 contrasts,   3 novel compounds
+  [37/95] DRD2       Upregulated       6 contrasts,   3 novel compounds
+  [38/95] EHMT2      Downregulated     1 contrasts,   1 novel compounds
+  [39/95] ELN        Downregulated     2 contrasts,   2 novel compounds
+  [39/95] ELN        Upregulated       5 contrasts,   4 novel compounds
+  [40/95] FCGR2A     Downregulated     2 contrasts,   2 novel compounds
+  [40/95] FCGR2A     Upregulated       2 contrasts,   2 novel compounds
+  [41/95] FGA        Downregulated     5 contrasts,   3 novel compounds
+  [41/95] FGA        Upregulated       3 contrasts,   2 novel compounds
+  [42/95] FGB        Downregulated     6 contrasts,   4 novel compounds
+  [42/95] FGB        Upregulated       7 contrasts,   5 novel compounds
+  [43/95] FGG        Downregulated     3 contrasts,   2 novel compounds
+  [43/95] FGG        Upregulated       1 contrasts,   1 novel compounds
+  [44/95] GABRA1     Downregulated     3 contrasts,   2 novel compounds
+  [44/95] GABRA1     Upregulated       4 contrasts,   2 novel compounds
+  [45/95] GCG        Upregulated       5 contrasts,   4 novel compounds
+  [47/95] HMOX2      Downregulated     1 contrasts,   1 novel compounds
+  [47/95] HMOX2      Upregulated       2 contrasts,   2 novel compounds
+  [48/95] HRH1       Downregulated     3 contrasts,   3 novel compounds
+  [48/95] HRH1       Upregulated       7 contrasts,   4 novel compounds
+  [49/95] HSP90AA1   Downregulated     5 contrasts,   4 novel compounds
+  [49/95] HSP90AA1   Upregulated       4 contrasts,   4 novel compounds
+  [50/95] HTR1A      Upregulated       2 contrasts,   1 novel compounds
+  [51/95] HTR2A      Downregulated     1 contrasts,   1 novel compounds
+  [51/95] HTR2A      Upregulated       2 contrasts,   2 novel compounds
+  [52/95] HTR2C      Downregulated     3 contrasts,   2 novel compounds
+  [52/95] HTR2C      Upregulated       1 contrasts,   1 novel compounds
+  [55/95] IFNAR1     Downregulated     2 contrasts,   1 novel compounds
+  [55/95] IFNAR1     Upregulated       1 contrasts,   1 novel compounds
+  [56/95] IFNAR2     Downregulated     3 contrasts,   2 novel compounds
+  [56/95] IFNAR2     Upregulated       3 contrasts,   1 novel compounds
+  [58/95] IL2RA      Downregulated     2 contrasts,   1 novel compounds
+  [58/95] IL2RA      Upregulated       2 contrasts,   2 novel compounds
+  [59/95] IL2RB      Downregulated     9 contrasts,   5 novel compounds
+  [59/95] IL2RB      Upregulated       5 contrasts,   5 novel compounds
+  [60/95] IL2RG      Downregulated     1 contrasts,   1 novel compounds
+  [60/95] IL2RG      Upregulated       2 contrasts,   2 novel compounds
+  [61/95] ITGA2B     Downregulated     3 contrasts,   1 novel compounds
+  [61/95] ITGA2B     Upregulated       5 contrasts,   3 novel compounds
+  [62/95] ITGB3      Downregulated     3 contrasts,   2 novel compounds
+  [62/95] ITGB3      Upregulated       3 contrasts,   3 novel compounds
+  [63/95] JAK1       Upregulated       2 contrasts,   2 novel compounds
+  [64/95] JAK2       Downregulated     3 contrasts,   2 novel compounds
+  [64/95] JAK2       Upregulated       6 contrasts,   4 novel compounds
+  [65/95] JAK3       Downregulated     9 contrasts,   7 novel compounds
+  [65/95] JAK3       Upregulated       4 contrasts,   2 novel compounds
+  [66/95] KCNH2      Upregulated      11 contrasts,   7 novel compounds
+  [67/95] KCNH7      Downregulated     2 contrasts,   2 novel compounds
+  [67/95] KCNH7      Upregulated       5 contrasts,   2 novel compounds
+  [69/95] KMT2A      Upregulated       2 contrasts,   1 novel compounds
+  [70/95] LPL        Downregulated     6 contrasts,   4 novel compounds
+  [70/95] LPL        Upregulated       8 contrasts,   6 novel compounds
+  [71/95] MAPT       Downregulated     2 contrasts,   2 novel compounds
+  [71/95] MAPT       Upregulated      11 contrasts,   7 novel compounds
+  [72/95] MEN1       Downregulated     1 contrasts,   1 novel compounds
+  [73/95] MGAM       Downregulated     7 contrasts,   4 novel compounds
+  [73/95] MGAM       Upregulated       7 contrasts,   5 novel compounds
+  [74/95] MMP2       Downregulated     5 contrasts,   3 novel compounds
+  [74/95] MMP2       Upregulated       7 contrasts,   5 novel compounds
+  [75/95] MMP9       Downregulated    11 contrasts,   6 novel compounds
+  [75/95] MMP9       Upregulated       9 contrasts,   6 novel compounds
+  [77/95] NOS2       Downregulated     3 contrasts,   2 novel compounds
+  [77/95] NOS2       Upregulated       5 contrasts,   4 novel compounds
+  [78/95] NR3C1      Upregulated       7 contrasts,   6 novel compounds
+  [79/95] PPARD      Downregulated     4 contrasts,   3 novel compounds
+  [79/95] PPARD      Upregulated       8 contrasts,   4 novel compounds
+  [80/95] PPARG      Downregulated     7 contrasts,   6 novel compounds
+  [80/95] PPARG      Upregulated       4 contrasts,   3 novel compounds
+  [81/95] PTGS1      Downregulated     9 contrasts,   7 novel compounds
+  [81/95] PTGS1      Upregulated       5 contrasts,   4 novel compounds
+  [82/95] PTGS2      Downregulated    22 contrasts,  12 novel compounds
+  [82/95] PTGS2      Upregulated      13 contrasts,   9 novel compounds
+  [84/95] SERPINE1   Downregulated    14 contrasts,  12 novel compounds
+  [84/95] SERPINE1   Upregulated      14 contrasts,  10 novel compounds
+  [85/95] SI         Upregulated       6 contrasts,   4 novel compounds
+  [86/95] SLC2A4     Downregulated     2 contrasts,   1 novel compounds
+  [86/95] SLC2A4     Upregulated       7 contrasts,   5 novel compounds
+  [87/95] SLCO1B1    Downregulated     4 contrasts,   3 novel compounds
+  [87/95] SLCO1B1    Upregulated       1 contrasts,   1 novel compounds
+  [88/95] STAT3      Downregulated     1 contrasts,   1 novel compounds
+  [88/95] STAT3      Upregulated       2 contrasts,   2 novel compounds
+  [89/95] STS        Downregulated     8 contrasts,   7 novel compounds
+  [89/95] STS        Upregulated      11 contrasts,   6 novel compounds
+  [90/95] TNF        Downregulated     5 contrasts,   4 novel compounds
+  [90/95] TNF        Upregulated      18 contrasts,   8 novel compounds
+  [91/95] TP53       Downregulated    11 contrasts,   6 novel compounds
+  [91/95] TP53       Upregulated       2 contrasts,   2 novel compounds
+  [92/95] TSPO       Downregulated     8 contrasts,   5 novel compounds
+  [94/95] VDR        Downregulated     5 contrasts,   3 novel compounds
+  [94/95] VDR        Upregulated       7 contrasts,   6 novel compounds
+  [95/95] VEGFA      Downregulated    11 contrasts,   7 novel compounds
+  [95/95] VEGFA      Upregulated      13 contrasts,  12 novel compounds
+
+--- 842 gene x compound contrasts in 86s ---
+distinct novel compounds: 69   (3,029 contrasts rejected as non-compound arms)
+perturbagen kinds: {'compound': 54, 'not_a_compound': 3, 'biologic_or_stimulus': 12}
+
+top alternates -- small-molecule compounds, ranked by specificity
+compound                     genes  GXA genes    spec  |log2FC|
+  valproic acid                51     1,000+   0.051       7.1  ABCC8,ACE2,ACHE,ADH1A
+  doxycycline                  44     1,000+   0.044       8.4  ABCC8,ACHE,ADORA2A,AR
+  SAH-BCL9B peptides            2        52    0.038       2.1  CFTR,VEGFA
+  dexamethasone                31     1,000+   0.031       6.3  ABCC8,ADORA2A,ALOX5,ATP1A1
+  trichostatin A               27     1,000+   0.027       8.1  ABCB1,ACHE,ALOX5,BIRC5
+  AD80                         21     1,000+   0.021       7.3  ACE2,ADH1A,ADH1B,ADH1C
+  CI-1040                      17     1,000+   0.017       2.7  ADH1C,ALOX5,BIRC5,CA9
+  Sorafenib                    16     1,000+   0.016       3.0  ACE2,ADH1A,BIRC5,CP
+  4-hydroxy-3-methyl-but-2-e   14     1,000+   0.014       6.5  ALOX5,CAT,CCL2,CTLA4
+  NS398                         7       508    0.014       2.1  BIRC5,CA12,CA9,CYP2B6
+  Asoprisnil                   13       973    0.013       3.7  ABCC8,ALOX5,AR,CA12
+  SCH772984                     1        76    0.013       1.2  TSPO
+  tobacco smoke condensate      4       325    0.012       3.6  MGAM,MMP2,PTGS2,VEGFA
+  LY2439821                     7       573    0.012       2.2  ADH1B,ADRA2A,BIRC5,ELN
+  JQ1                           1        89    0.011       1.5  CCL2
+
+  (+ = hit NDE's 1,000-bucket facet cap, i.e. promiscuous; specificity is a ceiling)
+
+for contrast, the raw gene-count ranking that specificity replaces:
+  valproic acid                51 genes  but moves 1,000+ genes overall -> specificity 0.051
+  doxycycline                  44 genes  but moves 1,000+ genes overall -> specificity 0.044
+  dexamethasone                31 genes  but moves 1,000+ genes overall -> specificity 0.031
+  trichostatin A               27 genes  but moves 1,000+ genes overall -> specificity 0.027
+  AD80                         21 genes  but moves 1,000+ genes overall -> specificity 0.021
+  CI-1040                      17 genes  but moves 1,000+ genes overall -> specificity 0.017
+
+wrote data/ars/d1f9daae-9330-4c2c-81f5-5c21ee2f44f4/route_c.json

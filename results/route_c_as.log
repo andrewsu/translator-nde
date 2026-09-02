@@ -1,0 +1,92 @@
+498 paths -> 32 genes (1 with a Translator direction, 31 run both ways)
+
+  [1/32] ACE        Downregulated     3 contrasts,   1 novel compounds
+  [1/32] ACE        Upregulated       4 contrasts,   3 novel compounds
+  [2/32] AHR        Downregulated    12 contrasts,   6 novel compounds
+  [2/32] AHR        Upregulated       5 contrasts,   4 novel compounds
+  [3/32] C3         Downregulated     9 contrasts,   6 novel compounds
+  [3/32] C3         Upregulated      16 contrasts,   9 novel compounds
+  [4/32] CAST       Downregulated     5 contrasts,   4 novel compounds
+  [4/32] CAST       Upregulated       4 contrasts,   4 novel compounds
+  [5/32] CYP1A1     Downregulated    12 contrasts,   7 novel compounds
+  [5/32] CYP1A1     Upregulated      20 contrasts,  12 novel compounds
+  [6/32] DNMT3A     Downregulated     4 contrasts,   3 novel compounds
+  [6/32] DNMT3A     Upregulated       3 contrasts,   3 novel compounds
+  [7/32] EPO        Upregulated       1 contrasts,   1 novel compounds
+  [8/32] FCGR2A     Downregulated     2 contrasts,   2 novel compounds
+  [8/32] FCGR2A     Upregulated       2 contrasts,   2 novel compounds
+  [9/32] HLA-A      Downregulated     3 contrasts,   3 novel compounds
+  [9/32] HLA-A      Upregulated       1 contrasts,   1 novel compounds
+  [10/32] HLA-B      Downregulated     3 contrasts,   2 novel compounds
+  [10/32] HLA-B      Upregulated       1 contrasts,   1 novel compounds
+  [11/32] IL12B      Downregulated     2 contrasts,   2 novel compounds
+  [11/32] IL12B      Upregulated       2 contrasts,   2 novel compounds
+  [12/32] IL1B       Downregulated    19 contrasts,  14 novel compounds
+  [12/32] IL1B       Upregulated      10 contrasts,   8 novel compounds
+  [14/32] IL2RA      Downregulated     2 contrasts,   1 novel compounds
+  [14/32] IL2RA      Upregulated       2 contrasts,   2 novel compounds
+  [15/32] IL6R       Downregulated    11 contrasts,   7 novel compounds
+  [15/32] IL6R       Upregulated       4 contrasts,   3 novel compounds
+  [16/32] ITGAL      Downregulated    11 contrasts,   7 novel compounds
+  [16/32] ITGAL      Upregulated       1 contrasts,   1 novel compounds
+  [18/32] MBL2       Downregulated     4 contrasts,   2 novel compounds
+  [18/32] MBL2       Upregulated       1 contrasts,   1 novel compounds
+  [19/32] MMP3       Downregulated     5 contrasts,   4 novel compounds
+  [19/32] MMP3       Upregulated       6 contrasts,   6 novel compounds
+  [20/32] NFKB1      Downregulated     6 contrasts,   3 novel compounds
+  [20/32] NFKB1      Upregulated       5 contrasts,   5 novel compounds
+  [21/32] PLAU       Downregulated    15 contrasts,  11 novel compounds
+  [21/32] PLAU       Upregulated      10 contrasts,   9 novel compounds
+  [23/32] RPS6KB1    Downregulated     2 contrasts,   1 novel compounds
+  [23/32] RPS6KB1    Upregulated       1 contrasts,   1 novel compounds
+  [24/32] RUNX3      Downregulated     3 contrasts,   3 novel compounds
+  [24/32] RUNX3      Upregulated       8 contrasts,   6 novel compounds
+  [25/32] SMAD3      Downregulated    15 contrasts,  13 novel compounds
+  [25/32] SMAD3      Upregulated       4 contrasts,   3 novel compounds
+  [26/32] STAT3      Downregulated     1 contrasts,   1 novel compounds
+  [26/32] STAT3      Upregulated       2 contrasts,   2 novel compounds
+  [27/32] STK11      Downregulated     2 contrasts,   1 novel compounds
+  [27/32] STK11      Upregulated       2 contrasts,   2 novel compounds
+  [28/32] TLR2       Downregulated     4 contrasts,   2 novel compounds
+  [28/32] TLR2       Upregulated       7 contrasts,   5 novel compounds
+  [29/32] TLR4       Downregulated    16 contrasts,   9 novel compounds
+  [29/32] TLR4       Upregulated       3 contrasts,   2 novel compounds
+  [30/32] TNF        Downregulated     5 contrasts,   4 novel compounds
+  [30/32] TNF        Upregulated      18 contrasts,   8 novel compounds
+  [31/32] TNFRSF1A   Downregulated     5 contrasts,   2 novel compounds
+  [32/32] TNFSF11    Downregulated     6 contrasts,   2 novel compounds
+  [32/32] TNFSF11    Upregulated       5 contrasts,   3 novel compounds
+
+--- 325 gene x compound contrasts in 37s ---
+distinct novel compounds: 60   (1,261 contrasts rejected as non-compound arms)
+perturbagen kinds: {'compound': 45, 'not_a_compound': 3, 'biologic_or_stimulus': 12}
+
+top alternates -- small-molecule compounds, ranked by specificity
+compound                     genes  GXA genes    spec  |log2FC|
+  indomethacin                  2         7    0.286       3.4  CYP1A1,MMP3
+  IDR-1018                      1        29    0.035       1.2  IL1B
+  valproic acid                17     1,000+   0.017       4.7  ACE,C3,CAST,CYP1A1
+  doxycycline                  17     1,000+   0.017       5.5  ACE,AHR,C3,CAST
+  trichostatin A               13     1,000+   0.013       6.5  AHR,C3,DNMT3A,FCGR2A
+  JQ1                           1        89    0.011       2.6  IL1B
+  4-hydroxy-3-methyl-but-2-e   11     1,000+   0.011       6.3  CAST,DNMT3A,IL12B,IL2RA
+  ATRA                          1        99    0.010       1.1  CAST
+  YW3-56                        2       205    0.010       1.2  PLAU,SMAD3
+  tobacco smoke condensate      3       325    0.009       5.2  CYP1A1,PLAU,TLR4
+  parthenolide                  3       381    0.008       1.6  IL1B,ITGAL,SMAD3
+  ICG-001                       2       275    0.007       3.7  CYP1A1,IL1B
+  GW0742                        1       144    0.007       1.5  CYP1A1
+  MLN4924                       6     1,000+   0.006       1.7  AHR,CYP1A1,IL6R,MMP3
+  dexamethasone                 6     1,000+   0.006       4.5  IL1B,IL6R,PLAU,RUNX3
+
+  (+ = hit NDE's 1,000-bucket facet cap, i.e. promiscuous; specificity is a ceiling)
+
+for contrast, the raw gene-count ranking that specificity replaces:
+  valproic acid                17 genes  but moves 1,000+ genes overall -> specificity 0.017
+  doxycycline                  17 genes  but moves 1,000+ genes overall -> specificity 0.017
+  trichostatin A               13 genes  but moves 1,000+ genes overall -> specificity 0.013
+  4-hydroxy-3-methyl-but-2-e   11 genes  but moves 1,000+ genes overall -> specificity 0.011
+  MLN4924                       6 genes  but moves 1,000+ genes overall -> specificity 0.006
+  dexamethasone                 6 genes  but moves 1,000+ genes overall -> specificity 0.006
+
+wrote data/ars/c3efea15-1a8f-4c09-a521-7462603bec08/route_c.json

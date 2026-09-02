@@ -130,6 +130,95 @@ def drug_is_the_variable(
     return None
 
 
+
+# --- Route C: gene-first, find other compounds that move the gene ------------
+
+# The therapeutic hypothesis behind `Drug1 -inhibits-> Gene2 -> Disease3` is
+# that *less Gene2* helps, whichever compound delivers it.
+_GOAL_DIRECTION = {"decreased": "Downregulated", "increased": "Upregulated"}
+
+# Reference arms that mark a contrast as a perturbation rather than a
+# disease/genotype comparison. Both clauses are needed -- requiring only a
+# vehicle-like *reference* still admits 'DMSO; prostate carcinoma' vs
+# 'DMSO; normal', where the variable is disease.
+_VEHICLE_TERMS = ("vehicle", "DMSO", "untreated", "placebo", "control", "none",
+                  "no treatment")
+
+# A factor reading "<compound> <dose>": NS398 100 micromolar, CI-1040 2
+# millimolar. Requiring the dose is what separates a dosed compound arm from
+# 'inactivated EV71 vaccine'.
+#
+# The unit vocabulary has to be explicit here. `_DOSE` above is deliberately
+# loose because it only ever validates text that already followed a *known*
+# drug name; used for extraction it reads 'interleukin 2 deprivation' as the
+# compound "interleukin" at a dose of "2 deprivation".
+_DOSE_UNIT = (r"(?:[munpµ]?molar|molar|[munpµ]?M|mg|[munpµ]?g|IU|U|%|percent|"
+              r"microgram|milligram|nanogram|gram|micromolar|millimolar|"
+              r"nanomolar|picomolar)")
+_DOSED_FACTOR = re.compile(
+    rf"^(?P<name>.+?)\s+(?P<dose>[\d.]+\s*(?:e-?\d+\s*)?{_DOSE_UNIT}"
+    rf"(?:\s+per\s+\w+)?)$", re.I)
+
+
+def compound_factor(test_arm: str | None) -> tuple[str, str] | None:
+    """Extract ``(compound, dose)`` from a test arm, or None if none looks dosed.
+
+    The mirror image of :func:`factor_supports_drug`: there the compound is
+    known and we ask whether it is the variable; here the compound is what we
+    are trying to find, so it has to be recognised by shape.
+    """
+    for factor in re.split(r"[,;]", test_arm or ""):
+        f = factor.strip()
+        if not f or f.lower() in _STOPWORDS:
+            continue
+        m = _DOSED_FACTOR.match(f)
+        if not m:
+            continue
+        name, dose = m.group("name").strip(), m.group("dose").strip()
+        if len(name) < _MIN_SYNONYM_LEN or name.lower() in _STOPWORDS:
+            continue
+        return name, dose
+    return None
+
+
+# Not every dosed perturbagen is a repurposing candidate. Cytokines, antibodies
+# and endotoxin are legitimate experimental treatments but nobody is going to
+# repurpose "interleukin 13" for asthma on the strength of a GXA contrast, and
+# "blood alcohol content 0.04%" is a factor name rather than a compound at all.
+_BIOLOGIC = re.compile(
+    r"^(interleukin|tumou?r necrosis factor|TGF-?beta|IFN|IL-?\d|CD\d+L|"
+    r"recombinant|anti-|.*antibod|lipopolysaccharide|zymosan|"
+    r"epidermal growth factor|insulin|.*\bligand\b)", re.I)
+_NOT_A_COMPOUND = re.compile(
+    r"^(blood alcohol content|\d+(\.\d+)?)$|^(dose|concentration|time)\b", re.I)
+
+
+def perturbagen_kind(name: str) -> str:
+    """``compound`` | ``biologic_or_stimulus`` | ``not_a_compound``."""
+    n = (name or "").strip()
+    if not n or _NOT_A_COMPOUND.match(n) or not re.search(r"[A-Za-z]{2}", n):
+        return "not_a_compound"
+    if _BIOLOGIC.match(n):
+        return "biologic_or_stimulus"
+    return "compound"
+
+
+@dataclass
+class AlternateCompound:
+    """One compound GXA shows moving a gene the therapeutically useful way."""
+
+    compound: str
+    dose: str
+    gene: str
+    goal_direction: str            # "Downregulated" / "Upregulated"
+    log2fc: float | None
+    adj_p: float | None
+    comparison: str | None
+    experiment: str | None
+    test_arm: str | None
+    reference_arm: str | None
+
+
 @dataclass
 class Contrast:
     """One GXA DE contrast, flattened to the fields we reason over."""
@@ -344,6 +433,44 @@ class GXAMatcher:
             contrasts=found,
         )
 
+
+    def alternate_compounds(
+        self, gene: str, goal_direction: str, *, max_records: int = 400
+    ) -> list[AlternateCompound]:
+        """Compounds that move ``gene`` in ``goal_direction`` under a vehicle control.
+
+        ``goal_direction`` is "Downregulated" or "Upregulated" -- the direction
+        that would be *therapeutically useful*, derived from the Translator
+        edge's own qualifier, not the direction the original drug is claimed to
+        produce in expression (it usually produces none).
+        """
+        veh = lucene_or("measurementDenominator.value", list(_VEHICLE_TERMS))
+        not_veh = lucene_or("variableMeasured.value", list(_VEHICLE_TERMS))
+        q = (f"@type:Inference AND species.identifier:{self.taxon} "
+             f"AND observationAbout.name:{gene} "
+             f"AND keywords:{goal_direction} "
+             f"AND {veh} AND NOT {not_veh}")
+        if self.client.count(q) == 0:
+            return []
+        fields = ",".join([
+            "observationAbout", "value", "marginOfError.value",
+            "measurementQualifier", "variableMeasured.value",
+            "measurementDenominator.value", "subjectOf.identifier",
+        ])
+        out = []
+        for h in self.client.scroll(q, fields=fields, max_records=max_records):
+            c = Contrast.from_hit(h)
+            hit = compound_factor(c.test_arm)
+            if hit is None:
+                self.n_rejected += 1
+                continue
+            name, dose = hit
+            out.append(AlternateCompound(
+                compound=name, dose=dose, gene=gene, goal_direction=goal_direction,
+                log2fc=c.log2fc, adj_p=c.adj_p, comparison=c.comparison,
+                experiment=c.experiment, test_arm=c.test_arm,
+                reference_arm=c.reference_arm))
+        return out
 
 def _verdict(
     found: list[Contrast], asserted: str | None, agree: int, disagree: int,
