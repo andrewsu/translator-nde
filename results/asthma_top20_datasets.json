@@ -1,0 +1,364 @@
+{
+  "pk": "5b656c0f-b7da-4db4-ba1f-d3a794b422d4",
+  "top_n": 20,
+  "rows": [
+    {
+      "rank": 1,
+      "drug": "Terbutaline",
+      "score": 0.994,
+      "genes": [
+        "ADRB1",
+        "ADRB2"
+      ],
+      "nde_samples": 14,
+      "candidate_series": 1,
+      "confirmed_series": 0,
+      "best_series": null,
+      "arm": null,
+      "control": null,
+      "all_confirmed": []
+    },
+    {
+      "rank": 2,
+      "drug": "Prednisolone",
+      "score": 0.992,
+      "genes": [
+        "NR3C1",
+        "NR3C2"
+      ],
+      "nde_samples": 2123,
+      "candidate_series": 37,
+      "confirmed_series": 4,
+      "best_series": "GSE40165",
+      "arm": "treated with: high-dose (2mg/kg) of prednisolone",
+      "control": "treated with: placebo",
+      "all_confirmed": [
+        "GSE40165",
+        "GSE225858",
+        "GSE115525",
+        "GSE19143"
+      ]
+    },
+    {
+      "rank": 3,
+      "drug": "Adrenal Cortex Hormones",
+      "score": 0.992,
+      "genes": [
+        "TNF"
+      ],
+      "nde_samples": 0,
+      "candidate_series": 0,
+      "confirmed_series": 0,
+      "best_series": null,
+      "arm": null,
+      "control": null,
+      "all_confirmed": []
+    },
+    {
+      "rank": 4,
+      "drug": "Prednisone",
+      "score": 0.986,
+      "genes": [
+        "NR3C1"
+      ],
+      "nde_samples": 2344,
+      "candidate_series": 20,
+      "confirmed_series": 4,
+      "best_series": "GSE224705",
+      "arm": "prednisone_dosis: 5",
+      "control": "prednisone_dosis: 0",
+      "all_confirmed": [
+        "GSE224705",
+        "GSE73578",
+        "GSE77344",
+        "GSE226147"
+      ]
+    },
+    {
+      "rank": 5,
+      "drug": "Zafirlukast",
+      "score": 0.973,
+      "genes": [
+        "CYSLTR1",
+        "CYSLTR2",
+        "MAPK1"
+      ],
+      "nde_samples": 0,
+      "candidate_series": 0,
+      "confirmed_series": 0,
+      "best_series": null,
+      "arm": null,
+      "control": null,
+      "all_confirmed": []
+    },
+    {
+      "rank": 6,
+      "drug": "beclomethasone",
+      "score": 0.971,
+      "genes": [
+        "NR3C1"
+      ],
+      "nde_samples": 0,
+      "candidate_series": 0,
+      "confirmed_series": 0,
+      "best_series": null,
+      "arm": null,
+      "control": null,
+      "all_confirmed": []
+    },
+    {
+      "rank": 7,
+      "drug": "Zileuton",
+      "score": 0.969,
+      "genes": [
+        "ALOX5"
+      ],
+      "nde_samples": 132,
+      "candidate_series": 2,
+      "confirmed_series": 2,
+      "best_series": "GSE175616",
+      "arm": "treatment: Aspirin+Zileuton",
+      "control": "treatment: Placebo",
+      "all_confirmed": [
+        "GSE175616",
+        "GSE262419"
+      ]
+    },
+    {
+      "rank": 8,
+      "drug": "Roflumilast",
+      "score": 0.958,
+      "genes": [
+        "PDE4A",
+        "PDE4B",
+        "PDE4D"
+      ],
+      "nde_samples": 114,
+      "candidate_series": 4,
+      "confirmed_series": 3,
+      "best_series": "GSE126981",
+      "arm": "treatment: Roflumilast N-oxide (RNO)",
+      "control": "treatment: Vehicle",
+      "all_confirmed": [
+        "GSE126981",
+        "GSE267218",
+        "GSE297400"
+      ]
+    },
+    {
+      "rank": 9,
+      "drug": "Triamcinolone",
+      "score": 0.955,
+      "genes": [
+        "CD1A",
+        "MMP1",
+        "NR3C1"
+      ],
+      "nde_samples": 185,
+      "candidate_series": 8,
+      "confirmed_series": 3,
+      "best_series": "GSE136034",
+      "arm": "treatment: 100 nM triamcinolone acetonide(TA) for 4 hours.",
+      "control": "treatment: DMSO(Veh control) for 4 hours",
+      "all_confirmed": [
+        "GSE136034",
+        "GSE109440",
+        "GSE262419"
+      ]
+    },
+    {
+      "rank": 10,
+      "drug": "Betamethasone",
+      "score": 0.949,
+      "genes": [
+        "NR3C1"
+      ],
+      "nde_samples": 80,
+      "candidate_series": 3,
+      "confirmed_series": 0,
+      "best_series": null,
+      "arm": null,
+      "control": null,
+      "all_confirmed": []
+    },
+    {
+      "rank": 11,
+      "drug": "Tranilast",
+      "score": 0.922,
+      "genes": [
+        "HPGDS",
+        "HRH1",
+        "TGFB1"
+      ],
+      "nde_samples": 55,
+      "candidate_series": 5,
+      "confirmed_series": 2,
+      "best_series": "GSE246079",
+      "arm": "treatment: 50 uM Tranilast",
+      "control": null,
+      "all_confirmed": [
+        "GSE246079",
+        "GSE246078"
+      ]
+    },
+    {
+      "rank": 12,
+      "drug": "Ketotifen",
+      "score": 0.891,
+      "genes": [
+        "CYP2D6",
+        "HRH1"
+      ],
+      "nde_samples": 0,
+      "candidate_series": 0,
+      "confirmed_series": 0,
+      "best_series": null,
+      "arm": null,
+      "control": null,
+      "all_confirmed": []
+    },
+    {
+      "rank": 13,
+      "drug": "Flunisolide",
+      "score": 0.858,
+      "genes": [
+        "NR3C1"
+      ],
+      "nde_samples": 0,
+      "candidate_series": 0,
+      "confirmed_series": 0,
+      "best_series": null,
+      "arm": null,
+      "control": null,
+      "all_confirmed": []
+    },
+    {
+      "rank": 14,
+      "drug": "Tulobuterol",
+      "score": 0.829,
+      "genes": [
+        "ADRB2"
+      ],
+      "nde_samples": 0,
+      "candidate_series": 0,
+      "confirmed_series": 0,
+      "best_series": null,
+      "arm": null,
+      "control": null,
+      "all_confirmed": []
+    },
+    {
+      "rank": 15,
+      "drug": "Bambuterol",
+      "score": 0.796,
+      "genes": [
+        "ADRB2",
+        "BCHE"
+      ],
+      "nde_samples": 0,
+      "candidate_series": 0,
+      "confirmed_series": 0,
+      "best_series": null,
+      "arm": null,
+      "control": null,
+      "all_confirmed": []
+    },
+    {
+      "rank": 16,
+      "drug": "Mepolizumab",
+      "score": 0.783,
+      "genes": [
+        "IL5",
+        "IL5RA"
+      ],
+      "nde_samples": 837,
+      "candidate_series": 5,
+      "confirmed_series": 5,
+      "best_series": "GSE292059",
+      "arm": "treatment: Mepolizumab",
+      "control": "treatment: Placebo",
+      "all_confirmed": [
+        "GSE292059",
+        "GSE192861",
+        "GSE274410",
+        "GSE298740",
+        "GSE46159"
+      ]
+    },
+    {
+      "rank": 17,
+      "drug": "Dupilumab",
+      "score": 0.78,
+      "genes": [
+        "IL4R"
+      ],
+      "nde_samples": 530,
+      "candidate_series": 10,
+      "confirmed_series": 5,
+      "best_series": "GSE130588",
+      "arm": "treatment: Dupilumab",
+      "control": "treatment: Placebo",
+      "all_confirmed": [
+        "GSE130588",
+        "GSE267331",
+        "GSE59294",
+        "GSE157194",
+        "GSE326320"
+      ]
+    },
+    {
+      "rank": 18,
+      "drug": "Pemirolast",
+      "score": 0.695,
+      "genes": [
+        "HRH1"
+      ],
+      "nde_samples": 0,
+      "candidate_series": 0,
+      "confirmed_series": 0,
+      "best_series": null,
+      "arm": null,
+      "control": null,
+      "all_confirmed": []
+    },
+    {
+      "rank": 19,
+      "drug": "P [Preparations]",
+      "score": 0.695,
+      "genes": [
+        "PROC"
+      ],
+      "nde_samples": 0,
+      "candidate_series": 0,
+      "confirmed_series": 0,
+      "best_series": null,
+      "arm": null,
+      "control": null,
+      "all_confirmed": []
+    },
+    {
+      "rank": 20,
+      "drug": "Aspirin",
+      "score": 0.656,
+      "genes": [
+        "DDIT3",
+        "PTGS1",
+        "PTGS2",
+        "TGFB1"
+      ],
+      "nde_samples": 1874,
+      "candidate_series": 24,
+      "confirmed_series": 5,
+      "best_series": "GSE158765",
+      "arm": "treatment_drug_label: 81 mg Aspirin",
+      "control": "treatment_drug_label: none",
+      "all_confirmed": [
+        "GSE158765",
+        "GSE175616",
+        "GSE48988",
+        "GSE324265",
+        "GSE142257"
+      ]
+    }
+  ]
+}
