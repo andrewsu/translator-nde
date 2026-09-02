@@ -6,6 +6,7 @@
       "rank": 1,
       "drug": "Terbutaline",
       "score": 0.994,
+      "system": null,
       "genes": [
         "ADRB1",
         "ADRB2"
@@ -22,6 +23,7 @@
       "rank": 2,
       "drug": "Prednisolone",
       "score": 0.992,
+      "system": "blood, Vietnamese dengue patients",
       "genes": [
         "NR3C1",
         "NR3C2"
@@ -43,6 +45,7 @@
       "rank": 3,
       "drug": "Adrenal Cortex Hormones",
       "score": 0.992,
+      "system": null,
       "genes": [
         "TNF"
       ],
@@ -58,6 +61,7 @@
       "rank": 4,
       "drug": "Prednisone",
       "score": 0.986,
+      "system": "Whole Blood, SLE",
       "genes": [
         "NR3C1"
       ],
@@ -78,6 +82,7 @@
       "rank": 5,
       "drug": "Zafirlukast",
       "score": 0.973,
+      "system": null,
       "genes": [
         "CYSLTR1",
         "CYSLTR2",
@@ -95,6 +100,7 @@
       "rank": 6,
       "drug": "beclomethasone",
       "score": 0.971,
+      "system": null,
       "genes": [
         "NR3C1"
       ],
@@ -110,6 +116,7 @@
       "rank": 7,
       "drug": "Zileuton",
       "score": 0.969,
+      "system": "Brushing of nasal epithelium",
       "genes": [
         "ALOX5"
       ],
@@ -128,6 +135,7 @@
       "rank": 8,
       "drug": "Roflumilast",
       "score": 0.958,
+      "system": "BEAS-2B human airway epithelial cell line",
       "genes": [
         "PDE4A",
         "PDE4B",
@@ -149,6 +157,7 @@
       "rank": 9,
       "drug": "Triamcinolone",
       "score": 0.955,
+      "system": "Human cervical cancer\u00a0cell line",
       "genes": [
         "CD1A",
         "MMP1",
@@ -170,6 +179,7 @@
       "rank": 10,
       "drug": "Betamethasone",
       "score": 0.949,
+      "system": null,
       "genes": [
         "NR3C1"
       ],
@@ -185,6 +195,7 @@
       "rank": 11,
       "drug": "Tranilast",
       "score": 0.922,
+      "system": "WTC-11, human iPSCs",
       "genes": [
         "HPGDS",
         "HRH1",
@@ -205,6 +216,7 @@
       "rank": 12,
       "drug": "Ketotifen",
       "score": 0.891,
+      "system": null,
       "genes": [
         "CYP2D6",
         "HRH1"
@@ -221,6 +233,7 @@
       "rank": 13,
       "drug": "Flunisolide",
       "score": 0.858,
+      "system": null,
       "genes": [
         "NR3C1"
       ],
@@ -236,6 +249,7 @@
       "rank": 14,
       "drug": "Tulobuterol",
       "score": 0.829,
+      "system": null,
       "genes": [
         "ADRB2"
       ],
@@ -251,6 +265,7 @@
       "rank": 15,
       "drug": "Bambuterol",
       "score": 0.796,
+      "system": null,
       "genes": [
         "ADRB2",
         "BCHE"
@@ -267,6 +282,7 @@
       "rank": 16,
       "drug": "Mepolizumab",
       "score": 0.783,
+      "system": "Nasal lavage",
       "genes": [
         "IL5",
         "IL5RA"
@@ -289,6 +305,7 @@
       "rank": 17,
       "drug": "Dupilumab",
       "score": 0.78,
+      "system": "homo sapiens skin biopsy, Week 0, lesional",
       "genes": [
         "IL4R"
       ],
@@ -310,6 +327,7 @@
       "rank": 18,
       "drug": "Pemirolast",
       "score": 0.695,
+      "system": null,
       "genes": [
         "HRH1"
       ],
@@ -325,6 +343,7 @@
       "rank": 19,
       "drug": "P [Preparations]",
       "score": 0.695,
+      "system": null,
       "genes": [
         "PROC"
       ],
@@ -340,6 +359,7 @@
       "rank": 20,
       "drug": "Aspirin",
       "score": 0.656,
+      "system": "mRNA extracted from purified platelets",
       "genes": [
         "DDIT3",
         "PTGS1",
