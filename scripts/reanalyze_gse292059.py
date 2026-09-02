@@ -298,7 +298,8 @@ def main():
             # Enrich the unadjusted sets, which is where the compositional signal
             # lives, and the covariate-adjusted set, which is what remains once
             # the eosinophil fraction is held constant.
-            for name, glist in (("down", d_down), ("up", d_up),
+            for name, glist in (("all", list(d_sig.index)),
+                                ("down", d_down), ("up", d_up),
                                 ("eos_adjusted", list(adj_sig.index))):
                 for lib in ("Reactome_2022", "GO_Biological_Process_2023"):
                     try:

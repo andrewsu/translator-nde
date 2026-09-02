@@ -22,6 +22,22 @@ END OF TREATMENT (visit14): 66 mepolizumab vs 73 placebo
       IL5RA  logFC=-0.693 p=0.0011 adj_p=0.09  [not DE]
   top DE: RNASE2(-2.60), CAMK1(-1.86), CEBPE(-2.27), SLC29A1(-1.88), PMP22(-1.59), CCL23(-2.64), SUSD3(-1.14), VSTM1(-1.90), PRSS33(-2.25), TEC(-1.28)
 
+  all (1366 genes) — Reactome_2022 [12 terms at adj p<0.05]
+   * adj_p=4.99e-05 n=234 Signal Transduction R-HSA-162582
+   * adj_p=4.99e-05 n=20  Formation Of Cornified Envelope R-HSA-6809371
+   * adj_p=6.50e-04 n=43  Extracellular Matrix Organization R-HSA-1474244
+   * adj_p=6.76e-04 n=13  Non-integrin membrane-ECM Interactions R-HSA-3000171
+   * adj_p=1.89e-03 n=16  Integrin Cell Surface Interactions R-HSA-216083
+   * adj_p=4.39e-03 n=22  Cell-Cell Communication R-HSA-1500931
+
+  all (1366 genes) — GO_Biological_Process_2023 [6 terms at adj p<0.05]
+   * adj_p=1.87e-04 n=15  Keratinocyte Differentiation (GO:0030216)
+   * adj_p=6.56e-04 n=16  Epidermal Cell Differentiation (GO:0009913)
+   * adj_p=1.12e-02 n=16  Skin Development (GO:0043588)
+   * adj_p=1.12e-02 n=79  Protein Modification Process (GO:0036211)
+   * adj_p=3.14e-02 n=17  Epidermis Development (GO:0008544)
+   * adj_p=3.14e-02 n=17  Integrin-Mediated Signaling Pathway (GO:0007229)
+
   down (596 genes) — Reactome_2022 [0 terms at adj p<0.05]
      adj_p=6.55e-02 n=5   Regulation Of RUNX1 Expression And Activity R-HSA-8934593
      adj_p=6.55e-02 n=15  SUMO E3 Ligases SUMOylate Target Proteins R-HSA-3108232

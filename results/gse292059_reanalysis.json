@@ -408,6 +408,409 @@
         }
       ],
       "enrichment": {
+        "all:Reactome_2022": [
+          {
+            "term": "Signal Transduction R-HSA-162582",
+            "p": 5.2222590098409465e-08,
+            "adj_p": 4.994516865456229e-05,
+            "odds": 1.5198234641012522,
+            "n_genes": 234,
+            "genes": [
+              "CYFIP1",
+              "APP",
+              "VIPR1",
+              "AHCYL1",
+              "CRKL",
+              "OPHN1",
+              "PSMD2",
+              "PDK4"
+            ]
+          },
+          {
+            "term": "Formation Of Cornified Envelope R-HSA-6809371",
+            "p": 7.114696389538788e-08,
+            "adj_p": 4.994516865456229e-05,
+            "odds": 5.1125419624676685,
+            "n_genes": 20,
+            "genes": [
+              "FLG",
+              "SPRR2E",
+              "SPRR2F",
+              "CDSN",
+              "SPINK6",
+              "KLK5",
+              "KLK13",
+              "KAZN"
+            ]
+          },
+          {
+            "term": "Extracellular Matrix Organization R-HSA-1474244",
+            "p": 1.389095524133993e-06,
+            "adj_p": 0.0006500967052947088,
+            "odds": 2.4095957379367516,
+            "n_genes": 43,
+            "genes": [
+              "ITGB1",
+              "LAMA5",
+              "COLGALT2",
+              "ITGB5",
+              "LAMA4",
+              "ITGA2B",
+              "ICAM2",
+              "ICAM5"
+            ]
+          },
+          {
+            "term": "Non-integrin membrane-ECM Interactions R-HSA-3000171",
+            "p": 1.924656130813072e-06,
+            "adj_p": 0.0006755543019153882,
+            "odds": 6.38470066518847,
+            "n_genes": 13,
+            "genes": [
+              "ITGB1",
+              "LAMA5",
+              "ITGB5",
+              "LAMB3",
+              "LAMA4",
+              "ITGA2",
+              "TRAPPC4",
+              "HSPG2"
+            ]
+          },
+          {
+            "term": "Integrin Cell Surface Interactions R-HSA-216083",
+            "p": 6.738797153974394e-06,
+            "adj_p": 0.00189225424083601,
+            "odds": 4.405096296296296,
+            "n_genes": 16,
+            "genes": [
+              "ITGB1",
+              "ITGB5",
+              "ITGA2",
+              "ITGA2B",
+              "ICAM2",
+              "FN1",
+              "ICAM5",
+              "HSPG2"
+            ]
+          },
+          {
+            "term": "Cell-Cell Communication R-HSA-1500931",
+            "p": 1.8769441179007365e-05,
+            "adj_p": 0.004392049235887724,
+            "odds": 3.0960884353741496,
+            "n_genes": 22,
+            "genes": [
+              "ITGB1",
+              "DST",
+              "LAMB3",
+              "LAMA4",
+              "ILK",
+              "PTPN11",
+              "ACTN4",
+              "PIK3R1"
+            ]
+          },
+          {
+            "term": "Metabolism Of Lipids R-HSA-556833",
+            "p": 3.441774395552687e-05,
+            "adj_p": 0.006903216073365675,
+            "odds": 1.690243226230975,
+            "n_genes": 79,
+            "genes": [
+              "GLTP",
+              "ACAA2",
+              "ACSM3",
+              "FHL2",
+              "GDE1",
+              "MED19",
+              "AKR1B1",
+              "MED16"
+            ]
+          },
+          {
+            "term": "Cell Junction Organization R-HSA-446728",
+            "p": 6.0852376401382054e-05,
+            "adj_p": 0.009070659857708949,
+            "odds": 3.390649004630376,
+            "n_genes": 17,
+            "genes": [
+              "ITGB1",
+              "DST",
+              "LAMB3",
+              "LAMA4",
+              "ILK",
+              "AFDN",
+              "FZR1",
+              "PARD3"
+            ]
+          },
+          {
+            "term": "Laminin Interactions R-HSA-3000157",
+            "p": 6.240489390954863e-05,
+            "adj_p": 0.009070659857708949,
+            "odds": 7.835051546391752,
+            "n_genes": 8,
+            "genes": [
+              "ITGB1",
+              "LAMA5",
+              "LAMB3",
+              "ITGA2",
+              "LAMA4",
+              "ITGA7",
+              "ITGA6",
+              "HSPG2"
+            ]
+          },
+          {
+            "term": "ECM Proteoglycans R-HSA-3000178",
+            "p": 6.460583944237143e-05,
+            "adj_p": 0.009070659857708949,
+            "odds": 4.253264350825327,
+            "n_genes": 13,
+            "genes": [
+              "ITGB1",
+              "LAMA5",
+              "TGFB2",
+              "ITGB5",
+              "ITGA2",
+              "LAMA4",
+              "ITGA2B",
+              "HSPG2"
+            ]
+          },
+          {
+            "term": "RND1 GTPase Cycle R-HSA-9696273",
+            "p": 8.634265991051505e-05,
+            "adj_p": 0.01010209120953026,
+            "odds": 4.871634329246518,
+            "n_genes": 11,
+            "genes": [
+              "GRB7",
+              "DST",
+              "PLXNA1",
+              "FRS2",
+              "PKP4",
+              "PIK3R1",
+              "RASAL2",
+              "ARHGAP5"
+            ]
+          },
+          {
+            "term": "RND3 GTPase Cycle R-HSA-9696264",
+            "p": 8.634265991051505e-05,
+            "adj_p": 0.01010209120953026,
+            "odds": 4.871634329246518,
+            "n_genes": 11,
+            "genes": [
+              "DST",
+              "TMOD3",
+              "PKP4",
+              "PIK3R1",
+              "RASAL2",
+              "TNFAIP1",
+              "ARHGAP5",
+              "PTPN13"
+            ]
+          }
+        ],
+        "all:GO_Biological_Process_2023": [
+          {
+            "term": "Keratinocyte Differentiation (GO:0030216)",
+            "p": 5.1751002477418804e-08,
+            "adj_p": 0.00018739037997073349,
+            "odds": 7.651533843243688,
+            "n_genes": 15,
+            "genes": [
+              "SPRR2F",
+              "CDSN",
+              "EVPL",
+              "TGM1",
+              "BCR",
+              "SCEL",
+              "UGCG",
+              "PIP5K1A"
+            ]
+          },
+          {
+            "term": "Epidermal Cell Differentiation (GO:0009913)",
+            "p": 3.6257842782458336e-07,
+            "adj_p": 0.0006564482435764082,
+            "odds": 5.799922027290449,
+            "n_genes": 16,
+            "genes": [
+              "SPRR2F",
+              "CDSN",
+              "HDAC1",
+              "OVOL1",
+              "EVPL",
+              "TGM1",
+              "BCR",
+              "SCEL"
+            ]
+          },
+          {
+            "term": "Skin Development (GO:0043588)",
+            "p": 1.0168044778620695e-05,
+            "adj_p": 0.011177702820293865,
+            "odds": 4.235213675213675,
+            "n_genes": 16,
+            "genes": [
+              "SPRR2F",
+              "CDSN",
+              "EVPL",
+              "TGM1",
+              "BCR",
+              "SCEL",
+              "UGCG",
+              "ADAM9"
+            ]
+          },
+          {
+            "term": "Protein Modification Process (GO:0036211)",
+            "p": 1.2347641889305567e-05,
+            "adj_p": 0.011177702820293865,
+            "odds": 1.7484459984459984,
+            "n_genes": 79,
+            "genes": [
+              "GPI",
+              "APP",
+              "PTPRU",
+              "TP53RK",
+              "PDCD6",
+              "ILK",
+              "PTPN22",
+              "PLAT"
+            ]
+          },
+          {
+            "term": "Epidermis Development (GO:0008544)",
+            "p": 5.2094835284925394e-05,
+            "adj_p": 0.03143923309445248,
+            "odds": 3.440696812453669,
+            "n_genes": 17,
+            "genes": [
+              "KRTDAP",
+              "SPRR2E",
+              "SPRR2F",
+              "CDSN",
+              "LAMB3",
+              "HDAC1",
+              "KLK5",
+              "EMP1"
+            ]
+          },
+          {
+            "term": "Integrin-Mediated Signaling Pathway (GO:0007229)",
+            "p": 5.2094835284925394e-05,
+            "adj_p": 0.03143923309445248,
+            "odds": 3.440696812453669,
+            "n_genes": 17,
+            "genes": [
+              "ITGB1",
+              "LAMA5",
+              "SEMA7A",
+              "ITGB5",
+              "DST",
+              "ITGA2",
+              "TXK",
+              "ITGA2B"
+            ]
+          },
+          {
+            "term": "Negative Regulation Of Cell Migration (GO:0030336)",
+            "p": 0.00011664939951267896,
+            "adj_p": 0.06034106794791579,
+            "odds": 2.4986760907391194,
+            "n_genes": 25,
+            "genes": [
+              "PTPRU",
+              "NDRG4",
+              "CITED2",
+              "HDAC1",
+              "ADARB1",
+              "PTPN23",
+              "PTPRK",
+              "ADIPOR1"
+            ]
+          },
+          {
+            "term": "Dephosphorylation (GO:0016311)",
+            "p": 0.00015877979884745531,
+            "adj_p": 0.07186770645332946,
+            "odds": 2.5564456080513054,
+            "n_genes": 23,
+            "genes": [
+              "PTPRU",
+              "PTPN18",
+              "DUSP3",
+              "CTDP1",
+              "PPP2R5B",
+              "PTPN22",
+              "PPP2R3B",
+              "PTPN11"
+            ]
+          },
+          {
+            "term": "Negative Regulation Of Cellular Process (GO:0048523)",
+            "p": 0.00020550756753496773,
+            "adj_p": 0.08196719270940649,
+            "odds": 1.7146232228777776,
+            "n_genes": 59,
+            "genes": [
+              "APP",
+              "PTPRU",
+              "RARG",
+              "PDE3B",
+              "AKR1B1",
+              "ADARB1",
+              "PTPRK",
+              "RRP8"
+            ]
+          },
+          {
+            "term": "Negative Regulation Of Small GTPase Mediated Signal Transduction (GO:0051058)",
+            "p": 0.00023991528561646643,
+            "adj_p": 0.08196719270940649,
+            "odds": 7.377992868059093,
+            "n_genes": 7,
+            "genes": [
+              "TGFB2",
+              "SH3BP1",
+              "SPRY4",
+              "DAB2IP",
+              "RASAL3",
+              "FBP1",
+              "CGNL1"
+            ]
+          },
+          {
+            "term": "Adherens Junction Maintenance (GO:0034334)",
+            "p": 0.0002906507103771419,
+            "adj_p": 0.08196719270940649,
+            "odds": 27.35976505139501,
+            "n_genes": 4,
+            "genes": [
+              "TJP1",
+              "KIFC3",
+              "INAVA",
+              "PLEKHA7"
+            ]
+          },
+          {
+            "term": "Cleavage Furrow Formation (GO:0036089)",
+            "p": 0.0002906507103771419,
+            "adj_p": 0.08196719270940649,
+            "odds": 27.35976505139501,
+            "n_genes": 4,
+            "genes": [
+              "SNX18",
+              "SPIRE1",
+              "SNX9",
+              "SNX33"
+            ]
+          }
+        ],
         "down:Reactome_2022": [
           {
             "term": "Regulation Of RUNX1 Expression And Activity R-HSA-8934593",
