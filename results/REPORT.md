@@ -593,6 +593,62 @@ The useful conclusion is methodological: **a disease-vs-healthy contrast is the 
 for validating mechanistic paths**, and the 40% of RA/AS series that are re-analyzable are worth
 far more when they carry a drug arm. That is what example 3 goes after.
 
+### Do Route B's perturbagens appear in Translator at all?
+
+Before scoring a drug arm against Translator edges, the prior question is whether Translator ever
+proposed those drugs. Checked against the three answer sets:
+
+| Route B perturbagen | series | in Translator's answer? |
+|---|---|---|
+| **JQ1** | GSE148395 | **absent from all three** |
+| methotrexate | GSE97165 | absent from RA; in AS → TNF (SemMedDB) |
+| sulfasalazine | GSE97165 | absent from all three |
+| hydroxychloroquine | GSE97165 | absent from RA; in AS → TNF |
+| infliximab | GSE141646 | present in all three; **6 gene edges** in AS |
+| **budesonide** | GSE162120 | **present in asthma, 10 gene edges** |
+| **formoterol** | GSE162120 | **present in asthma, 2 gene edges** |
+| fluticasone, salmeterol | GSE162120 | absent from all three |
+
+Two things follow, and they cut in opposite directions.
+
+**The best-powered Route B dataset tests a drug Translator never proposed.** GSE148395 (JQ1, 47% of
+genes significant) has no counterpart edge to score against. Nor does GSE97165's triple DMARD:
+methotrexate, sulfasalazine and hydroxychloroquine are the standard RA regimen and **none of them
+appears in Translator's RA answer** — two show up only under AS. This is the three-way-intersection
+problem from example 2 again, now biting from the data side: the series worth re-analysing and the
+drugs Translator proposes are largely disjoint sets.
+
+**GSE162120 is the exception, and it is a good one.** Both of its ICS/LABA arms — budesonide and
+formoterol — are drugs Translator proposes for asthma, with twelve gene edges between them, in a
+paired pre/post human design with counts deposited. That makes it the first genuinely joinable
+Route B dataset in this project.
+
+But look at what those edges assert:
+
+```
+Budesonide → CYP3A4, CYP1A2, CYP2C19, CYP2C9, NR1I2, NR3C2, PGR, CRHR1, EDN1, ANXA1
+Formoterol → ADRB1, CYP2C19
+```
+
+**Five of budesonide's ten are drug metabolism** — four CYPs plus NR1I2 (PXR), the xenobiotic
+sensor that regulates them. ANXA1 is a genuine glucocorticoid effector. **NR3C1, the
+glucocorticoid receptor and budesonide's actual target, is not among them** — although NR3C1 *is*
+reached in the same answer set by seven other corticosteroids (betamethasone, desonide,
+flunisolide, prednisolone, prednisone, triamcinolone, beclomethasone). Formoterol shows the same
+shape: ADRB1 rather than ADRB2, though ADRB2 is reached by four other β-agonists in the same
+answer. The canonical target is present in the graph for the drug *class* and missing for these
+particular members.
+
+Route D corroborates from the activity side: budesonide→NR3C2 and →PGR are binding-confirmed
+(3 and 7 active measurements), while budesonide→CYP1A2 is **measured inactive** — four inactive
+outcomes, no active ones.
+
+And every one of the twelve edges carries `direction: None, aspect: None`, sourced from DGIdb,
+DrugCentral, DrugBank or SemMedDB — precisely the non-directional KP population example 4
+identifies. So even on the one joinable dataset, Translator supports the question *"is this gene
+differentially expressed under the drug?"* but not *"does it move the way the edge says?"*, because
+no edge says.
+
 ⚠️ **Arm provenance matters and is reported.** Depositors name matrix columns arbitrarily: this
 series uses `normal_tissue_1` / `RA_tissue_148`, while the GEO titles are `healthy tissue 2` —
 so neither the GSM accession nor the title matches a column. Matching is layered
@@ -848,10 +904,11 @@ re-analysed, with in-vitro perturbation series (47% significant) as the producti
    expression data; `activity` edges should be out-of-scope, not `disagrees`.
 3. **Add a biotype check to Route B**, so a run dominated by snoRNA/snRNA is reported as a failed
    run rather than a result.
-4. **Join Route B to Translator on a drug arm.** The GSE89408 join tests the wrong hop. The right
-   test scores a series with a genuine drug arm — GSE148395 (JQ1) or GSE97165 (triple DMARD) —
-   against that drug's own Translator edges and their `object_direction_qualifier`, replacing the
-   hand-curated marker panels used in example 3. GSE162120 (formoterol/budesonide, paired pre/post)
-   would extend it to asthma and COPD.
+4. **Join Route B to Translator on `GSE162120`.** The GSE89408 join tests the wrong hop, and the
+   three example-3 series cannot be joined at all — JQ1 and sulfasalazine are absent from every
+   answer set, and methotrexate and hydroxychloroquine are absent from RA. GSE162120 is the one
+   dataset that overlaps: budesonide and formoterol are both proposed for asthma, in a paired
+   pre/post human design. Scoring its twelve edges is a coverage test, not a direction test, since
+   all twelve are unqualified.
 5. **Report the ChEMBL/PubChem/BindingDB absence to the NDE team** as a coverage gap,
    alongside the GEO `characteristics_ch1` flattening seen in GSE162120.
