@@ -42,6 +42,39 @@ def _rows(header: str, key: str) -> list[list[str]]:
             for l in header.splitlines() if l.startswith(key)]
 
 
+# GEO's own declaration of what the experiment is. Worth carrying into the table:
+# GSE136034 is a triamcinolone-vs-DMSO perturbation with clean arms, so it passes
+# arm confirmation, but its only data file is a 4C-seq chromatin-capture table --
+# it cannot answer a differential-expression question at all.
+_TYPE_SHORT = {
+    "expression profiling by high throughput sequencing": "RNA-seq",
+    "expression profiling by array": "array",
+    "genome binding/occupancy profiling by high throughput sequencing": "ChIP-seq",
+    "methylation profiling by high throughput sequencing": "methylation",
+    "non-coding rna profiling by high throughput sequencing": "ncRNA-seq",
+}
+
+
+def experiment_type(gse: str) -> tuple[str, bool]:
+    """(short label, is it expression data) as declared by GEO."""
+    header = series_header(gse)
+    types = [v.strip('"') for l in header.splitlines()
+             if l.startswith("!Series_type") for v in l.split("\t")[1:]]
+    strat = {v.strip('"').upper() for l in header.splitlines()
+             if l.startswith("!Sample_library_strategy") for v in l.split("\t")[1:]}
+    labels, is_expr = [], False
+    for t in dict.fromkeys(types):
+        short = _TYPE_SHORT.get(t.lower())
+        if short:
+            is_expr = True
+            labels.append(short)
+        else:
+            # "Other" is uninformative on its own; the library strategy says more.
+            extra = ", ".join(sorted(s for s in strat if s and s != "OTHER"))
+            labels.append(f"other ({extra})" if extra else "other")
+    return (", ".join(dict.fromkeys(labels)) or "—"), is_expr
+
+
 def describe_system(gse: str) -> str:
     """A short phrase for the experimental system: cell line, tissue, cohort.
 
@@ -135,7 +168,13 @@ def confirm_arm(gse: str, drug: str) -> dict | None:
             org = _rows(header, "!Sample_organism_ch1")
             organism = (collections.Counter(v for v in org[0] if v).most_common(1)[0][0]
                         if org and any(org[0]) else "")
-            return {"gse": gse, "field": field, "values": dict(counts.most_common(8)),
+            # Always retain the levels that name the drug. GSE157167 is a
+            # ~300-compound organoid screen, so pemirolast's 4-sample level
+            # never survives a plain most_common(8) and the arm looks absent.
+            keep = dict(counts.most_common(8))
+            keep.update({v: n for v, n in counts.items()
+                         if drug.lower() in v.lower()})
+            return {"gse": gse, "field": field, "values": keep,
                     "organism": organism, "arm_field": key.replace("!Sample_", ""),
                     "n_samples_mentioning": sum(
                         n for v, n in counts.items() if drug.lower() in v.lower())}
@@ -193,6 +232,8 @@ for rank, drug in enumerate(top, 1):
     hits = sorted(hits, key=rank_key)
     best = hits[0] if hits else None
     arm = ctrl = None
+    n_arm = n_ctrl = 0
+    etype, is_expr = experiment_type(best["gse"]) if best else ("—", False)
     if best:
         named = [v for v in best["values"] if drug.lower() in v.lower()]
         # Single agent beats a combination, and a real dose beats a zero level.
@@ -204,6 +245,8 @@ for rank, drug in enumerate(top, 1):
              if v != arm and (ZERO_LEVEL.search(v)
                               or (CONTROL.search(v) and drug.lower() not in v.lower()))),
             None)
+        n_arm = best["values"].get(arm, 0)
+        n_ctrl = best["values"].get(ctrl, 0) if ctrl else 0
     rows.append({
         "rank": rank, "drug": drug, "score": round(score[drug], 3),
         "system": describe_system(best["gse"]) if best else None,
@@ -213,6 +256,8 @@ for rank, drug in enumerate(top, 1):
         "confirmed_series": len(hits),
         "best_series": best["gse"] if best else None,
         "arm_field": best["arm_field"] if best else None,
+        "experiment_type": etype, "is_expression": is_expr,
+        "n_arm": n_arm, "n_control": n_ctrl,
         "arm": arm, "control": ctrl,
         "all_confirmed": [c["gse"] for c in hits],
     })
@@ -224,11 +269,14 @@ with_data = [r for r in rows if r["confirmed_series"]]
 with_ctrl = [r for r in with_data if r["control"]]
 print(f"top {TOP_N} asthma answers: {len(with_data)} have >=1 confirmed perturbation series, "
       f"{len(with_ctrl)} with an explicit control arm")
-print(f"{'#':<3}{'drug':24s}{'score':>6}{'human':>7}{'any':>7}{'ser':>5}  best / system / arm")
+print(f"{'#':<3}{'drug':22s}{'score':>5}{'human':>7}{'any':>7}  {'series':11s}"
+      f"{'type':>16s}{'n':>8s}  system")
 for r in rows:
-    print(f"{r['rank']:<3}{r['drug'][:22]:24s}{r['score']:>6.2f}"
-          f"{r['nde_samples_human']:>7,}{r['nde_samples_any']:>7,}{r['confirmed_series']:>5}"
-          f"  {r['best_series'] or '—'}   {r['system'] or ''}")
+    print(f"{r['rank']:<3}{r['drug'][:20]:22s}{r['score']:>5.2f}"
+          f"{r['nde_samples_human']:>7,}{r['nde_samples_any']:>7,}"
+          f"  {r['best_series'] or '—':11s}{r['experiment_type']:>16s}"
+          f"{('  ' + str(r['n_arm']) + 'v' + str(r['n_control'])) if r['n_arm'] else '':>8s}"
+          f"  {(r['system'] or '')[:40]}")
     if r["arm"]:
         print(f"      {r['arm'][:58]}  VS  {(r['control'] or '(no control level)')[:34]}")
 print(f"\nwrote {out}")

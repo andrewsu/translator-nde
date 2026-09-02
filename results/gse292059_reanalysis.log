@@ -1,0 +1,66 @@
+GSE292059: 15,300 genes x 965 libraries
+  annotation: 965 samples, 270 donors, tissue=Nasal lavage
+
+END OF TREATMENT (visit14): 73 mepolizumab vs 79 placebo, 13,190 genes tested
+  significant at FDR<0.05: 482 (3.7%)
+  Translator-nominated genes:
+    IL5     logFC=-0.084  p=0.644  adj_p=0.851  [not DE]
+    IL5RA   logFC=-1.257  p=2.63e-06  adj_p=0.0012  [DE]
+  direction: 17 up, 465 down in mepolizumab
+  top DE genes: RNASE2(-1.88), TM6SF1(-0.81), PRSS33(-1.87), LGALS12(-1.92), CLC(-2.10), ADORA3(-1.57), ADGRE1(-1.16), VSTM1(-1.64), CEBPE(-1.72), SIGLEC8(-1.75)
+
+  all (482 genes) — Reactome_2022 [12 terms at adj p<0.05]
+   * adj_p=4.39e-03 n=37  Signaling By GPCR R-HSA-372790
+   * adj_p=4.44e-03 n=92  Signal Transduction R-HSA-162582
+   * adj_p=4.44e-03 n=76  Immune System R-HSA-168256
+   * adj_p=6.21e-03 n=27  Neutrophil Degranulation R-HSA-6798695
+   * adj_p=8.39e-03 n=46  Innate Immune System R-HSA-168249
+   * adj_p=1.56e-02 n=31  GPCR Downstream Signaling R-HSA-388396
+
+  all (482 genes) — GO_Biological_Process_2023 [0 terms at adj p<0.05]
+     adj_p=1.77e-01 n=7   Phosphatidylinositol Phosphate Biosynthetic Process (GO:0046
+     adj_p=2.29e-01 n=16  Inflammatory Response (GO:0006954)
+     adj_p=2.48e-01 n=5   Negative Regulation Of Cation Channel Activity (GO:2001258)
+     adj_p=2.48e-01 n=16  Cytokine-Mediated Signaling Pathway (GO:0019221)
+     adj_p=2.48e-01 n=5   Negative Regulation Of Calcium Ion Transmembrane Transporter
+     adj_p=2.48e-01 n=7   G1/S Transition Of Mitotic Cell Cycle (GO:0000082)
+
+  down (465 genes) — Reactome_2022 [12 terms at adj p<0.05]
+   * adj_p=1.85e-03 n=37  Signaling By GPCR R-HSA-372790
+   * adj_p=3.26e-03 n=90  Signal Transduction R-HSA-162582
+   * adj_p=4.01e-03 n=74  Immune System R-HSA-168256
+   * adj_p=8.70e-03 n=26  Neutrophil Degranulation R-HSA-6798695
+   * adj_p=9.41e-03 n=31  GPCR Downstream Signaling R-HSA-388396
+   * adj_p=1.19e-02 n=44  Innate Immune System R-HSA-168249
+
+  down (465 genes) — GO_Biological_Process_2023 [0 terms at adj p<0.05]
+     adj_p=1.36e-01 n=7   Phosphatidylinositol Phosphate Biosynthetic Process (GO:0046
+     adj_p=1.47e-01 n=16  Inflammatory Response (GO:0006954)
+     adj_p=2.24e-01 n=16  Cytokine-Mediated Signaling Pathway (GO:0019221)
+     adj_p=2.24e-01 n=5   Negative Regulation Of Cation Channel Activity (GO:2001258)
+     adj_p=2.25e-01 n=5   Negative Regulation Of Calcium Ion Transmembrane Transporter
+     adj_p=2.25e-01 n=7   G1/S Transition Of Mitotic Cell Cycle (GO:0000082)
+
+  up (17 genes) — Reactome_2022 [0 terms at adj p<0.05]
+     adj_p=6.65e-02 n=2   Glycosaminoglycan Metabolism R-HSA-1630316
+     adj_p=6.65e-02 n=1   Digestion Of Dietary Lipid R-HSA-192456
+     adj_p=6.65e-02 n=1   Constitutive Signaling By NOTCH1 t(7;9)(NOTCH1:M1580 K2555) 
+     adj_p=6.65e-02 n=1   Maturation Of Protein 3A R-HSA-9683673
+     adj_p=6.65e-02 n=1   NOTCH4 Activation And Transmission Of Signal To Nucleus R-HS
+     adj_p=6.65e-02 n=2   Signaling By NOTCH R-HSA-157118
+
+  up (17 genes) — GO_Biological_Process_2023 [12 terms at adj p<0.05]
+   * adj_p=3.24e-03 n=2   Positive Regulation Of Hemostasis (GO:1900048)
+   * adj_p=3.24e-03 n=2   Positive Regulation Of Coagulation (GO:0050820)
+   * adj_p=8.20e-03 n=2   Positive Regulation Of Blood Coagulation (GO:0030194)
+   * adj_p=1.18e-02 n=2   Regulation Of Blood Coagulation (GO:0030193)
+   * adj_p=1.81e-02 n=2   Positive Regulation Of Wound Healing (GO:0090303)
+   * adj_p=2.65e-02 n=2   Glycoprotein Metabolic Process (GO:0009100)
+
+BASELINE (visit01) — negative control: 123 mepolizumab vs 122 placebo, 13,013 genes tested
+  significant at FDR<0.05: 0 (0.0%)
+  Translator-nominated genes:
+    IL5     logFC=-0.027  p=0.832  adj_p=0.971  [not DE]
+    IL5RA   logFC=-0.390  p=0.0683  adj_p=0.873  [not DE]
+
+wrote results/gse292059_reanalysis.json
