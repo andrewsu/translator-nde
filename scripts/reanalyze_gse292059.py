@@ -22,12 +22,20 @@ concordance check rather than as the answer: methods that disagree about the
 size of a differentially expressed set can still agree about a specific gene,
 and it is worth showing which of those holds here.
 
-Confounding. Nasal lavage is a cell mixture, and this trial reports its
-composition per sample. Mepolizumab cuts the eosinophil fraction sevenfold, so
-a bulk contrast between arms is partly a comparison of *different cell
-mixtures* rather than of transcription within a cell type. The contrast is
-therefore run twice, `~treatment` and `~treatment + eosinophil fraction`, which
-turn out to answer different questions -- see the printed output.
+Cell composition. Nasal lavage is a cell mixture, and this trial reports its
+composition per sample -- measured by differential count, not deconvolved from
+the expression data. Mepolizumab cuts the eosinophil fraction sevenfold, so a
+bulk contrast between arms is partly a comparison of *different cell mixtures*
+rather than of transcription within a cell type.
+
+The contrast is therefore run twice, `~treatment` and `~treatment + eosinophil
+fraction`. The first is primary. The second is a sensitivity analysis and is
+deliberately not treated as the better model: eosinophil depletion *is* the
+drug's mechanism, so the eosinophil fraction mediates the treatment effect
+rather than confounding it, and conditioning on a mediator removes the effect
+under study. The pair bounds the interpretation rather than resolving it --
+1,366 genes for "what does the drug do to this tissue" against 69 for "does it
+change transcription beyond removing eosinophils".
 """
 import gzip, io, json, sys, time, urllib.request, warnings
 from pathlib import Path
