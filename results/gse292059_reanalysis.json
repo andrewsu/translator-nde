@@ -49,6 +49,135 @@
       },
       "eos_adjusted": {
         "n_significant": 69,
+        "n_up": 37,
+        "n_down": 32,
+        "top_de": [
+          {
+            "gene": "SLC47A1",
+            "logFC": -1.4475530562617496,
+            "adj_p": 0.001595599481553331
+          },
+          {
+            "gene": "CAMK1",
+            "logFC": -0.9237664661212993,
+            "adj_p": 0.002209230281433257
+          },
+          {
+            "gene": "SMG5",
+            "logFC": 0.2836418020817853,
+            "adj_p": 0.002209230281433257
+          },
+          {
+            "gene": "DDIT4L",
+            "logFC": 1.7295338519299728,
+            "adj_p": 0.002209230281433257
+          },
+          {
+            "gene": "SLC29A1",
+            "logFC": -1.031381418171752,
+            "adj_p": 0.002209230281433257
+          },
+          {
+            "gene": "STAC",
+            "logFC": -1.434377620851645,
+            "adj_p": 0.002209230281433257
+          },
+          {
+            "gene": "CYSLTR2",
+            "logFC": -1.0769759930074312,
+            "adj_p": 0.0023278992168709782
+          },
+          {
+            "gene": "MT-ND1",
+            "logFC": 1.016921851056641,
+            "adj_p": 0.0029100417455379395
+          },
+          {
+            "gene": "MT-ND5",
+            "logFC": 1.0558295576529386,
+            "adj_p": 0.0029100417455379395
+          },
+          {
+            "gene": "PRSS33",
+            "logFC": -1.3988425522678105,
+            "adj_p": 0.0029100417455379395
+          },
+          {
+            "gene": "PNLIPRP3",
+            "logFC": 2.164323595735744,
+            "adj_p": 0.0035977278332151243
+          },
+          {
+            "gene": "CEBPE",
+            "logFC": -1.0976900432914078,
+            "adj_p": 0.003663384352884324
+          },
+          {
+            "gene": "KCNH2",
+            "logFC": -1.520855801933498,
+            "adj_p": 0.003663384352884324
+          },
+          {
+            "gene": "MT-ND2",
+            "logFC": 0.9264325272790287,
+            "adj_p": 0.004584250068324244
+          },
+          {
+            "gene": "RNASE2",
+            "logFC": -1.194683429440407,
+            "adj_p": 0.006564751654807946
+          },
+          {
+            "gene": "LGALS12",
+            "logFC": -1.1996023861854832,
+            "adj_p": 0.0074546796849664166
+          },
+          {
+            "gene": "MT-CYB",
+            "logFC": 0.9347614742096365,
+            "adj_p": 0.007858562971946694
+          },
+          {
+            "gene": "RAP1GAP",
+            "logFC": 1.1824951150503455,
+            "adj_p": 0.0088745169841645
+          },
+          {
+            "gene": "ADORA3",
+            "logFC": -1.1120944245926538,
+            "adj_p": 0.009108773071949466
+          },
+          {
+            "gene": "ATP13A2",
+            "logFC": 0.6556772811474384,
+            "adj_p": 0.010005166144171206
+          },
+          {
+            "gene": "THBS4",
+            "logFC": -1.1652386935552774,
+            "adj_p": 0.010647021455659352
+          },
+          {
+            "gene": "SPDEF",
+            "logFC": 1.214795095623762,
+            "adj_p": 0.010716647608175126
+          },
+          {
+            "gene": "PMP22",
+            "logFC": -0.8404451158627216,
+            "adj_p": 0.010716647608175126
+          },
+          {
+            "gene": "ACSM3",
+            "logFC": -0.9454996914347648,
+            "adj_p": 0.010985718916094228
+          },
+          {
+            "gene": "VSTM1",
+            "logFC": -0.9425793947312704,
+            "adj_p": 0.011741955908507436
+          }
+        ],
         "translator_genes": {
           "IL5": {
             "logFC": 1.028680925986263,
@@ -1053,6 +1182,286 @@
               "EVPL"
             ]
           }
+        ],
+        "eos_adjusted:Reactome_2022": [
+          {
+            "term": "Eicosanoid Ligand-Binding Receptors R-HSA-391903",
+            "p": 0.001196446893540315,
+            "adj_p": 0.058212359700434285,
+            "odds": 45.73593570608496,
+            "n_genes": 2,
+            "genes": [
+              "CYSLTR2",
+              "PTGDR2"
+            ]
+          },
+          {
+            "term": "Rap1 Signaling R-HSA-392517",
+            "p": 0.0013643245507822437,
+            "adj_p": 0.058212359700434285,
+            "odds": 42.46695095948827,
+            "n_genes": 2,
+            "genes": [
+              "RNASE3",
+              "RAP1GAP"
+            ]
+          },
+          {
+            "term": "C-type Lectin Receptors (CLRs) R-HSA-5621481",
+            "p": 0.0014349088656548537,
+            "adj_p": 0.058212359700434285,
+            "odds": 8.891184727681079,
+            "n_genes": 4,
+            "genes": [
+              "MUC2",
+              "RNASE3",
+              "CCL17",
+              "MUC5AC"
+            ]
+          },
+          {
+            "term": "Defective GALNT12 Causes CRCS1 R-HSA-5083636",
+            "p": 0.0017317817196253697,
+            "adj_p": 0.058212359700434285,
+            "odds": 37.15485074626866,
+            "n_genes": 2,
+            "genes": [
+              "MUC2",
+              "MUC5AC"
+            ]
+          },
+          {
+            "term": "Defective GALNT3 Causes HFTC R-HSA-5083625",
+            "p": 0.0017317817196253697,
+            "adj_p": 0.058212359700434285,
+            "odds": 37.15485074626866,
+            "n_genes": 2,
+            "genes": [
+              "MUC2",
+              "MUC5AC"
+            ]
+          },
+          {
+            "term": "Diseases Associated With O-glycosylation Of Proteins R-HSA-3906995",
+            "p": 0.0017495883874626451,
+            "adj_p": 0.058212359700434285,
+            "odds": 13.681129476584022,
+            "n_genes": 3,
+            "genes": [
+              "LFNG",
+              "MUC2",
+              "MUC5AC"
+            ]
+          },
+          {
+            "term": "Defective C1GALT1C1 Causes TNPS R-HSA-5083632",
+            "p": 0.0019312157246589574,
+            "adj_p": 0.058212359700434285,
+            "odds": 34.967515364354696,
+            "n_genes": 2,
+            "genes": [
+              "MUC2",
+              "MUC5AC"
+            ]
+          },
+          {
+            "term": "Termination Of O-glycan Biosynthesis R-HSA-977068",
+            "p": 0.0033431691568994023,
+            "adj_p": 0.08817608651322173,
+            "odds": 25.837767683322518,
+            "n_genes": 2,
+            "genes": [
+              "MUC2",
+              "MUC5AC"
+            ]
+          },
+          {
+            "term": "Dectin-2 Family R-HSA-5621480",
+            "p": 0.004484382353335256,
+            "adj_p": 0.10513385295041544,
+            "odds": 22.005527915975676,
+            "n_genes": 2,
+            "genes": [
+              "MUC2",
+              "MUC5AC"
+            ]
+          },
+          {
+            "term": "Degradation Of Extracellular Matrix R-HSA-1474228",
+            "p": 0.006355751167100595,
+            "adj_p": 0.13410634962582257,
+            "odds": 8.501286449399657,
+            "n_genes": 3,
+            "genes": [
+              "CAPN13",
+              "CAPN8",
+              "MMP3"
+            ]
+          },
+          {
+            "term": "Diseases Of Glycosylation R-HSA-3781865",
+            "p": 0.013297738122016843,
+            "adj_p": 0.2055257366777976,
+            "odds": 6.42564935064935,
+            "n_genes": 3,
+            "genes": [
+              "LFNG",
+              "MUC2",
+              "MUC5AC"
+            ]
+          },
+          {
+            "term": "Immune System R-HSA-168256",
+            "p": 0.014521586937052255,
+            "adj_p": 0.2055257366777976,
+            "odds": 2.165183197631384,
+            "n_genes": 13,
+            "genes": [
+              "MMP3",
+              "RNASE3",
+              "RNASE2",
+              "MUC5AC",
+              "LILRB5",
+              "RAP1GAP",
+              "SOCS2",
+              "RAB44"
+            ]
+          }
+        ],
+        "eos_adjusted:GO_Biological_Process_2023": [
+          {
+            "term": "Induction Of Bacterial Agglutination (GO:0043152)",
+            "p": 0.00011651719460226656,
+            "adj_p": 0.05965680363636048,
+            "odds": 198.28855721393035,
+            "n_genes": 2,
+            "genes": [
+              "RNASE3",
+              "RNASE2"
+            ]
+          },
+          {
+            "term": "Granulocyte Differentiation (GO:0030851)",
+            "p": 0.0007570983460178036,
+            "adj_p": 0.17174855140118742,
+            "odds": 59.46567164179105,
+            "n_genes": 2,
+            "genes": [
+              "CEBPE",
+              "GATA1"
+            ]
+          },
+          {
+            "term": "Striated Muscle Contraction (GO:0006941)",
+            "p": 0.0010063391683663326,
+            "adj_p": 0.17174855140118742,
+            "odds": 16.73148148148148,
+            "n_genes": 3,
+            "genes": [
+              "KCNH2",
+              "TNNT1",
+              "STAC"
+            ]
+          },
+          {
+            "term": "Positive Regulation Of Cation Transmembrane Transport (GO:1904064)",
+            "p": 0.0017317817196253697,
+            "adj_p": 0.19775649020507724,
+            "odds": 37.15485074626866,
+            "n_genes": 2,
+            "genes": [
+              "KCNH2",
+              "STAC"
+            ]
+          },
+          {
+            "term": "Skeletal Muscle Contraction (GO:0003009)",
+            "p": 0.0019312157246589574,
+            "adj_p": 0.19775649020507724,
+            "odds": 34.967515364354696,
+            "n_genes": 2,
+            "genes": [
+              "STAC",
+              "TNNT1"
+            ]
+          },
+          {
+            "term": "Innate Immune Response In Mucosa (GO:0002227)",
+            "p": 0.002361133532127177,
+            "adj_p": 0.19903312802477008,
+            "odds": 31.28358208955224,
+            "n_genes": 2,
+            "genes": [
+              "RNASE3",
+              "RNASE2"
+            ]
+          },
+          {
+            "term": "Mucosal Immune Response (GO:0002385)",
+            "p": 0.00418439985127567,
+            "adj_p": 0.19903312802477008,
+            "odds": 22.85304247990815,
+            "n_genes": 2,
+            "genes": [
+              "RNASE3",
+              "RNASE2"
+            ]
+          },
+          {
+            "term": "Positive Regulation Of Exocytosis (GO:0045921)",
+            "p": 0.007226716992420123,
+            "adj_p": 0.19903312802477008,
+            "odds": 16.968869936034114,
+            "n_genes": 2,
+            "genes": [
+              "RAB15",
+              "ATP13A2"
+            ]
+          },
+          {
+            "term": "Import Into Cell (GO:0098657)",
+            "p": 0.007611311264141638,
+            "adj_p": 0.19903312802477008,
+            "odds": 16.496683250414595,
+            "n_genes": 2,
+            "genes": [
+              "SLC47A1",
+              "SLC29A1"
+            ]
+          },
+          {
+            "term": "Lymphocyte Migration (GO:0072676)",
+            "p": 0.008819245977684137,
+            "adj_p": 0.19903312802477008,
+            "odds": 15.225411404515881,
+            "n_genes": 2,
+            "genes": [
+              "CCL17",
+              "CCL26"
+            ]
+          },
+          {
+            "term": "Monocyte Chemotaxis (GO:0002548)",
+            "p": 0.00923972502795914,
+            "adj_p": 0.19903312802477008,
+            "odds": 14.844029850746269,
+            "n_genes": 2,
+            "genes": [
+              "CCL17",
+              "CCL26"
+            ]
+          },
+          {
+            "term": "Nucleobase-Containing Compound Catabolic Process (GO:0034655)",
+            "p": 0.010107048128504848,
+            "adj_p": 0.19903312802477008,
+            "odds": 14.135749822316987,
+            "n_genes": 2,
+            "genes": [
+              "RNASE3",
+              "RNASE2"
+            ]
+          }
         ]
       }
     },
@@ -1101,6 +1510,30 @@
       },
       "eos_adjusted": {
         "n_significant": 4,
+        "n_up": 3,
+        "n_down": 1,
+        "top_de": [
+          {
+            "gene": "LILRB5",
+            "logFC": 1.2211593255566293,
+            "adj_p": 0.0001471131944787523
+          },
+          {
+            "gene": "ITLN1",
+            "logFC": -2.057285234121647,
+            "adj_p": 0.004603521520028454
+          },
+          {
+            "gene": "S100A7",
+            "logFC": 1.1298376613582801,
+            "adj_p": 0.009651199725313576
+          },
+          {
+            "gene": "LYPD5",
+            "logFC": 1.0748375050199972,
+            "adj_p": 0.022447379730679604
+          }
+        ],
         "translator_genes": {
           "IL5": {
             "logFC": -0.3327616689446727,

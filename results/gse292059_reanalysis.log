@@ -54,6 +54,22 @@ END OF TREATMENT (visit14): 66 mepolizumab vs 73 placebo
    * adj_p=2.35e-03 n=36  Vesicle-Mediated Transport (GO:0016192)
    * adj_p=3.66e-03 n=7   Regulation Of Membrane Protein Ectodomain Proteolysis (GO:
 
+  eos_adjusted (69 genes) — Reactome_2022 [0 terms at adj p<0.05]
+     adj_p=5.82e-02 n=2   Eicosanoid Ligand-Binding Receptors R-HSA-391903
+     adj_p=5.82e-02 n=2   Rap1 Signaling R-HSA-392517
+     adj_p=5.82e-02 n=4   C-type Lectin Receptors (CLRs) R-HSA-5621481
+     adj_p=5.82e-02 n=2   Defective GALNT12 Causes CRCS1 R-HSA-5083636
+     adj_p=5.82e-02 n=2   Defective GALNT3 Causes HFTC R-HSA-5083625
+     adj_p=5.82e-02 n=3   Diseases Associated With O-glycosylation Of Proteins R-HSA
+
+  eos_adjusted (69 genes) — GO_Biological_Process_2023 [0 terms at adj p<0.05]
+     adj_p=5.97e-02 n=2   Induction Of Bacterial Agglutination (GO:0043152)
+     adj_p=1.72e-01 n=2   Granulocyte Differentiation (GO:0030851)
+     adj_p=1.72e-01 n=3   Striated Muscle Contraction (GO:0006941)
+     adj_p=1.98e-01 n=2   Positive Regulation Of Cation Transmembrane Transport (GO:
+     adj_p=1.98e-01 n=2   Skeletal Muscle Contraction (GO:0003009)
+     adj_p=1.99e-01 n=2   Innate Immune Response In Mucosa (GO:0002227)
+
 BASELINE (visit01) — control: 112 mepolizumab vs 117 placebo
   library sizes 1.08–64.72M (ratio 60.0x) — why DESeq2 rather than log-CPM
   differential cell % (median, mepolizumab vs placebo):

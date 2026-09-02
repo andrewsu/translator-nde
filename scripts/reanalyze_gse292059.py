@@ -259,7 +259,7 @@ def main():
 
         # Does anything survive once the cell mixture is accounted for?
         adj = deseq2(sub, treated, keep, samples=samples, adjust_eos=True)
-        adj_sig, _, _ = report(adj, "+eos covar")
+        adj_sig, adj_up, adj_down = report(adj, "+eos covar")
 
         rec = {
             "n_treated": int(treated.sum()), "n_control": int((~treated).sum()),
@@ -270,6 +270,10 @@ def main():
             "cell_composition": comp,
             "eos_adjusted": {
                 "n_significant": int(len(adj_sig)),
+                "n_up": len(adj_up), "n_down": len(adj_down),
+                "top_de": [{"gene": g, "logFC": float(adj.loc[g, "logFC"]),
+                            "adj_p": float(adj.loc[g, "adj.P.Val"])}
+                           for g in adj_sig.sort_values("adj.P.Val").index[:25]],
                 "translator_genes": {
                     g: ({"logFC": float(adj.loc[g, "logFC"]),
                          "adj_p": float(adj.loc[g, "adj.P.Val"])}
@@ -291,7 +295,11 @@ def main():
                 f"{g}({d.loc[g,'logFC']:+.2f})"
                 for g in d_sig.sort_values("adj.P.Val").index[:10]))
         if visit == "visit14" and len(d_sig):
-            for name, glist in (("down", d_down), ("up", d_up)):
+            # Enrich the unadjusted sets, which is where the compositional signal
+            # lives, and the covariate-adjusted set, which is what remains once
+            # the eosinophil fraction is held constant.
+            for name, glist in (("down", d_down), ("up", d_up),
+                                ("eos_adjusted", list(adj_sig.index))):
                 for lib in ("Reactome_2022", "GO_Biological_Process_2023"):
                     try:
                         terms = enrich(glist, library=lib)
