@@ -1,0 +1,8561 @@
+{
+  "stage1": [
+    {
+      "drug": "Doxorubicin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 9050,
+      "n_series": 91,
+      "series": [
+        [
+          "GSE116436",
+          285
+        ],
+        [
+          "GSE174695",
+          63
+        ],
+        [
+          "GSE315862",
+          36
+        ],
+        [
+          "GSE112530",
+          32
+        ],
+        [
+          "GSE293933",
+          29
+        ],
+        [
+          "GSE58074",
+          24
+        ]
+      ]
+    },
+    {
+      "drug": "Tetracycline",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 4315,
+      "n_series": 89,
+      "series": [
+        [
+          "GSE48927",
+          125
+        ],
+        [
+          "GSE17109",
+          100
+        ],
+        [
+          "GSE210522",
+          52
+        ],
+        [
+          "GSE207005",
+          40
+        ],
+        [
+          "GSE143466",
+          40
+        ],
+        [
+          "GSE46044",
+          27
+        ]
+      ]
+    },
+    {
+      "drug": "Cisplatin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 9393,
+      "n_series": 88,
+      "series": [
+        [
+          "GSE30034",
+          183
+        ],
+        [
+          "GSE62523",
+          104
+        ],
+        [
+          "GSE47856",
+          82
+        ],
+        [
+          "GSE165914",
+          54
+        ],
+        [
+          "GSE23553",
+          42
+        ],
+        [
+          "GSE278498",
+          36
+        ]
+      ]
+    },
+    {
+      "drug": "Estradiol",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 5599,
+      "n_series": 82,
+      "series": [
+        [
+          "GSE241764",
+          96
+        ],
+        [
+          "GSE252280",
+          73
+        ],
+        [
+          "GSE287072",
+          73
+        ],
+        [
+          "GSE80098",
+          64
+        ],
+        [
+          "GSE80358",
+          46
+        ],
+        [
+          "GSE167451",
+          34
+        ]
+      ]
+    },
+    {
+      "drug": "Calcium",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 10814,
+      "n_series": 77,
+      "series": [
+        [
+          "GSE167056",
+          144
+        ],
+        [
+          "GSE94138",
+          94
+        ],
+        [
+          "GSE196168",
+          72
+        ],
+        [
+          "GSE86193",
+          56
+        ],
+        [
+          "GSE308449",
+          52
+        ],
+        [
+          "GSE169278",
+          44
+        ]
+      ]
+    },
+    {
+      "drug": "Decitabine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 6023,
+      "n_series": 77,
+      "series": [
+        [
+          "GSE171053",
+          133
+        ],
+        [
+          "GSE175758",
+          132
+        ],
+        [
+          "GSE174695",
+          60
+        ],
+        [
+          "GSE25428",
+          48
+        ],
+        [
+          "GSE171027",
+          46
+        ],
+        [
+          "GSE240469",
+          40
+        ]
+      ]
+    },
+    {
+      "drug": "Metformin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 1993,
+      "n_series": 77,
+      "series": [
+        [
+          "GSE259286",
+          98
+        ],
+        [
+          "GSE66841",
+          95
+        ],
+        [
+          "GSE137317",
+          74
+        ],
+        [
+          "GSE241261",
+          61
+        ],
+        [
+          "GSE229658",
+          60
+        ],
+        [
+          "GSE224900",
+          60
+        ]
+      ]
+    },
+    {
+      "drug": "Tyrosine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 1612,
+      "n_series": 71,
+      "series": [
+        [
+          "GSE10358",
+          189
+        ],
+        [
+          "GSE137338",
+          109
+        ],
+        [
+          "GSE74174",
+          74
+        ],
+        [
+          "GSE18964",
+          66
+        ],
+        [
+          "GSE60810",
+          33
+        ],
+        [
+          "GSE60299",
+          30
+        ]
+      ]
+    },
+    {
+      "drug": "Amphotericin B",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 6140,
+      "n_series": 66,
+      "series": [
+        [
+          "GSE69849",
+          199
+        ],
+        [
+          "GSE116237",
+          184
+        ],
+        [
+          "GSE199225",
+          61
+        ],
+        [
+          "GSE229658",
+          60
+        ],
+        [
+          "GSE186647",
+          42
+        ],
+        [
+          "GSE265788",
+          39
+        ]
+      ]
+    },
+    {
+      "drug": "Sorafenib",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma"
+      ],
+      "n_samples": 2215,
+      "n_series": 66,
+      "series": [
+        [
+          "GSE116436",
+          524
+        ],
+        [
+          "GSE151412",
+          70
+        ],
+        [
+          "GSE335770",
+          40
+        ],
+        [
+          "GSE285625",
+          33
+        ],
+        [
+          "GSE201695",
+          28
+        ],
+        [
+          "GSE343131",
+          24
+        ]
+      ]
+    },
+    {
+      "drug": "Lenalidomide",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 1135,
+      "n_series": 64,
+      "series": [
+        [
+          "GSE161195",
+          213
+        ],
+        [
+          "GSE35656",
+          81
+        ],
+        [
+          "GSE102976",
+          74
+        ],
+        [
+          "GSE8546",
+          55
+        ],
+        [
+          "GSE76425",
+          40
+        ],
+        [
+          "GSE121912",
+          28
+        ]
+      ]
+    },
+    {
+      "drug": "glucocorticoid",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma"
+      ],
+      "n_samples": 1294,
+      "n_series": 62,
+      "series": [
+        [
+          "GSE110169",
+          243
+        ],
+        [
+          "GSE73578",
+          87
+        ],
+        [
+          "GSE185101",
+          62
+        ],
+        [
+          "GSE6711",
+          60
+        ],
+        [
+          "GSE44956",
+          48
+        ],
+        [
+          "GSE122618",
+          39
+        ]
+      ]
+    },
+    {
+      "drug": "Ethanol",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 167049,
+      "n_series": 61,
+      "series": [
+        [
+          "GSE279385",
+          74
+        ],
+        [
+          "GSE104930",
+          72
+        ],
+        [
+          "GSE35428",
+          63
+        ],
+        [
+          "GSE147342",
+          62
+        ],
+        [
+          "GSE273041",
+          60
+        ],
+        [
+          "GSE249282",
+          58
+        ]
+      ]
+    },
+    {
+      "drug": "Methotrexate",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 3566,
+      "n_series": 60,
+      "series": [
+        [
+          "GSE35455",
+          116
+        ],
+        [
+          "GSE54254",
+          96
+        ],
+        [
+          "GSE226147",
+          69
+        ],
+        [
+          "GSE174695",
+          60
+        ],
+        [
+          "GSE8650",
+          58
+        ],
+        [
+          "GSE176440",
+          56
+        ]
+      ]
+    },
+    {
+      "drug": "Rosiglitazone",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 3284,
+      "n_series": 57,
+      "series": [
+        [
+          "GSE248251",
+          220
+        ],
+        [
+          "GSE160987",
+          105
+        ],
+        [
+          "GSE77039",
+          82
+        ],
+        [
+          "GSE295444",
+          66
+        ],
+        [
+          "GSE295447",
+          54
+        ],
+        [
+          "GSE120920",
+          48
+        ]
+      ]
+    },
+    {
+      "drug": "Cyclosporine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 1270,
+      "n_series": 48,
+      "series": [
+        [
+          "GSE48990",
+          360
+        ],
+        [
+          "GSE87080",
+          121
+        ],
+        [
+          "GSE86884",
+          96
+        ],
+        [
+          "GSE272576",
+          48
+        ],
+        [
+          "GSE47097",
+          40
+        ],
+        [
+          "GSE65492",
+          36
+        ]
+      ]
+    },
+    {
+      "drug": "ionomycin",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 4707,
+      "n_series": 47,
+      "series": [
+        [
+          "GSE128273",
+          589
+        ],
+        [
+          "GSE299043",
+          70
+        ],
+        [
+          "GSE228211",
+          48
+        ],
+        [
+          "GSE62482",
+          34
+        ],
+        [
+          "GSE117254",
+          30
+        ],
+        [
+          "GSE90718",
+          27
+        ]
+      ]
+    },
+    {
+      "drug": "Progesterone",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 6095,
+      "n_series": 46,
+      "series": [
+        [
+          "GSE109710",
+          113
+        ],
+        [
+          "GSE69031",
+          110
+        ],
+        [
+          "GSE4779",
+          102
+        ],
+        [
+          "GSE142058",
+          76
+        ],
+        [
+          "GSE252280",
+          73
+        ],
+        [
+          "GSE287072",
+          73
+        ]
+      ]
+    },
+    {
+      "drug": "Epinephrine",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 1440,
+      "n_series": 45,
+      "series": [
+        [
+          "GSE19392",
+          169
+        ],
+        [
+          "GSE85861",
+          91
+        ],
+        [
+          "GSE107624",
+          84
+        ],
+        [
+          "GSE42288",
+          84
+        ],
+        [
+          "GSE299349",
+          68
+        ],
+        [
+          "GSE108539",
+          57
+        ]
+      ]
+    },
+    {
+      "drug": "doxycycline hyclate",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 880,
+      "n_series": 43,
+      "series": [
+        [
+          "GSE270784",
+          107
+        ],
+        [
+          "GSE230181",
+          91
+        ],
+        [
+          "GSE120957",
+          66
+        ],
+        [
+          "GSE270787",
+          60
+        ],
+        [
+          "GSE119026",
+          43
+        ],
+        [
+          "GSE270786",
+          38
+        ]
+      ]
+    },
+    {
+      "drug": "Azacitidine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 580,
+      "n_series": 42,
+      "series": [
+        [
+          "GSE212591",
+          54
+        ],
+        [
+          "GSE274999",
+          52
+        ],
+        [
+          "GSE274997",
+          52
+        ],
+        [
+          "GSE154112",
+          45
+        ],
+        [
+          "GSE198908",
+          34
+        ],
+        [
+          "GSE184891",
+          24
+        ]
+      ]
+    },
+    {
+      "drug": "Ampicillin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 1288,
+      "n_series": 41,
+      "series": [
+        [
+          "GSE40117",
+          309
+        ],
+        [
+          "GSE19003",
+          246
+        ],
+        [
+          "GSE262649",
+          85
+        ],
+        [
+          "GSE26599",
+          60
+        ],
+        [
+          "GSE174566",
+          36
+        ],
+        [
+          "GSE102357",
+          32
+        ]
+      ]
+    },
+    {
+      "drug": "Prednisolone",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 2123,
+      "n_series": 37,
+      "series": [
+        [
+          "GSE235508",
+          249
+        ],
+        [
+          "GSE40165",
+          241
+        ],
+        [
+          "GSE175482",
+          74
+        ],
+        [
+          "GSE115525",
+          73
+        ],
+        [
+          "GSE19143",
+          52
+        ],
+        [
+          "GSE225858",
+          51
+        ]
+      ]
+    },
+    {
+      "drug": "Melatonin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 1348,
+      "n_series": 36,
+      "series": [
+        [
+          "GSE253864",
+          527
+        ],
+        [
+          "GSE48113",
+          287
+        ],
+        [
+          "GSE113883",
+          153
+        ],
+        [
+          "GSE313629",
+          36
+        ],
+        [
+          "GSE132119",
+          24
+        ],
+        [
+          "GSE175906",
+          12
+        ]
+      ]
+    },
+    {
+      "drug": "Gemcitabine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 3275,
+      "n_series": 34,
+      "series": [
+        [
+          "GSE313748",
+          671
+        ],
+        [
+          "GSE179799",
+          90
+        ],
+        [
+          "GSE105083",
+          72
+        ],
+        [
+          "GSE174695",
+          63
+        ],
+        [
+          "GSE207359",
+          48
+        ],
+        [
+          "GSE232549",
+          26
+        ]
+      ]
+    },
+    {
+      "drug": "Cyclic AMP",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma"
+      ],
+      "n_samples": 655,
+      "n_series": 30,
+      "series": [
+        [
+          "GSE159487",
+          150
+        ],
+        [
+          "GSE159074",
+          56
+        ],
+        [
+          "GSE120271",
+          48
+        ],
+        [
+          "GSE305135",
+          45
+        ],
+        [
+          "GSE252683",
+          33
+        ],
+        [
+          "GSE296787",
+          32
+        ]
+      ]
+    },
+    {
+      "drug": "Budesonide",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 712,
+      "n_series": 29,
+      "series": [
+        [
+          "GSE134897",
+          188
+        ],
+        [
+          "GSE295743",
+          78
+        ],
+        [
+          "GSE115830",
+          64
+        ],
+        [
+          "GSE34466",
+          63
+        ],
+        [
+          "GSE94335",
+          34
+        ],
+        [
+          "GSE146017",
+          31
+        ]
+      ]
+    },
+    {
+      "drug": "Troglitazone",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 1110,
+      "n_series": 29,
+      "series": [
+        [
+          "GSE299113",
+          478
+        ],
+        [
+          "GSE249377",
+          120
+        ],
+        [
+          "GSE125570",
+          80
+        ],
+        [
+          "GSE272576",
+          48
+        ],
+        [
+          "GSE56085",
+          40
+        ],
+        [
+          "GSE89179",
+          35
+        ]
+      ]
+    },
+    {
+      "drug": "Bevacizumab",
+      "diseases": [
+        "ankylosing spondylitis",
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 2366,
+      "n_series": 28,
+      "series": [
+        [
+          "GSE196576",
+          363
+        ],
+        [
+          "GSE140082",
+          199
+        ],
+        [
+          "GSE110785",
+          154
+        ],
+        [
+          "GSE72951",
+          112
+        ],
+        [
+          "GSE150604",
+          57
+        ],
+        [
+          "GSE142308",
+          41
+        ]
+      ]
+    },
+    {
+      "drug": "Thalidomide",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 1771,
+      "n_series": 26,
+      "series": [
+        [
+          "GSE136337",
+          412
+        ],
+        [
+          "GSE136324",
+          280
+        ],
+        [
+          "GSE80278",
+          172
+        ],
+        [
+          "GSE8546",
+          84
+        ],
+        [
+          "GSE15913",
+          40
+        ],
+        [
+          "GSE95375",
+          24
+        ]
+      ]
+    },
+    {
+      "drug": "Antibodies",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma"
+      ],
+      "n_samples": 422079,
+      "n_series": 24,
+      "series": [
+        [
+          "GSE222760",
+          290
+        ],
+        [
+          "GSE222764",
+          245
+        ],
+        [
+          "GSE32465",
+          91
+        ],
+        [
+          "GSE29611",
+          89
+        ],
+        [
+          "GSE180742",
+          70
+        ],
+        [
+          "GSE180740",
+          65
+        ]
+      ]
+    },
+    {
+      "drug": "Aspirin",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 1874,
+      "n_series": 24,
+      "series": [
+        [
+          "GSE102006",
+          202
+        ],
+        [
+          "GSE48988",
+          178
+        ],
+        [
+          "GSE158765",
+          136
+        ],
+        [
+          "GSE324265",
+          125
+        ],
+        [
+          "GSE142257",
+          124
+        ],
+        [
+          "GSE175616",
+          123
+        ]
+      ]
+    },
+    {
+      "drug": "Niclosamide",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 124,
+      "n_series": 23,
+      "series": [
+        [
+          "GSE262673",
+          12
+        ],
+        [
+          "GSE148682",
+          12
+        ],
+        [
+          "GSE77322",
+          9
+        ],
+        [
+          "GSE306717",
+          8
+        ],
+        [
+          "GSE155855",
+          8
+        ],
+        [
+          "GSE36259",
+          4
+        ]
+      ]
+    },
+    {
+      "drug": "Infliximab",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma",
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 1627,
+      "n_series": 22,
+      "series": [
+        [
+          "GSE78068",
+          140
+        ],
+        [
+          "GSE270661",
+          119
+        ],
+        [
+          "GSE270662",
+          119
+        ],
+        [
+          "GSE16879",
+          103
+        ],
+        [
+          "GSE45468",
+          99
+        ],
+        [
+          "GSE42296",
+          78
+        ]
+      ]
+    },
+    {
+      "drug": "Caffeine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 591,
+      "n_series": 20,
+      "series": [
+        [
+          "GSE37210",
+          143
+        ],
+        [
+          "GSE196369",
+          96
+        ],
+        [
+          "GSE272576",
+          48
+        ],
+        [
+          "GSE292909",
+          47
+        ],
+        [
+          "GSE106800",
+          47
+        ],
+        [
+          "GSE218902",
+          36
+        ]
+      ]
+    },
+    {
+      "drug": "Pioglitazone",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 535,
+      "n_series": 20,
+      "series": [
+        [
+          "GSE66841",
+          95
+        ],
+        [
+          "GSE125570",
+          80
+        ],
+        [
+          "GSE37824",
+          79
+        ],
+        [
+          "GSE316614",
+          69
+        ],
+        [
+          "GSE210203",
+          24
+        ],
+        [
+          "GSE217421",
+          22
+        ]
+      ]
+    },
+    {
+      "drug": "Pomalidomide",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 322,
+      "n_series": 20,
+      "series": [
+        [
+          "GSE330399",
+          100
+        ],
+        [
+          "GSE243990",
+          32
+        ],
+        [
+          "GSE150341",
+          24
+        ],
+        [
+          "GSE126463",
+          21
+        ],
+        [
+          "GSE122040",
+          16
+        ],
+        [
+          "GSE171339",
+          14
+        ]
+      ]
+    },
+    {
+      "drug": "Prednisone",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 2344,
+      "n_series": 20,
+      "series": [
+        [
+          "GSE224705",
+          448
+        ],
+        [
+          "GSE80278",
+          172
+        ],
+        [
+          "GSE73578",
+          133
+        ],
+        [
+          "GSE77344",
+          115
+        ],
+        [
+          "GSE226147",
+          69
+        ],
+        [
+          "GSE1563",
+          62
+        ]
+      ]
+    },
+    {
+      "drug": "Isoniazid",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 234,
+      "n_series": 19,
+      "series": [
+        [
+          "GSE143731",
+          56
+        ],
+        [
+          "GSE122837",
+          42
+        ],
+        [
+          "GSE174552",
+          36
+        ],
+        [
+          "GSE207580",
+          28
+        ],
+        [
+          "GSE262419",
+          12
+        ],
+        [
+          "GSE279945",
+          6
+        ]
+      ]
+    },
+    {
+      "drug": "Methylprednisolone",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 745,
+      "n_series": 18,
+      "series": [
+        [
+          "GSE21725",
+          242
+        ],
+        [
+          "GSE100521",
+          72
+        ],
+        [
+          "GSE112101",
+          72
+        ],
+        [
+          "GSE294789",
+          56
+        ],
+        [
+          "GSE254179",
+          52
+        ],
+        [
+          "GSE158055",
+          50
+        ]
+      ]
+    },
+    {
+      "drug": "Magnesium chloride",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 319,
+      "n_series": 17,
+      "series": [
+        [
+          "GSE319124",
+          59
+        ],
+        [
+          "GSE222031",
+          36
+        ],
+        [
+          "GSE20089",
+          36
+        ],
+        [
+          "GSE174200",
+          34
+        ],
+        [
+          "GSE325391",
+          27
+        ],
+        [
+          "GSE183320",
+          21
+        ]
+      ]
+    },
+    {
+      "drug": "Simvastatin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 1974,
+      "n_series": 17,
+      "series": [
+        [
+          "GSE36868",
+          960
+        ],
+        [
+          "GSE37824",
+          83
+        ],
+        [
+          "GSE51444",
+          48
+        ],
+        [
+          "GSE297728",
+          16
+        ],
+        [
+          "GSE157895",
+          14
+        ],
+        [
+          "GSE191092",
+          11
+        ]
+      ]
+    },
+    {
+      "drug": "Sirolimus",
+      "diseases": [
+        "ankylosing spondylitis",
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 8555,
+      "n_series": 16,
+      "series": [
+        [
+          "GSE116436",
+          507
+        ],
+        [
+          "GSE200845",
+          268
+        ],
+        [
+          "GSE39299",
+          110
+        ],
+        [
+          "GSE120242",
+          102
+        ],
+        [
+          "GSE1563",
+          62
+        ],
+        [
+          "GSE249377",
+          45
+        ]
+      ]
+    },
+    {
+      "drug": "Spironolactone",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 186,
+      "n_series": 16,
+      "series": [
+        [
+          "GSE273325",
+          54
+        ],
+        [
+          "GSE149353",
+          45
+        ],
+        [
+          "GSE84990",
+          18
+        ],
+        [
+          "GSE84991",
+          12
+        ],
+        [
+          "GSE70822",
+          9
+        ],
+        [
+          "GSE151321",
+          6
+        ]
+      ]
+    },
+    {
+      "drug": "bile acids",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 188,
+      "n_series": 14,
+      "series": [
+        [
+          "GSE123993",
+          44
+        ],
+        [
+          "GSE152494",
+          24
+        ],
+        [
+          "GSE198478",
+          24
+        ],
+        [
+          "GSE169072",
+          18
+        ],
+        [
+          "GSE9768",
+          13
+        ],
+        [
+          "GSE298489",
+          12
+        ]
+      ]
+    },
+    {
+      "drug": "AMP",
+      "diseases": [
+        "ankylosing spondylitis",
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 63314,
+      "n_series": 13,
+      "series": [
+        [
+          "GSE147689",
+          335
+        ],
+        [
+          "GSE147690",
+          329
+        ],
+        [
+          "GSE147691",
+          262
+        ],
+        [
+          "GSE39366",
+          138
+        ],
+        [
+          "GSE15297",
+          41
+        ],
+        [
+          "GSE136932",
+          24
+        ]
+      ]
+    },
+    {
+      "drug": "Apigenin",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 128,
+      "n_series": 13,
+      "series": [
+        [
+          "GSE158377",
+          28
+        ],
+        [
+          "GSE119552",
+          16
+        ],
+        [
+          "GSE120550",
+          12
+        ],
+        [
+          "GSE133968",
+          11
+        ],
+        [
+          "GSE7403",
+          10
+        ],
+        [
+          "GSE273159",
+          9
+        ]
+      ]
+    },
+    {
+      "drug": "Baricitinib",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 335,
+      "n_series": 13,
+      "series": [
+        [
+          "GSE243339",
+          83
+        ],
+        [
+          "GSE174695",
+          63
+        ],
+        [
+          "GSE226667",
+          47
+        ],
+        [
+          "GSE161664",
+          37
+        ],
+        [
+          "GSE292720",
+          24
+        ],
+        [
+          "GSE232044",
+          16
+        ]
+      ]
+    },
+    {
+      "drug": "Carbamazepine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 563,
+      "n_series": 13,
+      "series": [
+        [
+          "GSE124076",
+          355
+        ],
+        [
+          "GSE54254",
+          96
+        ],
+        [
+          "GSE64123",
+          26
+        ],
+        [
+          "GSE143272",
+          19
+        ],
+        [
+          "GSE183534",
+          12
+        ],
+        [
+          "GSE137254",
+          11
+        ]
+      ]
+    },
+    {
+      "drug": "Fluorouracil",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 598,
+      "n_series": 12,
+      "series": [
+        [
+          "GSE50948",
+          156
+        ],
+        [
+          "GSE30070",
+          132
+        ],
+        [
+          "GSE66305",
+          88
+        ],
+        [
+          "GSE66398",
+          68
+        ],
+        [
+          "GSE184159",
+          63
+        ],
+        [
+          "GSE244740",
+          24
+        ]
+      ]
+    },
+    {
+      "drug": "Rifampicin",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma"
+      ],
+      "n_samples": 644,
+      "n_series": 12,
+      "series": [
+        [
+          "GSE124076",
+          355
+        ],
+        [
+          "GSE24186",
+          71
+        ],
+        [
+          "GSE143731",
+          56
+        ],
+        [
+          "GSE24187",
+          40
+        ],
+        [
+          "GSE108100",
+          24
+        ],
+        [
+          "GSE90122",
+          24
+        ]
+      ]
+    },
+    {
+      "drug": "Antibodies, Monoclonal",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 756,
+      "n_series": 11,
+      "series": [
+        [
+          "GSE194227",
+          180
+        ],
+        [
+          "GSE216387",
+          140
+        ],
+        [
+          "GSE157417",
+          126
+        ],
+        [
+          "GSE186179",
+          74
+        ],
+        [
+          "GSE200681",
+          51
+        ],
+        [
+          "GSE259360",
+          50
+        ]
+      ]
+    },
+    {
+      "drug": "Hydroxychloroquine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 1409,
+      "n_series": 11,
+      "series": [
+        [
+          "GSE65391",
+          842
+        ],
+        [
+          "GSE275078",
+          136
+        ],
+        [
+          "GSE226206",
+          102
+        ],
+        [
+          "GSE226147",
+          69
+        ],
+        [
+          "GSE245133",
+          12
+        ],
+        [
+          "GSE198290",
+          9
+        ]
+      ]
+    },
+    {
+      "drug": "Dupilumab",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 530,
+      "n_series": 10,
+      "series": [
+        [
+          "GSE130588",
+          208
+        ],
+        [
+          "GSE267331",
+          172
+        ],
+        [
+          "GSE157194",
+          40
+        ],
+        [
+          "GSE326320",
+          36
+        ],
+        [
+          "GSE59294",
+          35
+        ],
+        [
+          "GSE279422",
+          17
+        ]
+      ]
+    },
+    {
+      "drug": "Celecoxib",
+      "diseases": [
+        "ankylosing spondylitis",
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 516,
+      "n_series": 9,
+      "series": [
+        [
+          "GSE162256",
+          372
+        ],
+        [
+          "GSE59671",
+          52
+        ],
+        [
+          "GSE145650",
+          32
+        ],
+        [
+          "GSE11237",
+          23
+        ],
+        [
+          "GSE220643",
+          12
+        ],
+        [
+          "GSE140336",
+          10
+        ]
+      ]
+    },
+    {
+      "drug": "Chondroitin sulfate",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 100,
+      "n_series": 9,
+      "series": [
+        [
+          "GSE409",
+          19
+        ],
+        [
+          "GSE304480",
+          12
+        ],
+        [
+          "GSE112039",
+          12
+        ],
+        [
+          "GSE215102",
+          12
+        ],
+        [
+          "GSE285203",
+          11
+        ],
+        [
+          "GSE300142",
+          10
+        ]
+      ]
+    },
+    {
+      "drug": "Phenobarbital",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 8960,
+      "n_series": 9,
+      "series": [
+        [
+          "GSE145994",
+          754
+        ],
+        [
+          "GSE124076",
+          355
+        ],
+        [
+          "GSE68387",
+          40
+        ],
+        [
+          "GSE69845",
+          9
+        ],
+        [
+          "GSE69849",
+          9
+        ],
+        [
+          "GSE69850",
+          9
+        ]
+      ]
+    },
+    {
+      "drug": "Tretinoin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 66,
+      "n_series": 9,
+      "series": [
+        [
+          "GSE202524",
+          20
+        ],
+        [
+          "GSE202529",
+          12
+        ],
+        [
+          "GSE5258",
+          8
+        ],
+        [
+          "GSE269880",
+          4
+        ],
+        [
+          "GSE269881",
+          4
+        ],
+        [
+          "GSE199800",
+          4
+        ]
+      ]
+    },
+    {
+      "drug": "Nitric Oxide",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 152,
+      "n_series": 8,
+      "series": [
+        [
+          "GSE184433",
+          46
+        ],
+        [
+          "GSE22889",
+          44
+        ],
+        [
+          "GSE141374",
+          20
+        ],
+        [
+          "GSE1064",
+          14
+        ],
+        [
+          "GSE36609",
+          9
+        ],
+        [
+          "GSE197376",
+          9
+        ]
+      ]
+    },
+    {
+      "drug": "Triamcinolone",
+      "diseases": [
+        "asthma",
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 185,
+      "n_series": 8,
+      "series": [
+        [
+          "GSE136034",
+          71
+        ],
+        [
+          "GSE124928",
+          48
+        ],
+        [
+          "GSE109440",
+          18
+        ],
+        [
+          "GSE315974",
+          16
+        ],
+        [
+          "GSE262419",
+          9
+        ],
+        [
+          "GSE240387",
+          8
+        ]
+      ]
+    },
+    {
+      "drug": "Zymosan",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 293,
+      "n_series": 8,
+      "series": [
+        [
+          "GSE37008",
+          99
+        ],
+        [
+          "GSE134874",
+          99
+        ],
+        [
+          "GSE169278",
+          44
+        ],
+        [
+          "GSE242947",
+          24
+        ],
+        [
+          "GSE157981",
+          9
+        ],
+        [
+          "GSE160351",
+          9
+        ]
+      ]
+    },
+    {
+      "drug": "Ouabain",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 69,
+      "n_series": 7,
+      "series": [
+        [
+          "GSE159304",
+          18
+        ],
+        [
+          "GSE8590",
+          18
+        ],
+        [
+          "GSE122079",
+          9
+        ],
+        [
+          "GSE111065",
+          9
+        ],
+        [
+          "GSE264571",
+          6
+        ],
+        [
+          "GSE63935",
+          4
+        ]
+      ]
+    },
+    {
+      "drug": "Ritonavir",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 302,
+      "n_series": 7,
+      "series": [
+        [
+          "GSE104490",
+          194
+        ],
+        [
+          "GSE158055",
+          48
+        ],
+        [
+          "GSE254592",
+          28
+        ],
+        [
+          "GSE314659",
+          18
+        ],
+        [
+          "GSE165708",
+          4
+        ],
+        [
+          "GSE165703",
+          4
+        ]
+      ]
+    },
+    {
+      "drug": "Artesunate",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 66,
+      "n_series": 6,
+      "series": [
+        [
+          "GSE94553",
+          24
+        ],
+        [
+          "GSE183534",
+          12
+        ],
+        [
+          "GSE215784",
+          12
+        ],
+        [
+          "GSE260741",
+          6
+        ],
+        [
+          "GSE217531",
+          6
+        ],
+        [
+          "GSE122985",
+          3
+        ]
+      ]
+    },
+    {
+      "drug": "DDE",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 225,
+      "n_series": 6,
+      "series": [
+        [
+          "GSE145964",
+          132
+        ],
+        [
+          "GSE252776",
+          36
+        ],
+        [
+          "GSE254471",
+          30
+        ],
+        [
+          "GSE220051",
+          16
+        ],
+        [
+          "GSE254470",
+          8
+        ],
+        [
+          "GSE109021",
+          3
+        ]
+      ]
+    },
+    {
+      "drug": "Digitoxin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 105,
+      "n_series": 6,
+      "series": [
+        [
+          "GSE76347",
+          32
+        ],
+        [
+          "GSE230502",
+          24
+        ],
+        [
+          "GSE278538",
+          21
+        ],
+        [
+          "GSE111065",
+          11
+        ],
+        [
+          "GSE60408",
+          9
+        ],
+        [
+          "GSE36058",
+          6
+        ]
+      ]
+    },
+    {
+      "drug": "Formoterol",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 255,
+      "n_series": 6,
+      "series": [
+        [
+          "GSE202436",
+          100
+        ],
+        [
+          "GSE115830",
+          64
+        ],
+        [
+          "GSE30242",
+          24
+        ],
+        [
+          "GSE161805",
+          24
+        ],
+        [
+          "GSE125259",
+          24
+        ],
+        [
+          "GSE315974",
+          16
+        ]
+      ]
+    },
+    {
+      "drug": "Guselkumab",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 434,
+      "n_series": 6,
+      "series": [
+        [
+          "GSE252029",
+          122
+        ],
+        [
+          "GSE235570",
+          92
+        ],
+        [
+          "GSE290870",
+          72
+        ],
+        [
+          "GSE212836",
+          68
+        ],
+        [
+          "GSE197056",
+          55
+        ],
+        [
+          "GSE201397",
+          24
+        ]
+      ]
+    },
+    {
+      "drug": "Leucovorin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 171,
+      "n_series": 6,
+      "series": [
+        [
+          "GSE21228",
+          118
+        ],
+        [
+          "GSE300623",
+          17
+        ],
+        [
+          "GSE300621",
+          15
+        ],
+        [
+          "GSE128967",
+          11
+        ],
+        [
+          "GSE32711",
+          4
+        ],
+        [
+          "GSE199800",
+          4
+        ]
+      ]
+    },
+    {
+      "drug": "Phenformin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 48,
+      "n_series": 6,
+      "series": [
+        [
+          "GSE69844",
+          9
+        ],
+        [
+          "GSE69845",
+          9
+        ],
+        [
+          "GSE69849",
+          9
+        ],
+        [
+          "GSE69850",
+          7
+        ],
+        [
+          "GSE13548",
+          3
+        ],
+        [
+          "GSE150348",
+          3
+        ]
+      ]
+    },
+    {
+      "drug": "Phenytoin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 1632,
+      "n_series": 6,
+      "series": [
+        [
+          "GSE88794",
+          800
+        ],
+        [
+          "GSE124076",
+          355
+        ],
+        [
+          "GSE183534",
+          24
+        ],
+        [
+          "GSE143272",
+          13
+        ],
+        [
+          "GSE187001",
+          3
+        ],
+        [
+          "GSE209962",
+          3
+        ]
+      ]
+    },
+    {
+      "drug": "Baicalein",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 60,
+      "n_series": 5,
+      "series": [
+        [
+          "GSE326697",
+          18
+        ],
+        [
+          "GSE232322",
+          12
+        ],
+        [
+          "GSE127765",
+          9
+        ],
+        [
+          "GSE95504",
+          9
+        ],
+        [
+          "GSE85511",
+          9
+        ]
+      ]
+    },
+    {
+      "drug": "Capsaicin",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 36,
+      "n_series": 5,
+      "series": [
+        [
+          "GSE198304",
+          12
+        ],
+        [
+          "GSE57759",
+          8
+        ],
+        [
+          "GSE302928",
+          8
+        ],
+        [
+          "GSE254052",
+          4
+        ],
+        [
+          "GSE67698",
+          4
+        ]
+      ]
+    },
+    {
+      "drug": "Mepolizumab",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 837,
+      "n_series": 5,
+      "series": [
+        [
+          "GSE292059",
+          443
+        ],
+        [
+          "GSE192861",
+          339
+        ],
+        [
+          "GSE274410",
+          27
+        ],
+        [
+          "GSE298740",
+          18
+        ],
+        [
+          "GSE46159",
+          8
+        ]
+      ]
+    },
+    {
+      "drug": "Methacholine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 249,
+      "n_series": 5,
+      "series": [
+        [
+          "GSE56553",
+          96
+        ],
+        [
+          "GSE34466",
+          63
+        ],
+        [
+          "GSE47977",
+          40
+        ],
+        [
+          "GSE32198",
+          28
+        ],
+        [
+          "GSE13785",
+          22
+        ]
+      ]
+    },
+    {
+      "drug": "Nefazodone",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 389,
+      "n_series": 5,
+      "series": [
+        [
+          "GSE102006",
+          252
+        ],
+        [
+          "GSE54254",
+          96
+        ],
+        [
+          "GSE152494",
+          24
+        ],
+        [
+          "GSE54255",
+          10
+        ],
+        [
+          "GSE279945",
+          6
+        ]
+      ]
+    },
+    {
+      "drug": "Tranilast",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 55,
+      "n_series": 5,
+      "series": [
+        [
+          "GSE246079",
+          15
+        ],
+        [
+          "GSE134029",
+          15
+        ],
+        [
+          "GSE246078",
+          12
+        ],
+        [
+          "GSE298781",
+          8
+        ],
+        [
+          "GSE110130",
+          4
+        ]
+      ]
+    },
+    {
+      "drug": "Zoledronic acid",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 72,
+      "n_series": 5,
+      "series": [
+        [
+          "GSE11948",
+          28
+        ],
+        [
+          "GSE19697",
+          24
+        ],
+        [
+          "GSE221563",
+          6
+        ],
+        [
+          "GSE306856",
+          6
+        ],
+        [
+          "GSE213910",
+          6
+        ]
+      ]
+    },
+    {
+      "drug": "Dactinomycin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 25,
+      "n_series": 4,
+      "series": [
+        [
+          "GSE60408",
+          9
+        ],
+        [
+          "GSE294904",
+          6
+        ],
+        [
+          "GSE299941",
+          4
+        ],
+        [
+          "GSE199800",
+          4
+        ]
+      ]
+    },
+    {
+      "drug": "Glimepiride",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 24,
+      "n_series": 4,
+      "series": [
+        [
+          "GSE160308",
+          5
+        ],
+        [
+          "GSE160306",
+          5
+        ],
+        [
+          "GSE67297",
+          4
+        ],
+        [
+          "GSE134329",
+          3
+        ]
+      ]
+    },
+    {
+      "drug": "Omalizumab",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 254,
+      "n_series": 4,
+      "series": [
+        [
+          "GSE134544",
+          218
+        ],
+        [
+          "GSE298740",
+          24
+        ],
+        [
+          "GSE167882",
+          7
+        ],
+        [
+          "GSE281339",
+          4
+        ]
+      ]
+    },
+    {
+      "drug": "Oxyquinoline",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 74,
+      "n_series": 4,
+      "series": [
+        [
+          "GSE158632",
+          36
+        ],
+        [
+          "GSE189905",
+          18
+        ],
+        [
+          "GSE186295",
+          9
+        ],
+        [
+          "GSE308908",
+          9
+        ]
+      ]
+    },
+    {
+      "drug": "Polymyxin B",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 216,
+      "n_series": 4,
+      "series": [
+        [
+          "GSE131590",
+          138
+        ],
+        [
+          "GSE59019",
+          38
+        ],
+        [
+          "GSE41889",
+          24
+        ],
+        [
+          "GSE328352",
+          12
+        ]
+      ]
+    },
+    {
+      "drug": "Roflumilast",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 114,
+      "n_series": 4,
+      "series": [
+        [
+          "GSE297400",
+          59
+        ],
+        [
+          "GSE283313",
+          44
+        ],
+        [
+          "GSE126981",
+          4
+        ],
+        [
+          "GSE267218",
+          4
+        ]
+      ]
+    },
+    {
+      "drug": "Rolipram",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 233,
+      "n_series": 4,
+      "series": [
+        [
+          "GSE297400",
+          199
+        ],
+        [
+          "GSE13987",
+          24
+        ],
+        [
+          "GSE193191",
+          3
+        ],
+        [
+          "GSE66843",
+          3
+        ]
+      ]
+    },
+    {
+      "drug": "Theophylline",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 62,
+      "n_series": 4,
+      "series": [
+        [
+          "GSE218902",
+          36
+        ],
+        [
+          "GSE262419",
+          9
+        ],
+        [
+          "GSE180453",
+          8
+        ],
+        [
+          "GSE180452",
+          7
+        ]
+      ]
+    },
+    {
+      "drug": "dexamethasone sodium phosphate",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 37,
+      "n_series": 4,
+      "series": [
+        [
+          "GSE20963",
+          12
+        ],
+        [
+          "GSE42383",
+          11
+        ],
+        [
+          "GSE18072",
+          6
+        ],
+        [
+          "GSE22162",
+          6
+        ]
+      ]
+    },
+    {
+      "drug": "Aclarubicin",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 28,
+      "n_series": 3,
+      "series": [
+        [
+          "GSE276066",
+          12
+        ],
+        [
+          "GSE240443",
+          4
+        ],
+        [
+          "GSE232331",
+          3
+        ]
+      ]
+    },
+    {
+      "drug": "Adapalene",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 82,
+      "n_series": 3,
+      "series": [
+        [
+          "GSE205555",
+          62
+        ],
+        [
+          "GSE253331",
+          13
+        ],
+        [
+          "GSE279945",
+          6
+        ]
+      ]
+    },
+    {
+      "drug": "Aldesleukin",
+      "diseases": [
+        "ankylosing spondylitis",
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 43,
+      "n_series": 3,
+      "series": [
+        [
+          "GSE310996",
+          16
+        ],
+        [
+          "GSE62015",
+          15
+        ],
+        [
+          "GSE227316",
+          12
+        ]
+      ]
+    },
+    {
+      "drug": "Bafilomycin A1",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 27,
+      "n_series": 3,
+      "series": [
+        [
+          "GSE245402",
+          12
+        ],
+        [
+          "GSE39962",
+          8
+        ],
+        [
+          "GSE240920",
+          3
+        ]
+      ]
+    },
+    {
+      "drug": "Betamethasone",
+      "diseases": [
+        "asthma",
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 80,
+      "n_series": 3,
+      "series": [
+        [
+          "GSE272359",
+          42
+        ],
+        [
+          "GSE32473",
+          30
+        ],
+        [
+          "GSE237767",
+          7
+        ]
+      ]
+    },
+    {
+      "drug": "Bromocriptine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 36,
+      "n_series": 3,
+      "series": [
+        [
+          "GSE171653",
+          24
+        ],
+        [
+          "GSE23927",
+          6
+        ],
+        [
+          "GSE207522",
+          6
+        ]
+      ]
+    },
+    {
+      "drug": "Captopril",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 52,
+      "n_series": 3,
+      "series": [
+        [
+          "GSE173553",
+          36
+        ],
+        [
+          "GSE66843",
+          6
+        ],
+        [
+          "GSE85550",
+          3
+        ]
+      ]
+    },
+    {
+      "drug": "Ethambutol",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 81,
+      "n_series": 3,
+      "series": [
+        [
+          "GSE143731",
+          56
+        ],
+        [
+          "GSE39606",
+          20
+        ],
+        [
+          "GSE196816",
+          3
+        ]
+      ]
+    },
+    {
+      "drug": "Lopinavir",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 74,
+      "n_series": 3,
+      "series": [
+        [
+          "GSE158055",
+          61
+        ],
+        [
+          "GSE275256",
+          9
+        ],
+        [
+          "GSE247541",
+          3
+        ]
+      ]
+    },
+    {
+      "drug": "Pyridoxine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 121,
+      "n_series": 3,
+      "series": [
+        [
+          "GSE137338",
+          109
+        ],
+        [
+          "GSE160308",
+          4
+        ],
+        [
+          "GSE160306",
+          4
+        ]
+      ]
+    },
+    {
+      "drug": "Pyrimethamine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 32,
+      "n_series": 3,
+      "series": [
+        [
+          "GSE235587",
+          12
+        ],
+        [
+          "GSE262419",
+          9
+        ],
+        [
+          "GSE173164",
+          8
+        ]
+      ]
+    },
+    {
+      "drug": "Rofecoxib",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 82,
+      "n_series": 3,
+      "series": [
+        [
+          "GSE59671",
+          52
+        ],
+        [
+          "GSE244740",
+          24
+        ],
+        [
+          "GSE5258",
+          6
+        ]
+      ]
+    },
+    {
+      "drug": "Testosterone cypionate",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 72,
+      "n_series": 3,
+      "series": [
+        [
+          "GSE188173",
+          48
+        ],
+        [
+          "GSE188174",
+          16
+        ],
+        [
+          "GSE306236",
+          8
+        ]
+      ]
+    },
+    {
+      "drug": "Benralizumab",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 69,
+      "n_series": 2,
+      "series": [
+        [
+          "GSE148725",
+          41
+        ],
+        [
+          "GSE298740",
+          28
+        ]
+      ]
+    },
+    {
+      "drug": "Ciglitazone",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 22,
+      "n_series": 2,
+      "series": [
+        [
+          "GSE43166",
+          15
+        ],
+        [
+          "GSE129153",
+          6
+        ]
+      ]
+    },
+    {
+      "drug": "Isoliquiritigenin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 11,
+      "n_series": 2,
+      "series": [
+        [
+          "GSE155855",
+          8
+        ],
+        [
+          "GSE66843",
+          3
+        ]
+      ]
+    },
+    {
+      "drug": "Lactulose",
+      "diseases": [
+        "ankylosing spondylitis",
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 528,
+      "n_series": 2,
+      "series": [
+        [
+          "GSE74681",
+          263
+        ],
+        [
+          "GSE75653",
+          258
+        ]
+      ]
+    },
+    {
+      "drug": "Methylisothiazolinone",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 16,
+      "n_series": 2,
+      "series": [
+        [
+          "GSE282562",
+          10
+        ],
+        [
+          "GSE168735",
+          6
+        ]
+      ]
+    },
+    {
+      "drug": "PPADS",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 39,
+      "n_series": 2,
+      "series": [
+        [
+          "GSE304218",
+          35
+        ],
+        [
+          "GSE332616",
+          4
+        ]
+      ]
+    },
+    {
+      "drug": "Pentoxifylline",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 15,
+      "n_series": 2,
+      "series": [
+        [
+          "GSE60408",
+          9
+        ],
+        [
+          "GSE122891",
+          6
+        ]
+      ]
+    },
+    {
+      "drug": "Propylthiouracil",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 16,
+      "n_series": 2,
+      "series": [
+        [
+          "GSE126786",
+          11
+        ],
+        [
+          "GSE63935",
+          4
+        ]
+      ]
+    },
+    {
+      "drug": "Tabalumab",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 1326,
+      "n_series": 2,
+      "series": [
+        [
+          "GSE88885",
+          839
+        ],
+        [
+          "GSE88886",
+          361
+        ]
+      ]
+    },
+    {
+      "drug": "Tildrakizumab",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma"
+      ],
+      "n_samples": 35,
+      "n_series": 2,
+      "series": [
+        [
+          "GSE271627",
+          28
+        ],
+        [
+          "GSE241085",
+          7
+        ]
+      ]
+    },
+    {
+      "drug": "Tirofiban",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 113,
+      "n_series": 2,
+      "series": [
+        [
+          "GSE135992",
+          84
+        ],
+        [
+          "GSE295441",
+          29
+        ]
+      ]
+    },
+    {
+      "drug": "Ustekinumab",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma"
+      ],
+      "n_samples": 2664,
+      "n_series": 2,
+      "series": [
+        [
+          "GSE207465",
+          1173
+        ],
+        [
+          "GSE117468",
+          27
+        ]
+      ]
+    },
+    {
+      "drug": "Zileuton",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 132,
+      "n_series": 2,
+      "series": [
+        [
+          "GSE175616",
+          123
+        ],
+        [
+          "GSE262419",
+          9
+        ]
+      ]
+    },
+    {
+      "drug": "Acetazolamide",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 10,
+      "n_series": 1,
+      "series": [
+        [
+          "GSE221746",
+          9
+        ]
+      ]
+    },
+    {
+      "drug": "Batimastat",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 10,
+      "n_series": 1,
+      "series": [
+        [
+          "GSE77868",
+          9
+        ]
+      ]
+    },
+    {
+      "drug": "Brinzolamide",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 10,
+      "n_series": 1,
+      "series": [
+        [
+          "GSE60408",
+          9
+        ]
+      ]
+    },
+    {
+      "drug": "CERTOLIZUMAB",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 92,
+      "n_series": 1,
+      "series": [
+        [
+          "GSE198520",
+          92
+        ]
+      ]
+    },
+    {
+      "drug": "Camrelizumab",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 88,
+      "n_series": 1,
+      "series": [
+        [
+          "GSE291670",
+          6
+        ]
+      ]
+    },
+    {
+      "drug": "Chelerythrine",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 10,
+      "n_series": 1,
+      "series": [
+        [
+          "GSE80752",
+          6
+        ]
+      ]
+    },
+    {
+      "drug": "Clazakizumab",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 28,
+      "n_series": 1,
+      "series": [
+        [
+          "GSE287697",
+          28
+        ]
+      ]
+    },
+    {
+      "drug": "Flurbiprofen",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 10,
+      "n_series": 1,
+      "series": [
+        [
+          "GSE60408",
+          9
+        ]
+      ]
+    },
+    {
+      "drug": "Ibutilide",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 10,
+      "n_series": 1,
+      "series": [
+        [
+          "GSE262419",
+          9
+        ]
+      ]
+    },
+    {
+      "drug": "Ilomastat",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 9,
+      "n_series": 1,
+      "series": [
+        [
+          "GSE52246",
+          8
+        ]
+      ]
+    },
+    {
+      "drug": "Penicillamine",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 7,
+      "n_series": 1,
+      "series": [
+        [
+          "GSE146252",
+          7
+        ]
+      ]
+    },
+    {
+      "drug": "Perphenazine",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 5,
+      "n_series": 1,
+      "series": [
+        [
+          "GSE275875",
+          3
+        ]
+      ]
+    },
+    {
+      "drug": "Peruvoside",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 3,
+      "n_series": 1,
+      "series": [
+        [
+          "GSE35126",
+          3
+        ]
+      ]
+    },
+    {
+      "drug": "Piroxicam",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 21,
+      "n_series": 1,
+      "series": [
+        [
+          "GSE22445",
+          18
+        ]
+      ]
+    },
+    {
+      "drug": "Pyrazinamide",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 59,
+      "n_series": 1,
+      "series": [
+        [
+          "GSE143731",
+          56
+        ]
+      ]
+    },
+    {
+      "drug": "RO3",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 8,
+      "n_series": 1,
+      "series": [
+        [
+          "GSE24147",
+          7
+        ]
+      ]
+    },
+    {
+      "drug": "Salsalate",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "n_samples": 3,
+      "n_series": 1,
+      "series": [
+        [
+          "GSE282660",
+          3
+        ]
+      ]
+    },
+    {
+      "drug": "Saquinavir",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 14,
+      "n_series": 1,
+      "series": [
+        [
+          "GSE198525",
+          14
+        ]
+      ]
+    },
+    {
+      "drug": "Terbutaline",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 14,
+      "n_series": 1,
+      "series": [
+        [
+          "GSE20297",
+          12
+        ]
+      ]
+    },
+    {
+      "drug": "Terfenadine",
+      "diseases": [
+        "asthma"
+      ],
+      "n_samples": 11,
+      "n_series": 1,
+      "series": [
+        [
+          "GSE262419",
+          9
+        ]
+      ]
+    },
+    {
+      "drug": "Vadimezan",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "n_samples": 5,
+      "n_series": 1,
+      "series": [
+        [
+          "GSE199800",
+          4
+        ]
+      ]
+    }
+  ],
+  "confirmed": [
+    {
+      "drug": "Doxorubicin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE174695",
+      "n_samples_mentioning": 63,
+      "field": "drug1",
+      "values": {
+        "drug1: DMSO": 66,
+        "drug1: Baricitinib": 63,
+        "drug1: Clofarabine": 63,
+        "drug1: Dovitinib": 63,
+        "drug1: Doxorubicin": 63,
+        "drug1: Fludarabine": 63
+      },
+      "n_levels": 20
+    },
+    {
+      "drug": "Doxorubicin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE315862",
+      "n_samples_mentioning": 36,
+      "field": "characteristic",
+      "values": {
+        "treatment: Doxorubicin 4nM": 12,
+        "treatment: Peposertib 0.5uM": 6,
+        "treatment: Peposertib 0.5uM + Doxorubicin 4nM": 6
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Doxorubicin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE112530",
+      "n_samples_mentioning": 32,
+      "field": "treatment",
+      "values": {
+        "treatment: No treatment": 8,
+        "treatment: WGA": 3,
+        "treatment: LMB": 3,
+        "treatment: Control shRNA": 3,
+        "treatment: RCC1 shRNA": 3,
+        "treatment: control ORF": 3
+      },
+      "n_levels": 9
+    },
+    {
+      "drug": "Doxorubicin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE58074",
+      "n_samples_mentioning": 24,
+      "field": "cell type",
+      "values": {
+        "cell type: epidermal keratinocyte": 23,
+        "treatment: pcDNA3 + doxorubicin": 1
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Tetracycline",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE207005",
+      "n_samples_mentioning": 40,
+      "field": "treatment",
+      "values": {
+        "treatment: Transient transfection": 18,
+        "treatment: Tetracycline induction": 12,
+        "treatment: Tetracycline induction, rapamycin and sodium arsenite treatment": 12,
+        "treatment: Tetracycline induction, rapamycin treatment": 10,
+        "treatment: None": 8,
+        "treatment: Transient transfection, sodium arsenite treatment": 4
+      },
+      "n_levels": 10
+    },
+    {
+      "drug": "Tetracycline",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE143466",
+      "n_samples_mentioning": 40,
+      "field": "treatment",
+      "values": {
+        "treatment: untreated": 32,
+        "treatment: 25 uM Tetracycline": 32,
+        "treatment: 30 uM Guanine": 16,
+        "treatment: 100 uM Guanine": 16,
+        "treatment: 300 uM Guanine": 16,
+        "treatment: 12.5 uM Tetracycline": 8
+      },
+      "n_levels": 6
+    },
+    {
+      "drug": "Cisplatin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE47856",
+      "n_samples_mentioning": 82,
+      "field": "treatment",
+      "values": {
+        "treatment: none": 89,
+        "treatment: Cisplatin": 82
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Cisplatin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE278498",
+      "n_samples_mentioning": 36,
+      "field": "cell line",
+      "values": {
+        "cell line: 2102EP-C1 Cisplatin resistant testicular cancer cell line": 24,
+        "cell line: NT2/D1-A4 Cisplatin resistant testicular cancer cell line": 12
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Estradiol",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE241764",
+      "n_samples_mentioning": 96,
+      "field": "treatment",
+      "values": {
+        "treatment: DMSO": 4,
+        "treatment: Estradiol": 4,
+        "treatment: Fulvestrant": 4,
+        "treatment: Tamoxifen": 4,
+        "treatment: Estradiol + OP-1250": 4,
+        "treatment: OP-1250": 4
+      },
+      "n_levels": 30
+    },
+    {
+      "drug": "Estradiol",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE80098",
+      "n_samples_mentioning": 64,
+      "field": "drug treatment",
+      "values": {
+        "er/pr status: ER+/PR+": 38,
+        "er/pr status: ER+/PR-deficient": 16,
+        "drug treatment: Vehicle": 12,
+        "drug treatment: 10 nM Estradiol": 12,
+        "drug treatment: 10 nM R5020": 12,
+        "drug treatment: 10nM Estradiol + 10 nM R5020": 12
+      },
+      "n_levels": 6
+    },
+    {
+      "drug": "Estradiol",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE80358",
+      "n_samples_mentioning": 46,
+      "field": "drug treatment",
+      "values": {
+        "drug treatment: Vehicle": 17,
+        "drug treatment: 10 nM R5020": 17,
+        "drug treatment: 10 nM Estradiol": 8,
+        "drug treatment: 10nM Estradiol + 10 nM R5020": 8
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Estradiol",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE167451",
+      "n_samples_mentioning": 34,
+      "field": "treatment",
+      "values": {
+        "treatment: EtOH": 34,
+        "treatment: Estradiol": 34,
+        "treatment: Tamoxifen": 34
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Calcium",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE94138",
+      "n_samples_mentioning": 94,
+      "field": "calcium",
+      "values": {
+        "calcium: 2.3": 9,
+        "calcium: 2.27": 7,
+        "calcium: 2.28": 6,
+        "calcium: 2.21": 5,
+        "calcium: 2.39": 5,
+        "calcium: 2.36": 5
+      },
+      "n_levels": 30
+    },
+    {
+      "drug": "Decitabine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE174695",
+      "n_samples_mentioning": 60,
+      "field": "drug2",
+      "values": {
+        "drug2: DMSO": 63,
+        "drug2: AT9283": 60,
+        "drug2: Blebbistatin": 60,
+        "drug2: Cytarabine": 60,
+        "drug2: Dacarbazine": 60,
+        "drug2: Decitabine": 60
+      },
+      "n_levels": 21
+    },
+    {
+      "drug": "Decitabine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE25428",
+      "n_samples_mentioning": 48,
+      "field": "treatment",
+      "values": {
+        "treatment: decitabine": 44,
+        "treatment: mock": 43,
+        "gender: female": 8
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Decitabine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE240469",
+      "n_samples_mentioning": 40,
+      "field": "characteristic",
+      "values": {
+        "treatment: Decitabine": 4,
+        "treatment: Vehicle": 4,
+        "treatment: Decitabine Day 7": 2,
+        "treatment: Control": 2,
+        "treatment: Decitabine Recovery Day 28": 2
+      },
+      "n_levels": 5
+    },
+    {
+      "drug": "Metformin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE259286",
+      "n_samples_mentioning": 98,
+      "field": "treatment",
+      "values": {
+        "treatment: 10 mM galactose media": 38,
+        "treatment: 5.6 mM glucose media": 36,
+        "treatment: ONC201": 6,
+        "treatment: ONC206": 6,
+        "treatment: cycloheximide": 6,
+        "treatment: metformin": 6
+      },
+      "n_levels": 6
+    },
+    {
+      "drug": "Metformin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE137317",
+      "n_samples_mentioning": 74,
+      "field": "time point of blood collcetion regarding metformin intervention",
+      "values": {
+        "time point of blood collcetion regarding metformin intervention: before administration of metformin": 25,
+        "time point of blood collcetion regarding metformin intervention: 10 hours after the first metformin intake": 25,
+        "time point of blood collcetion regarding metformin intervention: after 7 days long metformin course": 24
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Metformin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE241261",
+      "n_samples_mentioning": 61,
+      "field": "treatment",
+      "values": {
+        "treatment: 0.5percent DMSO": 6,
+        "treatment: 20 microM UK-5099": 6,
+        "treatment: 20 microg/mL doxycycline": 6,
+        "treatment: 100 microg/mL chloramphenicol": 6,
+        "treatment: 100 microM DNP": 6,
+        "treatment: 100 nM rotenone": 6
+      },
+      "n_levels": 12
+    },
+    {
+      "drug": "Metformin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE229658",
+      "n_samples_mentioning": 60,
+      "field": "treatment",
+      "values": {
+        "treatment: 0 uM metformin": 10,
+        "treatment: 16 uM metformin": 10,
+        "treatment: 39 uM metformin": 10,
+        "treatment: 78 uM metformin": 10,
+        "treatment: 388 uM metformin": 10,
+        "treatment: 776 uM metformin": 10
+      },
+      "n_levels": 6
+    },
+    {
+      "drug": "Metformin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE224900",
+      "n_samples_mentioning": 60,
+      "field": "treatment",
+      "values": {
+        "treatment: Metformin": 60,
+        "treatment: Placebo": 53
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Tyrosine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE137338",
+      "n_samples_mentioning": 109,
+      "field": "phenylalanine",
+      "values": {
+        "phenylalanine: 0": 54,
+        "phenylalanine: 26.643": 4,
+        "tyrosine: 0": 3,
+        "phenylalanine: 145.097": 3,
+        "phenylalanine: 189.049": 2,
+        "phenylalanine: 110.215": 2
+      },
+      "n_levels": 38
+    },
+    {
+      "drug": "Sorafenib",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma"
+      ],
+      "gse": "GSE151412",
+      "n_samples_mentioning": 70,
+      "field": "drug treatment",
+      "values": {
+        "drug treatment: GW3965/Sorafenib": 18,
+        "drug treatment: Sorafenib": 18,
+        "drug treatment: DMSO": 17,
+        "drug treatment: GW3965": 17
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Sorafenib",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma"
+      ],
+      "gse": "GSE201695",
+      "n_samples_mentioning": 28,
+      "field": "treatment",
+      "values": {
+        "treatment: Control (DMSO) 24h": 9,
+        "treatment: Sorafenib 10 uM 24h": 9,
+        "treatment: Control (DMSO) 6h": 6,
+        "treatment: Sorafenib 10 uM 6h": 6
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Sorafenib",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma"
+      ],
+      "gse": "GSE343131",
+      "n_samples_mentioning": 24,
+      "field": "treatment",
+      "values": {
+        "treatment: vehicle control (DMSO <= 0.1%), 72 h": 6,
+        "treatment: sorafenib 1.25 uM, 72 h": 6,
+        "treatment: sorafenib 10 uM, 72 h": 6,
+        "treatment: sorafenib 1.25 uM plus IACS-010759 1 uM, 72 h": 6
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Lenalidomide",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE102976",
+      "n_samples_mentioning": 74,
+      "field": "response to lenalidomide",
+      "values": {
+        "response to lenalidomide: Non responder": 39,
+        "response to lenalidomide: Responder": 35
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Lenalidomide",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE8546",
+      "n_samples_mentioning": 55,
+      "field": "characteristic",
+      "values": {
+        "human myeloma cell  P0075 dexamethasone pre-treatment": 1,
+        "human myeloma cell  P0084 thalidomide pre-treatment": 1,
+        "human myeloma cell  P0099 dexamethasone pre-treatment": 1,
+        "human myeloma cell  P0175 dexamethasone pre-treatment": 1,
+        "human myeloma cell  P0202 thalidomide pre-treatment": 1,
+        "human myeloma cell  P0237 thalidomide pre-treatment": 1
+      },
+      "n_levels": 229
+    },
+    {
+      "drug": "Lenalidomide",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE76425",
+      "n_samples_mentioning": 40,
+      "field": "treatment",
+      "values": {
+        "treatment: control": 7,
+        "treatment: lenalidomide": 7,
+        "treatment: PD 0332991": 7,
+        "treatment: PD 0332991 + lenalidomide": 7,
+        "treatment: No": 6,
+        "treatment: 0 h": 6
+      },
+      "n_levels": 6
+    },
+    {
+      "drug": "Lenalidomide",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE121912",
+      "n_samples_mentioning": 28,
+      "field": "treatment",
+      "values": {
+        "treatment: none": 22,
+        "treatment: 10 uM lenalidomide": 6
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "glucocorticoid",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma"
+      ],
+      "gse": "GSE110169",
+      "n_samples_mentioning": 243,
+      "field": "glucocorticoids",
+      "values": {
+        "glucocorticoids: FALSE": 89,
+        "glucocorticoids: NA": 82,
+        "glucocorticoids: TRUE": 72
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "glucocorticoid",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma"
+      ],
+      "gse": "GSE73578",
+      "n_samples_mentioning": 87,
+      "field": "treatment",
+      "values": {
+        "treatment: glucocorticoid (GC) mono-therapy": 87,
+        "treatment: none": 46
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "glucocorticoid",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma"
+      ],
+      "gse": "GSE185101",
+      "n_samples_mentioning": 62,
+      "field": "characteristic",
+      "values": {
+        "glucocorticoids use: No": 60,
+        "glucocorticoids use: Yes": 2
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "glucocorticoid",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma"
+      ],
+      "gse": "GSE122618",
+      "n_samples_mentioning": 39,
+      "field": "corticosteroid response",
+      "values": {
+        "corticosteroid response: Glucocorticoid responder": 20,
+        "corticosteroid response: Glucocorticoid non-responder": 19,
+        "corticosteroid response: No IBD treatment": 7
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Ethanol",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE104930",
+      "n_samples_mentioning": 72,
+      "field": "treatment",
+      "values": {
+        "treatment: ethanol": 36,
+        "treatment: dexamethasone": 36
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Ethanol",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE35428",
+      "n_samples_mentioning": 63,
+      "field": "agonist",
+      "values": {
+        "agonist: ethanol": 53,
+        "agonist: E2": 53
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Methotrexate",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE35455",
+      "n_samples_mentioning": 116,
+      "field": "treatment",
+      "values": {
+        "treatment: before methotrexate/MTX": 58,
+        "treatment: after methotrexate/MTX": 58,
+        "treatment: before Tocilizumab/MRA": 54,
+        "treatment: after Tocilizumab/MRA": 54
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Methotrexate",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE54254",
+      "n_samples_mentioning": 96,
+      "field": "treatment",
+      "values": {
+        "treatment: DMSO 14hr": 4,
+        "treatment: DMSO 8hr + TNFalpha 1h": 4,
+        "treatment: DMSO 8hr + TNFalpha 6h": 4,
+        "treatment: Diclofenac 14hr": 4,
+        "treatment: Diclofenac 8hr + BSA 1h": 4,
+        "treatment: Diclofenac 8hr + BSA 6h": 4
+      },
+      "n_levels": 27
+    },
+    {
+      "drug": "Methotrexate",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE226147",
+      "n_samples_mentioning": 69,
+      "field": "methotrexate",
+      "values": {
+        "methotrexate: 0": 49,
+        "methotrexate: NA": 18,
+        "methotrexate: 1": 2
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Methotrexate",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE174695",
+      "n_samples_mentioning": 60,
+      "field": "drug2",
+      "values": {
+        "drug2: DMSO": 63,
+        "drug2: AT9283": 60,
+        "drug2: Blebbistatin": 60,
+        "drug2: Cytarabine": 60,
+        "drug2: Dacarbazine": 60,
+        "drug2: Decitabine": 60
+      },
+      "n_levels": 21
+    },
+    {
+      "drug": "Methotrexate",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE176440",
+      "n_samples_mentioning": 56,
+      "field": "treatment",
+      "values": {
+        "treatment: before methotrexate": 28,
+        "treatment: 3 months after  methotrexate": 28
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Rosiglitazone",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE160987",
+      "n_samples_mentioning": 105,
+      "field": "treatment",
+      "values": {
+        "treatment: Control": 9,
+        "treatment: GW0742": 7,
+        "treatment: LCFA": 7,
+        "treatment: LCFA + GW0742": 7,
+        "treatment: GSK0660": 6,
+        "treatment: WY14643": 3
+      },
+      "n_levels": 28
+    },
+    {
+      "drug": "Rosiglitazone",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE77039",
+      "n_samples_mentioning": 82,
+      "field": "agent",
+      "values": {
+        "agent: GW3965": 32,
+        "agent: Rosiglitazone": 24,
+        "agent: DMSO": 18,
+        "agent: T0901317": 8
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Rosiglitazone",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE295444",
+      "n_samples_mentioning": 66,
+      "field": "treatment",
+      "values": {
+        "treatment: DMSO": 111,
+        "treatment: Lithium chloride": 69,
+        "treatment: Thiamet-G": 68,
+        "treatment: Rosiglitazone": 66,
+        "treatment: A-366": 63,
+        "treatment: Rapamycin": 63
+      },
+      "n_levels": 13
+    },
+    {
+      "drug": "Rosiglitazone",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE295447",
+      "n_samples_mentioning": 54,
+      "field": "treatment",
+      "values": {
+        "treatment: DMSO": 129,
+        "treatment: Bardoxolone methyl": 68,
+        "treatment: A-971432": 68,
+        "treatment: Vorinostat": 67,
+        "treatment: Taxol": 61,
+        "treatment: 17-AAG": 60
+      },
+      "n_levels": 13
+    },
+    {
+      "drug": "Rosiglitazone",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE120920",
+      "n_samples_mentioning": 48,
+      "field": "chemical compound",
+      "values": {
+        "chemical compound: DMSO": 80,
+        "chemical compound: Control": 64,
+        "chemical compound: AS601245": 48,
+        "chemical compound: AZDS438": 48,
+        "chemical compound: DL-PDMP": 48,
+        "chemical compound: Fasudil": 48
+      },
+      "n_levels": 15
+    },
+    {
+      "drug": "ionomycin",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE128273",
+      "n_samples_mentioning": 589,
+      "field": "method",
+      "values": {
+        "pma + ionomycin stimulation: Unstimulated": 338,
+        "method: NASC-seq": 192,
+        "pma + ionomycin stimulation: PMA + ionomycin stimulated, 15 minutes": 82,
+        "pma + ionomycin stimulation: PMA + ionomycin stimulated, 30 minutes": 82,
+        "pma + ionomycin stimulation: PMA + ionomycin stimulated, 60 minutes": 78,
+        "pma + ionomycin stimulation: NA": 8
+      },
+      "n_levels": 7
+    },
+    {
+      "drug": "ionomycin",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE228211",
+      "n_samples_mentioning": 48,
+      "field": "treatment",
+      "values": {
+        "treatment: DMSO": 48,
+        "treatment: PMA Ionomycin + SP100030": 25,
+        "treatment: PMA Ionomycin": 23
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Progesterone",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE109710",
+      "n_samples_mentioning": 113,
+      "field": "progesterone receptor status",
+      "values": {
+        "progesterone receptor status: NO": 110,
+        "progesterone receptor status: YES": 63
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Progesterone",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE69031",
+      "n_samples_mentioning": 110,
+      "field": "progesterone receptor status",
+      "values": {
+        "progesterone receptor status: positive": 74,
+        "progesterone receptor status: negative": 54,
+        "progesterone receptor status: n/a": 2
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Progesterone",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE4779",
+      "n_samples_mentioning": 102,
+      "field": "Progesterone Receptor ",
+      "values": {
+        "Progesterone Receptor : Pn": 75,
+        "Progesterone Receptor : Pp": 25,
+        "Progesterone Receptor : P-": 2
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Progesterone",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE142058",
+      "n_samples_mentioning": 76,
+      "field": "progesterone",
+      "values": {
+        "progesterone: 0.5": 10,
+        "progesterone: 0.4": 9,
+        "progesterone: 0.3": 6,
+        "progesterone: 0.9": 4,
+        "progesterone: 0.2": 4,
+        "progesterone: 0.8": 3
+      },
+      "n_levels": 38
+    },
+    {
+      "drug": "Azacitidine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE212591",
+      "n_samples_mentioning": 54,
+      "field": "treatment",
+      "values": {
+        "treatment: Control": 18,
+        "treatment: Azacitidine-treated": 18,
+        "treatment: Decitabine-treated": 18
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Azacitidine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE274999",
+      "n_samples_mentioning": 52,
+      "field": "treatment",
+      "values": {
+        "treatment: Diagnosis": 18,
+        "treatment: injected azacitidine x 7 days": 18,
+        "treatment: injected azacitidine x 6 cycles plus with no drug": 8,
+        "treatment: oral azacitidine x 21 days": 8
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Azacitidine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE274997",
+      "n_samples_mentioning": 52,
+      "field": "treatment",
+      "values": {
+        "treatment: Diagnosis": 18,
+        "treatment: injected azacitidine x 7 days": 18,
+        "treatment: injected azacitidine x 6 cycles plus with no drug": 8,
+        "treatment: oral azacitidine x 21 days": 8
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Azacitidine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE184891",
+      "n_samples_mentioning": 24,
+      "field": "cell treatment",
+      "values": {
+        "cell treatment: No Treatment": 6,
+        "cell treatment: 1uM Azacitidine Treatment for 24h": 6,
+        "cell treatment: 1uM Azacitidine Treatment for 4 days": 6,
+        "cell treatment: 1uM Azacitidine Treatment for 8days": 6
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Prednisolone",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE40165",
+      "n_samples_mentioning": 241,
+      "field": "treated with",
+      "values": {
+        "treated with: low-dose (0.5mg/kg) of prednisolone": 124,
+        "treated with: high-dose (2mg/kg) of prednisolone": 117,
+        "treated with: placebo": 117
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Prednisolone",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE115525",
+      "n_samples_mentioning": 73,
+      "field": "prednisolone lc50",
+      "values": {
+        "prednisolone lc50: 0.0075": 21,
+        "prednisolone lc50: 1006": 7,
+        "prednisolone lc50: 0.027": 2,
+        "prednisolone lc50: 0.064": 2,
+        "prednisolone lc50: 0.021": 2,
+        "prednisolone lc50: 0.103": 2
+      },
+      "n_levels": 42
+    },
+    {
+      "drug": "Prednisolone",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE19143",
+      "n_samples_mentioning": 52,
+      "field": "clinical response factor",
+      "values": {
+        "clinical response factor: prednisolone sensitive": 27,
+        "clinical response factor: prednisolone resistant": 25
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Prednisolone",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE225858",
+      "n_samples_mentioning": 51,
+      "field": "treatment",
+      "values": {
+        "treatment: DMSO_0h": 17,
+        "treatment: 10uM_Predisolone_6h": 8,
+        "treatment: 10uM_Predisolone_24h": 8,
+        "treatment: Prednisolone (10mM) 2h": 5,
+        "treatment: Prednisolone (10mM) 18h": 5,
+        "treatment: DMSO_1h": 4
+      },
+      "n_levels": 17
+    },
+    {
+      "drug": "Melatonin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE253864",
+      "n_samples_mentioning": 527,
+      "field": "melatonin offset (decimal time)",
+      "values": {
+        "melatonin offset (decimal time): NA": 61,
+        "melatonin offset (decimal time): 1.41041666666667": 6,
+        "melatonin offset (decimal time): 1.41046185158333": 6,
+        "melatonin offset (decimal time): 1.409853984125": 6,
+        "melatonin offset (decimal time): 1.386485907625": 6,
+        "melatonin offset (decimal time): 1.39057319233333": 6
+      },
+      "n_levels": 109
+    },
+    {
+      "drug": "Melatonin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE48113",
+      "n_samples_mentioning": 287,
+      "field": "sleep timing",
+      "values": {
+        "sleep timing: In phase with respect to melatonin": 148,
+        "sleep timing: Out of phase with respect to melatonin": 139
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Melatonin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE113883",
+      "n_samples_mentioning": 153,
+      "field": "serum_melatonin",
+      "values": {
+        "serum_melatonin: 11.7": 2,
+        "serum_melatonin: 19.7": 2,
+        "serum_melatonin: 13.5": 2,
+        "serum_melatonin: 18.6": 2,
+        "serum_melatonin: 12.2": 2,
+        "serum_melatonin: 21.4": 2
+      },
+      "n_levels": 135
+    },
+    {
+      "drug": "Melatonin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE313629",
+      "n_samples_mentioning": 36,
+      "field": "treatment",
+      "values": {
+        "cell type: trophoblast-like cell": 20,
+        "treatment: no treatment": 4,
+        "treatment: vehicle control": 4,
+        "treatment: 1 nM melatonin": 4,
+        "treatment: 1000 nM melatonin": 4
+      },
+      "n_levels": 5
+    },
+    {
+      "drug": "Gemcitabine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE313748",
+      "n_samples_mentioning": 671,
+      "field": "treatment",
+      "values": {
+        "treatment: Gemcitabine/Nab-Paclitaxel plus Placebo": 250,
+        "treatment: Gemcitabine/Nab-Paclitaxel plus Oral Paricalcitol": 250,
+        "treatment: Gemcitabine/Nab-Paclitaxel plus IV Paricalcitol": 215,
+        "treatment: NA": 9
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Gemcitabine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE105083",
+      "n_samples_mentioning": 72,
+      "field": "treatment",
+      "values": {
+        "treatment: untreated": 16,
+        "treatment: CM03 6h": 8,
+        "treatment: CM03 24h": 8,
+        "treatment: gemcitabine 300nM 24h": 8,
+        "treatment: gemcitabine 30nM 24h": 8,
+        "treatment: gemcitabine 3uM 24h": 8
+      },
+      "n_levels": 15
+    },
+    {
+      "drug": "Gemcitabine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE174695",
+      "n_samples_mentioning": 63,
+      "field": "drug1",
+      "values": {
+        "drug1: DMSO": 66,
+        "drug1: Baricitinib": 63,
+        "drug1: Clofarabine": 63,
+        "drug1: Dovitinib": 63,
+        "drug1: Doxorubicin": 63,
+        "drug1: Fludarabine": 63
+      },
+      "n_levels": 20
+    },
+    {
+      "drug": "Gemcitabine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE207359",
+      "n_samples_mentioning": 48,
+      "field": "treatment",
+      "values": {
+        "treatment: media": 24,
+        "treatment: Gemcitabine": 24
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Cyclic AMP",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma"
+      ],
+      "gse": "GSE296787",
+      "n_samples_mentioning": 32,
+      "field": "treatment",
+      "values": {
+        "treatment: empty vector control": 8,
+        "treatment: empty vector control, Progesterone, estrodiol, cyclic AMP": 8,
+        "treatment: Foxc1 and Six1 transfected": 8,
+        "treatment: Foxc1 and Six1 transfected, Progesterone, estrodiol, cyclic AMP": 8,
+        "treatment: Foxc1 transfected": 8,
+        "treatment: Foxc1 transfected, progesterone, estrodiol, cyclic AMP": 8
+      },
+      "n_levels": 8
+    },
+    {
+      "drug": "Budesonide",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE134897",
+      "n_samples_mentioning": 188,
+      "field": "treatment group",
+      "values": {
+        "treatment group: Placebo": 274,
+        "treatment group: Budesonide": 188
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Budesonide",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE295743",
+      "n_samples_mentioning": 78,
+      "field": "treatment",
+      "values": {
+        "treatment: IL1B": 20,
+        "treatment: Budesonide": 20,
+        "treatment: NS": 19,
+        "treatment: IL1B + Budesonide": 19
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Budesonide",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE115830",
+      "n_samples_mentioning": 64,
+      "field": "treatment",
+      "values": {
+        "treatment: Control (non stimulated)": 16,
+        "treatment: Budesonide": 16,
+        "treatment: Formoterol": 16,
+        "treatment: Budesonide + Formoterol": 16
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Budesonide",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE94335",
+      "n_samples_mentioning": 34,
+      "field": "treatment",
+      "values": {
+        "treatment: budesonide": 17,
+        "treatment: vehicle": 17
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Troglitazone",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE299113",
+      "n_samples_mentioning": 478,
+      "field": "treatment",
+      "values": {
+        "treatment: DMSO control 24h in HepaRG cells": 60,
+        "treatment: Rotenone|0.2uM|DTXSID6021248 for 24h in HepaRG cells": 20,
+        "treatment: Rotenone|0.4uM|DTXSID6021248 for 24h in HepaRG cells": 20,
+        "treatment: Rotenone|0.8uM|DTXSID6021248 for 24h in HepaRG cells": 20,
+        "treatment: Troglitazone|0.001uM|DTXSID8023719 for 24h in HepaRG cells": 20,
+        "treatment: tert-Butylhydroquinone|3.0uM|DTXSID6020220 for 24h in HepaRG cells": 20
+      },
+      "n_levels": 22
+    },
+    {
+      "drug": "Troglitazone",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE249377",
+      "n_samples_mentioning": 120,
+      "field": "treatment",
+      "values": {
+        "treatment: untreated": 165,
+        "treatment: 6h exposure of 1 uM of Trichostatin A": 75,
+        "treatment: 0.5% DMSO vehicle control": 60,
+        "treatment: 6h exposure of 10 uM of Genistein": 45,
+        "treatment: 6h exposure of 0.1 uM of Sirolimus": 45,
+        "treatment: 12h exposure of 0.03 uM of Fulvestrant": 6
+      },
+      "n_levels": 1061
+    },
+    {
+      "drug": "Troglitazone",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE272576",
+      "n_samples_mentioning": 48,
+      "field": "chemical",
+      "values": {
+        "chemical: DMSO": 80,
+        "chemical: water": 64,
+        "chemical: acetaminophen": 48,
+        "chemical: aflatoxin B1": 48,
+        "chemical: rosiglitazone": 48,
+        "chemical: troglitazone": 48
+      },
+      "n_levels": 18
+    },
+    {
+      "drug": "Bevacizumab",
+      "diseases": [
+        "ankylosing spondylitis",
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE196576",
+      "n_samples_mentioning": 363,
+      "field": "treatment group",
+      "values": {
+        "treatment group: Bevacizumab": 235,
+        "treatment group: Cetuximab": 216,
+        "treatment group: Bevacizumab/Cetuximab": 128
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Bevacizumab",
+      "diseases": [
+        "ankylosing spondylitis",
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE140082",
+      "n_samples_mentioning": 199,
+      "field": "treatment",
+      "values": {
+        "treatment: bevacizumab": 199,
+        "treatment: standard": 181
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Bevacizumab",
+      "diseases": [
+        "ankylosing spondylitis",
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE72951",
+      "n_samples_mentioning": 112,
+      "field": "treatment",
+      "values": {
+        "treatment: BC 90/110 (combination treatment of beva and CCNU)": 43,
+        "treatment: CCNU (Lomustine) monotherapy": 34,
+        "treatment: Beva (bevacizumab monotherapy)": 33
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Bevacizumab",
+      "diseases": [
+        "ankylosing spondylitis",
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE150604",
+      "n_samples_mentioning": 57,
+      "field": "treatment",
+      "values": {
+        "treatment: Placebo": 173,
+        "treatment: Bevacizumab": 166
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Bevacizumab",
+      "diseases": [
+        "ankylosing spondylitis",
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE142308",
+      "n_samples_mentioning": 41,
+      "field": "patient treatment",
+      "values": {
+        "patient treatment: letrozole + bevacizumab": 26,
+        "patient treatment: letrozole": 15
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Thalidomide",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE136337",
+      "n_samples_mentioning": 412,
+      "field": "imids",
+      "values": {
+        "imids: Thalidomide": 344,
+        "imids: THALIDOMIDE 2003-33": 22,
+        "imids: THALIDOMIDE": 13,
+        "imids: THALIDOMIDE (INVESTIGATIONAL)": 12,
+        "imids: Revlimid (Lenalidomide)": 8,
+        "imids: Revlimid (Lenalidomide) / Thalidomide": 7
+      },
+      "n_levels": 16
+    },
+    {
+      "drug": "Thalidomide",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE136324",
+      "n_samples_mentioning": 280,
+      "field": "imids",
+      "values": {
+        "imids: Thalidomide": 708,
+        "imids: THALIDOMIDE 2003-33": 47,
+        "imids: THALIDOMIDE": 32,
+        "imids: THALIDOMIDE (INVESTIGATIONAL)": 23,
+        "imids: Revlimid (Lenalidomide) / Thalidomide": 12,
+        "imids: Revlimid (Lenalidomide)": 9
+      },
+      "n_levels": 16
+    },
+    {
+      "drug": "Thalidomide",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE8546",
+      "n_samples_mentioning": 84,
+      "field": "characteristic",
+      "values": {
+        "human myeloma cell  P0075 dexamethasone pre-treatment": 1,
+        "human myeloma cell  P0084 thalidomide pre-treatment": 1,
+        "human myeloma cell  P0099 dexamethasone pre-treatment": 1,
+        "human myeloma cell  P0175 dexamethasone pre-treatment": 1,
+        "human myeloma cell  P0202 thalidomide pre-treatment": 1,
+        "human myeloma cell  P0237 thalidomide pre-treatment": 1
+      },
+      "n_levels": 229
+    },
+    {
+      "drug": "Thalidomide",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE95375",
+      "n_samples_mentioning": 24,
+      "field": "treated with",
+      "values": {
+        "treated with: DMSO for 3hr": 6,
+        "treated with: Thalidomide (1000 nmol/L) for 3hr": 6,
+        "treated with: BETi-211 (1000 nmol/L) for 3hr": 6,
+        "treated with: BETd-246 (100 nmol/L) for 3 hr": 6
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Aspirin",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE48988",
+      "n_samples_mentioning": 178,
+      "field": "aspirin",
+      "values": {
+        "aspirin: user": 91,
+        "aspirin: nonuser": 87
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Aspirin",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE158765",
+      "n_samples_mentioning": 136,
+      "field": "treatment_drug_label",
+      "values": {
+        "treatment_drug_label: none": 131,
+        "treatment_drug_label: 325 mg Aspirin": 69,
+        "treatment_drug_label: 81 mg Aspirin": 67,
+        "treatment_drug_label: 180 mg Ticagrelor": 57
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Aspirin",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE324265",
+      "n_samples_mentioning": 125,
+      "field": "aspirin",
+      "values": {
+        "aspirin: no": 91,
+        "aspirin: yes": 34
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Aspirin",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE142257",
+      "n_samples_mentioning": 124,
+      "field": "aspirin",
+      "values": {
+        "aspirin: longterm": 74,
+        "aspirin: nonuser": 50
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Aspirin",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE175616",
+      "n_samples_mentioning": 123,
+      "field": "treatment",
+      "values": {
+        "treatment: Placebo": 64,
+        "treatment: Aspirin+Zileuton": 59
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Niclosamide",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE262673",
+      "n_samples_mentioning": 12,
+      "field": "treatment",
+      "values": {
+        "treatment: DMSO 16 hours": 3,
+        "treatment: 0.3uM disulfiram / 1uM copper 16 hours": 3,
+        "treatment: 5uM niclosamide 16 hours": 3,
+        "treatment: 5uM niclosamide and 0.3uM disulfiram / 1uM copper 16 hours": 3
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Niclosamide",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE77322",
+      "n_samples_mentioning": 9,
+      "field": "treatment",
+      "values": {
+        "treatment: NEN (200 mg/kg) mixed in autoclaved food": 3,
+        "treatment: regular food": 3,
+        "treatment: DMSO control": 1,
+        "treatment: 10\u03bcM of NEN": 1,
+        "treatment: 10\u03bcM of niclosamide": 1
+      },
+      "n_levels": 5
+    },
+    {
+      "drug": "Niclosamide",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE306717",
+      "n_samples_mentioning": 8,
+      "field": "treatment",
+      "values": {
+        "treatment: DMSO control": 2,
+        "treatment: niclosamide 1 \u00b5M": 2,
+        "treatment: Sunitinib 2.5 \u00b5M": 2,
+        "treatment: niclosamide 1 \u00b5M + Sunitinib 2.5 \u00b5M": 2
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Niclosamide",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE155855",
+      "n_samples_mentioning": 8,
+      "field": "compound treatment",
+      "values": {
+        "compound treatment: Bendamustine_Dose1_Rep1": 1,
+        "compound treatment: Tacrolimus_Dose1_Rep1": 1,
+        "compound treatment: Dexamethasone_Dose1_Rep1": 1,
+        "compound treatment: Temozolomide_Dose1_Rep1": 1,
+        "compound treatment: Thalidomide_Dose1_Rep1": 1,
+        "compound treatment: PHA793887_Dose1_Rep1": 1
+      },
+      "n_levels": 1536
+    },
+    {
+      "drug": "Infliximab",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma",
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE78068",
+      "n_samples_mentioning": 140,
+      "field": "sampling point",
+      "values": {
+        "sampling point: Before infliximab administration": 140,
+        "sampling point: Before tocilizumab administration": 38,
+        "sampling point: Before abatacept administration": 31
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Infliximab",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma",
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE270661",
+      "n_samples_mentioning": 119,
+      "field": "treatment",
+      "values": {
+        "treatment: basal": 60,
+        "treatment: infliximab": 59
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Infliximab",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma",
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE270662",
+      "n_samples_mentioning": 119,
+      "field": "treatment",
+      "values": {
+        "treatment: basal": 60,
+        "treatment: infliximab": 59
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Infliximab",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma",
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE16879",
+      "n_samples_mentioning": 103,
+      "field": "response to infliximab",
+      "values": {
+        "response to infliximab: No": 66,
+        "response to infliximab: Yes": 55,
+        "response to infliximab: Not applicable": 12
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Infliximab",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma",
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE45468",
+      "n_samples_mentioning": 99,
+      "field": "treatment",
+      "values": {
+        "treatment: Placebo": 117,
+        "treatment: Infliximab": 99
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Infliximab",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma",
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE42296",
+      "n_samples_mentioning": 78,
+      "field": "treatment",
+      "values": {
+        "treatment: Before treatment": 39,
+        "treatment: infliximab": 39
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Caffeine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE37210",
+      "n_samples_mentioning": 143,
+      "field": "agent",
+      "values": {
+        "agent: Untreated": 72,
+        "agent: Caffeine": 71
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Caffeine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE196369",
+      "n_samples_mentioning": 96,
+      "field": "treatment",
+      "values": {
+        "treatment: Novobiocin (NOV)": 33,
+        "treatment: Nitrofurantoin (NIT)": 27,
+        "treatment: Metronidazole (MTZ)": 27,
+        "treatment: Bleomycin (BL, Positive Control)": 3,
+        "treatment: Caffeine (CA; Negative Control)": 3,
+        "treatment: Ionizing Radiation (IR; positive control)": 3
+      },
+      "n_levels": 6
+    },
+    {
+      "drug": "Caffeine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE272576",
+      "n_samples_mentioning": 48,
+      "field": "chemical",
+      "values": {
+        "chemical: DMSO": 80,
+        "chemical: water": 64,
+        "chemical: acetaminophen": 48,
+        "chemical: aflatoxin B1": 48,
+        "chemical: rosiglitazone": 48,
+        "chemical: troglitazone": 48
+      },
+      "n_levels": 18
+    },
+    {
+      "drug": "Caffeine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE292909",
+      "n_samples_mentioning": 47,
+      "field": "treatment",
+      "values": {
+        "treatment: nicotine": 14,
+        "treatment: ethanol": 14,
+        "treatment: caffeine": 13,
+        "treatment: control": 6
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Pioglitazone",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE37824",
+      "n_samples_mentioning": 79,
+      "field": "sample type",
+      "values": {
+        "sample type: Peripheral plaque. LEAP study. Simvastatin arm.": 99,
+        "sample type: Peripheral plaque. LEAP study. Pioglitazone arm.": 79,
+        "sample type: Peripheral plaque. LEAP study. Losartan arm.": 71
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Pioglitazone",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE217421",
+      "n_samples_mentioning": 22,
+      "field": "drug name",
+      "values": {
+        "drug name: DMSO": 63,
+        "drug name: Daunorubicin": 24,
+        "drug name: Delavirdine": 24,
+        "drug name: Diclofenac": 24,
+        "drug name: Ruxolitinib": 24,
+        "drug name: Azacytidine": 23
+      },
+      "n_levels": 55
+    },
+    {
+      "drug": "Pomalidomide",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE330399",
+      "n_samples_mentioning": 100,
+      "field": "treatment",
+      "values": {
+        "treatment: No Treatment": 12,
+        "treatment: DMSO": 11,
+        "treatment: Zelbrudomide": 11,
+        "treatment: Bexobrutidig": 11,
+        "treatment: Pomalidomide": 11,
+        "treatment: Venetoclax": 11
+      },
+      "n_levels": 9
+    },
+    {
+      "drug": "Pomalidomide",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE150341",
+      "n_samples_mentioning": 24,
+      "field": "pharmacologic treatment type",
+      "values": {
+        "pharmacologic treatment type: DMSO": 8,
+        "pharmacologic treatment type: Pomalidomide": 4,
+        "pharmacologic treatment type: UNC0638": 4,
+        "pharmacologic treatment type: Pomalidomide 1 uM (high dose)": 4,
+        "pharmacologic treatment type: Pomalidomide 0.1 uM (low dose)": 4
+      },
+      "n_levels": 5
+    },
+    {
+      "drug": "Pomalidomide",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE126463",
+      "n_samples_mentioning": 21,
+      "field": "treatment",
+      "values": {
+        "treatment: Non-treated": 12,
+        "treatment: 1 uM pomalidomide for 24 hours": 3,
+        "treatment: 1 uM pomalidomide for 48 hours": 3,
+        "treatment: 1 uM pomalidomide for 72 hours": 3
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Prednisone",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE224705",
+      "n_samples_mentioning": 448,
+      "field": "prednisone_dosis",
+      "values": {
+        "prednisone_dosis: 0": 260,
+        "prednisone_dosis: 5": 70,
+        "prednisone_dosis: 10": 36,
+        "prednisone_dosis: NA": 20,
+        "prednisone_dosis: 2.5": 15,
+        "prednisone_dosis: 20": 12
+      },
+      "n_levels": 13
+    },
+    {
+      "drug": "Prednisone",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE73578",
+      "n_samples_mentioning": 133,
+      "field": "prednisone poor responder",
+      "values": {
+        "all subtype for analysis: ETV6/RUNX1": 43,
+        "all subtype for analysis: other_preB-ALL": 31,
+        "all subtype for analysis: T-ALL": 27,
+        "all subtype for analysis: Hyperdiploid": 23,
+        "prednisone poor responder: FALSE": 6,
+        "prednisone poor responder: TRUE": 3
+      },
+      "n_levels": 6
+    },
+    {
+      "drug": "Prednisone",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE77344",
+      "n_samples_mentioning": 115,
+      "field": "prednisone status",
+      "values": {
+        "prednisone status: -": 103,
+        "prednisone status: NA": 38,
+        "prednisone status: +": 31
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Prednisone",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE226147",
+      "n_samples_mentioning": 69,
+      "field": "prednisone",
+      "values": {
+        "prednisone: 0": 39,
+        "prednisone: NA": 18,
+        "prednisone: 1": 12
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Isoniazid",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE122837",
+      "n_samples_mentioning": 42,
+      "field": "sampling time",
+      "values": {
+        "sampling time: Before isoniazid treatment": 14,
+        "sampling time: 1 month isoniazid treatment": 14,
+        "sampling time: 6 month isoniazid treatment": 14
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Isoniazid",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE262419",
+      "n_samples_mentioning": 12,
+      "field": "treatment",
+      "values": {
+        "treatment: VEH_0_uM": 192,
+        "treatment: Media_0_uM": 80,
+        "treatment: ET-1_0.01_uM": 48,
+        "treatment: Blank_0_uM": 32,
+        "treatment: Isoniazid_0.2_uM": 4,
+        "treatment: Isoniazid_1_uM": 4
+      },
+      "n_levels": 1390
+    },
+    {
+      "drug": "Isoniazid",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE279945",
+      "n_samples_mentioning": 6,
+      "field": "treatment",
+      "values": {
+        "treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, Atorvastatin, Ganetespib (STA-9090), Clomipramine, Sunitinib, Tivozanib, Tamatinib, TIE2 Kinase Inhibitor, MK-5108, Lapatinib": 6,
+        "treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, 5-(9-Isopropyl-8-methyl-2-morpholino-9H-purin-6-yl)pyrimidin-2-amine, O-Demethylated Adapalene, Protriptyline, I-BET151, Foretinib, GW843682X, CGP 60474, Ixabepilone, Linagliptin": 6,
+        "treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, Topotecan, BAY 87-2243, Phenylbutazone, K-02288, BMS-777607, Porcn Inhibitor III, BMS-387032, IN1451, Raloxifene": 6,
+        "treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, BMS-265246, Ruxolitinib, Pomalidomide, Dovitinib, AVL-292, Navitoclax, TL_HRAS26, Proscillaridin A;Proscillaridin-A, Vorinostat": 6,
+        "treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, AMD-070 (hydrochloride), Sgc-cbp30, FK 866, Chlorpheniramine, Scriptaid, BAY 61-3606, Methotrexate, Palbociclib, Trametinib": 6,
+        "treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, AT13387, PF-04691502, Perhexiline, UNII-BXU45ZH6LI, RVX-208, Ketoconazole, LY2090314, Vardenafil, Dasatinib": 6
+      },
+      "n_levels": 17
+    },
+    {
+      "drug": "Simvastatin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE37824",
+      "n_samples_mentioning": 83,
+      "field": "sample type",
+      "values": {
+        "sample type: Peripheral plaque. LEAP study. Simvastatin arm.": 99,
+        "sample type: Peripheral plaque. LEAP study. Pioglitazone arm.": 79,
+        "sample type: Peripheral plaque. LEAP study. Losartan arm.": 71
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Simvastatin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE51444",
+      "n_samples_mentioning": 48,
+      "field": "treated with",
+      "values": {
+        "treated with: sham buffer for 24 h": 26,
+        "treated with: 2 \u00b5M activated simvastatin for 24 h": 22
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Simvastatin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE297728",
+      "n_samples_mentioning": 16,
+      "field": "treatment",
+      "values": {
+        "treatment: DMSO": 4,
+        "treatment: Simvastatin": 4,
+        "treatment: Irinotecan": 4,
+        "treatment: Simvastatin + Irinotecan": 4
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Simvastatin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE191092",
+      "n_samples_mentioning": 11,
+      "field": "treatment",
+      "values": {
+        "treatment: 0 nM simvastatin": 4,
+        "treatment: 500 nM simvastatin": 4,
+        "treatment: 2000 nM simvastatin": 3
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Sirolimus",
+      "diseases": [
+        "ankylosing spondylitis",
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE120242",
+      "n_samples_mentioning": 102,
+      "field": "treatment",
+      "values": {
+        "treatment: Untreated": 34,
+        "treatment: Sirolimus (10 ng/ml) for 48 hours": 34,
+        "treatment: Sirolimus (50 ng/ml) for 48 hours": 34
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Sirolimus",
+      "diseases": [
+        "ankylosing spondylitis",
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE249377",
+      "n_samples_mentioning": 45,
+      "field": "treatment",
+      "values": {
+        "treatment: untreated": 165,
+        "treatment: 6h exposure of 1 uM of Trichostatin A": 75,
+        "treatment: 0.5% DMSO vehicle control": 60,
+        "treatment: 6h exposure of 10 uM of Genistein": 45,
+        "treatment: 6h exposure of 0.1 uM of Sirolimus": 45,
+        "treatment: 12h exposure of 0.03 uM of Fulvestrant": 6
+      },
+      "n_levels": 1061
+    },
+    {
+      "drug": "Spironolactone",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE70822",
+      "n_samples_mentioning": 9,
+      "field": "agent",
+      "values": {
+        "agent: aldosterone": 3,
+        "agent: spironolactone": 3,
+        "agent: untreated/vehicle": 3
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Spironolactone",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE151321",
+      "n_samples_mentioning": 6,
+      "field": "treatment",
+      "values": {
+        "treatment: Vehicle": 1,
+        "treatment: Aldosterone": 1,
+        "treatment: Finerenone": 1,
+        "treatment: Spironolactone": 1,
+        "treatment: Aldosterone and Finerenone": 1,
+        "treatment: Aldosterone and Spironolactone": 1
+      },
+      "n_levels": 6
+    },
+    {
+      "drug": "Apigenin",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE158377",
+      "n_samples_mentioning": 28,
+      "field": "treatment",
+      "values": {
+        "treatment: Control": 14,
+        "treatment: Apigenin": 14
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Apigenin",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE119552",
+      "n_samples_mentioning": 16,
+      "field": "treatment",
+      "values": {
+        "treatment: solvent 24h": 4,
+        "treatment: Zearalenone 24h": 4,
+        "treatment: E2 24h": 4,
+        "treatment: Apigenin 24h": 4
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Apigenin",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE120550",
+      "n_samples_mentioning": 12,
+      "field": "treatment",
+      "values": {
+        "treatment: none (untreated control)": 3,
+        "treatment: TNF\u0251 40 ng/ml": 3,
+        "treatment: apigenin 40 \u03bcM": 3,
+        "treatment: TNF\u0251 40 ng/ml + Apigenin 40 \u03bcM": 3
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Apigenin",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE133968",
+      "n_samples_mentioning": 11,
+      "field": "treatment",
+      "values": {
+        "treatment: none": 3,
+        "treatment: TNF\u0251 40 ng/ml": 3,
+        "treatment: TNF\u0251 40 ng/ml + Apigenin 40 \u03bcM": 3,
+        "treatment: apigenin 40 \u03bcM": 2
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Apigenin",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE7403",
+      "n_samples_mentioning": 10,
+      "field": "characteristic",
+      "values": {
+        "SH-SY5Y cells treated with DMSO for 1h, then with 50ng/ml PDGF for 0.5h.": 2,
+        "SH-SY5Y cells treated with 50 mM U0126 for 1h, then with 50ng/ml PDGF for 0.5h.": 2,
+        "SH-SY5Y cells treated with 74 mM Apigenin for 1h, then with 50ng/ml PDGF for 0.5h.": 2,
+        "SH-SY5Y cells treated with DMSO for 1h, then with water for 0.5h.": 2,
+        "SH-SY5Y cells treated with DMSO for 1h, then with 50ng/ml PDGF for 1h.": 2,
+        "SH-SY5Y cells treated with 50 mM U0126 for 1h, then with 50ng/ml PDGF for 1h.": 2
+      },
+      "n_levels": 20
+    },
+    {
+      "drug": "Apigenin",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE273159",
+      "n_samples_mentioning": 9,
+      "field": "treatment",
+      "values": {
+        "treatment: None": 3,
+        "treatment: Bleomycin": 3,
+        "treatment: Bleomycin/apigenin": 3
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Baricitinib",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE174695",
+      "n_samples_mentioning": 63,
+      "field": "drug1",
+      "values": {
+        "drug1: DMSO": 66,
+        "drug1: Baricitinib": 63,
+        "drug1: Clofarabine": 63,
+        "drug1: Dovitinib": 63,
+        "drug1: Doxorubicin": 63,
+        "drug1: Fludarabine": 63
+      },
+      "n_levels": 20
+    },
+    {
+      "drug": "Baricitinib",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE161664",
+      "n_samples_mentioning": 37,
+      "field": "treatment",
+      "values": {
+        "treatment: Control": 4,
+        "treatment: Baricitinib": 3,
+        "treatment: Growth hormone": 3,
+        "treatment: IFNa": 3,
+        "treatment: IFNb_Baricitinib": 3,
+        "treatment: IFNb": 3
+      },
+      "n_levels": 12
+    },
+    {
+      "drug": "Baricitinib",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE292720",
+      "n_samples_mentioning": 24,
+      "field": "treatment",
+      "values": {
+        "treatment: Baricitinib 5\u03bcM + RVFV": 6,
+        "treatment: Baricitinib 5\u03bcM + Mock": 6,
+        "treatment: Vehicle + RVFV": 6,
+        "treatment: Vehicle + Mock": 6
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Baricitinib",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE232044",
+      "n_samples_mentioning": 16,
+      "field": "treatment",
+      "values": {
+        "treatment: untreated": 4,
+        "treatment: 10nM Baricitinib-treated": 4,
+        "treatment: 10nM Upadacitinib-treated": 4,
+        "treatment: 100nM Upadacitinib-treated": 4
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Carbamazepine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE54254",
+      "n_samples_mentioning": 96,
+      "field": "treatment",
+      "values": {
+        "treatment: DMSO 14hr": 4,
+        "treatment: DMSO 8hr + TNFalpha 1h": 4,
+        "treatment: DMSO 8hr + TNFalpha 6h": 4,
+        "treatment: Diclofenac 14hr": 4,
+        "treatment: Diclofenac 8hr + BSA 1h": 4,
+        "treatment: Diclofenac 8hr + BSA 6h": 4
+      },
+      "n_levels": 27
+    },
+    {
+      "drug": "Carbamazepine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE64123",
+      "n_samples_mentioning": 26,
+      "field": "exposure",
+      "values": {
+        "exposure: valproic acid": 28,
+        "exposure: unexposed": 27,
+        "exposure: carbamazepine": 26,
+        "exposure: DMSO": 12
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Carbamazepine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE143272",
+      "n_samples_mentioning": 19,
+      "field": "treatment",
+      "values": {
+        "treatment: -": 51,
+        "treatment: Drug-na\u00efve": 34,
+        "treatment: Valproate": 25,
+        "treatment: Carbamazepine": 19,
+        "treatment: Phenytoin": 13
+      },
+      "n_levels": 5
+    },
+    {
+      "drug": "Carbamazepine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE183534",
+      "n_samples_mentioning": 12,
+      "field": "compound_name",
+      "values": {
+        "compound_name: DMSO": 240,
+        "compound_name: Ibuprofen": 36,
+        "compound_name: Amoxycillin": 24,
+        "compound_name: Ascorbic acid": 24,
+        "compound_name: Cetirizine": 24,
+        "compound_name: Dexamethasone": 24
+      },
+      "n_levels": 52
+    },
+    {
+      "drug": "Carbamazepine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE137254",
+      "n_samples_mentioning": 11,
+      "field": "treatment",
+      "values": {
+        "treatment: control": 3,
+        "treatment: Valproate": 2,
+        "treatment: Lithium": 2,
+        "treatment: Carbamazepine": 2,
+        "treatment: DMSO": 2
+      },
+      "n_levels": 5
+    },
+    {
+      "drug": "Fluorouracil",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE50948",
+      "n_samples_mentioning": 156,
+      "field": "necrotic_cells [%]",
+      "values": {
+        "necrotic_cells [%]: 0": 85,
+        "necrotic_cells [%]: 5": 21,
+        "necrotic_cells [%]: 1": 13,
+        "necrotic_cells [%]: 10": 12,
+        "necrotic_cells [%]: 2": 10,
+        "necrotic_cells [%]: 20": 4
+      },
+      "n_levels": 13
+    },
+    {
+      "drug": "Fluorouracil",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE30070",
+      "n_samples_mentioning": 132,
+      "field": "treatment",
+      "values": {
+        "treatment: none": 124,
+        "treatment: cisplatin/fluorouracil chemotherapy": 8
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Fluorouracil",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE244740",
+      "n_samples_mentioning": 24,
+      "field": "treatment",
+      "values": {
+        "treatment: DMSO, Con0": 536,
+        "treatment: Sunitinib, Con8": 57,
+        "treatment: Sunitinib, Con7": 57,
+        "treatment: Sunitinib, Con6": 57,
+        "treatment: Sunitinib, Con5": 57,
+        "treatment: Sunitinib, Con4": 57
+      },
+      "n_levels": 338
+    },
+    {
+      "drug": "Rifampicin",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma"
+      ],
+      "gse": "GSE24186",
+      "n_samples_mentioning": 71,
+      "field": "characteristic",
+      "values": {
+        "control for: Rosuvastatin & LK935": 8,
+        "control for: Rifampicin": 7,
+        "control for: Atorvastatin & LK980": 5
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Rifampicin",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma"
+      ],
+      "gse": "GSE24187",
+      "n_samples_mentioning": 40,
+      "field": "agent",
+      "values": {
+        "agent: Atorvastatin": 12,
+        "agent: Rifampicin": 12,
+        "agent: Rosuvastatin": 10,
+        "agent: Untreated": 6
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Rifampicin",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma"
+      ],
+      "gse": "GSE108100",
+      "n_samples_mentioning": 24,
+      "field": "treatment",
+      "values": {
+        "treatment: Placebo": 12,
+        "treatment: rifampicin": 12
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Rifampicin",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma"
+      ],
+      "gse": "GSE90122",
+      "n_samples_mentioning": 24,
+      "field": "treatment",
+      "values": {
+        "treatment: 48hr treatment of DMSO": 3,
+        "treatment: 48hr treatment of 1 \u03bcM rifampicin": 3,
+        "treatment: 48hr treatment of 100 nM SR12813": 3,
+        "treatment: 48hr treatment of 30 nM TO90137": 3,
+        "treatment: 48hr treatment of 2.5 \u03bcM SPA70": 3,
+        "treatment: 48hr treatment of 1 \u03bcM rifampicin with 2.5 \u03bcM SPA70": 3
+      },
+      "n_levels": 8
+    },
+    {
+      "drug": "Hydroxychloroquine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE65391",
+      "n_samples_mentioning": 842,
+      "field": "hydroxychloroquine_category",
+      "values": {
+        "hydroxychloroquine_category: 1": 826,
+        "hydroxychloroquine_category: 0": 97,
+        "hydroxychloroquine_category: Not Applicable": 72,
+        "hydroxychloroquine_category: Data Not Available": 1
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Hydroxychloroquine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE275078",
+      "n_samples_mentioning": 136,
+      "field": "treatment",
+      "values": {
+        "treatment: VSP34I-Alone": 12,
+        "treatment: Hydroxychloroquine-Alone": 12,
+        "treatment: AZD0364-Hydroxychloroquine": 4,
+        "treatment: Ulixertinib-Hydroxychloroquine": 4,
+        "treatment: Dabrafenib-VSP34I": 4,
+        "treatment: Binimetinib-Hydroxychloroquine": 4
+      },
+      "n_levels": 34
+    },
+    {
+      "drug": "Hydroxychloroquine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE226206",
+      "n_samples_mentioning": 102,
+      "field": "hydroxychloroquine treatment",
+      "values": {
+        "hydroxychloroquine treatment: 0": 69,
+        "hydroxychloroquine treatment: 1": 33
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Hydroxychloroquine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE226147",
+      "n_samples_mentioning": 69,
+      "field": "hydroxychloroquine",
+      "values": {
+        "hydroxychloroquine: 1": 41,
+        "hydroxychloroquine: NA": 18,
+        "hydroxychloroquine: 0": 10
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Dupilumab",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE130588",
+      "n_samples_mentioning": 208,
+      "field": "treatment",
+      "values": {
+        "treatment: Dupilumab": 105,
+        "treatment: Placebo": 83,
+        "treatment: NA": 20
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Dupilumab",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE267331",
+      "n_samples_mentioning": 172,
+      "field": "treatment",
+      "values": {
+        "treatment: Dupilumab": 116,
+        "treatment: Placebo": 56
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Dupilumab",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE157194",
+      "n_samples_mentioning": 40,
+      "field": "tissue",
+      "values": {
+        "tissue: skin": 111,
+        "therapy: dupilumab": 40,
+        "therapy: cyclosporine": 15
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Dupilumab",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE326320",
+      "n_samples_mentioning": 36,
+      "field": "treatment",
+      "values": {
+        "treatment: Na\u00efve to biological treatment": 18,
+        "treatment: Responder to dupilumab": 13,
+        "treatment: Non-responder to dupilumab": 5
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Dupilumab",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE59294",
+      "n_samples_mentioning": 35,
+      "field": "treatment",
+      "values": {
+        "treatment: B Dupilumab 150 mg": 18,
+        "treatment: C Dupilumab 300 mg": 17,
+        "treatment: D Placebo": 5
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Celecoxib",
+      "diseases": [
+        "ankylosing spondylitis",
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE59671",
+      "n_samples_mentioning": 52,
+      "field": "nsaid treatment",
+      "values": {
+        "nsaid treatment: none": 20,
+        "nsaid treatment: celecoxib": 16,
+        "nsaid treatment: rofecoxib": 16
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Celecoxib",
+      "diseases": [
+        "ankylosing spondylitis",
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE145650",
+      "n_samples_mentioning": 32,
+      "field": "treatment",
+      "values": {
+        "treatment: DMSO": 8,
+        "treatment: 4OHT 100 nM": 8,
+        "treatment: Celecoxib 10 uM": 8,
+        "treatment: 4OHT 100 nM + Celecoxib 10 uM": 8
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Celecoxib",
+      "diseases": [
+        "ankylosing spondylitis",
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE220643",
+      "n_samples_mentioning": 12,
+      "field": "treatment",
+      "values": {
+        "treatment: Vehicle (0.1% DMSO)": 3,
+        "treatment: 20 ng/mL of TGF-beta (0.1% DMSO)": 3,
+        "treatment: combination of 10uM of celecoxib plus 20 ng/mL of TGF-beta (0.1% DMSO)": 3,
+        "treatment: combination of 10uM of 2,5-dimethyl-celecoxib plus 20 ng/mL of TGF-beta (0.1% DMSO)": 3
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Phenobarbital",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE69845",
+      "n_samples_mentioning": 9,
+      "field": "chemical treatment",
+      "values": {
+        "chemical treatment: DMSO": 45,
+        "chemical treatment: Clofibrate": 17,
+        "chemical treatment: Bisphenol A": 10,
+        "chemical treatment: Desferrioxamine": 9,
+        "chemical treatment: DHP": 9,
+        "chemical treatment: Trenbolone": 9
+      },
+      "n_levels": 35
+    },
+    {
+      "drug": "Phenobarbital",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE69849",
+      "n_samples_mentioning": 9,
+      "field": "chemical treatment",
+      "values": {
+        "chemical treatment: DMSO": 57,
+        "chemical treatment: 6 Aminonicotinamide": 9,
+        "chemical treatment: Amoxicillin": 9,
+        "chemical treatment: ANIT": 9,
+        "chemical treatment: Bisphenol A": 9,
+        "chemical treatment: Imidacloprid": 9
+      },
+      "n_levels": 35
+    },
+    {
+      "drug": "Phenobarbital",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE69850",
+      "n_samples_mentioning": 9,
+      "field": "chemical treatment",
+      "values": {
+        "chemical treatment: DMSO": 39,
+        "chemical treatment: DHP": 9,
+        "chemical treatment: Trenbolone": 9,
+        "chemical treatment: Tamoxifen": 9,
+        "chemical treatment: Chenodeoxychobe Acid": 9,
+        "chemical treatment: Imidacloprid": 9
+      },
+      "n_levels": 38
+    },
+    {
+      "drug": "Tretinoin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE269880",
+      "n_samples_mentioning": 4,
+      "field": "treatment",
+      "values": {
+        "treatment: DMSO": 1,
+        "treatment: tretinoin": 1,
+        "treatment: encorafenib/binimetinib": 1,
+        "treatment: tretinoin/encorafenib/binimetinib": 1
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Tretinoin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE269881",
+      "n_samples_mentioning": 4,
+      "field": "treatment",
+      "values": {
+        "treatment: DMSO": 1,
+        "treatment: tretinoin": 1,
+        "treatment: encorafenib/binimetinib": 1,
+        "treatment: tretinoin/encorafenib/binimetinib": 1
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Tretinoin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE199800",
+      "n_samples_mentioning": 4,
+      "field": "treatment",
+      "values": {
+        "treatment: DMSO": 108,
+        "treatment: UNTREATED": 108,
+        "treatment: Azacitidine": 6,
+        "treatment: Lapatinib": 4,
+        "treatment: Bendamustine": 4,
+        "treatment: Cisplatin": 4
+      },
+      "n_levels": 432
+    },
+    {
+      "drug": "Nitric Oxide",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE184433",
+      "n_samples_mentioning": 46,
+      "field": "blood neutrophil count (cells/ul)",
+      "values": {
+        "fractional exhaled nitric oxide feno (ppb): 9": 3,
+        "blood neutrophil count (cells/ul): 8316": 3,
+        "fractional exhaled nitric oxide feno (ppb): 40": 3,
+        "blood neutrophil count (cells/ul): 5978": 3,
+        "fractional exhaled nitric oxide feno (ppb): 29": 3,
+        "fractional exhaled nitric oxide feno (ppb): 25": 2
+      },
+      "n_levels": 35
+    },
+    {
+      "drug": "Triamcinolone",
+      "diseases": [
+        "asthma",
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE136034",
+      "n_samples_mentioning": 71,
+      "field": "treatment",
+      "values": {
+        "treatment: DMSO(Veh control) for 4 hours": 40,
+        "treatment: 100 nM triamcinolone acetonide(TA) for 4 hours.": 31
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Triamcinolone",
+      "diseases": [
+        "asthma",
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE109440",
+      "n_samples_mentioning": 18,
+      "field": "cell type",
+      "values": {
+        "cell type: Monocytes": 16,
+        "cell type: Macrophages": 16,
+        "donor: Buffycoat 9": 4,
+        "donor: Buffycoat 12": 4,
+        "donor: Buffycoat 27": 4,
+        "donor: Buffycoat 28": 4
+      },
+      "n_levels": 12
+    },
+    {
+      "drug": "Triamcinolone",
+      "diseases": [
+        "asthma",
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE262419",
+      "n_samples_mentioning": 9,
+      "field": "treatment",
+      "values": {
+        "treatment: VEH_0_uM": 192,
+        "treatment: Media_0_uM": 80,
+        "treatment: ET-1_0.01_uM": 48,
+        "treatment: Blank_0_uM": 32,
+        "treatment: Isoniazid_0.2_uM": 4,
+        "treatment: Isoniazid_1_uM": 4
+      },
+      "n_levels": 1390
+    },
+    {
+      "drug": "Zymosan",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE37008",
+      "n_samples_mentioning": 99,
+      "field": "zymosan (il6 response to zymosan in pg/ml)",
+      "values": {
+        "zymosan (il6 response to zymosan in pg/ml): 15937": 2,
+        "zymosan (il6 response to zymosan in pg/ml): 7673.7": 2,
+        "zymosan (il6 response to zymosan in pg/ml): 6240": 2,
+        "zymosan (il6 response to zymosan in pg/ml): 8846.1": 2,
+        "zymosan (il6 response to zymosan in pg/ml): NA": 2,
+        "zymosan (il6 response to zymosan in pg/ml): 11962": 2
+      },
+      "n_levels": 93
+    },
+    {
+      "drug": "Zymosan",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE134874",
+      "n_samples_mentioning": 99,
+      "field": "prr ligands",
+      "values": {
+        "prr ligands: Ctrl": 17,
+        "prr ligands: 2',3'-cGAMP": 9,
+        "prr ligands: HMW": 9,
+        "prr ligands: HMW, 2',3'-cGAMP": 9,
+        "prr ligands: HMW, SeV": 9,
+        "prr ligands: HMW, SeV, 2',3'-cGAMP": 9
+      },
+      "n_levels": 26
+    },
+    {
+      "drug": "Zymosan",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE169278",
+      "n_samples_mentioning": 44,
+      "field": "injected cell line",
+      "values": {
+        "injected cell line: HSC-2 (JCRB0622)": 8,
+        "treatment: live C. albicans (SC5314)": 6,
+        "treatment: live C. parapsilosis (CLIB214)": 6,
+        "treatment: no treatment": 6,
+        "treatment: heat-killed C. albicans (SC5314)": 6,
+        "treatment: heat-killed C. parapsilosis (CLIB214)": 6
+      },
+      "n_levels": 7
+    },
+    {
+      "drug": "Zymosan",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE242947",
+      "n_samples_mentioning": 24,
+      "field": "training regimen",
+      "values": {
+        "training regimen: Depleted zymosan": 6,
+        "training regimen: ETSU beta-glucan": 6,
+        "training regimen: Untrained": 6,
+        "training regimen: Zymosan": 6
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Zymosan",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE157981",
+      "n_samples_mentioning": 9,
+      "field": "treatment",
+      "values": {
+        "treatment: untreated": 3,
+        "treatment: Zymosan 10ug/mL": 3,
+        "treatment: Zymosan 10ug/mL + FK506 200ng/mL": 3
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Ouabain",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE111065",
+      "n_samples_mentioning": 9,
+      "field": "treatment",
+      "values": {
+        "treatment: NA": 172,
+        "treatment: Control": 6,
+        "treatment: Digitoxin 20 nM": 6,
+        "treatment: Digitoxin 100 nM": 5,
+        "treatment: Ouabain 20 nM": 5,
+        "treatment: Rigosertib 20 nM": 5
+      },
+      "n_levels": 9
+    },
+    {
+      "drug": "Ouabain",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE63935",
+      "n_samples_mentioning": 4,
+      "field": "screening chemicals",
+      "values": {
+        "screening chemicals: n/a": 15,
+        "screening chemicals: untreated control": 8,
+        "screening chemicals: arabinose": 4,
+        "screening chemicals: cyclopamine": 4,
+        "screening chemicals: Ouabain": 4,
+        "screening chemicals: lactose": 4
+      },
+      "n_levels": 82
+    },
+    {
+      "drug": "Ritonavir",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE254592",
+      "n_samples_mentioning": 28,
+      "field": "group",
+      "values": {
+        "treatment: ombitasvir/paritaprevir/ritonavir": 28,
+        "group: Group01": 24,
+        "group: Group03": 4
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Ritonavir",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE314659",
+      "n_samples_mentioning": 18,
+      "field": "treatment",
+      "values": {
+        "treatment: DMSO 0.5 uM": 53,
+        "treatment: Cobicistat|Elvitegravir|Emtricitabine 0.1|0.1|0.1 uM": 35,
+        "treatment: Water 0.01 uM": 32,
+        "treatment: Abacavir|Dolutegravir|Emtricitabine 0.5|0.1|0.1 uM": 18,
+        "treatment: Efavirenz|Emtricitabine|Tenofovir Disoproxil Fumarate 0.5|0.1|0.1 uM": 18,
+        "treatment: Bictegravir|Emtricitabine|Tenofovir Alafenamide Fumarate 0.5|0.1|0.5 uM": 18
+      },
+      "n_levels": 50
+    },
+    {
+      "drug": "Ritonavir",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE165708",
+      "n_samples_mentioning": 4,
+      "field": "active ingredient",
+      "values": {
+        "active ingredient: none": 32,
+        "active ingredient: Emtricitabine, Tenofovir_DF": 30,
+        "active ingredient: Emtricitabine, Tenofovir_DF, Raltegravir": 4,
+        "active ingredient: Emtricitabine, Tenofovir_DF, Rilpivirine": 4,
+        "active ingredient: Abacavir, Dolutegravir, Lamivudine": 4,
+        "active ingredient: Emtricitabine, Tenofovir_AF, Cobicistat, Elvitegravir": 4
+      },
+      "n_levels": 16
+    },
+    {
+      "drug": "Ritonavir",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE165703",
+      "n_samples_mentioning": 4,
+      "field": "active ingredient",
+      "values": {
+        "active ingredient: none": 28,
+        "active ingredient: Emtricitabine, Tenofovir_DF": 22,
+        "active ingredient: Emtricitabine, Tenofovir_DF, Raltegravir": 4,
+        "active ingredient: Abacavir, Dolutegravir, Lamivudine": 4,
+        "active ingredient: Emtricitabine, Tenofovir_DF, Efavirenz": 4,
+        "active ingredient: Emtricitabine, Tenofovir_AF, Bictegravir": 2
+      },
+      "n_levels": 15
+    },
+    {
+      "drug": "Artesunate",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE94553",
+      "n_samples_mentioning": 24,
+      "field": "treatment",
+      "values": {
+        "treatment: control": 12,
+        "treatment: artesunate (5 \u00b5M)": 12
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Artesunate",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE183534",
+      "n_samples_mentioning": 12,
+      "field": "compound_name",
+      "values": {
+        "compound_name: DMSO": 240,
+        "compound_name: Ibuprofen": 36,
+        "compound_name: Amoxycillin": 24,
+        "compound_name: Ascorbic acid": 24,
+        "compound_name: Cetirizine": 24,
+        "compound_name: Dexamethasone": 24
+      },
+      "n_levels": 52
+    },
+    {
+      "drug": "Artesunate",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE215784",
+      "n_samples_mentioning": 12,
+      "field": "treatment",
+      "values": {
+        "treatment: control": 6,
+        "treatment: artesunate treated": 6
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Artesunate",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE260741",
+      "n_samples_mentioning": 6,
+      "field": "treatment",
+      "values": {
+        "treatment: 100 microM artesunate": 3,
+        "treatment: none": 3
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Artesunate",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE217531",
+      "n_samples_mentioning": 6,
+      "field": "treatment",
+      "values": {
+        "treatment: 10%DMEM": 6,
+        "treatment: artesunate,180uM": 3,
+        "treatment: artesunate,24.08uM": 3
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "DDE",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE252776",
+      "n_samples_mentioning": 36,
+      "field": "group",
+      "values": {
+        "group: COV_MIX_100X": 5,
+        "group: COV_HCB_100X": 3,
+        "group: COV_HCB_10X": 3,
+        "group: COV_HCB_1X": 3,
+        "group: COV_DDE_100X": 3,
+        "group: COV_DDE_10X": 3
+      },
+      "n_levels": 80
+    },
+    {
+      "drug": "DDE",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE220051",
+      "n_samples_mentioning": 16,
+      "field": "treatment",
+      "values": {
+        "treatment: Control 0": 69,
+        "treatment: DDE 0.25": 4,
+        "treatment: DDE 25": 4,
+        "treatment: DDE 0.025": 4,
+        "treatment: DDE 2.5": 4,
+        "treatment: Arsenic 0.025": 4
+      },
+      "n_levels": 85
+    },
+    {
+      "drug": "DDE",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE109021",
+      "n_samples_mentioning": 3,
+      "field": "treatment chemical",
+      "values": {
+        "treatment chemical: R1881(Control)": 6,
+        "treatment chemical: DMSO": 6,
+        "treatment chemical: Apigenin": 3,
+        "treatment chemical: Trenbolone": 3,
+        "treatment chemical: Finasteride": 3,
+        "treatment chemical: Androstenedione": 3
+      },
+      "n_levels": 30
+    },
+    {
+      "drug": "Digitoxin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE76347",
+      "n_samples_mentioning": 32,
+      "field": "treatment",
+      "values": {
+        "treatment: digitoxin": 32,
+        "treatment: placebo": 14
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Digitoxin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE230502",
+      "n_samples_mentioning": 24,
+      "field": "treatment",
+      "values": {
+        "treatment: 0.2percent DMSO": 6,
+        "treatment: 78 nM digitoxin": 6,
+        "treatment: 2 nM torin 2": 6,
+        "treatment: 78 nM digitoxin, 2 nM torin 2": 6
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Digitoxin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE111065",
+      "n_samples_mentioning": 11,
+      "field": "treatment",
+      "values": {
+        "treatment: NA": 172,
+        "treatment: Control": 6,
+        "treatment: Digitoxin 20 nM": 6,
+        "treatment: Digitoxin 100 nM": 5,
+        "treatment: Ouabain 20 nM": 5,
+        "treatment: Rigosertib 20 nM": 5
+      },
+      "n_levels": 9
+    },
+    {
+      "drug": "Digitoxin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE60408",
+      "n_samples_mentioning": 9,
+      "field": "compound treated",
+      "values": {
+        "compound treated: DMSO": 29,
+        "compound treated: SULCONAZOLE.NITRATE": 9,
+        "compound treated: CLOMIPHENE.CITRATE": 9,
+        "compound treated: HEXACHLOROPHENE": 9,
+        "compound treated: SULFINPYRAZONE": 9,
+        "compound treated: PINDOLOL": 9
+      },
+      "n_levels": 94
+    },
+    {
+      "drug": "Digitoxin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE36058",
+      "n_samples_mentioning": 6,
+      "field": "agent",
+      "values": {
+        "agent: DMSO": 3,
+        "agent: Digitoxin": 3
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Formoterol",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE202436",
+      "n_samples_mentioning": 100,
+      "field": "treatment",
+      "values": {
+        "treatment: Vehicle": 20,
+        "treatment: TNF\u03b1": 20,
+        "treatment: Formoterol": 20,
+        "treatment: TNF\u03b1 + Formoterol": 20,
+        "treatment: Forskolin": 20
+      },
+      "n_levels": 5
+    },
+    {
+      "drug": "Formoterol",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE115830",
+      "n_samples_mentioning": 64,
+      "field": "treatment",
+      "values": {
+        "treatment: Control (non stimulated)": 16,
+        "treatment: Budesonide": 16,
+        "treatment: Formoterol": 16,
+        "treatment: Budesonide + Formoterol": 16
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Formoterol",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE30242",
+      "n_samples_mentioning": 24,
+      "field": "treatment",
+      "values": {
+        "treatment: Mometasone": 14,
+        "treatment: None": 4,
+        "treatment: Formoterol": 4,
+        "treatment: Mometasone+RU-486": 2
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Formoterol",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE161805",
+      "n_samples_mentioning": 24,
+      "field": "treatment",
+      "values": {
+        "treatment: Control (non stimulated)": 6,
+        "treatment: Budesonide": 6,
+        "treatment: Formoterol": 6,
+        "treatment: Budesonide + Formoterol": 6
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Formoterol",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE315974",
+      "n_samples_mentioning": 16,
+      "field": "treatment",
+      "values": {
+        "treatment: vehicle (1% BSA)": 4,
+        "treatment: 30 nM formoterol": 4,
+        "treatment: 0.5 mM oleic and 0.25 mM palmitic acid": 4,
+        "treatment: 30 nM formoterol and 0.5 mM oleic and 0.25 mM palmitic acid": 4
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Guselkumab",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE252029",
+      "n_samples_mentioning": 122,
+      "field": "treatment",
+      "values": {
+        "treatment: Guselkumab": 78,
+        "treatment: Adalimumab": 59,
+        "treatment: Placebo to Guselkumab": 44
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Guselkumab",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE212836",
+      "n_samples_mentioning": 68,
+      "field": "treatment",
+      "values": {
+        "treatment: Ixekizumab 80mg Q2W": 105,
+        "treatment: Guselkumab 100mg": 68,
+        "treatment: HC": 26
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Guselkumab",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE197056",
+      "n_samples_mentioning": 55,
+      "field": "treatment",
+      "values": {
+        "treatment: Secukinumab": 56,
+        "treatment: Guselkumab": 55
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Leucovorin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE21228",
+      "n_samples_mentioning": 118,
+      "field": "fxa",
+      "values": {
+        "fxa: FOLFOX (5-Fu/Leucovorin + Oxaliplatin + avastin): 27": 6,
+        "fxa: FOLFOX (5-Fu/Leucovorin + Oxaliplatin + avastin): 38": 5,
+        "fxa: FOLFOX (5-Fu/Leucovorin + Oxaliplatin + avastin): 42": 5,
+        "fxa: FOLFOX (5-Fu/Leucovorin + Oxaliplatin + avastin): 19": 5,
+        "fxa: FOLFOX (5-Fu/Leucovorin + Oxaliplatin + avastin): 49": 4,
+        "fxa: FOLFOX (5-Fu/Leucovorin + Oxaliplatin + avastin): 37": 4
+      },
+      "n_levels": 57
+    },
+    {
+      "drug": "Leucovorin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE32711",
+      "n_samples_mentioning": 4,
+      "field": "treatment",
+      "values": {
+        "treatment: no treatment": 8,
+        "treatment: XELOX and Bevacizumab after colon resection": 4,
+        "treatment: 5FU, Leucovorin, Oxaliplatin and Bevacizumab after colon resection": 4
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Leucovorin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE199800",
+      "n_samples_mentioning": 4,
+      "field": "treatment",
+      "values": {
+        "treatment: DMSO": 108,
+        "treatment: UNTREATED": 108,
+        "treatment: Azacitidine": 6,
+        "treatment: Lapatinib": 4,
+        "treatment: Bendamustine": 4,
+        "treatment: Cisplatin": 4
+      },
+      "n_levels": 432
+    },
+    {
+      "drug": "Phenformin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE69844",
+      "n_samples_mentioning": 9,
+      "field": "chemical treatment",
+      "values": {
+        "chemical treatment: DMSO": 45,
+        "chemical treatment: Clofibrate": 18,
+        "chemical treatment: Amoxicillin": 9,
+        "chemical treatment: Ethenyl Estradiol": 9,
+        "chemical treatment: Troglitazone": 9,
+        "chemical treatment: Phenformin": 9
+      },
+      "n_levels": 35
+    },
+    {
+      "drug": "Phenformin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE69845",
+      "n_samples_mentioning": 9,
+      "field": "chemical treatment",
+      "values": {
+        "chemical treatment: DMSO": 45,
+        "chemical treatment: Clofibrate": 17,
+        "chemical treatment: Bisphenol A": 10,
+        "chemical treatment: Desferrioxamine": 9,
+        "chemical treatment: DHP": 9,
+        "chemical treatment: Trenbolone": 9
+      },
+      "n_levels": 35
+    },
+    {
+      "drug": "Phenformin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE69849",
+      "n_samples_mentioning": 9,
+      "field": "chemical treatment",
+      "values": {
+        "chemical treatment: DMSO": 57,
+        "chemical treatment: 6 Aminonicotinamide": 9,
+        "chemical treatment: Amoxicillin": 9,
+        "chemical treatment: ANIT": 9,
+        "chemical treatment: Bisphenol A": 9,
+        "chemical treatment: Imidacloprid": 9
+      },
+      "n_levels": 35
+    },
+    {
+      "drug": "Phenformin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE69850",
+      "n_samples_mentioning": 7,
+      "field": "chemical treatment",
+      "values": {
+        "chemical treatment: DMSO": 39,
+        "chemical treatment: DHP": 9,
+        "chemical treatment: Trenbolone": 9,
+        "chemical treatment: Tamoxifen": 9,
+        "chemical treatment: Chenodeoxychobe Acid": 9,
+        "chemical treatment: Imidacloprid": 9
+      },
+      "n_levels": 38
+    },
+    {
+      "drug": "Phenformin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE150348",
+      "n_samples_mentioning": 3,
+      "field": "treatment",
+      "values": {
+        "treatment: 8hr with DMSO": 3,
+        "treatment: 8hr with NP 3 \u00b5M": 3,
+        "treatment: 8hr with water": 3,
+        "treatment: 8hr with metformin 5 mM": 3,
+        "treatment: 8hr with phenformin 50 \u00b5M": 3
+      },
+      "n_levels": 5
+    },
+    {
+      "drug": "Phenytoin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE183534",
+      "n_samples_mentioning": 24,
+      "field": "compound_name",
+      "values": {
+        "compound_name: DMSO": 240,
+        "compound_name: Ibuprofen": 36,
+        "compound_name: Amoxycillin": 24,
+        "compound_name: Ascorbic acid": 24,
+        "compound_name: Cetirizine": 24,
+        "compound_name: Dexamethasone": 24
+      },
+      "n_levels": 52
+    },
+    {
+      "drug": "Phenytoin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE143272",
+      "n_samples_mentioning": 13,
+      "field": "treatment",
+      "values": {
+        "treatment: -": 51,
+        "treatment: Drug-na\u00efve": 34,
+        "treatment: Valproate": 25,
+        "treatment: Carbamazepine": 19,
+        "treatment: Phenytoin": 13
+      },
+      "n_levels": 5
+    },
+    {
+      "drug": "Phenytoin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE209962",
+      "n_samples_mentioning": 3,
+      "field": "agent",
+      "values": {
+        "agent: Untreated_Ctrl_RB": 3,
+        "agent: Untreated_Ctrl_RNA": 3,
+        "agent: Untreated 0.5 % DMSO_Ctrl_RNA": 3,
+        "agent: Favipiravir_Low_RNA": 3,
+        "agent: Favipiravir_High_RNA": 3,
+        "agent: Acitretin_Low_RNA": 3
+      },
+      "n_levels": 173
+    },
+    {
+      "drug": "Baicalein",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE326697",
+      "n_samples_mentioning": 18,
+      "field": "treatment",
+      "values": {
+        "treatment: untreated": 6,
+        "treatment: genistein 10 \u00b5M": 3,
+        "treatment: baicalein 10 \u00b5M": 3,
+        "treatment: genistein 20 \u00b5M": 3,
+        "treatment: baicalein 20 \u00b5M": 3
+      },
+      "n_levels": 5
+    },
+    {
+      "drug": "Baicalein",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE232322",
+      "n_samples_mentioning": 12,
+      "field": "treatment",
+      "values": {
+        "treatment: Control": 6,
+        "treatment: Baicalein (100 uM)": 6
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Baicalein",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE127765",
+      "n_samples_mentioning": 9,
+      "field": "agent",
+      "values": {
+        "agent: Baicalein": 6,
+        "agent: control": 3
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Capsaicin",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE198304",
+      "n_samples_mentioning": 12,
+      "field": "treatment",
+      "values": {
+        "treatment: control": 3,
+        "treatment: 400uM capsaicin for 8 hours": 3,
+        "treatment: 400uM capsaicin for 16 hours": 3,
+        "treatment: 400uM capsaicin for 24 hours": 3
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Capsaicin",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE302928",
+      "n_samples_mentioning": 8,
+      "field": "treatment",
+      "values": {
+        "treatment: none": 4,
+        "treatment: Vehicle pretreated, Vehicle treated": 3,
+        "treatment: Vehicle pretreated, Capsaicin treated": 3,
+        "treatment: Pericidin A pretreated, Vehicle treated": 3,
+        "treatment: Pericidin A pretreated, Capsaicin treated": 3,
+        "treatment: Capsaicin": 2
+      },
+      "n_levels": 6
+    },
+    {
+      "drug": "Mepolizumab",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE292059",
+      "n_samples_mentioning": 443,
+      "field": "treatment",
+      "values": {
+        "treatment: Placebo": 522,
+        "treatment: Mepolizumab": 443
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Mepolizumab",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE192861",
+      "n_samples_mentioning": 339,
+      "field": "treatment",
+      "values": {
+        "treatment: Placebo": 341,
+        "treatment: Mepolizumab": 339,
+        "treatment: NA": 1
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Mepolizumab",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE274410",
+      "n_samples_mentioning": 27,
+      "field": "treatment",
+      "values": {
+        "treatment: none": 27,
+        "treatment: mepolizumab": 27
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Mepolizumab",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE298740",
+      "n_samples_mentioning": 18,
+      "field": "treatment",
+      "values": {
+        "treatment: BENRALIZUMAB": 28,
+        "treatment: OMALIZUMAB": 24,
+        "treatment: MEPOLIZUMAB": 18
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Mepolizumab",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE46159",
+      "n_samples_mentioning": 8,
+      "field": "sample type",
+      "values": {
+        "sample type: Human Bronchoalveolar cells from a mild asthmatic, before allergen challenge, subject1": 1,
+        "sample type: Human Bronchoalveolar cells from a mild asthmatic, after allergen challenge, subject1": 1,
+        "sample type: Human Bronchoalveolar cells from a mild asthmatic, before allergen challenge after mepolizumab, subject1": 1,
+        "sample type: Human Bronchoalveolar cells from a mild asthmatic, after allergen challenge after mepolizumab, subject1": 1,
+        "sample type: Human Bronchoalveolar cells from a mild asthmatic, before allergen challenge, subject2": 1,
+        "sample type: Human Bronchoalveolar cells from a mild asthmatic, after allergen challenge, subject2": 1
+      },
+      "n_levels": 8
+    },
+    {
+      "drug": "Methacholine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE56553",
+      "n_samples_mentioning": 96,
+      "field": "methacholine responsive",
+      "values": {
+        "methacholine responsive: yes": 90,
+        "methacholine responsive: no": 6
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Methacholine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE32198",
+      "n_samples_mentioning": 28,
+      "field": "methacholine inhalation challenge",
+      "values": {
+        "methacholine inhalation challenge: Pre": 14,
+        "methacholine inhalation challenge: Post": 14
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Nefazodone",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE279945",
+      "n_samples_mentioning": 6,
+      "field": "treatment",
+      "values": {
+        "treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, Atorvastatin, Ganetespib (STA-9090), Clomipramine, Sunitinib, Tivozanib, Tamatinib, TIE2 Kinase Inhibitor, MK-5108, Lapatinib": 6,
+        "treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, 5-(9-Isopropyl-8-methyl-2-morpholino-9H-purin-6-yl)pyrimidin-2-amine, O-Demethylated Adapalene, Protriptyline, I-BET151, Foretinib, GW843682X, CGP 60474, Ixabepilone, Linagliptin": 6,
+        "treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, Topotecan, BAY 87-2243, Phenylbutazone, K-02288, BMS-777607, Porcn Inhibitor III, BMS-387032, IN1451, Raloxifene": 6,
+        "treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, BMS-265246, Ruxolitinib, Pomalidomide, Dovitinib, AVL-292, Navitoclax, TL_HRAS26, Proscillaridin A;Proscillaridin-A, Vorinostat": 6,
+        "treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, AMD-070 (hydrochloride), Sgc-cbp30, FK 866, Chlorpheniramine, Scriptaid, BAY 61-3606, Methotrexate, Palbociclib, Trametinib": 6,
+        "treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, AT13387, PF-04691502, Perhexiline, UNII-BXU45ZH6LI, RVX-208, Ketoconazole, LY2090314, Vardenafil, Dasatinib": 6
+      },
+      "n_levels": 17
+    },
+    {
+      "drug": "Tranilast",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE246079",
+      "n_samples_mentioning": 15,
+      "field": "treatment",
+      "values": {
+        "treatment: 1 uM CHIR": 3,
+        "treatment: 1 uM CHIR+50 uM Tranilast": 3,
+        "treatment: 3 uM CHIR": 3,
+        "treatment: 3 uM CHIR+50 uM Tranilast": 3,
+        "treatment: 50 uM Tranilast": 3
+      },
+      "n_levels": 5
+    },
+    {
+      "drug": "Tranilast",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE246078",
+      "n_samples_mentioning": 12,
+      "field": "treatment",
+      "values": {
+        "treatment: 1 uM CHIR": 3,
+        "treatment: 1 uM CHIR+50 uM Tranilast": 3,
+        "treatment: 3 uM CHIR": 3,
+        "treatment: 3 uM CHIR+50 uM Tranilast": 3
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Zoledronic acid",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE221563",
+      "n_samples_mentioning": 6,
+      "field": "treatment",
+      "values": {
+        "treatment: NONE": 6,
+        "treatment: IL2": 6,
+        "treatment: ZOLEDRONIC ACID": 6,
+        "treatment: Bacillus Calmette\u2013Gu\u00e9rin": 6,
+        "treatment: HEAT-KILLED BCG": 6
+      },
+      "n_levels": 5
+    },
+    {
+      "drug": "Dactinomycin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE60408",
+      "n_samples_mentioning": 9,
+      "field": "compound treated",
+      "values": {
+        "compound treated: DMSO": 29,
+        "compound treated: SULCONAZOLE.NITRATE": 9,
+        "compound treated: CLOMIPHENE.CITRATE": 9,
+        "compound treated: HEXACHLOROPHENE": 9,
+        "compound treated: SULFINPYRAZONE": 9,
+        "compound treated: PINDOLOL": 9
+      },
+      "n_levels": 94
+    },
+    {
+      "drug": "Dactinomycin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE199800",
+      "n_samples_mentioning": 4,
+      "field": "treatment",
+      "values": {
+        "treatment: DMSO": 108,
+        "treatment: UNTREATED": 108,
+        "treatment: Azacitidine": 6,
+        "treatment: Lapatinib": 4,
+        "treatment: Bendamustine": 4,
+        "treatment: Cisplatin": 4
+      },
+      "n_levels": 432
+    },
+    {
+      "drug": "Glimepiride",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE160308",
+      "n_samples_mentioning": 5,
+      "field": "diabetes_medication",
+      "values": {
+        "diabetes_medication: n/a": 20,
+        "diabetes_medication: insulin": 14,
+        "diabetes_medication: none": 5,
+        "diabetes_medication: metformin": 4,
+        "diabetes_medication: Insulin": 4,
+        "diabetes_medication: glipizide": 4
+      },
+      "n_levels": 21
+    },
+    {
+      "drug": "Glimepiride",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE160306",
+      "n_samples_mentioning": 5,
+      "field": "diabetes_medication",
+      "values": {
+        "diabetes_medication: n/a": 20,
+        "diabetes_medication: insulin": 14,
+        "diabetes_medication: none": 5,
+        "diabetes_medication: metformin": 4,
+        "diabetes_medication: Insulin": 4,
+        "diabetes_medication: glipizide": 4
+      },
+      "n_levels": 21
+    },
+    {
+      "drug": "Glimepiride",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE67297",
+      "n_samples_mentioning": 4,
+      "field": "medication regimen",
+      "values": {
+        "medication regimen: Metformin (1000mg, 2x/day)": 4,
+        "medication regimen: Metformin (500mg, 2x/day)": 2,
+        "medication regimen: Metformin (850 mg, 3x/day), Glimepiride (6mg, 1x/day)": 2,
+        "medication regimen: Metformin (850mg, 2x/day), Vildagliptin (50mg, 2x/day)": 2,
+        "medication regimen: Metformin (1000mg, 2x/day), Glimepiride (5mg, 1x/day)": 2,
+        "medication regimen: Metformin (850mg, 3x/day), Gliclazide (80mg, 2x/day)": 2
+      },
+      "n_levels": 6
+    },
+    {
+      "drug": "Glimepiride",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE134329",
+      "n_samples_mentioning": 3,
+      "field": "treatment",
+      "values": {
+        "treatment: Empagliflozin": 4,
+        "treatment: Glimepiride": 3
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Omalizumab",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE134544",
+      "n_samples_mentioning": 218,
+      "field": "omalizumab responder status",
+      "values": {
+        "omalizumab responder status: Responder": 165,
+        "omalizumab responder status: Non-responder": 53
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Omalizumab",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE298740",
+      "n_samples_mentioning": 24,
+      "field": "treatment",
+      "values": {
+        "treatment: BENRALIZUMAB": 28,
+        "treatment: OMALIZUMAB": 24,
+        "treatment: MEPOLIZUMAB": 18
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Omalizumab",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE167882",
+      "n_samples_mentioning": 7,
+      "field": "treatment",
+      "values": {
+        "treatment: pre-treatment": 8,
+        "treatment: mid-treatment on omalizumab": 7,
+        "treatment: non-treated": 6
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Oxyquinoline",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE158632",
+      "n_samples_mentioning": 36,
+      "field": "treatment",
+      "values": {
+        "treatment: No treatment": 12,
+        "treatment: CoCl2 for 24 hours": 12,
+        "treatment: Oxyquinoline for 24 hours": 12
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Oxyquinoline",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE186295",
+      "n_samples_mentioning": 9,
+      "field": "treatment",
+      "values": {
+        "treatment: control": 3,
+        "treatment: Cobalt (II) chloride": 3,
+        "treatment: oxyquinoline": 3
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Oxyquinoline",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE308908",
+      "n_samples_mentioning": 9,
+      "field": "treatment",
+      "values": {
+        "treatment: 0,05% DMSO + 300 \u03bcM cobalt (II) chloride": 3,
+        "treatment: 0,05% DMSO + oxyquinoline derivative (4896-3212) 5 \u03bcM": 3,
+        "treatment: 0,05% DMSO": 3
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Roflumilast",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE297400",
+      "n_samples_mentioning": 59,
+      "field": "treatment",
+      "values": {
+        "treatment: Milrinone 1000 nM": 5,
+        "treatment: Milrinone 15.6 nM": 5,
+        "treatment: Milrinone 2000 nM": 5,
+        "treatment: Milrinone 250 nM": 5,
+        "treatment: Milrinone 31.3 nM": 5,
+        "treatment: Milrinone 4000 nM": 5
+      },
+      "n_levels": 48
+    },
+    {
+      "drug": "Roflumilast",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE126981",
+      "n_samples_mentioning": 4,
+      "field": "treatment",
+      "values": {
+        "treatment: Vehicle": 4,
+        "treatment: Roflumilast N-oxide (RNO)": 4,
+        "treatment: Salmeterol 100 nM": 4,
+        "treatment: Salmeterol 0.5 nM": 4,
+        "treatment: Salmeterol 0.5 nM + RNO": 4,
+        "treatment: Salmeterol 0.3 nM": 4
+      },
+      "n_levels": 7
+    },
+    {
+      "drug": "Roflumilast",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE267218",
+      "n_samples_mentioning": 4,
+      "field": "treatment",
+      "values": {
+        "treatment: Vehicle": 4,
+        "treatment: Roflumilast N-oxide (RNO)": 4,
+        "treatment: ONO-AE1-329 0.1 nM": 4,
+        "treatment: ONO-AE1-329 0.1 nM + RNO": 4,
+        "treatment: ONO-AE1-329 1 nM": 4,
+        "treatment: ONO-AE1-329 1 nM + RNO": 4
+      },
+      "n_levels": 10
+    },
+    {
+      "drug": "Rolipram",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE297400",
+      "n_samples_mentioning": 199,
+      "field": "treatment",
+      "values": {
+        "treatment: Milrinone 1000 nM": 5,
+        "treatment: Milrinone 15.6 nM": 5,
+        "treatment: Milrinone 2000 nM": 5,
+        "treatment: Milrinone 250 nM": 5,
+        "treatment: Milrinone 31.3 nM": 5,
+        "treatment: Milrinone 4000 nM": 5
+      },
+      "n_levels": 48
+    },
+    {
+      "drug": "Rolipram",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE13987",
+      "n_samples_mentioning": 24,
+      "field": "characteristic",
+      "values": {
+        "CLL donor 1, control": 1,
+        "CLL donor 1, rolipram treated": 1,
+        "CLL donor 2, control": 1,
+        "CLL donor 2, rolipram treated": 1,
+        "CLL donor 3, control": 1,
+        "CLL donor 3, rolipram treated": 1
+      },
+      "n_levels": 24
+    },
+    {
+      "drug": "Rolipram",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE193191",
+      "n_samples_mentioning": 3,
+      "field": "treatment",
+      "values": {
+        "treatment: 0.2percent Dimethyl sulfoxide (DMSO) vehicle": 6,
+        "treatment: forskolin (50 uM) and rolipram (0.1 uM)": 3
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Theophylline",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE262419",
+      "n_samples_mentioning": 9,
+      "field": "treatment",
+      "values": {
+        "treatment: VEH_0_uM": 192,
+        "treatment: Media_0_uM": 80,
+        "treatment: ET-1_0.01_uM": 48,
+        "treatment: Blank_0_uM": 32,
+        "treatment: Isoniazid_0.2_uM": 4,
+        "treatment: Isoniazid_1_uM": 4
+      },
+      "n_levels": 1390
+    },
+    {
+      "drug": "Theophylline",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE180452",
+      "n_samples_mentioning": 7,
+      "field": "treatment",
+      "values": {
+        "treatment: control": 2,
+        "treatment: biotin": 1,
+        "treatment: etoposide": 1,
+        "treatment: propyl gallate": 1,
+        "treatment: theophylline": 1,
+        "treatment: bisphenol A": 1
+      },
+      "n_levels": 6
+    },
+    {
+      "drug": "Aclarubicin",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE276066",
+      "n_samples_mentioning": 12,
+      "field": "treatment",
+      "values": {
+        "treatment: aclarubicin": 4,
+        "treatment: NA": 4,
+        "treatment: daunorubicin": 4
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Aclarubicin",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE232331",
+      "n_samples_mentioning": 3,
+      "field": "treatment",
+      "values": {
+        "treatment: Aclarubicin": 3,
+        "treatment: Amrubicin": 3,
+        "treatment: Doxorubicin": 3,
+        "treatment: DMSO": 3
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Adapalene",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE205555",
+      "n_samples_mentioning": 62,
+      "field": "treatment",
+      "values": {
+        "treatment: adapalene": 21,
+        "treatment: tazarotene": 21,
+        "treatment: DMSO": 20
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Adapalene",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE253331",
+      "n_samples_mentioning": 13,
+      "field": "treatment",
+      "values": {
+        "treatment: Docetaxel": 4,
+        "treatment: Vehicle": 3,
+        "treatment: Adapalene": 3,
+        "treatment: Combo": 3
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Adapalene",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE279945",
+      "n_samples_mentioning": 6,
+      "field": "treatment",
+      "values": {
+        "treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, Atorvastatin, Ganetespib (STA-9090), Clomipramine, Sunitinib, Tivozanib, Tamatinib, TIE2 Kinase Inhibitor, MK-5108, Lapatinib": 6,
+        "treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, 5-(9-Isopropyl-8-methyl-2-morpholino-9H-purin-6-yl)pyrimidin-2-amine, O-Demethylated Adapalene, Protriptyline, I-BET151, Foretinib, GW843682X, CGP 60474, Ixabepilone, Linagliptin": 6,
+        "treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, Topotecan, BAY 87-2243, Phenylbutazone, K-02288, BMS-777607, Porcn Inhibitor III, BMS-387032, IN1451, Raloxifene": 6,
+        "treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, BMS-265246, Ruxolitinib, Pomalidomide, Dovitinib, AVL-292, Navitoclax, TL_HRAS26, Proscillaridin A;Proscillaridin-A, Vorinostat": 6,
+        "treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, AMD-070 (hydrochloride), Sgc-cbp30, FK 866, Chlorpheniramine, Scriptaid, BAY 61-3606, Methotrexate, Palbociclib, Trametinib": 6,
+        "treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, AT13387, PF-04691502, Perhexiline, UNII-BXU45ZH6LI, RVX-208, Ketoconazole, LY2090314, Vardenafil, Dasatinib": 6
+      },
+      "n_levels": 17
+    },
+    {
+      "drug": "Aldesleukin",
+      "diseases": [
+        "ankylosing spondylitis",
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE227316",
+      "n_samples_mentioning": 12,
+      "field": "treatment source",
+      "values": {
+        "treatment source: IL-2 (aldesleukin, novartis)": 6,
+        "treatment source: IL-2 (aldesleukin, novartis) + PGE2 (P5640 Sigma)": 6
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Bafilomycin A1",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE245402",
+      "n_samples_mentioning": 12,
+      "field": "treatment",
+      "values": {
+        "treatment: NR": 3,
+        "treatment: NR+100nM Bafilomycin A1": 3,
+        "treatment: ND": 3,
+        "treatment: ND+100nM Bafilomycin A1": 3
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Bafilomycin A1",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE240920",
+      "n_samples_mentioning": 3,
+      "field": "treatment",
+      "values": {
+        "treatment: No-treatment": 6,
+        "treatment: Bafilomycin A1": 3
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Bromocriptine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE171653",
+      "n_samples_mentioning": 24,
+      "field": "treatment/time point",
+      "values": {
+        "treatment/time point: adenomyosis baseline": 24,
+        "treatment/time point: after bromocriptine treatment": 24
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Bromocriptine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE23927",
+      "n_samples_mentioning": 6,
+      "field": "treatment",
+      "values": {
+        "treatment: bromocriptine": 3,
+        "treatment: untreated": 3
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Bromocriptine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE207522",
+      "n_samples_mentioning": 6,
+      "field": "treatment",
+      "values": {
+        "treatment: No treatment": 6,
+        "treatment: 5mg of Bromocriptine daily": 6
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Captopril",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE173553",
+      "n_samples_mentioning": 36,
+      "field": "treatment",
+      "values": {
+        "treatment: 300 \u03bcM captopril for 2h": 16,
+        "treatment: untreated, incubated for 2h": 8,
+        "treatment: untreated": 8,
+        "treatment: no cell": 4
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Lopinavir",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE275256",
+      "n_samples_mentioning": 9,
+      "field": "treatment",
+      "values": {
+        "treatment: DMSO (vehicle)": 3,
+        "treatment: SBI-0206965 5 uM, O-151 0,5 uM, Lopinavir 0,5 uM": 3,
+        "treatment: SBI-0206965 10 uM, O-151 1 uM, Lopinavir 1 uM": 3
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Lopinavir",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE247541",
+      "n_samples_mentioning": 3,
+      "field": "treatment",
+      "values": {
+        "treatment: DMSO": 3,
+        "treatment: apilimod": 3,
+        "treatment: remdesivir": 3,
+        "treatment: ritonavir": 3,
+        "treatment: lopinavir": 3
+      },
+      "n_levels": 5
+    },
+    {
+      "drug": "Pyridoxine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE137338",
+      "n_samples_mentioning": 109,
+      "field": "niacin",
+      "values": {
+        "niacin: 9.783": 2,
+        "niacin: 6.621": 2,
+        "niacin: 9.143": 2,
+        "niacin: 9.415": 2,
+        "niacin: 8.071": 2,
+        "niacin: 5.231": 2
+      },
+      "n_levels": 71
+    },
+    {
+      "drug": "Pyridoxine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE160308",
+      "n_samples_mentioning": 4,
+      "field": "other_medication",
+      "values": {
+        "other_medication: unknown": 4,
+        "other_medication: Diovan, Norvasc, plavix, lopressor, foltex, furosemide, pyridoxine, iron, calcium carbonate, diltiazem, allegra, protoniox, levaquin, coumadin, flagyl": 4,
+        "other_medication: Aggrenox, amitriptyline, avapro, furosemide, lipitor, metoprolol,  omeprazole, systane": 4,
+        "other_medication: Plavix, metoprolol,dyrenium, gabapentin, multivitamin": 3,
+        "other_medication: celebrex, ASA, trazodone, norvascstatin, lipitor, hydorchlorothiazide": 3,
+        "other_medication: oxygen, ASA, synthroid, diatx, allopurinol, tums, iron, BiPAP, vit E, fish oil, benicar, allegra": 3
+      },
+      "n_levels": 41
+    },
+    {
+      "drug": "Pyridoxine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE160306",
+      "n_samples_mentioning": 4,
+      "field": "other_medication",
+      "values": {
+        "other_medication: unknown": 4,
+        "other_medication: Diovan, Norvasc, plavix, lopressor, foltex, furosemide, pyridoxine, iron, calcium carbonate, diltiazem, allegra, protoniox, levaquin, coumadin, flagyl": 4,
+        "other_medication: Aggrenox, amitriptyline, avapro, furosemide, lipitor, metoprolol,  omeprazole, systane": 4,
+        "other_medication: Plavix, metoprolol,dyrenium, gabapentin, multivitamin": 3,
+        "other_medication: celebrex, ASA, trazodone, norvascstatin, lipitor, hydorchlorothiazide": 3,
+        "other_medication: oxygen, ASA, synthroid, diatx, allopurinol, tums, iron, BiPAP, vit E, fish oil, benicar, allegra": 3
+      },
+      "n_levels": 41
+    },
+    {
+      "drug": "Pyrimethamine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE235587",
+      "n_samples_mentioning": 12,
+      "field": "treatment",
+      "values": {
+        "treatment: Control": 4,
+        "treatment: 10 \u00b5M pyrimethamine": 4,
+        "treatment: 20 nM mitoxantrone": 4
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Pyrimethamine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE262419",
+      "n_samples_mentioning": 9,
+      "field": "treatment",
+      "values": {
+        "treatment: VEH_0_uM": 192,
+        "treatment: Media_0_uM": 80,
+        "treatment: ET-1_0.01_uM": 48,
+        "treatment: Blank_0_uM": 32,
+        "treatment: Isoniazid_0.2_uM": 4,
+        "treatment: Isoniazid_1_uM": 4
+      },
+      "n_levels": 1390
+    },
+    {
+      "drug": "Pyrimethamine",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE173164",
+      "n_samples_mentioning": 8,
+      "field": "treatment",
+      "values": {
+        "treatment: untreated": 3,
+        "treatment: 20 nM mitoxantrone for 72 h.": 3,
+        "treatment: 10 \u00b5M pyrimethamine for 72 h.": 2
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Rofecoxib",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE59671",
+      "n_samples_mentioning": 52,
+      "field": "nsaid treatment",
+      "values": {
+        "nsaid treatment: none": 20,
+        "nsaid treatment: celecoxib": 16,
+        "nsaid treatment: rofecoxib": 16
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Rofecoxib",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE244740",
+      "n_samples_mentioning": 24,
+      "field": "treatment",
+      "values": {
+        "treatment: DMSO, Con0": 536,
+        "treatment: Sunitinib, Con8": 57,
+        "treatment: Sunitinib, Con7": 57,
+        "treatment: Sunitinib, Con6": 57,
+        "treatment: Sunitinib, Con5": 57,
+        "treatment: Sunitinib, Con4": 57
+      },
+      "n_levels": 338
+    },
+    {
+      "drug": "Benralizumab",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE148725",
+      "n_samples_mentioning": 41,
+      "field": "time point",
+      "values": {
+        "time point: at baseline": 41,
+        "time point: 4 months after starting of benralizumab treatment": 41
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Benralizumab",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE298740",
+      "n_samples_mentioning": 28,
+      "field": "treatment",
+      "values": {
+        "treatment: BENRALIZUMAB": 28,
+        "treatment: OMALIZUMAB": 24,
+        "treatment: MEPOLIZUMAB": 18
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Isoliquiritigenin",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE155855",
+      "n_samples_mentioning": 8,
+      "field": "compound treatment",
+      "values": {
+        "compound treatment: Bendamustine_Dose1_Rep1": 1,
+        "compound treatment: Tacrolimus_Dose1_Rep1": 1,
+        "compound treatment: Dexamethasone_Dose1_Rep1": 1,
+        "compound treatment: Temozolomide_Dose1_Rep1": 1,
+        "compound treatment: Thalidomide_Dose1_Rep1": 1,
+        "compound treatment: PHA793887_Dose1_Rep1": 1
+      },
+      "n_levels": 1536
+    },
+    {
+      "drug": "Lactulose",
+      "diseases": [
+        "ankylosing spondylitis",
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE74681",
+      "n_samples_mentioning": 263,
+      "field": "percent lactulose in urine",
+      "values": {
+        "percent lactulose in urine: 0.258": 4,
+        "percent lactulose in urine: 0.31": 3,
+        "percent lactulose in urine: 0.47": 3,
+        "percent lactulose in urine: 0.416": 3,
+        "percent lactulose in urine: 0.287": 3,
+        "percent lactulose in urine: 0.246": 2
+      },
+      "n_levels": 226
+    },
+    {
+      "drug": "Lactulose",
+      "diseases": [
+        "ankylosing spondylitis",
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE75653",
+      "n_samples_mentioning": 258,
+      "field": "percent lactulose in urine",
+      "values": {
+        "percent lactulose in urine: 0.258": 3,
+        "percent lactulose in urine: 0.31": 3,
+        "percent lactulose in urine: 0.47": 3,
+        "percent lactulose in urine: 0.416": 3,
+        "percent lactulose in urine: 0.287": 3,
+        "percent lactulose in urine: 0.188": 2
+      },
+      "n_levels": 225
+    },
+    {
+      "drug": "Methylisothiazolinone",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE282562",
+      "n_samples_mentioning": 10,
+      "field": "allergen",
+      "values": {
+        "allergen: 0": 19,
+        "allergen: nickel": 11,
+        "allergen: methylisothiazolinone": 10,
+        "allergen: 2-hydroxyethylmethacrylate": 10,
+        "allergen: formaldehyde": 9
+      },
+      "n_levels": 5
+    },
+    {
+      "drug": "Methylisothiazolinone",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE168735",
+      "n_samples_mentioning": 6,
+      "field": "compound",
+      "values": {
+        "compound: Petrolatum": 36,
+        "compound: SLS": 11,
+        "compound: Linalool hydroperoxide": 10,
+        "compound: Nickel": 10,
+        "compound: None": 8,
+        "compound: Cantharidin": 7
+      },
+      "n_levels": 12
+    },
+    {
+      "drug": "Pentoxifylline",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE60408",
+      "n_samples_mentioning": 9,
+      "field": "compound treated",
+      "values": {
+        "compound treated: DMSO": 29,
+        "compound treated: SULCONAZOLE.NITRATE": 9,
+        "compound treated: CLOMIPHENE.CITRATE": 9,
+        "compound treated: HEXACHLOROPHENE": 9,
+        "compound treated: SULFINPYRAZONE": 9,
+        "compound treated: PINDOLOL": 9
+      },
+      "n_levels": 94
+    },
+    {
+      "drug": "Pentoxifylline",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE122891",
+      "n_samples_mentioning": 6,
+      "field": "treatment",
+      "values": {
+        "treatment: control": 3,
+        "treatment: pentoxifylline": 3
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Propylthiouracil",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE126786",
+      "n_samples_mentioning": 11,
+      "field": "compound",
+      "values": {
+        "compound: Benzene": 11,
+        "compound: Bioallethrin": 11,
+        "compound: Diazinon": 11,
+        "compound: Hydroxyurea": 11,
+        "compound: Monosodium glutamate": 11,
+        "compound: Permethrin": 11
+      },
+      "n_levels": 45
+    },
+    {
+      "drug": "Propylthiouracil",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE63935",
+      "n_samples_mentioning": 4,
+      "field": "screening chemicals",
+      "values": {
+        "screening chemicals: n/a": 15,
+        "screening chemicals: untreated control": 8,
+        "screening chemicals: arabinose": 4,
+        "screening chemicals: cyclopamine": 4,
+        "screening chemicals: Ouabain": 4,
+        "screening chemicals: lactose": 4
+      },
+      "n_levels": 82
+    },
+    {
+      "drug": "Tildrakizumab",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma"
+      ],
+      "gse": "GSE271627",
+      "n_samples_mentioning": 28,
+      "field": "treatment",
+      "values": {
+        "treatment: tildrakizumab": 26,
+        "treatment: n/a": 2
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Tirofiban",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE135992",
+      "n_samples_mentioning": 84,
+      "field": "treatment",
+      "values": {
+        "treatment: N/A": 42,
+        "treatment: Aspirin treated": 6,
+        "treatment: Ticagrelor treated": 6,
+        "treatment: Red blood cell lysis buffer treated": 6,
+        "treatment: Clopidogrel treated": 6,
+        "treatment: Tirofiban treated": 6
+      },
+      "n_levels": 8
+    },
+    {
+      "drug": "Ustekinumab",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma"
+      ],
+      "gse": "GSE207465",
+      "n_samples_mentioning": 1173,
+      "field": "treatment",
+      "values": {
+        "treatment: Ustekinumab": 1173,
+        "treatment: Placebo": 560
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Ustekinumab",
+      "diseases": [
+        "ankylosing spondylitis",
+        "asthma"
+      ],
+      "gse": "GSE117468",
+      "n_samples_mentioning": 27,
+      "field": "treatment",
+      "values": {
+        "treatment: Brodalumab 140 mg Q2W": 207,
+        "treatment: Brodalumab 210 mg Q2W": 167,
+        "treatment: Placebo": 117,
+        "treatment: Ustekinumab": 74
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Zileuton",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE175616",
+      "n_samples_mentioning": 123,
+      "field": "treatment",
+      "values": {
+        "treatment: Placebo": 64,
+        "treatment: Aspirin+Zileuton": 59
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Zileuton",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE262419",
+      "n_samples_mentioning": 9,
+      "field": "treatment",
+      "values": {
+        "treatment: VEH_0_uM": 192,
+        "treatment: Media_0_uM": 80,
+        "treatment: ET-1_0.01_uM": 48,
+        "treatment: Blank_0_uM": 32,
+        "treatment: Isoniazid_0.2_uM": 4,
+        "treatment: Isoniazid_1_uM": 4
+      },
+      "n_levels": 1390
+    },
+    {
+      "drug": "Acetazolamide",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE221746",
+      "n_samples_mentioning": 9,
+      "field": "treatment",
+      "values": {
+        "treatment: 10ul DMSO to correct for vehicle in other groups": 3,
+        "treatment: Acetazolamide 10uM for 48hrs": 3,
+        "treatment: Human recombinant laminin 511-E8 0.25ug/cm2 for 48hrs": 3
+      },
+      "n_levels": 3
+    },
+    {
+      "drug": "Brinzolamide",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE60408",
+      "n_samples_mentioning": 9,
+      "field": "compound treated",
+      "values": {
+        "compound treated: DMSO": 29,
+        "compound treated: SULCONAZOLE.NITRATE": 9,
+        "compound treated: CLOMIPHENE.CITRATE": 9,
+        "compound treated: HEXACHLOROPHENE": 9,
+        "compound treated: SULFINPYRAZONE": 9,
+        "compound treated: PINDOLOL": 9
+      },
+      "n_levels": 94
+    },
+    {
+      "drug": "CERTOLIZUMAB",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE198520",
+      "n_samples_mentioning": 92,
+      "field": "biologic",
+      "values": {
+        "biologic: Certolizumab": 54,
+        "biologic: Etanercept": 38
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Chelerythrine",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE80752",
+      "n_samples_mentioning": 6,
+      "field": "agent",
+      "values": {
+        "agent: none": 3,
+        "agent: Chelerythrine": 3
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Clazakizumab",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE287697",
+      "n_samples_mentioning": 28,
+      "field": "treatment arm",
+      "values": {
+        "treatment arm: Placebo": 30,
+        "treatment arm: Clazakizumab": 28
+      },
+      "n_levels": 2
+    },
+    {
+      "drug": "Flurbiprofen",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE60408",
+      "n_samples_mentioning": 9,
+      "field": "compound treated",
+      "values": {
+        "compound treated: DMSO": 29,
+        "compound treated: SULCONAZOLE.NITRATE": 9,
+        "compound treated: CLOMIPHENE.CITRATE": 9,
+        "compound treated: HEXACHLOROPHENE": 9,
+        "compound treated: SULFINPYRAZONE": 9,
+        "compound treated: PINDOLOL": 9
+      },
+      "n_levels": 94
+    },
+    {
+      "drug": "Ibutilide",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE262419",
+      "n_samples_mentioning": 9,
+      "field": "treatment",
+      "values": {
+        "treatment: VEH_0_uM": 192,
+        "treatment: Media_0_uM": 80,
+        "treatment: ET-1_0.01_uM": 48,
+        "treatment: Blank_0_uM": 32,
+        "treatment: Isoniazid_0.2_uM": 4,
+        "treatment: Isoniazid_1_uM": 4
+      },
+      "n_levels": 1390
+    },
+    {
+      "drug": "Ilomastat",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE52246",
+      "n_samples_mentioning": 8,
+      "field": "treatment",
+      "values": {
+        "treatment: AttRho": 2,
+        "treatment: CTRL": 2,
+        "treatment: EphA2": 2,
+        "treatment: Ilomastat": 2
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Perphenazine",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE275875",
+      "n_samples_mentioning": 3,
+      "field": "treatment",
+      "values": {
+        "treatment: PER+TMZ": 3,
+        "treatment: untreated": 3,
+        "treatment: PER (perphenazine)": 3,
+        "treatment: TMZ (temozolomide)": 3
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Piroxicam",
+      "diseases": [
+        "rheumatoid arthritis"
+      ],
+      "gse": "GSE22445",
+      "n_samples_mentioning": 18,
+      "field": "agent",
+      "values": {
+        "agent: Piroxicam": 5,
+        "agent: Cisplatin": 5,
+        "agent: untreated": 4,
+        "agent: Piroxicam/Cisplatin": 4
+      },
+      "n_levels": 4
+    },
+    {
+      "drug": "Terfenadine",
+      "diseases": [
+        "asthma"
+      ],
+      "gse": "GSE262419",
+      "n_samples_mentioning": 9,
+      "field": "treatment",
+      "values": {
+        "treatment: VEH_0_uM": 192,
+        "treatment: Media_0_uM": 80,
+        "treatment: ET-1_0.01_uM": 48,
+        "treatment: Blank_0_uM": 32,
+        "treatment: Isoniazid_0.2_uM": 4,
+        "treatment: Isoniazid_1_uM": 4
+      },
+      "n_levels": 1390
+    },
+    {
+      "drug": "Vadimezan",
+      "diseases": [
+        "ankylosing spondylitis"
+      ],
+      "gse": "GSE199800",
+      "n_samples_mentioning": 4,
+      "field": "treatment",
+      "values": {
+        "treatment: DMSO": 108,
+        "treatment: UNTREATED": 108,
+        "treatment: Azacitidine": 6,
+        "treatment: Lapatinib": 4,
+        "treatment: Bendamustine": 4,
+        "treatment: Cisplatin": 4
+      },
+      "n_levels": 432
+    }
+  ]
+}

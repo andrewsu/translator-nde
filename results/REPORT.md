@@ -841,6 +841,75 @@ PYTHONPATH=src .venv/bin/python -m pytest tests/test_activity.py -q
 
 ---
 
+# Candidate datasets: GEO series that perturb with a Translator-proposed drug
+
+The question examples 1–4 keep circling is whether a *specific* asserted edge is supported. A
+weaker but more useful question is the one the original sketch asked: for a drug Translator
+proposes, **does an expression experiment on that drug exist at all?** No edge adjudication, just
+discovery. `scripts/find_perturbation_series.py` answers it in two stages, because the cheap signal
+is not trustworthy alone.
+
+**Stage 1 — NDE sample-level search.** A drug named on individual `@type:Sample` records is a
+better hint than one named on the `Dataset`, which may be an abstract mention. Hits are grouped by
+parent series; a series needs ≥3 mentioning samples to count. Over the 296 drug-like drugs in the
+three answer sets, **134 have at least one candidate series**.
+
+**Stage 2 — GEO characteristics confirmation.** Sample-level mentions are still ambiguous: a
+study-wide descriptor ("asthma patients on ICS") names the drug on every sample while perturbing
+nothing. The authoritative signal is a `!Sample_characteristics_ch1` row whose values name the drug
+*and* take at least one other value — a treatment arm with something to compare against. Fetching
+583 series-matrix headers confirms **297 drug × series pairs over 105 drugs and 251 series**; after
+requiring a control-like level as well, **143 pairs across 73 drugs**.
+
+| disease | confirmed pairs |
+|---|--:|
+| ankylosing spondylitis | 205 |
+| asthma | 83 |
+| rheumatoid arthritis | 52 |
+
+## Shortlist
+
+`scripts/rank_perturbation_candidates.py` ranks by the Translator answer's own score, so the top is
+what Translator proposed most confidently *and* somebody has actually run.
+
+| disease | drug | series | expression data | n | Translator genes |
+|---|---|---|---|--:|---|
+| asthma | Prednisolone | GSE40165 | suppl matrix | 241 | NR3C1, NR3C2 |
+| asthma | Zileuton | GSE175616 | series matrix (20,777) | 123 | ALOX5 |
+| asthma | Roflumilast | GSE126981 / GSE267218 | normalized | 4 | PDE4A/B/D |
+| asthma | Triamcinolone | GSE136034 | suppl matrix | 71 | CD1A, MMP1, NR3C1 |
+| RA | Baicalein | GSE232322 | **raw counts** | 12 | CFTR |
+| RA | Triamcinolone | GSE136034 | suppl matrix | 71 | CD1A, NR3C1, VEGFA |
+| RA | Celecoxib | GSE59671 | series matrix (22,277) | 52 | CA12, CA9, DDIT3, PTGS1 |
+| AS | Celecoxib | GSE145650 | **raw counts** | 32 | STAT3 |
+| AS | Infliximab | GSE45468 | suppl matrix | 99 | FCGR2A, IL12B, IL1B, TLR4 |
+| AS | Ustekinumab | GSE207465 | series matrix (29,597) | 1,173 | IL12B |
+| AS | glucocorticoid | GSE73578 | series matrix (54,675) | 87 | TNF |
+
+Arms are explicit and clean — `treatment: Infliximab` vs `treatment: Placebo`,
+`nsaid treatment: celecoxib` vs `none`, `treatment: Celecoxib 10 uM` vs `DMSO`,
+`treatment: 100 nM triamcinolone acetonide` vs `DMSO(Veh control)`.
+
+**The best starting points are GSE145650 (celecoxib vs DMSO, raw counts) and GSE232322 (baicalein
+vs control, raw counts)** — raw counts need no format guessing — followed by GSE45468 (infliximab
+vs placebo, 99 samples) for a clinical rather than in-vitro design.
+
+## Two caveats, both measured
+
+**`geo.inspect` undercounts re-analysable series.** It classifies only files under `suppl/`, so
+microarray series — whose expression values live in the series matrix and nowhere else — come back
+as `matrix_kind: none` despite being fully usable. Four of the shortlist were rescued this way:
+GSE59671 has 22,277 rows, GSE45468 16,963, GSE73578 54,675, GSE175616 20,777. **The 182/453 (40%)
+re-analysable figure in example 2 is therefore a floor, not an estimate**, since it used the same
+classifier.
+
+**Several arms are combination therapy.** `Aspirin+Zileuton` vs placebo isolates neither drug, and
+`celecoxib plus 20 ng/mL TGF` is confounded. These are still legitimate datasets — just not clean
+single-agent contrasts, and the shortlist records the arm strings so the reader can see which is
+which.
+
+---
+
 # Conclusions
 
 ## 1. The bridge exists, but not where the sketch put it

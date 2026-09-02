@@ -1,0 +1,2729 @@
+{
+  "all_clean_pairs": [
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "ionomycin",
+      "gse": "GSE228211",
+      "field": "treatment",
+      "arm": "treatment: PMA Ionomycin + SP100030",
+      "control": "treatment: DMSO",
+      "n_samples_mentioning": 48,
+      "translator_paths": 2,
+      "translator_genes": [
+        "CFTR"
+      ],
+      "translator_score": 0.996,
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "series_matrix_rows": 0,
+      "usable": false
+    },
+    {
+      "disease": "asthma",
+      "drug": "Prednisolone",
+      "gse": "GSE40165",
+      "field": "treated with",
+      "arm": "treated with: low-dose (0.5mg/kg) of prednisolone",
+      "control": "treated with: placebo",
+      "n_samples_mentioning": 241,
+      "translator_paths": 12,
+      "translator_genes": [
+        "NR3C1",
+        "NR3C2"
+      ],
+      "translator_score": 0.992,
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE40165_non_normalized.txt.gz"
+      ],
+      "series_matrix_rows": 0,
+      "usable": true
+    },
+    {
+      "disease": "asthma",
+      "drug": "Prednisolone",
+      "gse": "GSE225858",
+      "field": "treatment",
+      "arm": "treatment: Prednisolone (10mM) 2h",
+      "control": "treatment: DMSO_0h",
+      "n_samples_mentioning": 51,
+      "translator_paths": 12,
+      "translator_genes": [
+        "NR3C1",
+        "NR3C2"
+      ],
+      "translator_score": 0.992,
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "series_matrix_rows": 0,
+      "usable": false
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Baicalein",
+      "gse": "GSE326697",
+      "field": "treatment",
+      "arm": "treatment: baicalein 10 \u00b5M",
+      "control": "treatment: untreated",
+      "n_samples_mentioning": 18,
+      "translator_paths": 2,
+      "translator_genes": [
+        "CFTR"
+      ],
+      "translator_score": 0.991,
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE326697_matrix.txt.gz"
+      ],
+      "series_matrix_rows": 0,
+      "usable": true
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Baicalein",
+      "gse": "GSE232322",
+      "field": "treatment",
+      "arm": "treatment: Baicalein (100 uM)",
+      "control": "treatment: Control",
+      "n_samples_mentioning": 12,
+      "translator_paths": 2,
+      "translator_genes": [
+        "CFTR"
+      ],
+      "translator_score": 0.991,
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE232322_MCF7_raw_counts.txt.gz",
+        "GSE232322_T47D_raw_counts.txt.gz"
+      ],
+      "series_matrix_rows": 0,
+      "usable": true
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Baicalein",
+      "gse": "GSE127765",
+      "field": "agent",
+      "arm": "agent: Baicalein",
+      "control": "agent: control",
+      "n_samples_mentioning": 9,
+      "translator_paths": 2,
+      "translator_genes": [
+        "CFTR"
+      ],
+      "translator_score": 0.991,
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "series_matrix_rows": 29187,
+      "usable": true
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Triamcinolone",
+      "gse": "GSE136034",
+      "field": "treatment",
+      "arm": "treatment: 100 nM triamcinolone acetonide(TA) for 4 hours.",
+      "control": "treatment: DMSO(Veh control) for 4 hours",
+      "n_samples_mentioning": 71,
+      "translator_paths": 39,
+      "translator_genes": [
+        "CD1A",
+        "NR3C1",
+        "VEGFA"
+      ],
+      "translator_score": 0.979,
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE136034_4C_seq_trim_table.txt.gz"
+      ],
+      "series_matrix_rows": 0,
+      "usable": true
+    },
+    {
+      "disease": "asthma",
+      "drug": "Zileuton",
+      "gse": "GSE175616",
+      "field": "treatment",
+      "arm": "treatment: Aspirin+Zileuton",
+      "control": "treatment: Placebo",
+      "n_samples_mentioning": 123,
+      "translator_paths": 10,
+      "translator_genes": [
+        "ALOX5"
+      ],
+      "translator_score": 0.969,
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "series_matrix_rows": 20777,
+      "usable": true
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Celecoxib",
+      "gse": "GSE59671",
+      "field": "nsaid treatment",
+      "arm": "nsaid treatment: celecoxib",
+      "control": "nsaid treatment: none",
+      "n_samples_mentioning": 52,
+      "translator_paths": 46,
+      "translator_genes": [
+        "CA12",
+        "CA9",
+        "DDIT3",
+        "PTGS1",
+        "PTGS2",
+        "STAT3",
+        "VEGFA"
+      ],
+      "translator_score": 0.964,
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "series_matrix_rows": 22277,
+      "usable": true
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Celecoxib",
+      "gse": "GSE145650",
+      "field": "treatment",
+      "arm": "treatment: Celecoxib 10 uM",
+      "control": "treatment: DMSO",
+      "n_samples_mentioning": 32,
+      "translator_paths": 46,
+      "translator_genes": [
+        "CA12",
+        "CA9",
+        "DDIT3",
+        "PTGS1",
+        "PTGS2",
+        "STAT3",
+        "VEGFA"
+      ],
+      "translator_score": 0.964
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Celecoxib",
+      "gse": "GSE220643",
+      "field": "treatment",
+      "arm": "treatment: combination of 10uM of celecoxib plus 20 ng/mL of TGF-beta (0.1% DMSO)",
+      "control": "treatment: Vehicle (0.1% DMSO)",
+      "n_samples_mentioning": 12,
+      "translator_paths": 46,
+      "translator_genes": [
+        "CA12",
+        "CA9",
+        "DDIT3",
+        "PTGS1",
+        "PTGS2",
+        "STAT3",
+        "VEGFA"
+      ],
+      "translator_score": 0.964
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Piroxicam",
+      "gse": "GSE22445",
+      "field": "agent",
+      "arm": "agent: Piroxicam",
+      "control": "agent: untreated",
+      "n_samples_mentioning": 18,
+      "translator_paths": 21,
+      "translator_genes": [
+        "PTGS1",
+        "PTGS2"
+      ],
+      "translator_score": 0.959
+    },
+    {
+      "disease": "asthma",
+      "drug": "Roflumilast",
+      "gse": "GSE126981",
+      "field": "treatment",
+      "arm": "treatment: Roflumilast N-oxide (RNO)",
+      "control": "treatment: Vehicle",
+      "n_samples_mentioning": 4,
+      "translator_paths": 20,
+      "translator_genes": [
+        "PDE4A",
+        "PDE4B",
+        "PDE4D"
+      ],
+      "translator_score": 0.958,
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE126981_normalized_tpm.txt.gz"
+      ],
+      "series_matrix_rows": 0,
+      "usable": true
+    },
+    {
+      "disease": "asthma",
+      "drug": "Roflumilast",
+      "gse": "GSE267218",
+      "field": "treatment",
+      "arm": "treatment: Roflumilast N-oxide (RNO)",
+      "control": "treatment: Vehicle",
+      "n_samples_mentioning": 4,
+      "translator_paths": 20,
+      "translator_genes": [
+        "PDE4A",
+        "PDE4B",
+        "PDE4D"
+      ],
+      "translator_score": 0.958,
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE267218_normalized_tpm.txt.gz"
+      ],
+      "series_matrix_rows": 0,
+      "usable": true
+    },
+    {
+      "disease": "asthma",
+      "drug": "Triamcinolone",
+      "gse": "GSE136034",
+      "field": "treatment",
+      "arm": "treatment: 100 nM triamcinolone acetonide(TA) for 4 hours.",
+      "control": "treatment: DMSO(Veh control) for 4 hours",
+      "n_samples_mentioning": 71,
+      "translator_paths": 24,
+      "translator_genes": [
+        "CD1A",
+        "MMP1",
+        "NR3C1"
+      ],
+      "translator_score": 0.955,
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE136034_4C_seq_trim_table.txt.gz"
+      ],
+      "series_matrix_rows": 0,
+      "usable": true
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Infliximab",
+      "gse": "GSE45468",
+      "field": "treatment",
+      "arm": "treatment: Infliximab",
+      "control": "treatment: Placebo",
+      "n_samples_mentioning": 99,
+      "translator_paths": 8,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.951
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Baricitinib",
+      "gse": "GSE174695",
+      "field": "drug1",
+      "arm": "drug1: Baricitinib",
+      "control": "drug1: DMSO",
+      "n_samples_mentioning": 63,
+      "translator_paths": 29,
+      "translator_genes": [
+        "JAK1",
+        "JAK2",
+        "JAK3",
+        "TYK2"
+      ],
+      "translator_score": 0.931
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Baricitinib",
+      "gse": "GSE161664",
+      "field": "treatment",
+      "arm": "treatment: Baricitinib",
+      "control": "treatment: Control",
+      "n_samples_mentioning": 37,
+      "translator_paths": 29,
+      "translator_genes": [
+        "JAK1",
+        "JAK2",
+        "JAK3",
+        "TYK2"
+      ],
+      "translator_score": 0.931
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Baricitinib",
+      "gse": "GSE292720",
+      "field": "treatment",
+      "arm": "treatment: Baricitinib 5\u03bcM + RVFV",
+      "control": "treatment: Vehicle + RVFV",
+      "n_samples_mentioning": 24,
+      "translator_paths": 29,
+      "translator_genes": [
+        "JAK1",
+        "JAK2",
+        "JAK3",
+        "TYK2"
+      ],
+      "translator_score": 0.931
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Baricitinib",
+      "gse": "GSE232044",
+      "field": "treatment",
+      "arm": "treatment: 10nM Baricitinib-treated",
+      "control": "treatment: untreated",
+      "n_samples_mentioning": 16,
+      "translator_paths": 29,
+      "translator_genes": [
+        "JAK1",
+        "JAK2",
+        "JAK3",
+        "TYK2"
+      ],
+      "translator_score": 0.931
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Rofecoxib",
+      "gse": "GSE59671",
+      "field": "nsaid treatment",
+      "arm": "nsaid treatment: rofecoxib",
+      "control": "nsaid treatment: none",
+      "n_samples_mentioning": 52,
+      "translator_paths": 26,
+      "translator_genes": [
+        "BIRC5",
+        "ELN",
+        "PTGS2"
+      ],
+      "translator_score": 0.93
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Celecoxib",
+      "gse": "GSE59671",
+      "field": "nsaid treatment",
+      "arm": "nsaid treatment: celecoxib",
+      "control": "nsaid treatment: none",
+      "n_samples_mentioning": 52,
+      "translator_paths": 2,
+      "translator_genes": [
+        "STAT3"
+      ],
+      "translator_score": 0.917,
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "series_matrix_rows": 22277,
+      "usable": true
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Celecoxib",
+      "gse": "GSE145650",
+      "field": "treatment",
+      "arm": "treatment: Celecoxib 10 uM",
+      "control": "treatment: DMSO",
+      "n_samples_mentioning": 32,
+      "translator_paths": 2,
+      "translator_genes": [
+        "STAT3"
+      ],
+      "translator_score": 0.917,
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE145650_raw_count_summary.txt.gz"
+      ],
+      "series_matrix_rows": 0,
+      "usable": true
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Celecoxib",
+      "gse": "GSE220643",
+      "field": "treatment",
+      "arm": "treatment: combination of 10uM of celecoxib plus 20 ng/mL of TGF-beta (0.1% DMSO)",
+      "control": "treatment: Vehicle (0.1% DMSO)",
+      "n_samples_mentioning": 12,
+      "translator_paths": 2,
+      "translator_genes": [
+        "STAT3"
+      ],
+      "translator_score": 0.917,
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "series_matrix_rows": 0,
+      "usable": false
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Infliximab",
+      "gse": "GSE45468",
+      "field": "treatment",
+      "arm": "treatment: Infliximab",
+      "control": "treatment: Placebo",
+      "n_samples_mentioning": 99,
+      "translator_paths": 14,
+      "translator_genes": [
+        "FCGR2A",
+        "IL12B",
+        "IL1B",
+        "TLR4",
+        "TNF",
+        "TNFRSF1A"
+      ],
+      "translator_score": 0.914,
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE45468.txt.gz",
+        "GSE45468_Infliximab_rawdata.csv.gz"
+      ],
+      "series_matrix_rows": 0,
+      "usable": true
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "glucocorticoid",
+      "gse": "GSE73578",
+      "field": "treatment",
+      "arm": "treatment: glucocorticoid (GC) mono-therapy",
+      "control": "treatment: none",
+      "n_samples_mentioning": 87,
+      "translator_paths": 4,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.914,
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "series_matrix_rows": 54675,
+      "usable": true
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Ustekinumab",
+      "gse": "GSE207465",
+      "field": "treatment",
+      "arm": "treatment: Ustekinumab",
+      "control": "treatment: Placebo",
+      "n_samples_mentioning": 1173,
+      "translator_paths": 2,
+      "translator_genes": [
+        "IL12B"
+      ],
+      "translator_score": 0.832,
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "series_matrix_rows": 29597,
+      "usable": true
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Ustekinumab",
+      "gse": "GSE117468",
+      "field": "treatment",
+      "arm": "treatment: Ustekinumab",
+      "control": "treatment: Placebo",
+      "n_samples_mentioning": 27,
+      "translator_paths": 2,
+      "translator_genes": [
+        "IL12B"
+      ],
+      "translator_score": 0.832
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Zoledronic acid",
+      "gse": "GSE221563",
+      "field": "treatment",
+      "arm": "treatment: ZOLEDRONIC ACID",
+      "control": "treatment: NONE",
+      "n_samples_mentioning": 6,
+      "translator_paths": 2,
+      "translator_genes": [
+        "VEGFA"
+      ],
+      "translator_score": 0.814
+    },
+    {
+      "disease": "asthma",
+      "drug": "Mepolizumab",
+      "gse": "GSE292059",
+      "field": "treatment",
+      "arm": "treatment: Mepolizumab",
+      "control": "treatment: Placebo",
+      "n_samples_mentioning": 443,
+      "translator_paths": 10,
+      "translator_genes": [
+        "IL5",
+        "IL5RA"
+      ],
+      "translator_score": 0.783
+    },
+    {
+      "disease": "asthma",
+      "drug": "Mepolizumab",
+      "gse": "GSE192861",
+      "field": "treatment",
+      "arm": "treatment: Mepolizumab",
+      "control": "treatment: Placebo",
+      "n_samples_mentioning": 339,
+      "translator_paths": 10,
+      "translator_genes": [
+        "IL5",
+        "IL5RA"
+      ],
+      "translator_score": 0.783
+    },
+    {
+      "disease": "asthma",
+      "drug": "Mepolizumab",
+      "gse": "GSE274410",
+      "field": "treatment",
+      "arm": "treatment: mepolizumab",
+      "control": "treatment: none",
+      "n_samples_mentioning": 27,
+      "translator_paths": 10,
+      "translator_genes": [
+        "IL5",
+        "IL5RA"
+      ],
+      "translator_score": 0.783
+    },
+    {
+      "disease": "asthma",
+      "drug": "Dupilumab",
+      "gse": "GSE130588",
+      "field": "treatment",
+      "arm": "treatment: Dupilumab",
+      "control": "treatment: Placebo",
+      "n_samples_mentioning": 208,
+      "translator_paths": 26,
+      "translator_genes": [
+        "IL4R"
+      ],
+      "translator_score": 0.78
+    },
+    {
+      "disease": "asthma",
+      "drug": "Dupilumab",
+      "gse": "GSE267331",
+      "field": "treatment",
+      "arm": "treatment: Dupilumab",
+      "control": "treatment: Placebo",
+      "n_samples_mentioning": 172,
+      "translator_paths": 26,
+      "translator_genes": [
+        "IL4R"
+      ],
+      "translator_score": 0.78
+    },
+    {
+      "disease": "asthma",
+      "drug": "Dupilumab",
+      "gse": "GSE59294",
+      "field": "treatment",
+      "arm": "treatment: B Dupilumab 150 mg",
+      "control": "treatment: D Placebo",
+      "n_samples_mentioning": 35,
+      "translator_paths": 26,
+      "translator_genes": [
+        "IL4R"
+      ],
+      "translator_score": 0.78
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Bevacizumab",
+      "gse": "GSE150604",
+      "field": "treatment",
+      "arm": "treatment: Bevacizumab",
+      "control": "treatment: Placebo",
+      "n_samples_mentioning": 57,
+      "translator_paths": 2,
+      "translator_genes": [
+        "FCGR2A"
+      ],
+      "translator_score": 0.742
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Cyclic AMP",
+      "gse": "GSE296787",
+      "field": "treatment",
+      "arm": "treatment: empty vector control, Progesterone, estrodiol, cyclic AMP",
+      "control": "treatment: empty vector control",
+      "n_samples_mentioning": 32,
+      "translator_paths": 2,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.677
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Leucovorin",
+      "gse": "GSE32711",
+      "field": "treatment",
+      "arm": "treatment: 5FU, Leucovorin, Oxaliplatin and Bevacizumab after colon resection",
+      "control": "treatment: no treatment",
+      "n_samples_mentioning": 4,
+      "translator_paths": 2,
+      "translator_genes": [
+        "RUNX3"
+      ],
+      "translator_score": 0.677
+    },
+    {
+      "disease": "asthma",
+      "drug": "Aspirin",
+      "gse": "GSE158765",
+      "field": "treatment_drug_label",
+      "arm": "treatment_drug_label: 325 mg Aspirin",
+      "control": "treatment_drug_label: none",
+      "n_samples_mentioning": 136,
+      "translator_paths": 31,
+      "translator_genes": [
+        "DDIT3",
+        "PTGS1",
+        "PTGS2",
+        "TGFB1"
+      ],
+      "translator_score": 0.656
+    },
+    {
+      "disease": "asthma",
+      "drug": "Aspirin",
+      "gse": "GSE175616",
+      "field": "treatment",
+      "arm": "treatment: Aspirin+Zileuton",
+      "control": "treatment: Placebo",
+      "n_samples_mentioning": 123,
+      "translator_paths": 31,
+      "translator_genes": [
+        "DDIT3",
+        "PTGS1",
+        "PTGS2",
+        "TGFB1"
+      ],
+      "translator_score": 0.656
+    },
+    {
+      "disease": "asthma",
+      "drug": "Budesonide",
+      "gse": "GSE134897",
+      "field": "treatment group",
+      "arm": "treatment group: Budesonide",
+      "control": "treatment group: Placebo",
+      "n_samples_mentioning": 188,
+      "translator_paths": 20,
+      "translator_genes": [
+        "ANXA1",
+        "CRHR1",
+        "CYP1A2",
+        "CYP2C19",
+        "CYP2C9",
+        "CYP3A4",
+        "EDN1",
+        "NR1I2",
+        "NR3C2",
+        "PGR"
+      ],
+      "translator_score": 0.533
+    },
+    {
+      "disease": "asthma",
+      "drug": "Budesonide",
+      "gse": "GSE115830",
+      "field": "treatment",
+      "arm": "treatment: Budesonide",
+      "control": "treatment: Control (non stimulated)",
+      "n_samples_mentioning": 64,
+      "translator_paths": 20,
+      "translator_genes": [
+        "ANXA1",
+        "CRHR1",
+        "CYP1A2",
+        "CYP2C19",
+        "CYP2C9",
+        "CYP3A4",
+        "EDN1",
+        "NR1I2",
+        "NR3C2",
+        "PGR"
+      ],
+      "translator_score": 0.533
+    },
+    {
+      "disease": "asthma",
+      "drug": "Budesonide",
+      "gse": "GSE94335",
+      "field": "treatment",
+      "arm": "treatment: budesonide",
+      "control": "treatment: vehicle",
+      "n_samples_mentioning": 34,
+      "translator_paths": 20,
+      "translator_genes": [
+        "ANXA1",
+        "CRHR1",
+        "CYP1A2",
+        "CYP2C19",
+        "CYP2C9",
+        "CYP3A4",
+        "EDN1",
+        "NR1I2",
+        "NR3C2",
+        "PGR"
+      ],
+      "translator_score": 0.533
+    },
+    {
+      "disease": "asthma",
+      "drug": "glucocorticoid",
+      "gse": "GSE73578",
+      "field": "treatment",
+      "arm": "treatment: glucocorticoid (GC) mono-therapy",
+      "control": "treatment: none",
+      "n_samples_mentioning": 87,
+      "translator_paths": 18,
+      "translator_genes": [
+        "TGFB1",
+        "TNF",
+        "TSC22D3"
+      ],
+      "translator_score": 0.533
+    },
+    {
+      "disease": "asthma",
+      "drug": "Formoterol",
+      "gse": "GSE202436",
+      "field": "treatment",
+      "arm": "treatment: Formoterol",
+      "control": "treatment: Vehicle",
+      "n_samples_mentioning": 100,
+      "translator_paths": 4,
+      "translator_genes": [
+        "ADRB1",
+        "CYP2C19"
+      ],
+      "translator_score": 0.533
+    },
+    {
+      "disease": "asthma",
+      "drug": "Formoterol",
+      "gse": "GSE115830",
+      "field": "treatment",
+      "arm": "treatment: Formoterol",
+      "control": "treatment: Control (non stimulated)",
+      "n_samples_mentioning": 64,
+      "translator_paths": 4,
+      "translator_genes": [
+        "ADRB1",
+        "CYP2C19"
+      ],
+      "translator_score": 0.533
+    },
+    {
+      "disease": "asthma",
+      "drug": "Formoterol",
+      "gse": "GSE30242",
+      "field": "treatment",
+      "arm": "treatment: Formoterol",
+      "control": "treatment: None",
+      "n_samples_mentioning": 24,
+      "translator_paths": 4,
+      "translator_genes": [
+        "ADRB1",
+        "CYP2C19"
+      ],
+      "translator_score": 0.533
+    },
+    {
+      "disease": "asthma",
+      "drug": "Formoterol",
+      "gse": "GSE161805",
+      "field": "treatment",
+      "arm": "treatment: Formoterol",
+      "control": "treatment: Control (non stimulated)",
+      "n_samples_mentioning": 24,
+      "translator_paths": 4,
+      "translator_genes": [
+        "ADRB1",
+        "CYP2C19"
+      ],
+      "translator_score": 0.533
+    },
+    {
+      "disease": "asthma",
+      "drug": "Formoterol",
+      "gse": "GSE315974",
+      "field": "treatment",
+      "arm": "treatment: 30 nM formoterol",
+      "control": "treatment: vehicle (1% BSA)",
+      "n_samples_mentioning": 16,
+      "translator_paths": 4,
+      "translator_genes": [
+        "ADRB1",
+        "CYP2C19"
+      ],
+      "translator_score": 0.533
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Zymosan",
+      "gse": "GSE157981",
+      "field": "treatment",
+      "arm": "treatment: Zymosan 10ug/mL",
+      "control": "treatment: untreated",
+      "n_samples_mentioning": 9,
+      "translator_paths": 2,
+      "translator_genes": [
+        "C3"
+      ],
+      "translator_score": 0.478
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Doxorubicin",
+      "gse": "GSE174695",
+      "field": "drug1",
+      "arm": "drug1: Doxorubicin",
+      "control": "drug1: DMSO",
+      "n_samples_mentioning": 63,
+      "translator_paths": 2,
+      "translator_genes": [
+        "C3"
+      ],
+      "translator_score": 0.461
+    },
+    {
+      "disease": "asthma",
+      "drug": "Sorafenib",
+      "gse": "GSE151412",
+      "field": "drug treatment",
+      "arm": "drug treatment: GW3965/Sorafenib",
+      "control": "drug treatment: DMSO",
+      "n_samples_mentioning": 70,
+      "translator_paths": 2,
+      "translator_genes": [
+        "ATG5"
+      ],
+      "translator_score": 0.441
+    },
+    {
+      "disease": "asthma",
+      "drug": "Sorafenib",
+      "gse": "GSE201695",
+      "field": "treatment",
+      "arm": "treatment: Sorafenib 10 uM 24h",
+      "control": "treatment: Control (DMSO) 24h",
+      "n_samples_mentioning": 28,
+      "translator_paths": 2,
+      "translator_genes": [
+        "ATG5"
+      ],
+      "translator_score": 0.441
+    },
+    {
+      "disease": "asthma",
+      "drug": "Sorafenib",
+      "gse": "GSE343131",
+      "field": "treatment",
+      "arm": "treatment: sorafenib 1.25 uM, 72 h",
+      "control": "treatment: vehicle control (DMSO <= 0.1%), 72 h",
+      "n_samples_mentioning": 24,
+      "translator_paths": 2,
+      "translator_genes": [
+        "ATG5"
+      ],
+      "translator_score": 0.441
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Captopril",
+      "gse": "GSE173553",
+      "field": "treatment",
+      "arm": "treatment: 300 \u03bcM captopril for 2h",
+      "control": "treatment: untreated, incubated for 2h",
+      "n_samples_mentioning": 36,
+      "translator_paths": 26,
+      "translator_genes": [
+        "ACE2",
+        "CYP19A1",
+        "DPP4",
+        "MMP2",
+        "MMP9",
+        "NOS2",
+        "SERPINE1"
+      ],
+      "translator_score": 0.387
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Apigenin",
+      "gse": "GSE158377",
+      "field": "treatment",
+      "arm": "treatment: Apigenin",
+      "control": "treatment: Control",
+      "n_samples_mentioning": 28,
+      "translator_paths": 2,
+      "translator_genes": [
+        "CFTR"
+      ],
+      "translator_score": 0.353
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Apigenin",
+      "gse": "GSE120550",
+      "field": "treatment",
+      "arm": "treatment: apigenin 40 \u03bcM",
+      "control": "treatment: none (untreated control)",
+      "n_samples_mentioning": 12,
+      "translator_paths": 2,
+      "translator_genes": [
+        "CFTR"
+      ],
+      "translator_score": 0.353
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Apigenin",
+      "gse": "GSE133968",
+      "field": "treatment",
+      "arm": "treatment: TNF\u0251 40 ng/ml + Apigenin 40 \u03bcM",
+      "control": "treatment: none",
+      "n_samples_mentioning": 11,
+      "translator_paths": 2,
+      "translator_genes": [
+        "CFTR"
+      ],
+      "translator_score": 0.353
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Apigenin",
+      "gse": "GSE7403",
+      "field": "characteristic",
+      "arm": "SH-SY5Y cells treated with 74 mM Apigenin for 1h, then with 50ng/ml PDGF for 0.5h.",
+      "control": "SH-SY5Y cells treated with DMSO for 1h, then with 50ng/ml PDGF for 0.5h.",
+      "n_samples_mentioning": 10,
+      "translator_paths": 2,
+      "translator_genes": [
+        "CFTR"
+      ],
+      "translator_score": 0.353
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Apigenin",
+      "gse": "GSE273159",
+      "field": "treatment",
+      "arm": "treatment: Bleomycin/apigenin",
+      "control": "treatment: None",
+      "n_samples_mentioning": 9,
+      "translator_paths": 2,
+      "translator_genes": [
+        "CFTR"
+      ],
+      "translator_score": 0.353
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Chelerythrine",
+      "gse": "GSE80752",
+      "field": "agent",
+      "arm": "agent: Chelerythrine",
+      "control": "agent: none",
+      "n_samples_mentioning": 6,
+      "translator_paths": 2,
+      "translator_genes": [
+        "CFTR"
+      ],
+      "translator_score": 0.349
+    },
+    {
+      "disease": "asthma",
+      "drug": "DDE",
+      "gse": "GSE220051",
+      "field": "treatment",
+      "arm": "treatment: DDE 0.25",
+      "control": "treatment: Control 0",
+      "n_samples_mentioning": 16,
+      "translator_paths": 2,
+      "translator_genes": [
+        "PPARGC1A"
+      ],
+      "translator_score": 0.339
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Cisplatin",
+      "gse": "GSE47856",
+      "field": "treatment",
+      "arm": "treatment: Cisplatin",
+      "control": "treatment: none",
+      "n_samples_mentioning": 82,
+      "translator_paths": 2,
+      "translator_genes": [
+        "C3"
+      ],
+      "translator_score": 0.319
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Tetracycline",
+      "gse": "GSE207005",
+      "field": "treatment",
+      "arm": "treatment: Tetracycline induction",
+      "control": "treatment: None",
+      "n_samples_mentioning": 40,
+      "translator_paths": 2,
+      "translator_genes": [
+        "MMP3"
+      ],
+      "translator_score": 0.315
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Tetracycline",
+      "gse": "GSE143466",
+      "field": "treatment",
+      "arm": "treatment: 25 uM Tetracycline",
+      "control": "treatment: untreated",
+      "n_samples_mentioning": 40,
+      "translator_paths": 2,
+      "translator_genes": [
+        "MMP3"
+      ],
+      "translator_score": 0.315
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Lenalidomide",
+      "gse": "GSE76425",
+      "field": "treatment",
+      "arm": "treatment: lenalidomide",
+      "control": "treatment: control",
+      "n_samples_mentioning": 40,
+      "translator_paths": 2,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.271
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Lenalidomide",
+      "gse": "GSE121912",
+      "field": "treatment",
+      "arm": "treatment: 10 uM lenalidomide",
+      "control": "treatment: none",
+      "n_samples_mentioning": 28,
+      "translator_paths": 2,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.271
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Gemcitabine",
+      "gse": "GSE105083",
+      "field": "treatment",
+      "arm": "treatment: gemcitabine 300nM 24h",
+      "control": "treatment: untreated",
+      "n_samples_mentioning": 72,
+      "translator_paths": 2,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.271
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Thalidomide",
+      "gse": "GSE95375",
+      "field": "treated with",
+      "arm": "treated with: Thalidomide (1000 nmol/L) for 3hr",
+      "control": "treated with: DMSO for 3hr",
+      "n_samples_mentioning": 24,
+      "translator_paths": 4,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.261
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Decitabine",
+      "gse": "GSE174695",
+      "field": "drug2",
+      "arm": "drug2: Decitabine",
+      "control": "drug2: DMSO",
+      "n_samples_mentioning": 60,
+      "translator_paths": 2,
+      "translator_genes": [
+        "DNMT3A"
+      ],
+      "translator_score": 0.261
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Decitabine",
+      "gse": "GSE25428",
+      "field": "treatment",
+      "arm": "treatment: decitabine",
+      "control": "treatment: mock",
+      "n_samples_mentioning": 48,
+      "translator_paths": 2,
+      "translator_genes": [
+        "DNMT3A"
+      ],
+      "translator_score": 0.261
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Decitabine",
+      "gse": "GSE240469",
+      "field": "characteristic",
+      "arm": "treatment: Decitabine",
+      "control": "treatment: Vehicle",
+      "n_samples_mentioning": 40,
+      "translator_paths": 2,
+      "translator_genes": [
+        "DNMT3A"
+      ],
+      "translator_score": 0.261
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Spironolactone",
+      "gse": "GSE70822",
+      "field": "agent",
+      "arm": "agent: spironolactone",
+      "control": "agent: untreated/vehicle",
+      "n_samples_mentioning": 9,
+      "translator_paths": 2,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.261
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Spironolactone",
+      "gse": "GSE151321",
+      "field": "treatment",
+      "arm": "treatment: Spironolactone",
+      "control": "treatment: Vehicle",
+      "n_samples_mentioning": 6,
+      "translator_paths": 2,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.261
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Oxyquinoline",
+      "gse": "GSE158632",
+      "field": "treatment",
+      "arm": "treatment: Oxyquinoline for 24 hours",
+      "control": "treatment: No treatment",
+      "n_samples_mentioning": 36,
+      "translator_paths": 2,
+      "translator_genes": [
+        "SMAD3"
+      ],
+      "translator_score": 0.261
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Oxyquinoline",
+      "gse": "GSE186295",
+      "field": "treatment",
+      "arm": "treatment: oxyquinoline",
+      "control": "treatment: control",
+      "n_samples_mentioning": 9,
+      "translator_paths": 2,
+      "translator_genes": [
+        "SMAD3"
+      ],
+      "translator_score": 0.261
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Oxyquinoline",
+      "gse": "GSE308908",
+      "field": "treatment",
+      "arm": "treatment: 0,05% DMSO + oxyquinoline derivative (4896-3212) 5 \u03bcM",
+      "control": "treatment: 0,05% DMSO + 300 \u03bcM cobalt (II) chloride",
+      "n_samples_mentioning": 9,
+      "translator_paths": 2,
+      "translator_genes": [
+        "SMAD3"
+      ],
+      "translator_score": 0.261
+    },
+    {
+      "disease": "asthma",
+      "drug": "Aclarubicin",
+      "gse": "GSE232331",
+      "field": "treatment",
+      "arm": "treatment: Aclarubicin",
+      "control": "treatment: DMSO",
+      "n_samples_mentioning": 3,
+      "translator_paths": 2,
+      "translator_genes": [
+        "GATA1"
+      ],
+      "translator_score": 0.256
+    },
+    {
+      "disease": "asthma",
+      "drug": "Capsaicin",
+      "gse": "GSE198304",
+      "field": "treatment",
+      "arm": "treatment: 400uM capsaicin for 8 hours",
+      "control": "treatment: control",
+      "n_samples_mentioning": 12,
+      "translator_paths": 13,
+      "translator_genes": [
+        "MAPK1",
+        "TRPV1"
+      ],
+      "translator_score": 0.238
+    },
+    {
+      "disease": "asthma",
+      "drug": "Capsaicin",
+      "gse": "GSE302928",
+      "field": "treatment",
+      "arm": "treatment: Vehicle pretreated, Capsaicin treated",
+      "control": "treatment: none",
+      "n_samples_mentioning": 8,
+      "translator_paths": 13,
+      "translator_genes": [
+        "MAPK1",
+        "TRPV1"
+      ],
+      "translator_score": 0.238
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Sirolimus",
+      "gse": "GSE120242",
+      "field": "treatment",
+      "arm": "treatment: Sirolimus (10 ng/ml) for 48 hours",
+      "control": "treatment: Untreated",
+      "n_samples_mentioning": 102,
+      "translator_paths": 8,
+      "translator_genes": [
+        "RPS6KB1",
+        "STK11",
+        "TNF"
+      ],
+      "translator_score": 0.237
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Sirolimus",
+      "gse": "GSE249377",
+      "field": "treatment",
+      "arm": "treatment: 6h exposure of 0.1 uM of Sirolimus",
+      "control": "treatment: untreated",
+      "n_samples_mentioning": 45,
+      "translator_paths": 8,
+      "translator_genes": [
+        "RPS6KB1",
+        "STK11",
+        "TNF"
+      ],
+      "translator_score": 0.237
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Carbamazepine",
+      "gse": "GSE64123",
+      "field": "exposure",
+      "arm": "exposure: carbamazepine",
+      "control": "exposure: DMSO",
+      "n_samples_mentioning": 26,
+      "translator_paths": 4,
+      "translator_genes": [
+        "HLA-A",
+        "HLA-B"
+      ],
+      "translator_score": 0.237
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Carbamazepine",
+      "gse": "GSE137254",
+      "field": "treatment",
+      "arm": "treatment: Carbamazepine",
+      "control": "treatment: control",
+      "n_samples_mentioning": 11,
+      "translator_paths": 4,
+      "translator_genes": [
+        "HLA-A",
+        "HLA-B"
+      ],
+      "translator_score": 0.237
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Ouabain",
+      "gse": "GSE111065",
+      "field": "treatment",
+      "arm": "treatment: Ouabain 20 nM",
+      "control": "treatment: Control",
+      "n_samples_mentioning": 9,
+      "translator_paths": 4,
+      "translator_genes": [
+        "SMAD3",
+        "STAT3"
+      ],
+      "translator_score": 0.237
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Ouabain",
+      "gse": "GSE63935",
+      "field": "screening chemicals",
+      "arm": "screening chemicals: Ouabain",
+      "control": "screening chemicals: untreated control",
+      "n_samples_mentioning": 4,
+      "translator_paths": 4,
+      "translator_genes": [
+        "SMAD3",
+        "STAT3"
+      ],
+      "translator_score": 0.237
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Digitoxin",
+      "gse": "GSE76347",
+      "field": "treatment",
+      "arm": "treatment: digitoxin",
+      "control": "treatment: placebo",
+      "n_samples_mentioning": 32,
+      "translator_paths": 4,
+      "translator_genes": [
+        "SMAD3",
+        "STAT3"
+      ],
+      "translator_score": 0.237
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Digitoxin",
+      "gse": "GSE230502",
+      "field": "treatment",
+      "arm": "treatment: 78 nM digitoxin",
+      "control": "treatment: 0.2percent DMSO",
+      "n_samples_mentioning": 24,
+      "translator_paths": 4,
+      "translator_genes": [
+        "SMAD3",
+        "STAT3"
+      ],
+      "translator_score": 0.237
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Digitoxin",
+      "gse": "GSE111065",
+      "field": "treatment",
+      "arm": "treatment: Digitoxin 20 nM",
+      "control": "treatment: Control",
+      "n_samples_mentioning": 11,
+      "translator_paths": 4,
+      "translator_genes": [
+        "SMAD3",
+        "STAT3"
+      ],
+      "translator_score": 0.237
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Digitoxin",
+      "gse": "GSE36058",
+      "field": "agent",
+      "arm": "agent: Digitoxin",
+      "control": "agent: DMSO",
+      "n_samples_mentioning": 6,
+      "translator_paths": 4,
+      "translator_genes": [
+        "SMAD3",
+        "STAT3"
+      ],
+      "translator_score": 0.237
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Pentoxifylline",
+      "gse": "GSE122891",
+      "field": "treatment",
+      "arm": "treatment: pentoxifylline",
+      "control": "treatment: control",
+      "n_samples_mentioning": 6,
+      "translator_paths": 4,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.237
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Caffeine",
+      "gse": "GSE37210",
+      "field": "agent",
+      "arm": "agent: Caffeine",
+      "control": "agent: Untreated",
+      "n_samples_mentioning": 143,
+      "translator_paths": 2,
+      "translator_genes": [
+        "IL2RA"
+      ],
+      "translator_score": 0.237
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Caffeine",
+      "gse": "GSE196369",
+      "field": "treatment",
+      "arm": "treatment: Caffeine (CA; Negative Control)",
+      "control": "treatment: Bleomycin (BL, Positive Control)",
+      "n_samples_mentioning": 96,
+      "translator_paths": 2,
+      "translator_genes": [
+        "IL2RA"
+      ],
+      "translator_score": 0.237
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Caffeine",
+      "gse": "GSE292909",
+      "field": "treatment",
+      "arm": "treatment: caffeine",
+      "control": "treatment: control",
+      "n_samples_mentioning": 47,
+      "translator_paths": 2,
+      "translator_genes": [
+        "IL2RA"
+      ],
+      "translator_score": 0.237
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Tretinoin",
+      "gse": "GSE269880",
+      "field": "treatment",
+      "arm": "treatment: tretinoin",
+      "control": "treatment: DMSO",
+      "n_samples_mentioning": 4,
+      "translator_paths": 2,
+      "translator_genes": [
+        "Proteoglycan"
+      ],
+      "translator_score": 0.227
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Tretinoin",
+      "gse": "GSE269881",
+      "field": "treatment",
+      "arm": "treatment: tretinoin",
+      "control": "treatment: DMSO",
+      "n_samples_mentioning": 4,
+      "translator_paths": 2,
+      "translator_genes": [
+        "Proteoglycan"
+      ],
+      "translator_score": 0.227
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Acetazolamide",
+      "gse": "GSE221746",
+      "field": "treatment",
+      "arm": "treatment: Acetazolamide 10uM for 48hrs",
+      "control": "treatment: 10ul DMSO to correct for vehicle in other groups",
+      "n_samples_mentioning": 9,
+      "translator_paths": 2,
+      "translator_genes": [
+        "HLA-B"
+      ],
+      "translator_score": 0.227
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Estradiol",
+      "gse": "GSE241764",
+      "field": "treatment",
+      "arm": "treatment: Estradiol",
+      "control": "treatment: DMSO",
+      "n_samples_mentioning": 96,
+      "translator_paths": 4,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.216
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Estradiol",
+      "gse": "GSE80098",
+      "field": "drug treatment",
+      "arm": "drug treatment: 10 nM Estradiol",
+      "control": "drug treatment: Vehicle",
+      "n_samples_mentioning": 64,
+      "translator_paths": 4,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.216
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Estradiol",
+      "gse": "GSE80358",
+      "field": "drug treatment",
+      "arm": "drug treatment: 10 nM Estradiol",
+      "control": "drug treatment: Vehicle",
+      "n_samples_mentioning": 46,
+      "translator_paths": 4,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.216
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Azacitidine",
+      "gse": "GSE212591",
+      "field": "treatment",
+      "arm": "treatment: Azacitidine-treated",
+      "control": "treatment: Control",
+      "n_samples_mentioning": 54,
+      "translator_paths": 4,
+      "translator_genes": [
+        "DNMT3A",
+        "PLAU"
+      ],
+      "translator_score": 0.216
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Azacitidine",
+      "gse": "GSE184891",
+      "field": "cell treatment",
+      "arm": "cell treatment: 1uM Azacitidine Treatment for 24h",
+      "control": "cell treatment: No Treatment",
+      "n_samples_mentioning": 24,
+      "translator_paths": 4,
+      "translator_genes": [
+        "DNMT3A",
+        "PLAU"
+      ],
+      "translator_score": 0.216
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Pomalidomide",
+      "gse": "GSE330399",
+      "field": "treatment",
+      "arm": "treatment: Pomalidomide",
+      "control": "treatment: No Treatment",
+      "n_samples_mentioning": 100,
+      "translator_paths": 2,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.216
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Pomalidomide",
+      "gse": "GSE150341",
+      "field": "pharmacologic treatment type",
+      "arm": "pharmacologic treatment type: Pomalidomide",
+      "control": "pharmacologic treatment type: DMSO",
+      "n_samples_mentioning": 24,
+      "translator_paths": 2,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.216
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Fluorouracil",
+      "gse": "GSE30070",
+      "field": "treatment",
+      "arm": "treatment: cisplatin/fluorouracil chemotherapy",
+      "control": "treatment: none",
+      "n_samples_mentioning": 132,
+      "translator_paths": 4,
+      "translator_genes": [
+        "IL2RA",
+        "IL6R"
+      ],
+      "translator_score": 0.165
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Sorafenib",
+      "gse": "GSE151412",
+      "field": "drug treatment",
+      "arm": "drug treatment: GW3965/Sorafenib",
+      "control": "drug treatment: DMSO",
+      "n_samples_mentioning": 70,
+      "translator_paths": 2,
+      "translator_genes": [
+        "STAT3"
+      ],
+      "translator_score": 0.165
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Sorafenib",
+      "gse": "GSE201695",
+      "field": "treatment",
+      "arm": "treatment: Sorafenib 10 uM 24h",
+      "control": "treatment: Control (DMSO) 24h",
+      "n_samples_mentioning": 28,
+      "translator_paths": 2,
+      "translator_genes": [
+        "STAT3"
+      ],
+      "translator_score": 0.165
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Sorafenib",
+      "gse": "GSE343131",
+      "field": "treatment",
+      "arm": "treatment: sorafenib 1.25 uM, 72 h",
+      "control": "treatment: vehicle control (DMSO <= 0.1%), 72 h",
+      "n_samples_mentioning": 24,
+      "translator_paths": 2,
+      "translator_genes": [
+        "STAT3"
+      ],
+      "translator_score": 0.165
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Simvastatin",
+      "gse": "GSE297728",
+      "field": "treatment",
+      "arm": "treatment: Simvastatin",
+      "control": "treatment: DMSO",
+      "n_samples_mentioning": 16,
+      "translator_paths": 2,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.165
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Rifampicin",
+      "gse": "GSE24186",
+      "field": "characteristic",
+      "arm": "control for: Rifampicin",
+      "control": "control for: Rosuvastatin & LK935",
+      "n_samples_mentioning": 71,
+      "translator_paths": 2,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.165
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Rifampicin",
+      "gse": "GSE24187",
+      "field": "agent",
+      "arm": "agent: Rifampicin",
+      "control": "agent: Untreated",
+      "n_samples_mentioning": 40,
+      "translator_paths": 2,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.165
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Rifampicin",
+      "gse": "GSE108100",
+      "field": "treatment",
+      "arm": "treatment: rifampicin",
+      "control": "treatment: Placebo",
+      "n_samples_mentioning": 24,
+      "translator_paths": 2,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.165
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Rifampicin",
+      "gse": "GSE90122",
+      "field": "treatment",
+      "arm": "treatment: 48hr treatment of 1 \u03bcM rifampicin",
+      "control": "treatment: 48hr treatment of DMSO",
+      "n_samples_mentioning": 24,
+      "translator_paths": 2,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.165
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Artesunate",
+      "gse": "GSE94553",
+      "field": "treatment",
+      "arm": "treatment: artesunate (5 \u00b5M)",
+      "control": "treatment: control",
+      "n_samples_mentioning": 24,
+      "translator_paths": 2,
+      "translator_genes": [
+        "NFKB1"
+      ],
+      "translator_score": 0.165
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Artesunate",
+      "gse": "GSE215784",
+      "field": "treatment",
+      "arm": "treatment: artesunate treated",
+      "control": "treatment: control",
+      "n_samples_mentioning": 12,
+      "translator_paths": 2,
+      "translator_genes": [
+        "NFKB1"
+      ],
+      "translator_score": 0.165
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Artesunate",
+      "gse": "GSE260741",
+      "field": "treatment",
+      "arm": "treatment: 100 microM artesunate",
+      "control": "treatment: none",
+      "n_samples_mentioning": 6,
+      "translator_paths": 2,
+      "translator_genes": [
+        "NFKB1"
+      ],
+      "translator_score": 0.165
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Phenformin",
+      "gse": "GSE69844",
+      "field": "chemical treatment",
+      "arm": "chemical treatment: Phenformin",
+      "control": "chemical treatment: DMSO",
+      "n_samples_mentioning": 9,
+      "translator_paths": 2,
+      "translator_genes": [
+        "STK11"
+      ],
+      "translator_score": 0.165
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Phenformin",
+      "gse": "GSE150348",
+      "field": "treatment",
+      "arm": "treatment: 8hr with phenformin 50 \u00b5M",
+      "control": "treatment: 8hr with DMSO",
+      "n_samples_mentioning": 3,
+      "translator_paths": 2,
+      "translator_genes": [
+        "STK11"
+      ],
+      "translator_score": 0.165
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Pyrimethamine",
+      "gse": "GSE235587",
+      "field": "treatment",
+      "arm": "treatment: 10 \u00b5M pyrimethamine",
+      "control": "treatment: Control",
+      "n_samples_mentioning": 12,
+      "translator_paths": 2,
+      "translator_genes": [
+        "STAT3"
+      ],
+      "translator_score": 0.165
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Pyrimethamine",
+      "gse": "GSE173164",
+      "field": "treatment",
+      "arm": "treatment: 10 \u00b5M pyrimethamine for 72 h.",
+      "control": "treatment: untreated",
+      "n_samples_mentioning": 8,
+      "translator_paths": 2,
+      "translator_genes": [
+        "STAT3"
+      ],
+      "translator_score": 0.165
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Niclosamide",
+      "gse": "GSE262673",
+      "field": "treatment",
+      "arm": "treatment: 5uM niclosamide 16 hours",
+      "control": "treatment: DMSO 16 hours",
+      "n_samples_mentioning": 12,
+      "translator_paths": 2,
+      "translator_genes": [
+        "STAT3"
+      ],
+      "translator_score": 0.144
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Niclosamide",
+      "gse": "GSE77322",
+      "field": "treatment",
+      "arm": "treatment: 10\u03bcM of niclosamide",
+      "control": "treatment: DMSO control",
+      "n_samples_mentioning": 9,
+      "translator_paths": 2,
+      "translator_genes": [
+        "STAT3"
+      ],
+      "translator_score": 0.144
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Niclosamide",
+      "gse": "GSE306717",
+      "field": "treatment",
+      "arm": "treatment: niclosamide 1 \u00b5M",
+      "control": "treatment: DMSO control",
+      "n_samples_mentioning": 8,
+      "translator_paths": 2,
+      "translator_genes": [
+        "STAT3"
+      ],
+      "translator_score": 0.144
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Perphenazine",
+      "gse": "GSE275875",
+      "field": "treatment",
+      "arm": "treatment: PER (perphenazine)",
+      "control": "treatment: untreated",
+      "n_samples_mentioning": 3,
+      "translator_paths": 13,
+      "translator_genes": [
+        "DRD2",
+        "HRH1",
+        "HTR2A",
+        "HTR2C",
+        "MTOR"
+      ],
+      "translator_score": 0.058
+    },
+    {
+      "disease": "asthma",
+      "drug": "Rifampicin",
+      "gse": "GSE24186",
+      "field": "characteristic",
+      "arm": "control for: Rifampicin",
+      "control": "control for: Rosuvastatin & LK935",
+      "n_samples_mentioning": 71,
+      "translator_paths": 2,
+      "translator_genes": [
+        "PPARGC1A"
+      ],
+      "translator_score": 0.048
+    },
+    {
+      "disease": "asthma",
+      "drug": "Rifampicin",
+      "gse": "GSE24187",
+      "field": "agent",
+      "arm": "agent: Rifampicin",
+      "control": "agent: Untreated",
+      "n_samples_mentioning": 40,
+      "translator_paths": 2,
+      "translator_genes": [
+        "PPARGC1A"
+      ],
+      "translator_score": 0.048
+    },
+    {
+      "disease": "asthma",
+      "drug": "Rifampicin",
+      "gse": "GSE108100",
+      "field": "treatment",
+      "arm": "treatment: rifampicin",
+      "control": "treatment: Placebo",
+      "n_samples_mentioning": 24,
+      "translator_paths": 2,
+      "translator_genes": [
+        "PPARGC1A"
+      ],
+      "translator_score": 0.048
+    },
+    {
+      "disease": "asthma",
+      "drug": "Rifampicin",
+      "gse": "GSE90122",
+      "field": "treatment",
+      "arm": "treatment: 48hr treatment of 1 \u03bcM rifampicin",
+      "control": "treatment: 48hr treatment of DMSO",
+      "n_samples_mentioning": 24,
+      "translator_paths": 2,
+      "translator_genes": [
+        "PPARGC1A"
+      ],
+      "translator_score": 0.048
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Adapalene",
+      "gse": "GSE205555",
+      "field": "treatment",
+      "arm": "treatment: adapalene",
+      "control": "treatment: DMSO",
+      "n_samples_mentioning": 62,
+      "translator_paths": 2,
+      "translator_genes": [
+        "CFTR"
+      ],
+      "translator_score": 0.047
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Adapalene",
+      "gse": "GSE253331",
+      "field": "treatment",
+      "arm": "treatment: Adapalene",
+      "control": "treatment: Vehicle",
+      "n_samples_mentioning": 13,
+      "translator_paths": 2,
+      "translator_genes": [
+        "CFTR"
+      ],
+      "translator_score": 0.047
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Metformin",
+      "gse": "GSE224900",
+      "field": "treatment",
+      "arm": "treatment: Metformin",
+      "control": "treatment: Placebo",
+      "n_samples_mentioning": 60,
+      "translator_paths": 6,
+      "translator_genes": [
+        "STAT3",
+        "STK11",
+        "TNF"
+      ],
+      "translator_score": 0.041
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Bromocriptine",
+      "gse": "GSE171653",
+      "field": "treatment/time point",
+      "arm": "treatment/time point: after bromocriptine treatment",
+      "control": "treatment/time point: adenomyosis baseline",
+      "n_samples_mentioning": 24,
+      "translator_paths": 4,
+      "translator_genes": [
+        "IL2",
+        "LEP"
+      ],
+      "translator_score": 0.041
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Bromocriptine",
+      "gse": "GSE23927",
+      "field": "treatment",
+      "arm": "treatment: bromocriptine",
+      "control": "treatment: untreated",
+      "n_samples_mentioning": 6,
+      "translator_paths": 4,
+      "translator_genes": [
+        "IL2",
+        "LEP"
+      ],
+      "translator_score": 0.041
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Bromocriptine",
+      "gse": "GSE207522",
+      "field": "treatment",
+      "arm": "treatment: 5mg of Bromocriptine daily",
+      "control": "treatment: No treatment",
+      "n_samples_mentioning": 6,
+      "translator_paths": 4,
+      "translator_genes": [
+        "IL2",
+        "LEP"
+      ],
+      "translator_score": 0.041
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Rosiglitazone",
+      "gse": "GSE77039",
+      "field": "agent",
+      "arm": "agent: Rosiglitazone",
+      "control": "agent: DMSO",
+      "n_samples_mentioning": 82,
+      "translator_paths": 2,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.041
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Rosiglitazone",
+      "gse": "GSE295444",
+      "field": "treatment",
+      "arm": "treatment: Rosiglitazone",
+      "control": "treatment: DMSO",
+      "n_samples_mentioning": 66,
+      "translator_paths": 2,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.041
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Lopinavir",
+      "gse": "GSE275256",
+      "field": "treatment",
+      "arm": "treatment: SBI-0206965 5 uM, O-151 0,5 uM, Lopinavir 0,5 uM",
+      "control": "treatment: DMSO (vehicle)",
+      "n_samples_mentioning": 9,
+      "translator_paths": 2,
+      "translator_genes": [
+        "SMAD3"
+      ],
+      "translator_score": 0.041
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Lopinavir",
+      "gse": "GSE247541",
+      "field": "treatment",
+      "arm": "treatment: lopinavir",
+      "control": "treatment: DMSO",
+      "n_samples_mentioning": 3,
+      "translator_paths": 2,
+      "translator_genes": [
+        "SMAD3"
+      ],
+      "translator_score": 0.041
+    },
+    {
+      "disease": "asthma",
+      "drug": "Cyclic AMP",
+      "gse": "GSE296787",
+      "field": "treatment",
+      "arm": "treatment: empty vector control, Progesterone, estrodiol, cyclic AMP",
+      "control": "treatment: empty vector control",
+      "n_samples_mentioning": 32,
+      "translator_paths": 2,
+      "translator_genes": [
+        "PPARGC1A"
+      ],
+      "translator_score": 0.035
+    },
+    {
+      "disease": "asthma",
+      "drug": "Infliximab",
+      "gse": "GSE45468",
+      "field": "treatment",
+      "arm": "treatment: Infliximab",
+      "control": "treatment: Placebo",
+      "n_samples_mentioning": 99,
+      "translator_paths": 6,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.026
+    },
+    {
+      "disease": "asthma",
+      "drug": "Benralizumab",
+      "gse": "GSE148725",
+      "field": "time point",
+      "arm": "time point: 4 months after starting of benralizumab treatment",
+      "control": "time point: at baseline",
+      "n_samples_mentioning": 41,
+      "translator_paths": 2,
+      "translator_genes": [
+        "IL5RA"
+      ],
+      "translator_score": 0.026
+    },
+    {
+      "disease": "asthma",
+      "drug": "Ustekinumab",
+      "gse": "GSE207465",
+      "field": "treatment",
+      "arm": "treatment: Ustekinumab",
+      "control": "treatment: Placebo",
+      "n_samples_mentioning": 1173,
+      "translator_paths": 2,
+      "translator_genes": [
+        "IL12B"
+      ],
+      "translator_score": 0.026
+    },
+    {
+      "disease": "asthma",
+      "drug": "Ustekinumab",
+      "gse": "GSE117468",
+      "field": "treatment",
+      "arm": "treatment: Ustekinumab",
+      "control": "treatment: Placebo",
+      "n_samples_mentioning": 27,
+      "translator_paths": 2,
+      "translator_genes": [
+        "IL12B"
+      ],
+      "translator_score": 0.026
+    },
+    {
+      "disease": "asthma",
+      "drug": "Clazakizumab",
+      "gse": "GSE287697",
+      "field": "treatment arm",
+      "arm": "treatment arm: Clazakizumab",
+      "control": "treatment arm: Placebo",
+      "n_samples_mentioning": 28,
+      "translator_paths": 2,
+      "translator_genes": [
+        "IL6"
+      ],
+      "translator_score": 0.026
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Melatonin",
+      "gse": "GSE313629",
+      "field": "treatment",
+      "arm": "treatment: 1 nM melatonin",
+      "control": "treatment: no treatment",
+      "n_samples_mentioning": 36,
+      "translator_paths": 2,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.021
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Sirolimus",
+      "gse": "GSE120242",
+      "field": "treatment",
+      "arm": "treatment: Sirolimus (10 ng/ml) for 48 hours",
+      "control": "treatment: Untreated",
+      "n_samples_mentioning": 102,
+      "translator_paths": 2,
+      "translator_genes": [
+        "VEGFA"
+      ],
+      "translator_score": 0.021
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Sirolimus",
+      "gse": "GSE249377",
+      "field": "treatment",
+      "arm": "treatment: 6h exposure of 0.1 uM of Sirolimus",
+      "control": "treatment: untreated",
+      "n_samples_mentioning": 45,
+      "translator_paths": 2,
+      "translator_genes": [
+        "VEGFA"
+      ],
+      "translator_score": 0.021
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Rolipram",
+      "gse": "GSE13987",
+      "field": "characteristic",
+      "arm": "CLL donor 1, rolipram treated",
+      "control": "CLL donor 1, control",
+      "n_samples_mentioning": 24,
+      "translator_paths": 2,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.021
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Rolipram",
+      "gse": "GSE193191",
+      "field": "treatment",
+      "arm": "treatment: forskolin (50 uM) and rolipram (0.1 uM)",
+      "control": "treatment: 0.2percent Dimethyl sulfoxide (DMSO) vehicle",
+      "n_samples_mentioning": 3,
+      "translator_paths": 2,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.021
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Theophylline",
+      "gse": "GSE180452",
+      "field": "treatment",
+      "arm": "treatment: theophylline",
+      "control": "treatment: control",
+      "n_samples_mentioning": 7,
+      "translator_paths": 2,
+      "translator_genes": [
+        "IL2RA"
+      ],
+      "translator_score": 0.021
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Bevacizumab",
+      "gse": "GSE150604",
+      "field": "treatment",
+      "arm": "treatment: Bevacizumab",
+      "control": "treatment: Placebo",
+      "n_samples_mentioning": 57,
+      "translator_paths": 4,
+      "translator_genes": [
+        "FCGR2A",
+        "VEGFA"
+      ],
+      "translator_score": 0.016
+    },
+    {
+      "disease": "asthma",
+      "drug": "Troglitazone",
+      "gse": "GSE299113",
+      "field": "treatment",
+      "arm": "treatment: Troglitazone|0.001uM|DTXSID8023719 for 24h in HepaRG cells",
+      "control": "treatment: DMSO control 24h in HepaRG cells",
+      "n_samples_mentioning": 478,
+      "translator_paths": 2,
+      "translator_genes": [
+        "PPARGC1A"
+      ],
+      "translator_score": 0.004
+    },
+    {
+      "disease": "asthma",
+      "drug": "Troglitazone",
+      "gse": "GSE272576",
+      "field": "chemical",
+      "arm": "chemical: troglitazone",
+      "control": "chemical: DMSO",
+      "n_samples_mentioning": 48,
+      "translator_paths": 2,
+      "translator_genes": [
+        "PPARGC1A"
+      ],
+      "translator_score": 0.004
+    }
+  ],
+  "shortlist": [
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "ionomycin",
+      "gse": "GSE228211",
+      "field": "treatment",
+      "arm": "treatment: PMA Ionomycin + SP100030",
+      "control": "treatment: DMSO",
+      "n_samples_mentioning": 48,
+      "translator_paths": 2,
+      "translator_genes": [
+        "CFTR"
+      ],
+      "translator_score": 0.996,
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "series_matrix_rows": 0,
+      "usable": false
+    },
+    {
+      "disease": "asthma",
+      "drug": "Prednisolone",
+      "gse": "GSE40165",
+      "field": "treated with",
+      "arm": "treated with: low-dose (0.5mg/kg) of prednisolone",
+      "control": "treated with: placebo",
+      "n_samples_mentioning": 241,
+      "translator_paths": 12,
+      "translator_genes": [
+        "NR3C1",
+        "NR3C2"
+      ],
+      "translator_score": 0.992,
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE40165_non_normalized.txt.gz"
+      ],
+      "series_matrix_rows": 0,
+      "usable": true
+    },
+    {
+      "disease": "asthma",
+      "drug": "Prednisolone",
+      "gse": "GSE225858",
+      "field": "treatment",
+      "arm": "treatment: Prednisolone (10mM) 2h",
+      "control": "treatment: DMSO_0h",
+      "n_samples_mentioning": 51,
+      "translator_paths": 12,
+      "translator_genes": [
+        "NR3C1",
+        "NR3C2"
+      ],
+      "translator_score": 0.992,
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "series_matrix_rows": 0,
+      "usable": false
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Baicalein",
+      "gse": "GSE326697",
+      "field": "treatment",
+      "arm": "treatment: baicalein 10 \u00b5M",
+      "control": "treatment: untreated",
+      "n_samples_mentioning": 18,
+      "translator_paths": 2,
+      "translator_genes": [
+        "CFTR"
+      ],
+      "translator_score": 0.991,
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE326697_matrix.txt.gz"
+      ],
+      "series_matrix_rows": 0,
+      "usable": true
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Baicalein",
+      "gse": "GSE232322",
+      "field": "treatment",
+      "arm": "treatment: Baicalein (100 uM)",
+      "control": "treatment: Control",
+      "n_samples_mentioning": 12,
+      "translator_paths": 2,
+      "translator_genes": [
+        "CFTR"
+      ],
+      "translator_score": 0.991,
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE232322_MCF7_raw_counts.txt.gz",
+        "GSE232322_T47D_raw_counts.txt.gz"
+      ],
+      "series_matrix_rows": 0,
+      "usable": true
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Baicalein",
+      "gse": "GSE127765",
+      "field": "agent",
+      "arm": "agent: Baicalein",
+      "control": "agent: control",
+      "n_samples_mentioning": 9,
+      "translator_paths": 2,
+      "translator_genes": [
+        "CFTR"
+      ],
+      "translator_score": 0.991,
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "series_matrix_rows": 29187,
+      "usable": true
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Triamcinolone",
+      "gse": "GSE136034",
+      "field": "treatment",
+      "arm": "treatment: 100 nM triamcinolone acetonide(TA) for 4 hours.",
+      "control": "treatment: DMSO(Veh control) for 4 hours",
+      "n_samples_mentioning": 71,
+      "translator_paths": 39,
+      "translator_genes": [
+        "CD1A",
+        "NR3C1",
+        "VEGFA"
+      ],
+      "translator_score": 0.979,
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE136034_4C_seq_trim_table.txt.gz"
+      ],
+      "series_matrix_rows": 0,
+      "usable": true
+    },
+    {
+      "disease": "asthma",
+      "drug": "Zileuton",
+      "gse": "GSE175616",
+      "field": "treatment",
+      "arm": "treatment: Aspirin+Zileuton",
+      "control": "treatment: Placebo",
+      "n_samples_mentioning": 123,
+      "translator_paths": 10,
+      "translator_genes": [
+        "ALOX5"
+      ],
+      "translator_score": 0.969,
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "series_matrix_rows": 20777,
+      "usable": true
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "drug": "Celecoxib",
+      "gse": "GSE59671",
+      "field": "nsaid treatment",
+      "arm": "nsaid treatment: celecoxib",
+      "control": "nsaid treatment: none",
+      "n_samples_mentioning": 52,
+      "translator_paths": 46,
+      "translator_genes": [
+        "CA12",
+        "CA9",
+        "DDIT3",
+        "PTGS1",
+        "PTGS2",
+        "STAT3",
+        "VEGFA"
+      ],
+      "translator_score": 0.964,
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "series_matrix_rows": 22277,
+      "usable": true
+    },
+    {
+      "disease": "asthma",
+      "drug": "Roflumilast",
+      "gse": "GSE126981",
+      "field": "treatment",
+      "arm": "treatment: Roflumilast N-oxide (RNO)",
+      "control": "treatment: Vehicle",
+      "n_samples_mentioning": 4,
+      "translator_paths": 20,
+      "translator_genes": [
+        "PDE4A",
+        "PDE4B",
+        "PDE4D"
+      ],
+      "translator_score": 0.958,
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE126981_normalized_tpm.txt.gz"
+      ],
+      "series_matrix_rows": 0,
+      "usable": true
+    },
+    {
+      "disease": "asthma",
+      "drug": "Roflumilast",
+      "gse": "GSE267218",
+      "field": "treatment",
+      "arm": "treatment: Roflumilast N-oxide (RNO)",
+      "control": "treatment: Vehicle",
+      "n_samples_mentioning": 4,
+      "translator_paths": 20,
+      "translator_genes": [
+        "PDE4A",
+        "PDE4B",
+        "PDE4D"
+      ],
+      "translator_score": 0.958,
+      "matrix_kind": "normalized",
+      "matrix_files": [
+        "GSE267218_normalized_tpm.txt.gz"
+      ],
+      "series_matrix_rows": 0,
+      "usable": true
+    },
+    {
+      "disease": "asthma",
+      "drug": "Triamcinolone",
+      "gse": "GSE136034",
+      "field": "treatment",
+      "arm": "treatment: 100 nM triamcinolone acetonide(TA) for 4 hours.",
+      "control": "treatment: DMSO(Veh control) for 4 hours",
+      "n_samples_mentioning": 71,
+      "translator_paths": 24,
+      "translator_genes": [
+        "CD1A",
+        "MMP1",
+        "NR3C1"
+      ],
+      "translator_score": 0.955,
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE136034_4C_seq_trim_table.txt.gz"
+      ],
+      "series_matrix_rows": 0,
+      "usable": true
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Celecoxib",
+      "gse": "GSE59671",
+      "field": "nsaid treatment",
+      "arm": "nsaid treatment: celecoxib",
+      "control": "nsaid treatment: none",
+      "n_samples_mentioning": 52,
+      "translator_paths": 2,
+      "translator_genes": [
+        "STAT3"
+      ],
+      "translator_score": 0.917,
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "series_matrix_rows": 22277,
+      "usable": true
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Celecoxib",
+      "gse": "GSE145650",
+      "field": "treatment",
+      "arm": "treatment: Celecoxib 10 uM",
+      "control": "treatment: DMSO",
+      "n_samples_mentioning": 32,
+      "translator_paths": 2,
+      "translator_genes": [
+        "STAT3"
+      ],
+      "translator_score": 0.917,
+      "matrix_kind": "raw_counts",
+      "matrix_files": [
+        "GSE145650_raw_count_summary.txt.gz"
+      ],
+      "series_matrix_rows": 0,
+      "usable": true
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Celecoxib",
+      "gse": "GSE220643",
+      "field": "treatment",
+      "arm": "treatment: combination of 10uM of celecoxib plus 20 ng/mL of TGF-beta (0.1% DMSO)",
+      "control": "treatment: Vehicle (0.1% DMSO)",
+      "n_samples_mentioning": 12,
+      "translator_paths": 2,
+      "translator_genes": [
+        "STAT3"
+      ],
+      "translator_score": 0.917,
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "series_matrix_rows": 0,
+      "usable": false
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Infliximab",
+      "gse": "GSE45468",
+      "field": "treatment",
+      "arm": "treatment: Infliximab",
+      "control": "treatment: Placebo",
+      "n_samples_mentioning": 99,
+      "translator_paths": 14,
+      "translator_genes": [
+        "FCGR2A",
+        "IL12B",
+        "IL1B",
+        "TLR4",
+        "TNF",
+        "TNFRSF1A"
+      ],
+      "translator_score": 0.914,
+      "matrix_kind": "processed_other",
+      "matrix_files": [
+        "GSE45468.txt.gz",
+        "GSE45468_Infliximab_rawdata.csv.gz"
+      ],
+      "series_matrix_rows": 0,
+      "usable": true
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "glucocorticoid",
+      "gse": "GSE73578",
+      "field": "treatment",
+      "arm": "treatment: glucocorticoid (GC) mono-therapy",
+      "control": "treatment: none",
+      "n_samples_mentioning": 87,
+      "translator_paths": 4,
+      "translator_genes": [
+        "TNF"
+      ],
+      "translator_score": 0.914,
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "series_matrix_rows": 54675,
+      "usable": true
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "drug": "Ustekinumab",
+      "gse": "GSE207465",
+      "field": "treatment",
+      "arm": "treatment: Ustekinumab",
+      "control": "treatment: Placebo",
+      "n_samples_mentioning": 1173,
+      "translator_paths": 2,
+      "translator_genes": [
+        "IL12B"
+      ],
+      "translator_score": 0.832,
+      "matrix_kind": "none",
+      "matrix_files": [],
+      "series_matrix_rows": 29597,
+      "usable": true
+    }
+  ]
+}

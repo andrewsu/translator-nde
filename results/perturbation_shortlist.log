@@ -1,0 +1,46 @@
+153 clean drug x series pairs (69 drugs, 127 series)
+
+
+=== ASTHMA ===
+  OK Prednisolone         GSE40165    processed_other        n~241  score=0.99 genes=NR3C1,NR3C2
+      treated with: low-dose (0.5mg/kg) of prednisolone  VS  treated with: placebo
+  -- Prednisolone         GSE225858   NONE                   n~51   score=0.99 genes=NR3C1,NR3C2
+      treatment: Prednisolone (10mM) 2h  VS  treatment: DMSO_0h
+  OK Zileuton             GSE175616   series_matrix(20,777)  n~123  score=0.97 genes=ALOX5
+      treatment: Aspirin+Zileuton  VS  treatment: Placebo
+  OK Roflumilast          GSE126981   normalized             n~4    score=0.96 genes=PDE4A,PDE4B,PDE4D
+      treatment: Roflumilast N-oxide (RNO)  VS  treatment: Vehicle
+  OK Roflumilast          GSE267218   normalized             n~4    score=0.96 genes=PDE4A,PDE4B,PDE4D
+      treatment: Roflumilast N-oxide (RNO)  VS  treatment: Vehicle
+  OK Triamcinolone        GSE136034   processed_other        n~71   score=0.95 genes=CD1A,MMP1,NR3C1
+      treatment: 100 nM triamcinolone acetonide(TA) for 4 hours.  VS  treatment: DMSO(Veh control) for 4 hours
+
+=== RHEUMATOID ARTHRITIS ===
+  -- ionomycin            GSE228211   NONE                   n~48   score=1.00 genes=CFTR
+      treatment: PMA Ionomycin + SP100030  VS  treatment: DMSO
+  OK Baicalein            GSE326697   processed_other        n~18   score=0.99 genes=CFTR
+      treatment: baicalein 10 µM  VS  treatment: untreated
+  OK Baicalein            GSE232322   raw_counts             n~12   score=0.99 genes=CFTR
+      treatment: Baicalein (100 uM)  VS  treatment: Control
+  OK Baicalein            GSE127765   series_matrix(29,187)  n~9    score=0.99 genes=CFTR
+      agent: Baicalein  VS  agent: control
+  OK Triamcinolone        GSE136034   processed_other        n~71   score=0.98 genes=CD1A,NR3C1,VEGFA
+      treatment: 100 nM triamcinolone acetonide(TA) for 4 hours.  VS  treatment: DMSO(Veh control) for 4 hours
+  OK Celecoxib            GSE59671    series_matrix(22,277)  n~52   score=0.96 genes=CA12,CA9,DDIT3,PTGS1
+      nsaid treatment: celecoxib  VS  nsaid treatment: none
+
+=== ANKYLOSING SPONDYLITIS ===
+  OK Celecoxib            GSE59671    series_matrix(22,277)  n~52   score=0.92 genes=STAT3
+      nsaid treatment: celecoxib  VS  nsaid treatment: none
+  OK Celecoxib            GSE145650   raw_counts             n~32   score=0.92 genes=STAT3
+      treatment: Celecoxib 10 uM  VS  treatment: DMSO
+  -- Celecoxib            GSE220643   NONE                   n~12   score=0.92 genes=STAT3
+      treatment: combination of 10uM of celecoxib plus 20 ng/mL of TGF  VS  treatment: Vehicle (0.1% DMSO)
+  OK Infliximab           GSE45468    processed_other        n~99   score=0.91 genes=FCGR2A,IL12B,IL1B,TLR4
+      treatment: Infliximab  VS  treatment: Placebo
+  OK glucocorticoid       GSE73578    series_matrix(54,675)  n~87   score=0.91 genes=TNF
+      treatment: glucocorticoid (GC) mono-therapy  VS  treatment: none
+  OK Ustekinumab          GSE207465   series_matrix(29,597)  n~1173 score=0.83 genes=IL12B
+      treatment: Ustekinumab  VS  treatment: Placebo
+
+wrote results/perturbation_shortlist.json

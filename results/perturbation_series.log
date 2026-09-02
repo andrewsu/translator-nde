@@ -1,0 +1,441 @@
+273 drug-like Translator drugs across 3 diseases
+
+  [16/273] AMP                          63,314 samples,  13 candidate series
+  [23/273] Acetazolamide                    10 samples,   1 candidate series
+  [25/273] Aclarubicin                      28 samples,   3 candidate series
+  [26/273] Adapalene                        82 samples,   3 candidate series
+  [28/273] Aldesleukin                      43 samples,   3 candidate series
+  [29/273] Amphotericin B                6,140 samples,  66 candidate series
+  [30/273] Ampicillin                    1,288 samples,  41 candidate series
+  [33/273] Antibodies                   422,079 samples,  24 candidate series
+  [34/273] Antibodies, Monoclonal          756 samples,  11 candidate series
+  [36/273] Apigenin                        128 samples,  13 candidate series
+  [38/273] Artesunate                       66 samples,   6 candidate series
+  [40/273] Aspirin                       1,874 samples,  24 candidate series
+  [41/273] Azacitidine                     580 samples,  42 candidate series
+  [45/273] Bafilomycin A1                   27 samples,   3 candidate series
+  [46/273] Baicalein                        60 samples,   5 candidate series
+  [48/273] Baricitinib                     335 samples,  13 candidate series
+  [49/273] Batimastat                       10 samples,   1 candidate series
+  [51/273] Benralizumab                     69 samples,   2 candidate series
+  [54/273] Betamethasone                    80 samples,   3 candidate series
+  [55/273] Bevacizumab                   2,366 samples,  28 candidate series
+  [57/273] Brinzolamide                     10 samples,   1 candidate series
+  [58/273] Bromocriptine                    36 samples,   3 candidate series
+  [59/273] Budesonide                      712 samples,  29 candidate series
+  [60/273] CERTOLIZUMAB                     92 samples,   1 candidate series
+  [73/273] Caffeine                        591 samples,  20 candidate series
+  [74/273] Calcium                      10,814 samples,  77 candidate series
+  [75/273] Camrelizumab                     88 samples,   1 candidate series
+  [76/273] Capsaicin                        36 samples,   5 candidate series
+  [77/273] Captopril                        52 samples,   3 candidate series
+  [78/273] Carbamazepine                   563 samples,  13 candidate series
+  [79/273] Celecoxib                       516 samples,   9 candidate series
+  [80/273] Chelerythrine                    10 samples,   1 candidate series
+  [81/273] Chondroitin sulfate             100 samples,   9 candidate series
+  [82/273] Ciglitazone                      22 samples,   2 candidate series
+  [84/273] Cisplatin                     9,393 samples,  88 candidate series
+  [85/273] Clazakizumab                     28 samples,   1 candidate series
+  [89/273] Cyclic AMP                      655 samples,  30 candidate series
+  [91/273] Cyclosporine                  1,270 samples,  48 candidate series
+  [92/273] DDE                             225 samples,   6 candidate series
+  [93/273] Dactinomycin                     25 samples,   4 candidate series
+  [95/273] Decitabine                    6,023 samples,  77 candidate series
+  [99/273] Digitoxin                       105 samples,   6 candidate series
+  [103/273] Doxorubicin                   9,050 samples,  91 candidate series
+  [106/273] Dupilumab                       530 samples,  10 candidate series
+  [110/273] Epinephrine                   1,440 samples,  45 candidate series
+  [111/273] Estradiol                     5,599 samples,  82 candidate series
+  [112/273] Ethambutol                       81 samples,   3 candidate series
+  [113/273] Ethanol                      167,049 samples,  61 candidate series
+  [118/273] Fluorouracil                    598 samples,  12 candidate series
+  [120/273] Flurbiprofen                     10 samples,   1 candidate series
+  [122/273] Formoterol                      255 samples,   6 candidate series
+  [126/273] Gemcitabine                   3,275 samples,  34 candidate series
+  [128/273] Glimepiride                      24 samples,   4 candidate series
+  [129/273] Guselkumab                      434 samples,   6 candidate series
+  [130/273] Hydroxychloroquine            1,409 samples,  11 candidate series
+  [133/273] Ibutilide                        10 samples,   1 candidate series
+  [134/273] Ilomastat                         9 samples,   1 candidate series
+  [135/273] Infliximab                    1,627 samples,  22 candidate series
+  [137/273] Isoliquiritigenin                11 samples,   2 candidate series
+  [138/273] Isoniazid                       234 samples,  19 candidate series
+  [142/273] Lactulose                       528 samples,   2 candidate series
+  [143/273] Lenalidomide                  1,135 samples,  64 candidate series
+  [144/273] Leucovorin                      171 samples,   6 candidate series
+  [146/273] Lopinavir                        74 samples,   3 candidate series
+  [149/273] Magnesium chloride              319 samples,  17 candidate series
+  [151/273] Melatonin                     1,348 samples,  36 candidate series
+  [152/273] Mepolizumab                     837 samples,   5 candidate series
+  [153/273] Metformin                     1,993 samples,  77 candidate series
+  [154/273] Methacholine                    249 samples,   5 candidate series
+  [156/273] Methotrexate                  3,566 samples,  60 candidate series
+  [158/273] Methylisothiazolinone            16 samples,   2 candidate series
+  [159/273] Methylprednisolone              745 samples,  18 candidate series
+  [165/273] Nefazodone                      389 samples,   5 candidate series
+  [166/273] Niclosamide                     124 samples,  23 candidate series
+  [167/273] Nitric Oxide                    152 samples,   8 candidate series
+  [168/273] Omalizumab                      254 samples,   4 candidate series
+  [169/273] Ouabain                          69 samples,   7 candidate series
+  [173/273] Oxyquinoline                     74 samples,   4 candidate series
+  [176/273] PPADS                            39 samples,   2 candidate series
+  [179/273] Penicillamine                     7 samples,   1 candidate series
+  [180/273] Pentoxifylline                   15 samples,   2 candidate series
+  [181/273] Perphenazine                      5 samples,   1 candidate series
+  [182/273] Peruvoside                        3 samples,   1 candidate series
+  [183/273] Phenformin                       48 samples,   6 candidate series
+  [184/273] Phenobarbital                 8,960 samples,   9 candidate series
+  [185/273] Phenytoin                     1,632 samples,   6 candidate series
+  [187/273] Pioglitazone                    535 samples,  20 candidate series
+  [189/273] Piroxicam                        21 samples,   1 candidate series
+  [191/273] Polymyxin B                     216 samples,   4 candidate series
+  [192/273] Pomalidomide                    322 samples,  20 candidate series
+  [194/273] Prednisolone                  2,123 samples,  37 candidate series
+  [195/273] Prednisone                    2,344 samples,  20 candidate series
+  [196/273] Progesterone                  6,095 samples,  46 candidate series
+  [198/273] Propylthiouracil                 16 samples,   2 candidate series
+  [200/273] Pyrazinamide                     59 samples,   1 candidate series
+  [201/273] Pyridoxine                      121 samples,   3 candidate series
+  [202/273] Pyrimethamine                    32 samples,   3 candidate series
+  [204/273] RO3                               8 samples,   1 candidate series
+  [207/273] Rifampicin                      644 samples,  12 candidate series
+  [208/273] Ritonavir                       302 samples,   7 candidate series
+  [209/273] Rofecoxib                        82 samples,   3 candidate series
+  [210/273] Roflumilast                     114 samples,   4 candidate series
+  [211/273] Rolipram                        233 samples,   4 candidate series
+  [212/273] Rosiglitazone                 3,284 samples,  57 candidate series
+  [213/273] Salsalate                         3 samples,   1 candidate series
+  [214/273] Saquinavir                       14 samples,   1 candidate series
+  [216/273] Simvastatin                   1,974 samples,  17 candidate series
+  [217/273] Sirolimus                     8,555 samples,  16 candidate series
+  [218/273] Sorafenib                     2,215 samples,  66 candidate series
+  [219/273] Spironolactone                  186 samples,  16 candidate series
+  [223/273] Tabalumab                     1,326 samples,   2 candidate series
+  [229/273] Terbutaline                      14 samples,   1 candidate series
+  [230/273] Terfenadine                      11 samples,   1 candidate series
+  [231/273] Testosterone cypionate           72 samples,   3 candidate series
+  [232/273] Tetracycline                  4,315 samples,  89 candidate series
+  [234/273] Thalidomide                   1,771 samples,  26 candidate series
+  [235/273] Theophylline                     62 samples,   4 candidate series
+  [239/273] Tildrakizumab                    35 samples,   2 candidate series
+  [241/273] Tirofiban                       113 samples,   2 candidate series
+  [243/273] Tranilast                        55 samples,   5 candidate series
+  [244/273] Tretinoin                        66 samples,   9 candidate series
+  [245/273] Triamcinolone                   185 samples,   8 candidate series
+  [247/273] Troglitazone                  1,110 samples,  29 candidate series
+  [250/273] Tyrosine                      1,612 samples,  71 candidate series
+  [253/273] Ustekinumab                   2,664 samples,   2 candidate series
+  [254/273] Vadimezan                         5 samples,   1 candidate series
+  [258/273] Zileuton                        132 samples,   2 candidate series
+  [259/273] Zoledronic acid                  72 samples,   5 candidate series
+  [261/273] Zymosan                         293 samples,   8 candidate series
+  [265/273] bile acids                      188 samples,  14 candidate series
+  [268/273] dexamethasone sodium phospha     37 samples,   4 candidate series
+  [269/273] doxycycline hyclate             880 samples,  43 candidate series
+  [271/273] glucocorticoid                1,294 samples,  62 candidate series
+  [272/273] ionomycin                     4,707 samples,  47 candidate series
+
+--- stage 1: 134 drugs with >=1 candidate series in 84s ---
+
+--- stage 2: confirming treatment arms from GEO characteristics ---
+  ✓ Doxorubicin            GSE174695    drug1                    ['drug1: DMSO', 'drug1: Baricitinib', 'drug1: Clofarabine']
+  ✓ Doxorubicin            GSE315862    characteristic           ['treatment: Doxorubicin 4nM', 'treatment: Peposertib 0.5uM', 'treatment: Peposertib 0.5uM + Doxorubicin 4nM']
+  ✓ Doxorubicin            GSE112530    treatment                ['treatment: No treatment', 'treatment: WGA', 'treatment: LMB']
+  ✓ Doxorubicin            GSE58074     cell type                ['cell type: epidermal keratinocyte', 'treatment: pcDNA3 + doxorubicin']
+  ✓ Tetracycline           GSE207005    treatment                ['treatment: Transient transfection', 'treatment: Tetracycline induction', 'treatment: Tetracycline induction, rapamycin and sodium arsenite treatment']
+  ✓ Tetracycline           GSE143466    treatment                ['treatment: untreated', 'treatment: 25 uM Tetracycline', 'treatment: 30 uM Guanine']
+  ✓ Cisplatin              GSE47856     treatment                ['treatment: none', 'treatment: Cisplatin']
+  ✓ Cisplatin              GSE278498    cell line                ['cell line: 2102EP-C1 Cisplatin resistant testicular cancer cell line', 'cell line: NT2/D1-A4 Cisplatin resistant testicular cancer cell line']
+  ✓ Estradiol              GSE241764    treatment                ['treatment: DMSO', 'treatment: Estradiol', 'treatment: Fulvestrant']
+  ✓ Estradiol              GSE80098     drug treatment           ['er/pr status: ER+/PR+', 'er/pr status: ER+/PR-deficient', 'drug treatment: Vehicle']
+  ✓ Estradiol              GSE80358     drug treatment           ['drug treatment: Vehicle', 'drug treatment: 10 nM R5020', 'drug treatment: 10 nM Estradiol']
+  ✓ Estradiol              GSE167451    treatment                ['treatment: EtOH', 'treatment: Estradiol', 'treatment: Tamoxifen']
+  ✓ Calcium                GSE94138     calcium                  ['calcium: 2.3', 'calcium: 2.27', 'calcium: 2.28']
+  ✓ Decitabine             GSE174695    drug2                    ['drug2: DMSO', 'drug2: AT9283', 'drug2: Blebbistatin']
+  ✓ Decitabine             GSE25428     treatment                ['treatment: decitabine', 'treatment: mock', 'gender: female']
+  ✓ Decitabine             GSE240469    characteristic           ['treatment: Decitabine', 'treatment: Vehicle', 'treatment: Decitabine Day 7']
+  ✓ Metformin              GSE259286    treatment                ['treatment: 10 mM galactose media', 'treatment: 5.6 mM glucose media', 'treatment: ONC201']
+  ✓ Metformin              GSE137317    time point of blood coll ['time point of blood collcetion regarding metformin intervention: before administration of metformin', 'time point of blood collcetion regarding metformin intervention: 10 hours after the first metformin intake', 'time point of blood collcetion regarding metformin intervention: after 7 days long metformin course']
+  ✓ Metformin              GSE241261    treatment                ['treatment: 0.5percent DMSO', 'treatment: 20 microM UK-5099', 'treatment: 20 microg/mL doxycycline']
+  ✓ Metformin              GSE229658    treatment                ['treatment: 0 uM metformin', 'treatment: 16 uM metformin', 'treatment: 39 uM metformin']
+  ✓ Metformin              GSE224900    treatment                ['treatment: Metformin', 'treatment: Placebo']
+  ✓ Tyrosine               GSE137338    phenylalanine            ['phenylalanine: 0', 'phenylalanine: 26.643', 'tyrosine: 0']
+  ✓ Sorafenib              GSE151412    drug treatment           ['drug treatment: GW3965/Sorafenib', 'drug treatment: Sorafenib', 'drug treatment: DMSO']
+  ✓ Sorafenib              GSE201695    treatment                ['treatment: Control (DMSO) 24h', 'treatment: Sorafenib 10 uM 24h', 'treatment: Control (DMSO) 6h']
+  ✓ Sorafenib              GSE343131    treatment                ['treatment: vehicle control (DMSO <= 0.1%), 72 h', 'treatment: sorafenib 1.25 uM, 72 h', 'treatment: sorafenib 10 uM, 72 h']
+  ✓ Lenalidomide           GSE102976    response to lenalidomide ['response to lenalidomide: Non responder', 'response to lenalidomide: Responder']
+  ✓ Lenalidomide           GSE8546      characteristic           ['human myeloma cell  P0075 dexamethasone pre-treatment', 'human myeloma cell  P0084 thalidomide pre-treatment', 'human myeloma cell  P0099 dexamethasone pre-treatment']
+  ✓ Lenalidomide           GSE76425     treatment                ['treatment: control', 'treatment: lenalidomide', 'treatment: PD 0332991']
+  ✓ Lenalidomide           GSE121912    treatment                ['treatment: none', 'treatment: 10 uM lenalidomide']
+  ✓ glucocorticoid         GSE110169    glucocorticoids          ['glucocorticoids: FALSE', 'glucocorticoids: NA', 'glucocorticoids: TRUE']
+  ✓ glucocorticoid         GSE73578     treatment                ['treatment: glucocorticoid (GC) mono-therapy', 'treatment: none']
+  ✓ glucocorticoid         GSE185101    characteristic           ['glucocorticoids use: No', 'glucocorticoids use: Yes']
+  ✓ glucocorticoid         GSE122618    corticosteroid response  ['corticosteroid response: Glucocorticoid responder', 'corticosteroid response: Glucocorticoid non-responder', 'corticosteroid response: No IBD treatment']
+  ✓ Ethanol                GSE104930    treatment                ['treatment: ethanol', 'treatment: dexamethasone']
+  ✓ Ethanol                GSE35428     agonist                  ['agonist: ethanol', 'agonist: E2']
+  ✓ Methotrexate           GSE35455     treatment                ['treatment: before methotrexate/MTX', 'treatment: after methotrexate/MTX', 'treatment: before Tocilizumab/MRA']
+  ✓ Methotrexate           GSE54254     treatment                ['treatment: DMSO 14hr', 'treatment: DMSO 8hr + TNFalpha 1h', 'treatment: DMSO 8hr + TNFalpha 6h']
+  ✓ Methotrexate           GSE226147    methotrexate             ['methotrexate: 0', 'methotrexate: NA', 'methotrexate: 1']
+  ✓ Methotrexate           GSE174695    drug2                    ['drug2: DMSO', 'drug2: AT9283', 'drug2: Blebbistatin']
+  ✓ Methotrexate           GSE176440    treatment                ['treatment: before methotrexate', 'treatment: 3 months after  methotrexate']
+  ✓ Rosiglitazone          GSE160987    treatment                ['treatment: Control', 'treatment: GW0742', 'treatment: LCFA']
+  ✓ Rosiglitazone          GSE77039     agent                    ['agent: GW3965', 'agent: Rosiglitazone', 'agent: DMSO']
+  ✓ Rosiglitazone          GSE295444    treatment                ['treatment: DMSO', 'treatment: Lithium chloride', 'treatment: Thiamet-G']
+  ✓ Rosiglitazone          GSE295447    treatment                ['treatment: DMSO', 'treatment: Bardoxolone methyl', 'treatment: A-971432']
+  ✓ Rosiglitazone          GSE120920    chemical compound        ['chemical compound: DMSO', 'chemical compound: Control', 'chemical compound: AS601245']
+  ✓ ionomycin              GSE128273    method                   ['pma + ionomycin stimulation: Unstimulated', 'method: NASC-seq', 'pma + ionomycin stimulation: PMA + ionomycin stimulated, 15 minutes']
+  ✓ ionomycin              GSE228211    treatment                ['treatment: DMSO', 'treatment: PMA Ionomycin + SP100030', 'treatment: PMA Ionomycin']
+  ✓ Progesterone           GSE109710    progesterone receptor st ['progesterone receptor status: NO', 'progesterone receptor status: YES']
+  ✓ Progesterone           GSE69031     progesterone receptor st ['progesterone receptor status: positive', 'progesterone receptor status: negative', 'progesterone receptor status: n/a']
+  ✓ Progesterone           GSE4779      Progesterone Receptor    ['Progesterone Receptor : Pn', 'Progesterone Receptor : Pp', 'Progesterone Receptor : P-']
+  ✓ Progesterone           GSE142058    progesterone             ['progesterone: 0.5', 'progesterone: 0.4', 'progesterone: 0.3']
+  ✓ Azacitidine            GSE212591    treatment                ['treatment: Control', 'treatment: Azacitidine-treated', 'treatment: Decitabine-treated']
+  ✓ Azacitidine            GSE274999    treatment                ['treatment: Diagnosis', 'treatment: injected azacitidine x 7 days', 'treatment: injected azacitidine x 6 cycles plus with no drug']
+  ✓ Azacitidine            GSE274997    treatment                ['treatment: Diagnosis', 'treatment: injected azacitidine x 7 days', 'treatment: injected azacitidine x 6 cycles plus with no drug']
+  ✓ Azacitidine            GSE184891    cell treatment           ['cell treatment: No Treatment', 'cell treatment: 1uM Azacitidine Treatment for 24h', 'cell treatment: 1uM Azacitidine Treatment for 4 days']
+  ✓ Prednisolone           GSE40165     treated with             ['treated with: low-dose (0.5mg/kg) of prednisolone', 'treated with: high-dose (2mg/kg) of prednisolone', 'treated with: placebo']
+  ✓ Prednisolone           GSE115525    prednisolone lc50        ['prednisolone lc50: 0.0075', 'prednisolone lc50: 1006', 'prednisolone lc50: 0.027']
+  ✓ Prednisolone           GSE19143     clinical response factor ['clinical response factor: prednisolone sensitive', 'clinical response factor: prednisolone resistant']
+  ✓ Prednisolone           GSE225858    treatment                ['treatment: DMSO_0h', 'treatment: 10uM_Predisolone_6h', 'treatment: 10uM_Predisolone_24h']
+  ✓ Melatonin              GSE253864    melatonin offset (decima ['melatonin offset (decimal time): NA', 'melatonin offset (decimal time): 1.41041666666667', 'melatonin offset (decimal time): 1.41046185158333']
+  ✓ Melatonin              GSE48113     sleep timing             ['sleep timing: In phase with respect to melatonin', 'sleep timing: Out of phase with respect to melatonin']
+  ✓ Melatonin              GSE113883    serum_melatonin          ['serum_melatonin: 11.7', 'serum_melatonin: 19.7', 'serum_melatonin: 13.5']
+  ✓ Melatonin              GSE313629    treatment                ['cell type: trophoblast-like cell', 'treatment: no treatment', 'treatment: vehicle control']
+  ✓ Gemcitabine            GSE313748    treatment                ['treatment: Gemcitabine/Nab-Paclitaxel plus Placebo', 'treatment: Gemcitabine/Nab-Paclitaxel plus Oral Paricalcitol', 'treatment: Gemcitabine/Nab-Paclitaxel plus IV Paricalcitol']
+  ✓ Gemcitabine            GSE105083    treatment                ['treatment: untreated', 'treatment: CM03 6h', 'treatment: CM03 24h']
+  ✓ Gemcitabine            GSE174695    drug1                    ['drug1: DMSO', 'drug1: Baricitinib', 'drug1: Clofarabine']
+  ✓ Gemcitabine            GSE207359    treatment                ['treatment: media', 'treatment: Gemcitabine']
+  ✓ Cyclic AMP             GSE296787    treatment                ['treatment: empty vector control', 'treatment: empty vector control, Progesterone, estrodiol, cyclic AMP', 'treatment: Foxc1 and Six1 transfected']
+  ✓ Budesonide             GSE134897    treatment group          ['treatment group: Placebo', 'treatment group: Budesonide']
+  ✓ Budesonide             GSE295743    treatment                ['treatment: IL1B', 'treatment: Budesonide', 'treatment: NS']
+  ✓ Budesonide             GSE115830    treatment                ['treatment: Control (non stimulated)', 'treatment: Budesonide', 'treatment: Formoterol']
+  ✓ Budesonide             GSE94335     treatment                ['treatment: budesonide', 'treatment: vehicle']
+  ✓ Troglitazone           GSE299113    treatment                ['treatment: DMSO control 24h in HepaRG cells', 'treatment: Rotenone|0.2uM|DTXSID6021248 for 24h in HepaRG cells', 'treatment: Rotenone|0.4uM|DTXSID6021248 for 24h in HepaRG cells']
+  ✓ Troglitazone           GSE249377    treatment                ['treatment: untreated', 'treatment: 6h exposure of 1 uM of Trichostatin A', 'treatment: 0.5% DMSO vehicle control']
+  ✓ Troglitazone           GSE272576    chemical                 ['chemical: DMSO', 'chemical: water', 'chemical: acetaminophen']
+  ✓ Bevacizumab            GSE196576    treatment group          ['treatment group: Bevacizumab', 'treatment group: Cetuximab', 'treatment group: Bevacizumab/Cetuximab']
+  ✓ Bevacizumab            GSE140082    treatment                ['treatment: bevacizumab', 'treatment: standard']
+  ✓ Bevacizumab            GSE72951     treatment                ['treatment: BC 90/110 (combination treatment of beva and CCNU)', 'treatment: CCNU (Lomustine) monotherapy', 'treatment: Beva (bevacizumab monotherapy)']
+  ✓ Bevacizumab            GSE150604    treatment                ['treatment: Placebo', 'treatment: Bevacizumab']
+  ✓ Bevacizumab            GSE142308    patient treatment        ['patient treatment: letrozole + bevacizumab', 'patient treatment: letrozole']
+  ✓ Thalidomide            GSE136337    imids                    ['imids: Thalidomide', 'imids: THALIDOMIDE 2003-33', 'imids: THALIDOMIDE']
+  ✓ Thalidomide            GSE136324    imids                    ['imids: Thalidomide', 'imids: THALIDOMIDE 2003-33', 'imids: THALIDOMIDE']
+  ✓ Thalidomide            GSE8546      characteristic           ['human myeloma cell  P0075 dexamethasone pre-treatment', 'human myeloma cell  P0084 thalidomide pre-treatment', 'human myeloma cell  P0099 dexamethasone pre-treatment']
+  ✓ Thalidomide            GSE95375     treated with             ['treated with: DMSO for 3hr', 'treated with: Thalidomide (1000 nmol/L) for 3hr', 'treated with: BETi-211 (1000 nmol/L) for 3hr']
+  ✓ Aspirin                GSE48988     aspirin                  ['aspirin: user', 'aspirin: nonuser']
+  ✓ Aspirin                GSE158765    treatment_drug_label     ['treatment_drug_label: none', 'treatment_drug_label: 325 mg Aspirin', 'treatment_drug_label: 81 mg Aspirin']
+  ✓ Aspirin                GSE324265    aspirin                  ['aspirin: no', 'aspirin: yes']
+  ✓ Aspirin                GSE142257    aspirin                  ['aspirin: longterm', 'aspirin: nonuser']
+  ✓ Aspirin                GSE175616    treatment                ['treatment: Placebo', 'treatment: Aspirin+Zileuton']
+  ✓ Niclosamide            GSE262673    treatment                ['treatment: DMSO 16 hours', 'treatment: 0.3uM disulfiram / 1uM copper 16 hours', 'treatment: 5uM niclosamide 16 hours']
+  ✓ Niclosamide            GSE77322     treatment                ['treatment: NEN (200 mg/kg) mixed in autoclaved food', 'treatment: regular food', 'treatment: DMSO control']
+  ✓ Niclosamide            GSE306717    treatment                ['treatment: DMSO control', 'treatment: niclosamide 1 µM', 'treatment: Sunitinib 2.5 µM']
+  ✓ Niclosamide            GSE155855    compound treatment       ['compound treatment: Bendamustine_Dose1_Rep1', 'compound treatment: Tacrolimus_Dose1_Rep1', 'compound treatment: Dexamethasone_Dose1_Rep1']
+  ✓ Infliximab             GSE78068     sampling point           ['sampling point: Before infliximab administration', 'sampling point: Before tocilizumab administration', 'sampling point: Before abatacept administration']
+  ✓ Infliximab             GSE270661    treatment                ['treatment: basal', 'treatment: infliximab']
+  ✓ Infliximab             GSE270662    treatment                ['treatment: basal', 'treatment: infliximab']
+  ✓ Infliximab             GSE16879     response to infliximab   ['response to infliximab: No', 'response to infliximab: Yes', 'response to infliximab: Not applicable']
+  ✓ Infliximab             GSE45468     treatment                ['treatment: Placebo', 'treatment: Infliximab']
+  ✓ Infliximab             GSE42296     treatment                ['treatment: Before treatment', 'treatment: infliximab']
+  ✓ Caffeine               GSE37210     agent                    ['agent: Untreated', 'agent: Caffeine']
+  ✓ Caffeine               GSE196369    treatment                ['treatment: Novobiocin (NOV)', 'treatment: Nitrofurantoin (NIT)', 'treatment: Metronidazole (MTZ)']
+  ✓ Caffeine               GSE272576    chemical                 ['chemical: DMSO', 'chemical: water', 'chemical: acetaminophen']
+  ✓ Caffeine               GSE292909    treatment                ['treatment: nicotine', 'treatment: ethanol', 'treatment: caffeine']
+  ✓ Pioglitazone           GSE37824     sample type              ['sample type: Peripheral plaque. LEAP study. Simvastatin arm.', 'sample type: Peripheral plaque. LEAP study. Pioglitazone arm.', 'sample type: Peripheral plaque. LEAP study. Losartan arm.']
+  ✓ Pioglitazone           GSE217421    drug name                ['drug name: DMSO', 'drug name: Daunorubicin', 'drug name: Delavirdine']
+  ✓ Pomalidomide           GSE330399    treatment                ['treatment: No Treatment', 'treatment: DMSO', 'treatment: Zelbrudomide']
+  ✓ Pomalidomide           GSE150341    pharmacologic treatment  ['pharmacologic treatment type: DMSO', 'pharmacologic treatment type: Pomalidomide', 'pharmacologic treatment type: UNC0638']
+  ✓ Pomalidomide           GSE126463    treatment                ['treatment: Non-treated', 'treatment: 1 uM pomalidomide for 24 hours', 'treatment: 1 uM pomalidomide for 48 hours']
+  ✓ Prednisone             GSE224705    prednisone_dosis         ['prednisone_dosis: 0', 'prednisone_dosis: 5', 'prednisone_dosis: 10']
+  ✓ Prednisone             GSE73578     prednisone poor responde ['all subtype for analysis: ETV6/RUNX1', 'all subtype for analysis: other_preB-ALL', 'all subtype for analysis: T-ALL']
+  ✓ Prednisone             GSE77344     prednisone status        ['prednisone status: -', 'prednisone status: NA', 'prednisone status: +']
+  ✓ Prednisone             GSE226147    prednisone               ['prednisone: 0', 'prednisone: NA', 'prednisone: 1']
+  ✓ Isoniazid              GSE122837    sampling time            ['sampling time: Before isoniazid treatment', 'sampling time: 1 month isoniazid treatment', 'sampling time: 6 month isoniazid treatment']
+  ✓ Isoniazid              GSE262419    treatment                ['treatment: VEH_0_uM', 'treatment: Media_0_uM', 'treatment: ET-1_0.01_uM']
+  ✓ Isoniazid              GSE279945    treatment                ['treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, Atorvastatin, Ganetespib (STA-9090), Clomipramine, Sunitinib, Tivozanib, Tamatinib, TIE2 Kinase Inhibitor, MK-5108, Lapatinib', 'treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, 5-(9-Isopropyl-8-methyl-2-morpholino-9H-purin-6-yl)pyrimidin-2-amine, O-Demethylated Adapalene, Protriptyline, I-BET151, Foretinib, GW843682X, CGP 60474, Ixabepilone, Linagliptin', 'treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, Topotecan, BAY 87-2243, Phenylbutazone, K-02288, BMS-777607, Porcn Inhibitor III, BMS-387032, IN1451, Raloxifene']
+  ✓ Simvastatin            GSE37824     sample type              ['sample type: Peripheral plaque. LEAP study. Simvastatin arm.', 'sample type: Peripheral plaque. LEAP study. Pioglitazone arm.', 'sample type: Peripheral plaque. LEAP study. Losartan arm.']
+  ✓ Simvastatin            GSE51444     treated with             ['treated with: sham buffer for 24 h', 'treated with: 2 µM activated simvastatin for 24 h']
+  ✓ Simvastatin            GSE297728    treatment                ['treatment: DMSO', 'treatment: Simvastatin', 'treatment: Irinotecan']
+  ✓ Simvastatin            GSE191092    treatment                ['treatment: 0 nM simvastatin', 'treatment: 500 nM simvastatin', 'treatment: 2000 nM simvastatin']
+  ✓ Sirolimus              GSE120242    treatment                ['treatment: Untreated', 'treatment: Sirolimus (10 ng/ml) for 48 hours', 'treatment: Sirolimus (50 ng/ml) for 48 hours']
+  ✓ Sirolimus              GSE249377    treatment                ['treatment: untreated', 'treatment: 6h exposure of 1 uM of Trichostatin A', 'treatment: 0.5% DMSO vehicle control']
+  ✓ Spironolactone         GSE70822     agent                    ['agent: aldosterone', 'agent: spironolactone', 'agent: untreated/vehicle']
+  ✓ Spironolactone         GSE151321    treatment                ['treatment: Vehicle', 'treatment: Aldosterone', 'treatment: Finerenone']
+  ✓ Apigenin               GSE158377    treatment                ['treatment: Control', 'treatment: Apigenin']
+  ✓ Apigenin               GSE119552    treatment                ['treatment: solvent 24h', 'treatment: Zearalenone 24h', 'treatment: E2 24h']
+  ✓ Apigenin               GSE120550    treatment                ['treatment: none (untreated control)', 'treatment: TNFɑ 40 ng/ml', 'treatment: apigenin 40 μM']
+  ✓ Apigenin               GSE133968    treatment                ['treatment: none', 'treatment: TNFɑ 40 ng/ml', 'treatment: TNFɑ 40 ng/ml + Apigenin 40 μM']
+  ✓ Apigenin               GSE7403      characteristic           ['SH-SY5Y cells treated with DMSO for 1h, then with 50ng/ml PDGF for 0.5h.', 'SH-SY5Y cells treated with 50 mM U0126 for 1h, then with 50ng/ml PDGF for 0.5h.', 'SH-SY5Y cells treated with 74 mM Apigenin for 1h, then with 50ng/ml PDGF for 0.5h.']
+  ✓ Apigenin               GSE273159    treatment                ['treatment: None', 'treatment: Bleomycin', 'treatment: Bleomycin/apigenin']
+  ✓ Baricitinib            GSE174695    drug1                    ['drug1: DMSO', 'drug1: Baricitinib', 'drug1: Clofarabine']
+  ✓ Baricitinib            GSE161664    treatment                ['treatment: Control', 'treatment: Baricitinib', 'treatment: Growth hormone']
+  ✓ Baricitinib            GSE292720    treatment                ['treatment: Baricitinib 5μM + RVFV', 'treatment: Baricitinib 5μM + Mock', 'treatment: Vehicle + RVFV']
+  ✓ Baricitinib            GSE232044    treatment                ['treatment: untreated', 'treatment: 10nM Baricitinib-treated', 'treatment: 10nM Upadacitinib-treated']
+  ✓ Carbamazepine          GSE54254     treatment                ['treatment: DMSO 14hr', 'treatment: DMSO 8hr + TNFalpha 1h', 'treatment: DMSO 8hr + TNFalpha 6h']
+  ✓ Carbamazepine          GSE64123     exposure                 ['exposure: valproic acid', 'exposure: unexposed', 'exposure: carbamazepine']
+  ✓ Carbamazepine          GSE143272    treatment                ['treatment: -', 'treatment: Drug-naïve', 'treatment: Valproate']
+  ✓ Carbamazepine          GSE183534    compound_name            ['compound_name: DMSO', 'compound_name: Ibuprofen', 'compound_name: Amoxycillin']
+  ✓ Carbamazepine          GSE137254    treatment                ['treatment: control', 'treatment: Valproate', 'treatment: Lithium']
+  ✓ Fluorouracil           GSE50948     necrotic_cells [%]       ['necrotic_cells [%]: 0', 'necrotic_cells [%]: 5', 'necrotic_cells [%]: 1']
+  ✓ Fluorouracil           GSE30070     treatment                ['treatment: none', 'treatment: cisplatin/fluorouracil chemotherapy']
+  ✓ Fluorouracil           GSE244740    treatment                ['treatment: DMSO, Con0', 'treatment: Sunitinib, Con8', 'treatment: Sunitinib, Con7']
+  ✓ Rifampicin             GSE24186     characteristic           ['control for: Rosuvastatin & LK935', 'control for: Rifampicin', 'control for: Atorvastatin & LK980']
+  ✓ Rifampicin             GSE24187     agent                    ['agent: Atorvastatin', 'agent: Rifampicin', 'agent: Rosuvastatin']
+  ✓ Rifampicin             GSE108100    treatment                ['treatment: Placebo', 'treatment: rifampicin']
+  ✓ Rifampicin             GSE90122     treatment                ['treatment: 48hr treatment of DMSO', 'treatment: 48hr treatment of 1 μM rifampicin', 'treatment: 48hr treatment of 100 nM SR12813']
+  ✓ Hydroxychloroquine     GSE65391     hydroxychloroquine_categ ['hydroxychloroquine_category: 1', 'hydroxychloroquine_category: 0', 'hydroxychloroquine_category: Not Applicable']
+  ✓ Hydroxychloroquine     GSE275078    treatment                ['treatment: VSP34I-Alone', 'treatment: Hydroxychloroquine-Alone', 'treatment: AZD0364-Hydroxychloroquine']
+  ✓ Hydroxychloroquine     GSE226206    hydroxychloroquine treat ['hydroxychloroquine treatment: 0', 'hydroxychloroquine treatment: 1']
+  ✓ Hydroxychloroquine     GSE226147    hydroxychloroquine       ['hydroxychloroquine: 1', 'hydroxychloroquine: NA', 'hydroxychloroquine: 0']
+  ✓ Dupilumab              GSE130588    treatment                ['treatment: Dupilumab', 'treatment: Placebo', 'treatment: NA']
+  ✓ Dupilumab              GSE267331    treatment                ['treatment: Dupilumab', 'treatment: Placebo']
+  ✓ Dupilumab              GSE157194    tissue                   ['tissue: skin', 'therapy: dupilumab', 'therapy: cyclosporine']
+  ✓ Dupilumab              GSE326320    treatment                ['treatment: Naïve to biological treatment', 'treatment: Responder to dupilumab', 'treatment: Non-responder to dupilumab']
+  ✓ Dupilumab              GSE59294     treatment                ['treatment: B Dupilumab 150 mg', 'treatment: C Dupilumab 300 mg', 'treatment: D Placebo']
+  ✓ Celecoxib              GSE59671     nsaid treatment          ['nsaid treatment: none', 'nsaid treatment: celecoxib', 'nsaid treatment: rofecoxib']
+  ✓ Celecoxib              GSE145650    treatment                ['treatment: DMSO', 'treatment: 4OHT 100 nM', 'treatment: Celecoxib 10 uM']
+  ✓ Celecoxib              GSE220643    treatment                ['treatment: Vehicle (0.1% DMSO)', 'treatment: 20 ng/mL of TGF-beta (0.1% DMSO)', 'treatment: combination of 10uM of celecoxib plus 20 ng/mL of TGF-beta (0.1% DMSO)']
+  ✓ Phenobarbital          GSE69845     chemical treatment       ['chemical treatment: DMSO', 'chemical treatment: Clofibrate', 'chemical treatment: Bisphenol A']
+  ✓ Phenobarbital          GSE69849     chemical treatment       ['chemical treatment: DMSO', 'chemical treatment: 6 Aminonicotinamide', 'chemical treatment: Amoxicillin']
+  ✓ Phenobarbital          GSE69850     chemical treatment       ['chemical treatment: DMSO', 'chemical treatment: DHP', 'chemical treatment: Trenbolone']
+  ✓ Tretinoin              GSE269880    treatment                ['treatment: DMSO', 'treatment: tretinoin', 'treatment: encorafenib/binimetinib']
+  ✓ Tretinoin              GSE269881    treatment                ['treatment: DMSO', 'treatment: tretinoin', 'treatment: encorafenib/binimetinib']
+  ✓ Tretinoin              GSE199800    treatment                ['treatment: DMSO', 'treatment: UNTREATED', 'treatment: Azacitidine']
+  ✓ Nitric Oxide           GSE184433    blood neutrophil count ( ['fractional exhaled nitric oxide feno (ppb): 9', 'blood neutrophil count (cells/ul): 8316', 'fractional exhaled nitric oxide feno (ppb): 40']
+  ✓ Triamcinolone          GSE136034    treatment                ['treatment: DMSO(Veh control) for 4 hours', 'treatment: 100 nM triamcinolone acetonide(TA) for 4 hours.']
+  ✓ Triamcinolone          GSE109440    cell type                ['cell type: Monocytes', 'cell type: Macrophages', 'donor: Buffycoat 9']
+  ✓ Triamcinolone          GSE262419    treatment                ['treatment: VEH_0_uM', 'treatment: Media_0_uM', 'treatment: ET-1_0.01_uM']
+  ✓ Zymosan                GSE37008     zymosan (il6 response to ['zymosan (il6 response to zymosan in pg/ml): 15937', 'zymosan (il6 response to zymosan in pg/ml): 7673.7', 'zymosan (il6 response to zymosan in pg/ml): 6240']
+  ✓ Zymosan                GSE134874    prr ligands              ['prr ligands: Ctrl', "prr ligands: 2',3'-cGAMP", 'prr ligands: HMW']
+  ✓ Zymosan                GSE169278    injected cell line       ['injected cell line: HSC-2 (JCRB0622)', 'treatment: live C. albicans (SC5314)', 'treatment: live C. parapsilosis (CLIB214)']
+  ✓ Zymosan                GSE242947    training regimen         ['training regimen: Depleted zymosan', 'training regimen: ETSU beta-glucan', 'training regimen: Untrained']
+  ✓ Zymosan                GSE157981    treatment                ['treatment: untreated', 'treatment: Zymosan 10ug/mL', 'treatment: Zymosan 10ug/mL + FK506 200ng/mL']
+  ✓ Ouabain                GSE111065    treatment                ['treatment: NA', 'treatment: Control', 'treatment: Digitoxin 20 nM']
+  ✓ Ouabain                GSE63935     screening chemicals      ['screening chemicals: n/a', 'screening chemicals: untreated control', 'screening chemicals: arabinose']
+  ✓ Ritonavir              GSE254592    group                    ['treatment: ombitasvir/paritaprevir/ritonavir', 'group: Group01', 'group: Group03']
+  ✓ Ritonavir              GSE314659    treatment                ['treatment: DMSO 0.5 uM', 'treatment: Cobicistat|Elvitegravir|Emtricitabine 0.1|0.1|0.1 uM', 'treatment: Water 0.01 uM']
+  ✓ Ritonavir              GSE165708    active ingredient        ['active ingredient: none', 'active ingredient: Emtricitabine, Tenofovir_DF', 'active ingredient: Emtricitabine, Tenofovir_DF, Raltegravir']
+  ✓ Ritonavir              GSE165703    active ingredient        ['active ingredient: none', 'active ingredient: Emtricitabine, Tenofovir_DF', 'active ingredient: Emtricitabine, Tenofovir_DF, Raltegravir']
+  ✓ Artesunate             GSE94553     treatment                ['treatment: control', 'treatment: artesunate (5 µM)']
+  ✓ Artesunate             GSE183534    compound_name            ['compound_name: DMSO', 'compound_name: Ibuprofen', 'compound_name: Amoxycillin']
+  ✓ Artesunate             GSE215784    treatment                ['treatment: control', 'treatment: artesunate treated']
+  ✓ Artesunate             GSE260741    treatment                ['treatment: 100 microM artesunate', 'treatment: none']
+  ✓ Artesunate             GSE217531    treatment                ['treatment: 10%DMEM', 'treatment: artesunate,180uM', 'treatment: artesunate,24.08uM']
+  ✓ DDE                    GSE252776    group                    ['group: COV_MIX_100X', 'group: COV_HCB_100X', 'group: COV_HCB_10X']
+  ✓ DDE                    GSE220051    treatment                ['treatment: Control 0', 'treatment: DDE 0.25', 'treatment: DDE 25']
+  ✓ DDE                    GSE109021    treatment chemical       ['treatment chemical: R1881(Control)', 'treatment chemical: DMSO', 'treatment chemical: Apigenin']
+  ✓ Digitoxin              GSE76347     treatment                ['treatment: digitoxin', 'treatment: placebo']
+  ✓ Digitoxin              GSE230502    treatment                ['treatment: 0.2percent DMSO', 'treatment: 78 nM digitoxin', 'treatment: 2 nM torin 2']
+  ✓ Digitoxin              GSE111065    treatment                ['treatment: NA', 'treatment: Control', 'treatment: Digitoxin 20 nM']
+  ✓ Digitoxin              GSE60408     compound treated         ['compound treated: DMSO', 'compound treated: SULCONAZOLE.NITRATE', 'compound treated: CLOMIPHENE.CITRATE']
+  ✓ Digitoxin              GSE36058     agent                    ['agent: DMSO', 'agent: Digitoxin']
+  ✓ Formoterol             GSE202436    treatment                ['treatment: Vehicle', 'treatment: TNFα', 'treatment: Formoterol']
+  ✓ Formoterol             GSE115830    treatment                ['treatment: Control (non stimulated)', 'treatment: Budesonide', 'treatment: Formoterol']
+  ✓ Formoterol             GSE30242     treatment                ['treatment: Mometasone', 'treatment: None', 'treatment: Formoterol']
+  ✓ Formoterol             GSE161805    treatment                ['treatment: Control (non stimulated)', 'treatment: Budesonide', 'treatment: Formoterol']
+  ✓ Formoterol             GSE315974    treatment                ['treatment: vehicle (1% BSA)', 'treatment: 30 nM formoterol', 'treatment: 0.5 mM oleic and 0.25 mM palmitic acid']
+  ✓ Guselkumab             GSE252029    treatment                ['treatment: Guselkumab', 'treatment: Adalimumab', 'treatment: Placebo to Guselkumab']
+  ✓ Guselkumab             GSE212836    treatment                ['treatment: Ixekizumab 80mg Q2W', 'treatment: Guselkumab 100mg', 'treatment: HC']
+  ✓ Guselkumab             GSE197056    treatment                ['treatment: Secukinumab', 'treatment: Guselkumab']
+  ✓ Leucovorin             GSE21228     fxa                      ['fxa: FOLFOX (5-Fu/Leucovorin + Oxaliplatin + avastin): 27', 'fxa: FOLFOX (5-Fu/Leucovorin + Oxaliplatin + avastin): 38', 'fxa: FOLFOX (5-Fu/Leucovorin + Oxaliplatin + avastin): 42']
+  ✓ Leucovorin             GSE32711     treatment                ['treatment: no treatment', 'treatment: XELOX and Bevacizumab after colon resection', 'treatment: 5FU, Leucovorin, Oxaliplatin and Bevacizumab after colon resection']
+  ✓ Leucovorin             GSE199800    treatment                ['treatment: DMSO', 'treatment: UNTREATED', 'treatment: Azacitidine']
+  ✓ Phenformin             GSE69844     chemical treatment       ['chemical treatment: DMSO', 'chemical treatment: Clofibrate', 'chemical treatment: Amoxicillin']
+  ✓ Phenformin             GSE69845     chemical treatment       ['chemical treatment: DMSO', 'chemical treatment: Clofibrate', 'chemical treatment: Bisphenol A']
+  ✓ Phenformin             GSE69849     chemical treatment       ['chemical treatment: DMSO', 'chemical treatment: 6 Aminonicotinamide', 'chemical treatment: Amoxicillin']
+  ✓ Phenformin             GSE69850     chemical treatment       ['chemical treatment: DMSO', 'chemical treatment: DHP', 'chemical treatment: Trenbolone']
+  ✓ Phenformin             GSE150348    treatment                ['treatment: 8hr with DMSO', 'treatment: 8hr with NP 3 µM', 'treatment: 8hr with water']
+  ✓ Phenytoin              GSE183534    compound_name            ['compound_name: DMSO', 'compound_name: Ibuprofen', 'compound_name: Amoxycillin']
+  ✓ Phenytoin              GSE143272    treatment                ['treatment: -', 'treatment: Drug-naïve', 'treatment: Valproate']
+  ✓ Phenytoin              GSE209962    agent                    ['agent: Untreated_Ctrl_RB', 'agent: Untreated_Ctrl_RNA', 'agent: Untreated 0.5 % DMSO_Ctrl_RNA']
+  ✓ Baicalein              GSE326697    treatment                ['treatment: untreated', 'treatment: genistein 10 µM', 'treatment: baicalein 10 µM']
+  ✓ Baicalein              GSE232322    treatment                ['treatment: Control', 'treatment: Baicalein (100 uM)']
+  ✓ Baicalein              GSE127765    agent                    ['agent: Baicalein', 'agent: control']
+  ✓ Capsaicin              GSE198304    treatment                ['treatment: control', 'treatment: 400uM capsaicin for 8 hours', 'treatment: 400uM capsaicin for 16 hours']
+  ✓ Capsaicin              GSE302928    treatment                ['treatment: none', 'treatment: Vehicle pretreated, Vehicle treated', 'treatment: Vehicle pretreated, Capsaicin treated']
+  ✓ Mepolizumab            GSE292059    treatment                ['treatment: Placebo', 'treatment: Mepolizumab']
+  ✓ Mepolizumab            GSE192861    treatment                ['treatment: Placebo', 'treatment: Mepolizumab', 'treatment: NA']
+  ✓ Mepolizumab            GSE274410    treatment                ['treatment: none', 'treatment: mepolizumab']
+  ✓ Mepolizumab            GSE298740    treatment                ['treatment: BENRALIZUMAB', 'treatment: OMALIZUMAB', 'treatment: MEPOLIZUMAB']
+  ✓ Mepolizumab            GSE46159     sample type              ['sample type: Human Bronchoalveolar cells from a mild asthmatic, before allergen challenge, subject1', 'sample type: Human Bronchoalveolar cells from a mild asthmatic, after allergen challenge, subject1', 'sample type: Human Bronchoalveolar cells from a mild asthmatic, before allergen challenge after mepolizumab, subject1']
+  ✓ Methacholine           GSE56553     methacholine responsive  ['methacholine responsive: yes', 'methacholine responsive: no']
+  ✓ Methacholine           GSE32198     methacholine inhalation  ['methacholine inhalation challenge: Pre', 'methacholine inhalation challenge: Post']
+  ✓ Nefazodone             GSE279945    treatment                ['treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, Atorvastatin, Ganetespib (STA-9090), Clomipramine, Sunitinib, Tivozanib, Tamatinib, TIE2 Kinase Inhibitor, MK-5108, Lapatinib', 'treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, 5-(9-Isopropyl-8-methyl-2-morpholino-9H-purin-6-yl)pyrimidin-2-amine, O-Demethylated Adapalene, Protriptyline, I-BET151, Foretinib, GW843682X, CGP 60474, Ixabepilone, Linagliptin', 'treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, Topotecan, BAY 87-2243, Phenylbutazone, K-02288, BMS-777607, Porcn Inhibitor III, BMS-387032, IN1451, Raloxifene']
+  ✓ Tranilast              GSE246079    treatment                ['treatment: 1 uM CHIR', 'treatment: 1 uM CHIR+50 uM Tranilast', 'treatment: 3 uM CHIR']
+  ✓ Tranilast              GSE246078    treatment                ['treatment: 1 uM CHIR', 'treatment: 1 uM CHIR+50 uM Tranilast', 'treatment: 3 uM CHIR']
+  ✓ Zoledronic acid        GSE221563    treatment                ['treatment: NONE', 'treatment: IL2', 'treatment: ZOLEDRONIC ACID']
+  ✓ Dactinomycin           GSE60408     compound treated         ['compound treated: DMSO', 'compound treated: SULCONAZOLE.NITRATE', 'compound treated: CLOMIPHENE.CITRATE']
+  ✓ Dactinomycin           GSE199800    treatment                ['treatment: DMSO', 'treatment: UNTREATED', 'treatment: Azacitidine']
+  ✓ Glimepiride            GSE160308    diabetes_medication      ['diabetes_medication: n/a', 'diabetes_medication: insulin', 'diabetes_medication: none']
+  ✓ Glimepiride            GSE160306    diabetes_medication      ['diabetes_medication: n/a', 'diabetes_medication: insulin', 'diabetes_medication: none']
+  ✓ Glimepiride            GSE67297     medication regimen       ['medication regimen: Metformin (1000mg, 2x/day)', 'medication regimen: Metformin (500mg, 2x/day)', 'medication regimen: Metformin (850 mg, 3x/day), Glimepiride (6mg, 1x/day)']
+  ✓ Glimepiride            GSE134329    treatment                ['treatment: Empagliflozin', 'treatment: Glimepiride']
+  ✓ Omalizumab             GSE134544    omalizumab responder sta ['omalizumab responder status: Responder', 'omalizumab responder status: Non-responder']
+  ✓ Omalizumab             GSE298740    treatment                ['treatment: BENRALIZUMAB', 'treatment: OMALIZUMAB', 'treatment: MEPOLIZUMAB']
+  ✓ Omalizumab             GSE167882    treatment                ['treatment: pre-treatment', 'treatment: mid-treatment on omalizumab', 'treatment: non-treated']
+  ✓ Oxyquinoline           GSE158632    treatment                ['treatment: No treatment', 'treatment: CoCl2 for 24 hours', 'treatment: Oxyquinoline for 24 hours']
+  ✓ Oxyquinoline           GSE186295    treatment                ['treatment: control', 'treatment: Cobalt (II) chloride', 'treatment: oxyquinoline']
+  ✓ Oxyquinoline           GSE308908    treatment                ['treatment: 0,05% DMSO + 300 μM cobalt (II) chloride', 'treatment: 0,05% DMSO + oxyquinoline derivative (4896-3212) 5 μM', 'treatment: 0,05% DMSO']
+  ✓ Roflumilast            GSE297400    treatment                ['treatment: Milrinone 1000 nM', 'treatment: Milrinone 15.6 nM', 'treatment: Milrinone 2000 nM']
+  ✓ Roflumilast            GSE126981    treatment                ['treatment: Vehicle', 'treatment: Roflumilast N-oxide (RNO)', 'treatment: Salmeterol 100 nM']
+  ✓ Roflumilast            GSE267218    treatment                ['treatment: Vehicle', 'treatment: Roflumilast N-oxide (RNO)', 'treatment: ONO-AE1-329 0.1 nM']
+  ✓ Rolipram               GSE297400    treatment                ['treatment: Milrinone 1000 nM', 'treatment: Milrinone 15.6 nM', 'treatment: Milrinone 2000 nM']
+  ✓ Rolipram               GSE13987     characteristic           ['CLL donor 1, control', 'CLL donor 1, rolipram treated', 'CLL donor 2, control']
+  ✓ Rolipram               GSE193191    treatment                ['treatment: 0.2percent Dimethyl sulfoxide (DMSO) vehicle', 'treatment: forskolin (50 uM) and rolipram (0.1 uM)']
+  ✓ Theophylline           GSE262419    treatment                ['treatment: VEH_0_uM', 'treatment: Media_0_uM', 'treatment: ET-1_0.01_uM']
+  ✓ Theophylline           GSE180452    treatment                ['treatment: control', 'treatment: biotin', 'treatment: etoposide']
+  ✓ Aclarubicin            GSE276066    treatment                ['treatment: aclarubicin', 'treatment: NA', 'treatment: daunorubicin']
+  ✓ Aclarubicin            GSE232331    treatment                ['treatment: Aclarubicin', 'treatment: Amrubicin', 'treatment: Doxorubicin']
+  ✓ Adapalene              GSE205555    treatment                ['treatment: adapalene', 'treatment: tazarotene', 'treatment: DMSO']
+  ✓ Adapalene              GSE253331    treatment                ['treatment: Docetaxel', 'treatment: Vehicle', 'treatment: Adapalene']
+  ✓ Adapalene              GSE279945    treatment                ['treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, Atorvastatin, Ganetespib (STA-9090), Clomipramine, Sunitinib, Tivozanib, Tamatinib, TIE2 Kinase Inhibitor, MK-5108, Lapatinib', 'treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, 5-(9-Isopropyl-8-methyl-2-morpholino-9H-purin-6-yl)pyrimidin-2-amine, O-Demethylated Adapalene, Protriptyline, I-BET151, Foretinib, GW843682X, CGP 60474, Ixabepilone, Linagliptin', 'treatment: Belinostat, Dabrafenib, Dimethyl Sulfoxide, Topotecan, BAY 87-2243, Phenylbutazone, K-02288, BMS-777607, Porcn Inhibitor III, BMS-387032, IN1451, Raloxifene']
+  ✓ Aldesleukin            GSE227316    treatment source         ['treatment source: IL-2 (aldesleukin, novartis)', 'treatment source: IL-2 (aldesleukin, novartis) + PGE2 (P5640 Sigma)']
+  ✓ Bafilomycin A1         GSE245402    treatment                ['treatment: NR', 'treatment: NR+100nM Bafilomycin A1', 'treatment: ND']
+  ✓ Bafilomycin A1         GSE240920    treatment                ['treatment: No-treatment', 'treatment: Bafilomycin A1']
+  ✓ Bromocriptine          GSE171653    treatment/time point     ['treatment/time point: adenomyosis baseline', 'treatment/time point: after bromocriptine treatment']
+  ✓ Bromocriptine          GSE23927     treatment                ['treatment: bromocriptine', 'treatment: untreated']
+  ✓ Bromocriptine          GSE207522    treatment                ['treatment: No treatment', 'treatment: 5mg of Bromocriptine daily']
+  ✓ Captopril              GSE173553    treatment                ['treatment: 300 μM captopril for 2h', 'treatment: untreated, incubated for 2h', 'treatment: untreated']
+  ✓ Lopinavir              GSE275256    treatment                ['treatment: DMSO (vehicle)', 'treatment: SBI-0206965 5 uM, O-151 0,5 uM, Lopinavir 0,5 uM', 'treatment: SBI-0206965 10 uM, O-151 1 uM, Lopinavir 1 uM']
+  ✓ Lopinavir              GSE247541    treatment                ['treatment: DMSO', 'treatment: apilimod', 'treatment: remdesivir']
+  ✓ Pyridoxine             GSE137338    niacin                   ['niacin: 9.783', 'niacin: 6.621', 'niacin: 9.143']
+  ✓ Pyridoxine             GSE160308    other_medication         ['other_medication: unknown', 'other_medication: Diovan, Norvasc, plavix, lopressor, foltex, furosemide, pyridoxine, iron, calcium carbonate, diltiazem, allegra, protoniox, levaquin, coumadin, flagyl', 'other_medication: Aggrenox, amitriptyline, avapro, furosemide, lipitor, metoprolol,  omeprazole, systane']
+  ✓ Pyridoxine             GSE160306    other_medication         ['other_medication: unknown', 'other_medication: Diovan, Norvasc, plavix, lopressor, foltex, furosemide, pyridoxine, iron, calcium carbonate, diltiazem, allegra, protoniox, levaquin, coumadin, flagyl', 'other_medication: Aggrenox, amitriptyline, avapro, furosemide, lipitor, metoprolol,  omeprazole, systane']
+  ✓ Pyrimethamine          GSE235587    treatment                ['treatment: Control', 'treatment: 10 µM pyrimethamine', 'treatment: 20 nM mitoxantrone']
+  ✓ Pyrimethamine          GSE262419    treatment                ['treatment: VEH_0_uM', 'treatment: Media_0_uM', 'treatment: ET-1_0.01_uM']
+  ✓ Pyrimethamine          GSE173164    treatment                ['treatment: untreated', 'treatment: 20 nM mitoxantrone for 72 h.', 'treatment: 10 µM pyrimethamine for 72 h.']
+  ✓ Rofecoxib              GSE59671     nsaid treatment          ['nsaid treatment: none', 'nsaid treatment: celecoxib', 'nsaid treatment: rofecoxib']
+  ✓ Rofecoxib              GSE244740    treatment                ['treatment: DMSO, Con0', 'treatment: Sunitinib, Con8', 'treatment: Sunitinib, Con7']
+  ✓ Benralizumab           GSE148725    time point               ['time point: at baseline', 'time point: 4 months after starting of benralizumab treatment']
+  ✓ Benralizumab           GSE298740    treatment                ['treatment: BENRALIZUMAB', 'treatment: OMALIZUMAB', 'treatment: MEPOLIZUMAB']
+  ✓ Isoliquiritigenin      GSE155855    compound treatment       ['compound treatment: Bendamustine_Dose1_Rep1', 'compound treatment: Tacrolimus_Dose1_Rep1', 'compound treatment: Dexamethasone_Dose1_Rep1']
+  ✓ Lactulose              GSE74681     percent lactulose in uri ['percent lactulose in urine: 0.258', 'percent lactulose in urine: 0.31', 'percent lactulose in urine: 0.47']
+  ✓ Lactulose              GSE75653     percent lactulose in uri ['percent lactulose in urine: 0.258', 'percent lactulose in urine: 0.31', 'percent lactulose in urine: 0.47']
+  ✓ Methylisothiazolinone  GSE282562    allergen                 ['allergen: 0', 'allergen: nickel', 'allergen: methylisothiazolinone']
+  ✓ Methylisothiazolinone  GSE168735    compound                 ['compound: Petrolatum', 'compound: SLS', 'compound: Linalool hydroperoxide']
+  ✓ Pentoxifylline         GSE60408     compound treated         ['compound treated: DMSO', 'compound treated: SULCONAZOLE.NITRATE', 'compound treated: CLOMIPHENE.CITRATE']
+  ✓ Pentoxifylline         GSE122891    treatment                ['treatment: control', 'treatment: pentoxifylline']
+  ✓ Propylthiouracil       GSE126786    compound                 ['compound: Benzene', 'compound: Bioallethrin', 'compound: Diazinon']
+  ✓ Propylthiouracil       GSE63935     screening chemicals      ['screening chemicals: n/a', 'screening chemicals: untreated control', 'screening chemicals: arabinose']
+  ✓ Tildrakizumab          GSE271627    treatment                ['treatment: tildrakizumab', 'treatment: n/a']
+  ✓ Tirofiban              GSE135992    treatment                ['treatment: N/A', 'treatment: Aspirin treated', 'treatment: Ticagrelor treated']
+  ✓ Ustekinumab            GSE207465    treatment                ['treatment: Ustekinumab', 'treatment: Placebo']
+  ✓ Ustekinumab            GSE117468    treatment                ['treatment: Brodalumab 140 mg Q2W', 'treatment: Brodalumab 210 mg Q2W', 'treatment: Placebo']
+  ✓ Zileuton               GSE175616    treatment                ['treatment: Placebo', 'treatment: Aspirin+Zileuton']
+  ✓ Zileuton               GSE262419    treatment                ['treatment: VEH_0_uM', 'treatment: Media_0_uM', 'treatment: ET-1_0.01_uM']
+  ✓ Acetazolamide          GSE221746    treatment                ['treatment: 10ul DMSO to correct for vehicle in other groups', 'treatment: Acetazolamide 10uM for 48hrs', 'treatment: Human recombinant laminin 511-E8 0.25ug/cm2 for 48hrs']
+  ✓ Brinzolamide           GSE60408     compound treated         ['compound treated: DMSO', 'compound treated: SULCONAZOLE.NITRATE', 'compound treated: CLOMIPHENE.CITRATE']
+  ✓ CERTOLIZUMAB           GSE198520    biologic                 ['biologic: Certolizumab', 'biologic: Etanercept']
+  ✓ Chelerythrine          GSE80752     agent                    ['agent: none', 'agent: Chelerythrine']
+  ✓ Clazakizumab           GSE287697    treatment arm            ['treatment arm: Placebo', 'treatment arm: Clazakizumab']
+  ✓ Flurbiprofen           GSE60408     compound treated         ['compound treated: DMSO', 'compound treated: SULCONAZOLE.NITRATE', 'compound treated: CLOMIPHENE.CITRATE']
+  ✓ Ibutilide              GSE262419    treatment                ['treatment: VEH_0_uM', 'treatment: Media_0_uM', 'treatment: ET-1_0.01_uM']
+  ✓ Ilomastat              GSE52246     treatment                ['treatment: AttRho', 'treatment: CTRL', 'treatment: EphA2']
+  ✓ Perphenazine           GSE275875    treatment                ['treatment: PER+TMZ', 'treatment: untreated', 'treatment: PER (perphenazine)']
+  ✓ Piroxicam              GSE22445     agent                    ['agent: Piroxicam', 'agent: Cisplatin', 'agent: untreated']
+  ✓ Terfenadine            GSE262419    treatment                ['treatment: VEH_0_uM', 'treatment: Media_0_uM', 'treatment: ET-1_0.01_uM']
+  ✓ Vadimezan              GSE199800    treatment                ['treatment: DMSO', 'treatment: UNTREATED', 'treatment: Azacitidine']
+
+confirmed drug x series pairs: 297
+distinct drugs with a confirmed arm: 105
+wrote results/perturbation_series.json
